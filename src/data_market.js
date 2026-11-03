@@ -218,7 +218,7 @@ const NEWS = [
 const CALENDAR = [
 {d:'2026-11-01',n:'Christie’s Abu Dhabi — MAWASIM, its first fine-art auction there',c:'Auction',city:'Abu Dhabi',sub:'Made $8.94m, 60 of 68 lots sold; records for nine artists',u:'https://usaartnews.com/auctions/christies-abu-dhabi-debut-fine-art-sale-achieves-894-million/'},
 {d:'2026-11-04',n:'Sotheby’s Paris — Une demeure princière: the Al Thani residence, Part I',c:'Auction',city:'Paris',sub:'Evening sale, 6pm',u:'https://www.sothebys.com/en/departments/impressionist-modern-art'},
-{d:'2026-11-12',e:'2026-11-15',n:'Paris Photo',c:'Fair',city:'Paris',sub:'Grand Palais; 29th edition'},
+{d:'2026-11-12',e:'2026-11-15',n:'Paris Photo',c:'Fair',city:'Paris',sub:'Grand Palais; 29th edition',u:'https://www.parisphoto.com/en-gb.html'},
 {d:'2026-11-16',n:'Sotheby’s New York — the Baum collection, then The Now and Contemporary Evening Auction',c:'Auction',city:'New York',sub:'The Baum collection more than $100m; Lichtenstein’s Reflections on “Painter and Model” $20–30m',u:'https://www.sothebys.com/en/series/the-new-york-sales'},
 {d:'2026-11-19',n:'Fair Warning (Loïc Gouzer) — Yoshitomo Nara',c:'Auction',city:'New York',sub:'In the Milky Lake / Thinking One (2011), $10–15m',u:'https://usaartnews.com/auctions/yoshitomo-nara-painting-valued-up-to-15-million-at-fair-warning-auction/'},
 {d:'2026-11-19',n:'Bukowskis Stockholm — Hilma af Klint, Ser III No',c:'Auction',city:'Stockholm',sub:'SEK 6–8m; could beat her $165,825 record',u:'https://www.theartnewspaper.com/2026/10/20/hilma-after-klint-painting-expected-to-make-800000-at-auction-in-stockholm'},

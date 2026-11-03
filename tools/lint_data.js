@@ -795,13 +795,14 @@ function checkUrls(D) {
   for (const [p, s] of allStrings(D)) if (/^(htp|ttp|http:\/[^\/]|https:\/[^\/]|https?;)/i.test(s)) F.error(R, p, `${q(s.slice(0, 60))} looks like a mistyped URL`);
 }
 
-const DEBRIS = [[/\bundefined\b/, 'undefined'], [/\bNaN\b/, 'NaN'], [/\[object Object\]/, '[object Object]'], [/\bTODO\b/, 'TODO'], [/\bXXX\b/, 'XXX'], [/\?\?/, '??'], [/\bnull\b/, 'null (as text)'], [/\$\{(?!HUBCOUNT|SEGCOUNT|INSTCOUNT|ALLCOUNT|PEOPLECOUNT|LOTCOUNT|NGACOUNT|UNDERCOUNT)/, '${…} template left in a string']];
+const DEBRIS = [[/\bundefined\b/, 'undefined'], [/\bNaN\b/, 'NaN'], [/\[object Object\]/, '[object Object]'], [/\bTODO\b/, 'TODO'], [/\bXXX\b/, 'XXX'], [/\?\?/, '??'], [/\bnull\b/, 'null (as text)'], [/\$\{(?!HUBCOUNT|SEGCOUNT|INSTCOUNT|ALLCOUNT|PEOPLECOUNT|LOTCOUNT|NGACOUNT|UNDERCOUNT|MOVECOUNT)/, '${…} template left in a string']];
 function checkStrings(D) {
   const R = 'string debris';
   for (const [p, s] of allStrings(D)) {
     for (const [re, what] of DEBRIS) if (re.test(s)) { F.error(R, p, `contains ${q(what)}: ${q(s.slice(0, 80))}`); break; }
     if (/^\s|\s$/.test(s) && s.trim()) F.warn('whitespace', p, `leading/trailing whitespace: ${q(s.slice(0, 40))}`);
-    if (/\s{2,}/.test(s)) F.warn('whitespace', p, `double space inside: ${q(s.replace(/\s{2,}/g, '␣␣').slice(0, 60))}`);
+    /* the research desk’s answers (KB[].a) and the analyst’s Markdown keep their line breaks: only runs of spaces count there */
+    if ((/^KB\[[^\]]*\]\.a$/.test(p) ? / {2,}/ : /\s{2,}/).test(s)) F.warn('whitespace', p, `double space inside: ${q(s.replace(/\s{2,}/g, '␣␣').slice(0, 60))}`);
   }
 }
 
