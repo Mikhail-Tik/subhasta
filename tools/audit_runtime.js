@@ -42,7 +42,7 @@ const sample = (arr, n) => { if (arr.length <= n) return arr; const a = [...arr]
 const seen = () => () => { try { localStorage.setItem('subhasta.seen', 'true'); } catch (e) {} };
 
 async function context(browser, opts = {}, { markSeen = true, init } = {}) {
-  /* 1600 wide by default: the full nav shows from 1481 px (below it collapses into the menu), and the keyboard check walks it */
+  /* 1600 wide by default: the full nav shows from 1101 px (below it collapses into the menu), and the keyboard check walks it */
   const ctx = await browser.newContext({ viewport: { width: 1600, height: 900 }, colorScheme: 'dark', ...opts });
   if (markSeen) await ctx.addInitScript(seen());
   if (init) await ctx.addInitScript(init);
@@ -148,7 +148,7 @@ const active = () => page => page.evaluate(() => { const a = document.activeElem
       const stops = []; for (let i = 0; i < 24; i++) { await page.keyboard.press('Tab'); stops.push(await act(page)); }
       if (!stops.some(s => s.inNav)) problems.push('Tab never reaches the nav');
       if (!stops.some(s => s.inMain)) problems.push('Tab never reaches the view');
-      await page.focus('#nav button[data-v="people"]'); await page.keyboard.press('Enter'); await page.waitForTimeout(150);
+      await page.click('#moreBtn'); await page.waitForTimeout(100); await page.focus('#navMore button[data-v="people"]'); await page.keyboard.press('Enter'); await page.waitForTimeout(150);
       if ((await state(page, 'view')).view !== 'v-people') problems.push('Enter on a nav button does not switch');
       await page.focus('#plist .person'); await page.keyboard.press('Enter'); await page.waitForTimeout(150);
       if (!(await state(page, 'person')).detailOn) problems.push('Enter on a person row does not open it');
@@ -168,8 +168,8 @@ const active = () => page => page.evaluate(() => { const a = document.activeElem
       await page.focus('#world .hub[tabindex]'); await page.keyboard.press('Space'); await page.waitForTimeout(200);
       if (!(await state(page, 'hub')).drawerOn) problems.push('Space on a map hub does not open the drawer');
       await page.keyboard.press('Escape'); await page.waitForTimeout(150);
-      await page.keyboard.press('2'); await page.waitForTimeout(150); if ((await state(page, 'view')).view !== 'v-pulse') problems.push('key 2 does not switch to Pulse');
-      await page.keyboard.press('6'); await page.waitForTimeout(150); if ((await state(page, 'view')).view !== 'v-hammer') problems.push('key 6 does not switch to Hammer');
+      await page.keyboard.press('5'); await page.waitForTimeout(150); if ((await state(page, 'view')).view !== 'v-pulse') problems.push('key 5 does not switch to the Pulse');
+      await page.keyboard.press('4'); await page.waitForTimeout(150); if ((await state(page, 'view')).view !== 'v-hammer') problems.push('key 4 does not switch to the Hammer');
       await page.focus('#rq'); await page.keyboard.press('3'); await page.waitForTimeout(150);
       if ((await state(page, 'view')).view !== 'v-hammer') problems.push('digit typed in an input switched the section');
       await page.keyboard.press('Control+k'); await page.waitForTimeout(150); a = await act(page);
@@ -182,14 +182,14 @@ const active = () => page => page.evaluate(() => { const a = document.activeElem
       await page.keyboard.press('Escape'); await page.waitForTimeout(150); a = await act(page);
       if (await page.evaluate(() => document.getElementById('lightbox').classList.contains('on'))) problems.push('Escape does not close the lightbox');
       if (a.tag !== 'A') problems.push('lightbox did not return focus to the figure');
-      await cold(page, '#floor'); await page.focus('#nav button[data-v="reel"]'); await page.keyboard.press('Enter'); await page.waitForTimeout(400); a = await act(page);
+      await cold(page, '#floor'); await page.click('#moreBtn'); await page.waitForTimeout(100); await page.focus('#navMore button[data-v="reel"]'); await page.keyboard.press('Enter'); await page.waitForTimeout(400); a = await act(page);
       if (!(await page.evaluate(() => document.getElementById('reel').classList.contains('on')))) problems.push('Enter on Reel does not open it');
       if (!a.inReel) problems.push('focus did not move into the Reel');
       await page.keyboard.press('Escape'); await page.waitForTimeout(300); a = await act(page);
       if (await page.evaluate(() => document.getElementById('reel').classList.contains('on'))) problems.push('Escape does not close the Reel');
-      if (!(a.inNav && a.text === 'Reel')) problems.push(`Reel did not return focus to its opener (on ${a.tag} "${a.text}")`);
+      if (!(a.inNav && a.text === 'The Reel')) problems.push(`Reel did not return focus to its opener (on ${a.tag} "${a.text}")`);
       /* a link inside a drawer must close the drawer when it navigates */
-      await cold(page, '#floor'); await page.click('#v-floor .upl'); await page.waitForTimeout(150); await page.click('#dBody [data-org]'); await page.waitForTimeout(200);
+      await cold(page, '#floor'); await page.click('#v-floor .srlead [data-up]'); await page.waitForTimeout(150); await page.click('#dBody [data-org]'); await page.waitForTimeout(200);
       s = await state(page, 'house'); if (s.drawerOn || !s.detailOn) problems.push('a dossier opened from a drawer left the drawer open');
       problems.push(...errs);
       row('keyboard', problems.length === 0, problems.length ? problems.slice(0, 4).join(' ; ') : 'tab order, Enter/Space, Escape, focus in/return/trap, 1-9, Ctrl-K, drawer links');
@@ -204,15 +204,15 @@ const active = () => page => page.evaluate(() => { const a = document.activeElem
       const problems = [];
       await page.goto('about:blank'); await page.goto(FILE + '#reel-5', { waitUntil: 'load' }); await page.waitForTimeout(500);
       await page.click('#reelClose'); await page.waitForTimeout(300); let s = await S(); if (s.hash !== '#floor' || s.len !== 2) problems.push(`closing a landed Reel: ${s.hash}, ${s.len} entries`);
-      await page.click('#nav button[data-v="hammer"]'); await page.waitForTimeout(200); await page.click('#nav button[data-v="reel"]'); await page.waitForTimeout(300); await page.goBack(); await page.waitForTimeout(400);
+      await page.click('#nav button[data-v="hammer"]'); await page.waitForTimeout(200); await page.evaluate(() => document.querySelector('#nav button[data-v="reel"]').click()); await page.waitForTimeout(300); await page.goBack(); await page.waitForTimeout(400);
       s = await S(); if (s.hash !== '#hammer' || s.reel || s.view !== 'v-hammer') problems.push(`Back over the Reel: ${s.hash}, reel ${s.reel}, ${s.view}`);
-      await page.click('#rtbl tbody tr[data-lot]'); await page.waitForTimeout(300); await page.click('#nav button[data-v="reel"]'); await page.waitForTimeout(300); await page.click('#reelClose'); await page.waitForTimeout(400);
+      await page.click('#rtbl tbody tr[data-lot]'); await page.waitForTimeout(300); await page.evaluate(() => document.querySelector('#nav button[data-v="reel"]').click()); await page.waitForTimeout(300); await page.click('#reelClose'); await page.waitForTimeout(400);
       const bk = await page.evaluate(() => { const b = document.querySelector('#v-detail.on .dtools .back'); return b ? { t: b.textContent, go: b.dataset.go || null } : null; });
       if (!bk || bk.go) problems.push('a dossier lost its history-aware back button under the Reel');
       await page.evaluate(() => { location.hash = 'houses'; }); await page.waitForTimeout(300); await page.evaluate(() => { location.hash = 'reel-3'; }); await page.waitForTimeout(400); await page.click('#reelClose'); await page.waitForTimeout(400);
       s = await S(); if (s.hash !== '#houses' || s.view !== 'v-houses') problems.push(`a linked Reel closed onto ${s.hash}`);
       await page.evaluate(() => { location.hash = 'lab-provenance'; }); await page.waitForTimeout(900); await page.evaluate(() => scrollBy(0, 1200)); await page.waitForTimeout(150); const y0 = (await S()).y;
-      await page.click('#nav button[data-v="reel"]'); await page.waitForTimeout(300); await page.keyboard.press('Escape'); await page.waitForTimeout(500); s = await S(); if (Math.abs(s.y - y0) > 2) problems.push(`the Lab scrolled from ${y0} to ${s.y} when the Reel closed`);
+      await page.evaluate(() => document.querySelector('#nav button[data-v="reel"]').click()); await page.waitForTimeout(300); await page.keyboard.press('Escape'); await page.waitForTimeout(500); s = await S(); if (Math.abs(s.y - y0) > 2) problems.push(`the Lab scrolled from ${y0} to ${s.y} when the Reel closed`);
       row('history', problems.length === 0 && errs.length === 0, problems.length ? problems.join(' | ') : (errs.length ? errs.slice(0, 2).join(' | ') : 'Back closes the Reel onto its page; a landed Reel closes without a new entry; a linked Reel returns; a dossier keeps its back button; the Lab keeps its place'));
       await ctx.close();
     });
@@ -260,11 +260,11 @@ const active = () => page => page.evaluate(() => { const a = document.activeElem
     await section('localStorage-throws', async () => {
       const { ctx, page, errs } = await context(browser, {}, { markSeen: false, init: () => { Object.defineProperty(window, 'localStorage', { get() { throw new DOMException('denied', 'SecurityError'); } }); } });
       await page.goto(FILE + '#floor', { waitUntil: 'load' }); await page.waitForTimeout(400);
-      const st = await page.evaluate(() => ({ floor: document.getElementById('v-floor').classList.contains('on') && document.getElementById('v-floor').innerHTML.length > 5000, guide: !!document.querySelector('.guide'), lens: !!document.querySelector('.lens .lensbtn') }));
+      const st = await page.evaluate(() => ({ floor: document.getElementById('v-floor').classList.contains('on') && document.getElementById('v-floor').innerHTML.length > 5000, guide: !!document.querySelector('.guide'), ask: !!document.querySelector('#tdAskForm') }));
       if (st.guide) { await page.click('.guide [data-g="close"]'); await page.waitForTimeout(400); }
       await page.click('#themeBtn'); await nav(page, '#undertow'); await page.click('#checks input'); await page.waitForTimeout(100);
       const st2 = await page.evaluate(() => ({ guideGone: !document.querySelector('.guide'), themed: !!document.documentElement.getAttribute('data-theme'), chk: document.getElementById('chkprog').textContent }));
-      const probs = []; if (!st.floor) probs.push('floor did not render'); if (!st.lens) probs.push('lens bar missing'); if (!st2.guideGone) probs.push('guide did not dismiss'); if (!st2.themed) probs.push('theme toggle failed'); if (st2.chk !== '1 of 10') probs.push('checks do not tick without storage: ' + st2.chk); probs.push(...errs);
+      const probs = []; if (!st.floor) probs.push('floor did not render'); if (!st.ask) probs.push('ask bar missing'); if (!st2.guideGone) probs.push('guide did not dismiss'); if (!st2.themed) probs.push('theme toggle failed'); if (st2.chk !== '1 of 10') probs.push('checks do not tick without storage: ' + st2.chk); probs.push(...errs);
       row('localStorage-throws', probs.length === 0, probs.length ? probs.join(' ; ') : 'renders; guide, theme, lens and checks degrade silently');
       await ctx.close();
     });

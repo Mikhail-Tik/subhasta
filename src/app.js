@@ -43,7 +43,7 @@ document.addEventListener('error',e=>{const t=e.target;if(!t||t.tagName!=='IMG'|
   const card=t.closest('.sym,.ut,.sst,.hubc,.segc,.story,.lv');if(!card)return;card.classList.remove('has-img','with-img');
   if(card.matches('.sym,.ut,.sst')){const s=document.createElement('span');s.className='noimg';s.setAttribute('aria-hidden','true');s.textContent='§';t.replaceWith(s);}
   else if(card.matches('.lv')){const a=t.closest('.lvpic');(a||t).remove();}
-  else t.remove();},true);
+  else{const a=t.closest('a[data-lb]');t.remove();if(a&&!a.textContent.trim()&&!a.querySelector('img'))a.remove();}},true);
 
 /* ---------- data assembly ---------- */
 RESULTS.push(...RESULTS_MORE);PRIVATE_TREATY.push(...PRIVATE_MORE);STORIES.unshift(...STORIES_MORE);
@@ -89,7 +89,7 @@ function trapTab(e,root){if(e.key!=='Tab')return;const f=$$(FOCUSABLE,root).filt
 /* while a modal overlay is open the page behind it is inert (no tab stops, not read by assistive tech) */
 function setInert(on){$$('.mast,.shell').forEach(el=>{try{el.inert=on;}catch(e){}});}
 /* regions that scroll (wide tables, the Sankey plate, strips) must be reachable from the keyboard; measured after the view is visible and again on resize */
-const SCROLLERS='.tblwrap,.sankwrap,.labh-fw,.sstrip,.longview,.strip-imgs,.pal .res,.gallery';
+const SCROLLERS='.tblwrap,.sankwrap,.labh-fw,.sstrip,.longview,.strip-imgs,.pal .res,.gallery,.mvtlwrap';
 /* a scrolling region is named after its table's caption or the nearest heading before it, so two regions on one page never share a name */
 function scrollLabel(el){const kind=el.matches('.tblwrap')?'table':el.matches('.sankwrap,.labh-fw')?'diagram':'content';const cap=el.querySelector('caption');let name=cap?cap.textContent:'';
   for(let n=el,up=0;!name&&n&&up<3;n=n.parentElement,up++){let s=n.previousElementSibling;while(s&&!name){const h=s.matches('h1,h2,h3')?s:s.querySelector('.rh h2,h1,h2,h3');if(h)name=h.textContent;s=s.previousElementSibling;}}

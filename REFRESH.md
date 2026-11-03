@@ -18,8 +18,8 @@ Use the Artifact tool, action `read`, with `url` = the artifact URL and `paths` 
  "src/images_manifest.py","src/fetch_images.py",
  "src/tools/lint_data.js","src/tools/audit_runtime.js","src/tools/globals.py","src/tools/nga_subset.py","src/tools/shots.js","src/tools/globe_dots.py","src/tools/benchmarks.py",
  "src/audit/data_integrity.md","src/audit/runtime_audit.md","src/audit/architecture_review.md",
- "src/src/page.html","src/src/style.css","src/src/globe.css","src/src/circle.css","src/src/lab.css","src/src/app.js","src/src/reel.js","src/src/under.js","src/src/pulse.js","src/src/atlas.js","src/src/clinic.js","src/src/globe.js","src/src/circle.js","src/src/lab.js","src/src/lab_prov.js","src/src/lab_hands.js",
- "src/src/data_houses.js","src/src/data_market.js","src/src/data_more.js","src/src/data_people.js","src/src/data_reel.js","src/src/data_under.js","src/src/data_pulse.js","src/src/data_atlas.js","src/src/data_world.js","src/src/data_flows.js","src/src/data_globe.js","src/src/data_circle.js","src/src/data_bench.js",
+ "src/src/page.html","src/src/style.css","src/src/globe.css","src/src/circle.css","src/src/lab.css","src/src/ask.css","src/src/app.js","src/src/reel.js","src/src/under.js","src/src/pulse.js","src/src/atlas.js","src/src/clinic.js","src/src/globe.js","src/src/circle.js","src/src/lab.js","src/src/lab_prov.js","src/src/lab_hands.js","src/src/today.js","src/src/move.js","src/src/ask.js",
+ "src/src/data_houses.js","src/src/data_market.js","src/src/data_more.js","src/src/data_people.js","src/src/data_reel.js","src/src/data_under.js","src/src/data_pulse.js","src/src/data_atlas.js","src/src/data_world.js","src/src/data_flows.js","src/src/data_globe.js","src/src/data_circle.js","src/src/data_bench.js","src/src/data_movements.js","src/src/data_live.js",
  "src/data/images_meta.json","src/data/nga_subset.json","src/data/nga_ids.txt"]
 ```
 The files land in a local folder (the read result says where). Recreate the layout:
@@ -52,6 +52,9 @@ passed`). Syntax-check any edited file with `node -e "new Function(require('fs')
 | What | File | Constant |
 |---|---|---|
 | Terminal date (filters the calendars) | `src/app.js` | `const TODAY='YYYY-MM-DD'` |
+| Today's Read (thesis, tells, what to watch), the sale room (estimates; results with the verdict from the hammer or the house), the desk's status | `src/data_live.js` | `LIVE.read`, `LIVE.sales`, `LIVE.status` (and the db's `live/` documents, written by the live desk, §5) |
+| What the research desk has learned (the analyst cites it) | `src/data_live.js` | `KB` (`id`, `q`, `a` in Markdown with `[[ref\|label]]`, `src`, `asof`, `tags`, `kind`; and the db's `kb/`) |
+| Art movements | `src/data_movements.js` | `MOVEMENTS` (see ARCHITECTURE §12) |
 | Verification date (the Floor chip and every V-flag tooltip read it) | `src/data_market.js` | `MARKET.verified` (`'D Mon YYYY'`) |
 | The Floor's front page (picture, headline, paragraph, buttons) and teaser strips | `src/data_market.js` | `HERO`, `FLOOR` (`vitals` = VITALS ids, `under` = ATLAS ids) |
 | KPI tiles 3–4 on the Floor | `src/data_more.js` | `EVIDENCE.bigthree` / `.private` fields `v`, `d`, `chg`, `by` |
@@ -195,10 +198,28 @@ downloads, and comments limited to the composer, which the Circle's invitation u
 create a new artifact. Finish with a short note of what changed and which
 figures remain unverified.
 
+The shareable copy: `python3 build.py --share` also writes `build/share.html` (the owner's Desk lines made neutral). Publish it to the share artifact's URL with `file_path` = `build/share.html` only (its pictures are already there; it carries no source files), again without `capabilities`.
+
+## 5. The live desk (Monday and Thursday)
+
+A scheduled task in a fresh session; it edits no files and publishes nothing. For each of the two artifacts (the main one and the share copy; each has its own database):
+1. Read the open questions: `ArtifactData` list `gaps` (each document holds `items[]` of `{q, gap, ts}`). Read `live/status` and the `kb` collection to see what is already there.
+2. Research the week (WebSearch, then WebFetch on the results): auction results of evening sales since the last report (the totals with premium, the hammer against the low estimate, sell-through, the top lots), reported private sales, the week's market news, and an answer to each open question the sources can settle.
+3. Write, as the owner, with `ArtifactData` (one `batch`):
+   - `kb/<id>` (`id` lower-case words joined by hyphens): `{q, a, src:[[label, https-url]…], asof:'YYYY-MM-DD', tags:[…], kind}`; `a` is Markdown of at most 9,000 characters that may link records as `[[kind:id|label]]` (lot ids are `slug(surname + '-' + title)`, see `lotById`); British spelling; every figure sourced; private prices said to be reported.
+   - `live/sales`: `{asof, items:[…]}` — `LIVE.sales` with the week's results filled in (`res: {total, hammer?, sold?, v?, vNote?, note}`); `v` only from the hammer against the estimate or the house's own account.
+   - `live/read`: `{asof, h, dek, body:[…], change, tells:[{l, v, d, dir, src:[label, url], vf}], watch:[…], src:[…]}` — rewrite the thesis when the week changed it.
+   - `live/wire`: `{asof, items:[{dt, o, h, s, u}]}` — the week's news, newest first, at most 40.
+   - `live/status`: `{asof, note}`.
+   A document must pass `liveValid` / `kbValid` (`src/today.js`) or the page ignores it: ISO dates, `https:` URLs, the length limits there. `asof` is the day of writing.
+4. Never republish the page, change sharing, declare capabilities or create artifacts. The monthly refresh folds the desk's documents into `src/data_live.js` and the dated collections, so a rebuild never loses them.
+5. Report in two or three sentences: what was written, which questions were answered and which remain open.
+
 ## Versions
 
 | Date | Artifact version | Source state |
 |---|---|---|
+| 2 Nov 2026 | v22 | Today, Ask Subhasta, Movements and the live layer. A lean front page (the ask bar, the Read with its tells, the sale room's verdict and test, the board, four tiles, signals, the wire, what the analyst learned, the next dates); the analyst (an index of about 1,900 records, Claude with four page tools, a data answer without Claude, gaps filed for the research desk); 58 movements on a timeline with dossiers; the masthead cut to eight sections and More; the live layer (`live/`, `kb/`, `gaps/` in the db; new capability declaration, contract 0.2.88); the October results (42 lots in London, Paris, New York, Abu Dhabi), 10 private sales, the November sale room (8 sales), 15 signals, 22 news items, records, calendar, fairs, dispatches, reports; MARKET.verified 2 Nov 2026; TODAY 2026-11-02. |
 | 5 Oct 2026, 21:14 ET | refresh run (scheduled task fired by hand) | Incremental pass by the scheduled task from the v13 source: Koons’s ≈$100m Heroes and Lovers consignment (Christie’s, 17 Nov), the Weiss bankruptcy lots at Sotheby’s (18 Nov), Artnet’s per-house Hong Kong totals, the Mondrian estimate (£20–30m), the Rembrandt buyer (Leiden Collection), PAD London; TODAY 2026-10-06. Merged into the maintainer’s tree on 6 Oct. |
 | 6 Oct 2026 | v14 | Foundation pass. Data contracts: HERO, FLOOR, ARTIST_DIED, ORG_ALIASES, DEALERS key, NEWS dt, VENUES/DESTS country·cities·homeDest, HUBS.room, REGIMES strictExport/dealerAml, MARKET.verified, VITALS.unit, EVIDENCE tile fields. Hardened build.py (Node counts, guards) and test.js (exit code, boot poll, new asserts); engines wired to the data; a11y/keyboard/robustness fixes from the runtime audit; apostrophe- and diacritic-insensitive search. tools/ (lint, runtime audit, globals map, NGA subset, shots), package.json scripts, README, ARCHITECTURE, three audits — all published with the source. Nine hubs sourced (Shanghai, Tokyo, Singapore, Taipei, Dubai, Doha, Miami, Madrid, Maastricht) with 2027 fair dates; Hockney (d. 11 Jun 2026) and Kusama (d. 14 Aug 2026) recorded. Figures verified 6 Oct 2026; TODAY 2026-10-06. Git: commits "Subhasta v14 baseline", "v14: foundation pass", "v14: merge the refresh run". |
 | 8 Oct 2026 | v17 | The globe (dot-matrix earth, five modes: share, momentum, journeys, flows when data lands, calendar), currency weather (ECB month-end series) and the FX constant brought to the 8 Oct fix, the Circle (offer, why, invitation by comment, the Subhasta Brief), hub coordinates and momentum, the Salon board moved to one document per author (db rules: all read, each writes own), lint rules for every new collection, the runtime audit reading its view list from the app. TRADE, CORRIDORS and ATTENTION remain empty: their feeds refused the cloud session. |
