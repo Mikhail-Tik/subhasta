@@ -35,7 +35,8 @@ function renderGlobe(el){if(!el)return;if(glbTeardown){try{glbTeardown();}catch(
   const mqReduce=window.matchMedia?window.matchMedia('(prefers-reduced-motion: reduce)'):null,mqLight=window.matchMedia?window.matchMedia('(prefers-color-scheme: light)'):null;
   const G={jsel:null,mode:'share',lon0:-28,lat0:24,auto:true,hover:null,focusHub:null,region:null,hovering:false,focused:false,hidden:!!document.hidden,visible:true,reduced:!!(mqReduce&&mqReduce.matches),size:0,dpr:1,R:0,cx:0,cy:0,k:1,fly:null,vel:0,raf:0,last:0,phase:0,ctx:null,T:null,suppressClick:false};
   /* ---- the data, prepared once ---- */
-  const DOTS=Array.isArray(GLOBE_DOTS)?GLOBE_DOTS:[],NAMES=Array.isArray(GLOBE_COUNTRIES)?GLOBE_COUNTRIES:[],N=DOTS.length;
+  /* the mask is sampled at 1° for the World globe (v23); the Atlas globe is a fifth of the size, so it takes every third dot and keeps the dots readable */
+  const ALLDOTS=Array.isArray(GLOBE_DOTS)?GLOBE_DOTS:[],NAMES=Array.isArray(GLOBE_COUNTRIES)?GLOBE_COUNTRIES:[];const stride=Math.max(1,Math.round(ALLDOTS.length/4000));const DOTS=stride>1?ALLDOTS.filter((d,i)=>i%stride===0):ALLDOTS,N=DOTS.length;
   const DX=new Float32Array(N),DY=new Float32Array(N),DZ=new Float32Array(N),DT=new Uint8Array(N);
   for(let i=0;i<N;i++){const d=DOTS[i],v=glbVec(d[0],d[1]);DX[i]=v[0];DY[i]=v[1];DZ[i]=v[2];DT[i]=shareTier(NAMES[d[2]]||'');}
   const HB=HUBS.filter(h=>typeof h.lon==='number'&&typeof h.lat==='number').map(h=>({h,v:glbVec(h.lon,h.lat),sx:0,sy:0,d:-1,r:0}));

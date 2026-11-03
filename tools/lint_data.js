@@ -67,8 +67,8 @@ const fs = require('fs'), path = require('path'), vm = require('vm');
 
 const ROOT = path.resolve(__dirname, '..');
 const SRC = path.join(ROOT, 'src');
-const DATA_FILES = ['data_houses.js', 'data_market.js', 'data_more.js', 'data_people.js', 'data_reel.js', 'data_under.js', 'data_pulse.js', 'data_atlas.js', 'data_world.js', 'data_flows.js', 'data_globe.js', 'data_circle.js', 'data_bench.js', 'data_movements.js', 'data_live.js'];
-const ENGINE_FILES = ['app.js', 'reel.js', 'under.js', 'pulse.js', 'atlas.js', 'clinic.js', 'globe.js', 'circle.js', 'lab.js', 'lab_prov.js', 'lab_hands.js', 'today.js', 'move.js', 'ask.js'];
+const DATA_FILES = ['data_houses.js', 'data_market.js', 'data_more.js', 'data_people.js', 'data_reel.js', 'data_under.js', 'data_pulse.js', 'data_atlas.js', 'data_world.js', 'data_flows.js', 'data_globe.js', 'data_circle.js', 'data_bench.js', 'data_movements.js', 'data_live.js', 'data_places.js'];
+const ENGINE_FILES = ['app.js', 'reel.js', 'under.js', 'pulse.js', 'atlas.js', 'clinic.js', 'globe.js', 'circle.js', 'lab.js', 'lab_prov.js', 'lab_hands.js', 'today.js', 'move.js', 'ask.js', 'world.js'];
 const IMG_META = path.join(ROOT, 'data', 'images_meta.json');
 const IMG_DIR = path.join(ROOT, 'build', 'img');
 const THUMB_DIR = path.join(ROOT, 'build', 'img', 't');
@@ -875,7 +875,32 @@ function checkOrphans(D, used) {
   const lv = D.LONGVIEW || []; for (let i = 1; i < lv.length; i++) if (lv[i].y < lv[i - 1].y) { F.warn('order', at('LONGVIEW', `LONGVIEW[${i}] ${lv[i].y}`), `out of chronological order after ${lv[i - 1].y} (the long view renders in array order)`); }
 }
 
-const CHECKS = [checkIds, checkSourceScan, checkSchema, checkFlags, checkDates, checkUrls, checkStrings, checkCoverage, checkMoney];
+/* ---------------------------------------------------------- places (v23) */
+// The World view draws by src/data_places.js: every coordinate in range, every movement with a centre, every birthplace
+// and centre a known city, every city a record names resolvable to a place (the globe can only show what it can place).
+function checkPlaces(D) {
+  const R = 'places'; const C = D.CITY_LL || {}, M = D.MOVEMENT_LL || {}, B = D.ARTIST_BORN || {}, CE = D.CENTRES || [];
+  for (const [c, ll] of Object.entries(C)) if (!Array.isArray(ll) || ll.length !== 2 || !(ll[0] >= -180 && ll[0] <= 180) || !(ll[1] >= -90 && ll[1] <= 90)) F.error(R, at('CITY_LL', `CITY_LL ${q(c)}`), `coordinates must be [lon, lat] in range, got ${JSON.stringify(ll)}`);
+  const mvIds = new Set((D.MOVEMENTS || []).map(m => m.id));
+  for (const id of mvIds) if (!Array.isArray(M[id]) || !M[id].length) F.error(R, at('MOVEMENT_LL', `MOVEMENT_LL ${q(id)}`), 'movement has no centre; the World cannot place it');
+  for (const [id, cities] of Object.entries(M)) { if (!mvIds.has(id)) F.error(R, at('MOVEMENT_LL', `MOVEMENT_LL ${q(id)}`), 'no such movement'); for (const c of cities || []) if (!C[c]) F.error(R, at('MOVEMENT_LL', `MOVEMENT_LL ${q(id)}`), `centre ${q(c)} is not in CITY_LL`); }
+  const names = new Set([...(D.RESULTS || []).map(r => r.artist), ...(D.RESULTS_MORE || []).map(r => r.artist)]); (D.MOVEMENTS || []).forEach(m => (m.artists || []).forEach(a => names.add(typeof a === 'string' ? a : a && a.n)));
+  for (const [a, v] of Object.entries(B)) {
+    if (!Array.isArray(v) || !C[v[0]]) F.error(R, at('ARTIST_BORN', `ARTIST_BORN ${q(a)}`), `birthplace ${q(v && v[0])} is not in CITY_LL`);
+    else if (!Number.isFinite(v[1]) || (v[2] != null && (!Number.isFinite(v[2]) || v[2] < v[1]))) F.error(R, at('ARTIST_BORN', `ARTIST_BORN ${q(a)}`), `years must be [born, died|null], got ${JSON.stringify(v.slice(1))}`);
+    if (!names.has(a)) F.warn(R, at('ARTIST_BORN', `ARTIST_BORN ${q(a)}`), 'artist is in no lot or movement');
+  }
+  let missing = 0; for (const a of names) if (a && !B[a] && !/\(|workshops|painters|artists|Codex|ware|Roman|United States|Hermès|Patek|Mercedes|Diamond|Dinosaur|Jordan|Larva|XCOPY|Beeple|Banksy/.test(a)) missing++;
+  if (missing) F.info(R, at('ARTIST_BORN', 'ARTIST_BORN'), `${missing} named artists have no birthplace yet (they stay off the Then layer)`);
+  CE.forEach((c, i) => { if (!Array.isArray(c) || c.length < 6) { F.error(R, at('CENTRES', `CENTRES[${i}]`), 'expected [from, to, city, title, why, reading]'); return; } if (!C[c[2]]) F.error(R, at('CENTRES', `CENTRES[${i}]`), `city ${q(c[2])} is not in CITY_LL`); if (!(c[0] < c[1])) F.error(R, at('CENTRES', `CENTRES[${i}]`), 'from must precede to'); if (i && c[0] < CE[i - 1][0]) F.warn(R, at('CENTRES', `CENTRES[${i}]`), 'out of chronological order'); });
+  // every city a dated record names must resolve the way world.js resolves it
+  const key = s => { s = String(s || '').trim(); if (!s || s === '—' || /^online$/i.test(s)) return 'skip'; if (C[s]) return s; const parts = s.split(/,|\band\b|\//).map(x => x.trim()).filter(Boolean); const order = /,/.test(s) ? parts.slice().reverse() : parts; for (const p of order) if (C[p]) return p; return null; };
+  const seen = new Set();
+  const want = [...(D.RESULTS || []).map(r => ['RESULTS', r.city]), ...(D.RESULTS_MORE || []).map(r => ['RESULTS_MORE', r.city]), ...(D.UPCOMING || []).map(u => ['UPCOMING', u.city]), ...((D.LIVE && D.LIVE.sales) || []).map(s2 => ['LIVE.sales', s2.city]), ...(D.FAIRS || []).map(f => ['FAIRS', f.city]), ...(D.CALENDAR || []).map(c => ['CALENDAR', c.city])];
+  for (const [col, city] of want) { if (city == null) continue; const k = key(city); if (k === null && !seen.has(city)) { seen.add(city); F.warn(R, at(col, `${col} city ${q(city)}`), 'no CITY_LL entry resolves this place; the World leaves it off the globe'); } }
+}
+
+const CHECKS = [checkIds, checkSourceScan, checkSchema, checkFlags, checkDates, checkUrls, checkStrings, checkCoverage, checkMoney, checkPlaces];
 
 /* ---------------------------------------------------------------- main */
 loadData();

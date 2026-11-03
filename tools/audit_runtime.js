@@ -7,7 +7,7 @@
      errors        no pageerror / console.error / unhandled rejection on every view, 2 viewports x 2 themes, plus drawers, details and the Reel
      deep-links    every hash kind: all ids for collections under 80 items, a seeded random sample of 40 for larger ones;
                    each must keep its hash and show a non-empty title in the drawer, the detail view, the station brief or the Reel; a cold load per kind
-     fallback      #nonsense and unknown ids fall back to the Floor without errors
+     fallback      #nonsense and unknown ids fall back to the World without errors
      history       a landed Reel closes without a new entry; Back closes a Reel onto the page it covered; a linked Reel returns to its page;
                    a dossier keeps its history-aware back button and the Lab its scroll when the Reel closes over them
      keyboard      Tab reaches the nav and the view; Enter/Space on rows and map hubs; Escape closes drawer/palette/lightbox/Reel;
@@ -68,12 +68,13 @@ const state = (page, kind) => page.evaluate(kind => {
   else if (detailOn) title = (q('#v-detail h1') || {}).textContent || '';
   return { hash: location.hash, title: (title || '').trim(), view: (q('.view.on') || {}).id, drawerOn, detailOn, reelOn };
 }, kind);
-const active = () => page => page.evaluate(() => { const a = document.activeElement; return { tag: a.tagName, id: a.id, text: (a.textContent || '').trim().slice(0, 24), inDrawer: !!a.closest('#drawer'), inReel: !!a.closest('#reel'), inMain: !!a.closest('main'), inNav: !!a.closest('#nav') }; });
+const active = () => page => page.evaluate(() => { const a = document.activeElement; return { tag: a.tagName, id: a.id, cls: a.className && String(a.className), text: (a.textContent || '').trim().slice(0, 24), inDrawer: !!a.closest('#drawer'), inReel: !!a.closest('#reel'), inMain: !!a.closest('main'), inNav: !!a.closest('#nav') }; });
 
 (async () => {
   const t0 = Date.now();
   const browser = await chromium.launch({ executablePath: CHROME, args: ['--no-sandbox'] });
-  const section = async (name, fn) => { try { await fn(); } catch (e) { row(name, false, 'exception: ' + (e.stack || e.message).split('\n').slice(0, 2).join(' ').slice(0, 200)); } };
+  const ONLY = (() => { const i = args.indexOf('--only'); return i >= 0 ? args[i + 1].split(',') : null; })();   /* --only world,keyboard runs a few sections while working on them */
+  const section = async (name, fn) => { if (ONLY && !ONLY.includes(name)) return; try { await fn(); } catch (e) { row(name, false, 'exception: ' + (e.stack || e.message).split('\n').slice(0, 2).join(' ').slice(0, 200)); } };
   try {
     /* ---------- 1. errors: every view, 2 viewports x 2 themes ---------- */
     await section('errors', async () => { for (const [w, h, vp] of [[1400, 900, 'desktop'], [390, 844, 'phone']]) for (const scheme of ['dark', 'light']) {
@@ -134,8 +135,8 @@ const active = () => page => page.evaluate(() => { const a = document.activeElem
       row('deep-links', broken.length === 0, broken.length ? `${broken.length} broken: ` + broken.slice(0, 4).join(' ; ') : `${total} links ok (${perKind.join(', ')})`);
       /* fallback */
       const fb = [];
-      for (const hh of ['#nonsense', '#house-nope', '#lot-nope', '#under-nope', '#station-nope']) { const before = errs.length; await cold(page, hh); const s = await state(page, 'view'); if (!(s.view === 'v-floor' && s.hash === '#floor' && !s.reelOn && errs.length === before)) fb.push(`${hh} -> ${s.hash} ${s.view}${errs.length > before ? ' ' + errs[before] : ''}`); }
-      row('fallback', fb.length === 0, fb.length ? fb.join(' ; ') : '#nonsense and 4 unknown ids fall back to the Floor');
+      for (const hh of ['#nonsense', '#house-nope', '#lot-nope', '#under-nope', '#station-nope']) { const before = errs.length; await cold(page, hh); const s = await state(page, 'view'); if (!(s.view === 'v-world' && s.hash === '#world' && !s.reelOn && errs.length === before)) fb.push(`${hh} -> ${s.hash} ${s.view}${errs.length > before ? ' ' + errs[before] : ''}`); }
+      row('fallback', fb.length === 0, fb.length ? fb.join(' ; ') : '#nonsense and 4 unknown ids fall back to the World');
       await ctx.close();
     });
 
@@ -168,8 +169,8 @@ const active = () => page => page.evaluate(() => { const a = document.activeElem
       await page.focus('#world .hub[tabindex]'); await page.keyboard.press('Space'); await page.waitForTimeout(200);
       if (!(await state(page, 'hub')).drawerOn) problems.push('Space on a map hub does not open the drawer');
       await page.keyboard.press('Escape'); await page.waitForTimeout(150);
-      await page.keyboard.press('5'); await page.waitForTimeout(150); if ((await state(page, 'view')).view !== 'v-pulse') problems.push('key 5 does not switch to the Pulse');
-      await page.keyboard.press('4'); await page.waitForTimeout(150); if ((await state(page, 'view')).view !== 'v-hammer') problems.push('key 4 does not switch to the Hammer');
+      await page.keyboard.press('6'); await page.waitForTimeout(150); if ((await state(page, 'view')).view !== 'v-pulse') problems.push('key 6 does not switch to the Pulse');
+      await page.keyboard.press('5'); await page.waitForTimeout(150); if ((await state(page, 'view')).view !== 'v-hammer') problems.push('key 5 does not switch to the Hammer');
       await page.focus('#rq'); await page.keyboard.press('3'); await page.waitForTimeout(150);
       if ((await state(page, 'view')).view !== 'v-hammer') problems.push('digit typed in an input switched the section');
       await page.keyboard.press('Control+k'); await page.waitForTimeout(150); a = await act(page);
@@ -197,13 +198,59 @@ const active = () => page => page.evaluate(() => { const a = document.activeElem
     });
 
     /* ---------- 4. axe ---------- */
+    /* ---------- 3a. the World: the globe draws, pins open, the rail moves time, the card returns focus ---------- */
+    await section('world', async () => {
+      const { ctx, page, errs } = await context(browser);
+      const act = active(); const problems = [];
+      await cold(page, '#world'); await page.waitForTimeout(900);
+      const st = await page.evaluate(() => window.__WORLD && window.__WORLD.state());
+      if (!st || !st.w || st.pins < 5) problems.push(`the globe did not draw (${JSON.stringify(st).slice(0, 120)})`);
+      if (st && !st.spinning) problems.push('the globe is not turning on load');
+      const pin = await page.evaluate(() => { const P = window.__WORLD.pins().filter(p => p.kind === 'sold'); const cv = document.querySelector('.wd-cv').getBoundingClientRect(); for (const p of P) { const c = window.__WORLD.project(...(CITY_LL[p.c])); if (c && c.visible && c.x > 60 && c.x < cv.width - 60 && c.y > 60 && c.y < cv.height - 60) return { c: p.c, x: cv.left + c.x, y: cv.top + c.y }; } return null; });
+      if (!pin) problems.push('no sold city is visible on the first view');
+      else {
+        await page.mouse.move(pin.x, pin.y); await page.waitForTimeout(250);
+        const tip = await page.evaluate(() => { const t = document.getElementById('tip'); return t && t.style.display !== 'none' ? t.textContent : ''; });
+        if (!tip.includes(pin.c)) problems.push(`hovering ${pin.c} shows no tip (${tip.slice(0, 40)})`);
+        await page.mouse.click(pin.x, pin.y); await page.waitForTimeout(500);
+        const card = await page.evaluate(() => { const c = document.querySelector('.wd-card'); return { open: c && !c.hidden, title: c ? c.querySelector('.wd-ch').textContent : '', rows: c ? c.querySelectorAll('.wd-ev').length : 0 }; });
+        if (!(card.open && card.title === pin.c && card.rows >= 1)) problems.push(`clicking ${pin.c} did not open its card (${JSON.stringify(card)})`);
+        let a = await act(page); if (!/wd-x/.test(a.cls || '')) problems.push(`focus did not move into the card (on ${a.tag}.${a.cls})`);
+        await page.keyboard.press('Tab'); await page.keyboard.press('Enter'); await page.waitForTimeout(400);
+        const opened = await state(page, 'view'); if (!(opened.view === 'v-detail' || opened.drawerOn)) problems.push('Enter on a card row did not open the record');
+        if (opened.view === 'v-detail') { await page.goBack(); await page.waitForTimeout(400); const vw = await state(page, 'view'); if (vw.view !== 'v-world') problems.push(`Back after a record did not return to the World (${vw.view})`); }
+        else if (opened.drawerOn) { await page.keyboard.press('Escape'); await page.waitForTimeout(250); const vw = await state(page, 'view'); if (vw.drawerOn || vw.view !== 'v-world') problems.push('Escape did not close the record over the World'); }
+      }
+      await page.click('.wd-mode[data-wmode="then"]'); await page.waitForTimeout(300);
+      const rail = await page.evaluate(() => !document.querySelector('.wd-rail').hidden); if (!rail) problems.push('Then does not show the rail');
+      await page.focus('.wd-range'); await page.keyboard.press('Home'); await page.waitForTimeout(200);
+      const yr0 = await page.evaluate(() => document.querySelector('.wd-yr').textContent); if (!/43000 BC/.test(yr0)) problems.push(`Home on the rail did not reach the start (${yr0})`);
+      await page.keyboard.press('End'); await page.waitForTimeout(200);
+      const yr1 = await page.evaluate(() => window.__WORLD.state().year); if (yr1 < 2026) problems.push(`End on the rail did not reach now (${yr1})`);
+      await page.evaluate(() => window.__WORLD.year(1874)); await page.waitForTimeout(1900);
+      const lead = await page.evaluate(() => document.querySelector('.wd-h1').textContent); if (!/Impressionism/.test(lead)) problems.push(`1874 does not name Impressionism (${lead})`);
+      await page.click('.wd-play'); await page.waitForTimeout(1200); const playing = await page.evaluate(() => window.__WORLD.state().playing && window.__WORLD.state().year !== 1874); if (!playing) problems.push('Play does not move the year');
+      await page.click('.wd-play');
+      await page.click('.wd-mode[data-wmode="shifts"]'); await page.waitForTimeout(300); await page.evaluate(() => window.__WORLD.era(5)); await page.waitForTimeout(300);
+      const era = await page.evaluate(() => { const c = document.querySelector('.wd-card'); return c && !c.hidden && /New York/.test(c.textContent); }); if (!era) problems.push('an era does not open its card');
+      await page.keyboard.press('Escape'); await page.focus('.wd-x'); await page.keyboard.press('Enter'); await page.waitForTimeout(200);
+      const closed = await page.evaluate(() => document.querySelector('.wd-card').hidden); if (!closed) problems.push('the card does not close from its button');
+      await page.click('.wd-mode[data-wmode="now"]'); await page.focus('.wd-cv'); await page.keyboard.press('ArrowLeft'); await page.keyboard.press('Enter'); await page.waitForTimeout(300);
+      const all = await page.evaluate(() => { const c = document.querySelector('.wd-card'); return c && !c.hidden && c.querySelectorAll('[data-wcity]').length; }); if (!all) problems.push('Enter on the globe does not list everything');
+      await page.fill('.wd-q', 'Explain Dada'); await page.keyboard.press('Enter'); await page.waitForTimeout(700);
+      const asked = await state(page, 'view'); if (asked.view !== 'v-ask') problems.push(`the ask bar did not open the analyst (${asked.view})`);
+      if (errs.length) problems.push('errors: ' + errs.slice(0, 2).join(' | '));
+      row('world', problems.length === 0, problems.length ? problems.slice(0, 4).join(' ; ') : 'the globe turns, a sold city hovers and opens its card, Back returns, the rail and Play move time, an era opens, Enter lists everything, the ask bar asks');
+      await ctx.close();
+    });
+
     /* ---------- 3b. history: Back, Close and links around the Reel and the dossiers ---------- */
     await section('history', async () => {
       const { ctx, page, errs } = await context(browser);
       const S = () => page.evaluate(() => ({ hash: location.href.startsWith('about') ? 'about:blank' : location.hash, reel: document.getElementById('reel').classList.contains('on'), view: (document.querySelector('.view.on') || {}).id, len: history.length, y: Math.round(scrollY) }));
       const problems = [];
       await page.goto('about:blank'); await page.goto(FILE + '#reel-5', { waitUntil: 'load' }); await page.waitForTimeout(500);
-      await page.click('#reelClose'); await page.waitForTimeout(300); let s = await S(); if (s.hash !== '#floor' || s.len !== 2) problems.push(`closing a landed Reel: ${s.hash}, ${s.len} entries`);
+      await page.click('#reelClose'); await page.waitForTimeout(300); let s = await S(); if (s.hash !== '#world' || s.len !== 2) problems.push(`closing a landed Reel: ${s.hash}, ${s.len} entries`);
       await page.click('#nav button[data-v="hammer"]'); await page.waitForTimeout(200); await page.evaluate(() => document.querySelector('#nav button[data-v="reel"]').click()); await page.waitForTimeout(300); await page.goBack(); await page.waitForTimeout(400);
       s = await S(); if (s.hash !== '#hammer' || s.reel || s.view !== 'v-hammer') problems.push(`Back over the Reel: ${s.hash}, reel ${s.reel}, ${s.view}`);
       await page.click('#rtbl tbody tr[data-lot]'); await page.waitForTimeout(300); await page.evaluate(() => document.querySelector('#nav button[data-v="reel"]').click()); await page.waitForTimeout(300); await page.click('#reelClose'); await page.waitForTimeout(400);

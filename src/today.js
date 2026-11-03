@@ -28,21 +28,21 @@ function liveValid(k,d){if(!d||typeof d!=='object'||!lvISO(d.asof))return false;
   if(k==='status')return !d.note||lvStr(d.note,400);
   if(k==='read')return lvStr(d.h,240)&&lvStr(d.dek,900)&&(!d.body||(Array.isArray(d.body)&&d.body.length<=6&&d.body.every(p=>lvStr(p,1600))))&&(!d.tells||(Array.isArray(d.tells)&&d.tells.length<=6&&d.tells.every(t=>t&&lvStr(t.l,120)&&lvStr(t.v,60)&&lvSrc(t.src?[t.src]:null))))&&(!d.watch||(Array.isArray(d.watch)&&d.watch.every(w=>lvStr(w,300))))&&(!d.change||lvStr(d.change,600))&&lvSrc(d.src);
   if(k==='sales')return Array.isArray(d.items)&&d.items.length<=30&&d.items.every(lvSale);
-  if(k==='wire')return Array.isArray(d.items)&&d.items.length<=40&&d.items.every(n=>n&&lvStr(n.h,300)&&lvISO(n.dt)&&lvStr(n.o,80)&&lvOpt(n.s,600)&&(!n.u||lvURL(n.u)));
+  if(k==='wire')return Array.isArray(d.items)&&d.items.length<=40&&d.items.every(n=>n&&lvStr(n.h,300)&&lvISO(n.dt)&&lvStr(n.o,80)&&lvOpt(n.s,600)&&lvOpt(n.city,60)&&(!n.u||lvURL(n.u)));
   return false;}
 const kbValid=d=>d&&lvStr(d.q,300)&&lvStr(d.a,9000)&&lvISO(d.asof)&&lvSrc(d.src)&&(!d.tags||(Array.isArray(d.tags)&&d.tags.length<=12&&d.tags.every(t=>lvStr(t,60))))&&lvOpt(d.kind,20);
 const lvNewer=(d,baked)=>!!d&&String(d.asof)>=String(baked);
 function liveStatus(){return lvNewer(LIVEDB.status,LIVE.status.asof)?LIVEDB.status:LIVE.status;}
 function liveRead(){return lvNewer(LIVEDB.read,LIVE.read.asof)?LIVEDB.read:LIVE.read;}
 function liveSales(){return lvNewer(LIVEDB.sales,LIVE.asof)?LIVEDB.sales.items:LIVE.sales;}
-function liveWire(){const base=NEWS.map(n=>({d:n.d,dt:n.dt,o:n.o,h:n.h,s:n.s,u:n.u}));const L=lvNewer(LIVEDB.wire,LIVE.asof)?LIVEDB.wire.items:[];const seen=new Set();return [...L,...base].filter(n=>{const k=norm(n.h).slice(0,60);if(seen.has(k))return false;seen.add(k);return true;}).sort((a,b)=>String(b.dt).localeCompare(String(a.dt)));}
+function liveWire(){const base=NEWS.map(n=>({d:n.d,dt:n.dt,o:n.o,h:n.h,s:n.s,u:n.u,city:n.city}));const L=lvNewer(LIVEDB.wire,LIVE.asof)?LIVEDB.wire.items:[];const seen=new Set();return [...L,...base].filter(n=>{const k=norm(n.h).slice(0,60);if(seen.has(k))return false;seen.add(k);return true;}).sort((a,b)=>String(b.dt).localeCompare(String(a.dt)));}
 function kbAll(){const m=new Map();KB.forEach(k=>m.set(k.id,k));LIVEDB.kb.forEach(k=>{const b=m.get(k.id);if(!b||String(k.asof)>=String(b.asof))m.set(k.id,k);});return [...m.values()];}
 /* the db's live/ documents and kb/ collection, subscribed once each */
 function liveInit(){if(!dbRef)return;const val=d=>d.exists===false?null:(typeof d.data==='function'?d.data():d.data);
   try{dbRef.collection('live').onSnapshot(snap=>{const ch=new Set();(snap&&snap.docs||[]).forEach(d=>{const id=d.id;if(!['status','read','sales','wire'].includes(id))return;const x=val(d);if(liveValid(id,x)){LIVEDB[id]=x;ch.add(id);}});if(ch.size)liveApply(ch);},()=>{});}catch(e){}
   try{dbRef.collection('kb').onSnapshot(snap=>{const L=[];(snap&&snap.docs||[]).forEach(d=>{if(!/^[a-z0-9-]{1,80}$/.test(d.id))return;const x=val(d);if(kbValid(x))L.push(Object.assign({},x,{id:d.id}));});LIVEDB.kb=L.slice(0,500);liveApply(new Set(['kb']));},()=>{});}catch(e){}}
 /* a live document arrived: the index learns it and the blocks that show it are drawn again */
-function liveApply(ch){kxInvalidate();const on=id=>{const el=$(id);return el&&$('#v-floor').contains(el)?el:null;};
+function liveApply(ch){kxInvalidate();if(typeof wdInvalidate==='function')wdInvalidate();const on=id=>{const el=$(id);return el&&$('#v-floor').contains(el)?el:null;};
   const step=(what,f)=>{try{f();}catch(err){reportError(err,'live '+what);}};
   if(ch.has('read'))step('read',()=>{const a=on('#tdRead'),b=on('#tdTells');if(a)a.innerHTML=tdReadHTML();if(b)b.innerHTML=tdTellsHTML();});
   if(ch.has('sales'))step('sales',()=>{const a=on('#tdSales');if(a){a.innerHTML=tdSalesHTML();tdBind(a);}});

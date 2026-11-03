@@ -13,6 +13,28 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
   assert(d.documentElement.lang==='en','document language is en');
   assert(q('#drawer').tagName==='DIV','#drawer is a <div>');
   const G=expr=>w.eval(expr); /* the data files are script-level consts: not window properties, but visible to an indirect eval */
+  /* v23: the page opens on the World; without a canvas (jsdom) the lead, the modes, the legend and the card still work */
+  {assert(q('#v-world').classList.contains('on')&&w.location.hash==='#world','the page opens on the World');
+   assert(/sold in|sales, on the globe/.test(q('#v-world .wd-h1').textContent),`the World’s lead reads the season (${q('#v-world .wd-h1').textContent})`);
+   assert(qa('#v-world .wd-mode').length===4&&q('#v-world .wd-mode.on').dataset.wmode==='now','four modes, Now first');
+   const W=w.__WORLD;assert(W&&W.state().events>20&&W.state().pins>=5,`the World stacks the season’s events by city (${W&&W.state().events} events, ${W&&W.state().pins} cities)`);
+   assert(W.events().some(e=>e.c==='New York'&&e.k==='coming')&&W.pins().some(p=>p.c==='London'&&p.kind==='sold'),'New York has sales to come and London has sold');
+   assert(/cities with sales/.test(q('#v-world .wd-legend').textContent),'the legend counts the cities with sales');
+   q('#v-world .wd-list').click();assert(!q('#v-world .wd-card').hidden&&qa('#v-world .wd-card .wd-ev').length>=5,'“Everything on the globe” lists the cities');
+   qa('#v-world .wd-card .wd-ev').find(b=>b.dataset.wcity==='London').click();assert(/London/.test(q('#v-world .wd-ch').textContent)&&qa('#v-world .wd-card .wd-ev.lot').length>=3,'a city card lists its lots');
+   const lotBtn=qa('#v-world .wd-card .wd-ev.lot')[0];lotBtn.click();assert(q('#v-detail').classList.contains('on')&&q('#v-detail h1')&&lotBtn.textContent.includes(q('#v-detail h1').textContent.trim()),'a lot on the card opens its dossier');w.__S.go('world');
+   W.mode('then');assert(q('#v-world .wd-mode.on').dataset.wmode==='then'&&!q('#v-world .wd-rail').hidden,'Then shows the rail');
+   W.year(1874);assert(/1874/.test(q('#v-world .wd-yr').textContent)&&/Impressionism/.test(q('#v-world .wd-h1').textContent),`1874 names Impressionism (${q('#v-world .wd-h1').textContent})`);
+   q('#v-world .wd-list').click();assert(/1874/.test(q('#v-world .wd-ch').textContent)&&qa('#v-world .wd-card .wd-pic').length>=3&&qa('#v-world .wd-card .wd-ev.mv').length>=3,'the year card shows pictures and movements');
+   W.year(-15000);assert(/15000 BC/.test(q('#v-world .wd-yr').textContent)&&/Prehistoric/.test(q('#v-world .wd-h1').textContent),'15000 BC names the caves');
+   W.mode('shifts');q('#v-world .wd-list').click();assert(qa('#v-world .wd-card .wd-ev.era').length===G('CENTRES.length'),'Shifts lists every era');
+   W.era(4);assert(/Paris/.test(q('#v-world .wd-card .wd-ev.era.on').textContent)&&/Canvases and Careers/.test(q('#v-world .wd-card').textContent),'an era opens with its reading');
+   W.mode('notes');assert(/Pin what you have seen|notes? pinned/.test(q('#v-world .wd-h1').textContent),'Notes has its own lead');
+   assert(W.pinOk({id:'abcd1234',lon:2.35,lat:48.86,t:'A show',n:'',u:'',k:'seen',ts:1})===true&&W.pinOk({id:'x',lon:2.35,lat:48.86,t:'A show',k:'seen',ts:1})===false&&W.pinOk({id:'abcd1234',lon:2.35,lat:48.86,t:'A show',u:'javascript:alert(1)',k:'seen',ts:1})===false,'a reader’s pin is validated on read');
+   assert(W.cityKey('Saadiyat Island, Abu Dhabi')==='Abu Dhabi'&&W.cityKey('Milan and Venice')==='Milan'&&W.cityKey('Online')===null,'city strings resolve to a place');
+   assert(W.cityInText('Christie’s London sells the Lewis collection')==='London'&&W.cityInText('A report on guarantees')===null,'a headline names its city');
+   assert(W.t2y(W.y2t(1874))===1874&&W.t2y(0)===-43000&&W.t2y(1)>=2026,'the rail maps years both ways');
+   W.mode('now');w.__S.go('floor');}
   assert(qa('#v-floor .status .chip').some(c=>c.textContent.includes(G('MARKET.verified'))),'Today’s chips carry MARKET.verified');
   assert(q('#v-floor .srlead h3').textContent===G('HERO.h'),'the sale room’s lead is HERO.h');
   const views=['floor','ask','movements','pulse','atlas','houses','people','hammer','ledger','salon','undertow','desk','lexicon'];

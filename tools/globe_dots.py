@@ -2,7 +2,7 @@
 """tools/globe_dots.py — the dot-matrix land mask for the Atlas globe (src/globe.js).
 
     python3 tools/globe_dots.py                 rewrite src/data_globe.js from the cached Natural Earth file
-    python3 tools/globe_dots.py --spacing 2.4   coarser grid (degrees between latitude rows; default 2.0)
+    python3 tools/globe_dots.py --spacing 2.0   coarser grid (degrees between latitude rows; default 1.0 since v23, for the full-bleed World globe)
     python3 tools/globe_dots.py --check         regenerate in memory and exit 1 if src/data_globe.js differs
     python3 tools/globe_dots.py --fetch         download the GeoJSON again even if the cache exists
 
@@ -292,7 +292,7 @@ def render(names, dots, info, spacing, today):
 
 def main():
     ap = argparse.ArgumentParser(description='Generate src/data_globe.js, the dot-matrix land mask for the globe.')
-    ap.add_argument('--spacing', type=float, default=2.0, help='degrees between latitude rows (default 2.0; 2.4 is coarser and smaller)')
+    ap.add_argument('--spacing', type=float, default=1.0, help='degrees between latitude rows (default 1.0; 2.0 is the Atlas-only density of v17–v22)')
     ap.add_argument('--check', action='store_true', help='regenerate in memory and exit 1 if src/data_globe.js differs')
     ap.add_argument('--fetch', action='store_true', help='download the GeoJSON again')
     ap.add_argument('--date', default=None, help='the generated date to stamp (default: today, local); --check uses the date already in the file')
