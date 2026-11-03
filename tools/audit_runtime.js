@@ -187,7 +187,7 @@ const active = () => page => page.evaluate(() => { const a = document.activeElem
       if (!a.inReel) problems.push('focus did not move into the Reel');
       await page.keyboard.press('Escape'); await page.waitForTimeout(300); a = await act(page);
       if (await page.evaluate(() => document.getElementById('reel').classList.contains('on'))) problems.push('Escape does not close the Reel');
-      if (!(a.inNav && a.text === 'The Reel')) problems.push(`Reel did not return focus to its opener (on ${a.tag} "${a.text}")`);
+      if (!(a.inNav && (a.text === 'The Reel' || /^More/.test(a.text)))) problems.push(`Reel did not return focus to its opener or the More menu that holds it (on ${a.tag} "${a.text}")`);
       /* a link inside a drawer must close the drawer when it navigates */
       await cold(page, '#floor'); await page.click('#v-floor .srlead [data-up]'); await page.waitForTimeout(150); await page.click('#dBody [data-org]'); await page.waitForTimeout(200);
       s = await state(page, 'house'); if (s.drawerOn || !s.detailOn) problems.push('a dossier opened from a drawer left the drawer open');
