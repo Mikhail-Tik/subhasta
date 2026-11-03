@@ -13,7 +13,7 @@ const slug=s=>s.toLowerCase().replace(/[’'".,:()]/g,'').replace(/[^a-z0-9]+/g,
 const norm=s=>String(s==null?'':s).toLowerCase().replace(/’/g,"'").normalize('NFD').replace(/[̀-ͯ]/g,'');
 /* spelled-out counts for prose ("sixteen vital signs"); digits from 100 up */
 const words=n=>{const a=['zero','one','two','three','four','five','six','seven','eight','nine','ten','eleven','twelve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen'],b=['','','twenty','thirty','forty','fifty','sixty','seventy','eighty','ninety'];return n<20?a[n]:n<100?b[Math.floor(n/10)]+(n%10?'-'+a[n%10]:''):String(n);};
-const TODAY='2026-10-08';
+const TODAY='2026-11-02';
 /* what is still to come is judged by the reader's own date once it passes the terminal's (a sale on 14 October stops being "next" on the
    15th, before the monthly refresh); TODAY stays the date the figures are "as of" */
 const NOW=(()=>{try{const d=new Date(),iso=new Date(d.getTime()-d.getTimezoneOffset()*6e4).toISOString().slice(0,10);return /^\d{4}-\d{2}-\d{2}$/.test(iso)&&iso>TODAY?iso:TODAY;}catch(e){return TODAY;}})();
@@ -240,33 +240,10 @@ function boardShow(i){const r=BOARD.items[i];if(!r)return;BOARD.i=i;const reduce
   $('#bN').textContent=`LOT ${i+1} / ${BOARD.items.length}`;$('#bFoot').innerHTML=`${r.rec.length?`<b>${esc(r.rec[0])}</b> · `:''}${esc(r.note||'')}`;$$('#bDots i').forEach((d,k)=>d.classList.toggle('on',k===i));}
 function boardInit(){$$('#board .line').forEach((l,i)=>{l.addEventListener('click',()=>openLot(BOARD.items[BOARD.i]));if(i===0)keyable(l);else l.setAttribute('aria-hidden','true');});boardShow(0);clearInterval(BOARD.timer);const reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;if(!reduce)BOARD.timer=setInterval(()=>{const f=$('#v-floor');if(document.hidden||!f||!f.classList.contains('on'))return;boardShow((BOARD.i+1)%BOARD.items.length);},7000);$$('#bDots i').forEach((d,k)=>d.addEventListener('click',()=>boardShow(k)));}
 
-/* ---------- FLOOR ---------- */
+/* ---------- FLOOR ----------
+   The front page is Today (src/today.js, pasted with the engines): renderFloor draws it. evTile stays here: the Pulse uses it too. */
 /* a KPI tile drawn from the EVIDENCE entry it opens: v split into number and unit ($14.2 | bn), then d, chg and by */
 function evTile(k){const e=EVIDENCE[k];const m=String(e.v).match(/^(\$?[\d.,]+)(.*)$/);const num=m?m[1]:e.v,unit=m?m[2]:'';return `<button class="kpi" data-ev="${k}"><div class="l">${esc(e.l)}</div><div class="v">${esc(num)}${unit?`<small>${esc(unit)}</small>`:''}</div><div class="d">${esc(e.d)} <b class="up">${esc(e.chg)}</b></div><div class="src">${esc(e.by)} · as of ${esc(MARKET.verified)}</div></button>`;}
-function renderFloor(){const M=MARKET,g=M.global;const next=CALENDAR.filter(c=>(c.e||c.d)>=NOW).sort((a,b)=>a.d.localeCompare(b.d)).slice(0,8);
-  const html=`<div class="head"><div><h1>The floor, ${esc(fdate(TODAY))}</h1><p class="dek">Where the money is in the art trade this week: the latest hammer, the houses’ year, the hubs, the pipeline of sales and the signals behind them. Every figure opens its source.</p></div><div class="status"><span class="chip">Figures verified ${esc(MARKET.verified)}</span><span class="chip"><i>sub hasta</i>&nbsp;— sold under the spear</span></div></div>${lensBar('lensFloor')}
-  <div class="hero"><div class="pic"><a href="#" data-lb="${esc(HERO.img)}"><img src="img/${esc(HERO.img)}.jpg" alt="${esc(HERO.alt)}" decoding="async" style="object-position:${esc(HERO.fp)}"></a><div class="cap">${esc(HERO.cap)}</div></div><div class="txt"><span class="k">${esc(HERO.k)}</span><h2>${esc(HERO.h)}</h2><p>${esc(HERO.p)}</p><div class="acts">${HERO.acts.map((a,i)=>`<button class="btn${i===0?' primary':''}" ${a.reel!=null?`data-reel="${+a.reel}"`:a.up!=null?`data-up="${+a.up}"`:`data-story="${esc(a.story)}"`}>${esc(a.t)}</button>`).join('')}</div></div></div>
-  ${boardBuild()}
-  <div class="kpis" style="margin-top:22px">
-    <button class="kpi" data-ev="global"><div class="l">Global art market, 2025</div><div class="v">$${g.y25}<small>bn</small></div><div class="d"><b class="up">${g.growth}</b> after two down years; peak ${esc(g.peak)}</div><div class="src">Art Basel &amp; UBS 2026 · as of ${esc(MARKET.verified)}</div></button>
-    <button class="kpi" data-ev="auction"><div class="l">Public auction sales, 2025</div><div class="v">$${g.auction}<small>bn</small></div><div class="d"><b class="up">${g.auctionGrowth}</b>; dealers $${g.dealers}bn (${g.dealersGrowth})</div><div class="src">Arts Economics · as of ${esc(MARKET.verified)}</div></button>
-    ${evTile('bigthree')}
-    ${evTile('private')}</div>
-  <div class="grid" style="margin-top:28px">
-    <div class="sect c12"><div class="rh"><h2>For your desk</h2><span class="sub">the room, the rules, the corners and the dates for ${esc(lensLabel())}; <button data-lens-open>change the lens</button></span></div><div class="foryou">${forYou()}</div></div>
-    <div class="sect c12"><div class="rh"><h2>Pulse this week</h2><span class="sub">the market as a patient; <button data-go="pulse">all sixteen vital signs →</button></span></div><div class="vitals vitals4">${FLOOR.vitals.map(id=>VITALS.find(v=>v.id===id)).filter(Boolean).map(vitalTile).join('')}</div></div>
-    <div class="sect c12"><div class="rh"><h2>Undertow this week</h2><span class="sub">the machinery under the prices; <button data-go="undertow">follow the money →</button></span></div><div class="utz">${FLOOR.under.map(id=>ATLAS.find(x=>x.id===id)).filter(Boolean).map(a=>{const m=a.img&&IMG[a.img]?IMG[a.img]:null;return `<button class="ut" data-under="${a.id}">${m?`<img src="img/t/${a.img}.jpg" alt="" loading="lazy" style="object-position:${m.fp}">`:'<span class="noimg">§</span>'}<span class="tx"><span class="k">${a.kind==='case'?a.year:'Rule'} · ${esc(stName(a.st[0]))}</span><b>${esc(a.t)}</b><small>${esc(a.c)}</small></span></button>`;}).join('')}</div></div>
-    <div class="sect c12"><div class="rh"><h2>Coming to the block</h2><span class="sub">the season’s announced trophies, with estimates; click for the chain and source</span></div><div class="upc">${UPCOMING.map((u,i)=>[u,i]).sort((a,b)=>(a[0].date<NOW)-(b[0].date<NOW)).map(([u,i])=>`<button class="upl${u.date<NOW?' past':''}" data-up="${i}"><span class="d">${esc(fdate(u.date))} · ${esc(houseName(u.house))}, ${esc(u.city)}</span><span class="t">${esc(u.title)}</span><span class="a">${esc(u.artist)}</span><span class="e">${u.date<NOW?'sold or offered; the result comes with the refresh':esc(u.est)}</span></button>`).join('')}</div></div>
-    <div class="sect c12"><div class="rh"><h2>The trophy board</h2><span class="sub">every lot above $20m in the list, ${mm(RESULTS.filter(r=>r.price>=20).reduce((s,r)=>s+r.price,0))} of sales with premium, by category; click any tile</span></div><div class="treemap" id="treemap"></div><div class="legend"><span><i style="background:color-mix(in srgb,var(--c2) 42%,var(--paper))"></i>Christie’s</span><span><i style="background:color-mix(in srgb,var(--c3) 42%,var(--paper))"></i>Sotheby’s</span><span><i style="background:color-mix(in srgb,var(--c1) 48%,var(--paper))"></i>Phillips</span><span><i style="background:color-mix(in srgb,var(--cx) 45%,var(--paper))"></i>Other houses</span><span class="faint">tile area = price with premium</span></div></div>
-    <div class="sect c7"><div class="rh"><h2>The houses’ year</h2><span class="sub">consolidated or global sales, 2019–2025 · <button data-ev="bigthree">sources</button></span></div>${groupedBars(M.bigThreeYears,M.bigThree)}</div>
-    <div class="sect c5"><div class="rh"><h2>Where the market sits</h2><span class="sub">2025 sales by country · <button data-ev="us">source</button></span></div>${hbars(M.countries,r=>`$${r[1].toFixed(1)}bn, ${r[2]}%`,'','us')}<div class="rh" style="margin-top:22px"><h2>Where Christie’s hammer falls</h2><span class="sub">2025 auction sales by region · <button data-ev="bigthree">source</button></span></div>${hbars(M.christiesRegions,r=>`$${r[1].toLocaleString()}m`,'alt','bigthree')}</div>
-    <div class="sect c4"><div class="rh"><h2>Next on the calendar</h2><span class="sub"><button data-go="signals">all dates</button></span></div>${next.map(c=>`<div class="cal"><span class="d">${esc(fspan(c.d,c.e))}</span><span class="n">${esc(c.n)}${c.sub?`<small>${esc(c.sub)}</small>`:''}</span><span class="c">${esc(c.city)}</span></div>`).join('')}</div>
-    <div class="sect c4"><div class="rh"><h2>The wire</h2><span class="sub"><button data-go="signals">all news</button></span></div>${NEWS.slice(0,6).map(n=>`<div class="wire"><span class="d">${esc(n.d)}</span><div><div class="h"><a href="${esc(n.u)}" target="_blank" rel="noopener">${esc(n.h)}</a></div><div class="o">${esc(n.o)}</div></div></div>`).join('')}</div>
-    <div class="sect c4"><div class="rh"><h2>Signals</h2><span class="sub"><button data-go="signals">all ${words(SIGNALS.length)}</button></span></div>${SIGNALS.slice(0,4).map(s=>`<div class="sig"><div><h3>${esc(s.t)}</h3><p>${esc(s.p.split('. ')[0])}.</p></div><span class="tag ${s.dir==='heat'?'heat':s.dir==='cool'?'cool':''}">${s.dir==='heat'?'heating':s.dir==='cool'?'cooling':'steady'}</span></div>`).join('')}</div>
-    <div class="sect c12"><div class="rh"><h2>What the half-year numbers say</h2><span class="sub">ArtTactic, Bank of America Private Bank, Artprice</span></div><div class="tblwrap"><table class="tbl"><thead><tr><th>Measure</th><th>Value</th><th>Source</th></tr></thead><tbody>${M.h1_2026.map(r=>`<tr class="clk" data-ev="h1"><td>${esc(r[0])}</td><td class="n">${esc(r[1])}</td><td class="faint">${esc(r[2])}</td></tr>`).join('')}</tbody></table></div></div>
-  </div>`;
-  const el=$('#v-floor');el.innerHTML=html;bindTips(el);bindLinks(el);bindLightbox(el);$$('[data-reel]',el).forEach(b=>b.addEventListener('click',()=>openReelHere(+b.dataset.reel)));boardInit();requestAnimationFrame(()=>treemap($('#treemap')));}
-
 /* ---------- HOUSES ---------- */
 const TYPE_ORDER=['auction','gallery','advisory','finance','insurance','fair','data','logistics','freeport'];
 const hstate={type:'all',q:'',sort:'sales'};
@@ -651,6 +628,9 @@ function renderLexicon(){const el=$('#v-lexicon');el.innerHTML=`<div class="head
 /*__LAB__*/
 /*__LABPROV__*/
 /*__LABHANDS__*/
+/*__TODAY__*/
+/*__MOVE__*/
+/*__ASK__*/
 
 /* ---------- PALETTE ---------- */
 let palIdx=[],palSel=0;
