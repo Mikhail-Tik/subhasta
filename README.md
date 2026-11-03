@@ -85,7 +85,7 @@ The page is `build/rostrum.html`, published with the Artifact tool to the existi
 
 ## The monthly refresh
 
-A scheduled task runs on the 3rd of each month in a fresh cloud session. It reads the published source from the artifact (`REFRESH.md` §1), updates `TODAY` and the dated collections (dispatches, calendar, fairs, upcoming lots, news, signals, the hubs and symptoms touched by the month's marquee weeks), rebuilds, tests and republishes (§3–§4). The data map in `REFRESH.md` §2 says which constant holds what; `ARCHITECTURE.md` §7 explains the fields and the order of edits for each kind of addition.
+A scheduled task runs on the 1st of each month (08:52 New York time) in a fresh cloud session; it also folds in what the live desk wrote and republishes the shareable copy. It reads the published source from the artifact (`REFRESH.md` §1), updates `TODAY` and the dated collections (dispatches, calendar, fairs, upcoming lots, news, signals, the hubs and symptoms touched by the month's marquee weeks), rebuilds, tests and republishes (§3–§4). The data map in `REFRESH.md` §2 says which constant holds what; `ARCHITECTURE.md` §7 explains the fields and the order of edits for each kind of addition.
 
 ## The live desk
 

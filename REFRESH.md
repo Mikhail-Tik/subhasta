@@ -94,7 +94,7 @@ Conventions: every figure carries a verification flag — `V` confirmed in a fet
 premium unless stated. Dates ISO (`2026-11-18`). Apostrophes inside single-quoted JS strings must be the
 typographic ’ (never '). Keep British spelling and the house style (short declarative sentences, no hype).
 
-## 3. The monthly refresh (run on the 3rd of each month, covering the previous month)
+## 3. The monthly refresh (run on the 1st of each month, covering the previous month; first fold in the live desk’s `live/` and `kb/` documents, §5)
 
 Always:
 1. Set `TODAY` (app.js) to the run date and `MARKET.verified` (data_market.js) to the date the figures were last
