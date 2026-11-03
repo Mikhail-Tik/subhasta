@@ -14,23 +14,28 @@
       <span class="motto">sub hasta — sold under the spear</span>
     </button>
     <nav class="nav" id="nav" aria-label="Sections">
-      <button data-v="reel">Reel</button>
-      <button data-v="floor">Floor</button>
-      <button data-v="pulse">Pulse</button>
-      <button data-v="atlas">Atlas</button>
-      <button data-v="houses">Houses</button>
-      <button data-v="people">People</button>
-      <button data-v="hammer">Hammer</button>
-      <button data-v="ledger">Ledger</button>
-      <button data-v="salon">Salon</button>
-      <button data-v="undertow">Undertow</button>
-      <button data-v="desk">Desk</button>
+      <button data-v="floor">Today</button>
+      <button data-v="ask" class="asknav">Ask</button>
+      <button data-v="movements">Movements</button>
+      <button data-v="hammer">Sales</button>
+      <button data-v="pulse">Market</button>
+      <button data-v="undertow">Money</button>
+      <button data-v="ledger">Provenance</button>
       <button data-v="lab">Lab</button>
-      <button data-v="lexicon">Lexicon</button>
-      <button data-v="circle">Circle</button>
+      <button class="morebtn" id="moreBtn" type="button" aria-expanded="false" aria-controls="navMore">More <span aria-hidden="true">▾</span></button>
+      <div class="navmore" id="navMore" role="group" aria-label="More sections">
+        <button data-v="reel">The Reel</button>
+        <button data-v="atlas">Atlas</button>
+        <button data-v="houses">Houses</button>
+        <button data-v="people">People</button>
+        <button data-v="salon">Salon</button>
+        <button data-v="lexicon">Lexicon</button>
+        <button data-v="circle">Circle</button>
+        <button data-v="desk" class="owner-only">Desk</button>
+      </div>
     </nav>
     <div class="tools">
-      <button class="chip" id="palBtn" title="Search everything (⌘K or Ctrl-K)"><span class="tx">Search</span><span class="ic" aria-hidden="true">⌕</span> <kbd aria-hidden="true">⌘K</kbd></button>
+      <button class="chip askchip" id="palBtn" title="Search everything, or ask the analyst (⌘K or Ctrl-K)"><span class="tx">Ask or search</span><span class="ic" aria-hidden="true">⌕</span> <kbd aria-hidden="true">⌘K</kbd></button>
       <button class="chip" id="themeBtn" title="Switch between light and dark"><span class="tx">Theme</span><span class="ic" aria-hidden="true">◐</span></button>
       <button class="chip menu" id="menuBtn" aria-label="Sections menu" aria-controls="nav" aria-expanded="false">Menu</button>
     </div>
@@ -39,7 +44,9 @@
 
 <div class="shell">
   <main>
-    <section class="view" id="v-floor" aria-label="The floor"></section>
+    <section class="view" id="v-floor" aria-label="Today"></section>
+    <section class="view" id="v-ask" aria-label="Ask Subhasta"></section>
+    <section class="view" id="v-movements" aria-label="Movements"></section>
     <section class="view" id="v-pulse" aria-label="Pulse"></section>
     <section class="view" id="v-atlas" aria-label="Atlas"></section>
     <section class="view" id="v-houses" aria-label="Houses and players"></section>
@@ -54,7 +61,7 @@
     <section class="view" id="v-lexicon" aria-label="Lexicon and instruments"></section>
     <section class="view" id="v-circle" aria-label="The Circle"></section>
     <section class="view" id="v-detail" aria-label="Dossier"></section>
-    <footer class="colophon"><b>Subhasta</b>, from the Latin <i>sub hasta</i>: in Rome, goods were auctioned beneath a spear planted in the ground, the praeco called the bids and the argentarius settled the money. Figures here are as reported by the houses, Arts Economics (Art Basel &amp; UBS 2026), ArtTactic, Bank of America Private Bank, Artprice and the trade press; every dossier, lot and signal links its sources. Provenance records come from the National Gallery of Art’s open data (CC0). Prices include buyer’s premium; private-treaty prices are press reports. Curated, not exhaustive: ${ALLCOUNT} organisations, ${PEOPLECOUNT} people, ${LOTCOUNT} lots, ${NGACOUNT} ownership histories, ${UNDERCOUNT} undercurrents, ${HUBCOUNT} hubs, ${SEGCOUNT} segments, ${INSTCOUNT} institutions. Map: Natural Earth via the D3 graph gallery, Robinson projection.</footer>
+    <footer class="colophon"><b>Subhasta</b>, from the Latin <i>sub hasta</i>: in Rome, goods were auctioned beneath a spear planted in the ground, the praeco called the bids and the argentarius settled the money. Figures here are as reported by the houses, Arts Economics (Art Basel &amp; UBS 2026), ArtTactic, Bank of America Private Bank, Artprice and the trade press; every dossier, lot and signal links its sources. Provenance records come from the National Gallery of Art’s open data (CC0). Prices include buyer’s premium; private-treaty prices are press reports. Curated, not exhaustive: ${ALLCOUNT} organisations, ${PEOPLECOUNT} people, ${LOTCOUNT} lots, ${NGACOUNT} ownership histories, ${UNDERCOUNT} undercurrents, ${HUBCOUNT} hubs, ${SEGCOUNT} segments, ${INSTCOUNT} institutions. Map: Natural Earth via the D3 graph gallery, Robinson projection. Movements: ${MOVECOUNT}, with museum essays and market sources. The analyst is Claude, reading the terminal’s records; the research desk refreshes the live pages twice a week.<span class="credit">Designed and built by <a href="https://www.linkedin.com/in/mikhailtikhomirov/" target="_blank" rel="noopener">Mikhail Tikhomirov</a>.</span></footer>
   </main>
 </div>
 
@@ -65,7 +72,7 @@
   <div class="db" id="dBody"></div>
 </div>
 <div class="pal" id="pal" role="dialog" aria-label="Search">
-  <div class="box"><input id="palq" type="search" placeholder="Search houses, lots, collectors, dealers, terms, dates…" aria-label="Search everything" autocomplete="off" aria-controls="palres"><div class="res" id="palres" role="listbox" aria-label="Results"></div><div class="ft"><span>↑↓ move</span><span>↵ open</span><span>esc close</span><span>1–9 switch sections (Floor to Salon)</span></div></div>
+  <div class="box"><input id="palq" type="search" placeholder="Search anything, or ask a question…" aria-label="Search everything, or ask the analyst" autocomplete="off" aria-controls="palres"><div class="res" id="palres" role="listbox" aria-label="Results"></div><div class="ft"><span>↑↓ move</span><span>↵ open</span><span>esc close</span><span>a question asks the analyst</span></div></div>
 </div>
 <div class="lightbox" id="lightbox" role="dialog" aria-label="Image"></div>
 <div class="reel" id="reel" aria-hidden="true" role="region" aria-roledescription="carousel" aria-label="The Reel">
@@ -79,7 +86,7 @@
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script>
-/* Load order matters and build.py pastes in exactly this order. The nine data files declare plain script-level consts, so each may
+/* Load order matters and build.py pastes in exactly this order. The data files declare plain script-level consts, so each may
    reference an earlier file at top level and a later one only inside a function. The app IIFE (src/app.js, with the four engines
    pasted inside it) reads the data at load, needs the markup above to exist (the script stays at the end of <body>) and sets
    window.__S. The Reel IIFE (src/reel.js) reads window.__S at its own top level, so it must stay after the app. */
@@ -96,6 +103,8 @@
 /*__DATA_GLOBE__*/
 /*__DATA_CIRCLE__*/
 /*__DATA_BENCH__*/
+/*__DATA_MOVEMENTS__*/
+/*__DATA_LIVE__*/
 const NGA=/*__NGA__*/[];
 /*__APP__*/
 /*__REEL__*/

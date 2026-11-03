@@ -67,8 +67,8 @@ const fs = require('fs'), path = require('path'), vm = require('vm');
 
 const ROOT = path.resolve(__dirname, '..');
 const SRC = path.join(ROOT, 'src');
-const DATA_FILES = ['data_houses.js', 'data_market.js', 'data_more.js', 'data_people.js', 'data_reel.js', 'data_under.js', 'data_pulse.js', 'data_atlas.js', 'data_world.js', 'data_flows.js', 'data_globe.js', 'data_circle.js', 'data_bench.js'];
-const ENGINE_FILES = ['app.js', 'reel.js', 'under.js', 'pulse.js', 'atlas.js', 'clinic.js', 'globe.js', 'circle.js', 'lab.js', 'lab_prov.js', 'lab_hands.js'];
+const DATA_FILES = ['data_houses.js', 'data_market.js', 'data_more.js', 'data_people.js', 'data_reel.js', 'data_under.js', 'data_pulse.js', 'data_atlas.js', 'data_world.js', 'data_flows.js', 'data_globe.js', 'data_circle.js', 'data_bench.js', 'data_movements.js', 'data_live.js'];
+const ENGINE_FILES = ['app.js', 'reel.js', 'under.js', 'pulse.js', 'atlas.js', 'clinic.js', 'globe.js', 'circle.js', 'lab.js', 'lab_prov.js', 'lab_hands.js', 'today.js', 'move.js', 'ask.js'];
 const IMG_META = path.join(ROOT, 'data', 'images_meta.json');
 const IMG_DIR = path.join(ROOT, 'build', 'img');
 const THUMB_DIR = path.join(ROOT, 'build', 'img', 't');

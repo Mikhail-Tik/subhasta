@@ -98,10 +98,10 @@ const SEGMENTS=[
 const FAIRS=[
 {d:'2026-10-13',e:'2026-10-18',n:'PAD London',city:'London',hub:'london',note:'Berkeley Square; design'},
 {d:'2026-10-14',e:'2026-10-18',n:'Frieze London & Frieze Masters',city:'London',hub:'london',note:'172 and about 140 galleries'},
-{d:'2026-10-14',e:'2026-10-15',n:'London October evening sales',city:'London',hub:'london',note:'Christie’s 14 Oct; Sotheby’s and Phillips 15 Oct, in Frieze week'},
+{d:'2026-10-14',e:'2026-10-15',n:'London October evening sales',city:'London',hub:'london',note:'Christie’s £218.6m in two sales (14 Oct); Sotheby’s contemporary £45.9m and Phillips £14.8m (15 Oct)'},
 {d:'2026-10-21',e:'2026-10-25',n:'Paris Internationale',city:'Paris',hub:'paris',note:''},
-{d:'2026-10-22',n:'Sotheby’s Paris: Monet’s Iris',city:'Paris',hub:'paris',note:'€22–30m; a French record is possible'},
-{d:'2026-10-23',e:'2026-10-25',n:'Art Basel Paris',city:'Paris',hub:'paris',note:'Grand Palais; preview 21–22 Oct; 211 galleries from 41 countries'},
+{d:'2026-10-22',n:'Sotheby’s Paris: Monet’s Iris',city:'Paris',hub:'paris',note:'€50m ($56.2m): the highest auction price ever paid in France'},
+{d:'2026-10-20',e:'2026-10-23',n:'Art Basel Paris',city:'Paris',hub:'paris',note:'Grand Palais; 211 galleries from 41 countries; closed at 7pm on 23 Oct as protests spread, the weekend cancelled'},
 {d:'2026-10-30',e:'2026-11-01',n:'Artissima',city:'Turin',hub:'milan',note:'OVAL Lingotto'},
 {d:'2026-11-05',e:'2026-11-08',n:'Art Cologne',city:'Cologne',hub:'berlin',note:''},
 {d:'2026-11-05',e:'2026-11-08',n:'Art X Lagos',city:'Lagos',hub:'lagos',note:''},
@@ -176,11 +176,12 @@ const REPORTS=[
 {m:3,n:'Knight Frank Wealth Report',by:'Knight Frank',what:'UHNWI counts by region; the Luxury Investment Index incl. art',last:'March 2026',next:'March 2027',u:'https://www.knightfrank.com/wealthreport'},
 {m:3,n:'The Art Newspaper visitor survey',by:'The Art Newspaper',what:'Museum attendance for the prior year',last:'31 Mar 2026',next:'March 2027',u:'https://www.theartnewspaper.com'},
 {m:3,n:'Bank of America Private Bank art market update',by:'Bank of America with ArtTactic',what:'US auction totals, guaranteed share, evening-sale analysis',last:'Mar 2026; spring update 22 Apr; fall update 25 Sep 2026',next:'March 2027',u:'https://www.privatebank.bankofamerica.com/articles/art-market-fall-update.html'},
-{m:4,n:'ArtTactic Confidence Report',by:'ArtTactic',what:'Primary and secondary market confidence; quarterly',last:'April 2026',next:'quarterly',u:'https://arttactic.com'},
+{m:4,n:'ArtTactic Confidence Report',by:'ArtTactic',what:'Primary and secondary market confidence; quarterly',last:'September 2026 (back in positive territory)',next:'quarterly',u:'https://arttactic.com'},
 {m:6,n:'Capgemini World Wealth Report',by:'Capgemini',what:'HNWI population and wealth',last:'June 2026',next:'June 2027',u:'https://www.capgemini.com'},
 {m:7,n:'Christie’s and Sotheby’s half-year results',by:'The houses',what:'Auction and private totals, sell-through, top lots',last:'15 Jul 2026',next:'July 2027',u:'https://www.theartnewspaper.com'},
 {m:9,n:'Altrata World Ultra Wealth Report',by:'Altrata',what:'UHNW population and wealth by region',last:'Sep 2026 (2025 data)',next:'September 2027',u:'https://altrata.com'},
-{m:10,n:'Art Basel & UBS Survey of Global Collecting',by:'Arts Economics',what:'HNW collectors’ spending, allocations, channels, women artists, digital; the 2026 edition finds Gen Z the highest spenders and AI tools used by 22% of collectors',last:'October 2026 (2025 and the first half of 2026)',next:'October 2027',u:'https://www.artbasel.com/stories/the-art-basel-and-ubs-survey-of-global-collecting-2026'},
+{m:10,n:'Art Basel & UBS Survey of Global Collecting',by:'Arts Economics',what:'HNW collectors’ spending, allocations, channels, women artists, digital; the 2026 edition finds Gen Z the highest spenders and AI tools used by 22% of collectors',last:'8 Oct 2026 (2025 and the first half of 2026)',next:'October 2027',u:'https://www.artbasel.com/stories/the-art-basel-and-ubs-survey-of-global-collecting-2026'},
+{m:10,n:'Artprice Contemporary Art Market Report',by:'Artmarket.com',what:'Contemporary auction value and lots sold, artists under 40, the balance between New York, London and Hong Kong; July to June',last:'8 Oct 2026 (Jul 2025–Jun 2026)',next:'October 2027',u:'https://chainwire.org/2026/10/08/artprice-releases-its-33rd-annual-contemporary-art-market-report-for-2026-record-transactions-price-trends-the-balance-of-market-power-and-artists-from-the-global-south'},
 {m:11,n:'Deloitte Private & ArtTactic Art & Finance Report',by:'Deloitte',what:'Art-secured lending, wealth managers’ art services; biennial',last:'November 2025',next:'November 2027',u:'https://arttactic.com'},
 {m:12,n:'Houses’ year-end results and Artnet/Artsy year reviews',by:'Christie’s, Sotheby’s, Phillips, Bonhams, Heritage; Artnet; Artsy',what:'Annual totals, top lots, category and price-band breakdowns',last:'17 Dec 2025 to Jan 2026',next:'December 2026',u:'https://news.artnet.com'}
 ];

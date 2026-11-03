@@ -65,7 +65,7 @@ function show(i){idx=(i+REEL.length)%REEL.length;const cards=$$('#reelStage .rc'
   // restart animations
   const big=$('.rnum',cur);if(big)countUp(big,cur.querySelector('.rbig').dataset.big,1500);
   $$('.rch',cur).forEach(x=>{x.style.animation='none';void x.offsetWidth;x.style.animation='';});
-  const svg=$('.rpath path.rline',cur);if(svg&&!reduce()){const len=svg.getTotalLength();svg.style.strokeDasharray=len;svg.style.strokeDashoffset=len;void svg.offsetWidth;svg.style.transition='stroke-dashoffset 2.2s ease .3s';svg.style.strokeDashoffset='0';}
+  const svg=$('.rpath path.rline',cur);if(svg&&typeof svg.getTotalLength==='function'&&!reduce()){const len=svg.getTotalLength();svg.style.strokeDasharray=len;svg.style.strokeDashoffset=len;void svg.offsetWidth;svg.style.transition='stroke-dashoffset 2.2s ease .3s';svg.style.strokeDashoffset='0';}
   $$('#reelBar .seg').forEach((s,k)=>{s.classList.toggle('done',k<idx);s.classList.toggle('cur',k===idx);const f=s.querySelector('i');f.style.width=k<idx?'100%':'0%';});
   // preload neighbours
   [idx+1,idx+2].forEach(k=>{const c=REEL[k];if(c&&c.i&&IMG[c.i]){const im=new Image();im.src=`img/${c.i}.jpg`;}});

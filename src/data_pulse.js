@@ -103,6 +103,9 @@ const LONGVIEW=[
 const RECORDS2=[
 ['Gustav Klimt','$236.4m','Portrait of Elisabeth Lederer','Sotheby’s NY, 18 Nov 2025','record set 2025','V'],
 ['Jackson Pollock','$181.2m','Number 7A','Christie’s NY, 18 May 2026','record set 2026','V'],
+['Liubov Popova','$10.1m','Painterly Architectonic','Christie’s London, 14 Oct 2026','record set 2026','V'],
+['Barbara Hepworth','$8.3m','Sculpture with Colour (Eos)','Christie’s London, 21 Oct 2026','record for a unique work, set 2026','V'],
+['Bridget Riley','$6.9m','Streak 2','Christie’s London, 14 Oct 2026','record set 2026','V'],
 ['Leonardo da Vinci','$450.3m','Salvator Mundi','Christie’s NY, 15 Nov 2017','—','V'],
 ['Pablo Picasso','$179.4m','Les Femmes d’Alger (Version O)','Christie’s NY, 11 May 2015','2026 top: Tête de femme (Fernande) $48.4m; Nov 2026: Le Baiser ≈$40m from Koons','V'],
 ['Andy Warhol','$195m','Shot Sage Blue Marilyn','Christie’s NY, 9 May 2022','none in the 2025 top 10','S'],
@@ -141,6 +144,11 @@ const RECORDS2=[
 
 /* dispatches, 1 Sep – 6 Oct 2026 */
 const DISPATCHES=[
+{d:'2026-11-01',r:'Middle East',h:'Christie’s first fine-art auction in Abu Dhabi makes $8.94m, 60 of 68 lots sold, with records for nine artists; Sotheby’s follows on 10 December.',f:'$8.94m',u:'https://usaartnews.com/auctions/christies-abu-dhabi-debut-fine-art-sale-achieves-894-million/',vf:'S'},
+{d:'2026-10-22',r:'Europe',h:'Monet’s Iris makes €50m at Sotheby’s Paris, the highest auction price ever paid in France; the Schlumberger collection makes €74.4m against a €40m estimate, every lot sold.',f:'€50m',u:'https://www.theartnewspaper.com/2026/10/23/monets-monumental-iris-makes-56m-in-paris',vf:'V'},
+{d:'2026-10-22',r:'Europe',h:'Art Basel Paris closes at 7pm on 23 October and cancels its weekend as protests spread across France; dealers report a Richter at $10.5m and a Mehretu at $7.8m in the previews.',f:'1 of 3 days',u:'https://www.theartnewspaper.com/2026/10/22/art-basel-paris-closes-early-due-to-protests',vf:'V'},
+{d:'2026-10-21',r:'Americas',h:'A Roman marble torso makes $34.3m against an $8–12m estimate at Sotheby’s New York, an auction record for a Roman antiquity.',f:'$34.3m',u:'https://usaartnews.com/auctions/roman-imperial-torso-sells-for-343-million-at-sothebys/',vf:'V'},
+{d:'2026-10-15',r:'Europe',h:'Christie’s two London evening sales make £218.6m, led by the restituted Kandinsky at £31.6m; Sotheby’s contemporary sale makes £45.9m, its hammer short of the low estimate.',f:'£218.6m',u:'https://www.theartnewspaper.com/2026/10/15/christies-achieves-%c2%a3219m-in-steady-solid-london-sales',vf:'V'},
 {d:'2026-10-05',r:'Americas',h:'Jeff Koons consigns nine works from his own collection to Christie’s New York for 17 November: Picasso’s Le Baiser (≈$40m, bought for $17.4m in 2008), a Manet, a Cornelis van Haarlem and a Riemenschneider.',f:'≈$100m',u:'https://news.artnet.com/artnet-bulletin/jeff-koons-christies-oct-5-2819871',vf:'V'},
 {d:'2026-10-02',r:'Asia',h:'Artnet’s count of the autumn series: Christie’s HK$956.5m (+17%), Sotheby’s HK$956m (91% sold), Phillips HK$94.5m; Nara’s Present HK$71.1m at Sotheby’s.',f:'$255m',u:'https://news.artnet.com/market/hong-kongs-fall-auctions-top-255m-2818921',vf:'V'},
 {d:'2026-09-30',r:'Americas',h:'A Florida bankruptcy court lets George Weiss sell 16 works (Bacon, Cézanne, Picasso, Warhol) at Sotheby’s in November, six of them guaranteed, against a $93.9m Bank of America loan.',f:'16 lots',u:'https://www.bloomberg.com/news/articles/2026-09-30/bankrupt-fund-founder-weiss-agrees-to-auction-art-at-sotheby-s',vf:'S'},

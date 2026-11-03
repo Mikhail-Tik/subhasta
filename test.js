@@ -13,9 +13,9 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
   assert(d.documentElement.lang==='en','document language is en');
   assert(q('#drawer').tagName==='DIV','#drawer is a <div>');
   const G=expr=>w.eval(expr); /* the data files are script-level consts: not window properties, but visible to an indirect eval */
-  assert(q('#v-floor .status .chip').textContent.includes(G('MARKET.verified')),'Floor chip carries MARKET.verified');
-  assert(q('#v-floor .hero h2').textContent===G('HERO.h'),'hero heading is HERO.h');
-  const views=['floor','pulse','atlas','houses','people','hammer','ledger','salon','undertow','desk','lexicon'];
+  assert(qa('#v-floor .status .chip').some(c=>c.textContent.includes(G('MARKET.verified'))),'Today’s chips carry MARKET.verified');
+  assert(q('#v-floor .srlead h3').textContent===G('HERO.h'),'the sale room’s lead is HERO.h');
+  const views=['floor','ask','movements','pulse','atlas','houses','people','hammer','ledger','salon','undertow','desk','lexicon'];
   for(const v of views){q(`#nav button[data-v="${v}"]`).click();const el=q('#v-'+v);log.push(`${v}: on=${el.classList.contains('on')} ${(el.innerHTML.length/1024).toFixed(0)}KB`);}
   w.location.hash='#signals';w.dispatchEvent(new w.Event('hashchange'));log.push('signals via hash: on='+q('#v-signals').classList.contains('on'));
   log.push('guide: '+!!q('.guide')+' buttons='+qa('.guide [data-g]').length);const gb=q('.guide [data-g="close"]');if(gb)gb.click();log.push('guide closed: '+(w.localStorage.getItem('subhasta.seen')));
@@ -25,7 +25,7 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
   qa('#v-detail .lot')[0].click();log.push('lot: '+q('#v-detail h1').textContent+' chain='+qa('#v-detail .ch').length+' hash='+w.location.hash);
   w.location.hash='#lot-basquiat-untitled';w.dispatchEvent(new w.Event('hashchange'));log.push('basquiat price path svg: '+qa('#v-detail .chart svg').length+' '+(q('#v-detail .chart')?q('#v-detail .chart').previousElementSibling.textContent.trim().slice(0,80):''));
   q('#nav button[data-v="people"]').click();log.push('people: '+qa('#plist .person').length);qa('#plist .person')[0].click();log.push('person: '+q('#v-detail h1').textContent+' hash='+w.location.hash+' peers='+qa('#v-detail .person').length);
-  q('#nav button[data-v="floor"]').click();qa('#v-floor .upl')[0].click();log.push('upcoming drawer: '+q('#dTitle').textContent+' chain='+qa('#dBody .ch').length);q('#dClose').click();
+  q('#nav button[data-v="floor"]').click();q('#v-floor .srlead [data-up]').click();log.push('upcoming drawer: '+q('#dTitle').textContent+' chain='+qa('#dBody .ch').length);q('#dClose').click();
   w.location.hash='#lot-pollock-number-7a';w.dispatchEvent(new w.Event('hashchange'));qa('#v-detail [data-artist]')[0].click();log.push('artist: '+q('#v-detail h1').textContent+' provs='+qa('#v-detail .prov').length+' hash='+w.location.hash);
   q('#nav button[data-v="hammer"]').click();log.push('rows: '+qa('#rtbl tbody tr').length+' artists index rows: '+qa('#v-hammer table')[1].querySelectorAll('tbody tr').length);const sel=q('#rera');sel.value='2026';sel.dispatchEvent(new w.Event('change'));log.push('2026 rows: '+qa('#rtbl tbody tr').length);
   q('#nav button[data-v="ledger"]').click();log.push('ledger: '+qa('#lres .prov').length);const lq=q('#lq');lq.value='Duveen';lq.dispatchEvent(new w.Event('input'));log.push(q('#lres h2').textContent);qa('#lres .prov')[0].click();log.push('drawer: '+q('#drawer').classList.contains('on')+' '+q('#dTitle').textContent);q('#dClose').click();
@@ -38,7 +38,7 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
   w.location.hash='#reel-3';w.dispatchEvent(new w.Event('hashchange'));log.push('reel open: '+q('#reel').classList.contains('on')+' cards='+qa('#reelStage .rc').length+' on='+(q('#reelStage .rc.on')||{}).dataset?.i+' imgs='+qa('#reelStage img').length+' count='+q('#reelCount').textContent+' segs='+qa('#reelBar .seg').length);
   q('#reelNext').click();log.push('reel next: '+(q('#reelStage .rc.on')||{}).dataset?.i+' big='+(q('#reelStage .rc.on .rnum')||{textContent:''}).textContent);
   q('#reelClose').click();log.push('reel closed: '+!q('#reel').classList.contains('on')+' floor on='+q('#v-floor').classList.contains('on'));
-  log.push('hero img: '+!!q('#v-floor .hero img')+' tiles with img: '+qa('#treemap .tile.img').length);
+  log.push('ask hero img: '+!!q('#v-floor .tdask img')+' tiles with img: '+qa('#treemap .tile.img').length);
   w.location.hash='#lot-klimt-dame-mit-f-cher';w.dispatchEvent(new w.Event('hashchange'));log.push('lot figure: '+qa('#v-detail .figure').length+' '+q('#v-detail h1').textContent);
   w.location.hash='#artist-gustav-klimt';w.dispatchEvent(new w.Event('hashchange'));log.push('artist gallery: '+qa('#v-detail .gallery a').length);
   w.location.hash='#house-sothebys';w.dispatchEvent(new w.Event('hashchange'));log.push('house figure: '+qa('#v-detail .figure').length);
@@ -59,7 +59,7 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
   log.push('reel kinds: '+[...new Set(qa('#reelStage .rc').map(x=>x.className.match(/k-(\w+)/)[1]))].join(','));
   const money=q('#reelStage .rc.k-money');log.push('money card rows: '+(money?money.querySelectorAll('.rf').length:0)+' '+(money?money.querySelector('.rf b').textContent:''));
   w.location.hash='#lot-klimt-dame-mit-f-cher';w.dispatchEvent(new w.Event('hashchange'));q('#v-detail [data-flowlot]').click();log.push('flow for lot: '+q('#fhv').textContent+' venue='+q('#fvenue').value+' on='+q('#v-undertow').classList.contains('on')+' buyer='+qa('#fkpi .kpi .v')[0].textContent);
-  q('#nav button[data-v="floor"]').click();log.push('floor teaser: '+qa('#v-floor .ut').length);qa('#v-floor .ut')[0].click();log.push('teaser drawer: '+q('#dTitle').textContent);q('#dClose').click();
+  q('#nav button[data-v="floor"]').click();log.push('learned: '+qa('#v-floor .learn').length);qa('#v-floor .learn')[0].click();log.push('learned drawer: '+q('#dTitle').textContent);q('#dClose').click();
   q('#reelClose').click();
   q('#nav button[data-v="pulse"]').click();log.push('pulse: vitals='+qa('#v-pulse .vt').length+' charts='+qa('#v-pulse .chart svg').length+' symptoms='+qa('#v-pulse .sym').length+' longview='+qa('#longview .lv').length+' records='+qa('#v-pulse table tbody tr').length+' dispatches='+qa('#v-pulse .wire').length+' foryou cols='+qa('#v-pulse .fyc').length);
   qa('#v-pulse .vt')[0].click();log.push('vital drawer: '+q('#dTitle').textContent+' svg='+qa('#dBody svg').length);q('#dClose').click();
@@ -97,7 +97,7 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
   w.location.hash='#reel-999';w.dispatchEvent(new w.Event('hashchange'));assert((q('#reelStage .rc.on')||{}).dataset.i===String(N-1)&&w.location.hash==='#reel-'+N,`#reel-999 clamps to the last card (got ${(q('#reelStage .rc.on')||{}).dataset.i}, ${w.location.hash})`);q('#reelClose').click();
   log.push('reel clamp: #reel-0 → card 1, #reel-999 → card '+N);
   /* closing a deep-linkable drawer gives the hash back to the view beneath it, or to the dossier beneath it */
-  q('#nav button[data-v="floor"]').click();qa('#v-floor .ut')[0].click();assert(/^#under-/.test(w.location.hash),'undercurrent drawer sets its hash');q('#dClose').click();assert(w.location.hash==='#floor',`closing the drawer restores #floor (got ${w.location.hash})`);
+  q('#nav button[data-v="undertow"]').click();qa('#v-undertow [data-under]')[0].click();assert(/^#under-/.test(w.location.hash),'undercurrent drawer sets its hash');q('#dClose').click();assert(w.location.hash==='#undertow',`closing the drawer restores #undertow (got ${w.location.hash})`);
   w.location.hash='#lot-basquiat-untitled';w.dispatchEvent(new w.Event('hashchange'));w.__S.openAtlas('nahmad');assert(w.location.hash==='#under-nahmad'&&q('#drawer').classList.contains('on'),'drawer over a dossier sets its hash');q('#dClose').click();assert(w.location.hash==='#lot-basquiat-untitled'&&q('#v-detail').classList.contains('on'),`closing the drawer over a dossier restores the dossier hash (got ${w.location.hash})`);
   log.push('drawer close restores: view hash and dossier hash');
   /* searches are apostrophe- and diacritic-insensitive */
@@ -200,6 +200,55 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
   assert(ex('london','parishome').destVat>0&&ex('paris','parishome').destVat===0&&ex('london','genevahome').destVat>0&&ex('ny','museum').ins===0&&ex('ny','nyc').ins>0,'Follow the money: import VAT on arrival from another country, none from the same; the museum insures a loan');
   log.push('matrix: '+q('.fmx-read').textContent.slice(0,160));
   log.push('gap audit: hammer, houses, atlas, palette, pulse, floor, undertow, print checked');
+  /* ---------- v22: Today, the analyst, the movements, the live layer, the masthead ---------- */
+  {q('#nav button[data-v="floor"]').click();const L=G('LIVE');
+   assert(qa('#v-floor .srrow').length===L.sales.length,`the sale room draws every sale (${qa('#v-floor .srrow').length} of ${L.sales.length})`);
+   assert(qa('#v-floor .srcol').length===2,'the sale room has a verdict column and a test column');
+   assert(qa('#v-floor .tell').length===L.read.tells.length,'one tell per LIVE.read.tells entry');
+   assert(q('#v-floor .readin h3').textContent===L.read.h,'the Read’s headline is LIVE.read.h');
+   assert(qa('#v-floor .gotile').length===8,'eight ways deeper');
+   assert(!!q('#tdAskForm')&&!!q('#tdAskIn'),'Today carries the ask bar');
+   qa('#v-floor .srrow')[0].click();assert(q('#drawer').classList.contains('on')&&/Sotheby|Christie|Phillips|Fair Warning/.test(q('#dTitle').textContent),'a sale room row opens its sale');q('#dClose').click();
+   const below=L.sales.filter(x=>x.res&&x.res.v==='below').length;assert(qa('#v-floor .srrow .res.below').length===below,'every sale below its estimate is marked below');}
+  {const S=w.__S;
+   const md=S.mdRender('<img src=x onerror=alert(1)> **bold** [[lot:monet-iris|Iris]] [[lot:nope|Ghost]] [x](javascript:alert(1)) [ok](https://example.org/a)\n| A | B |\n|---|---|\n| one | $2.5m |\n- item');
+   assert(!/<img/.test(md)&&/&lt;img/.test(md),'mdRender escapes markup');assert(/<b>bold<\/b>/.test(md),'mdRender: bold');
+   assert(/<button class="ref" data-ref="lot:monet-iris"/.test(md),'mdRender: a known ref becomes a link');assert(/<span class="ref dead">Ghost<\/span>/.test(md),'mdRender: an unknown ref stays text');
+   assert(!/href="javascript/.test(md)&&/href="https:\/\/example.org\/a"/.test(md),'mdRender: only http(s) links');assert(/<table class="tbl">/.test(md)&&/<td class="n">\$2.5m<\/td>/.test(md),'mdRender: tables, numbers right-aligned');assert(/<ul><li>item<\/li><\/ul>/.test(md),'mdRender: lists');
+   const sp=S.askSplit('Hello.\nNEXT: One? | Two? | Three?\nGAP: the 2019 price');assert(sp.body==='Hello.'&&sp.next.length===3&&sp.gap==='the 2019 price','askSplit takes off NEXT and GAP');
+   assert(S.askSplit('Answer\nNEX').body==='Answer','askSplit holds back a half-written NEXT');
+   const k1=S.kxSearch('Klimt Lederer',5);assert(k1.length&&k1.some(h=>h.ref==='lot:klimt-portrait-of-elisabeth-lederer'),'the index finds the Lederer portrait');
+   const k2=S.kxSearch('impressionists',5);assert(k2[0]&&k2[0].ref==='movement:impressionism',`stems: impressionists → the Impressionism movement (got ${k2[0]&&k2[0].ref})`);
+   const k3=S.kxSearch('private sale de Kooning Interchange',5);assert(k3.some(h=>h.kind==='private'),'private sales are searchable');
+   assert(S.kxCount()>1500,`the index holds the page (${S.kxCount()} records)`);
+   const c=S.dataAnswer('What does a $20m hammer cost in all, bought in London and kept in a Geneva freeport?');assert(/\| \*\*Total\*\* \|/.test(c)&&/London/.test(c)&&/freeport/i.test(c),'the data answer prices a hammer all in');
+   const pv=S.dataAnswer('What are the biggest private sales on record?');assert(/\[\[private:\d+\|/.test(pv),'the data answer lists private sales');
+   const mv=S.dataAnswer('Explain the Vienna Secession');assert(/### Vienna Secession/.test(mv)&&/\[\[movement:viennasecession\|/.test(mv),'the data answer explains a movement');
+   const f=S.allInCost({hammer_usd:20e6,house:'christies',room:'london',destination:'freeport'});assert(f.total_to_buyer_usd>f.price_with_premium_usd&&f.price_with_premium_usd>20e6,'all_in_cost adds premium and costs');
+   const st=S.salesStats({artist:'Monet',include_private:true});assert(st.count>=3&&st.top[0].price_usd_m>=st.median_usd_m,'sales_stats over an artist');
+   assert(S.askRecordFull('artist:Claude Monet').lots.length>=3&&S.askRecordFull('movement:impressionism').lots_in_terminal.length>=1,'get_record: an artist and a movement');
+   assert(S.liveValid('read',{asof:'2026-11-05',h:'A headline',dek:'A thesis.',src:[['TAN','https://www.theartnewspaper.com/x']]})===true,'liveValid accepts a well-formed read');
+   assert(S.liveValid('read',{asof:'2026-11-05',h:'A headline',dek:'A thesis.',src:[['TAN','javascript:alert(1)']]})===false,'liveValid refuses a non-https source');
+   assert(S.liveValid('sales',{asof:'2026-11-05',items:[{id:'bad id',n:'x',d:'2026-11-18',house:'sothebys'}]})===false,'liveValid refuses a malformed sale id');}
+  {q('#nav button[data-v="ask"]').click();assert(q('#v-ask').classList.contains('on')&&qa('#v-ask .askq').length>=8,'Ask opens with example questions');
+   const i=q('#askIn');i.value='Explain the Vienna Secession';q('#askForm').dispatchEvent(new w.Event('submit',{cancelable:true}));
+   const turn=qa('#askThread .turn').pop();assert(turn&&/Vienna Secession/.test(turn.querySelector('.q').textContent),'a question becomes a turn');
+   assert(turn&&turn.querySelector('.md h4')&&/Vienna Secession/.test(turn.querySelector('.md h4').textContent),'without Claude, the data answer is drawn');
+   assert(turn&&turn.querySelectorAll('.md .ref').length>=2&&turn.querySelectorAll('.arefs .rchip').length>=3,'the answer links its records');
+   turn.querySelector('.md .ref[data-ref^="movement:"]').click();assert(q('#v-detail').classList.contains('on')&&/^#movement-viennasecession$/.test(w.location.hash),'a movement ref opens its dossier');
+   assert(qa('#v-detail .mvpics .figure').length>=1&&qa('#v-detail .mvmk [data-lot]').length>=1,'the dossier shows pictures and its lots');
+   const saved=JSON.parse(w.localStorage.getItem('subhasta.ask.thread')||'{}');assert(saved.turns&&saved.turns.length>=1,'the conversation is kept in this browser');}
+  {q('#nav button[data-v="movements"]').click();const n=G('MOVEMENTS.length');assert(qa('#mvtl .mv').length===n&&qa('#mvcards .mvc').length===n,`the timeline and the cards draw all ${n} movements`);
+   q('#v-movements [data-era="postwar"]').click();const k=qa('#mvcards .mvc').length;assert(k>0&&k<n,'an era filters the movements');q('#v-movements [data-era="all"]').click();
+   const lab=qa('#mvtl .mv text').map(t=>+t.getAttribute('x'));assert(lab.every(x=>x>=0&&x<=1240),'every timeline label sits inside the timeline');
+   w.location.hash='#movement-impressionism';w.dispatchEvent(new w.Event('hashchange'));assert(q('#v-detail h1').textContent==='Impressionism','#movement-<id> opens the dossier');}
+  {q('#palBtn').click();const pq=q('#palq');pq.value='Why did Monet’s Iris make €50m?';pq.dispatchEvent(new w.Event('input'));assert(q('#palres .ri').classList.contains('ask'),'a question puts the analyst first in the palette');
+   pq.value='Sotheby';pq.dispatchEvent(new w.Event('input'));const rows=qa('#palres .ri');assert(!rows[0].classList.contains('ask')&&rows[rows.length-1].classList.contains('ask'),'a name puts the matches first and the analyst last');
+   pq.value='Explain Cubism';pq.dispatchEvent(new w.Event('input'));pq.dispatchEvent(new w.KeyboardEvent('keydown',{key:'Enter',bubbles:true}));assert(q('#v-ask').classList.contains('on')&&!q('#pal').classList.contains('on'),'Enter on the analyst row opens Ask');}
+  {const mb=q('#moreBtn');mb.click();assert(q('#navMore').classList.contains('on')&&mb.getAttribute('aria-expanded')==='true','More opens the rest of the sections');q('#navMore button[data-v="atlas"]').click();assert(q('#v-atlas').classList.contains('on')&&!q('#navMore').classList.contains('on')&&mb.classList.contains('on'),'a More section opens and marks More');
+   assert(q('#nav button[data-v="desk"]').classList.contains('owner-only'),'the Desk is the owner’s');
+   assert(/linkedin\.com\/in\/mikhailtikhomirov/.test(q('.colophon .credit a').href),'the colophon credits the builder');
+   q('#nav button[data-v="hammer"]').click();assert((q('#v-hammer .eyebrow')||{}).textContent==='Sales','the Hammer wears its masthead name');}
   /* the Lab: five instruments; repeat sales against the benchmarks; the round trip on Follow the money's entry; the verification count adds up */
   q('#nav button[data-v="lab"]').click();assert(q('#v-lab').classList.contains('on'),'the Lab opens from the masthead');
   assert(['returns','roundtrip','structure','provenance','hands','confidence'].every(k=>!!q('#lab-'+k)),'the Lab carries its six instruments');
