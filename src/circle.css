@@ -1,0 +1,121 @@
+/* ---------- the Circle (appended to style.css by build.py) ----------
+   Calm and expensive: Caslon display on the paper, gilt only where money is, hairline rules, generous space.
+   Classes are prefixed .ci-; the Brief is .brief. Print: body.print-brief shows the sheet alone, black on white. */
+.ci-k{font-family:var(--read);font-variant:small-caps;letter-spacing:.1em;font-size:15px;color:var(--gilt);margin-bottom:8px}
+#v-circle .head{margin-bottom:34px}
+#v-circle .head .dek{max-width:74ch;font-size:17px;line-height:1.6}
+#v-circle .grid{gap:40px 28px}
+
+/* the offer: three quiet cards, a gilt rule on the Private tier only */
+.ci-tiers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:6px}
+.ci-tier{border:1px solid var(--rule);background:var(--paper);padding:22px 22px 18px;display:flex;flex-direction:column;min-width:0;transition:border-color .2s}
+.ci-tier:hover{border-color:var(--rule2)}
+.ci-tier.mark{border-top:2px solid var(--gilt)}
+.ci-tn{font-family:var(--display);font-size:27px;line-height:1.1;color:var(--ink)}
+.ci-who{font-family:var(--read);font-style:italic;font-size:14.5px;color:var(--ink3);margin:6px 0 14px}
+.ci-items{list-style:none;margin:0;padding:0;flex:1}
+.ci-items li{border-top:1px solid var(--rule);padding:9px 0;font-size:13.5px;line-height:1.5;color:var(--ink)}
+.ci-items li:first-child{border-top-color:var(--rule2)}
+.ci-foot{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;border-top:1px solid var(--rule2);margin-top:14px;padding-top:12px}
+.ci-price{font-family:var(--display);font-size:19px;color:var(--gilt);font-variant-numeric:lining-nums}
+.ci-personal{font-family:var(--read);font-style:italic;font-size:14px;color:var(--ink3);text-align:center;margin:18px 0 0}
+
+/* the invitation */
+.ci-invite .ci-p{font-family:var(--read);font-size:16.5px;line-height:1.65;color:var(--ink);max-width:62ch;margin:0 0 16px}
+.ci-invite .sub{font-style:normal;color:var(--gilt)}
+.ci-note{margin-top:16px;font-size:13.5px;line-height:1.55;color:var(--ink2);max-width:72ch}
+.ci-note[hidden]{display:none}
+.ci-note p{margin:0}
+.ci-note .req{font-family:var(--mono);font-size:12.5px;line-height:1.55;color:var(--ink);background:var(--paper);border:1px solid var(--rule);padding:10px 12px;margin-top:10px;white-space:pre-wrap;overflow-wrap:anywhere}
+
+/* why: six claims in two columns */
+.ci-why{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 40px}
+.ci-pt{border-top:1px solid var(--rule);padding-top:14px;min-width:0}
+.ci-pt b{display:block;font-family:var(--display);font-weight:400;font-size:21px;line-height:1.2;color:var(--ink);margin-bottom:7px;text-wrap:balance}
+.ci-pt p{font-family:var(--read);font-size:15px;line-height:1.62;color:var(--ink2);margin:0 0 11px}
+
+/* the Brief: a paper sheet, 720px, hairline rules, tabular numerals */
+.brief{position:relative;max-width:720px;margin:0 auto;background:var(--paper);border:1px solid var(--rule);padding:38px 44px 30px;font-family:var(--read);font-size:14.5px;line-height:1.55;color:var(--ink);font-variant-numeric:lining-nums tabular-nums;min-width:0}
+.brief::before{content:"";position:absolute;inset:6px;border:1px solid var(--rule);pointer-events:none;opacity:.7}
+.brief .bh{text-align:center}
+.brief .bm{font-family:var(--display);font-size:34px;line-height:1.1;letter-spacing:.01em;color:var(--ink)}
+.brief .bd{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-family:var(--ui);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);padding:8px 0;margin-top:14px}
+.brief .lead .l1{font-family:var(--display);font-size:22px;line-height:1.28;margin:20px 0 10px;color:var(--ink);text-wrap:pretty}
+.brief .lead .ln{margin:0 0 6px;padding-left:16px;position:relative;color:var(--ink2);font-size:14.5px}
+.brief .lead .ln::before{content:"·";position:absolute;left:3px;top:-1px;color:var(--gilt);font-weight:700}
+.brief .bs h3{font-family:var(--ui);font-weight:500;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);border-top:1px solid var(--rule);padding-top:9px;margin:24px 0 10px}
+.brief .bv{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border-top:1px solid var(--rule);border-left:1px solid var(--rule)}
+.brief .bvt{display:flex;flex-direction:column;gap:3px;align-items:flex-start;text-align:left;padding:10px 12px 9px;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);background:var(--paper);min-width:0;font-family:var(--ui);transition:background .2s}
+.brief .bvt:hover{background:var(--paper2)}
+/* child combinators: the verification pill inside a tile carries the class .v/.s/.u too */
+.brief .bvt>.l{font-size:12px;color:var(--ink2);line-height:1.35}
+.brief .bvt>.v{font-family:var(--display);font-size:26px;line-height:1;color:var(--gilt);margin:3px 0 2px}
+.brief .bvt>.d{font-size:12px;color:var(--ink2);line-height:1.4}
+.brief .bvt>.d b{font-weight:500}.brief .bvt>.d b.up{color:var(--verd)}.brief .bvt>.d b.down{color:var(--claret)}.brief .bvt>.d b.flat{color:var(--ink2)}
+.brief .bvt>.f{margin-top:3px}
+.brief .bvt>.f .vf{margin-right:0}
+.brief .bdx{margin:0 0 9px;font-size:14.5px;line-height:1.6}
+.brief .lnk{font-family:var(--display);font-size:16.5px;color:var(--ink);text-align:left;border-bottom:1px solid var(--gilt);line-height:1.2}
+.brief .lnk:hover{color:var(--gilt)}
+.brief .bcal{display:grid;grid-template-columns:128px minmax(0,1fr) auto;gap:12px;align-items:baseline;padding:6px 0;border-top:1px solid var(--rule);font-size:13.5px}
+.brief .bcal:first-of-type{border-top:0}
+.brief .bcal .d{color:var(--gilt);white-space:nowrap}
+.brief .bcal .n{min-width:0}
+.brief .bcal .c{font-family:var(--ui);font-size:12px;color:var(--ink3);white-space:nowrap}
+.brief .bdp{display:grid;grid-template-columns:78px minmax(0,1fr);gap:12px;padding:7px 0;border-top:1px solid var(--rule);font-size:13.5px;line-height:1.5}
+.brief .bdp:first-of-type{border-top:0}
+.brief .bdp .d{color:var(--ink3);white-space:nowrap;padding-top:1px}
+.brief .bdp a{color:var(--ink)}
+.brief .bdp .f{font-family:var(--display);color:var(--gilt);white-space:nowrap}
+.brief .bdp .r{font-family:var(--ui);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink3);margin-left:2px}
+.brief .bdp .vf{margin-right:6px}
+.brief .bsrc{margin:0;padding-left:20px;font-family:var(--ui);font-size:12.5px;color:var(--ink2);line-height:1.65}
+.brief .bsrc a{color:var(--ink2)}
+.brief .bf{margin-top:24px;padding-top:10px;border-top:1px solid var(--ink);font-family:var(--ui);font-size:12px;line-height:1.5;color:var(--ink3)}
+.ci-briefsect .ci-personal{margin-top:14px}
+
+/* the closing line */
+.ci-close{text-align:center;border-top:1px solid var(--rule);padding:30px 0 6px}
+.ci-close .motto{font-family:var(--display);font-size:28px;line-height:1.2;letter-spacing:.01em;color:var(--ink)}
+.ci-close .motto i{color:var(--gilt)}
+.ci-close p{font-family:var(--read);font-style:italic;font-size:15px;color:var(--ink3);margin:8px 0 18px}
+
+/* phone and narrow screens: one column */
+@media (max-width:1180px){.ci-tiers{grid-template-columns:repeat(2,minmax(0,1fr))}.ci-tier.mark{grid-column:span 2}}
+@media (max-width:900px){
+  .ci-tiers{grid-template-columns:1fr}.ci-tier.mark{grid-column:auto}
+  .ci-why{grid-template-columns:1fr;gap:18px}
+  #v-circle .grid{gap:32px 0}
+  .brief{padding:24px 18px 22px}
+  .brief::before{inset:5px}
+  .brief .bm{font-size:26px}
+  .brief .lead .l1{font-size:19px}
+  .brief .bv{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .brief .bvt>.v{font-size:23px}
+  .brief .bcal{grid-template-columns:108px minmax(0,1fr)}
+  .brief .bcal .c{display:none}
+  .brief .bdp{grid-template-columns:1fr;gap:2px}
+  .ci-close .motto{font-size:22px}
+}
+@media (max-width:480px){.brief .bv{grid-template-columns:1fr}.brief .bd{font-size:11px}}
+
+@media (prefers-reduced-motion: reduce){.ci-tier,.brief .bvt{transition:none}}
+
+/* print: the Circle prints black on white; body.print-brief (set by "Print the brief") shows the sheet alone */
+@media print{
+  .ci-acts,.ci-invite .chips,.ci-foot .btn,.ci-pt .chips,.ci-close .btn,.ci-note{display:none!important}
+  .brief{max-width:none;border:0;padding:0;background:#fff;color:#111;font-size:12.5pt}
+  .brief::before{display:none}
+    body.print-brief{background:#fff}
+  .brief .bm,.brief .lead .l1,.brief .lnk,.brief .bdp a,.brief .bvt>.l,.brief .bvt>.d,.brief .bvt>.d b,.brief .bdp .d,.brief .bdp .r,.brief .bsrc,.brief .bsrc a,.brief .bf,.brief .bs h3,.brief .bd,.brief .lead .ln,.brief .bcal .c{color:#111}
+  .brief .bvt>.v,.brief .bcal .d,.brief .bdp .f,.brief .lead .ln::before,.brief .bvt>.d b.up,.brief .bvt>.d b.down,.brief .bvt>.d b.flat{color:#111}
+  .brief .bvt{background:#fff;border-color:#999}
+  .brief .bv,.brief .bcal,.brief .bdp,.brief .bs h3,.brief .bd{border-color:#999}
+  .brief .bd,.brief .bf{border-top-color:#111}
+  .brief .vf{color:#111!important;border-color:#999!important}
+  .brief .lnk{border-bottom-color:#999}
+  .brief .bs,.brief .bvt,.brief .bcal,.brief .bdp{break-inside:avoid}
+  body.print-brief #v-circle{display:block!important}
+  body.print-brief #v-circle>*:not(.grid),body.print-brief #v-circle .grid>*:not(.ci-briefsect),body.print-brief .ci-briefsect>*:not(.brief),body.print-brief .shell main>*:not(#v-circle){display:none!important}
+  body.print-brief #v-circle .grid{display:block}
+}

@@ -1,0 +1,61 @@
+/* ---------- globe (src/globe.js; appended after style.css by build.py) ----------
+   The section at the top of the Atlas: mode chips and the Spin button, the canvas globe with its "Fly to" chips on the left,
+   the reading panel on the right (stacked under 900 px). Colours are the shared tokens, so both themes are covered; the canvas
+   reads the same tokens at draw time. */
+.gl-top{display:flex;align-items:center;gap:10px 14px;flex-wrap:wrap;margin:0 0 16px}
+.gl-modes .tag{cursor:pointer;padding:4px 11px;font-size:12px;margin:0;letter-spacing:.02em}
+.gl-modes .tag.on,.gl-modes .tag:hover{border-color:var(--gilt);color:var(--gilt)}
+.gl-spin{margin-left:auto;color:var(--ink2)}
+.gl-spin.on{border-color:var(--gilt);color:var(--gilt)}
+.gl-spin.on::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--gilt);display:inline-block}
+.gl-body{display:grid;grid-template-columns:minmax(0,620px) minmax(280px,1fr);gap:24px 40px;align-items:start}
+.gl-left{min-width:0}
+.gl-globe{position:relative;min-width:0;display:flex;justify-content:center}
+.gl-cv{display:block;width:100%;max-width:620px;aspect-ratio:1;touch-action:pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-webkit-tap-highlight-color:transparent;cursor:grab;border-radius:50%}
+.gl-cv:focus-visible{outline:2px solid var(--gilt);outline-offset:8px}
+.gl-nocanvas{aspect-ratio:1;max-width:620px;width:100%;border:1px solid var(--rule);border-radius:50%;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;color:var(--ink3);font-family:var(--read);font-style:italic}
+.gl-fly{margin-top:16px;display:flex;flex-wrap:wrap;gap:6px 4px;align-items:center}
+.gl-fly .label{margin-right:6px}
+.gl-fly .tag{cursor:pointer;margin:0}
+.gl-fly .tag.on,.gl-fly .tag:hover{border-color:var(--gilt);color:var(--gilt)}
+.gl-panel{min-width:0;border-top:1px solid var(--rule2);padding-top:14px}
+.gl-read{font-family:var(--display);font-size:21px;line-height:1.32;margin:0 0 14px;color:var(--ink);text-wrap:pretty;letter-spacing:-.002em}
+.gl-read b{font-weight:400;color:var(--gilt);font-variant-numeric:lining-nums tabular-nums}
+.gl-read .vf{vertical-align:4px;margin-left:4px;margin-right:0}
+.gl-content{border-top:1px solid var(--rule);padding-top:14px}
+.gl-bars{display:flex;flex-direction:column;gap:11px}
+.gl-bar{display:grid;grid-template-columns:150px minmax(0,1fr) 62px;gap:14px;align-items:center;font-size:13px}
+.gl-bar .l{color:var(--ink2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.gl-bar .tr{height:6px;background:var(--grid);border-radius:2px;overflow:hidden}
+.gl-bar .tr i{display:block;height:100%;background:var(--gilt);min-width:2px;border-radius:0 3px 3px 0}
+.gl-bar .v{font-family:var(--display);font-size:17px;color:var(--gilt);text-align:right;font-variant-numeric:lining-nums tabular-nums;white-space:nowrap}
+.gl-sub{font-size:12.5px;color:var(--ink3);margin-top:14px;line-height:1.55}
+.gl-group{margin-bottom:12px}
+.gl-group .label.cap{display:block;margin-bottom:2px}
+.gl-row{display:grid;grid-template-columns:30px minmax(0,1fr);gap:1px 10px;width:100%;text-align:left;padding:7px 0;border-top:1px solid var(--rule);align-items:baseline;min-width:0}
+.gl-group .gl-row:first-of-type,.gl-group .label+.gl-row{border-top:0}
+.gl-row .m{font-size:11px;letter-spacing:.12em;color:var(--ink3);white-space:nowrap}
+.gl-row .m.up{color:var(--verd)}.gl-row .m.down{color:var(--claret)}
+.gl-row .n{font-family:var(--display);font-size:16.5px;color:var(--ink);line-height:1.2;min-width:0}
+.gl-row .w{grid-column:2;font-size:12.5px;color:var(--ink2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.gl-row .d{font-family:var(--display);font-size:14px;color:var(--gilt);white-space:nowrap;font-variant-numeric:lining-nums tabular-nums}
+.gl-row.gl-cal{grid-template-columns:96px minmax(0,1fr)}
+.gl-row.gl-cal .d{align-self:baseline;line-height:1.2}
+button.gl-row{cursor:pointer}
+button.gl-row:hover .n,button.gl-row:focus-visible .n{color:var(--gilt)}
+.gl-hubs{margin-top:16px;padding-top:14px;border-top:1px solid var(--rule);display:flex;flex-wrap:wrap;gap:6px 4px;align-items:center}
+.gl-hubs .label{margin-right:6px}
+.gl-hubs .tag{cursor:pointer;margin:0}
+.gl-hubs .tag.t1{border-color:var(--rule2);color:var(--ink)}
+.gl-hubs .tag:hover,.gl-hubs .tag:focus-visible{border-color:var(--gilt);color:var(--gilt)}
+.gl-note{margin-top:16px}
+.tip .gl-tipw{font-size:12px;color:var(--ink2);margin-top:4px;max-width:260px;line-height:1.4;font-family:var(--ui)}
+@media (max-width:1180px){.gl-body{gap:24px 28px}.gl-bar{grid-template-columns:120px minmax(0,1fr) 56px}}
+@media (max-width:900px){.gl-body{grid-template-columns:1fr;gap:18px}.gl-read{font-size:19px}.gl-bar{grid-template-columns:110px minmax(0,1fr) 54px;gap:10px}.gl-row.gl-cal{grid-template-columns:84px minmax(0,1fr)}}
+@media (prefers-reduced-motion: reduce){.gl-spin{display:none}}
+
+/* journeys */
+.gl-row.gl-jr{grid-template-columns:22px minmax(0,1fr)}
+.gl-row.gl-jr .n small{display:block;font-family:var(--ui);font-size:12px;color:var(--ink3);margin-top:1px}
+.gl-row.gl-jr .w{grid-column:2;white-space:normal;overflow:visible;line-height:1.45}
+.gl-row.gl-jr .w b{color:var(--gilt);font-weight:600}

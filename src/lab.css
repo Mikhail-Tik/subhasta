@@ -1,0 +1,278 @@
+/* ---------- the Lab (appended to style.css by build.py) ----------
+   The look of the Pulse and the Circle: Caslon for the headline numbers (lining, proportional), tabular figures in columns,
+   hairline rules, gilt only where money or the work's own rate is, generous space between instruments. Classes are prefixed .lab-;
+   the charts are inline SVG drawn at the column's width, so their type is never scaled. Tokens only: both themes follow. */
+#v-lab .head{margin-bottom:20px}
+#v-lab .head .dek{max-width:74ch}
+#v-lab .grid.lab{gap:64px 28px}
+.lab-chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 40px}
+.lab-chips .chip{gap:8px;padding:6px 13px 6px 11px;font-size:13px;color:var(--ink2);text-decoration:none}
+.lab-chips .chip:hover{color:var(--ink);border-color:var(--gilt);text-decoration:none}
+.lab-chips .chip .n{font-family:var(--display);font-size:15px;line-height:1;color:var(--gilt);font-variant-numeric:lining-nums}
+.lab-k{font-family:var(--read);font-variant:small-caps;letter-spacing:.1em;font-size:15px;color:var(--gilt);margin-bottom:8px}
+.lab-sect .rh h2{outline-offset:4px}
+.lab-sect .rh h2:focus:not(:focus-visible){outline:none}
+.lab-read{font-family:var(--read);font-size:19px;line-height:1.55;color:var(--ink);margin:6px 0 18px;max-width:72ch;text-wrap:pretty}
+.lab-read b{font-weight:400;color:var(--gilt)}
+.lab-read a{color:var(--ink);border-bottom:1px solid var(--gilt)}
+.lab-read a:hover{color:var(--gilt);text-decoration:none}
+
+/* the figure strip: one hairline grid, numbers in Caslon */
+.lab-figs{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));overflow:hidden;border-bottom:1px solid var(--rule);margin:0 0 26px}
+.lab-figs3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.lab-fg{border-top:1px solid var(--rule);border-left:1px solid var(--rule);margin-left:-1px;padding:14px 18px 13px;min-width:0}
+/* the first column sits flush with the text above; every rule below has the same weight, so the later breakpoint wins */
+.lab-figs>.lab-fg:nth-child(5n+1){padding-left:1px}
+.lab-figs3>.lab-fg:nth-child(n){padding-left:18px}
+.lab-figs3>.lab-fg:nth-child(3n+1){padding-left:1px}
+.lab-figs6{grid-template-columns:repeat(6,minmax(0,1fr))}
+.lab-figs6>.lab-fg:nth-child(n){padding-left:18px}
+.lab-figs6>.lab-fg:nth-child(6n+1){padding-left:1px}
+.lab-fg>.l{font-size:12.5px;color:var(--ink2);line-height:1.35}
+.lab-fg>.v{font-family:var(--display);font-size:34px;line-height:1.05;color:var(--gilt);font-variant-numeric:lining-nums;margin:7px 0 5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.lab-fg>.d{font-size:12.5px;color:var(--ink3);line-height:1.45}
+.lab-fg>.d .vf{margin:0 0 0 2px}
+
+/* 1. the ranked chart */
+.lab-chartwrap{margin:0 0 26px}
+.lab-rankc text{font-family:var(--ui);font-size:11.5px;fill:var(--ink3)}
+.lab-rankc text.nm{font-size:13px;fill:var(--ink)}
+.lab-rankc text.nm .w{font-family:var(--read);font-style:italic;fill:var(--ink2)}
+.lab-rankc text.yr{font-size:12px;font-variant-numeric:tabular-nums}
+.lab-rankc .grid line{stroke:var(--grid)}
+.lab-rankc .grid line.zero{stroke:var(--rule2)}
+.lab-rankc .rl{stroke:var(--rule);stroke-opacity:.6}
+.lab-rankc .cn{stroke:var(--gilt);stroke-opacity:.4;stroke-width:2}
+.lab-rankc .sp{stroke:var(--ink);stroke-width:2;stroke-linecap:round}
+.lab-rankc .au{fill:var(--ink3);stroke:var(--ground);stroke-width:2}
+.lab-rankc .art{fill:var(--gilt);stroke:var(--ground);stroke-width:2}
+.lab-rankc .ov{fill:none;stroke:var(--gilt);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.lab-rankc text.ovl{fill:var(--ink2);font-variant-numeric:tabular-nums}
+.lab-rankc .hit{fill:transparent;pointer-events:all}
+.lab-rankc .hit:hover{fill:var(--ink);fill-opacity:.04}
+.lab-rankc .hit:focus{outline:none}
+.lab-rankc .hit:focus-visible{fill:var(--gilt);fill-opacity:.09;stroke:var(--gilt);stroke-width:1}
+.lab-legend{margin-top:12px}
+.lab-legend span{display:inline-flex;align-items:center;gap:7px}
+.lab-legend svg{flex:none}
+
+/* the returns table */
+.lab-sum{margin-top:0}
+.lab-ret td{vertical-align:baseline}
+.lab-ret td.k{font-family:var(--read);font-variant:small-caps;letter-spacing:.04em;font-size:14px;color:var(--ink2);white-space:nowrap}
+.lab-ret td.t{font-family:var(--display);font-size:15px;line-height:1.25;min-width:190px}
+.lab-ret td.t .lnk{font-family:var(--ui);margin-left:4px}
+.lab-ret td.g{font-family:var(--display);font-size:16px;color:var(--gilt);font-variant-numeric:lining-nums tabular-nums}
+.lab-ret td.up{color:var(--verd)}.lab-ret td.down{color:var(--claret)}
+.lab-notes{list-style:none;margin:22px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 36px}
+.lab-notes li{font-size:13px;line-height:1.6;color:var(--ink2);border-top:1px solid var(--rule);padding-top:10px}
+.lab-notes b{font-weight:500;color:var(--ink)}
+.lab-notes a{text-decoration:underline dotted;text-underline-offset:3px}
+.lab-method{margin-top:14px}
+.lab-method .note{margin:8px 0 0;max-width:110ch}
+
+/* 2. the round trip */
+.lab-rt{display:grid;grid-template-columns:minmax(270px,330px) minmax(0,1fr);gap:28px 44px;align-items:start;margin-top:4px}
+.lab-rtc{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px 14px;padding:18px 18px 16px;border:1px solid var(--rule);background:var(--paper);position:relative}
+.lab-rtc::before,.lab-rtc::after{content:"";position:absolute;width:9px;height:9px;border-color:var(--gilt);border-style:solid;opacity:.7}
+.lab-rtc::before{left:-1px;top:-1px;border-width:1px 0 0 1px}
+.lab-rtc::after{right:-1px;bottom:-1px;border-width:0 1px 1px 0}
+.lab-f{min-width:0}
+.lab-f label{display:block;font-size:12.5px;color:var(--ink3);margin-bottom:5px;line-height:1.35}
+.lab-f label b{font-family:var(--display);font-weight:400;font-size:20px;color:var(--gilt);margin-left:6px;font-variant-numeric:lining-nums}
+.lab-f input,.lab-f select{font-variant-numeric:tabular-nums}
+.lab-big input{font-family:var(--display);font-size:22px;color:var(--gilt);padding:6px 10px;font-variant-numeric:lining-nums tabular-nums}
+.lab-f input[type=range]{padding:0;border:0;background:none;accent-color:var(--gilt);margin:4px 0 0}
+.lab-wide{grid-column:1/-1}
+.lab-chk{display:flex;gap:9px;align-items:flex-start;font-size:13px;color:var(--ink2);line-height:1.45;cursor:pointer}
+.lab-chk input{width:auto;margin:2px 0 0;accent-color:var(--gilt);flex:none}
+.lab-hint{margin:0;font-size:12.5px;color:var(--ink3);line-height:1.5;border-top:1px solid var(--rule);padding-top:10px}
+.lab-hint b{color:var(--gilt);font-weight:500}
+.lab-hint .lnk{font-size:12.5px}
+.lab-acts{display:flex;gap:6px;flex-wrap:wrap}
+.lab-rto{min-width:0}
+.lab-rto .lab-read{margin-top:0}
+.lab-wf{margin:2px 0 6px}
+.lab-wf text,.lab-cmp text{font-family:var(--ui);font-size:12.5px;fill:var(--ink2)}
+.lab-wf text.t,.lab-cmp text.t{fill:var(--ink);font-weight:500}
+.lab-wf text.wv,.lab-cmp text.cv{font-variant-numeric:tabular-nums}
+.lab-wf .wb.base{fill:var(--cx)}
+.lab-wf .wb.cost{fill:var(--c2)}
+.lab-wf .wb.sum{fill:var(--ink2)}
+.lab-wf .wb.gain{fill:var(--c1)}
+.lab-wf .wb.pos{fill:var(--verd)}
+.lab-wf .wb.neg{fill:var(--claret)}
+.lab-wf .wc{stroke:var(--rule2);stroke-width:1}
+.lab-wf .wg{stroke:var(--ink3);stroke-width:1;stroke-opacity:.55}
+.lab-h3{font-family:var(--read);font-variant:small-caps;letter-spacing:.06em;font-size:14.5px;color:var(--ink2);margin:20px 0 10px;border-top:1px solid var(--rule);padding-top:10px}
+.lab-h3 span{font-variant:normal;font-style:italic;letter-spacing:0;color:var(--ink3);margin-left:6px}
+.lab-cmp .cb.irr{fill:var(--c1)}
+.lab-cmp .cb.b{fill:var(--cx)}
+.lab-cmp .cb.c{fill:var(--cx);fill-opacity:.55}
+.lab-cmp .z{stroke:var(--rule2)}
+.lab-cmpsrc{margin:10px 0 0;font-size:12px;line-height:1.5;color:var(--ink3);max-width:96ch}
+.lab-rtnote{margin:14px 0 0;max-width:96ch}
+#labRtLines{margin-top:12px}
+.lab-gridread{margin:0 0 10px;font-size:13.5px;line-height:1.55;color:var(--ink2);max-width:90ch}
+.lab-gridread b{font-weight:500;color:var(--gilt)}
+.lab-grid th,.lab-grid td{text-align:right;font-variant-numeric:tabular-nums}
+.lab-grid th:first-child,.lab-grid tbody th{text-align:left;font-family:var(--read);font-style:italic;font-weight:400;color:var(--ink3)}
+.lab-grid tbody td{background:color-mix(in srgb,var(--gilt) calc(var(--w,0)*22%),transparent)!important}
+.lab-grid td.cur{outline:1px solid var(--gilt);outline-offset:-3px;color:var(--ink);font-weight:500}
+.lab-grid tbody th,.labh-era tbody th{border-bottom-color:var(--rule)}
+/* on a narrow screen the grid scrolls sideways: the years held stay, on a solid ground */
+@media (max-width:900px){.lab-grid th:first-child,.labh-era th:first-child{position:sticky;left:0;z-index:1;background:var(--ground);box-shadow:inset -1px 0 0 var(--rule)}.lab-grid tbody tr:nth-child(even) th,.labh-era tbody tr:nth-child(even) th{background:color-mix(in srgb,var(--paper) 60%,var(--ground))}.lab-grid th.hxy .hx{display:block}.lab-grid th.hxy .hs{display:none}}
+
+/* the round trip at each period's rate: a dot per period on one axis; the loss and the beat take the validated chart pair (claret and
+   lapis, checked for colour-blind separation in both themes), the middle the muted ink (3:1 and more on both grounds), a period that is
+   not like for like a hollow ring; position already carries the sign */
+.lab-sc{margin:2px 0 4px}
+.lab-scs .sa{stroke:var(--rule2)}
+.lab-scs .sg{stroke:var(--grid)}
+.lab-scs .st{font-family:var(--ui);font-size:11.5px;fill:var(--ink3);font-variant-numeric:tabular-nums}
+.lab-scs .rl{stroke:var(--ink3);stroke-width:1}
+.lab-scs .rl.z{stroke:var(--ink2)}
+.lab-scs .rlt{font-family:var(--ui);font-size:11.5px;fill:var(--ink2)}
+.lab-scs .so{font-family:var(--ui);font-size:11px;fill:var(--ink2);font-variant-numeric:tabular-nums}
+.lab-scs .sd{stroke:var(--ground);stroke-width:2}
+.lab-scs .sd.loss{fill:var(--c2)}.lab-scs .sd.mid{fill:var(--ink3)}.lab-scs .sd.beat{fill:var(--c3)}
+.lab-scs .sd.unlike{fill:var(--ground);stroke:var(--ink3);stroke-width:1.5}
+.lab-scs .sh{fill:transparent;cursor:default}
+.lab-scs .sh:hover{fill:var(--ink);fill-opacity:.06}
+
+/* 3. structure */
+.lab-cards{margin-top:4px}
+.lab-cards .vt.lab-card{cursor:default;gap:3px}
+.lab-cards .vt.lab-card:hover{background:var(--paper)}
+.lab-card .row>.v{font-size:34px;font-variant-numeric:lining-nums}
+.lab-card>.d{color:var(--ink2);line-height:1.45}
+.lab-card>.s{font-size:12.5px;color:var(--ink2);line-height:1.55;margin-top:5px}
+/* a verification pill inside a card carries the class .v/.s/.u, which the tile rules (.vt .v, .vt .s) would restyle: put the pill back */
+.lab-card .vf{font-family:var(--ui);font-size:10.5px;line-height:1.5;letter-spacing:.08em;margin:0 0 0 4px}
+.lab-card .vf.v{color:var(--verd)}.lab-card .vf.s{color:var(--gilt)}.lab-card .vf.u{color:var(--claret)}
+.lab-src{margin-top:auto;padding-top:9px;font-size:11px;color:var(--ink3);line-height:1.45}
+.lab-two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 44px;margin-top:28px}
+.lab-hb .lab-h3{margin-top:0}
+.lab-hb .bar{cursor:default}
+.lab-hb .bar .v small{color:var(--ink3);margin-left:4px}
+.lab-snote{margin:18px 0 0;max-width:120ch}
+#lab-structure details.dtab{margin-top:12px}
+
+/* 4. provenance */
+.labp-ct td:first-child{white-space:nowrap}
+.labp-dt td:first-child{white-space:normal;min-width:150px}
+.labp-ct tr.labp-base td{border-top:1px solid var(--ink3);color:var(--ink2);font-style:italic}
+.labp-ct tbody tr:last-child td{color:var(--ink2)}
+.labp-cn{margin:8px 0 0;font-size:12px;line-height:1.5;color:var(--ink3)}
+.labp-lh{margin-top:30px}
+.labp-bar{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;justify-content:space-between;margin:0 0 10px}
+.labp-sel{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.labp-sel select{width:auto;max-width:230px;font-size:13px;padding:5px 8px}
+.labp-ct tr.clk:focus-visible td{background:var(--paper2)}
+.labp-f .tag{font-family:var(--ui);font-size:12.5px;padding:4px 10px;cursor:pointer;background:none;margin:0}
+.labp-f .tag.on,.labp-f .tag:hover{border-color:var(--gilt);color:var(--gilt)}
+.labp-t td:nth-child(2){min-width:220px}
+.labp-at{font-size:12px;line-height:1.45;color:var(--ink3);margin-top:4px;max-width:62ch}
+
+/* 5. hands */
+.labh-era th[scope=row]{white-space:nowrap}
+.labh-era td,.labh-era th{font-variant-numeric:tabular-nums}
+.labh-fh{margin-top:30px}
+.labh-fw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:4px 0 6px}
+.labh-fw svg{display:block;max-width:none;height:auto}
+.labh-hint{display:none;margin:0 0 4px;font-size:11px;color:var(--ink3)}
+@media (max-width:660px){.labh-hint{display:block}}
+.labh-flow .hl{fill:var(--ink);fill-opacity:.09;transition:fill-opacity .15s}
+.labh-flow .hl:hover{fill:var(--gilt);fill-opacity:.38}
+.labh-flow .hn{fill:var(--gilt)}
+.labh-flow .ht{font-family:var(--ui);font-size:12.5px;fill:var(--ink)}
+.labh-flow .hv{fill:var(--ink3);font-variant-numeric:tabular-nums}
+#lab-hands .lab-acts{margin-top:14px}
+@media (prefers-reduced-motion:reduce){.labh-flow .hl{transition:none}}
+
+/* the reading carried into the Ledger (a chip per record) and the provenance drawer */
+.tag.lp-accounted{color:var(--ink3);border-color:var(--rule2)}
+.tag.lp-partly{color:var(--gilt);border-color:color-mix(in srgb,var(--gilt) 55%,transparent)}
+.tag.lp-quiet{color:var(--gilt);border-color:var(--gilt);border-style:dashed}
+.prov .tag[class*="lp-"]{font-size:10.5px;margin-left:6px;vertical-align:2px}
+.lp-note{margin:4px 0 0;font-size:14px;line-height:1.55;color:var(--ink2);max-width:72ch}
+.lp-note .lnk{font-size:13px}
+
+/* 5. confidence */
+.lab-cfgrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(250px,300px);gap:28px 52px;align-items:start}
+.lab-cfgrid>.tblwrap{min-width:0}
+.lab-cf{max-width:900px}
+.lab-cf th.nm,.lab-cf td.nm{min-width:210px;white-space:normal;width:55%}
+.lab-cf tbody tr:nth-child(even) td,.lab-cf tbody tr:nth-child(even) th{background:none}
+.lab-cf tr.sec th{font-family:var(--display);font-style:normal;font-size:18px;color:var(--ink);padding-top:16px;border-bottom:1px solid var(--rule)}
+.lab-cf tr.sec td{padding-top:18px;color:var(--ink);font-weight:500}
+.lab-cf tr.sub td{font-size:13px;color:var(--ink2);padding-top:6px;padding-bottom:6px;border-bottom-color:transparent}
+.lab-cf tr.sub td.nm{padding-left:22px}
+.lab-cf tr.tot th,.lab-cf tr.tot td{border-top:1px solid var(--ink);border-bottom:0;font-style:normal;font-family:var(--ui);font-size:14px;font-weight:500;color:var(--ink);padding-top:12px}
+.lab-cf .lab-go{font:inherit;color:inherit;text-decoration:none;white-space:nowrap}
+.lab-cf .lab-go:hover{color:var(--gilt)}
+.lab-stack{display:block;width:100%;max-width:360px;margin-top:7px}
+.lab-stack .v{fill:var(--verd)}.lab-stack .s{fill:var(--gilt)}.lab-stack .u{fill:var(--claret)}
+.lab-cfside{min-width:0}
+.lab-dates{display:grid;grid-template-columns:minmax(0,1fr);gap:0;margin:0}
+.lab-dates div{padding:12px 0 14px;min-width:0;border-top:1px solid var(--rule)}
+.lab-dates div:first-child{border-top-color:var(--ink)}
+.lab-dates dt{font-size:12px;color:var(--ink3)}
+.lab-dates dd{margin:5px 0 0;font-family:var(--display);font-size:22px;line-height:1.15;color:var(--ink);font-variant-numeric:lining-nums}
+.lab-dates dd small{display:block;font-family:var(--ui);font-size:12px;line-height:1.5;color:var(--ink3);margin-top:5px}
+.lab-cfacts{margin-top:6px;padding-top:14px;border-top:1px solid var(--rule)}
+.lab-cfnote{margin:12px 0 0;max-width:120ch}
+
+@media (min-width:1181px){.lab-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:1180px){
+  .lab-figs{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .lab-figs>.lab-fg:nth-child(n){padding-left:18px}
+  .lab-figs>.lab-fg:nth-child(3n+1){padding-left:1px}
+  .lab-notes{grid-template-columns:1fr}
+  .lab-rt{grid-template-columns:minmax(0,1fr)}
+  .lab-cfgrid{grid-template-columns:minmax(0,1fr)}
+  .lab-dates{grid-template-columns:repeat(4,minmax(0,1fr));gap:0 22px}
+  .lab-dates div:first-child{border-top-color:var(--rule)}
+}
+@media (max-width:900px){
+  .lab-read{font-size:17px}
+  .lab-two{grid-template-columns:minmax(0,1fr)}
+  .lab-dates{grid-template-columns:repeat(2,minmax(0,1fr))}
+  #v-lab .grid.lab{gap:52px 28px}
+}
+@media (max-width:600px){
+  .lab-figs,.lab-figs3{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .lab-fg{padding-top:12px;padding-bottom:11px;padding-right:14px}
+  .lab-figs>.lab-fg:nth-child(n){padding-left:14px}
+  .lab-figs>.lab-fg:nth-child(2n+1){padding-left:1px}
+  .lab-fg>.v{font-size:28px}
+  .lab-card .row>.v{font-size:30px}
+  .lab-chips{margin-bottom:30px}
+  .lab-ret td.k{white-space:normal;font-size:13px;min-width:96px}
+  .lab-ret td.t{min-width:132px;font-size:14.5px}
+  .lab-cf th,.lab-cf td{padding-left:6px;padding-right:6px}
+  .lab-cf th.nm,.lab-cf td.nm{min-width:118px;width:auto}
+  .labp-ct{font-size:12.5px}
+  .labp-ct th,.labp-ct td{padding-left:5px;padding-right:5px}
+  .labp-ct th{font-size:12.5px}
+  .lab-cf tr.sub td.nm{padding-left:14px}
+  .lab-cf tr.sec th{font-size:17px}
+}
+@media (max-width:480px){
+  .lab-dates{grid-template-columns:minmax(0,1fr)}
+  .lab-rtc{padding:16px 14px 14px;gap:12px 12px}
+}
+@media print{.lab-chips,.lab-acts,.lab-sum .acts,.lab-cfacts{display:none}}
+/* what the terminal cannot tell you: the limits register in instrument six */
+.lab-lim{margin-top:30px}
+.lab-limg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 36px}
+.lab-lima h4{font-family:var(--display);font-weight:400;font-size:19px;margin:14px 0 6px;color:var(--ink)}
+.lab-lima ul{list-style:none;margin:0;padding:0}
+.lab-lima li{font-size:13.5px;line-height:1.6;color:var(--ink2);padding:8px 0;border-top:1px solid var(--rule2)}
+.lab-lima li b{color:var(--ink);font-weight:500}
+.lab-lima li:target{background:color-mix(in srgb,var(--gilt) 10%,transparent)}
+.lab-limat,.lab-limsrc{font-size:12.5px}
+.lab-limsrc{text-decoration:underline dotted;text-underline-offset:3px;color:var(--ink3)}
+.limlink{font-size:12.5px;color:var(--ink3);text-decoration:underline dotted;text-underline-offset:3px;white-space:nowrap}
+.limlink:hover{color:var(--gilt)}
+@media (max-width:760px){.lab-limg{grid-template-columns:minmax(0,1fr)}}

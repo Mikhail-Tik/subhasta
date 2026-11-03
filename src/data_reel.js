@@ -1,0 +1,88 @@
+// SUBHASTA — images (public-domain paintings; photographs of two-dimensional public-domain works) and the Reel.
+const IMG=/*__IMGMETA__*/{};
+// title of lot → image, with the relation stated honestly
+const LOTIMG={
+'Portrait of Elisabeth Lederer':{i:'klimt-adele',n:'Related: Klimt’s other great portrait of a Viennese woman, Adele Bloch-Bauer I (1907), sold privately to Ronald Lauder for $135m in 2006.'},
+'Dame mit Fächer':{i:'klimt-fan',x:true,n:'The lot itself: Lady with a Fan, 1917–18, on Klimt’s easel when he died.'},
+'Blumenwiese (Blooming Meadow)':{i:'klimt-kiss',n:'Related: The Kiss, 1907–08, Belvedere, Vienna.'},
+'Waldabhang in Unterach am Attersee':{i:'klimt-kiss',n:'Related: The Kiss, 1907–08, Belvedere, Vienna; the Attersee landscapes were painted on the same summers.'},
+'Bildnis Gertrud Loew':{i:'klimt-adele',n:'Related: Adele Bloch-Bauer I, 1907; Gertrud Loew was painted five years earlier.'},
+'Birch Forest':{i:'klimt-kiss',n:'Related: The Kiss, 1907–08; Birch Forest was painted at the Attersee in 1903.'},
+'Verger avec cyprès':{i:'vg-wheat-cypress',n:'Related: A Wheatfield, with Cypresses, 1889, National Gallery, London — the cypresses he painted again at Saint-Rémy the year after this Arles orchard.'},
+'Portrait of Dr Gachet':{i:'vg-gachet',x:true,n:'The lot itself: Dr Gachet, June 1890; not exhibited since the 1990 sale.'},
+'Nu couché':{i:'modi-nu',x:true,n:'The lot itself.'},
+'Nu couché (sur le côté gauche)':{i:'modi-nu-gauche',x:true,n:'The lot itself.'},
+'Piles de romans parisiens et roses dans un verre':{i:'vg-cafe',n:'Related: Café Terrace at Night, 1888, Kröller-Müller — painted the year after the Paris still life.'},
+'Meules':{i:'monet-meules',x:true,n:'The lot itself.'},
+'Meules à Giverny':{i:'monet-sunrise',n:'Related: Impression, Sunrise, 1872, Marmottan — the painting that named the movement.'},
+'Nymphéas en fleur':{i:'monet-lilies-1919',n:'Related: Water Lilies, 1919, Metropolitan Museum — the same Giverny pond in the same decade.'},
+'Nymphéas':{i:'monet-lilies-1906',n:'Related: Water Lilies, 1906, Art Institute of Chicago.'},
+'La Montagne Sainte-Victoire':{i:'cez-marne',n:'Related: Banks of the Marne, c. 1888, Pushkin Museum — Cézanne in the same years.'},
+'Les Poseuses, Ensemble (Petite version)':{i:'seurat-jatte',n:'Related: A Sunday on La Grande Jatte — the painting hanging in the studio behind the three models.'},
+'Maternité II':{i:'gauguin-tahiti',n:'Related: Three Tahitian Women, 1896, Metropolitan Museum — the Tahiti years.'},
+'The Scream':{i:'munch-scream',n:'Related: the 1893 tempera version, National Museum, Oslo; the lot was the 1895 pastel.'},
+'Sankthansnatt (Midsummer Night)':{i:'munch-scream',n:'Related: The Scream, 1893, National Museum, Oslo.'},
+'Garçon à la pipe':{i:'pic-pipe',x:true,n:'The lot itself.'},
+'Fillette à la corbeille fleurie':{i:'pic-basket',x:true,n:'The lot itself: the Steins bought it for 150 francs in 1905.'},
+'Tête de femme (Fernande)':{i:'pic-seated',n:'Related: Seated Nude, 1909–10, Tate — Cubism in the year of the Fernande head.'},
+'Bal du moulin de la Galette (smaller version)':{i:'renoir-galette',n:'Related: the larger version, 1876, Musée d’Orsay.'},
+'Petite danseuse de quatorze ans':{i:'degas-etoile',n:'Related: L’Étoile, c. 1878, Musée d’Orsay — Degas’s dancers of the same years.'},
+'Salvator Mundi':{i:'leo-salvator',x:true,n:'The lot itself; not shown in public since 2017.'},
+'Head of a Bear':{i:'leo-monalisa',n:'Related: Mona Lisa, c. 1503–06, Louvre.'},
+'Young Man Holding a Roundel':{i:'bott-roundel',x:true,n:'The lot itself.'},
+'Head of a Muse':{i:'raph-graces',n:'Related: The Three Graces, c. 1505, Chantilly.'},
+'The Massacre of the Innocents':{i:'rubens-war',n:'Related: The Consequences of War, 1637–38, Palazzo Pitti.'},
+'Portrait of a Man with Arms Akimbo':{i:'rem-self',n:'Related: Self-Portrait, 1659, National Gallery of Art — painted a year after the Arms Akimbo portrait.'},
+'Venice, the Return of the Bucintoro on Ascension Day':{i:'monet-sangiorgio',n:'Related by subject: Venice, as Monet painted it in 1908 (San Giorgio Maggiore at Dusk).'},
+'Rome, from Mount Aventine':{i:'turner-rome',x:true,n:'The lot itself.'}
+};
+const UPIMG={'Les Châtaigniers en fleurs (Blossoming Chestnut Trees)':{i:'vg-almond',n:'Related: Almond Blossom, February 1890, Van Gogh Museum — three months before the chestnut trees, the same spring.'},'Arlequin':{i:'cez-cards',n:'Related: The Card Players, c. 1892–95, Musée d’Orsay — a version of the series sold privately to Qatar for ≈$250m.'},'Rome, from Mount Aventine':{i:'turner-rome',x:true,n:'The picture itself, which set the Turner record in 2014.'},'Iris':{i:'monet-lilies-1906',n:'Related: Water Lilies, 1906, Art Institute of Chicago.'},'Composition III':{i:'mondrian-1913',n:'Related: Mondrian’s Cubist-period Composition, c. 1913.'},'Le Baiser':{i:'manet-bar',n:'Related: Manet’s A Bar at the Folies-Bergère, 1882, Courtauld — a Manet, Femme au tub, is in the same Koons consignment.'}};
+const STORYIMG={salvator:'leo-salvator',bouvier:'gauguin-tefare',guarantees:'modi-nu-gauche',chestnuts:'vg-almond',estates:'seurat-jatte',lewis:'caillebotte-rain',wildenstein:'renoir-boating',hongkong:'hokusai-wave',anonymity:'vg-gachet',duel:'delacroix-liberty'};
+const HOUSEIMG={sothebys:{i:'klimt-fan',n:'Klimt’s Lady with a Fan, sold here in June 2023 for £85.3m, the European record.'},christies:{i:'leo-salvator',n:'Salvator Mundi, sold here on 15 Nov 2017 for $450.3m, the auction record for any object.'},phillips:{i:'cez-marne',n:'Cézanne: Phillips sold Mont Sainte-Victoire to Paul Allen for $38.5m in 2001; it made $137.8m in 2022.'},bonhams:{i:'hokusai-fuji',n:'Asian art is a fifth of Bonhams’ business; Hokusai, Red Fuji.'},dorotheum:{i:'klimt-kiss',n:'Vienna’s house; Klimt’s The Kiss hangs across town at the Belvedere.'},artcurial:{i:'caillebotte-rain',n:'Paris; Caillebotte, Paris Street; Rainy Day, 1877.'},lempertz:{i:'hooch-letter',n:'Old Masters are the Cologne house’s core; Pieter de Hooch, Woman Reading a Letter.'},ketterer:{i:'kand-vii',n:'Ketterer sold a Kandinsky for €3.14m in Dec 2025; Composition VII, 1913.'},grisebach:{i:'friedrich-wanderer',n:'German art is Grisebach’s field; Caspar David Friedrich, Wanderer above the Sea of Fog.'}};
+const SIGIMG={'Blue-chip Impressionist & Modern estates':'renoir-boating','Old Masters at the top':'rem-self','Hong Kong and Asian buying':'hokusai-wave','Women Surrealists':'cassatt-bath','Klimt and Vienna 1900':'klimt-adele'};
+const CREDIT=id=>{const m=IMG[id];return m?`${m.a}, ${m.t}, ${m.y}. ${m.c}. Public domain.`:'';};
+
+// The Reel: an editorial sequence. k = kind; ref = id in the data; i = image id
+const REEL=[
+{k:'up',ref:'Les Châtaigniers en fleurs (Blossoming Chestnut Trees)',i:'vg-almond',kick:'Coming to the block · Sotheby’s New York · 18 Nov',big:'$180m',sub:'A May 1890 Van Gogh unseen since 1964, guaranteed by the house, with a chain that runs from Jo van Gogh-Bonger to Buenos Aires.'},
+{k:'symptom',ref:'topheavy',i:'klimt-adele',kick:'Pulse · the diagnosis',big:'+30%',sub:'Lots above $10m rose 30% by value in 2025; everything under $50,000 fell 2%. The patient is feverish at the top and thin in the middle.'},
+{k:'lot',ref:'Number 7A',kick:'Record · Christie’s New York · 18 May 2026',sub:'Pollock’s drip-year canvas from the Newhouse collection: estimate from $100m, sold in a white-glove sale of $630.8m.'},
+{k:'lot',ref:'Portrait of Elisabeth Lederer',i:'klimt-adele',kick:'The modern-art record · Sotheby’s · 18 Nov 2025',sub:'Leonard Lauder bought it in 1985; it opened the Breuer building forty years later.'},
+{k:'lot',ref:'Alderman Merriam’s Shells',kick:'Artist record · Freeman’s · 1 Oct 2026',big:'$1.3m',pre:'$30',sub:'Found at a Michigan estate sale this summer. The surgeon who first owned it had accepted it as payment for an operation.'},
+{k:'story',ref:'hongkong',i:'hokusai-wave',kick:'Hong Kong · autumn series',big:'HK$2bn',sub:'Three new headquarters in two years; Christie’s evening sale 100% sold, with 30% more buyers under forty.'},
+{k:'path',ref:'Untitled',kick:'Price path · Basquiat, 1982',sub:'Bought by Jerry and Emily Spiegel for about $19,000 in 1984. Sold to Yusaku Maezawa for $110.5m in 2017.'},
+{k:'lot',ref:'Dame mit Fächer',i:'klimt-fan',kick:'European record · Sotheby’s London · 27 Jun 2023',sub:'Patti Wong bid for a Hong Kong client. The picture was on Klimt’s easel when he died in 1918.'},
+{k:'signal',ref:'Old Masters at the top',i:'rem-self',kick:'Signal · heating',big:'+232%',sub:'Christie’s Old Masters made $183m in the first half; Turner returns at £50m in December; Thomas Kaplan keeps buying Rembrandts.'},
+{k:'journey',ref:'salvator',kick:'Undertow · the journey',sub:'Six owners, four cities, one contested attribution: the money path of the most expensive object ever auctioned.'},
+{k:'under',ref:'guaranteed78',i:'modi-nu-gauche',kick:'Undertow · guarantees',big:'78.3%',sub:'of New York evening-sale value in 2025 was guaranteed before the auctioneer spoke. A guarantor who is outbid is paid a fee; one who wins may pay less than the published price.'},
+{k:'treaty',ref:'Paul Cézanne, The Card Players (c. 1892–93)',i:'cez-cards',kick:'Private treaty · 2011',big:'$250m',sub:'The Embiricos family to Qatar: the first reported sale above $200m, and the start of the Gulf’s decade.'},
+{k:'symptom',ref:'rotation',i:'monet-meules',kick:'Pulse · the diagnosis',big:'$4.7bn',sub:'Impressionist & Modern overtook Contemporary as the largest category, up 29.5%; three Klimts, a Van Gogh and a Monet made five of the year’s ten top prices.'},
+{k:'story',ref:'lewis',i:'caillebotte-rain',kick:'Salon · the Lewis Collection',big:'$392.6m',sub:'Modigliani, Klimt, Freud, Degas, Magritte: the most valuable single-owner sale ever held in Europe, four months after a pardon.'},
+{k:'up',ref:'Rome, from Mount Aventine',i:'turner-rome',kick:'Coming to the block · Sotheby’s London · 9 Dec',big:'£50m',sub:'Turner set the £30.3m record with this picture in 2014. It went on view in Rome in September.'},
+{k:'signal',ref:'Blue-chip Impressionist & Modern estates',i:'renoir-boating',kick:'Signal · heating',big:'+133%',sub:'Impressionist and Modern auction sales more than doubled in the first half (Bank of America), back to about their 2022 level. Newhouse, Lewis, Blaquier-Arrieta, Lust and Hammer are the estate wave.'},
+{k:'up',ref:'Le Baiser',i:'manet-bar',kick:'Coming to the block · Christie’s New York · 17 Nov',big:'≈$40m',sub:'Jeff Koons sells nine works he has lived with, ≈$100m in all: Picasso’s Le Baiser at ≈$40m, bought for $17.4m in 2008, with a Manet, a Cornelis van Haarlem and a Riemenschneider.'},
+{k:'story',ref:'phillipsexodus',kick:'Salon · Phillips',big:'½',sub:'Half the executive team left between June and September; Henry Highley now runs private sales worldwide.'},
+{k:'money',kick:'Undertow · follow the money',sub:'A $100m hammer in New York with a third-party guarantee: what the seller nets, what the house keeps, what the guarantor and the state are paid.'},
+{k:'hub',ref:'hk',kick:'Atlas · Hong Kong',big:'HK$2bn',sub:'The autumn 2026 series: Christie’s +17% after a −46% year, Asia records for Cézanne, Matisse, Dalí and Rubens, and nothing to pay at the border.'},
+{k:'under',ref:'geneva',i:'klimt-serpents',kick:'Undertow · freeports',big:'1.2m',sub:'works in the Geneva freeport by the Swiss audit office’s count. Since 2016 the operator must record who owns them; the $100bn figure is a journalist’s estimate.'},
+{k:'segment',ref:'design',kick:'Atlas · the segments',big:'$31.4m',sub:'Lalanne’s Hippopotame Bar, the most valuable design object ever auctioned, in December 2025; Sotheby’s design sales rose 65% in the year.'},
+{k:'symptom',ref:'luxury',kick:'Pulse · the diagnosis',big:'+22%',sub:'Sotheby’s luxury division made $2.7bn; a Birkin $10.1m, a steel Patek CHF 14.2m, watches $370m at Phillips. The houses are luxury marketplaces with an art department.'},
+{k:'fees',kick:'Instruments · buyer’s premium, 2026',sub:'All four major houses raised the lower tier this year. On a $2.5m hammer the buyer pays $3.17m at Sotheby’s and Christie’s.'},
+{k:'hub',ref:'lima',kick:'Atlas · Lima',big:'45',sub:'galleries at Pinta Lima in April, 70% from abroad; a pre-Hispanic patrimony that cannot leave, and a US import agreement that runs to June 2027.'},
+{k:'lot',ref:'The Scream',i:'munch-scream',kick:'Sotheby’s New York · 2 May 2012',sub:'Petter Olsen’s pastel, bought by Leon Black; the record of its day.'},
+{k:'lot',ref:'Garçon à la pipe',i:'pic-pipe',kick:'The first $100m lot · Sotheby’s · 5 May 2004',sub:'The Whitney collection’s Rose Period boy opened the $100m era.'},
+{k:'lot',ref:'Les Poseuses, Ensemble (Petite version)',i:'seurat-jatte',kick:'Paul G. Allen collection · Christie’s · 9 Nov 2022',sub:'The largest single-owner sale in history made $1.62bn in two nights.'},
+{k:'path',ref:'Meules',i:'monet-meules',kick:'Price path · Monet, 1890',sub:'$2.53m in 1986. $110.7m in 2019. The first Impressionist picture above $100m.'},
+{k:'lot',ref:'Petite danseuse de quatorze ans',i:'degas-etoile',kick:'Lewis Collection · Sotheby’s London · 24 Jun 2026',sub:'A 1922 cast of the only sculpture Degas exhibited in his lifetime.'},
+{k:'lot',ref:'Maternité II',i:'gauguin-tahiti',kick:'Allen collection · Christie’s · 9 Nov 2022',sub:'The Gauguin auction record; the private record is Nafea Faa Ipoipo, ≈$210m to Qatar.'},
+{k:'signal',ref:'The Gulf: infrastructure, war-shadowed',kick:'Signal · the Gulf',big:'87',sub:'galleries at the first Art Basel Qatar; Frieze Abu Dhabi opens 19 November; Sotheby’s Collectors’ Week returns in December.'},
+{k:'symptom',ref:'wealth',kick:'Pulse · the diagnosis',big:'556,850',sub:'people worth $30m or more, up 30% in two years, holding a fifth of their wealth in art, in a market that grew 4%. More money than trophies.'},
+{k:'kpi',ref:'global',kick:'The market · 2025',big:'$59.6bn',sub:'Up 4% after two down years; the United States is 44% of it, the top of the market grew 30% and the middle kept shrinking.'},
+{k:'up',ref:'Iris',i:'monet-lilies-1906',kick:'Coming to the block · Sotheby’s Paris · 22 Oct',big:'€22–30m',sub:'The largest Iris, from the Schlumberger collection, could set the French auction record during Art Basel Paris week.'},
+{k:'under',ref:'nyag',kick:'Undertow · tax',big:'$6.25m',sub:'Sotheby’s paid New York in November 2024 over resale certificates that clients used to skip 8.875% sales tax on art that went home with them.'},
+{k:'journey',ref:'tefare',kick:'Undertow · the markup',sub:'$85m in through Bouvier in 2008, by Rybolovlev’s account; £20.3m ($25.2m) out at Christie’s in 2017, 70% less. One sale priced the whole affair.'},
+{k:'under',ref:'nahmad',kick:'Undertow · restitution',big:'30 days',sub:'to return a Modigliani bought at Christie’s in 1996, a New York judge ordered in June 2026. The Panamanian company that held it was no shield.'},
+{k:'story',ref:'anonymity',i:'vg-gachet',kick:'Salon · who bought it?',big:'?',sub:'Specialists bid for clients, companies own the works, freeports hold them. The buyer of the $236.4m Klimt is still unnamed.'},
+{k:'cal',kick:'The next thirty days',sub:'Frieze, Art Basel Paris and the October evening sales.'},
+{k:'cta',kick:'Subhasta',sub:'Thirteen sections: the pulse of the market, an atlas of ${HUBCOUNT} hubs, ${SEGCOUNT} segments and ${INSTCOUNT} institutions, ${ALLCOUNT} organisations, ${PEOPLECOUNT} people, ${LOTCOUNT} lots, ${NGACOUNT} ownership histories, ${UNDERCOUNT} undercurrents. Open the terminal, add your card to the salon, or ask for an invitation to the Circle.',nav:[['floor','Floor'],['pulse','Pulse'],['atlas','Atlas'],['houses','Houses'],['people','People'],['hammer','Hammer'],['ledger','Ledger'],['salon','Salon'],['undertow','Undertow'],['desk','Desk'],['circle','Circle']]}
+];

@@ -1,0 +1,208 @@
+# Subhasta — refresh runbook
+
+Subhasta is a single-file web app (the art trade's terminal) published as a Claude artifact at
+https://claude.ai/artifact/N6Ev8cTukqjpYRNcaGE2EB. Its complete source tree lives inside the artifact as
+published files under `src/`: the sources (`src/src/*`), the build and test scripts, the tools, the data
+registries, the docs (`README.md`, `ARCHITECTURE.md`), the audits and this runbook. The 117 public-domain
+pictures are also published files (`img/<id>.jpg`, `img/t/<id>.jpg`) and are kept across republishes, so a
+refresh never needs to re-upload them. The same tree is a git repository on the maintainer's side; the
+artifact copy is the one a fresh session can reach, so **every session that edits the tree must republish
+the source map (section 4), even when the page itself did not change** — otherwise the next refresh builds
+on a stale copy and overwrites the newer work.
+
+## 1. Get the source (fresh session)
+
+Use the Artifact tool, action `read`, with `url` = the artifact URL and `paths` =
+```
+["src/REFRESH.md","src/README.md","src/ARCHITECTURE.md","src/build.py","src/test.js","src/package.json",
+ "src/images_manifest.py","src/fetch_images.py",
+ "src/tools/lint_data.js","src/tools/audit_runtime.js","src/tools/globals.py","src/tools/nga_subset.py","src/tools/shots.js","src/tools/globe_dots.py","src/tools/benchmarks.py",
+ "src/audit/data_integrity.md","src/audit/runtime_audit.md","src/audit/architecture_review.md",
+ "src/src/page.html","src/src/style.css","src/src/globe.css","src/src/circle.css","src/src/lab.css","src/src/app.js","src/src/reel.js","src/src/under.js","src/src/pulse.js","src/src/atlas.js","src/src/clinic.js","src/src/globe.js","src/src/circle.js","src/src/lab.js","src/src/lab_prov.js","src/src/lab_hands.js",
+ "src/src/data_houses.js","src/src/data_market.js","src/src/data_more.js","src/src/data_people.js","src/src/data_reel.js","src/src/data_under.js","src/src/data_pulse.js","src/src/data_atlas.js","src/src/data_world.js","src/src/data_flows.js","src/src/data_globe.js","src/src/data_circle.js","src/src/data_bench.js",
+ "src/data/images_meta.json","src/data/nga_subset.json","src/data/nga_ids.txt"]
+```
+The files land in a local folder (the read result says where). Recreate the layout:
+```
+rostrum/
+  build.py  test.js  package.json  images_manifest.py  fetch_images.py  REFRESH.md  README.md  ARCHITECTURE.md
+  src/    (page.html, style.css, *.js)
+  data/   (images_meta.json, nga_subset.json, nga_ids.txt)
+  tools/  (lint_data.js, audit_runtime.js, globals.py, nga_subset.py, shots.js, globe_dots.py, benchmarks.py)
+  audit/  (the three audit reports)
+  build/  (created by build.py; build/img holds the pictures — fetch them from the artifact only if a check needs them:
+           read "img/<id>.jpg" and "img/t/<id>.jpg" for the ids in data/images_meta.json, or run fetch_images.py)
+```
+i.e. move `src/src/*` to `src/`, `src/data/*` to `data/`, `src/tools/*` to `tools/`, `src/audit/*` to `audit/`, and the
+rest to the root.
+
+Before editing anything, read the `## Versions` section at the end of this file: it records which artifact version
+carries which source state. If the page's footer counts or the Floor's verification date do not match the latest
+entry, the published source is behind the maintainer's tree — stop and report it instead of building on it.
+
+Install and verify: `npm install` (jsdom, axe-core; Playwright resolves from the environment, Chromium is at
+`/opt/google/chrome/chrome`), then `npm run check` = `python3 build.py` → `node test.js` (must end `errors: none`, exits
+1 otherwise) → `node tools/lint_data.js --quiet` (must end `ERROR 0`) → `python3 tools/globals.py --no-tables` (0 fatal
+collisions). Before publishing also run `npm run audit` (`node tools/audit_runtime.js`, ≈2 min, must end `all checks
+passed`). Syntax-check any edited file with `node -e "new Function(require('fs').readFileSync('src/FILE.js','utf8'))"`.
+`npm run shots` writes desktop and phone screenshots of the main views to `shots/` for a visual check.
+
+## 2. Where the data lives
+
+| What | File | Constant |
+|---|---|---|
+| Terminal date (filters the calendars) | `src/app.js` | `const TODAY='YYYY-MM-DD'` |
+| Verification date (the Floor chip and every V-flag tooltip read it) | `src/data_market.js` | `MARKET.verified` (`'D Mon YYYY'`) |
+| The Floor's front page (picture, headline, paragraph, buttons) and teaser strips | `src/data_market.js` | `HERO`, `FLOOR` (`vitals` = VITALS ids, `under` = ATLAS ids) |
+| KPI tiles 3–4 on the Floor | `src/data_more.js` | `EVIDENCE.bigthree` / `.private` fields `v`, `d`, `chg`, `by` |
+| Artists' death years (resale-right rule in Follow the money; every lot artist must be listed) | `src/data_market.js` | `ARTIST_DIED` (year, `null` living, `false` not an artist) |
+| Artists' nationality for the resale right (every lot artist whose right may still run: living or dead within 70 years) and the nationalities the right pays | `src/data_market.js` | `ARTIST_NATION` (two-letter code), `ARR_NATIONS` (the UK, the EEA, Australia, New Zealand) |
+| Who pays a room's resale right and from what price | `src/data_under.js` | `VENUES[].arrPayer` (`'buyer'` in London and Paris), `VENUES[].arrMin` (£1,000; €750) |
+| What the models leave out (the limits register in the Lab, linked from the notes) | `src/data_circle.js` | `LIMITS` (`id`, `area`, `t`, `b`, `at`), `LIMIT_AREAS` |
+| Dealers of the Ledger (name, NGA mentions, note, key matched as a whole word in a history's main text, optional `{alt, not}`: other spellings, and longer names that contain the key but are someone else) | `src/data_market.js` | `DEALERS` |
+| Names for PEOPLE[].org ids that are not organisations | `src/data_people.js` | `ORG_ALIASES` |
+| Vital signs (16 tiles) | `src/data_pulse.js` | `VITALS` (fields l, v, d, dir, read, sub, s, src, vf) |
+| Time series | `src/data_pulse.js` | `SERIES` (global, auction, dealer, online, shares, us, bands2025, cats2025, nft, museums) |
+| Diagnoses (16 cards) | `src/data_pulse.js` | `SYMPTOMS` (t, read, ev, prog, src, vf, link, img) |
+| Chronology | `src/data_pulse.js` | `LONGVIEW` |
+| Artist records | `src/data_pulse.js` | `RECORDS2` |
+| Dispatches (dated news, newest first) | `src/data_pulse.js` | `DISPATCHES` |
+| Source registry for the Pulse | `src/data_pulse.js` | `PULSE_SRC` (key → [label, url]) |
+| Hubs, regimes, segments, fairs, lenses, institutions, report calendar | `src/data_atlas.js` | `HUBS`, `REGIMES`, `SEGMENTS`, `FAIRS`, `LENS_REGIONS`, `INSTITUTIONS`, `INST_FACTS`, `REPORTS` |
+| Market KPIs, results, records, calendar, news (display date `d` and ISO `dt`), signals, glossary | `src/data_market.js` | `MARKET`, `RESULTS`, `RECORDS`, `CALENDAR`, `NEWS`, `SIGNALS` … |
+| More results, chains, collectors, stories, evidence drawers | `src/data_more.js` | `RESULTS_MORE`, `CHAINS`, `COLLECTORS`, `STORIES`, `STORIES_MORE`, `EVIDENCE` |
+| People, routes, upcoming trophies | `src/data_people.js` | `PEOPLE`, `ROUTES`, `UPCOMING` |
+| Houses and players | `src/data_houses.js` | `HOUSES`, `PLAYERS` |
+| Undertow atlas, stations, journeys, flow rules | `src/data_under.js` | `ATLAS`, `STATIONS`, `JOURNEYS`, `VENUES` (`country`, `cities`, `homeDest`, tax fields), `DESTS` (`country`, `impVat`, `useTax`, `s`, `act`, and the flags `bonded`, `insured`, `defer`), `FX` |
+| Which sale room a hub opens in Follow the money; the Clinic's regime booleans and export thresholds | `src/data_atlas.js` | `HUBS[].room` (a VENUES key), `REGIMES[].strictExport`, `REGIMES[].dealerAml`, `REGIMES[].expAge` or `.expBefore` (one or neither; default 50 years) |
+| Where a room charges import VAT (hammer, or hammer plus premium in place of VAT on the premium), what its own VAT falls on, and what export does to it | `src/data_under.js` | `VENUES[].impVat`, `VENUES[].impVatOn` (`'total'` for Paris), `VENUES[].vatOn` (`'total'` for Geneva), `VENUES[].exp` (the house's export terms, as a phrase) |
+| The Reel’s cards | `src/data_reel.js` | `REEL`, image maps `LOTIMG`, `UPIMG`, `STORYIMG`, `HOUSEIMG` |
+| Hub city coordinates and momentum (the globe) | `src/data_atlas.js` | `HUBS[].lon`, `.lat`, `.momentum` (−2…+2), `.why` |
+| Exchange rates: spot and month-end series; the flow model’s constant | `src/data_flows.js`, `src/data_under.js` | `RATES`, `FXSERIES`; `FX` (US$ per unit, within 1.5% of `1/RATES`) |
+| The journeys’ places (the globe’s Journeys mode) | `src/data_flows.js` | `PLACE_LL` |
+| Trade in art, corridors, attention (empty until a feed is reachable) | `src/data_flows.js` | `TRADE`, `CORRIDORS`, `COUNTRY_LL`, `ATTENTION`, `FLOW_SRC` |
+| The Circle: offer, tiers, why, invitation copy, brief layout | `src/data_circle.js` | `CIRCLE` |
+| The globe’s land mask (generated; do not edit) | `src/data_globe.js` | `GLOBE_DOTS`, `GLOBE_COUNTRIES`, `GLOBE_META` — `python3 tools/globe_dots.py` |
+| The Lab’s benchmarks: S&P 500 total return and price index, gold, US CPI (generated; do not edit) | `src/data_bench.js` | `BENCH` — `python3 tools/benchmarks.py` |
+| The Lab’s measures (returns, round trip, structure, provenance 1933–45, confidence) | computed from the constants above at render | nothing to edit; they move with the data |
+
+Conventions: every figure carries a verification flag — `V` confirmed in a fetched primary/reputable page,
+`S` secondary or as-first-published, `U` unconfirmed (shown to readers as such). Prices include buyer’s
+premium unless stated. Dates ISO (`2026-11-18`). Apostrophes inside single-quoted JS strings must be the
+typographic ’ (never '). Keep British spelling and the house style (short declarative sentences, no hype).
+
+## 3. The monthly refresh (run on the 3rd of each month, covering the previous month)
+
+Always:
+1. Set `TODAY` (app.js) to the run date and `MARKET.verified` (data_market.js) to the date the figures were last
+   checked against their sources (the run date, if the run re-checked them).
+1b. Re-read the dated prose that lives in the engines and is not derived from data (it does not change by itself):
+   the KPI labels and chart subtitles on the Floor (app.js `renderFloor`: "Global art market, 2025", "2019–2025",
+   "2025 sales by country"), the Hammer period filter (app.js `renderHammer`: 2026 / 2025 / 2020–2024 …), the fee
+   schedule year (app.js: "2026 schedule", "all four major houses raised it in 2026"), the Signals view's framing
+   lines (app.js `renderSignals`: "in 2026", "to June 2027", "tested 1 October 2026"), the Pulse chart notes
+   (pulse.js: "Price bands, 2025", "Categories, 2025", "Museums, 2025", "The long view, 1744–2026", era chip
+   "2008–2026", "Verified against the 2026 reports"), the Atlas ("2025 share of global sales"; the year-ahead line says 2027 dates are as
+   announced, with unannounced fairs marked in their own entries), the Clinic year input `max="2026"`, the Reel's report-name card ("Global Art Market Report
+   2026") and kpi watermark ("2025"). The Dispatches range, the wire's range, the ECG label, the fairs range and
+   the colophon counts are derived from the data and need no edit.
+2. `DISPATCHES`: replace with the 10–12 most important dated items of the previous month, by region
+   (Asia, Europe, Americas, Middle East, Latin America, Africa), each with URL and flag.
+3. `CALENDAR` (data_market.js) and `FAIRS` (data_atlas.js): drop past events, add announced sale weeks
+   and fairs for the next 12 months with confirmed dates; `UPCOMING`: replace sold lots with the results
+   (add them to `RESULTS_MORE` with price, house, city, date, note, chain if known) and add newly
+   announced trophies.
+4. `NEWS` (the wire) and `SIGNALS`: refresh the top items; keep sources.
+5. Hong Kong (spring: March–April; autumn: September–October), New York (May, November), London
+   (March, June–July, October), Paris (October): after each marquee week update the relevant `HUBS[].top`,
+   `HUBS[].shift`, the matching `SYMPTOMS` evidence, and `MARKET`/`EVIDENCE` KPIs.
+6. Re-check `RECORDS2` for new artist records; update `SEGMENTS[].top` and `[].moving`.
+7. Add 1–2 `REEL` cards for the month’s biggest story (kinds: lot, up, story, signal, path, treaty,
+   kpi, under, journey, money, symptom, hub, segment) and retire stale ones; keep the Reel at 36–42 cards.
+8. `HERO` (data_market.js): when the front-page story is sold or superseded, replace the whole constant (picture
+   from the registry, honest caption, headline, paragraph, buttons). `FLOOR`: re-pick the four vitals and four
+   undercurrents of the week.
+9. New lots or trophies with a new artist: add the artist to `ARTIST_DIED` and, if the right may still run (living or
+   dead within 70 years), to `ARTIST_NATION` (the lint fails otherwise). New hub:
+   give it `room`; new jurisdiction: give it `strictExport`/`dealerAml`; new NEWS item: give it `dt`.
+10. Run `npm run check`; fix every lint ERROR; read the WARN list for anything the month's edits caused.
+11. If the previous run already covered the month (see the Versions ledger), do an incremental pass — new dated
+    items, re-verified S/U flags, `TODAY` moved — rather than rewriting the lists.
+12. Currency weather and the flow model's FX: WebFetch `https://api.frankfurter.dev/v1/latest?from=USD&to=GBP,EUR,CHF,HKD`
+    → `RATES` (asof = the fixing date); WebFetch `https://api.frankfurter.dev/v1/<first day of last month>..<run date>?from=USD&to=GBP,EUR,CHF,HKD`
+    and append the last fixing of each new month to `FXSERIES` (the current month's point is the latest fixing; replace it
+    next run), keeping 13–14 months (drop the oldest); set `FX` in data_under.js to `1/rate`, four decimals. The lint
+    fails if `FX` drifts more than 1.5% from `RATES`.
+13. `HUBS[].momentum` and `.why`: re-read for every hub the month touched (a marquee week, a fair, a closure); keep `why`
+    to one line that a dossier source supports.
+14. Feeds that were unreachable from the cloud session in October 2026 — UN Comtrade's free preview (403), the Wikimedia
+    page-view API (blocked), the US Census trade API (key required): try each once (the URLs are in the header of
+    `src/data_flows.js` and in ARCHITECTURE.md §9); if one answers, fill its collection to the documented schema with
+    `src`/`vf` on every record. Never estimate a figure to fill a mode.
+15. The Lab's benchmarks: `python3 tools/benchmarks.py` (downloads three CSVs from raw.githubusercontent.com and rewrites
+    `src/data_bench.js`; `--dry-run` prints the summary first). The lint fails when the series end before the year
+    before `TODAY`. The Lab's other measures are computed from the data at render and need no edit; after the run,
+    open `#lab` and read the five reading lines for anything the month's edits made odd (a new chain with a group price
+    should say "for fifteen works" or "for the series" after the amount, so price paths skip it).
+16. If `data/nga_ids.txt` changes (a new Ledger record), rebuild with `python3 tools/nga_subset.py --write`: the rule keeps
+    every main text whole, which the Lab's 1933–45 reading needs; `npm run ledger:check` confirms the shipped file.
+17. Sales whose dates have passed show as "offered; the result comes with the refresh" (the page judges "upcoming" by the
+    reader's date, `NOW`): move each to the results with its price, or drop it if it was withdrawn. Fair dates marked
+    "not announced" in `FAIRS`/`CALENDAR`: replace them as the fairs announce, and keep the two lists and the hubs'
+    `fairs` lines in agreement (they disagreed in four places before 9 October 2026).
+18. The limits register (`LIMITS`): when a month's edit changes what a model does (a threshold, a payer, a scope, a new
+    nationality), update or retire the matching entry; never turn a limit into an estimate of its effect.
+
+By month (the report calendar is in `REPORTS`):
+- **April run (March drops):** Art Basel & UBS Global Art Market Report → `VITALS` global/auction/dealer/
+  online/top/bottom/us, `SERIES.global/auction/dealer/online/shares/us` (append the new year), `MARKET.global`,
+  `EVIDENCE` drawers; Artprice annual report → `VITALS.unsold`, Artprice-based lines in `SYMPTOMS`;
+  Knight Frank Wealth Report → `VITALS.wealth`; The Art Newspaper visitor survey → `SERIES.museums`;
+  Bank of America/ArtTactic → `VITALS.guar`.
+- **May run:** ArtTactic confidence (April) → `VITALS.conf`; the New York May week → hubs, symptoms, lots.
+- **July run:** Capgemini World Wealth Report → wealth tile detail; Art Basel (June) attendance → `HUBS.geneva`.
+- **August run (July drops):** Christie’s and Sotheby’s half-year results → `VITALS.h1` (rename the label
+  to the new half), `MARKET.h1_*`, `HOUSES[].sales.detail`, `SYMPTOMS.estates/guarantees`.
+- **October run:** Altrata World Ultra Wealth Report (September) → `VITALS.wealth`; the Hong Kong autumn
+  series → `HUBS.hk`, `SYMPTOMS.china`.
+- **November run (October drops):** Art Basel & UBS Survey of Global Collecting → `VITALS.collect`,
+  collector lines in `SYMPTOMS.women/wealth/online`; Frieze London and Art Basel Paris → `HUBS.london/paris`.
+- **January run (December drops):** the houses’ year-end totals → `HOUSES[].sales` (y25→y26 etc.),
+  `MARKET.bigThree`, `VITALS.luxury`, `SYMPTOMS.luxury/estates`; Artnet/Artsy year reviews → `RECORDS2`,
+  `SERIES.bands`/`cats` for the new year; `LONGVIEW`: add the year’s line.
+- **Every other November:** Deloitte Art & Finance (biennial; next November 2027) → lending figures in
+  `ATLAS` entry `lending` (data_under.js) and `SYMPTOMS.guarantees`.
+
+Research standard: fetch the primary page (the report’s own press release, the house’s results page,
+the fair’s announcement) or two reputable outlets; never carry a number without a URL; if a number
+cannot be confirmed, keep the old one and mark the tile or line `S`/`U` with a note, rather than guessing.
+
+## 4. Publish
+
+Rebuild, run `npm run check` and `npm run audit`, then publish with the Artifact tool: `file_path` =
+`build/rostrum.html`, `url` = the artifact URL (keeps the address; images are kept), `root` = the project root
+(`rostrum/`), and re-publish the whole source tree so the next run gets it: `files` = the map in section 1 with
+the sources relative to `root` (`"src/src/app.js": "src/app.js"`, `"src/tools/lint_data.js": "tools/lint_data.js"`,
+`"src/REFRESH.md": "REFRESH.md"`, `"src/data/nga_ids.txt": "data/nga_ids.txt"`, …). Files whose extension is not
+served need an explicit type or the whole publish is refused: every `.py` script and the page template go as
+`{"from": "build.py", "contentType": "text/plain"}` (likewise `images_manifest.py`, `fetch_images.py`,
+`tools/globals.py`, `tools/nga_subset.py`, `tools/globe_dots.py`, `tools/benchmarks.py` and `"src/src/page.html": {"from": "src/page.html", "contentType":
+"text/plain"}`); `.js`, `.css`, `.md`, `.json` and `.txt` are served by extension. A new picture is published
+as `"img/<id>.jpg": "build/img/<id>.jpg"` and `"img/t/<id>.jpg": "build/img/t/<id>.jpg"` in the same call. If the tool answers that some
+published files are "not what you last saw", read those paths from the artifact first (action `read`,
+`paths` = the listed paths) and publish again. Do not pass `capabilities` (the previous declaration — db rules for the members' cards, user profile, sample,
+downloads, and comments limited to the composer, which the Circle's invitation uses — is carried forward) and do not
+create a new artifact. Finish with a short note of what changed and which
+figures remain unverified.
+
+## Versions
+
+| Date | Artifact version | Source state |
+|---|---|---|
+| 5 Oct 2026, 21:14 ET | refresh run (scheduled task fired by hand) | Incremental pass by the scheduled task from the v13 source: Koons’s ≈$100m Heroes and Lovers consignment (Christie’s, 17 Nov), the Weiss bankruptcy lots at Sotheby’s (18 Nov), Artnet’s per-house Hong Kong totals, the Mondrian estimate (£20–30m), the Rembrandt buyer (Leiden Collection), PAD London; TODAY 2026-10-06. Merged into the maintainer’s tree on 6 Oct. |
+| 6 Oct 2026 | v14 | Foundation pass. Data contracts: HERO, FLOOR, ARTIST_DIED, ORG_ALIASES, DEALERS key, NEWS dt, VENUES/DESTS country·cities·homeDest, HUBS.room, REGIMES strictExport/dealerAml, MARKET.verified, VITALS.unit, EVIDENCE tile fields. Hardened build.py (Node counts, guards) and test.js (exit code, boot poll, new asserts); engines wired to the data; a11y/keyboard/robustness fixes from the runtime audit; apostrophe- and diacritic-insensitive search. tools/ (lint, runtime audit, globals map, NGA subset, shots), package.json scripts, README, ARCHITECTURE, three audits — all published with the source. Nine hubs sourced (Shanghai, Tokyo, Singapore, Taipei, Dubai, Doha, Miami, Madrid, Maastricht) with 2027 fair dates; Hockney (d. 11 Jun 2026) and Kusama (d. 14 Aug 2026) recorded. Figures verified 6 Oct 2026; TODAY 2026-10-06. Git: commits "Subhasta v14 baseline", "v14: foundation pass", "v14: merge the refresh run". |
+| 8 Oct 2026 | v17 | The globe (dot-matrix earth, five modes: share, momentum, journeys, flows when data lands, calendar), currency weather (ECB month-end series) and the FX constant brought to the 8 Oct fix, the Circle (offer, why, invitation by comment, the Subhasta Brief), hub coordinates and momentum, the Salon board moved to one document per author (db rules: all read, each writes own), lint rules for every new collection, the runtime audit reading its view list from the app. TRADE, CORRIDORS and ATTENTION remain empty: their feeds refused the cloud session. |
+| 8 Oct 2026 | v18 | The Lab: five instruments computed from the data (repeat-sales returns against the S&P 500 total return, gold and CPI from `data_bench.js`; the round trip on Follow the money's entry; concentration; provenance 1933–45; the confidence ledger). The provenance reading covers the museums' research scope (578 histories: 351 accounted for, 136 partly, 91 quiet, 20 custody), feeds the Ledger's filter and chips, the drawer, the Clinic's base rate and the Circle; it was checked by an independent second reader. `tools/nga_subset.py` keeps every main text whole (53 records). Data: the US tariff texts follow the verified regime row; Paris import VAT on hammer plus premium; export thresholds per regime in the Clinic; Salvator's 2005 step at $1,175; group prices skipped by price paths; the Hong Kong ceramics link; TODAY 2026-10-08, figures verified 8 Oct 2026. New lint rules: calendar link city/house, Circle links, `impVatOn`, `expAge`/`expBefore`. |
+| 8 Oct 2026 | v19 | Measuring and the review's fixes. Follow the money: the room's VAT comes back when the work leaves the country or goes into bond (a new rule, `exportvat`, from Phillips' London, Paris and Geneva guides and the Swiss customs publication); Paris and Geneva homes as destinations (5.5% and 8.1% import VAT), so every room has a domestic case; the museum loan insures and is shown but not ranked; the same purchase in eight places with VAT in the room; the room-by-destination matrix with plain readings. The Lab: a 90% bootstrap interval for the median return; the break-even grid by lot size and years held, cached on every input including Follow the money's imported box and shipping, with separate size and time readings; concentration across named artists (ten lots with no artist left out; shares rounded to add up; Leonardo by his first name) and value by decade; the dealers and houses named in the 1933–45 histories, with lists that match their counts. One dealer matcher (whole names, other spellings, look-alike names struck out: Lansdell K. Christie, Arnold Seligmann, Karl Buchholz's Berlin gallery, Sotheby Parke Bernet) for the Ledger, the artist pages and the Lab; an artist page's dealer opens the Ledger on that dealer and artist. Sticky first columns on a phone. New lint rules: DEALERS' fifth column, DESTS `s`/`act`/flags, ledger-row atlas ids in ternaries. |
+| 9 Oct 2026 | v20 | A sixth instrument and the reviews' fixes. The Lab's instrument five, Hands (`src/lab_hands.js`): every holding the Ledger's histories date at both ends (1,336), the collector's median hold (18 years, the middle half 8 to 32) against the dealer's (one), how collectors let go by era (a sale, heirs, the Gallery), hands before the Gallery by when the work was made, and the dealers who sold to the founders' collections drawn as a flow (Knoedler, Wildenstein and Étienne Bignou the busiest), with a CSV; a second reader's sample fixed the splits it found. The round trip at each repeat sale's own rate, like for like by price, drawn as a dot strip with the S&P 500 and the outliers at the edge. Two independent reviews of v19: Geneva charges its 8.1% on hammer and premium (Phillips' Geneva guide); each room's export terms are its own phrase (`VENUES.exp`); the export rule is reworded to its sources, adds the Swiss customs page that counts a delivery into a free warehouse as an export, and is flagged secondary; the ledger rows link the right entry; the Lab redraws on return; the slider no longer drifts; new scroll regions take keyboard focus; trillions print; the grid's clause follows the numbers; the bars show one decimal. `tools/globals.py` reads the paste order from `build.py`; the lint checks the last ledger row, `vatOn` and `exp`, and reads `lab_hands.js`. |
+| 9 Oct 2026 | v21 | Limits and flaws. A limits register in the Lab (23 things the models leave out, in seven areas, linked from every note that relies on one). The money model's rules: the resale right by room, payer (the buyer in London and Paris), threshold (£1,000, €750), term and nationality (`ARTIST_NATION`, `ARR_NATIONS`: the UK, the EEA, Australia, New Zealand); the estate tax on the whole price; a guarantee fixed in dollars; presets in local money; a $100k–$2bn slider read only when moved; ties in the room comparison. The Clinic's surname, undated, export and resale-right fixes. Provenance leads with the AAM's full scope (184 histories, 11% accounted for), its reasons split without overlap. Like-for-like growth in real terms. History: Back and Forward walk views and dossiers; the Reel closes onto the page it covered. Fixes from an independent review (board authors from the document id only; the audit's overflow and masthead checks now load the page; the Reel opens playing and Space advances; composer roles and names; collector lots on whole words; upcoming judged by the reader's date) and from a data check (2027 fair dates as announced in all three lists; London's evening sales 14–15 Oct; Collectors' Week early December; the Hammer collection's twelve works over five sales; Christie's 2025 +6%; Phillips like for like; $992bn credited to Deloitte; BofA's +133% with its 2022 caveat; the anime debut $1.4m; Phillips' leadership; Te Fare's €54m, $25.2m and its losses in dollars, real terms and euros). Phone charts, print, the masthead fold. TODAY 2026-10-08; figures re-checked 9 Oct 2026. |

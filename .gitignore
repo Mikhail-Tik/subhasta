@@ -1,0 +1,11 @@
+node_modules/
+build/*.html
+build/files_*.json
+data/raw_img/
+data/raw_geo/
+data/nga_objects.csv
+data/published_images.csv
+data/nga_subset_raw.json
+shots*/
+__pycache__/
+*.log

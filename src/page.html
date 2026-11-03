@@ -1,0 +1,102 @@
+<title>Subhasta</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/*__CSS__*/
+</style>
+
+<header class="mast">
+  <div class="in">
+    <button class="brand" id="homeBtn" aria-label="Subhasta home">
+      <span class="word">SUB<b>HASTA</b></span>
+      <svg class="spear" viewBox="0 0 120 14" aria-hidden="true"><line x1="0" y1="7" x2="100" y2="7"/><path d="M100 7 L112 2 L119 7 L112 12 Z"/></svg>
+      <span class="motto">sub hasta — sold under the spear</span>
+    </button>
+    <nav class="nav" id="nav" aria-label="Sections">
+      <button data-v="reel">Reel</button>
+      <button data-v="floor">Floor</button>
+      <button data-v="pulse">Pulse</button>
+      <button data-v="atlas">Atlas</button>
+      <button data-v="houses">Houses</button>
+      <button data-v="people">People</button>
+      <button data-v="hammer">Hammer</button>
+      <button data-v="ledger">Ledger</button>
+      <button data-v="salon">Salon</button>
+      <button data-v="undertow">Undertow</button>
+      <button data-v="desk">Desk</button>
+      <button data-v="lab">Lab</button>
+      <button data-v="lexicon">Lexicon</button>
+      <button data-v="circle">Circle</button>
+    </nav>
+    <div class="tools">
+      <button class="chip" id="palBtn" title="Search everything (⌘K or Ctrl-K)"><span class="tx">Search</span><span class="ic" aria-hidden="true">⌕</span> <kbd aria-hidden="true">⌘K</kbd></button>
+      <button class="chip" id="themeBtn" title="Switch between light and dark"><span class="tx">Theme</span><span class="ic" aria-hidden="true">◐</span></button>
+      <button class="chip menu" id="menuBtn" aria-label="Sections menu" aria-controls="nav" aria-expanded="false">Menu</button>
+    </div>
+  </div>
+</header>
+
+<div class="shell">
+  <main>
+    <section class="view" id="v-floor" aria-label="The floor"></section>
+    <section class="view" id="v-pulse" aria-label="Pulse"></section>
+    <section class="view" id="v-atlas" aria-label="Atlas"></section>
+    <section class="view" id="v-houses" aria-label="Houses and players"></section>
+    <section class="view" id="v-people" aria-label="People"></section>
+    <section class="view" id="v-hammer" aria-label="Hammer results"></section>
+    <section class="view" id="v-signals" aria-label="Signals"></section>
+    <section class="view" id="v-ledger" aria-label="Provenance ledger"></section>
+    <section class="view" id="v-salon" aria-label="Salon"></section>
+    <section class="view" id="v-undertow" aria-label="Undertow"></section>
+    <section class="view" id="v-desk" aria-label="The desk"></section>
+    <section class="view" id="v-lab" aria-label="The Lab"></section>
+    <section class="view" id="v-lexicon" aria-label="Lexicon and instruments"></section>
+    <section class="view" id="v-circle" aria-label="The Circle"></section>
+    <section class="view" id="v-detail" aria-label="Dossier"></section>
+    <footer class="colophon"><b>Subhasta</b>, from the Latin <i>sub hasta</i>: in Rome, goods were auctioned beneath a spear planted in the ground, the praeco called the bids and the argentarius settled the money. Figures here are as reported by the houses, Arts Economics (Art Basel &amp; UBS 2026), ArtTactic, Bank of America Private Bank, Artprice and the trade press; every dossier, lot and signal links its sources. Provenance records come from the National Gallery of Art’s open data (CC0). Prices include buyer’s premium; private-treaty prices are press reports. Curated, not exhaustive: ${ALLCOUNT} organisations, ${PEOPLECOUNT} people, ${LOTCOUNT} lots, ${NGACOUNT} ownership histories, ${UNDERCOUNT} undercurrents, ${HUBCOUNT} hubs, ${SEGCOUNT} segments, ${INSTCOUNT} institutions. Map: Natural Earth via the D3 graph gallery, Robinson projection.</footer>
+  </main>
+</div>
+
+<div class="scrim" id="scrim"></div>
+<!-- a <div>, not <aside>: role=dialog is not permitted on <aside>; inert while closed (openDrawer clears it) -->
+<div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="dTitle" inert>
+  <div class="dh"><div style="min-width:0"><h2 id="dTitle"></h2><p id="dSub"></p></div><button class="x" id="dClose" aria-label="Close">×</button></div>
+  <div class="db" id="dBody"></div>
+</div>
+<div class="pal" id="pal" role="dialog" aria-label="Search">
+  <div class="box"><input id="palq" type="search" placeholder="Search houses, lots, collectors, dealers, terms, dates…" aria-label="Search everything" autocomplete="off" aria-controls="palres"><div class="res" id="palres" role="listbox" aria-label="Results"></div><div class="ft"><span>↑↓ move</span><span>↵ open</span><span>esc close</span><span>1–9 switch sections (Floor to Salon)</span></div></div>
+</div>
+<div class="lightbox" id="lightbox" role="dialog" aria-label="Image"></div>
+<div class="reel" id="reel" aria-hidden="true" role="region" aria-roledescription="carousel" aria-label="The Reel">
+  <div class="rback" id="reelBack"></div><div class="rwrap"><div class="rstage" id="reelStage"></div></div>
+  <div class="rbar" id="reelBar"></div>
+  <div class="rhud"><span class="word">SUB<b>HASTA</b></span><div class="ctl"><span class="cnt" id="reelCount"></span><button id="reelPause" aria-label="Pause or play">Pause</button><button id="reelClose" aria-label="Close the Reel">Close ×</button></div></div>
+  <div class="rside l"><button id="reelPrev" aria-label="Previous">‹</button></div><div class="rside r"><button id="reelNext" aria-label="Next">›</button></div>
+  <div class="rhint">tap right to advance · hold to pause · ↑↓ keys</div>
+</div>
+<div class="tip" id="tip" role="tooltip"></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+/* Load order matters and build.py pastes in exactly this order. The nine data files declare plain script-level consts, so each may
+   reference an earlier file at top level and a later one only inside a function. The app IIFE (src/app.js, with the four engines
+   pasted inside it) reads the data at load, needs the markup above to exist (the script stays at the end of <body>) and sets
+   window.__S. The Reel IIFE (src/reel.js) reads window.__S at its own top level, so it must stay after the app. */
+/*__DATA_HOUSES__*/
+/*__DATA_MARKET__*/
+/*__DATA_MORE__*/
+/*__DATA_PEOPLE__*/
+/*__DATA_REEL__*/
+/*__DATA_UNDER__*/
+/*__DATA_PULSE__*/
+/*__DATA_ATLAS__*/
+/*__DATA_WORLD__*/
+/*__DATA_FLOWS__*/
+/*__DATA_GLOBE__*/
+/*__DATA_CIRCLE__*/
+/*__DATA_BENCH__*/
+const NGA=/*__NGA__*/[];
+/*__APP__*/
+/*__REEL__*/
+</script>

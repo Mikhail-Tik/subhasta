@@ -1,0 +1,24 @@
+{
+  "name": "subhasta",
+  "version": "0.21.0",
+  "private": true,
+  "description": "Subhasta — the art trade's terminal. A single-file web app built from src/ by build.py and published as a Claude artifact.",
+  "scripts": {
+    "build": "python3 build.py",
+    "test": "node test.js",
+    "lint": "node tools/lint_data.js --quiet",
+    "globals": "python3 tools/globals.py --no-tables",
+    "audit": "node tools/audit_runtime.js",
+    "shots": "node tools/shots.js",
+    "ledger:check": "python3 tools/nga_subset.py --check",
+    "check": "npm run build && npm test && npm run lint && npm run globals",
+    "check:full": "npm run check && npm run audit && npm run ledger:check"
+  },
+  "dependencies": {
+    "jsdom": "^24.1.3"
+  },
+  "devDependencies": {
+    "axe-core": "^4.14.0",
+    "playwright": "^1.47.0"
+  }
+}
