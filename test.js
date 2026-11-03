@@ -229,7 +229,19 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
    assert(S.askRecordFull('artist:Claude Monet').lots.length>=3&&S.askRecordFull('movement:impressionism').lots_in_terminal.length>=1,'get_record: an artist and a movement');
    assert(S.liveValid('read',{asof:'2026-11-05',h:'A headline',dek:'A thesis.',src:[['TAN','https://www.theartnewspaper.com/x']]})===true,'liveValid accepts a well-formed read');
    assert(S.liveValid('read',{asof:'2026-11-05',h:'A headline',dek:'A thesis.',src:[['TAN','javascript:alert(1)']]})===false,'liveValid refuses a non-https source');
-   assert(S.liveValid('sales',{asof:'2026-11-05',items:[{id:'bad id',n:'x',d:'2026-11-18',house:'sothebys'}]})===false,'liveValid refuses a malformed sale id');}
+   assert(S.liveValid('sales',{asof:'2026-11-05',items:[{id:'bad id',n:'x',d:'2026-11-18',house:'sothebys'}]})===false,'liveValid refuses a malformed sale id');
+   assert(S.liveValid('sales',{asof:'2026-11-05',items:[{id:'x-1',n:'A sale',d:'2026-11-18',house:'sothebys',res:{total:10,v:'<img src=x>'},src:[['TAN','https://example.org/a']]}]})===false,'liveValid refuses a verdict that is not one of three words');
+   assert(S.liveValid('sales',{asof:'2026-11-05',items:[{id:'x-1',n:'A sale',d:'2026-11-18',house:'sothebys',est:['40','60'],src:[['TAN','https://example.org/a']]}]})===false,'liveValid refuses an estimate that is not numbers');
+   assert(S.liveValid('sales',{asof:'2026-11-05',items:[{id:'x-1',n:'A sale',d:'2026-11-18',house:'sothebys',est:[40,60],res:{total:52.5,sold:'30 of 32',v:'within'},lots:[{a:'An artist',t:'A work',est:'$5m–7m'}],src:[['TAN','https://example.org/a']]}]})===true,'liveValid accepts a well-formed sale with its result');
+   assert(S.liveValid('read',{asof:'2026-11-05T09:00:00Z',h:'A headline',dek:'A thesis.',src:[['TAN','https://example.org/a']]})===false,'liveValid refuses a timestamp for a date');
+   assert(S.askSplit('Next: read the catalogue.\nThe end.').body==='Next: read the catalogue.\nThe end.','askSplit leaves a line that only begins “Next:”');
+   assert(S.askSplit('Body\n**NEXT:** “One question” | Two questions').next.join('|')==='One question|Two questions','askSplit reads a bolded NEXT and strips quotes');
+   assert(S.askSplit('Answer\nGAP').body==='Answer','askSplit holds back a half-written GAP');
+   const rc=S.dataAnswer('Klimt record',S.kxSearch('Klimt record',14));assert(/the auction record/.test(rc)&&/\$236\.4m/.test(rc)&&/not an auction record/.test(rc),'the data answer gives an artist’s record, apart from private sales');
+   const nv=S.dataAnswer('November 2026 evening sales',S.kxSearch('November 2026 evening sales',14));assert(/### The sale room, November 2026/.test(nv)&&/\[\[sale:[a-z0-9-]+\|/.test(nv),'the data answer gives the sale room for a month');
+   const bp=S.dataAnswer('Break down recent sales, both public and private',S.kxSearch('Break down recent sales, both public and private',14));assert(/### The sale room/.test(bp)&&/### Private sales/.test(bp),'public and private sales together');
+   const sl=S.dataAnswer('What sold at the Schlumberger sale?',S.kxSearch('What sold at the Schlumberger sale?',14));assert(/### Sotheby’s, The Schlumberger collection/.test(sl)&&/\[\[sale:sothebys-schlumberger\|/.test(sl),'the data answer opens one sale');
+   assert(S.kxSearch('November 2026',8).some(h=>h.kind==='sale'),'dates are searchable by month');}
   {q('#nav button[data-v="ask"]').click();assert(q('#v-ask').classList.contains('on')&&qa('#v-ask .askq').length>=8,'Ask opens with example questions');
    const i=q('#askIn');i.value='Explain the Vienna Secession';q('#askForm').dispatchEvent(new w.Event('submit',{cancelable:true}));
    const turn=qa('#askThread .turn').pop();assert(turn&&/Vienna Secession/.test(turn.querySelector('.q').textContent),'a question becomes a turn');

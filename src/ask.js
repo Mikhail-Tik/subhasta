@@ -28,7 +28,7 @@ const KX_STOP=new Set('a an and are as at be been being but by can could did do 
 const kxStem=t=>{if(t.length>4&&t.endsWith('s')&&!/(ss|us|is)$/.test(t))t=t.slice(0,-1);if(t.length>5)t=t.replace(/(ism|ist)$/,'');return t;};
 const kxTok=s=>norm(s).replace(/[^a-z0-9]+/g,' ').split(' ').filter(t=>t.length>1&&!KX_STOP.has(t)).map(kxStem);
 /* how much each kind of record weighs before the words are counted: the Ledger's 771 histories would otherwise crowd the rest */
-const KX_PRIOR={movement:1.3,artist:1.3,lot:1.15,private:1.2,upcoming:1.1,sale:1.2,house:1.15,org:1,person:.95,collector:1,story:1,term:1,signal:1,news:.95,cal:.8,under:.95,station:.8,symptom:.9,vital:.9,hub:.95,segment:.95,inst:.85,fair:.85,report:.85,journey:.95,dealer:.8,prov:.55,record:1.1,kb:1.35,limit:.7};
+const KX_PRIOR={movement:1.3,artist:1.3,lot:1.15,private:1.2,upcoming:1.1,sale:1.2,house:1.15,org:1,person:.95,collector:1,story:1,term:1,signal:1,news:.95,cal:.8,under:.95,station:.8,symptom:.9,vital:.9,hub:.95,segment:.95,inst:.85,fair:.85,report:.85,journey:.95,dealer:.8,prov:.55,record:1.1,kb:1.15,limit:.7};
 /* words that say what kind of record the reader wants */
 const KX_INTENT=[[/private|treaty|behind closed|off[- ]market|deal\b/,{private:1.9,kb:1.2}],[/movement|\bism\b|school of|style|art history|explain|what was|origins?/,{movement:1.6,artist:1.15}],[/upcoming|coming up|next week|november|december|estimate|this season|marquee/,{upcoming:1.6,sale:1.7,cal:1.2}],[/record|most expensive|highest|priciest|top lots?/,{record:1.7,lot:1.25}],[/who runs|chair|ceo|head of|specialist|person|people/,{person:1.5}],[/provenance|owned|ownership|nazi|looted|restitution|dealer/,{prov:2.2,dealer:1.6,under:1.2}],[/tax|vat|duty|premium|fees?\b|cost|freeport|import|resale|arr\b/,{under:1.5,term:1.4,hub:1.2,station:1.2}],[/\bmean|\bdefine|definition|what is a|term\b/,{term:1.7}]];
 
@@ -45,13 +45,18 @@ function movesOf(a){if(typeof MOVEMENTS==='undefined')return [];if(!MOVE_IDX){MO
   const k=norm(a);return MOVE_IDX.get(k)||MOVE_IDX.get(norm(surname(a)))||[];}
 
 /* a sale in the sale room, in one line: the estimate and its basis, the guarantees, the result and its verdict, the lots */
-function saleLine(s){const e=s.est||[];const r=s.res||null;return `${s.hn||houseName(s.house)}, ${s.n}, ${s.city}, ${fdate(s.d)}${e.length?`: estimate ${e.length===2?mm(+e[0])+'–'+mm(+e[1]):'about '+mm(+e[0])}${s.estNote?` (${s.estNote})`:''}`:''}${s.g&&s.g!=='none'?`; guarantees: ${s.g}`:''}${r&&r.total!=null?`; made ${mm(+r.total)} with premium${r.sold?`, ${r.sold} sold`:''}${r.v?`, ${r.v} the estimate`:''}${r.vNote?` (${r.vNote})`:''}. ${r.note||''}`:'.'}${(s.lots||[]).length?` Lots: ${s.lots.map(l=>`${l.a}, ${l.t} (${l.est})`).join('; ')}.`:''}`;}
-function kxBuild(){if(KX.built)return;KX.built=true;const D=KX.docs=[];
+function saleLine(s){const e=s.est||[];const r=s.res||null;return `${s.hn||houseName(s.house)}, ${s.n}, ${s.city}, ${fdate(s.d)}${e.length?`: estimate ${e.length===2?mm(+e[0])+'–'+mm(+e[1]):'about '+mm(+e[0])}${s.estNote?` (${s.estNote})`:''}`:''}${s.g&&s.g!=='none'?`; guarantees: ${s.g}`:''}${r&&r.total!=null?`; made ${mm(+r.total)} with premium${r.sold?`, ${r.sold} sold`:''}${r.v?`, ${r.v} the estimate`:''}${r.vNote?` (${r.vNote})`:''}. ${r.note||''}`:'.'}${(s.lots||[]).length?` Lots: ${s.lots.map(l=>`${l.a}, ${l.t}${l.est?` (${l.est})`:''}`).join('; ')}.`:''}`;}
+/* a date as the words a reader types: 18 Nov 2026 November 2026 */
+const KX_MONTHS=['January','February','March','April','May','June','July','August','September','October','November','December'];
+const kxWhen=iso=>{const m=/^(\d{4})-(\d{2})-\d{2}/.exec(String(iso||''));return m?`${fdate(m[0])} ${KX_MONTHS[+m[2]-1]} ${m[1]}`:'';};
+/* the index is swapped in only when the whole build succeeds, so a malformed record cannot leave it half built */
+function kxBuild(){if(KX.built)return;try{kxBuildNow();KX.built=true;}catch(err){reportError(err,'the analyst’s index');}}
+function kxBuildNow(){const D=[];
   const add=(kind,id,name,line,body,tags,o)=>{D.push(Object.assign({ref:kind+':'+id,kind,id:String(id),name:String(name),line:cut(line,560),body:String(body||''),tags:String(tags||'')},o||{}));};
-  RESULTS.forEach(r=>add('lot',r.id,`${r.artist}, ${r.title}`,kxLotLine(r),`${r.year} ${r.note||''}`,`${r.artist} ${r.title} ${houseName(r.house)} ${r.city} ${r.cat} ${(r.rec||[]).join(' ')} ${r.date.slice(0,4)} auction sold result`,{artist:r.artist,price:r.price,date:r.date}));
+  RESULTS.forEach(r=>add('lot',r.id,`${r.artist}, ${r.title}`,kxLotLine(r),`${r.year} ${r.note||''}`,`${r.artist} ${r.title} ${houseName(r.house)} ${r.city} ${r.cat} ${(r.rec||[]).join(' ')} ${kxWhen(r.date)} auction sold result`,{artist:r.artist,price:r.price,date:r.date}));
   PRIVATE_TREATY.forEach((p,i)=>add('private',i,p.work,kxPrivLine(p),p.note,`${p.work} ${p.who} ${p.year} private sale treaty deal reported`,{artist:privArtist(p),price:(parseUSD(p.price)||0)/1e6,date:String(p.year)}));
-  UPCOMING.forEach((u,i)=>add('upcoming',i,`${u.artist}, ${u.title}`,`${u.artist}, ${u.title} (${u.year}): estimate ${u.est}; ${houseName(u.house)}, ${u.city}, ${fdate(u.date)}. ${u.note||''}`,u.note,`${u.artist} ${u.title} ${houseName(u.house)} ${u.city} upcoming estimate sale`,{artist:u.artist,date:u.date}));
-  liveSales().forEach(s=>add('sale',s.id,`${s.hn||houseName(s.house)}, ${s.n}`,saleLine(s),(s.lots||[]).map(l=>`${l.a} ${l.t} ${l.est||''} ${l.res||''}`).join(' ')+' '+(s.note||''),`${houseName(s.house)} ${s.city} ${s.n} sale evening auction ${s.d}`,{date:s.d}));
+  UPCOMING.forEach((u,i)=>add('upcoming',i,`${u.artist}, ${u.title}`,`${u.artist}, ${u.title}${u.year?` (${u.year})`:''}: estimate ${u.est}; ${houseName(u.house)}, ${u.city}, ${fdate(u.date)}. ${u.note||''}`,u.note,`${u.artist} ${u.title} ${houseName(u.house)} ${u.city} ${kxWhen(u.date)} upcoming estimate sale`,{artist:u.artist,date:u.date}));
+  liveSales().forEach(s=>add('sale',s.id,`${s.hn||houseName(s.house)}, ${s.n}`,saleLine(s),(s.lots||[]).map(l=>`${l.a} ${l.t} ${l.est||''} ${l.res||''}`).join(' ')+' '+(s.note||''),`${s.hn||houseName(s.house)} ${s.city} ${s.n} sale evening auction ${kxWhen(s.d)}`,{date:s.d}));
   if(typeof MOVEMENTS!=='undefined')MOVEMENTS.forEach(m=>add('movement',m.id,m.n,kxMoveLine(m),`${m.what} ${m.why} ${m.look||''} ${(m.works||[]).map(w=>typeof w==='string'?w:`${w.a||''} ${w.t||''}`).join(' ')} ${(m.market&&m.market.note)||''}`,`${m.n} ${(m.aka||[]).join(' ')} ${m.place} ${moveArtists(m).join(' ')} movement art history ${m.from}`));
   ARTISTS.forEach(a=>add('artist',a,a,kxArtistLine(a),movesOf(a).map(m=>m.n).join(' '),`${a} artist painter`,{artist:a}));
   ALL.forEach(x=>add(x.kind==='house'?'house':'org',x.id,x.name,`${x.name}: ${TYPES[x.type]||x.type}${x.founded?`, founded ${x.founded}`:''}${x.hq?`, ${x.hq}`:''}${x.kind==='house'&&x.sales&&x.sales.y25!=null?`; 2025 sales ${bn(x.sales.y25,x.sales.cur||'$')}`:''}. ${(x.facts||[]).slice(0,2).map(f=>Array.isArray(f)?f.join(': '):f).join(' ')}${x.known?' '+x.known:''}`,`${(x.facts||[]).map(f=>Array.isArray(f)?f.join(' '):f).join(' ')} ${x.approach||''} ${x.known||''} ${x.scale||''}`,`${x.name} ${TYPES[x.type]||''} ${x.hq||''}`));
@@ -60,8 +65,8 @@ function kxBuild(){if(KX.built)return;KX.built=true;const D=KX.docs=[];
   STORIES.forEach(s=>add('story',s.id,s.t,`${s.t}: ${s.dek}`,s.body,`${s.t} story`));
   GLOSSARY.forEach((g,i)=>add('term',i,g[0],`${g[0]}: ${g[2]||g[1]}`,g[2]||'',`${g[0]} term definition`));
   SIGNALS.forEach((s,i)=>add('signal',i,s.t,`${s.t} (${s.dir==='heat'?'heating':s.dir==='cool'?'cooling':'steady'}): ${s.p}`,s.p,`${s.t} signal trend`));
-  NEWS.forEach((n,i)=>add('news',i,n.h,`${fdate(n.dt)}, ${n.o}: ${n.h}. ${n.s||''}`,n.s,`${n.o} news ${n.dt}`,{date:n.dt}));
-  CALENDAR.forEach((c,i)=>add('cal',i,c.n,`${fspan(c.d,c.e)}: ${c.n}, ${c.city}${c.sub?` (${c.sub})`:''}`,c.sub,`${c.n} ${c.c} ${c.city} date calendar`,{date:c.d}));
+  NEWS.forEach((n,i)=>add('news',i,n.h,`${fdate(n.dt)}, ${n.o}: ${n.h}. ${n.s||''}`,n.s,`${n.o} news ${kxWhen(n.dt)}`,{date:n.dt}));
+  CALENDAR.forEach((c,i)=>add('cal',i,c.n,`${fspan(c.d,c.e)}: ${c.n}, ${c.city}${c.sub?` (${c.sub})`:''}`,c.sub,`${c.n} ${c.c} ${c.city} ${kxWhen(c.d)} date calendar`,{date:c.d}));
   ATLAS.forEach(a=>add('under',a.id,a.t,`${a.t}: ${a.c||''} ${a.b||''}`,`${a.b||''} ${a.v||''}`,`${a.t} ${a.kind} ${(a.st||[]).join(' ')}`));
   STATIONS.forEach(s=>add('station',s.id,s.n,`${s.n} (${s.k}): ${s.brief||''} ${s.money||''}`,`${s.brief||''} ${s.money||''} ${s.check||''}`,`${s.n} ${s.k}`));
   SYMPTOMS.forEach(s=>add('symptom',s.id,s.t,`${s.t}: ${s.read||''}`,`${s.read||''} ${s.prog||''}`,`${s.t} diagnosis market`));
@@ -78,9 +83,9 @@ function kxBuild(){if(KX.built)return;KX.built=true;const D=KX.docs=[];
   kbAll().forEach(k=>add('kb',k.id,k.q,`${k.q} — ${k.a}`,k.a,`${k.q} ${(k.tags||[]).join(' ')} learned research desk ${k.kind||''}`,{date:k.asof}));
   LIMITS.forEach(l=>add('limit',l.id,l.t,`${l.t}: ${l.b}`,l.b,`${l.t} limit model`));
   /* postings: token → [doc, weighted frequency, doc, weighted frequency…]; the name counts three times, the tags one and a half */
-  const post=KX.post;post.clear();let tot=0;
+  const post=new Map();let tot=0;
   D.forEach((d,i)=>{const tf=new Map();const put=(s,w)=>kxTok(s).forEach(t=>tf.set(t,(tf.get(t)||0)+w));put(d.name,3);put(d.tags,1.5);put(d.body,1);let len=0;tf.forEach(v=>{len+=v;});d.len=len||1;tot+=d.len;d.nn=norm(d.name);d.nt=[...new Set(kxTok(d.name))];tf.forEach((w,t)=>{let a=post.get(t);if(!a)post.set(t,a=[]);a.push(i,w);});});
-  KX.avg=tot/Math.max(1,D.length);KX.vocab=[...post.keys()];}
+  KX.docs=D;KX.post=post;KX.avg=tot/Math.max(1,D.length);KX.vocab=[...post.keys()];}
 /* new records from the live layer or the desk: the index is rebuilt on the next search */
 function kxInvalidate(){KX.built=false;MOVE_IDX=null;}
 
@@ -152,21 +157,31 @@ function mdRender(src){const lines=String(src||'').replace(/\r/g,'').split('\n')
     if(list&&/^\s{2,}\S/.test(raw)){list.items[list.items.length-1]+=' '+l.trim();continue;}
     flushL();para.push(l.trim());}
   flushP();flushL();flushT();return out;}
-/* the answer's tail: NEXT: a | b | c and GAP: … are taken off and kept apart; while the answer streams, a last line that is only
-   the start of either word is held back so it never flashes on screen */
-function askSplit(text){const keep=[];let next=[],gap='';
-  String(text||'').split('\n').forEach(l=>{const m=l.match(/^\s*(?:\*\*)?(NEXT|GAP)(?:\*\*)?\s*:\s*(.*)$/i);if(!m){keep.push(l);return;}if(m[1].toUpperCase()==='NEXT')next=m[2].split('|').map(s=>s.trim().replace(/^[“"]|[”"]$/g,'').replace(/\*\*/g,'')).filter(s=>s.length>3).slice(0,3);else gap=m[2].trim();});
-  if(keep.length&&/^\s*(?:\*\*)?(N|NE|NEX|G|GA)$/i.test(keep[keep.length-1]))keep.pop();
-  return {body:keep.join('\n').trim(),next,gap};}
+/* the answer's tail: trailing lines NEXT: a | b | c and GAP: … (upper case, as the instructions ask) are taken off and kept apart; a
+   line elsewhere that happens to begin "Next:" stays in the answer. While the answer streams, a last line that is only the start of
+   either word is held back so it never flashes on screen */
+const ASK_TAIL=/^\s*(?:\*\*)?(NEXT|GAP)(?:\*\*)?\s*:\s*(?:\*\*\s*)?(.*)$/;
+function askSplit(text){const lines=String(text||'').split('\n');let next=[],gap='';let end=lines.length;
+  while(end>0&&!lines[end-1].trim())end--;
+  if(end>0&&/^\s*(?:\*\*)?(N|NE|NEX|NEXT|G|GA|GAP)(?:\*\*)?\s*$/.test(lines[end-1]))end--;
+  let i=end;while(i>0){const l=lines[i-1];if(!l.trim()){i--;continue;}const m=l.match(ASK_TAIL);if(!m)break;
+    if(m[1]==='NEXT')next=m[2].split('|').map(x=>x.trim().replace(/\*\*/g,'').replace(/^[“"]|[”"]$/g,'').trim()).filter(x=>x.length>3).slice(0,3);else gap=m[2].replace(/\*\*/g,'').trim();i--;}
+  return {body:lines.slice(0,i).join('\n').trim(),next,gap};}
 
 /* ---------- 2. the analyst ---------- */
-let askAI=true,askTools=false,askCtl=null,askBusy=false,askCanWrite=null,askOwner=false;
+let askAI=true,askTools=false,askCtl=null,askBusy=false,askCanWrite=null,askOwner=false,askQueue=[];
+/* a time in milliseconds the Date object can hold, and its day */
+const okTs=t=>{t=+t;return Number.isFinite(t)&&Math.abs(t)<=8.64e15;};
+const tsDay=t=>okTs(t)?new Date(+t).toISOString().slice(0,10):TODAY;
 const ASK_TIERS=[['quick','Fast'],['default','Considered'],['complex','Deep']];
 /* the thread: this browser keeps the conversation and the last twelve, so a reader can come back to it */
-let askThread=store.get('ask.thread',null);if(!askThread||!Array.isArray(askThread.turns))askThread={id:'t'+Date.now().toString(36),turns:[]};
-let askHist=store.get('ask.history',[]);if(!Array.isArray(askHist))askHist=[];
-let askGaps=store.get('ask.gaps',[]);if(!Array.isArray(askGaps))askGaps=[];
-const askSave=()=>{askThread.turns=askThread.turns.slice(-24);store.set('ask.thread',{id:askThread.id,turns:askThread.turns.map(t=>({q:t.q,a:t.a,mode:t.mode,hits:t.hits,ts:t.ts,tier:t.tier,note:t.note||'',next:t.next||[],gap:t.gap||'',tools:t.tools||0}))});};
+/* a kept turn, field by field: what another tab or an old version wrote is not trusted */
+const askClean=t=>t&&typeof t==='object'&&typeof t.q==='string'&&t.q.trim()?{q:t.q.slice(0,1200),a:typeof t.a==='string'?t.a.slice(0,20000):'',mode:['claude','data','stopped','error',''].includes(t.mode)?t.mode:'',hits:Array.isArray(t.hits)?t.hits.filter(h=>typeof h==='string').slice(0,30):[],ts:okTs(t.ts)?+t.ts:Date.now(),tier:ASK_TIERS.some(x=>x[0]===t.tier)?t.tier:'default',note:typeof t.note==='string'?t.note.slice(0,300):'',next:Array.isArray(t.next)?t.next.filter(x=>typeof x==='string').map(x=>x.slice(0,200)).slice(0,3):[],gap:typeof t.gap==='string'?t.gap.slice(0,200):'',tools:Math.max(0,Math.min(99,Math.floor(+t.tools||0)))}:null;
+const askThreadOf=x=>x&&typeof x==='object'&&Array.isArray(x.turns)?{id:typeof x.id==='string'?x.id.slice(0,40):'t'+Date.now().toString(36),title:typeof x.title==='string'?x.title.slice(0,300):'',ts:okTs(x.ts)?+x.ts:Date.now(),turns:x.turns.map(askClean).filter(Boolean).slice(-24)}:null;
+let askThread=askThreadOf(store.get('ask.thread',null))||{id:'t'+Date.now().toString(36),turns:[]};
+let askHist=(Array.isArray(store.get('ask.history',[]))?store.get('ask.history',[]):[]).map(askThreadOf).filter(h=>h&&h.turns.length).slice(0,12);
+let askGaps=(Array.isArray(store.get('ask.gaps',[]))?store.get('ask.gaps',[]):[]).filter(g=>g&&typeof g.q==='string').map(g=>({q:g.q.slice(0,300),gap:typeof g.gap==='string'?g.gap.slice(0,200):'',ts:okTs(g.ts)?+g.ts:Date.now()})).slice(0,40);
+const askSave=()=>{store.set('ask.thread',{id:askThread.id,turns:askThread.turns.slice(-24).map(t=>({q:t.q,a:t.a,mode:t.mode,hits:t.hits,ts:t.ts,tier:t.tier,note:t.note||'',next:t.next||[],gap:t.gap||'',tools:t.tools||0}))});};
 
 /* the market in a paragraph, for every question */
 function askSnapshot(){const g=MARKET.global;const h=(MARKET.h1_2026||[]).slice(0,6).map(r=>`${r[0]} ${r[1]}`).join('; ');const R=liveRead();
@@ -200,7 +215,7 @@ function askToolList(turn){const step=s=>{turn.steps=(turn.steps||[]).concat(s).
    execute:a=>{step('Pricing it all in');return allInCost(a||{});}}];}
 
 /* a record in full, trimmed to stay well under the 32 KB a tool may return */
-function askRecordFull(ref){const i=ref.indexOf(':');if(i<0)return null;const k=ref.slice(0,i),id=ref.slice(i+1);const trim=o=>{const s=JSON.stringify(o);return s.length>9000?JSON.parse(JSON.stringify(o,(key,v)=>typeof v==='string'&&v.length>500?v.slice(0,499)+'…':v)):o;};
+function askRecordFull(ref){const i=ref.indexOf(':');if(i<0)return null;const k=ref.slice(0,i),id=ref.slice(i+1);const trim=o=>{const s=JSON.stringify(o);return s.length>28000?JSON.parse(JSON.stringify(o,(key,v)=>typeof v==='string'&&v.length>1500?v.slice(0,1499)+'…':v)):o;};
   if(k==='lot'){const r=lotById(id);if(!r)return null;return trim({ref,artist:r.artist,title:r.title,year:r.year,price_usd_m:r.price,implied_hammer_usd_m:SCHED[r.house]?+(impliedHammer(r.house,r.price*1e6)/1e6).toFixed(2):null,house:houseName(r.house),city:r.city,date:r.date,category:r.cat,records:r.rec,note:r.note,ownership:r.chain||null,artist_other_lots:RESULTS.filter(o=>o.artist===r.artist&&o!==r).sort((a,b)=>b.price-a.price).slice(0,8).map(o=>({ref:'lot:'+o.id,title:o.title,price_usd_m:o.price,date:o.date}))});}
   if(k==='artist'){const a=ARTISTS.find(x=>x===id)||ARTISTS.find(x=>norm(x)===norm(id));if(!a)return null;return trim({ref:'artist:'+a,name:a,died:ARTIST_DIED[a],lots:RESULTS.filter(r=>r.artist===a).sort((x,y)=>y.price-x.price).slice(0,14).map(r=>({ref:'lot:'+r.id,title:r.title,price_usd_m:r.price,house:houseName(r.house),date:r.date})),private_reported:PRIVATE_TREATY.map((p,j)=>[p,j]).filter(([p])=>privArtist(p)===a).map(([p,j])=>({ref:'private:'+j,work:p.work,price:p.price,year:p.year,who:p.who})),to_come:UPCOMING.map((u,j)=>[u,j]).filter(([u])=>u.artist===a).map(([u,j])=>({ref:'upcoming:'+j,title:u.title,estimate:u.est,date:u.date,house:houseName(u.house)})),movements:movesOf(a).map(m=>({ref:'movement:'+m.id,n:m.n})),ledger_histories:ngaFor(a).length});}
   if(k==='movement'){const m=typeof MOVEMENTS!=='undefined'&&MOVEMENTS.find(x=>x.id===id);if(!m)return null;const names=new Set(moveArtists(m).map(norm));const lots=RESULTS.filter(r=>names.has(norm(r.artist))||names.has(norm(surname(r.artist)))).sort((a,b)=>b.price-a.price).slice(0,10);return trim(Object.assign({ref},m,{lots_in_terminal:lots.map(r=>({ref:'lot:'+r.id,artist:r.artist,title:r.title,price_usd_m:r.price,date:r.date}))}));}
@@ -214,6 +229,7 @@ function askRecordFull(ref){const i=ref.indexOf(':');if(i<0)return null;const k=
 /* sales statistics: the terminal's results, filtered */
 function salesStats(a){const A=String(a.artist||'').trim(),H=String(a.house||'').trim().toLowerCase(),C=String(a.category||'').trim().toLowerCase();const y0=+a.year_from||0,y1=+a.year_to||9999,min=+a.min_usd_m||0;
   const hid=H?(HOUSES.find(h=>h.id===H||norm(h.name).includes(norm(H)))||{}).id:null;
+  if(H&&!hid)throw new Error(`No house in the terminal matches “${H}”. The houses: ${HOUSES.map(h=>h.id).join(', ')}.`);
   let L=RESULTS.filter(r=>(!A||norm(r.artist).includes(norm(A)))&&(!H||r.house===hid)&&(!C||norm(r.cat).includes(norm(C)))&&+r.date.slice(0,4)>=y0&&+r.date.slice(0,4)<=y1&&r.price>=min);
   const p=L.map(r=>r.price).sort((x,y)=>x-y),n=p.length,tot=p.reduce((s,v)=>s+v,0);const by=(f)=>L.reduce((o,r)=>{const k=f(r);o[k]=+((o[k]||0)+r.price).toFixed(1);return o;},{});
   const out={filters:{artist:A||null,house:hid||null,category:C||null,year_from:y0||null,year_to:y1<9999?y1:null,min_usd_m:min||null},count:n,total_usd_m:+tot.toFixed(1),median_usd_m:n?+(n%2?p[(n-1)/2]:(p[n/2-1]+p[n/2])/2).toFixed(2):null,top:[...L].sort((x,y)=>y.price-x.price).slice(0,10).map(r=>({ref:'lot:'+r.id,artist:r.artist,title:r.title,price_usd_m:r.price,house:houseName(r.house),date:r.date})),by_house:by(r=>houseName(r.house)),by_year:by(r=>r.date.slice(0,4)),note:'The terminal holds a curated set of results (the trophies and the telling lots), not every sale.'};
@@ -227,20 +243,22 @@ function allInCost(a){const H=Math.max(1000,Math.min(5e9,+a.hammer_usd||0));cons
   return {hammer_usd:r(m.H),buyers_premium_usd:r(m.prem),price_with_premium_usd:r(m.price),taxes_usd:r(m.taxes),tax_lines:{vat_on_premium:r(m.vatPrem),import_vat:r(m.impVat),sales_tax:r(m.salesTax),use_tax:r(m.useTax),destination_vat:r(m.destVat)},resale_right_paid_by_buyer_usd:r(m.arrBuyer),shipping_usd:r(m.ship),total_to_buyer_usd:r(m.buyer),effective_rate_over_hammer:+((m.buyer/m.H-1)*100).toFixed(1)+'%',room:VENUES[room].n,destination:DESTS[dest].n,house:houseName(house),schedule:'published buyer’s premium schedule; a big buyer may negotiate it down',notes:[VENUES[room].note,DESTS[dest].note].filter(Boolean).map(s=>cut(s,240))};}
 
 /* a question asked: the records found, then Claude (streaming, with tools when this view can run them) or the data answer */
-async function askRun(q){q=String(q||'').trim().slice(0,1200);if(!q||askBusy)return;
-  const tierSel=$('#askDepth');const tier=tierSel&&ASK_TIERS.some(t=>t[0]===tierSel.value)?tierSel.value:store.get('ask.tier','default');
+async function askRun(q){q=String(q||'').trim().slice(0,1200);if(!q)return;
+  /* a question asked while an answer streams waits its turn (three at most) */
+  if(askBusy){if(askQueue.length<3&&!askQueue.includes(q)){askQueue.push(q);toast('Asked next, after this answer');}return;}
+  const tierSel=$('#askDepth');const tier=tierSel&&ASK_TIERS.some(t=>t[0]===tierSel.value)?tierSel.value:'default';
   const hits=kxSearch(q,14);const turn={q,a:'',mode:'',hits:hits.map(h=>h.ref),ts:Date.now(),tier,steps:[],tools:0,live:true};
-  askThread.turns.push(turn);askDrawThread();askBusySet(true);
+  askThread.turns.push(turn);const th=$('#askThread');if(th)th.setAttribute('aria-busy','true');askAppendTurn(turn);askBusySet(true);askSay('Thinking about your question.');
   if(!sampleRef||!askAI){turn.a=dataAnswer(q,hits);turn.mode='data';turn.note=!sampleRef?'Claude is not available in this view; this answer is composed from the terminal’s records.':'Answered from the terminal’s records.';askFinish(turn);return;}
   const ctl=new AbortController();askCtl=ctl;
-  const prior=askThread.turns.slice(0,-1).filter(t=>t.a&&t.mode).slice(-6).flatMap(t=>[{role:'user',content:t.q},{role:'assistant',content:cut(askSplit(t.a).body,2400)}]);
+  const prior=askThread.turns.slice(0,-1).filter(t=>t.mode&&t.q&&askSplit(t.a).body).slice(-6).flatMap(t=>[{role:'user',content:t.q},{role:'assistant',content:cut(askSplit(t.a).body,2400)}]);
   const input=[{role:'user',content:askRules(tier)},...prior,{role:'user',content:`${q}\n\nRECORDS retrieved from the terminal for this question (cite as [[ref|label]]; use the tools for more):\n${askRecords(hits)||'(none matched)'}`}];
   let raf=0;const opts={signal:ctl.signal,modelTier:tier,onText:({text})=>{turn.a=text;if(!raf)raf=requestAnimationFrame(()=>{raf=0;askDrawTurn(turn);});}};
   if(askTools)opts.tools=askToolList(turn);else opts.cache=false;
   try{const r=await sampleRef(input,opts);turn.a=r.text;turn.mode='claude';turn.tierApplied=r.modelTierApplied;if(r.truncated)turn.note='The answer hit its length limit; ask for less at a time.';}
   catch(e){const c=(e&&e.code)||'upstream_error';if(c==='cancelled'){turn.a=(e&&e.text)||turn.a||'';turn.mode=turn.a?'claude':'stopped';turn.note='Stopped.';}
     else if(['not_granted','sampling_disabled','not_declared','capability_disabled','capability_removed'].includes(c)){askAI=false;turn.a=dataAnswer(q,hits);turn.mode='data';turn.note='Claude is not allowed for this page in your account, so this answer is composed from the terminal’s records.';askStatus();}
-    else if(c==='tools_unavailable'){askTools=false;turn.a=dataAnswer(q,hits);turn.mode='data';turn.note='This view cannot run the analyst’s tools; ask again for an answer from Claude without them. Meanwhile, the records:';}
+    else if(c==='tools_unavailable'){askTools=false;turn.a=dataAnswer(q,hits);turn.mode='data';turn.note='This view cannot run the analyst’s tools; ask again for an answer from Claude without them. Meanwhile, the records:';askStatus();}
     else if(c==='refused'){turn.a='';turn.mode='error';turn.note='Claude declined that question. Ask it another way.';}
     else{turn.a=(e&&e.text)||'';turn.mode=turn.a?'claude':'error';turn.note={rate_limited:'Too many questions at once, or your usage limit is reached. Try again in a little while.',session_expired:'Sign in to Claude again, then ask.',empty_completion:'No answer came back. Try a simpler question.',prompt_too_large:'This conversation has grown too long. Start a new one.'}[c]||'The connection dropped before the answer finished. Ask again.';}}
   finally{if(raf)cancelAnimationFrame(raf);if(askCtl===ctl)askCtl=null;}
@@ -248,9 +266,13 @@ async function askRun(q){q=String(q||'').trim().slice(0,1200);if(!q||askBusy)ret
 function askFinish(turn){const sp=askSplit(turn.a);turn.next=sp.next;turn.gap=sp.gap;turn.live=false;turn.steps=[];
   if(sp.gap&&turn.mode==='claude')askLogGap(turn.q,sp.gap);
   if(turn.mode==='data'&&!turn.hits.length)askLogGap(turn.q,'nothing in the records matched');
-  askBusySet(false);askDrawTurn(turn);askSave();askDrawSide();}
-function askBusySet(on){askBusy=on;const go1=$('#askGo'),st=$('#askStop');if(go1)go1.disabled=on;if(st)st.hidden=!on;const f=$('#askForm');if(f)f.classList.toggle('busy',on);}
-function askStop(){if(askCtl)askCtl.abort();}
+  askBusySet(false);askDrawTurn(turn);const th=$('#askThread');if(th)th.setAttribute('aria-busy','false');askSave();askDrawSide();
+  askSay(turn.mode==='error'||turn.mode==='stopped'?(turn.note||'No answer.'):'The answer is ready.');
+  if(askQueue.length){const nq=askQueue.shift();setTimeout(()=>askRun(nq),80);}}
+function askBusySet(on){askBusy=on;const go1=$('#askGo'),st=$('#askStop');const had=st&&document.activeElement===st;if(go1)go1.disabled=on;if(st)st.hidden=!on;const f=$('#askForm');if(f)f.classList.toggle('busy',on);if(had&&!on){const i=$('#askIn');if(i)focusEl(i);}}   /* Stop hides itself: its focus goes to the question box */
+/* the screen reader hears short notices, not the whole conversation again */
+function askSay(m){const el=$('#askLive');if(el){el.textContent='';setTimeout(()=>{el.textContent=m;},40);}}
+function askStop(){askQueue=[];if(askCtl)askCtl.abort();}
 
 /* ---------- the data answer: the same question answered from the records alone ---------- */
 const askAmount=q=>{const m=String(q).replace(/,/g,'').match(/(?:\$|us\$|usd\s?)?\s?(\d+(?:\.\d+)?)\s?(bn|billion|m|million|mn|k|thousand)\b/i)||String(q).replace(/,/g,'').match(/\$\s?(\d{4,})/);if(!m)return 0;const v=+m[1];const u=(m[2]||'').toLowerCase();return u.startsWith('b')?v*1e9:(u.startsWith('m')?v*1e6:u.startsWith('k')||u.startsWith('t')?v*1e3:v);};
@@ -264,16 +286,23 @@ function dataAnswer(q,hits){const ql=norm(q);const L=[];const ref=(d,label)=>`[[
     L.push(`### ${f(c.hammer_usd)} hammer at ${c.house}, ${c.room} → ${c.destination}`,`A buyer pays about **${f(c.total_to_buyer_usd)}** in all, ${c.effective_rate_over_hammer} over the hammer.`,'','| Line | US$ |','|---|---|',`| Hammer | ${f(c.hammer_usd)} |`,`| Buyer’s premium | ${f(c.buyers_premium_usd)} |`,`| Taxes and duties | ${f(c.taxes_usd)} |`,`| Resale right (buyer’s share) | ${f(c.resale_right_paid_by_buyer_usd)} |`,`| Shipping | ${f(c.shipping_usd)} |`,`| **Total** | **${f(c.total_to_buyer_usd)}** |`,'',c.notes.join(' '),'','Change the room, the house or the destination in Follow the money for the full ledger.');
     return L.join('\n');}
   const top=hits[0];
-  if(!top)return `The terminal holds nothing that matches this yet. The question has been filed for the research desk, which reads the open questions twice a week.\n\nTry a movement (*Impressionism*, *Fluxus*), an artist (*Klimt*), a house (*Sotheby’s*), a term (*irrevocable bid*) or a sale (*the November evening sales*).`;
-  const wantsPrivate=/private|treaty|behind closed|off[- ]market/.test(ql);
-  if(wantsPrivate){const names=new Set(hits.filter(h=>h.artist).map(h=>norm(h.artist)));let P=PRIVATE_TREATY.map((p,i)=>({p,i})).filter(x=>!names.size||names.has(norm(privArtist(x.p))));if(!P.length)P=PRIVATE_TREATY.map((p,i)=>({p,i}));P.sort((a,b)=>(parseUSD(b.p.price)||0)-(parseUSD(a.p.price)||0));
-    L.push(`### Private sales${names.size&&P.length<PRIVATE_TREATY.length?' that match':' in the terminal'}`,`Prices are press reports, not verified: no house publishes a private-treaty price.`,'','| Work | Reported price | Year | From → to |','|---|---|---|---|',...P.slice(0,10).map(x=>`| [[private:${x.i}|${x.p.work}]] | ${x.p.price} | ${x.p.year} | ${x.p.who} |`));return L.join('\n');}
+  if(!top)return `The terminal holds nothing that matches this yet. ${askDeskReach()?'The question has gone to the research desk, which reads open questions twice a week.':'The question is kept in your open questions, in this browser.'}\n\nTry a movement (*Impressionism*, *Fluxus*), an artist (*Klimt*), a house (*Sotheby’s*), a term (*irrevocable bid*) or a sale (*the November evening sales*).`;
+  const wantsPrivate=/private|treaty|behind closed|off[- ]market/.test(ql);const wantsTop=/biggest|largest|most expensive|highest|top\b|record/.test(ql);
+  if(wantsPrivate){const both=/public|auction|both|and private|evening/.test(ql);if(both)L.push(...dataSaleRoom(ql),'');
+    const names=new Set(PRIVATE_TREATY.map(privArtist).filter(a=>a&&kxNames(ql,a)).map(norm));let P=PRIVATE_TREATY.map((p,i)=>({p,i})).filter(x=>!names.size||names.has(norm(privArtist(x.p))));if(!P.length)P=PRIVATE_TREATY.map((p,i)=>({p,i}));P.sort((a,b)=>(parseUSD(b.p.price)||0)-(parseUSD(a.p.price)||0));
+    L.push(`### Private sales${names.size&&P.length<PRIVATE_TREATY.length?' that match':', reported'}`,`Prices are press reports, not verified: no house publishes a private-treaty price.`,'','| Work | Reported price | Year | From → to |','|---|---|---|---|',...P.slice(0,10).map(x=>`| [[private:${x.i}|${x.p.work}]] | ${x.p.price} | ${x.p.year} | ${x.p.who} |`));return L.join('\n');}
   if(top.kind==='movement'){const m=MOVEMENTS.find(x=>x.id===top.id);const mk=m.market||{};const names=new Set(moveArtists(m).map(norm));const lots=RESULTS.filter(r=>names.has(norm(r.artist))||names.has(norm(surname(r.artist)))).sort((a,b)=>b.price-a.price).slice(0,4);
     L.push(`### ${m.n}, ${m.from}–${m.to||'now'} · ${m.place}`,m.what,'',`**Why it happened.** ${m.why}`,'',m.look?`**How to look.** ${m.look}`:'','',`**Key artists.** ${moveArtists(m).map(a=>ARTISTS.includes(a)?`[[artist:${a}|${a}]]`:a).join(', ')}.`,'',`**The market today.** ${mk.note||''}${mk.record?` Record: ${mk.record}.`:''}`);
     if(lots.length)L.push('','In the terminal: '+lots.map(r=>`[[lot:${r.id}|${r.artist}, ${r.title}]] ${mm(r.price)} (${r.date.slice(0,4)})`).join('; ')+'.');
     L.push('',`[[movement:${m.id}|Open the ${m.n} dossier]]`);return L.join('\n');}
+  const wantsSale=/break ?down|\bsale\b|\bsold\b|\blot\b|price|hammer|bought|buyer|estimate/.test(ql);
+  const lotHit=top.kind==='lot'?top:(wantsSale&&top.kind==='artist'?hits.find(h=>h.kind==='lot'&&h.score>top.score*.7&&norm(h.artist||'')===norm(top.id)):null);
   const art=hits.find(h=>h.kind==='artist'&&h.score>top.score*.6);
-  if(art&&!/\b(house|record|term)\b/.test(ql)){const a=art.id;const lots=RESULTS.filter(r=>r.artist===a).sort((x,y)=>y.price-x.price);const pv=PRIVATE_TREATY.map((p,i)=>({p,i})).filter(x=>privArtist(x.p)===a);const up=UPCOMING.map((u,i)=>({u,i})).filter(x=>x.u.artist===a);const mv=movesOf(a);
+  if(lotHit)return dataLot(lotById(lotHit.id));
+  const named=(art&&art.id)||ARTISTS.find(x=>kxNames(ql,x))||null;
+  if(top.kind==='record'){const r=RECORDS2[+top.id];if(r)return dataRecordOf(ARTISTS.find(x=>norm(x)===norm(r[0]))||r[0]);}
+  if(named&&wantsTop&&!wantsPrivate)return dataRecordOf(named);
+  if(art&&(top.kind==='artist'||art.score>top.score*.85)&&!/\b(house|term)\b/.test(ql)){const a=art.id;const lots=RESULTS.filter(r=>r.artist===a).sort((x,y)=>y.price-x.price);const pv=PRIVATE_TREATY.map((p,i)=>({p,i})).filter(x=>privArtist(x.p)===a);const up=UPCOMING.map((u,i)=>({u,i})).filter(x=>x.u.artist===a);const mv=movesOf(a);
     L.push(`### ${a}`,lots.length?`${lots.length} auction ${lots.length===1?'result':'results'} in the terminal, ${mm(lots.reduce((s,r)=>s+r.price,0))} in all. The top is [[lot:${lots[0].id}|${lots[0].title}]] at ${mm(lots[0].price)} (${houseName(lots[0].house)}, ${fdate(lots[0].date)}).`:`No auction result for ${a} in the terminal yet.`);
     if(lots.length>1)L.push('','| Work | Price | House | Date |','|---|---|---|---|',...lots.slice(0,6).map(r=>`| [[lot:${r.id}|${r.title}]] | ${mm(r.price)} | ${houseName(r.house)} | ${r.date.slice(0,4)} |`));
     if(pv.length)L.push('','**Private sales, reported.** '+pv.map(x=>`[[private:${x.i}|${privTitle(x.p)||x.p.work}]] ${x.p.price} (${x.p.year})`).join('; ')+'.');
@@ -281,34 +310,89 @@ function dataAnswer(q,hits){const ql=norm(q);const L=[];const ref=(d,label)=>`[[
     if(mv.length)L.push('','**Movement.** '+mv.map(m=>`[[movement:${m.id}|${m.n}]]`).join(', ')+'.');
     const ng=ngaFor(a).length;if(ng)L.push('',`**Provenance.** ${ng} ownership ${ng===1?'history':'histories'} in the Ledger.`);
     L.push('',`[[artist:${a}|Open the ${a} dossier]]`);return L.join('\n');}
-  if(top.kind==='lot'){const r=lotById(top.id);const ih=SCHED[r.house]?impliedHammer(r.house,r.price*1e6):null;
-    L.push(`### ${r.artist}, ${r.title}`,`${mm(r.price)} with premium at ${houseName(r.house)}, ${r.city}, on ${fdate(r.date)}${ih?`: a hammer of about ${fmtUSD(ih)} plus ${fmtUSD(r.price*1e6-ih)} of premium on the house’s published schedule`:''}.`,'',r.note||'');
-    if(r.rec&&r.rec.length)L.push('',`**Records.** ${r.rec.join('; ')}.`);
-    if(r.chain)L.push('','**Ownership, as reported.** '+r.chain.slice(0,6).map(c=>`${c[0]}: ${c[1]}`).join(' → ')+(r.chain.length>6?' → …':''));
-    const o=RESULTS.filter(x=>x.artist===r.artist&&x!==r).sort((a,b)=>b.price-a.price).slice(0,3);if(o.length)L.push('','**Comparables.** '+o.map(x=>`[[lot:${x.id}|${x.title}]] ${mm(x.price)} (${x.date.slice(0,4)})`).join('; ')+'.');
-    L.push('',`[[lot:${r.id}|Open the lot]]`);return L.join('\n');}
+  const wantsRoom=/\b(recent|latest|this (week|month|season)|sale room|marquee|evening sales|auction season|season)\b/.test(ql)||(/\bsales\b/.test(ql)&&!art&&top.kind!=='house');
+  if(wantsRoom&&top.kind!=='kb')return [...dataSaleRoom(ql),'','Ask about one sale for its lots, or about private sales for the reported deals.'].join('\n');
+  if(top.kind==='sale')return dataSale(liveSales().find(x=>x.id===top.id));
+  if(top.kind==='kb')return dataKB(kbAll().find(x=>x.id===top.id));
+  if(top.kind==='private')return dataPrivate(+top.id);
+  if(top.kind==='term'){const g=GLOSSARY[+top.id];if(g){const rel=hits.slice(1).filter(h=>h.score>top.score*.5).slice(0,4);
+    L.push(`### ${g[0]}`,g[2]||'',g[1]?`*In Russian:* ${g[1]}.`:'');if(rel.length)L.push('','**Related in the terminal.**',...rel.map(h=>`- ${ref(h,h.name)} · *${KIND_NAMES[h.kind]||h.kind}*: ${cut(h.line.replace(/^[^:]*:\s*/,''),200)}`));
+    L.push('',`[[term:${top.id}|Open it in the Lexicon]]`);return L.join('\n');}}
   if(top.kind==='house'){const x=byId(top.id);const lots=RESULTS.filter(r=>r.house===x.id).sort((a,b)=>b.price-a.price).slice(0,5);
     L.push(`### ${x.name}`,top.line,'');if(lots.length)L.push('**Its top lots in the terminal.** '+lots.map(r=>`[[lot:${r.id}|${r.artist}, ${r.title}]] ${mm(r.price)}`).join('; ')+'.');L.push('',`[[house:${x.id}|Open the ${x.name} dossier]]`);return L.join('\n');}
   if(/record|most expensive|highest|priciest|top lots?/.test(ql)){L.push('### The highest auction prices in the terminal','| # | Work | Price | Year |','|---|---|---|---|',...BYPRICE.slice(0,10).map((r,i)=>`| ${i+1} | [[lot:${r.id}|${r.artist}, ${r.title}]] | ${mm(r.price)} | ${r.date.slice(0,4)} |`));return L.join('\n');}
   L.push(`### What the terminal holds on this`,...hits.slice(0,7).map(h=>`- ${ref(h,h.name)} · *${KIND_NAMES[h.kind]||h.kind}*: ${cut(h.line.replace(/^[^:]*:\s*/,''),220)}`));return L.join('\n');}
 
+/* does the question name this artist? the surname as a whole word (or the full name) */
+const kxRe=x=>x.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+const kxWord=(ql,x)=>x.length>2&&new RegExp('(^|[^a-z])'+kxRe(x)+'([^a-z]|$)').test(ql);
+const kxNames=(ql,a)=>kxWord(ql,norm(a))||kxWord(ql,norm(surname(a)));
+/* can a question reach the research desk from this view? (a signed-in viewer who may save to the page) */
+const askDeskReach=()=>!!(dbRef&&myId&&askCanWrite!==false);
+const kxEst=s=>{const e=s.est||[];return e.length?(e.length===2?mm(+e[0])+'–'+mm(+e[1]):'about '+mm(+e[0])):'—';};
+const kxHasRes=s=>!!(s.res&&s.res.total!=null);
+/* the sale room as a table: the results first, newest first; then the sales awaiting a result and those to come. A house the question names filters it */
+function dataSaleRoom(ql){let S=liveSales().slice();const h=HOUSES.find(x=>{const w=norm(x.name).replace(/['’]s\b/,'').split(' ')[0];return w.length>3&&new RegExp('(^|[^a-z])'+kxRe(w)).test(ql);});if(h&&S.some(s=>s.house===h.id))S=S.filter(s=>s.house===h.id);
+  const mi=KX_MONTHS.findIndex(m=>kxWord(ql,m.toLowerCase()));const yr=(ql.match(/\b(20\d\d)\b/)||[])[1];
+  if(mi>=0){const f=S.filter(s=>+String(s.d).slice(5,7)===mi+1&&(!yr||String(s.d).startsWith(yr)));if(f.length)S=f;}
+  const inMonth=mi>=0&&S.every(s=>+String(s.d).slice(5,7)===mi+1);
+  S.sort((a,b)=>String(b.d).localeCompare(String(a.d)));const done=S.filter(kxHasRes),wait=S.filter(s=>!kxHasRes(s)&&s.d<TODAY),to=S.filter(s=>!kxHasRes(s)&&s.d>=TODAY).reverse();
+  const nm=s=>`[[sale:${s.id}|${s.hn||houseName(s.house)}, ${s.n}]]`;
+  const L=[`### The sale room${h&&S.every(s=>s.house===h.id)?`: ${h.name}`:''}${inMonth?`, ${KX_MONTHS[mi]}${yr?' '+yr:''}`:''}`,`${done.length} ${done.length===1?'sale':'sales'} with results${wait.length?`, ${wait.length} awaiting ${wait.length===1?'its result':'their results'}`:''}, ${to.length} to come. Totals include the buyer’s premium; the verdict sets the hammer, or the house’s own statement, against the estimate.`];
+  if(done.length)L.push('','| Sale | Date | Estimate | Made | Sold | Verdict |','|---|---|---|---|---|---|',...done.slice(0,10).map(s=>`| ${nm(s)} | ${fdate(s.d)} | ${kxEst(s)} | ${mm(+s.res.total)} | ${s.res.sold||'—'} | ${LV_VERDICT.includes(s.res.v)?s.res.v:'—'} |`));
+  if(wait.length)L.push('','**Awaiting results.** '+wait.map(s=>`${nm(s)}, ${fdate(s.d)}`).join('; ')+'.');
+  if(to.length)L.push('','**To come.** Estimates as published; each sale gives its basis.','','| Sale | Date | Estimate |','|---|---|---|',...to.slice(0,10).map(s=>`| ${nm(s)} | ${fdate(s.d)} | ${kxEst(s)} |`));
+  return L;}
+/* one sale from the sale room: the line, the result, the lots, the sources */
+function dataSale(s){if(!s)return '';const L=[`### ${s.hn||houseName(s.house)}, ${s.n}`,saleLine(s)];
+  if(s.note)L.push('',s.note);
+  if((s.lots||[]).length)L.push('','| Artist | Work | Estimate | Result |','|---|---|---|---|',...s.lots.slice(0,12).map(l=>`| ${l.a} | ${l.t}${l.y?` (${l.y})`:''} | ${l.est||'—'} | ${l.res||'—'} |`));
+  if((s.src||[]).length)L.push('','**Sources.** '+s.src.filter(x=>Array.isArray(x)&&/^https:\/\//.test(x[1]||'')).map(x=>`[${String(x[0]).replace(/[[\]]/g,'')}](${x[1]})`).join(' · '));
+  L.push('',`[[sale:${s.id}|Open it in the sale room]]`);return L.join('\n');}
+/* an entry the research desk wrote */
+function dataKB(k){if(!k)return '';const L=[`### ${k.q}`,k.a];
+  if((k.src||[]).length)L.push('','**Sources.** '+k.src.filter(x=>Array.isArray(x)&&/^https:\/\//.test(x[1]||'')).map(x=>`[${String(x[0]).replace(/[[\]]/g,'')}](${x[1]})`).join(' · '));
+  L.push('',`*The research desk, ${fdate(k.asof)}.* [[kb:${k.id}|Open the entry]]`);return L.join('\n');}
+/* one private sale, as reported */
+function dataPrivate(i){const p=PRIVATE_TREATY[i];if(!p)return '';const a=privArtist(p);
+  const L=[`### ${p.work}`,`**${p.price}**, reported, ${p.year}. ${p.who}.`,'',p.note||'','','Private-treaty prices are press reports: no house publishes them.'];
+  if(a&&ARTISTS.includes(a))L.push('',`[[artist:${a}|Open the ${a} dossier]] · [[private:${i}|Open the sale]]`);else L.push('',`[[private:${i}|Open the sale]]`);
+  return L.join('\n');}
+/* an artist's auction record: the records table, the highest price in the terminal, and the private sales, which are not records */
+function dataRecordOf(a){const rec=RECORDS2.find(r=>norm(r[0])===norm(a));const lots=RESULTS.filter(r=>norm(r.artist)===norm(a)).sort((x,y)=>y.price-x.price);const L=[`### ${a}: the auction record`];
+  if(rec){const rn=rec[4]&&rec[4]!=='—'?` ${rec[4][0].toUpperCase()+rec[4].slice(1)}.`:'';L.push(`**The record.** ${rec[1]} for *${rec[2]}*, ${rec[3]}.${rn}${rec[5]==='V'?'':' Reported; not confirmed by the house.'}`);}
+  if(lots.length)L.push('',`The highest price in the terminal is [[lot:${lots[0].id}|${lots[0].title}]] at ${mm(lots[0].price)} (${houseName(lots[0].house)}, ${fdate(lots[0].date)}).`);else if(!rec)L.push(`The terminal holds no auction result for ${a}.`);
+  if(lots.length>1)L.push('','| Work | Price | Year |','|---|---|---|',...lots.slice(0,5).map(r=>`| [[lot:${r.id}|${r.title}]] | ${mm(r.price)} | ${r.date.slice(0,4)} |`));
+  const pv=PRIVATE_TREATY.map((p,i)=>({p,i})).filter(x=>norm(privArtist(x.p))===norm(a));
+  if(pv.length)L.push('','**Private sales, reported.** '+pv.map(x=>`[[private:${x.i}|${privTitle(x.p)||x.p.work}]] ${x.p.price} (${x.p.year})`).join('; ')+'. A private price is not an auction record.');
+  L.push('','The terminal holds a curated list of results, not every sale.');
+  if(ARTISTS.includes(a))L.push('',`[[artist:${a}|Open the ${a} dossier]]`);return L.join('\n');}
+/* a lot answered from the records: the price and what it is made of, the records, the chain, the comparables */
+function dataLot(r){const L=[];if(!r)return '';const ih=SCHED[r.house]?impliedHammer(r.house,r.price*1e6):null;
+    L.push(`### ${r.artist}, ${r.title}`,`${mm(r.price)} with premium at ${houseName(r.house)}, ${r.city}, on ${fdate(r.date)}${ih?`: a hammer of about ${fmtUSD(ih)} plus ${fmtUSD(r.price*1e6-ih)} of premium on the house’s published schedule`:''}.`,'',r.note||'');
+    if(r.rec&&r.rec.length)L.push('',`**Records.** ${r.rec.join('; ')}.`);
+    if(r.chain)L.push('','**Ownership, as reported.** '+r.chain.slice(0,6).map(c=>`${c[0]}: ${c[1]}`).join(' → ')+(r.chain.length>6?' → …':''));
+    const o=RESULTS.filter(x=>x.artist===r.artist&&x!==r).sort((a,b)=>b.price-a.price).slice(0,3);if(o.length)L.push('','**Comparables.** '+o.map(x=>`[[lot:${x.id}|${x.title}]] ${mm(x.price)} (${x.date.slice(0,4)})`).join('; ')+'.');
+  L.push('',`[[lot:${r.id}|Open the lot]]`);return L.join('\n');}
+
 /* ---------- 3. growth: the gaps a reader's question exposed ---------- */
 let gapChain=Promise.resolve();
 function askLogGap(q,gap){const e={q:cut(q,300),gap:cut(gap,200),ts:Date.now()};askGaps=[e,...askGaps.filter(x=>x.q!==e.q)].slice(0,40);store.set('ask.gaps',askGaps);
-  if(dbRef&&myId&&askCanWrite!==false){gapChain=gapChain.then(()=>dbRef.collection('gaps').doc(myId).set({items:askGaps.slice(0,40),updated:Date.now()})).catch(()=>{askCanWrite=false;});}}
+  if(dbRef&&myId&&askCanWrite!==false){gapChain=gapChain.then(async()=>{const ref=dbRef.collection('gaps').doc(myId);let prev=[];try{const g=await ref.get();const d=g&&g.exists&&g.data();if(d&&Array.isArray(d.items))prev=d.items.filter(x=>x&&typeof x.q==='string');}catch(e){}
+    const seen=new Set();const items=[...askGaps,...prev].filter(x=>{if(seen.has(x.q))return false;seen.add(x.q);return true;}).slice(0,40).map(x=>({q:String(x.q).slice(0,300),gap:String(x.gap||'').slice(0,200),ts:okTs(x.ts)?+x.ts:Date.now()}));await ref.set({items,updated:Date.now()});}).catch(e=>{if(e&&e.code==='invalid_argument')askCanWrite=false;});}}
 /* the owner's queue: every reader's open questions (the owner alone reads gaps/) */
 let ownerGaps=[];
-function askOwnerQueue(){if(!dbRef||!askOwner)return;try{dbRef.collection('gaps').onSnapshot(snap=>{const all=[];(snap&&snap.docs||[]).forEach(d=>{const x=d.exists===false?null:(typeof d.data==='function'?d.data():d.data);if(x&&Array.isArray(x.items))x.items.forEach(it=>{if(it&&it.q)all.push({q:String(it.q),gap:String(it.gap||''),ts:+it.ts||0});});});ownerGaps=all.sort((a,b)=>b.ts-a.ts).slice(0,60);askDrawSide();},()=>{});}catch(e){}}
+function askOwnerQueue(){if(!dbRef||!askOwner)return;try{dbRef.collection('gaps').onSnapshot(snap=>{const all=[];(snap&&snap.docs||[]).forEach(d=>{const x=d.exists===false?null:(typeof d.data==='function'?d.data():d.data);if(x&&Array.isArray(x.items))x.items.forEach(it=>{if(it&&typeof it.q==='string'&&okTs(it.ts))all.push({q:it.q.slice(0,300),gap:String(it.gap||'').slice(0,200),ts:+it.ts});});});ownerGaps=all.sort((a,b)=>b.ts-a.ts).slice(0,60);askDrawSide();},()=>{});}catch(e){}}
 
 /* ---------- the Ask view ---------- */
 const ASK_EXAMPLES=[['Movements',['Explain the Vienna Secession, and what it sells for now','How did Impressionism go from rejected to the most liquid market?','What is Dansaekhwa and why did its market take off?']],['Sales',['Break down the Klimt Lederer sale','What will the November evening sales tell us?','Which records fell in 2026, and why?']],['Private',['What are the biggest private sales on record?','Why do collectors sell privately rather than at auction?']],['Money',['What does a $20m hammer cost in all, bought in London and kept in a Geneva freeport?','Who pays the artist’s resale right, and when?']]];
 function renderAsk(){const el=$('#v-ask');
   el.innerHTML=`<div class="head"><div><h1>Ask Subhasta</h1><p class="dek">An analyst built for the art trade. Ask about any movement in history, any sale public or private, any house, collector or figure. It answers from ${kxCount().toLocaleString('en-US')} records and cites each one; what the records do not hold, it says, and files for the research desk.</p></div><div class="status" id="askStatus"></div></div>
-  <div class="askgrid"><div class="askmain"><div class="askthread" id="askThread" aria-live="polite" aria-busy="false"></div>
+  <div class="askgrid"><div class="askmain"><div class="askthread" id="askThread" aria-busy="false"></div><div class="sr" id="askLive" role="status" aria-live="polite"></div>
     <form class="askbar" id="askForm" autocomplete="off"><label class="sr" for="askIn">Your question</label><textarea id="askIn" rows="1" maxlength="1200" placeholder="Ask about a movement, a sale, a price, a house…"></textarea><div class="askctl"><label class="sr" for="askDepth">Depth</label><select id="askDepth" title="How deeply Claude thinks: Fast answers in seconds, Deep takes a minute">${ASK_TIERS.map(([v,n])=>`<option value="${v}">${n}</option>`).join('')}</select><button class="btn primary" id="askGo" type="submit">Ask</button><button class="btn" id="askStop" type="button" hidden>Stop</button></div></form>
-    <p class="askfoot">Answers come from Claude reading the terminal’s records${''} or, without Claude, from the records alone. Private-sale prices are press reports. Not investment advice.</p></div>
+    <p class="askfoot">Answers come from Claude reading the terminal’s records or, without Claude, from the records alone. A question the records cannot answer is sent to the research desk, which the page’s owner runs, when you can save to the page. Private-sale prices are press reports. Not investment advice.</p></div>
     <aside class="askside" id="askSide"></aside></div>`;
-  const f=$('#askForm'),i=$('#askIn'),d=$('#askDepth');d.value=store.get('ask.tier','default');d.addEventListener('change',()=>store.set('ask.tier',d.value));
+  const f=$('#askForm'),i=$('#askIn'),d=$('#askDepth');const sv=store.get('ask.tier','default');d.value=ASK_TIERS.some(t=>t[0]===sv)?sv:'default';d.addEventListener('change',()=>store.set('ask.tier',d.value));
   f.addEventListener('submit',e=>{e.preventDefault();const q=i.value.trim();if(!q)return;i.value='';askGrow(i);askRun(q);});
   i.addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey&&!e.isComposing){e.preventDefault();f.requestSubmit?f.requestSubmit():f.dispatchEvent(new Event('submit',{cancelable:true}));}});
   i.addEventListener('input',()=>askGrow(i));$('#askStop').addEventListener('click',askStop);
@@ -319,20 +403,22 @@ function askStatus(){const el=$('#askStatus');if(!el)return;const ai=sampleRef&&
 function askDrawThread(){const el=$('#askThread');if(!el)return;const T=askThread.turns;
   if(!T.length){el.innerHTML=`<div class="askempty"><div class="k">Start anywhere</div><div class="askex">${ASK_EXAMPLES.map(([g,qs])=>`<div class="g"><span class="label cap">${esc(g)}</span>${qs.map(q=>`<button class="askq" data-ask="${esc(q)}">${esc(q)}</button>`).join('')}</div>`).join('')}</div></div>`;bindAskButtons(el);return;}
   el.innerHTML=T.map((t,i)=>`<div class="turn" id="turn-${i}">${askTurnHTML(t)}</div>`).join('');askBindTurn(el);}
-function askDrawTurn(t){const i=askThread.turns.indexOf(t);const el=$('#turn-'+i);if(!el){askDrawThread();return;}el.innerHTML=askTurnHTML(t);askBindTurn(el);const th=$('#askThread');if(th)th.setAttribute('aria-busy',t.live?'true':'false');}
+/* a new turn is appended, so a screen reader is not read the conversation again */
+function askAppendTurn(t){const th=$('#askThread');if(!th)return;if(!$('.turn',th))th.innerHTML='';const d=document.createElement('div');d.className='turn';d.id='turn-'+askThread.turns.indexOf(t);d.innerHTML=askTurnHTML(t);th.appendChild(d);askBindTurn(d);}
+function askDrawTurn(t){const i=askThread.turns.indexOf(t);const el=$('#turn-'+i);if(!el){askDrawThread();return;}el.innerHTML=askTurnHTML(t);askBindTurn(el);}
 function askTurnHTML(t){const sp=askSplit(t.a);const body=sp.body?mdRender(sp.body):'';const refs=[...new Set(t.hits||[])].map(kxByRef).filter(Boolean).slice(0,10);
   const thinking=t.live&&!sp.body?`<div class="thinking"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span> ${esc((t.steps&&t.steps.length?t.steps[t.steps.length-1]:'Reading the records')+'…')}</div>`:'';
   const tierName=(ASK_TIERS.find(x=>x[0]===(t.tierApplied||t.tier))||[])[1]||'';
-  const meta=t.live?'':`<div class="ameta">${t.mode==='claude'?`Claude${tierName?' · '+tierName:''}${t.tools?` · ${t.tools} ${t.tools===1?'lookup':'lookups'}`:''}`:t.mode==='data'?'From the records':''}${t.note?` · <span class="faint">${esc(t.note)}</span>`:''}${sp.body?` <button class="acopy" data-text="${esc(sp.body.replace(/\[\[[^|\]]+\|([^\]]+)\]\]/g,'$1').replace(/\[\[[^\]]+\]\]/g,''))}">Copy</button>`:''}</div>`;
+  const meta=t.live?'':`<div class="ameta">${t.mode==='claude'?`Claude${tierName?' · '+tierName:''}${(+t.tools||0)>0?` · ${Math.floor(+t.tools)} ${Math.floor(+t.tools)===1?'lookup':'lookups'}`:''}`:t.mode==='data'?'From the records':''}${t.note?` · <span class="faint">${esc(t.note)}</span>`:''}${sp.body?` <button class="acopy" data-text="${esc(sp.body.replace(/\[\[[^|\]]+\|([^\]]+)\]\]/g,'$1').replace(/\[\[[^\]]+\]\]/g,''))}">Copy</button>`:''}</div>`;
   return `<div class="q"><span class="who">You</span><p>${esc(t.q)}</p></div><div class="a${t.live?' live':''}"><span class="who">Subhasta</span>${thinking}<div class="md">${body}</div>${meta}${!t.live&&refs.length?`<div class="arefs"><span class="label">Records consulted</span>${refs.map(d=>`<button class="rchip" data-ref="${esc(d.ref)}"><span class="k">${esc(KIND_NAMES[d.kind]||d.kind)}</span>${esc(cut(d.name,48))}</button>`).join('')}</div>`:''}${!t.live&&sp.next.length?`<div class="anext">${sp.next.map(q=>`<button class="askq sm" data-ask="${esc(q)}">${esc(q)}</button>`).join('')}</div>`:''}${!t.live&&sp.gap&&t.mode==='claude'?`<div class="agap"><span class="label">Filed for the research desk</span> ${esc(sp.gap)}</div>`:''}</div>`;}
 function askBindTurn(el){bindRefs(el);bindAskButtons(el);bindLinks(el);markScrollables(el);$$('.acopy',el).forEach(b=>{if(b.__c)return;b.__c=1;b.addEventListener('click',()=>copyText(b.dataset.text,b));});}
 function askDrawSide(){const el=$('#askSide');if(!el)return;const K=kbAll().slice().sort((a,b)=>String(b.asof).localeCompare(String(a.asof))).slice(0,6);
-  el.innerHTML=`<div class="sbox"><div class="rh"><h2>This conversation</h2></div><div class="sbtns"><button class="btn sm" id="askNew" ${askThread.turns.length?'':'disabled'}>New conversation</button></div>${askHist.length?`<div class="hist"><span class="label">Earlier</span>${askHist.slice(0,8).map((h,i)=>`<button class="rlink" data-hist="${i}">${esc(cut(h.title,64))}<small>${esc(fdate(new Date(h.ts).toISOString().slice(0,10)))}</small></button>`).join('')}</div>`:''}</div>
+  el.innerHTML=`<div class="sbox"><div class="rh"><h2>This conversation</h2></div><div class="sbtns"><button class="btn sm" id="askNew" ${askThread.turns.length?'':'disabled'}>New conversation</button></div>${askHist.length?`<div class="hist"><span class="label">Earlier</span>${askHist.slice(0,8).map((h,i)=>`<button class="rlink" data-hist="${i}">${esc(cut(h.title,64))}<small>${esc(fdate(tsDay(h.ts)))}</small></button>`).join('')}</div>`:''}</div>
   <div class="sbox"><div class="rh"><h2>What it has learned</h2></div>${K.length?K.map(k=>`<button class="learn" data-ref="kb:${esc(k.id)}"><span class="d">${esc(fdate(k.asof))}</span><b>${esc(cut(k.q,90))}</b></button>`).join(''):'<p class="empty">The research desk adds what it learns here.</p>'}<p class="note">Twice a week a research desk reads the questions the records could not answer and adds what it finds; the analyst uses it from then on.</p></div>
   <div class="sbox"><div class="rh"><h2>Your open questions</h2></div>${askGaps.length?askGaps.slice(0,5).map(g=>`<div class="gapq"><b>${esc(cut(g.q,90))}</b><small>${esc(g.gap)}</small></div>`).join(''):'<p class="empty">None. When the records fall short of a question, it waits here for the desk.</p>'}${askGaps.length?`<p class="note">${dbRef&&myId&&askCanWrite!==false?'Sent to the research desk.':'Kept in this browser: the desk sees questions from readers who can save to the page.'}</p>`:''}</div>
-  ${askOwner?`<div class="sbox owner"><div class="rh"><h2>Research queue</h2><span class="sub">owner only</span></div>${ownerGaps.length?ownerGaps.slice(0,8).map(g=>`<div class="gapq"><b>${esc(cut(g.q,90))}</b><small>${esc(g.gap)} · ${esc(fdate(new Date(g.ts).toISOString().slice(0,10)))}</small></div>`).join(''):'<p class="empty">No open questions from readers.</p>'}</div>`:''}`;
+  ${askOwner?`<div class="sbox owner"><div class="rh"><h2>Research queue</h2><span class="sub">owner only</span></div>${ownerGaps.length?ownerGaps.slice(0,8).map(g=>`<div class="gapq"><b>${esc(cut(g.q,90))}</b><small>${esc(g.gap)} · ${esc(fdate(tsDay(g.ts)))}</small></div>`).join(''):'<p class="empty">No open questions from readers.</p>'}</div>`:''}`;
   const nb=$('#askNew');if(nb)nb.addEventListener('click',askNewThread);$$('[data-hist]',el).forEach(b=>b.addEventListener('click',()=>askOpenHist(+b.dataset.hist)));bindRefs(el);}
-function askNewThread(){if(askBusy)askStop();if(askThread.turns.length){askHist=[{id:askThread.id,title:askThread.turns[0].q,ts:askThread.turns[0].ts,turns:askThread.turns.map(t=>({q:t.q,a:t.a,mode:t.mode,hits:t.hits,ts:t.ts,tier:t.tier,note:t.note||'',tools:t.tools||0}))},...askHist.filter(h=>h.id!==askThread.id)].slice(0,12);store.set('ask.history',askHist);}
+function askNewThread(){askQueue=[];if(askBusy)askStop();if(askThread.turns.length){askHist=[{id:askThread.id,title:askThread.turns[0].q,ts:askThread.turns[0].ts,turns:askThread.turns.map(t=>({q:t.q,a:t.a,mode:t.mode,hits:t.hits,ts:t.ts,tier:t.tier,note:t.note||'',tools:t.tools||0}))},...askHist.filter(h=>h.id!==askThread.id)].slice(0,12);store.set('ask.history',askHist);}
   askThread={id:'t'+Date.now().toString(36),turns:[]};askSave();askDrawThread();askDrawSide();const i=$('#askIn');if(i)focusEl(i);}
 function askOpenHist(i){const h=askHist[i];if(!h)return;if(askThread.turns.length&&askThread.id!==h.id)askNewThread();askHist=askHist.filter(x=>x.id!==h.id);store.set('ask.history',askHist);askThread={id:h.id,turns:h.turns};askSave();askDrawThread();askDrawSide();}
 /* the way in from anywhere: the masthead's search, the Today page, a dossier's button */

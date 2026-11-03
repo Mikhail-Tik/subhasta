@@ -47,8 +47,9 @@ function renderMovements(){const el=$('#v-movements');const n=MOVEMENTS.length;c
   <div class="mvtlwrap" id="mvtl"></div>
   <div class="mvkey"><span class="heat"><i></i>market heating</span><span class="steady"><i></i>steady</span><span class="cool"><i></i>cooling</span><span class="rare"><i></i>rarely offered</span><span class="faint">bars run from first to last date; a movement still active runs to now</span></div>
   <div class="mvcards" id="mvcards"></div>`;
-  $$('[data-era]',el).forEach(b=>b.addEventListener('click',()=>{mvs.era=b.dataset.era;renderMovements();}));
-  $$('[data-st]',el).forEach(b=>b.addEventListener('click',()=>{mvs.state=b.dataset.st;renderMovements();}));
+  /* a filter redraws the view: the pressed button keeps the focus */
+  $$('[data-era]',el).forEach(b=>b.addEventListener('click',()=>{mvs.era=b.dataset.era;renderMovements();focusEl($(`#v-movements [data-era="${mvs.era}"]`));}));
+  $$('[data-st]',el).forEach(b=>b.addEventListener('click',()=>{mvs.state=b.dataset.st;renderMovements();focusEl($(`#v-movements [data-st="${mvs.state}"]`));}));
   const q=$('#mvq');q.addEventListener('input',()=>{mvs.q=q.value;mvDraw();});mvDraw();}
 function mvDraw(){const L=mvList();const tl=$('#mvtl'),cards=$('#mvcards');if(!tl||!cards)return;
   tl.innerHTML=L.length?mvTimeline(L):'<p class="empty">No movement matches. Clear the search or choose another era.</p>';

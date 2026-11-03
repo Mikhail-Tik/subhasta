@@ -13,34 +13,43 @@
 /* ---------- the live layer ---------- */
 const LIVEDB={status:null,read:null,sales:null,wire:null,kb:[]};
 const lvStr=(v,n)=>typeof v==='string'&&v.trim().length>0&&v.length<=(n||4000);
-const lvISO=v=>typeof v==='string'&&/^\d{4}-\d{2}-\d{2}/.test(v);
+const lvISO=v=>typeof v==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(v);
+const lvNum=v=>typeof v==='number'&&Number.isFinite(v)&&v>=0&&v<1e6;
+const lvOpt=(v,n)=>v==null||v===''||lvStr(v,n);
+const LV_VERDICT=['above','within','below'];
+/* a sale room entry: an estimate of one or two dollar figures, a result whose verdict is one of three words, lots that are records with names */
+const lvSale=s=>s&&typeof s==='object'&&lvStr(s.id,80)&&/^[a-z0-9-]+$/.test(s.id)&&lvStr(s.n,200)&&lvISO(s.d)&&lvStr(s.house,40)&&lvOpt(s.hn,60)&&lvOpt(s.city,60)&&lvOpt(s.g,300)&&lvOpt(s.estNote,200)&&lvOpt(s.note,1600)&&lvOpt(s.vf,2)
+  &&(s.est==null||(Array.isArray(s.est)&&s.est.length>=1&&s.est.length<=2&&s.est.every(lvNum)))
+  &&(s.res==null||(typeof s.res==='object'&&(s.res.total==null||lvNum(s.res.total))&&(s.res.hammer==null||lvNum(s.res.hammer))&&lvOpt(s.res.sold,40)&&(s.res.v==null||s.res.v===''||LV_VERDICT.includes(s.res.v))&&lvOpt(s.res.vNote,300)&&lvOpt(s.res.note,1600)))
+  &&(s.lots==null||(Array.isArray(s.lots)&&s.lots.length<=30&&s.lots.every(l=>l&&typeof l==='object'&&lvStr(l.a,200)&&lvStr(l.t,300)&&lvOpt(l.est,120)&&lvOpt(l.res,120)&&lvOpt(l.y,40)&&lvOpt(l.note,600))))&&lvSrc(s.src);
 const lvURL=v=>typeof v==='string'&&/^https:\/\/[^\s"'<>]{4,600}$/.test(v);
 const lvSrc=a=>!a||(Array.isArray(a)&&a.length<=12&&a.every(s=>Array.isArray(s)&&lvStr(s[0],200)&&lvURL(s[1])));
 function liveValid(k,d){if(!d||typeof d!=='object'||!lvISO(d.asof))return false;
   if(k==='status')return !d.note||lvStr(d.note,400);
   if(k==='read')return lvStr(d.h,240)&&lvStr(d.dek,900)&&(!d.body||(Array.isArray(d.body)&&d.body.length<=6&&d.body.every(p=>lvStr(p,1600))))&&(!d.tells||(Array.isArray(d.tells)&&d.tells.length<=6&&d.tells.every(t=>t&&lvStr(t.l,120)&&lvStr(t.v,60)&&lvSrc(t.src?[t.src]:null))))&&(!d.watch||(Array.isArray(d.watch)&&d.watch.every(w=>lvStr(w,300))))&&(!d.change||lvStr(d.change,600))&&lvSrc(d.src);
-  if(k==='sales')return Array.isArray(d.items)&&d.items.length<=30&&d.items.every(s=>s&&lvStr(s.id,80)&&/^[a-z0-9-]+$/.test(s.id)&&lvStr(s.n,200)&&lvISO(s.d)&&lvStr(s.house,40)&&(!s.lots||Array.isArray(s.lots))&&lvSrc(s.src));
-  if(k==='wire')return Array.isArray(d.items)&&d.items.length<=40&&d.items.every(n=>n&&lvStr(n.h,300)&&lvISO(n.dt)&&lvStr(n.o,80)&&(!n.u||lvURL(n.u)));
+  if(k==='sales')return Array.isArray(d.items)&&d.items.length<=30&&d.items.every(lvSale);
+  if(k==='wire')return Array.isArray(d.items)&&d.items.length<=40&&d.items.every(n=>n&&lvStr(n.h,300)&&lvISO(n.dt)&&lvStr(n.o,80)&&lvOpt(n.s,600)&&(!n.u||lvURL(n.u)));
   return false;}
-const kbValid=d=>d&&lvStr(d.q,300)&&lvStr(d.a,9000)&&lvISO(d.asof)&&lvSrc(d.src)&&(!d.tags||Array.isArray(d.tags));
+const kbValid=d=>d&&lvStr(d.q,300)&&lvStr(d.a,9000)&&lvISO(d.asof)&&lvSrc(d.src)&&(!d.tags||(Array.isArray(d.tags)&&d.tags.length<=12&&d.tags.every(t=>lvStr(t,60))))&&lvOpt(d.kind,20);
 const lvNewer=(d,baked)=>!!d&&String(d.asof)>=String(baked);
 function liveStatus(){return lvNewer(LIVEDB.status,LIVE.status.asof)?LIVEDB.status:LIVE.status;}
 function liveRead(){return lvNewer(LIVEDB.read,LIVE.read.asof)?LIVEDB.read:LIVE.read;}
 function liveSales(){return lvNewer(LIVEDB.sales,LIVE.asof)?LIVEDB.sales.items:LIVE.sales;}
 function liveWire(){const base=NEWS.map(n=>({d:n.d,dt:n.dt,o:n.o,h:n.h,s:n.s,u:n.u}));const L=lvNewer(LIVEDB.wire,LIVE.asof)?LIVEDB.wire.items:[];const seen=new Set();return [...L,...base].filter(n=>{const k=norm(n.h).slice(0,60);if(seen.has(k))return false;seen.add(k);return true;}).sort((a,b)=>String(b.dt).localeCompare(String(a.dt)));}
-function kbAll(){const m=new Map();KB.forEach(k=>m.set(k.id,k));LIVEDB.kb.forEach(k=>m.set(k.id,k));return [...m.values()];}
+function kbAll(){const m=new Map();KB.forEach(k=>m.set(k.id,k));LIVEDB.kb.forEach(k=>{const b=m.get(k.id);if(!b||String(k.asof)>=String(b.asof))m.set(k.id,k);});return [...m.values()];}
 /* the db's live/ documents and kb/ collection, subscribed once each */
 function liveInit(){if(!dbRef)return;const val=d=>d.exists===false?null:(typeof d.data==='function'?d.data():d.data);
   try{dbRef.collection('live').onSnapshot(snap=>{const ch=new Set();(snap&&snap.docs||[]).forEach(d=>{const id=d.id;if(!['status','read','sales','wire'].includes(id))return;const x=val(d);if(liveValid(id,x)){LIVEDB[id]=x;ch.add(id);}});if(ch.size)liveApply(ch);},()=>{});}catch(e){}
   try{dbRef.collection('kb').onSnapshot(snap=>{const L=[];(snap&&snap.docs||[]).forEach(d=>{if(!/^[a-z0-9-]{1,80}$/.test(d.id))return;const x=val(d);if(kbValid(x))L.push(Object.assign({},x,{id:d.id}));});LIVEDB.kb=L.slice(0,500);liveApply(new Set(['kb']));},()=>{});}catch(e){}}
 /* a live document arrived: the index learns it and the blocks that show it are drawn again */
 function liveApply(ch){kxInvalidate();const on=id=>{const el=$(id);return el&&$('#v-floor').contains(el)?el:null;};
-  if(ch.has('read')){const a=on('#tdRead'),b=on('#tdTells');if(a)a.innerHTML=tdReadHTML();if(b)b.innerHTML=tdTellsHTML();}
-  if(ch.has('sales')){const a=on('#tdSales');if(a){a.innerHTML=tdSalesHTML();tdBind(a);}}
-  if(ch.has('wire')){const a=on('#tdWire');if(a)a.innerHTML=tdWireHTML();}
-  if(ch.has('kb')){const a=on('#tdLearned');if(a){a.innerHTML=tdLearnedHTML();bindRefs(a);}askDrawSide();}
-  const s=on('#tdStatus');if(s)s.innerHTML=tdStatusHTML();askStatus();
-  ['#tdRead','#tdTells','#tdWire'].forEach(id=>{const e=on(id);if(e){bindRefs(e);bindAskButtons(e);bindLinks(e);}});}
+  const step=(what,f)=>{try{f();}catch(err){reportError(err,'live '+what);}};
+  if(ch.has('read'))step('read',()=>{const a=on('#tdRead'),b=on('#tdTells');if(a)a.innerHTML=tdReadHTML();if(b)b.innerHTML=tdTellsHTML();});
+  if(ch.has('sales'))step('sales',()=>{const a=on('#tdSales');if(a){a.innerHTML=tdSalesHTML();tdBind(a);}});
+  if(ch.has('wire'))step('wire',()=>{const a=on('#tdWire');if(a)a.innerHTML=tdWireHTML();});
+  if(ch.has('kb'))step('kb',()=>{const a=on('#tdLearned');if(a){a.innerHTML=tdLearnedHTML();bindRefs(a);}askDrawSide();});
+  step('status',()=>{const s=on('#tdStatus');if(s)s.innerHTML=tdStatusHTML();askStatus();});
+  ['#tdRead','#tdTells','#tdWire'].forEach(id=>step('bind',()=>{const e=on(id);if(e){bindRefs(e);bindAskButtons(e);bindLinks(e);}}));}
 
 /* ---------- Today ---------- */
 /* when the reader was last here (this browser): what is new since is counted on the page */
@@ -56,7 +65,7 @@ function tdTellsHTML(){const R=liveRead();const T=R.tells||[];return `<div class
    the source gives — never one guessed from a total with premium against an estimate without it) and what is to come (the estimate as a
    band, or a diamond where only a reported total exists) */
 const saleName=s=>s.hn||houseName(s.house);
-function tdSaleRow(s,max){const X=v=>Math.max(0,Math.min(100,v/max*100)).toFixed(2);const e=s.est||[];const r=s.res&&s.res.total!=null?+s.res.total:null;const v=s.res&&s.res.v||'';
+function tdSaleRow(s,max){const X=v=>Math.max(0,Math.min(100,v/max*100)).toFixed(2);const e=s.est||[];const r=s.res&&s.res.total!=null?+s.res.total:null;const v=s.res&&LV_VERDICT.includes(s.res.v)?s.res.v:'';
   const band=e.length===2?`<i class="band" style="left:${X(+e[0])}%;width:${Math.max(.8,X(+e[1]-+e[0]))}%"></i>`:e.length===1?`<i class="pt" style="left:${X(+e[0])}%"></i>`:'';
   const est=e.length===2?`${mm(+e[0])}–${mm(+e[1])}`:e.length===1?`about ${mm(+e[0])}`:'';
   const tip=`${saleName(s)}, ${s.n}, ${fdate(s.d)}${est?`. Estimate ${est}`:''}${s.estNote?` (${s.estNote})`:''}${r!=null?`. Made ${mm(r)} with premium`:''}${s.res&&s.res.vNote?`; ${s.res.vNote}`:''}`;
@@ -64,8 +73,8 @@ function tdSaleRow(s,max){const X=v=>Math.max(0,Math.min(100,v/max*100)).toFixed
 function tdSalesHTML(){const S=[...liveSales()].sort((a,b)=>a.d.localeCompare(b.d));if(!S.length)return '';
   const done=S.filter(s=>s.res&&s.res.total!=null),next=S.filter(s=>!(s.res&&s.res.total!=null));
   const top=L=>Math.max(1,...L.map(s=>Math.max(...(s.est||[0]).map(Number),s.res&&s.res.total!=null?+s.res.total:0)))*1.08;
-  const tot=done.reduce((t,s)=>t+(+s.res.total||0),0);const verdicts=['above','within','below'].map(k=>[k,done.filter(s=>s.res.v===k).length]).filter(x=>x[1]);
-  const head=`<div class="rh"><h2>The sale room</h2><span class="sub">${done.length?`${done.length} evening sales since ${esc(fdate(done[0].d).replace(/ \d{4}$/,''))}, ${mm(tot)} with premium${verdicts.length?`: ${verdicts.map(([k,n])=>`${n} ${k}`).join(', ')} the estimate`:''}`:''}${next.length?`${done.length?'; ':''}${next.length} to come, ${esc(fspan(next[0].d,next[next.length-1].d))}`:''}</span></div>`;
+  const tot=done.reduce((t,s)=>t+(+s.res.total||0),0);const verdicts=LV_VERDICT.map(k=>[k,done.filter(s=>s.res.v===k).length]).filter(x=>x[1]);
+  const head=`<div class="rh"><h2>The sale room</h2><span class="sub">${done.length?`${done.length} evening ${done.length===1?'sale':'sales'} since ${esc(fdate(done[0].d).replace(/ \d{4}$/,''))}, ${mm(tot)} with premium${verdicts.length?`: ${verdicts.map(([k,n])=>`${n} ${k}`).join(', ')} the estimate`:''}`:''}${next.length?`${done.length?'; ':''}${next.length} to come, ${esc(fspan(next[0].d,next[next.length-1].d))}`:''}</span></div>`;
   const lead=HERO&&HERO.img?`<div class="srlead"><a href="#" class="pic" data-lb="${esc(HERO.img)}"><img src="img/t/${esc(HERO.img)}.jpg" alt="${esc(HERO.alt)}" loading="lazy" style="object-position:${esc(HERO.fp)}"></a><div><span class="k">${esc(HERO.k)}</span><h3>${esc(HERO.h)}</h3><p>${esc(HERO.p)}</p><div class="acts">${HERO.acts.map((a,i)=>`<button class="btn sm${i===0?' primary':''}" ${a.reel!=null?`data-reel="${+a.reel}"`:a.up!=null?`data-up="${+a.up}"`:`data-story="${esc(a.story)}"`}>${esc(a.t)}</button>`).join('')}</div></div></div>`:'';
   const col=(L,h,sub)=>{if(!L.length)return '';const mx=top(L);return `<div class="srcol"><h3>${h}<small>${sub} · axis to ${esc(mm(mx))}</small></h3><div>${L.map(s=>tdSaleRow(s,mx)).join('')}</div></div>`;};
   return `${head}${lead}<div class="srcols">${col(done,'The verdict','results with premium against the estimate')}${col(next,'The test','the houses’ estimates')}</div><div class="srkey"><span><i class="band"></i>estimate, low to high (without premium)</span><span><i class="res"></i>result above the estimate</span><span><i class="res below"></i>below it</span><span class="faint">a result’s verdict comes from the hammer or the house’s own account; results include premium</span></div>`;}
