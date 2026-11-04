@@ -193,10 +193,10 @@ Rebuild, run `npm run check` and `npm run audit`, then publish with the Artifact
 `build/rostrum.html`, `url` = the artifact URL (keeps the address; images are kept), `root` = the project root
 (`rostrum/`), and re-publish the whole source tree so the next run gets it: `files` = the map in section 1 with
 the sources relative to `root` (`"src/src/app.js": "src/app.js"`, `"src/tools/lint_data.js": "tools/lint_data.js"`,
-`"src/REFRESH.md": "REFRESH.md"`, `"src/data/nga_ids.txt": "data/nga_ids.txt"`, …). Files whose extension is not
+`"src/REFRESH.md": "REFRESH.md"`, `"src/data/research/v24.json": "data/research/v24.json"`, …; `data/nga_ids.txt` is not published since v24, see the ledger). Files whose extension is not
 served need an explicit type or the whole publish is refused: every `.py` script and the page template go as
 `{"from": "build.py", "contentType": "text/plain"}` (likewise `images_manifest.py`, `fetch_images.py`,
-`tools/globals.py`, `tools/nga_subset.py`, `tools/globe_dots.py`, `tools/benchmarks.py` and `"src/src/page.html": {"from": "src/page.html", "contentType":
+`tools/globals.py`, `tools/nga_subset.py`, `tools/globe_dots.py`, `tools/benchmarks.py`, `tools/gen_research.py` and `"src/src/page.html": {"from": "src/page.html", "contentType":
 "text/plain"}`); `.js`, `.css`, `.md`, `.json` and `.txt` are served by extension. A new picture is published
 as `"img/<id>.jpg": "build/img/<id>.jpg"` and `"img/t/<id>.jpg": "build/img/t/<id>.jpg"` in the same call. If the tool answers that some
 published files are "not what you last saw", read those paths from the artifact first (action `read`,
