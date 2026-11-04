@@ -142,12 +142,18 @@ def truncate_provenance(p):
 
 
 def read_ids(path):
-    """Return the object ids listed in `path`, in file order. '#' starts a comment."""
+    """Return the object ids listed in `path`, in file order. '#' starts a comment.
+    When the list is absent (the published artifact omits data/nga_ids.txt, v24) the ids are the subset's own, in order:
+    data/nga_subset.json is a pure function of the list, so the list is recoverable from it."""
     ids, seen = [], set()
     try:
         lines = Path(path).read_text(encoding='utf-8').splitlines()
     except OSError as e:
-        die(f'cannot read id list {path}: {e}')
+        if Path(path) == IDS_FILE and OUT_FILE.exists():
+            lines = [str(x['id']) for x in json.loads(OUT_FILE.read_text(encoding='utf-8'))]
+            print(f'note: {IDS_FILE.relative_to(ROOT)} is absent; using the {len(lines)} ids of {OUT_FILE.relative_to(ROOT)} in order', file=sys.stderr)
+        else:
+            die(f'cannot read id list {path}: {e}')
     for n, raw in enumerate(lines, 1):
         line = raw.split('#', 1)[0].strip()
         if not line:

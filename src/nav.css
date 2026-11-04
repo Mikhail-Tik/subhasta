@@ -1,0 +1,154 @@
+/* ---------- v24: the Navigator (the form, the gates, the route, the ledger, the law), then the Season and the Horizon ---------- */
+.navform{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px 18px;margin:4px 0 22px}
+.navform fieldset{border:1px solid var(--rule);border-radius:2px;padding:12px 14px 14px;margin:0;min-width:0;display:flex;flex-direction:column;gap:9px}
+.navform legend{font-family:var(--ui);font-size:12px;color:var(--ink3);letter-spacing:.04em;text-transform:uppercase;padding:0 6px}
+.navform label{display:flex;flex-direction:column;gap:4px;font-size:12px;color:var(--ink3);min-width:0}
+.navform label>span{font-size:12px;color:var(--ink3)}
+.navform select,.navform input{font-size:14px;padding:7px 9px;min-width:0;width:100%}
+.navform select{padding-right:26px}
+.navform .navcheck{flex-direction:row;align-items:center;gap:7px;font-size:13px;color:var(--ink2);cursor:pointer}
+.navform .navcheck input{width:auto;margin:0}
+.navmats{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:center;font-size:12px;color:var(--ink3)}
+.navmats>span{flex-basis:100%}
+.navacts{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.navacts .label{margin-left:8px}
+.navacts .tag{cursor:pointer;white-space:normal;text-align:left}
+@media (max-width:860px){.navform{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.navform{grid-template-columns:1fr}}
+/* the summary */
+.navsum{border:1px solid var(--rule);border-left:3px solid var(--gilt);border-radius:2px;padding:16px 18px;margin:0 0 26px;background:var(--paper2)}
+.navsum.closed{border-left-color:var(--claret)}
+.navsum-h h2{font-family:var(--display);font-weight:400;font-size:22px;line-height:1.2;margin:2px 0 12px;color:var(--ink)}
+.navsum-k{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px 20px}
+.navsum-k>div{display:flex;flex-direction:column;gap:2px;min-width:0}
+.navsum-k b{font-family:var(--display);font-weight:400;font-size:24px;line-height:1.1;color:var(--ink);font-variant-numeric:tabular-nums}
+.navsum-k small{font-size:12px;color:var(--ink3)}
+@media (max-width:560px){.navsum-k{grid-template-columns:1fr}.navsum-h h2{font-size:19px}}
+/* the gates */
+.navgates{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;margin:0 0 26px}
+.navgate{border:1px solid var(--rule);border-radius:2px;padding:12px 14px 12px;position:relative;display:flex;flex-direction:column;gap:5px;min-width:0}
+.navgate .st{font-family:var(--ui);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink3);display:flex;align-items:center;gap:6px}
+.navgate .st::before{content:'';width:9px;height:9px;border-radius:50%;background:var(--ink3);display:inline-block}
+.navgate.open .st{color:var(--verd)}.navgate.open .st::before{background:var(--verd)}
+.navgate.conditional .st{color:var(--gilt)}.navgate.conditional .st::before{background:var(--gilt)}
+.navgate.closed .st{color:var(--claret)}.navgate.closed .st::before{background:var(--claret)}
+.navgate.closed{border-color:var(--claret)}
+.navgate b{font-family:var(--ui);font-weight:600;font-size:14px;color:var(--ink)}
+.navgate p{font-size:13px;line-height:1.45;color:var(--ink2);margin:0}
+.navgate .src,.navlawrow .src,.navledger .navsrc{font-size:11.5px;color:var(--ink3);line-height:1.4}
+.navsrc a{color:var(--gilt);text-decoration:none;border-bottom:1px solid transparent}
+.navsrc a:hover{border-bottom-color:var(--gilt)}
+.navgate .src .tag{font-size:10px;padding:1px 6px;vertical-align:1px}
+.navclosed{border:1px solid var(--claret);border-radius:2px;padding:12px 14px;margin:-12px 0 26px;font-size:13.5px;line-height:1.5;color:var(--ink2);background:color-mix(in srgb,var(--claret) 6%,transparent)}
+/* the route */
+.navsteps{list-style:none;margin:0 0 26px;padding:0;counter-reset:nav}
+.navsteps li{display:grid;grid-template-columns:34px minmax(0,1fr);gap:0 12px;padding:12px 0;border-top:1px solid var(--rule)}
+.navsteps li:last-child{border-bottom:1px solid var(--rule)}
+.navsteps .n{font-family:var(--display);font-size:22px;color:var(--gilt);line-height:1;padding-top:2px;text-align:right;font-variant-numeric:tabular-nums}
+.navsteps .b{display:flex;flex-direction:column;gap:3px;min-width:0}
+.navsteps b{font-family:var(--ui);font-weight:600;font-size:14.5px;color:var(--ink)}
+.navsteps .who{font-size:12px;color:var(--ink3)}
+.navsteps .docs{font-size:13px;color:var(--ink2);font-family:var(--read);font-style:italic}
+.navsteps p{font-size:13px;color:var(--ink2);line-height:1.45;margin:2px 0 0;max-width:720px}
+/* the ledger */
+.navledger{width:100%;min-width:520px;margin-bottom:6px}
+.navledger th[scope=row]{font-weight:500;color:var(--ink);text-align:left;font-size:13.5px}
+.navledger th[scope=row] small{display:block;font-weight:400;color:var(--ink3);font-size:11.5px;margin-top:2px}
+.navledger td.n,.navledger th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.navledger tr.tot th,.navledger tr.tot td{border-top:2px solid var(--ink);font-weight:600;font-size:14.5px}
+.navledger .tag{font-size:10px;padding:1px 6px}
+/* the law */
+.navlaw{margin:14px 0 22px}
+.navlawcols{display:grid;grid-template-columns:1fr 1fr;gap:18px 28px}
+.navlawcol h3{font-family:var(--display);font-weight:400;font-size:19px;margin:0 0 8px;color:var(--ink)}
+.navlawrow{padding:8px 0;border-top:1px solid var(--rule)}
+.navlawrow .label{display:block;margin-bottom:2px}
+.navlawrow p{font-size:13px;line-height:1.45;margin:0 0 3px;color:var(--ink2)}
+.navlawrow .tag{font-size:10px;padding:1px 6px;vertical-align:1px}
+@media (max-width:640px){.navlawcols{grid-template-columns:1fr}}
+.navacts2{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 10px}
+.navacts2 .btn{white-space:normal;text-align:left}
+@media print{.navform,.navacts,.navacts2{display:none}.navsum{break-inside:avoid}.navgate{break-inside:avoid}}
+/* the worked case */
+.navcase{border:1px solid var(--rule);border-radius:2px;padding:16px 18px 14px;margin:0 0 26px;background:var(--paper2)}
+.navq{font-family:var(--display);font-size:21px;line-height:1.3;margin:0 0 6px;color:var(--ink)}
+.navcasegates{margin-top:12px}
+.navcasegates .tag{font-size:10.5px;vertical-align:2px;margin-left:6px}
+.tag.st-open{color:var(--verd);border-color:var(--verd)}.tag.st-conditional{color:var(--gilt);border-color:var(--gilt)}.tag.st-closed{color:var(--claret);border-color:var(--claret)}
+.tag.vf{font-size:10px;padding:1px 6px}
+.navalt,.navflags{margin:14px 0 0;max-width:760px}
+.navalt p{font-size:14px;line-height:1.5;margin:4px 0 0;color:var(--ink)}
+.navflags ul{margin:4px 0 0;padding-left:18px;font-size:13px;line-height:1.45;color:var(--ink2)}
+.navflags li{margin:0 0 4px}
+.navcase .navacts2{margin-top:14px}
+@media (max-width:560px){.navq{font-size:18px}}
+/* ---------- the Season and the Horizon (v24) ---------- */
+.evctl{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;margin:4px 0 18px}
+.evctl .seg{display:flex;flex-wrap:wrap;gap:6px}
+.evctl .tag{cursor:pointer;font-size:12.5px;padding:4px 10px;border-radius:12px}
+.evctl .tag.on{background:var(--gilt);border-color:var(--gilt);color:var(--ongilt)}
+.evctl .navcheck{display:flex;align-items:center;gap:7px;font-size:13px;color:var(--ink2);cursor:pointer}
+.evmonth{margin:0 0 26px}
+.evmonth h2{font-family:var(--display);font-weight:400;font-size:22px;margin:0 0 6px;color:var(--ink);border-bottom:1px solid var(--rule);padding-bottom:6px}
+.evrow{display:grid;grid-template-columns:150px minmax(0,1fr) auto;gap:6px 18px;padding:12px 0;border-bottom:1px solid var(--rule);align-items:start}
+.evrow:last-child{border-bottom:0}
+.evd{display:flex;flex-direction:column;gap:4px;font-variant-numeric:tabular-nums}
+.evd b{font-family:var(--ui);font-weight:600;font-size:13.5px;color:var(--ink)}
+.evd .tag{align-self:flex-start;font-size:10.5px}
+.kind-sale .evd .tag{border-color:var(--live);color:var(--live)}
+.kind-fair .evd .tag,.evcard.kind-fair .tag{border-color:var(--gilt);color:var(--gilt)}
+.kind-biennale .evd .tag,.evcard.kind-biennale .tag{border-color:var(--lapis);color:var(--lapis)}
+.kind-opening .evd .tag,.evcard.kind-opening .tag{border-color:var(--verd);color:var(--verd)}
+.evcard.kind-sale .tag{border-color:var(--live);color:var(--live)}
+.evb{min-width:0}
+.evn{border:0;background:none;padding:0;font-family:var(--display);font-size:18px;line-height:1.25;color:var(--ink);text-align:left;cursor:pointer}
+.evn:hover{color:var(--gilt)}
+.evm{font-size:12.5px;color:var(--ink3);margin:3px 0 4px}
+.evm .evp{color:var(--ink2)}
+.evwhy{font-size:13.5px;line-height:1.45;color:var(--ink2);margin:0;max-width:760px}
+.evgo{font-size:12px;color:var(--gilt);margin-top:4px}
+.eva{display:flex;flex-direction:column;align-items:flex-end;gap:6px}
+.eva .btn{white-space:nowrap}
+.btn.go.on{background:var(--gilt);border-color:var(--gilt);color:var(--ongilt)}
+.evlink.tickets{border-color:var(--gilt);color:var(--gilt)}
+.tag.vf{font-size:10px;padding:1px 6px}
+@media (max-width:700px){.evrow{grid-template-columns:1fr}.eva{flex-direction:row;flex-wrap:wrap;align-items:center}.evn{font-size:16.5px}}
+.evnames{margin:4px 0 10px;padding-left:18px;font-size:13.5px;line-height:1.5}
+.evacts{display:flex;flex-wrap:wrap;gap:8px}
+/* the strip on the World and Today */
+.evstrip{margin:18px 0 6px}
+.evcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.evcard{border:1px solid var(--rule);border-radius:2px;padding:10px 12px 11px;display:flex;flex-direction:column;gap:4px;min-width:0;background:var(--paper2)}
+.evcard .tag{align-self:flex-start;font-size:10px}
+.evcard b{font-weight:400}
+.evcard .evn{font-size:15px}
+.evcard small{font-size:12px;color:var(--ink3)}
+.evcard .btn{align-self:flex-start;margin-top:4px}
+/* the Horizon */
+.hzgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin:0 0 22px}
+.hz{border:1px solid var(--rule);border-radius:2px;padding:14px 16px 12px;display:flex;flex-direction:column;gap:6px;min-width:0;border-top:3px solid var(--ink3);background:var(--paper2)}
+.hz.heat{border-top-color:var(--live)}.hz.steady{border-top-color:var(--gilt)}.hz.cool{border-top-color:var(--lapis)}
+.hzh{display:flex;justify-content:space-between;align-items:baseline;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink3)}
+.hz.heat .st{color:var(--live)}.hz.steady .st{color:var(--gilt)}.hz.cool .st{color:var(--lapis)}
+.hz h2{margin:0;font-weight:400}
+.hz h2 .evn{font-size:19px;line-height:1.25}
+.hz p{font-size:13.5px;line-height:1.45;color:var(--ink2);margin:0}
+.hzm{font-size:12px;color:var(--ink3);line-height:1.4}
+.hzm .label{margin-right:4px}
+.hzf{display:flex;align-items:center;gap:10px;font-size:11.5px;color:var(--ink3);margin-top:2px}
+.hzflags{display:flex;width:90px;height:5px;border-radius:2px;overflow:hidden;background:var(--rule2)}
+.hzflags i{display:block;height:100%}
+.hzflags i.V{background:var(--verd)}.hzflags i.S{background:var(--gilt)}.hzflags i.U{background:var(--ink3)}
+.hzl{display:flex;flex-wrap:wrap;gap:4px}
+.hzl .tag{font-size:10.5px}
+.hzev{padding-left:20px;margin:6px 0 0;font-size:13.5px;line-height:1.5}
+.hzev li{margin:0 0 8px}
+.hzev .src{font-size:11.5px;color:var(--ink3);margin-top:2px}
+.hzrisks{padding-left:18px;margin:6px 0 0;font-size:13.5px;line-height:1.5;color:var(--ink2)}
+.hzlinks{font-size:14px;line-height:1.7}
+.hzlinks .ref{border:0;padding:0;background:none;color:var(--gilt);cursor:pointer;font:inherit}
+.hzlinks .ref:hover{text-decoration:underline;text-underline-offset:3px}
+/* the Salon: the member's contact line and where they are going */
+.mcontact{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--ink2);margin-top:3px}
+.mgoing{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
+.mgoing .tag{font-size:10.5px;cursor:pointer}

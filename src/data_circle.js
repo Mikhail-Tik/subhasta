@@ -13,17 +13,21 @@ const CIRCLE={
    'The Ledger: {nga} ownership histories from the National Gallery of Art’s open data',
    'Follow the money across {rooms} sale rooms, and the fee calculator',
    'The Lab: {labPeriods} holding periods against the S&P 500, gold and inflation, the round trip, {provThrough} histories read for 1933 to 1945 and {holdings} holdings dated',
-   'The Salon board and a member card, signed in',
+   'The Navigator: a work, a route and the money, and the gates, the papers and the landed cost from the laws of {navRules} jurisdictions',
+   'The Season: the fairs, sales, biennales and shows ahead, with the organisers’ ticket pages; the Horizon: eighteen theses on the next thirty years, each with its evidence',
+   'The Salon board and a member card, signed in; mark where you are going and the room sees you there',
    'The Reel']},
   {id:'private',n:'Private',who:'One reader, one desk.',price:'On request',mark:true,act:['invite','Request an invitation'],items:[
    'Everything in Reader',
    'The Subhasta Brief by e-mail after each monthly refresh; the current issue is below',
    'The Clinic and Follow the money with your own numbers; nothing you type leaves your browser',
    'The Atlas’s {regimes} regimes side by side — import VAT, sales tax, resale right, AML, export control — as a sheet to print',
+   'The Navigator’s plan for your own route, printed, with the law behind each gate; the Horizon’s theses as a quarterly letter',
    'Priority corrections: a figure you dispute is re-checked at the next refresh']},
   {id:'desk',n:'Desk',who:'Advisors, family offices and houses.',price:'On request',act:['invite','Request an invitation'],items:[
    'Everything in Private',
-   'The data behind the terminal as CSV and JSON after each refresh: lots, houses, hubs, regimes, segments, the calendar',
+   'The data behind the terminal as CSV and JSON after each refresh: lots, houses, hubs, regimes, segments, the calendar, the Season, the Navigator’s rules',
+   'A Navigator route checked by a named specialist, a shipper or a lawyer, for a deal you are about to do',
    'Custom lenses: a room, a regime and a set of segments cut for your desk',
    'A named analyst’s hour each month',
    'Early access to new corners of the terminal before they reach the page']}

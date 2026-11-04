@@ -24,9 +24,10 @@
 .wd[data-mode="then"] .wd-foot{bottom:96px}
 .wd-legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--ink3)}
 .wd-legend i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:0;background:var(--ink2)}
-.wd-legend i.sold,.wd-legend i.mv,.wd-legend i.ce,.wd-legend i.note{background:var(--live);box-shadow:0 0 8px color-mix(in srgb,var(--live) 70%,transparent)}
+.wd-legend i.sold{background:var(--gilt);box-shadow:0 0 8px color-mix(in srgb,var(--gilt) 70%,transparent)}
+.wd-legend i.fresh,.wd-legend i.mv,.wd-legend i.ce,.wd-legend i.note{background:var(--live);box-shadow:0 0 8px color-mix(in srgb,var(--live) 70%,transparent)}
 .wd-legend i.coming{background:transparent;border:1.5px solid var(--ink)}
-.wd-legend i.fair{background:var(--gilt);transform:rotate(45deg);border-radius:1px}
+.wd-legend i.fair{background:transparent;border:1.5px solid var(--gilt);transform:rotate(45deg);border-radius:1px}
 .wd-legend i.ar{background:var(--ink)}
 .wd-legend i.rise{background:transparent;border:1px solid var(--gilt);box-shadow:0 0 0 3px color-mix(in srgb,var(--gilt) 25%,transparent)}
 .wd-ask{display:flex;align-items:center;border:1px solid var(--rule2);border-radius:999px;background:color-mix(in srgb,var(--paper) 82%,transparent);padding:4px 4px 4px 16px;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}

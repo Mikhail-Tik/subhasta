@@ -2,7 +2,8 @@
 /* Subhasta — runtime audit (re-runnable)
    Runs from the project root:  node tools/audit_runtime.js  [--seed N] [--verbose]
    Needs: build/preview.html (python3 build.py), playwright (resolves from the global tools), node_modules/axe-core (npm i -D axe-core),
-   Chromium at /opt/google/chrome/chrome (override with CHROME=...).
+   Chromium at /opt/google/chrome/chrome (override with CHROME=...). `--shots` (npm run shots) takes the desktop and phone
+   screenshots of the main views into shots/ instead of auditing (formerly tools/shots.js; folded in for the artifact's file cap, v24).
    Checks (each row of the table is pass/fail; the process exits 1 if any row fails):
      errors        no pageerror / console.error / unhandled rejection on every view, 2 viewports x 2 themes, plus drawers, details and the Reel
      deep-links    every hash kind: all ids for collections under 80 items, a seeded random sample of 40 for larger ones;
@@ -70,7 +71,7 @@ const state = (page, kind) => page.evaluate(kind => {
 }, kind);
 const active = () => page => page.evaluate(() => { const a = document.activeElement; return { tag: a.tagName, id: a.id, cls: a.className && String(a.className), text: (a.textContent || '').trim().slice(0, 24), inDrawer: !!a.closest('#drawer'), inReel: !!a.closest('#reel'), inMain: !!a.closest('main'), inNav: !!a.closest('#nav') }; });
 
-(async () => {
+if (!args.includes('--shots')) (async () => {   /* the audit; `--shots` runs the screenshot pass below instead */
   const t0 = Date.now();
   const browser = await chromium.launch({ executablePath: CHROME, args: ['--no-sandbox'] });
   const ONLY = (() => { const i = args.indexOf('--only'); return i >= 0 ? args[i + 1].split(',') : null; })();   /* --only world,keyboard runs a few sections while working on them */
@@ -337,3 +338,44 @@ const active = () => page => page.evaluate(() => { const a = document.activeElem
   console.log(`${failed ? 'FAILED' : 'all checks passed'} in ${((Date.now() - t0) / 1000).toFixed(0)} s`);
   process.exit(failed ? 1 : 0);
 })();
+
+/* ---- `--shots` (formerly tools/shots.js): desktop and phone screenshots of the main views into shots/ ---- */
+async function shots() {
+  const { chromium } = require('playwright');
+  await (async () => {
+  const file = 'file://' + require('path').join(__dirname, '..', 'build', 'preview.html');
+  const outDir = require('path').join(__dirname, '..', 'shots'); require('fs').mkdirSync(outDir, { recursive: true });
+  const browser = await chromium.launch({ executablePath: '/opt/google/chrome/chrome', args: ['--no-sandbox'] });
+  const errors = [];
+  for (const [w, h, tag] of [[1400, 900, 'desktop'], [390, 844, 'phone']]) {
+    const ctx = await browser.newContext({ viewport: { width: w, height: h }, colorScheme: 'dark' });
+    const page = await ctx.newPage();
+    page.on('pageerror', e => errors.push(`${tag}: ${e.message}`));
+    page.on('console', m => { if (m.type() === 'error' && !/ERR_TUNNEL|net::|ERR_FILE/.test(m.text())) errors.push(`${tag} console: ${m.text().slice(0, 160)}`); });
+    // mark the guide as seen so it does not cover the shots
+    await page.goto(file + '#floor', { waitUntil: 'load' });
+    await page.evaluate(() => { try { localStorage.setItem('subhasta.seen', 'true'); } catch (e) {} });
+    const nav = async (hash) => { await page.goto('about:blank'); await page.goto(file + hash, { waitUntil: 'load' }); };
+    // Pulse: the report calendar
+    await nav('#pulse'); await page.waitForTimeout(1800);
+    const rep = await page.$('.rep'); if (!rep) errors.push(`${tag}: missing .rep`); else { await rep.scrollIntoViewIfNeeded(); await page.waitForTimeout(400); await page.screenshot({ path: `${outDir}/reports-${tag}.png` }); }
+    // Atlas: institutions block + an open dossier
+    await nav('#atlas'); await page.waitForTimeout(1800);
+    const insts = await page.$('.insts'); if (!insts) errors.push(`${tag}: missing .insts`); else { await insts.scrollIntoViewIfNeeded(); await page.waitForTimeout(400); await page.screenshot({ path: `${outDir}/insts-${tag}.png` }); }
+    await nav('#inst-mplus'); await page.waitForTimeout(1500); await page.screenshot({ path: `${outDir}/inst-mplus-${tag}.png` });
+    await nav('#inst-zeitz'); await page.waitForTimeout(1500); await page.screenshot({ path: `${outDir}/inst-zeitz-${tag}.png` });
+    // Houses view (local totals) — Seoul hub dossier
+    await nav('#hub-seoul'); await page.waitForTimeout(1500); await page.screenshot({ path: `${outDir}/hub-seoul-${tag}.png` });
+    await nav('#hub-mumbai'); await page.waitForTimeout(1500); await page.screenshot({ path: `${outDir}/hub-mumbai-${tag}.png` });
+    for (const hash of ['#pulse', '#atlas', '#undertow', '#floor', '#houses', '#desk']) {
+      await nav(hash); await page.waitForTimeout(1200);
+      const ov = await page.evaluate(() => ({ sw: document.documentElement.scrollWidth, cw: document.documentElement.clientWidth }));
+      if (ov.sw > ov.cw + 1) errors.push(`${tag} ${hash}: horizontal overflow ${ov.sw}>${ov.cw}`);
+    }
+    await ctx.close();
+  }
+  await browser.close();
+  console.log(errors.length ? errors.join('\n') : 'no errors / no overflow');
+})();
+}
+if (process.argv.includes('--shots')) { shots().then(() => process.exit(0), e => { console.error(e); process.exit(1); }); }

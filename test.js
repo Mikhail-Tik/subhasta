@@ -63,6 +63,44 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
    C.open('movement','impressionism','cubism');assert(/Impressionism/.test(q('#cmpA').value)&&/Cubism/.test(q('#cmpB').value)&&/Painters named/.test(q('#v-compare .cmptab').textContent),'two movements compare on their own measures');
    const da=w.__S.dataAnswer('Compare Monet and Picasso',w.__S.kxSearch('Compare Monet and Picasso',14));assert(/side by side/.test(da)&&/\| Lots in the terminal \|/.test(da)&&/\[\[compare:artist~Claude Monet~Pablo Picasso\|/.test(da),'Ask compares two painters from the same measures');
    log.push(`v23: ${qa('#libwall .lw').length} pictures on the wall; compare rows ${rows.length}; readings ${w.__WORLD.readings().length}`);w.__S.go('floor');}
+  /* v24: the Navigator */
+  {const N=w.__NAV;w.__S.go('navigator');assert(q('#v-navigator').classList.contains('on')&&q('#navForm')&&qa('.navgate').length>=5&&qa('.navsteps li').length>=8&&qa('.navledger tbody tr').length>=8,'the Navigator draws the form, the gates, the route and the ledger');
+   const p=N.plan({kind:'painting',value:2500000,year:1912,from:'uk',to:'us',mode:'auction',buyer:'us',funds:'us',owner:'person',mats:[],artist:'',living:false});
+   assert(!p.closed&&p.gates.find(g=>g.id==='export').status==='conditional'&&/£180,000/.test(p.gates.find(g=>g.id==='export').why)&&p.gates.find(g=>g.id==='sanctions').status==='open','London to New York: the UK licence bites at £180,000, the sanctions gate is open');
+   assert(p.m&&p.ledger.some(x=>x.k==='premium')&&p.ledger.some(x=>x.k==='usetax')&&p.lo>p.base&&p.hi>=p.lo&&Math.abs(p.ledger.reduce((s,x)=>s+x.hi,0)-p.hi)<1,'the ledger uses the money model for the five rooms and sums');
+   const m=N.plan({kind:'painting',value:3000000,year:1911,from:'uk',to:'us',mode:'auction',buyer:'ru',funds:'ru',owner:'person',mats:[],artist:'',living:false});
+   assert(m.closed&&m.gates.find(g=>g.id==='sanctions').status==='closed'&&/connected with Russia|Article 5b/.test(m.gates.find(g=>g.id==='sanctions').why),'money in Moscow closes the route, with the rule that closes it');
+   const f=N.plan({kind:'painting',value:2500000,year:1890,from:'fr',to:'us',mode:'auction',buyer:'us',funds:'us',owner:'person',mats:[],artist:'',living:false});
+   assert(f.ex.euHit&&/EU licence/.test(f.gates.find(g=>g.id==='export').why)&&/€300,000|€150,000/.test(f.gates.find(g=>g.id==='export').why),'Paris to New York: the EU licence (116/2009) is checked beside the French certificate');
+   const es=N.plan({kind:'painting',value:1500000,year:1880,from:'es',to:'uk',mode:'private',buyer:'uk',funds:'uk',owner:'person',mats:[],artist:'',living:false});
+   assert(es.ledger.some(x=>x.k==='exptax'&&x.lo>400000)&&es.ledger.some(x=>x.k==='impvat'&&Math.abs(x.lo-75000)<1),'an old Spanish painting pays the export tax band and 5% UK import VAT');
+   const ln=N.plan({kind:'sculpture',value:4000000,year:1950,from:'ch',to:'us',mode:'loan',buyer:'ch',funds:'ch',owner:'person',mats:[],artist:'',living:false});
+   assert(!ln.gates.some(g=>g.id==='usetax')&&ln.ledger.some(x=>x.k==='carnet')&&!ln.ledger.some(x=>x.k==='impvat'),'a loan carries a carnet and no use tax or import VAT');
+   const ae=N.plan({kind:'sculpture',value:800000,year:2015,from:'uk',to:'ae',mode:'private',buyer:'ae',funds:'ae',owner:'person',mats:[],artist:'',living:true});
+   assert(ae.gates.find(g=>g.id==='apostille').status==='conditional'&&/not a party/.test(ae.gates.find(g=>g.id==='apostille').why)&&ae.ledger.some(x=>x.k==='legal'),'the Emirates take the consular chain, not an apostille');
+   const mx=N.plan({kind:'painting',value:5000000,year:1940,from:'mx',to:'us',mode:'private',buyer:'us',funds:'us',owner:'person',mats:[],artist:'Frida Kahlo',living:false});
+   assert(mx.gates.find(g=>g.id==='export').status==='closed'&&/may not leave/.test(mx.gates.find(g=>g.id==='export').why),'a Kahlo may not leave Mexico');
+   const iv=N.plan({kind:'design',value:200000,year:1900,from:'fr',to:'uk',mode:'private',buyer:'uk',funds:'uk',owner:'person',mats:['ivory'],artist:'',living:false});
+   assert(iv.gates.some(g=>g.id==='cites'&&g.status==='conditional')&&iv.ledger.some(x=>x.k==='cites'),'ivory brings the wildlife gate and its permits');
+   q('[data-navcase="moscow"]').click();assert(q('.navsum').classList.contains('closed')&&q('.navclosed')&&/lawful version/i.test(q('.navclosed').textContent),'the Moscow case renders closed with the lawful alternative');
+   assert(qa('#navMoscow .navcasegates li').length===G('NAV_MOSCOW.gates.length')&&qa('#navMoscow .navflags li').length>=4,'the worked case lists the researched gates and the red flags');
+   const rules=G('Object.keys(NAV_RULES).length');assert(rules>=20&&G('NAV_RULES.uk.exp.needs.length')>=5&&G('NAV_RULES.us.exp.none')===true&&G('NAV_RULES.ae.apost.hague')===false,`the rules cover ${rules} jurisdictions`);
+   log.push(`v24 navigator: ${rules} jurisdictions; London→New York landed ${w.__S.fmtUSD(p.lo)}–${w.__S.fmtUSD(p.hi)} (${p.weeks[0]}–${p.weeks[1]} weeks); Moscow closed=${m.closed}`);}
+  /* v24: the Season, the Horizon, the strip, the analyst */
+  {w.__S.go('season');const live=w.__SEASON.list();assert(q('#v-season').classList.contains('on')&&live.length>=40&&qa('.evrow').length===live.length&&qa('.evlink').length>=live.length*.8,`the Season lists ${live.length} events with their links`);
+   assert(live.every(e=>(e.e||e.d)>=w.__S.NOW)&&qa('.evmonth').length>=4&&/Now on/.test(q('.evmonth h2').textContent),'the Season hides what has ended and leads with what is on');
+   q('[data-evk="fair"]').click();assert(qa('.evrow').length>0&&qa('.evrow').every(r=>r.classList.contains('kind-fair')),'the kind filter keeps only fairs');
+   q('.evrow .evn').click();assert(q('#drawer').classList.contains('on')&&/Tickets and prices|Who is going/.test(q('#dBody').textContent),'an event opens in the drawer with its tickets and who is going');w.document.querySelector('#dClose').click();
+   const st=w.__SEASON.strip(6,120);assert(/Where to be next/.test(st)&&(st.match(/class="evcard /g)||[]).length===6,'the strip gives six cards');
+   w.__S.go('horizon');assert(q('#v-horizon').classList.contains('on')&&qa('.hz').length===G('THESES.length')&&G('THESES.length')>=15,'the Horizon shows every thesis');
+   w.__HORIZON.filter('heat','asia');assert(qa('.hz').length>0&&qa('.hz').every(c=>c.classList.contains('heat')),'the Horizon filters by direction and region');w.__HORIZON.filter('all','all');
+   q('.hz .evn').click();assert(q('#drawer').classList.contains('on')&&qa('.hzev li').length>=3&&qa('.hzrisks li').length>=2&&qa('#dBody .ref').length>=1,'a thesis opens with its evidence, risks and links');w.document.querySelector('#dClose').click();
+   const a1=w.__S.dataAnswer('Where is the next fair in December?');assert(/The next fairs/.test(a1)&&/\[\[event:/.test(a1),'Ask lists the next fairs from the Season');
+   const a2=w.__S.dataAnswer('Where does the money go in the next 20 years?');assert(/Where the money goes next/.test(a2)&&/\[\[thesis:/.test(a2),'Ask answers “where next” from the Horizon');
+   const a3=w.__S.dataAnswer('tickets for Art Basel Qatar');assert(/Art Basel Qatar/.test(a3)&&/\[\[event:art-basel-qatar-2027/.test(a3),'Ask finds an event by name');
+   w.__S.go('world');assert(/sold this week|cities with sales/.test(q('.wd-legend').textContent)&&q('.wd-legend i.sold')&&q('.wd-legend i.fair'),'the World’s legend carries the gold and the diamond');
+   assert(G('ATLAS.find(a=>a.id==="sfsabs")')&&G('ATLAS.find(a=>a.id==="ofsi")')&&G('ATLAS.find(a=>a.id==="amlr")')&&G('VITALS.find(v=>v.id==="loans")')&&G('SIGNALS.some(s=>/Brâncuși/.test(s.t))'),'the money’s stories, the loans vital sign and the sculpture signal are in');
+   log.push(`v24 season: ${live.length} events (${live.filter(e=>e.tk==='tickets').length} ticket pages); horizon: ${G('THESES.length')} theses, ${G('THESES.reduce((s,t)=>s+t.evidence.length,0)')} evidence lines`);w.__S.go('floor');}
   assert(qa('#v-floor .status .chip').some(c=>c.textContent.includes(G('MARKET.verified'))),'Today’s chips carry MARKET.verified');
   assert(q('#v-floor .srlead h3').textContent===G('HERO.h'),'the sale room’s lead is HERO.h');
   const views=['floor','ask','movements','pulse','atlas','houses','people','hammer','ledger','salon','undertow','desk','lexicon'];
@@ -256,7 +294,7 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
    assert(qa('#v-floor .srcol').length===2,'the sale room has a verdict column and a test column');
    assert(qa('#v-floor .tell').length===L.read.tells.length,'one tell per LIVE.read.tells entry');
    assert(q('#v-floor .readin h3').textContent===L.read.h,'the Read’s headline is LIVE.read.h');
-   assert(qa('#v-floor .gotile').length===8,'eight ways deeper');
+   assert(qa('#v-floor .gotile').length>=11&&q('#v-floor .gotile[data-go="navigator"]')&&q('#v-floor .gotile[data-go="season"]')&&q('#v-floor .gotile[data-go="horizon"]'),'eleven ways deeper, the Navigator, the Season and the Horizon among them');
    assert(!!q('#tdAskForm')&&!!q('#tdAskIn'),'Today carries the ask bar');
    qa('#v-floor .srrow')[0].click();assert(q('#drawer').classList.contains('on')&&/Sotheby|Christie|Phillips|Fair Warning/.test(q('#dTitle').textContent),'a sale room row opens its sale');q('#dClose').click();
    const below=L.sales.filter(x=>x.res&&x.res.v==='below').length;assert(qa('#v-floor .srrow .res.below').length===below,'every sale below its estimate is marked below');}

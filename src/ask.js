@@ -19,7 +19,7 @@ const cut=(s,n)=>{s=String(s==null?'':s).replace(/\s+/g,' ').trim();return s.len
 const askUnesc=s=>String(s).replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&amp;/g,'&');
 const privArtist=p=>String(p.work||'').split(',')[0].trim();
 const privTitle=p=>String(p.work||'').split(',').slice(1).join(',').trim();
-const KIND_NAMES={compare:'Compare',lot:'Lot',private:'Private sale',upcoming:'To come',sale:'Sale',movement:'Movement',artist:'Artist',house:'House',org:'Player',person:'Person',collector:'Collector',story:'Story',term:'Term',signal:'Signal',news:'Wire',cal:'Date',under:'Undercurrent',station:'Station',symptom:'Diagnosis',vital:'Vital sign',hub:'Hub',segment:'Segment',inst:'Institution',fair:'Fair',report:'Report',journey:'Journey',dealer:'Dealer',prov:'Ownership history',record:'Record',kb:'Learned',limit:'Limit'};
+const KIND_NAMES={event:'Event',thesis:'Thesis',view:'Section',compare:'Compare',lot:'Lot',private:'Private sale',upcoming:'To come',sale:'Sale',movement:'Movement',artist:'Artist',house:'House',org:'Player',person:'Person',collector:'Collector',story:'Story',term:'Term',signal:'Signal',news:'Wire',cal:'Date',under:'Undercurrent',station:'Station',symptom:'Diagnosis',vital:'Vital sign',hub:'Hub',segment:'Segment',inst:'Institution',fair:'Fair',report:'Report',journey:'Journey',dealer:'Dealer',prov:'Ownership history',record:'Record',kb:'Learned',limit:'Limit'};
 
 /* ---------- 1. the index ---------- */
 const KX={docs:[],post:new Map(),vocab:[],avg:1,built:false};
@@ -65,6 +65,9 @@ function kxBuildNow(){const D=[];
   STORIES.forEach(s=>add('story',s.id,s.t,`${s.t}: ${s.dek}`,s.body,`${s.t} story`));
   GLOSSARY.forEach((g,i)=>add('term',i,g[0],`${g[0]}: ${g[2]||g[1]}`,g[2]||'',`${g[0]} term definition`));
   SIGNALS.forEach((s,i)=>add('signal',i,s.t,`${s.t} (${s.dir==='heat'?'heating':s.dir==='cool'?'cooling':'steady'}): ${s.p}`,s.p,`${s.t} signal trend`));
+  EVENTS.forEach(e=>add('event',e.id,e.n,`${e.n}: ${SEASON_KINDS[e.kind]||e.kind}, ${e.city}${e.venue?` (${e.venue})`:''}, ${e.e&&e.e!==e.d?fspan(e.d,e.e):fdate(e.d)}. ${e.why||''}${e.price?` Tickets: ${e.price}.`:''}`,`${e.who||''} ${e.note||''}`,`${e.n} ${e.city} ${e.country||''} ${SEASON_KINDS[e.kind]||e.kind} ${kxWhen(e.d)} tickets event season fair biennale show`,{date:e.d}));
+  THESES.forEach(t=>add('thesis',t.id,t.t,`${t.t} (${t.dir==='heat'?'heating':t.dir==='cool'?'cooling':'steady'}, ${t.horizon}): ${t.thesis}`,t.evidence.map(e=>e.f).join(' ')+' '+t.risks.join(' '),`${t.t} ${t.places.join(' ')} ${t.artists.join(' ')} horizon thesis next decade long term emerging`));
+  VIEWS.forEach(v=>add('view',v,VIEW_NAMES[v]||v,`${VIEW_NAMES[v]||v}: a section of the terminal.`,'',`${VIEW_NAMES[v]||v} section view`));
   NEWS.forEach((n,i)=>add('news',i,n.h,`${fdate(n.dt)}, ${n.o}: ${n.h}. ${n.s||''}`,n.s,`${n.o} news ${kxWhen(n.dt)}`,{date:n.dt}));
   CALENDAR.forEach((c,i)=>add('cal',i,c.n,`${fspan(c.d,c.e)}: ${c.n}, ${c.city}${c.sub?` (${c.sub})`:''}`,c.sub,`${c.n} ${c.c} ${c.city} ${kxWhen(c.d)} date calendar`,{date:c.d}));
   ATLAS.forEach(a=>add('under',a.id,a.t,`${a.t}: ${a.c||''} ${a.b||''}`,`${a.b||''} ${a.v||''}`,`${a.t} ${a.kind} ${(a.st||[]).join(' ')}`));
@@ -109,6 +112,7 @@ function openRef(ref){const i=ref.indexOf(':');if(i<0)return;const k=ref.slice(0
   const land=sel=>{const el=$(sel);if(el){scrollToEl(el);if(!el.hasAttribute('tabindex'))el.tabIndex=-1;focusEl(el);}};
   switch(k){
     case 'lot':return openLot(lotById(id));case 'private':return openPrivate(+id);case 'upcoming':return openUpcoming(+id);case 'sale':return openSale(id);
+    case 'event':go('season');return openEvent(id);case 'thesis':go('horizon');return openThesis(id);case 'view':return go(id);
     case 'movement':return openMovement(id);case 'artist':return openArtist(id);case 'house':case 'org':return openOrg(id);case 'person':return openPerson(id);
     case 'collector':return openCollector(id);case 'story':return openStory(id);case 'kb':return openKB(id);case 'news':return openNews(+id);
     case 'compare':{const [kind,a,b]=id.split('~');return openCompare(kind,a,b);}
@@ -287,6 +291,8 @@ function dataAnswer(q,hits){const ql=norm(q);const L=[];const ref=(d,label)=>`[[
     L.push(`### ${f(c.hammer_usd)} hammer at ${c.house}, ${c.room} → ${c.destination}`,`A buyer pays about **${f(c.total_to_buyer_usd)}** in all, ${c.effective_rate_over_hammer} over the hammer.`,'','| Line | US$ |','|---|---|',`| Hammer | ${f(c.hammer_usd)} |`,`| Buyer’s premium | ${f(c.buyers_premium_usd)} |`,`| Taxes and duties | ${f(c.taxes_usd)} |`,`| Resale right (buyer’s share) | ${f(c.resale_right_paid_by_buyer_usd)} |`,`| Shipping | ${f(c.shipping_usd)} |`,`| **Total** | **${f(c.total_to_buyer_usd)}** |`,'',c.notes.join(' '),'','Change the room, the house or the destination in Follow the money for the full ledger.');
     return L.join('\n');}
   const cmp=typeof dataCompare==='function'?dataCompare(q):null;if(cmp)return cmp;
+  const ss=typeof dataSeason==='function'?dataSeason(q):null;if(ss)return ss;
+  const hz=typeof dataHorizon==='function'?dataHorizon(q):null;if(hz)return hz;
   const top=hits[0];
   if(!top)return `The terminal holds nothing that matches this yet. ${askDeskReach()?'The question has gone to the research desk, which reads open questions twice a week.':'The question is kept in your open questions, in this browser.'}\n\nTry a movement (*Impressionism*, *Fluxus*), an artist (*Klimt*), a house (*Sotheby’s*), a term (*irrevocable bid*) or a sale (*the November evening sales*).`;
   const wantsPrivate=/private|treaty|behind closed|off[- ]market/.test(ql);const wantsTop=/biggest|largest|most expensive|highest|top\b|record/.test(ql);

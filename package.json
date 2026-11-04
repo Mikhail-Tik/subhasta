@@ -9,7 +9,7 @@
     "lint": "node tools/lint_data.js --quiet",
     "globals": "python3 tools/globals.py --no-tables",
     "audit": "node tools/audit_runtime.js",
-    "shots": "node tools/shots.js",
+    "shots": "node tools/audit_runtime.js --shots",
     "ledger:check": "python3 tools/nga_subset.py --check",
     "check": "npm run build && npm test && npm run lint && npm run globals",
     "check:full": "npm run check && npm run audit && npm run ledger:check"
