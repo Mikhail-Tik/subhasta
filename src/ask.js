@@ -19,7 +19,7 @@ const cut=(s,n)=>{s=String(s==null?'':s).replace(/\s+/g,' ').trim();return s.len
 const askUnesc=s=>String(s).replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&amp;/g,'&');
 const privArtist=p=>String(p.work||'').split(',')[0].trim();
 const privTitle=p=>String(p.work||'').split(',').slice(1).join(',').trim();
-const KIND_NAMES={lot:'Lot',private:'Private sale',upcoming:'To come',sale:'Sale',movement:'Movement',artist:'Artist',house:'House',org:'Player',person:'Person',collector:'Collector',story:'Story',term:'Term',signal:'Signal',news:'Wire',cal:'Date',under:'Undercurrent',station:'Station',symptom:'Diagnosis',vital:'Vital sign',hub:'Hub',segment:'Segment',inst:'Institution',fair:'Fair',report:'Report',journey:'Journey',dealer:'Dealer',prov:'Ownership history',record:'Record',kb:'Learned',limit:'Limit'};
+const KIND_NAMES={compare:'Compare',lot:'Lot',private:'Private sale',upcoming:'To come',sale:'Sale',movement:'Movement',artist:'Artist',house:'House',org:'Player',person:'Person',collector:'Collector',story:'Story',term:'Term',signal:'Signal',news:'Wire',cal:'Date',under:'Undercurrent',station:'Station',symptom:'Diagnosis',vital:'Vital sign',hub:'Hub',segment:'Segment',inst:'Institution',fair:'Fair',report:'Report',journey:'Journey',dealer:'Dealer',prov:'Ownership history',record:'Record',kb:'Learned',limit:'Limit'};
 
 /* ---------- 1. the index ---------- */
 const KX={docs:[],post:new Map(),vocab:[],avg:1,built:false};
@@ -102,7 +102,7 @@ function kxSearch(q,n,kinds){kxBuild();const D=KX.docs,N=D.length;const qt=[...n
   /* at most four of a kind (six lots, three histories), so one collection does not crowd out the rest */
   const cap={lot:6,prov:3,news:3},cnt={},out=[];for(const [s,i] of res){const d=D[i];const c=cnt[d.kind]||0;if(c>=(cap[d.kind]||4))continue;cnt[d.kind]=c+1;out.push(Object.assign({score:s},d));if(out.length>=n)break;}
   return out;}
-function kxByRef(ref){kxBuild();return KX.docs.find(d=>d.ref===ref)||null;}
+function kxByRef(ref){if(/^compare:(artist|movement)~[^~]+~[^~]+$/.test(ref))return {ref,kind:'compare',id:ref.slice(8),name:'Compare'};kxBuild();return KX.docs.find(d=>d.ref===ref)||null;}
 
 /* ---------- refs: open the record a link names ---------- */
 function openRef(ref){const i=ref.indexOf(':');if(i<0)return;const k=ref.slice(0,i),id=ref.slice(i+1);
@@ -111,6 +111,7 @@ function openRef(ref){const i=ref.indexOf(':');if(i<0)return;const k=ref.slice(0
     case 'lot':return openLot(lotById(id));case 'private':return openPrivate(+id);case 'upcoming':return openUpcoming(+id);case 'sale':return openSale(id);
     case 'movement':return openMovement(id);case 'artist':return openArtist(id);case 'house':case 'org':return openOrg(id);case 'person':return openPerson(id);
     case 'collector':return openCollector(id);case 'story':return openStory(id);case 'kb':return openKB(id);case 'news':return openNews(+id);
+    case 'compare':{const [kind,a,b]=id.split('~');return openCompare(kind,a,b);}
     case 'term':{const g=GLOSSARY[+id];if(!g)return;go('lexicon');const q=$('#gq');if(q){q.value=g[0];q.dispatchEvent(new Event('input'));}return;}
     case 'signal':go('signals');return land('#sig-'+(+id));
     case 'cal':{const calS=[...CALENDAR].sort((a,b)=>a.d.localeCompare(b.d));go('signals');return land('#cal-'+calS.indexOf(CALENDAR[+id]));}
@@ -285,6 +286,7 @@ function dataAnswer(q,hits){const ql=norm(q);const L=[];const ref=(d,label)=>`[[
     const c=allInCost({hammer_usd:amt,house,room,destination:dest});const f=v=>fmtUSD(v);
     L.push(`### ${f(c.hammer_usd)} hammer at ${c.house}, ${c.room} → ${c.destination}`,`A buyer pays about **${f(c.total_to_buyer_usd)}** in all, ${c.effective_rate_over_hammer} over the hammer.`,'','| Line | US$ |','|---|---|',`| Hammer | ${f(c.hammer_usd)} |`,`| Buyer’s premium | ${f(c.buyers_premium_usd)} |`,`| Taxes and duties | ${f(c.taxes_usd)} |`,`| Resale right (buyer’s share) | ${f(c.resale_right_paid_by_buyer_usd)} |`,`| Shipping | ${f(c.shipping_usd)} |`,`| **Total** | **${f(c.total_to_buyer_usd)}** |`,'',c.notes.join(' '),'','Change the room, the house or the destination in Follow the money for the full ledger.');
     return L.join('\n');}
+  const cmp=typeof dataCompare==='function'?dataCompare(q):null;if(cmp)return cmp;
   const top=hits[0];
   if(!top)return `The terminal holds nothing that matches this yet. ${askDeskReach()?'The question has gone to the research desk, which reads open questions twice a week.':'The question is kept in your open questions, in this browser.'}\n\nTry a movement (*Impressionism*, *Fluxus*), an artist (*Klimt*), a house (*Sotheby’s*), a term (*irrevocable bid*) or a sale (*the November evening sales*).`;
   const wantsPrivate=/private|treaty|behind closed|off[- ]market/.test(ql);const wantsTop=/biggest|largest|most expensive|highest|top\b|record/.test(ql);

@@ -34,7 +34,35 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
    assert(W.cityKey('Saadiyat Island, Abu Dhabi')==='Abu Dhabi'&&W.cityKey('Milan and Venice')==='Milan'&&W.cityKey('Online')===null,'city strings resolve to a place');
    assert(W.cityInText('Christie’s London sells the Lewis collection')==='London'&&W.cityInText('A report on guarantees')===null,'a headline names its city');
    assert(W.t2y(W.y2t(1874))===1874&&W.t2y(0)===-43000&&W.t2y(1)>=2026,'the rail maps years both ways');
-   W.mode('now');w.__S.go('floor');}
+   /* v23: the readings, the folded masthead, the trail */
+   W.mode('now');assert(W.readings().length>=3&&W.readings().every(r=>r.pill&&r.h&&r.why),`the readings are computed (${W.readings().map(r=>r.pill).join('; ')})`);
+   assert(qa('#v-world .wd-rd').length>=3,'three readings sit under the modes');W.openReadings('all');assert(/What the season says/.test(q('#v-world .wd-ch').textContent)&&qa('#v-world .wd-rdg').length===W.readings().length,'the readings card explains each');
+   assert(d.body.classList.contains('on-world'),'the World folds the masthead');
+   q('#v-world .wd-list').click();qa('#v-world .wd-card .wd-ev').find(b=>b.dataset.wcity==='London').click();W.mode('notes');q('#v-world .wd-list').click();
+   assert(w.__LIB.trail().some(x=>x.k==='city'&&x.id==='London')&&qa('#v-world .wd-card .wd-ev.trail').length>=1,'the trail remembers the city opened and the Notes card lists it');
+   W.mode('now');w.__S.go('floor');assert(!d.body.classList.contains('on-world'),'leaving the World unfolds the masthead');}
+  /* v23: the Library and the viewer */
+  {w.__S.go('library');const L=w.__LIB;assert(q('#v-library').classList.contains('on')&&qa('#libwall .lw').length>=200,`the Library walls every picture (${qa('#libwall .lw').length})`);
+   assert(/paintings/.test(q('#v-library h1').textContent)&&qa('#librail .lc').length>=8,'the Library’s lead and century rail');
+   assert(L.year({y:'c. 1440–45'})===1440&&L.year({y:'5th–8th century'})===450&&L.year({y:'1907–08'})===1907&&L.year({y:'c. 1290–1300'})===1290,'years are read out of the registry’s dates');
+   assert(L.city({c:'Uffizi, Florence'})==='Florence'&&L.city({c:'Sistine Chapel, Vatican'})==='Rome'&&L.city({c:'Kunstmuseum Basel'})==='Basel'&&L.city({c:'Private collection; sold Sotheby’s London 2023'})===null,'collections resolve to cities');
+   assert(L.moves({a:'Claude Monet'}).includes('impressionism'),'a picture knows its movement');
+   const ids=L.filter();assert(ids.length===Object.keys(G('IMG')).length,'no filter shows everything');L.set('era','ren');assert(L.filter().length>10&&L.filter().every(id=>{const y=L.year(G('IMG')[id]);return y>=1400&&y<1600;}),'the era filter keeps 1400–1600');L.set('era','all');
+   L.set('mv','impressionism');assert(L.filter().length>=8&&L.filter().every(id=>L.moves(G('IMG')[id]).includes('impressionism')),'the movement filter keeps the Impressionists');L.set('mv','all');
+   const ordered=L.filter().map(id=>L.year(G('IMG')[id])??99999);assert(ordered.every((y,i)=>i===0||y>=ordered[i-1]),'the wall runs in the order the pictures were painted');
+   qa('#libwall .lw')[3].click();assert(q('#lightbox').classList.contains('on')&&q('#lvImg')&&/\d+ \/ \d+/.test(q('.lv-n').textContent)&&q('.lv-cap b'),'a picture opens the viewer with its place in the list');
+   const first=q('#lvImg').getAttribute('src');q('.lv-next').click();assert(q('#lightbox').classList.contains('on')&&q('#lvImg').getAttribute('src')!==first,'Next moves to the next picture');
+   assert(q('[data-world]')&&/The world in/.test(q('[data-world]').textContent),'the viewer offers the world of its year');
+   d.dispatchEvent(new w.KeyboardEvent('keydown',{key:'Escape',bubbles:true}));assert(!q('#lightbox').classList.contains('on'),'Escape closes the viewer');
+   assert(w.__LIB.trail().some(x=>x.k==='picture'),'the trail remembers the picture');
+   w.location.hash='#library-cubism';w.dispatchEvent(new w.Event('hashchange'));assert(q('#v-library').classList.contains('on')&&w.__LIB.state().mv==='cubism'&&q('#libmv').value==='cubism','#library-<movement> opens the Library on that movement');L.set('mv','all');}
+  /* v23: Compare */
+  {const C=w.__CMP;C.open('artist','Claude Monet','Pablo Picasso');assert(q('#v-compare').classList.contains('on')&&/Claude Monet/.test(q('#cmpA').value)&&/Pablo Picasso/.test(q('#cmpB').value),'Compare opens with two painters');
+   const rows=qa('#v-compare .cmptab tbody tr');assert(rows.length>=10&&qa('#v-compare .cmptab td.lead').length>=4,`the measures are tabled and the larger marked (${rows.length} rows)`);
+   assert(/leads on/.test(q('#v-compare .cmpread .read').textContent)&&q('#v-compare .cmpbars'),'a reading and the bars by year');
+   C.open('movement','impressionism','cubism');assert(/Impressionism/.test(q('#cmpA').value)&&/Cubism/.test(q('#cmpB').value)&&/Painters named/.test(q('#v-compare .cmptab').textContent),'two movements compare on their own measures');
+   const da=w.__S.dataAnswer('Compare Monet and Picasso',w.__S.kxSearch('Compare Monet and Picasso',14));assert(/side by side/.test(da)&&/\| Lots in the terminal \|/.test(da)&&/\[\[compare:artist~Claude Monet~Pablo Picasso\|/.test(da),'Ask compares two painters from the same measures');
+   log.push(`v23: ${qa('#libwall .lw').length} pictures on the wall; compare rows ${rows.length}; readings ${w.__WORLD.readings().length}`);w.__S.go('floor');}
   assert(qa('#v-floor .status .chip').some(c=>c.textContent.includes(G('MARKET.verified'))),'Today’s chips carry MARKET.verified');
   assert(q('#v-floor .srlead h3').textContent===G('HERO.h'),'the sale room’s lead is HERO.h');
   const views=['floor','ask','movements','pulse','atlas','houses','people','hammer','ledger','salon','undertow','desk','lexicon'];

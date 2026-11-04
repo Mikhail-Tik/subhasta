@@ -169,8 +169,8 @@ const active = () => page => page.evaluate(() => { const a = document.activeElem
       await page.focus('#world .hub[tabindex]'); await page.keyboard.press('Space'); await page.waitForTimeout(200);
       if (!(await state(page, 'hub')).drawerOn) problems.push('Space on a map hub does not open the drawer');
       await page.keyboard.press('Escape'); await page.waitForTimeout(150);
-      await page.keyboard.press('6'); await page.waitForTimeout(150); if ((await state(page, 'view')).view !== 'v-pulse') problems.push('key 6 does not switch to the Pulse');
-      await page.keyboard.press('5'); await page.waitForTimeout(150); if ((await state(page, 'view')).view !== 'v-hammer') problems.push('key 5 does not switch to the Hammer');
+      await page.keyboard.press('7'); await page.waitForTimeout(150); if ((await state(page, 'view')).view !== 'v-pulse') problems.push('key 7 does not switch to the Pulse');
+      await page.keyboard.press('6'); await page.waitForTimeout(150); if ((await state(page, 'view')).view !== 'v-hammer') problems.push('key 6 does not switch to the Hammer');
       await page.focus('#rq'); await page.keyboard.press('3'); await page.waitForTimeout(150);
       if ((await state(page, 'view')).view !== 'v-hammer') problems.push('digit typed in an input switched the section');
       await page.keyboard.press('Control+k'); await page.waitForTimeout(150); a = await act(page);
@@ -251,7 +251,7 @@ const active = () => page => page.evaluate(() => { const a = document.activeElem
       const problems = [];
       await page.goto('about:blank'); await page.goto(FILE + '#reel-5', { waitUntil: 'load' }); await page.waitForTimeout(500);
       await page.click('#reelClose'); await page.waitForTimeout(300); let s = await S(); if (s.hash !== '#world' || s.len !== 2) problems.push(`closing a landed Reel: ${s.hash}, ${s.len} entries`);
-      await page.click('#nav button[data-v="hammer"]'); await page.waitForTimeout(200); await page.evaluate(() => document.querySelector('#nav button[data-v="reel"]').click()); await page.waitForTimeout(300); await page.goBack(); await page.waitForTimeout(400);
+      await page.evaluate(() => document.querySelector('#nav button[data-v="hammer"]').click()); await page.waitForTimeout(200); await page.evaluate(() => document.querySelector('#nav button[data-v="reel"]').click());   /* on the World the masthead is folded (v23): the section is reached through the menu, so the click is scripted */ await page.waitForTimeout(300); await page.goBack(); await page.waitForTimeout(400);
       s = await S(); if (s.hash !== '#hammer' || s.reel || s.view !== 'v-hammer') problems.push(`Back over the Reel: ${s.hash}, reel ${s.reel}, ${s.view}`);
       await page.click('#rtbl tbody tr[data-lot]'); await page.waitForTimeout(300); await page.evaluate(() => document.querySelector('#nav button[data-v="reel"]').click()); await page.waitForTimeout(300); await page.click('#reelClose'); await page.waitForTimeout(400);
       const bk = await page.evaluate(() => { const b = document.querySelector('#v-detail.on .dtools .back'); return b ? { t: b.textContent, go: b.dataset.go || null } : null; });

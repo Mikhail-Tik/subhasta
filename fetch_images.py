@@ -2,7 +2,8 @@
 # fetch_images.py — download the public-domain pictures listed in images_manifest.py into data/raw_img, write the
 # page-size JPEG (max 1600 px) to build/img/<id>.jpg and the thumbnail (max 480 px) to build/img/t/<id>.jpg, and
 # merge each picture's record (artist, title, year, collection, size, focal point, average colour, source repo)
-# into data/images_meta.json. Needs Pillow and network access to raw.githubusercontent.com.
+# into data/images_meta.json. Needs Pillow and network access to raw.githubusercontent.com (a file already in
+# data/raw_img/<id>.bin is not fetched again). With ids as arguments, only those pictures are processed.
 import os, sys, json, subprocess, concurrent.futures as cf
 from PIL import Image, ImageOps, ImageStat
 ROOT = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, ROOT)
@@ -28,9 +29,13 @@ def fetch(e):
     th.save(f'{THUMB}/{id_}.jpg', 'JPEG', quality=78, optimize=True)
     small = im.resize((32, 32)); st = ImageStat.Stat(small); avg = tuple(int(x) for x in st.mean[:3])
     # dominant-ish: median of darker pixels for a background tone
-    return (id_, 'ok', big.size, os.path.getsize(f'{OUT}/{id_}.jpg'), '#%02x%02x%02x' % avg)
+    return (id_, 'ok', big.size, os.path.getsize(f'{OUT}/{id_}.jpg'), '#%02x%02x%02x' % avg, (w, h))
+# `python3 fetch_images.py id id …` processes only those pictures (a new batch); the rest keep their files and records.
+only = set(sys.argv[1:]); todo = [e for e in IMAGES if not only or e[0] in only]
+unknown = only - {e[0] for e in IMAGES}
+if unknown: sys.exit(f'not in images_manifest.py: {sorted(unknown)}')
 with cf.ThreadPoolExecutor(8) as ex:
-    res = list(ex.map(fetch, IMAGES))
+    res = list(ex.map(fetch, todo))
 ok = [r for r in res if r[1] == 'ok']; bad = [r for r in res if r[1] != 'ok']
 print('ok', len(ok), 'bad', len(bad)); print(bad)
 # Merge into the existing registry: an entry that fails to fetch keeps its previous record (the JPEGs are already in
@@ -44,7 +49,7 @@ if missing:
     sys.exit(f'images_manifest.py no longer lists {missing}, which are in data/images_meta.json; remove them from the data (tools/lint_data.js shows the references) before deleting them from the registry')
 for r in ok:
     e = next(x for x in IMAGES if x[0] == r[0])
-    meta[r[0]] = {'a': e[1], 't': e[2], 'y': e[3], 'c': e[4], 'w': r[2][0], 'h': r[2][1], 'fp': e[6], 'avg': r[4], 'src': e[5].split('/')[3] + '/' + e[5].split('/')[4]}
+    meta[r[0]] = {'a': e[1], 't': e[2], 'y': e[3], 'c': e[4], 'w': r[2][0], 'h': r[2][1], 'fp': e[6], 'avg': r[4], 'src': e[5].split('/')[3] + '/' + e[5].split('/')[4], 'u': e[5], 'ow': r[5][0], 'oh': r[5][1]}   # u, ow, oh: the source file and its size, for the viewer's 'original' link
 for r in bad:
     if r[0] not in meta:
         print('new image not fetched and not in the registry:', r)

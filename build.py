@@ -24,10 +24,10 @@ The page is src/page.html with every placeholder comment replaced by the text of
   /*__DATA_LIVE__*/      src/data_live.js          (v22: the live layer's baked copy — the Read, the sale room, the desk's status — and KB)
   /*__NGA__*/[]          data/nga_subset.json       (the Ledger's 771 provenance records)
   /*__APP__*/            src/app.js, with /*__UNDER__*/ /*__PULSE__*/ /*__ATLAS__*/ /*__CLINIC__*/ /*__GLOBE__*/ /*__CIRCLE__*/
-                         /*__LAB__*/ /*__LABPROV__*/ /*__LABHANDS__*/ /*__TODAY__*/ /*__MOVE__*/ /*__ASK__*/ /*__WORLD__*/ replaced by src/under.js,
+                         /*__LAB__*/ /*__LABPROV__*/ /*__LABHANDS__*/ /*__TODAY__*/ /*__MOVE__*/ /*__ASK__*/ /*__WORLD__*/ /*__LIBRARY__*/ /*__COMPARE__*/ replaced by src/under.js,
                          src/pulse.js, src/atlas.js, src/clinic.js, src/globe.js, src/circle.js, src/lab.js, src/lab_prov.js,
                          src/lab_hands.js, src/today.js, src/move.js, src/ask.js;
-                         style.css is followed by globe.css, circle.css, lab.css, ask.css and world.css
+                         style.css is followed by globe.css, circle.css, lab.css, ask.css, world.css and library.css
   /*__REEL__*/           src/reel.js
 and the count tokens ${ALLCOUNT} ${PEOPLECOUNT} ${LOTCOUNT} ${NGACOUNT} ${UNDERCOUNT} ${HUBCOUNT} ${SEGCOUNT} ${INSTCOUNT} ${MOVECOUNT}
 (colophon and the Reel's closing card) replaced by the sizes of the collections. The counts come from evaluating
@@ -45,7 +45,7 @@ read = lambda p: p.read_text(encoding='utf-8')
 
 DATA_ORDER = ['data_houses', 'data_market', 'data_more', 'data_people', 'data_reel', 'data_under', 'data_pulse', 'data_atlas', 'data_world', 'data_flows', 'data_globe', 'data_circle', 'data_bench', 'data_movements', 'data_live', 'data_places']
 page = read(src / 'page.html')
-css = read(src / 'style.css') + '\n' + read(src / 'globe.css') + '\n' + read(src / 'circle.css') + '\n' + read(src / 'lab.css') + '\n' + read(src / 'ask.css') + '\n' + read(src / 'world.css')
+css = read(src / 'style.css') + '\n' + read(src / 'globe.css') + '\n' + read(src / 'circle.css') + '\n' + read(src / 'lab.css') + '\n' + read(src / 'ask.css') + '\n' + read(src / 'world.css') + '\n' + read(src / 'library.css')
 data = {n: read(src / f'{n}.js') for n in DATA_ORDER}
 imeta = json.load(open(root / 'data' / 'images_meta.json', encoding='utf-8'))
 imeta_js = json.dumps(imeta, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
@@ -54,7 +54,7 @@ data['data_reel'] = data['data_reel'].replace('/*__IMGMETA__*/{}', imeta_js)
 nga = json.load(open(root / 'data' / 'nga_subset.json', encoding='utf-8'))
 nga_js = json.dumps(nga, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
 app = read(src / 'app.js')
-for ph, f in (('/*__UNDER__*/', 'under.js'), ('/*__PULSE__*/', 'pulse.js'), ('/*__ATLAS__*/', 'atlas.js'), ('/*__CLINIC__*/', 'clinic.js'), ('/*__GLOBE__*/', 'globe.js'), ('/*__CIRCLE__*/', 'circle.js'), ('/*__LAB__*/', 'lab.js'), ('/*__LABPROV__*/', 'lab_prov.js'), ('/*__LABHANDS__*/', 'lab_hands.js'), ('/*__TODAY__*/', 'today.js'), ('/*__MOVE__*/', 'move.js'), ('/*__ASK__*/', 'ask.js'), ('/*__WORLD__*/', 'world.js')):
+for ph, f in (('/*__UNDER__*/', 'under.js'), ('/*__PULSE__*/', 'pulse.js'), ('/*__ATLAS__*/', 'atlas.js'), ('/*__CLINIC__*/', 'clinic.js'), ('/*__GLOBE__*/', 'globe.js'), ('/*__CIRCLE__*/', 'circle.js'), ('/*__LAB__*/', 'lab.js'), ('/*__LABPROV__*/', 'lab_prov.js'), ('/*__LABHANDS__*/', 'lab_hands.js'), ('/*__TODAY__*/', 'today.js'), ('/*__MOVE__*/', 'move.js'), ('/*__ASK__*/', 'ask.js'), ('/*__WORLD__*/', 'world.js'), ('/*__LIBRARY__*/', 'library.js'), ('/*__COMPARE__*/', 'compare.js')):
     assert app.count(ph) == 1, f'app.js must carry exactly one {ph}'
     app = app.replace(ph, read(src / f))
 reel = read(src / 'reel.js')

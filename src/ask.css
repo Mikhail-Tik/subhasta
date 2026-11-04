@@ -25,8 +25,8 @@ body.is-owner .owner-only{display:block!important}
   .navmore button{font-size:15px;padding:7px 10px}
   body.is-owner .navmore .owner-only{display:inline-block!important}
 }
-body.navtight .nav .morebtn{display:none}
-body.navtight .navmore,body.navtight .navmore.on{display:flex;position:static;flex-direction:row;flex-wrap:wrap;gap:2px;width:100%;box-shadow:none;border:0;border-top:1px solid var(--rule);margin-top:6px;padding:6px 0 0;background:transparent}
+body.navtight .nav .morebtn,body.on-world .nav .morebtn{display:none}
+body.navtight .navmore,body.navtight .navmore.on,body.on-world .navmore,body.on-world .navmore.on{display:flex;position:static;flex-direction:row;flex-wrap:wrap;gap:2px;width:100%;box-shadow:none;border:0;border-top:1px solid var(--rule);margin-top:6px;padding:6px 0 0;background:transparent}
 .pal .ri.ask .k{color:var(--gilt)}
 .pal .ri.ask .n{font-family:var(--read);font-style:italic}
 .colophon .credit{display:block;margin-top:10px;color:var(--ink2)}

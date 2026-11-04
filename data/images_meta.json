@@ -8,7 +8,8 @@
 "h": 1599,
 "fp": "50% 30%",
 "avg": "#8c7550",
-"src": "foreverdesmond/world-famous-paintings-puzzle-game"
+"src": "foreverdesmond/world-famous-paintings-puzzle-game",
+"u": "https://raw.githubusercontent.com/foreverdesmond/world-famous-paintings-puzzle-game/main/assets/paintings/portrait-of-adele-bloch-bauer-i__gustav-klimt.jpg"
 },
 "klimt-fan": {
 "a": "Gustav Klimt",
@@ -19,7 +20,8 @@
 "h": 956,
 "fp": "50% 40%",
 "avg": "#a78d64",
-"src": "kylabuildsthings-oss/gallery-of-pieces"
+"src": "kylabuildsthings-oss/gallery-of-pieces",
+"u": "https://raw.githubusercontent.com/kylabuildsthings-oss/gallery-of-pieces/main/assets/original/lady-with-fan.jpg"
 },
 "klimt-kiss": {
 "a": "Gustav Klimt",
@@ -30,7 +32,8 @@
 "h": 1284,
 "fp": "50% 35%",
 "avg": "#94844c",
-"src": "misha260/appmobile"
+"src": "misha260/appmobile",
+"u": "https://raw.githubusercontent.com/misha260/appmobile/claude/bold-cori-o6j3pn/assets/the-kiss.jpg"
 },
 "vg-almond": {
 "a": "Vincent van Gogh",
@@ -41,7 +44,8 @@
 "h": 1011,
 "fp": "50% 50%",
 "avg": "#7ea19c",
-"src": "mvartuc/van-gogh-website"
+"src": "mvartuc/van-gogh-website",
+"u": "https://raw.githubusercontent.com/mvartuc/van-gogh-website/main/images/almond-blossoms.jpg"
 },
 "vg-wheat-cypress": {
 "a": "Vincent van Gogh",
@@ -52,7 +56,8 @@
 "h": 950,
 "fp": "50% 50%",
 "avg": "#90987e",
-"src": "gordicaleksa/pytorch-neural-style-transfer"
+"src": "gordicaleksa/pytorch-neural-style-transfer",
+"u": "https://raw.githubusercontent.com/gordicaleksa/pytorch-neural-style-transfer/master/data/style-images/vg_wheat_field.jpg"
 },
 "vg-crows": {
 "a": "Vincent van Gogh",
@@ -63,7 +68,8 @@
 "h": 761,
 "fp": "50% 50%",
 "avg": "#6a6b4c",
-"src": "mvartuc/van-gogh-website"
+"src": "mvartuc/van-gogh-website",
+"u": "https://raw.githubusercontent.com/mvartuc/van-gogh-website/main/images/wheatfield-with-crows.jpg"
 },
 "vg-irises": {
 "a": "Vincent van Gogh",
@@ -74,7 +80,8 @@
 "h": 988,
 "fp": "50% 50%",
 "avg": "#6d7a70",
-"src": "mvartuc/van-gogh-website"
+"src": "mvartuc/van-gogh-website",
+"u": "https://raw.githubusercontent.com/mvartuc/van-gogh-website/main/images/irises.jpg"
 },
 "vg-roulin": {
 "a": "Vincent van Gogh",
@@ -85,7 +92,8 @@
 "h": 1024,
 "fp": "50% 35%",
 "avg": "#565a4a",
-"src": "mvartuc/van-gogh-website"
+"src": "mvartuc/van-gogh-website",
+"u": "https://raw.githubusercontent.com/mvartuc/van-gogh-website/main/images/portrait-of-the-postman-joseph-roulin.jpg"
 },
 "vg-cafe": {
 "a": "Vincent van Gogh",
@@ -96,7 +104,8 @@
 "h": 1023,
 "fp": "50% 45%",
 "avg": "#7a7356",
-"src": "mvartuc/van-gogh-website"
+"src": "mvartuc/van-gogh-website",
+"u": "https://raw.githubusercontent.com/mvartuc/van-gogh-website/main/images/cafe-terrace-at-night.jpg"
 },
 "vg-starry": {
 "a": "Vincent van Gogh",
@@ -107,7 +116,8 @@
 "h": 1014,
 "fp": "50% 40%",
 "avg": "#4c5c6e",
-"src": "jcjohnson/neural-style"
+"src": "jcjohnson/neural-style",
+"u": "https://raw.githubusercontent.com/jcjohnson/neural-style/master/examples/inputs/starry_night_google.jpg"
 },
 "vg-self": {
 "a": "Vincent van Gogh",
@@ -118,7 +128,8 @@
 "h": 978,
 "fp": "50% 30%",
 "avg": "#b79261",
-"src": "gordicaleksa/pytorch-neural-style-transfer"
+"src": "gordicaleksa/pytorch-neural-style-transfer",
+"u": "https://raw.githubusercontent.com/gordicaleksa/pytorch-neural-style-transfer/master/data/style-images/vg_self.jpg"
 },
 "vg-sunflowers": {
 "a": "Vincent van Gogh",
@@ -129,7 +140,8 @@
 "h": 1023,
 "fp": "50% 45%",
 "avg": "#b69c4b",
-"src": "mvartuc/van-gogh-website"
+"src": "mvartuc/van-gogh-website",
+"u": "https://raw.githubusercontent.com/mvartuc/van-gogh-website/main/images/sunflowers.jpg"
 },
 "vg-bedroom": {
 "a": "Vincent van Gogh",
@@ -140,7 +152,8 @@
 "h": 1016,
 "fp": "50% 50%",
 "avg": "#8c7d4b",
-"src": "mvartuc/van-gogh-website"
+"src": "mvartuc/van-gogh-website",
+"u": "https://raw.githubusercontent.com/mvartuc/van-gogh-website/main/images/bedroom-in-arles.jpg"
 },
 "vg-reaper": {
 "a": "Vincent van Gogh",
@@ -151,7 +164,8 @@
 "h": 1012,
 "fp": "50% 50%",
 "avg": "#b0a868",
-"src": "mvartuc/van-gogh-website"
+"src": "mvartuc/van-gogh-website",
+"u": "https://raw.githubusercontent.com/mvartuc/van-gogh-website/main/images/wheatfield-with-a-reaper.jpg"
 },
 "monet-lilies-1906": {
 "a": "Claude Monet",
@@ -162,7 +176,8 @@
 "h": 1153,
 "fp": "50% 50%",
 "avg": "#50717d",
-"src": "gecapistrano/museum-engine"
+"src": "gecapistrano/museum-engine",
+"u": "https://raw.githubusercontent.com/gecapistrano/museum-engine/main/public/artworks/main/claude-monet-water-lilies.jpg"
 },
 "monet-lilies-1919": {
 "a": "Claude Monet",
@@ -173,7 +188,8 @@
 "h": 1052,
 "fp": "50% 50%",
 "avg": "#6a7376",
-"src": "titu1994/Neural-Style-Transfer"
+"src": "titu1994/Neural-Style-Transfer",
+"u": "https://raw.githubusercontent.com/titu1994/Neural-Style-Transfer/master/images/inputs/style/water-lilies-1919-2.jpg"
 },
 "monet-parasol": {
 "a": "Claude Monet",
@@ -184,7 +200,8 @@
 "h": 1600,
 "fp": "50% 35%",
 "avg": "#829491",
-"src": "molivair/outpaintings"
+"src": "molivair/outpaintings",
+"u": "https://raw.githubusercontent.com/molivair/outpaintings/main/blueprints/woman-with-a-parasol.jpg"
 },
 "monet-sunrise": {
 "a": "Claude Monet",
@@ -195,7 +212,8 @@
 "h": 1086,
 "fp": "50% 50%",
 "avg": "#6e7062",
-"src": "misha260/appmobile"
+"src": "misha260/appmobile",
+"u": "https://raw.githubusercontent.com/misha260/appmobile/claude/bold-cori-o6j3pn/assets/impression-sunrise.jpg"
 },
 "monet-sangiorgio": {
 "a": "Claude Monet",
@@ -206,7 +224,8 @@
 "h": 1134,
 "fp": "50% 50%",
 "avg": "#9e8360",
-"src": "foreverdesmond/world-famous-paintings-puzzle-game"
+"src": "foreverdesmond/world-famous-paintings-puzzle-game",
+"u": "https://raw.githubusercontent.com/foreverdesmond/world-famous-paintings-puzzle-game/main/assets/paintings/san-giorgio-maggiore-at-dusk__claude-monet.jpg"
 },
 "cez-cards": {
 "a": "Paul Cézanne",
@@ -217,7 +236,8 @@
 "h": 1312,
 "fp": "50% 45%",
 "avg": "#513b24",
-"src": "nakitamray/placard"
+"src": "nakitamray/placard",
+"u": "https://raw.githubusercontent.com/nakitamray/placard/main/data/artworks/cezanne-card-players/source.jpg"
 },
 "cez-apples": {
 "a": "Paul Cézanne",
@@ -228,7 +248,8 @@
 "h": 1258,
 "fp": "50% 50%",
 "avg": "#7c6c60",
-"src": "nakitamray/placard"
+"src": "nakitamray/placard",
+"u": "https://raw.githubusercontent.com/nakitamray/placard/main/data/artworks/cezanne-apples-oranges/source.jpg"
 },
 "cez-marne": {
 "a": "Paul Cézanne",
@@ -239,7 +260,8 @@
 "h": 825,
 "fp": "50% 50%",
 "avg": "#556e56",
-"src": "optimaondemand/art-history-and-criticism"
+"src": "optimaondemand/art-history-and-criticism",
+"u": "https://raw.githubusercontent.com/optimaondemand/art-history-and-criticism/main/images/cezanne-banks-marne.jpg"
 },
 "cez-madame": {
 "a": "Paul Cézanne",
@@ -250,7 +272,8 @@
 "h": 1600,
 "fp": "50% 30%",
 "avg": "#655f4b",
-"src": "molivair/outpaintings"
+"src": "molivair/outpaintings",
+"u": "https://raw.githubusercontent.com/molivair/outpaintings/main/blueprints/madame-cezanne-in-the-conservatory.jpg"
 },
 "seurat-jatte": {
 "a": "Georges Seurat",
@@ -261,7 +284,8 @@
 "h": 932,
 "fp": "50% 50%",
 "avg": "#767869",
-"src": "misha260/appmobile"
+"src": "misha260/appmobile",
+"u": "https://raw.githubusercontent.com/misha260/appmobile/claude/bold-cori-o6j3pn/assets/grande-jatte.jpg"
 },
 "seurat-bathers": {
 "a": "Georges Seurat",
@@ -272,7 +296,8 @@
 "h": 996,
 "fp": "50% 50%",
 "avg": "#777163",
-"src": "foreverdesmond/world-famous-paintings-puzzle-game"
+"src": "foreverdesmond/world-famous-paintings-puzzle-game",
+"u": "https://raw.githubusercontent.com/foreverdesmond/world-famous-paintings-puzzle-game/main/assets/paintings/bathers-at-asnieres__georges-seurat.jpg"
 },
 "gauguin-tahiti": {
 "a": "Paul Gauguin",
@@ -283,7 +308,8 @@
 "h": 687,
 "fp": "50% 40%",
 "avg": "#8a7f55",
-"src": "gordicaleksa/pytorch-neural-style-transfer"
+"src": "gordicaleksa/pytorch-neural-style-transfer",
+"u": "https://raw.githubusercontent.com/gordicaleksa/pytorch-neural-style-transfer/master/data/style-images/tahiti_guaguin.jpg"
 },
 "gauguin-arearea": {
 "a": "Paul Gauguin",
@@ -294,7 +320,8 @@
 "h": 868,
 "fp": "50% 50%",
 "avg": "#7b5b39",
-"src": "EndyWon/AesUST"
+"src": "EndyWon/AesUST",
+"u": "https://raw.githubusercontent.com/EndyWon/AesUST/main/inputs/style/2.jpg"
 },
 "gauguin-siesta": {
 "a": "Paul Gauguin",
@@ -305,7 +332,8 @@
 "h": 1226,
 "fp": "50% 50%",
 "avg": "#8e7754",
-"src": "molivair/outpaintings"
+"src": "molivair/outpaintings",
+"u": "https://raw.githubusercontent.com/molivair/outpaintings/main/blueprints/the-siesta.jpg"
 },
 "munch-scream": {
 "a": "Edvard Munch",
@@ -316,7 +344,8 @@
 "h": 1400,
 "fp": "50% 40%",
 "avg": "#7b5f4f",
-"src": "misha260/appmobile"
+"src": "misha260/appmobile",
+"u": "https://raw.githubusercontent.com/misha260/appmobile/claude/bold-cori-o6j3pn/assets/the-scream.jpg"
 },
 "pic-saltimbanques": {
 "a": "Pablo Picasso",
@@ -327,7 +356,8 @@
 "h": 896,
 "fp": "50% 45%",
 "avg": "#8e837d",
-"src": "kylabuildsthings-oss/gallery-of-pieces"
+"src": "kylabuildsthings-oss/gallery-of-pieces",
+"u": "https://raw.githubusercontent.com/kylabuildsthings-oss/gallery-of-pieces/main/assets/original/family-saltimbanques.jpg"
 },
 "pic-stein": {
 "a": "Pablo Picasso",
@@ -338,7 +368,8 @@
 "h": 1600,
 "fp": "50% 30%",
 "avg": "#4b3e36",
-"src": "kylabuildsthings-oss/gallery-of-pieces"
+"src": "kylabuildsthings-oss/gallery-of-pieces",
+"u": "https://raw.githubusercontent.com/kylabuildsthings-oss/gallery-of-pieces/main/assets/original/gertrude-stein.jpg"
 },
 "pic-lavie": {
 "a": "Pablo Picasso",
@@ -349,7 +380,8 @@
 "h": 1474,
 "fp": "50% 40%",
 "avg": "#2d565c",
-"src": "kylabuildsthings-oss/gallery-of-pieces"
+"src": "kylabuildsthings-oss/gallery-of-pieces",
+"u": "https://raw.githubusercontent.com/kylabuildsthings-oss/gallery-of-pieces/main/assets/original/la-vie.jpg"
 },
 "pic-guitarist": {
 "a": "Pablo Picasso",
@@ -360,7 +392,8 @@
 "h": 1192,
 "fp": "50% 40%",
 "avg": "#304549",
-"src": "kylabuildsthings-oss/gallery-of-pieces"
+"src": "kylabuildsthings-oss/gallery-of-pieces",
+"u": "https://raw.githubusercontent.com/kylabuildsthings-oss/gallery-of-pieces/main/assets/original/old-guitarist.jpg"
 },
 "pic-seated": {
 "a": "Pablo Picasso",
@@ -371,7 +404,8 @@
 "h": 1536,
 "fp": "50% 40%",
 "avg": "#354344",
-"src": "xunhuang1995/AdaIN-style"
+"src": "xunhuang1995/AdaIN-style",
+"u": "https://raw.githubusercontent.com/xunhuang1995/AdaIN-style/master/input/style/picasso_seated_nude_hr.jpg"
 },
 "renoir-galette": {
 "a": "Pierre-Auguste Renoir",
@@ -382,7 +416,8 @@
 "h": 1041,
 "fp": "50% 45%",
 "avg": "#4c5449",
-"src": "misha260/appmobile"
+"src": "misha260/appmobile",
+"u": "https://raw.githubusercontent.com/misha260/appmobile/claude/bold-cori-o6j3pn/assets/moulin-galette.jpg"
 },
 "renoir-boating": {
 "a": "Pierre-Auguste Renoir",
@@ -393,7 +428,8 @@
 "h": 1185,
 "fp": "50% 45%",
 "avg": "#8c7c76",
-"src": "foreverdesmond/world-famous-paintings-puzzle-game"
+"src": "foreverdesmond/world-famous-paintings-puzzle-game",
+"u": "https://raw.githubusercontent.com/foreverdesmond/world-famous-paintings-puzzle-game/main/assets/paintings/luncheon-of-the-boating-party__pierre-auguste-renoir.jpg"
 },
 "degas-etoile": {
 "a": "Edgar Degas",
@@ -404,7 +440,8 @@
 "h": 1239,
 "fp": "50% 45%",
 "avg": "#878169",
-"src": "nakitamray/placard"
+"src": "nakitamray/placard",
+"u": "https://raw.githubusercontent.com/nakitamray/placard/main/data/artworks/degas-letoile/source.jpg"
 },
 "degas-class": {
 "a": "Edgar Degas",
@@ -415,7 +452,8 @@
 "h": 1600,
 "fp": "50% 45%",
 "avg": "#73684a",
-"src": "nakitamray/placard"
+"src": "nakitamray/placard",
+"u": "https://raw.githubusercontent.com/nakitamray/placard/main/data/artworks/degas-dance-class/source.jpg"
 },
 "caillebotte-rain": {
 "a": "Gustave Caillebotte",
@@ -426,7 +464,8 @@
 "h": 932,
 "fp": "50% 45%",
 "avg": "#797a79",
-"src": "gecapistrano/museum-engine"
+"src": "gecapistrano/museum-engine",
+"u": "https://raw.githubusercontent.com/gecapistrano/museum-engine/main/public/artworks/main/gustave-caillebotte-paris-street-rainy-day.jpg"
 },
 "caillebotte-floor": {
 "a": "Gustave Caillebotte",
@@ -437,7 +476,8 @@
 "h": 1124,
 "fp": "50% 50%",
 "avg": "#5c5442",
-"src": "nakitamray/placard"
+"src": "nakitamray/placard",
+"u": "https://raw.githubusercontent.com/nakitamray/placard/main/data/artworks/caillebotte-floor-scrapers/source.jpg"
 },
 "manet-bar": {
 "a": "Édouard Manet",
@@ -448,7 +488,8 @@
 "h": 1195,
 "fp": "50% 40%",
 "avg": "#63615c",
-"src": "foreverdesmond/world-famous-paintings-puzzle-game"
+"src": "foreverdesmond/world-famous-paintings-puzzle-game",
+"u": "https://raw.githubusercontent.com/foreverdesmond/world-famous-paintings-puzzle-game/main/assets/paintings/a-bar-at-the-folies-bergere__edouard-manet.jpg"
 },
 "cassatt-bath": {
 "a": "Mary Cassatt",
@@ -459,7 +500,8 @@
 "h": 1600,
 "fp": "50% 40%",
 "avg": "#706b6d",
-"src": "gecapistrano/museum-engine"
+"src": "gecapistrano/museum-engine",
+"u": "https://raw.githubusercontent.com/gecapistrano/museum-engine/main/public/artworks/main/mary-cassatt-the-child-s-bath.jpg"
 },
 "morisot-bougival": {
 "a": "Berthe Morisot",
@@ -470,7 +512,8 @@
 "h": 840,
 "fp": "50% 50%",
 "avg": "#767952",
-"src": "EndyWon/AesUST"
+"src": "EndyWon/AesUST",
+"u": "https://raw.githubusercontent.com/EndyWon/AesUST/main/inputs/style/0.jpg"
 },
 "lautrec-rouge": {
 "a": "Henri de Toulouse-Lautrec",
@@ -481,7 +524,8 @@
 "h": 1175,
 "fp": "50% 45%",
 "avg": "#554628",
-"src": "rmartin99/rmartin99.github.io"
+"src": "rmartin99/rmartin99.github.io",
+"u": "https://raw.githubusercontent.com/rmartin99/rmartin99.github.io/UrquiagaReniAssignment5/images/artnouveau/athtemoulinrouge.jpg"
 },
 "leo-ermine": {
 "a": "Leonardo da Vinci",
@@ -492,7 +536,8 @@
 "h": 1600,
 "fp": "50% 35%",
 "avg": "#3f3832",
-"src": "foreverdesmond/world-famous-paintings-puzzle-game"
+"src": "foreverdesmond/world-famous-paintings-puzzle-game",
+"u": "https://raw.githubusercontent.com/foreverdesmond/world-famous-paintings-puzzle-game/main/assets/paintings/lady-with-an-ermine__leonardo-da-vinci.jpg"
 },
 "leo-monalisa": {
 "a": "Leonardo da Vinci",
@@ -503,7 +548,8 @@
 "h": 900,
 "fp": "50% 35%",
 "avg": "#564835",
-"src": "aadyatalreja/Renaissance-Virtual-Museum"
+"src": "aadyatalreja/Renaissance-Virtual-Museum",
+"u": "https://raw.githubusercontent.com/aadyatalreja/Renaissance-Virtual-Museum/main/MonaLisa.jpeg"
 },
 "rem-self": {
 "a": "Rembrandt van Rijn",
@@ -514,7 +560,8 @@
 "h": 1600,
 "fp": "50% 35%",
 "avg": "#2b1d10",
-"src": "foreverdesmond/world-famous-paintings-puzzle-game"
+"src": "foreverdesmond/world-famous-paintings-puzzle-game",
+"u": "https://raw.githubusercontent.com/foreverdesmond/world-famous-paintings-puzzle-game/main/assets/paintings/self-portrait__rembrandt.jpg"
 },
 "rem-storm": {
 "a": "Rembrandt van Rijn",
@@ -525,7 +572,8 @@
 "h": 1600,
 "fp": "50% 45%",
 "avg": "#49413a",
-"src": "foreverdesmond/world-famous-paintings-puzzle-game"
+"src": "foreverdesmond/world-famous-paintings-puzzle-game",
+"u": "https://raw.githubusercontent.com/foreverdesmond/world-famous-paintings-puzzle-game/main/assets/paintings/christ-in-the-storm-on-the-sea-of-galilee__rembrandt.jpg"
 },
 "rem-nightwatch": {
 "a": "Rembrandt van Rijn",
@@ -536,7 +584,8 @@
 "h": 781,
 "fp": "50% 45%",
 "avg": "#342510",
-"src": "misha260/appmobile"
+"src": "misha260/appmobile",
+"u": "https://raw.githubusercontent.com/misha260/appmobile/claude/bold-cori-o6j3pn/assets/night-watch.jpg"
 },
 "rem-tulp": {
 "a": "Rembrandt van Rijn",
@@ -547,7 +596,8 @@
 "h": 1205,
 "fp": "50% 45%",
 "avg": "#33291e",
-"src": "foreverdesmond/world-famous-paintings-puzzle-game"
+"src": "foreverdesmond/world-famous-paintings-puzzle-game",
+"u": "https://raw.githubusercontent.com/foreverdesmond/world-famous-paintings-puzzle-game/main/assets/paintings/the-anatomy-lesson-of-dr-nicolaes-tulp__rembrandt.jpg"
 },
 "bott-venus": {
 "a": "Sandro Botticelli",
@@ -558,7 +608,8 @@
 "h": 879,
 "fp": "50% 45%",
 "avg": "#9a8c6a",
-"src": "misha260/appmobile"
+"src": "misha260/appmobile",
+"u": "https://raw.githubusercontent.com/misha260/appmobile/claude/bold-cori-o6j3pn/assets/birth-of-venus.jpg"
 },
 "bott-venusmars": {
 "a": "Sandro Botticelli",
@@ -569,7 +620,8 @@
 "h": 600,
 "fp": "50% 50%",
 "avg": "#7d7064",
-"src": "Gerjo/paintings"
+"src": "Gerjo/paintings",
+"u": "https://raw.githubusercontent.com/Gerjo/paintings/master/Early%20Renaissance/1257-venus-and-mars%281%29.jpg"
 },
 "bott-primavera": {
 "a": "Sandro Botticelli",
@@ -580,7 +632,8 @@
 "h": 656,
 "fp": "50% 50%",
 "avg": "#524137",
-"src": "aadyatalreja/Renaissance-Virtual-Museum"
+"src": "aadyatalreja/Renaissance-Virtual-Museum",
+"u": "https://raw.githubusercontent.com/aadyatalreja/Renaissance-Virtual-Museum/main/primavera.jpeg"
 },
 "raph-graces": {
 "a": "Raphael",
@@ -591,7 +644,8 @@
 "h": 900,
 "fp": "50% 50%",
 "avg": "#a7846d",
-"src": "Gerjo/paintings"
+"src": "Gerjo/paintings",
+"u": "https://raw.githubusercontent.com/Gerjo/paintings/master/High%20Renaissance/1314-the-three-graces-1505.jpg"
 },
 "raph-athens": {
 "a": "Raphael",
@@ -602,7 +656,8 @@
 "h": 1241,
 "fp": "50% 55%",
 "avg": "#938266",
-"src": "aadyatalreja/Renaissance-Virtual-Museum"
+"src": "aadyatalreja/Renaissance-Virtual-Museum",
+"u": "https://raw.githubusercontent.com/aadyatalreja/Renaissance-Virtual-Museum/main/TheSchoolOfAthens.jpeg"
 },
 "rubens-war": {
 "a": "Peter Paul Rubens",
@@ -613,7 +668,8 @@
 "h": 770,
 "fp": "50% 50%",
 "avg": "#78694d",
-"src": "c12i/online-museum"
+"src": "c12i/online-museum",
+"u": "https://raw.githubusercontent.com/c12i/online-museum/master/images/baroque/paintings/allegory-of-war/allegory-of-war.jpg"
 },
 "turner-burning": {
 "a": "J.M.W. Turner",
@@ -624,7 +680,8 @@
 "h": 1191,
 "fp": "50% 50%",
 "avg": "#95784f",
-"src": "paulmrq/ArtBot-Twitter"
+"src": "paulmrq/ArtBot-Twitter",
+"u": "https://raw.githubusercontent.com/paulmrq/ArtBot-Twitter/main/images/The_Burning_of_the_Houses_of_Lords_and_Commons-%20William_Turner-%201834.jpg"
 },
 "turner-shipwreck": {
 "a": "J.M.W. Turner",
@@ -635,7 +692,8 @@
 "h": 690,
 "fp": "50% 50%",
 "avg": "#4f563c",
-"src": "lengstrom/fast-style-transfer"
+"src": "lengstrom/fast-style-transfer",
+"u": "https://raw.githubusercontent.com/lengstrom/fast-style-transfer/master/examples/style/the_shipwreck_of_the_minotaur.jpg"
 },
 "ver-pearl": {
 "a": "Johannes Vermeer",
@@ -646,7 +704,8 @@
 "h": 1400,
 "fp": "50% 35%",
 "avg": "#4c4334",
-"src": "misha260/appmobile"
+"src": "misha260/appmobile",
+"u": "https://raw.githubusercontent.com/misha260/appmobile/claude/bold-cori-o6j3pn/assets/pearl-earring.jpg"
 },
 "ver-delft": {
 "a": "Johannes Vermeer",
@@ -657,7 +716,8 @@
 "h": 1334,
 "fp": "50% 50%",
 "avg": "#aea79d",
-"src": "jlord/vermeer"
+"src": "jlord/vermeer",
+"u": "https://raw.githubusercontent.com/jlord/vermeer/main/assets/imgs/delft/view-of-delft-painting.jpg"
 },
 "ver-milkmaid": {
 "a": "Johannes Vermeer",
@@ -668,7 +728,8 @@
 "h": 1400,
 "fp": "50% 40%",
 "avg": "#5a554a",
-"src": "misha260/appmobile"
+"src": "misha260/appmobile",
+"u": "https://raw.githubusercontent.com/misha260/appmobile/claude/bold-cori-o6j3pn/assets/the-milkmaid.jpg"
 },
 "car-bacchus": {
 "a": "Caravaggio",
@@ -679,7 +740,8 @@
 "h": 1600,
 "fp": "50% 40%",
 "avg": "#56524b",
-"src": "nakitamray/placard"
+"src": "nakitamray/placard",
+"u": "https://raw.githubusercontent.com/nakitamray/placard/main/data/artworks/caravaggio-bacchus/source.jpg"
 },
 "car-emmaus": {
 "a": "Caravaggio",
@@ -690,7 +752,8 @@
 "h": 1137,
 "fp": "50% 50%",
 "avg": "#2e2519",
-"src": "nakitamray/placard"
+"src": "nakitamray/placard",
+"u": "https://raw.githubusercontent.com/nakitamray/placard/main/data/artworks/caravaggio-supper-emmaus/source.jpg"
 },
 "car-narcissus": {
 "a": "Caravaggio",
@@ -701,7 +764,8 @@
 "h": 1600,
 "fp": "50% 40%",
 "avg": "#3f2921",
-"src": "foreverdesmond/world-famous-paintings-puzzle-game"
+"src": "foreverdesmond/world-famous-paintings-puzzle-game",
+"u": "https://raw.githubusercontent.com/foreverdesmond/world-famous-paintings-puzzle-game/main/assets/paintings/narcissus__caravaggio.jpg"
 },
 "car-medusa": {
 "a": "Caravaggio",
@@ -712,7 +776,8 @@
 "h": 1600,
 "fp": "50% 50%",
 "avg": "#5d5444",
-"src": "nakitamray/placard"
+"src": "nakitamray/placard",
+"u": "https://raw.githubusercontent.com/nakitamray/placard/main/data/artworks/caravaggio-medusa/source.jpg"
 },
 "car-david": {
 "a": "Caravaggio",
@@ -723,7 +788,8 @@
 "h": 1244,
 "fp": "50% 45%",
 "avg": "#463d2d",
-"src": "foreverdesmond/world-famous-paintings-puzzle-game"
+"src": "foreverdesmond/world-famous-paintings-puzzle-game",
+"u": "https://raw.githubusercontent.com/foreverdesmond/world-famous-paintings-puzzle-game/main/assets/paintings/david-with-the-head-of-goliath__caravaggio.jpg"
 },
 "velaz-meninas": {
 "a": "Diego Velázquez",
@@ -734,7 +800,8 @@
 "h": 1600,
 "fp": "50% 50%",
 "avg": "#433420",
-"src": "foreverdesmond/world-famous-paintings-puzzle-game"
+"src": "foreverdesmond/world-famous-paintings-puzzle-game",
+"u": "https://raw.githubusercontent.com/foreverdesmond/world-famous-paintings-puzzle-game/main/assets/paintings/las-meninas__diego-velazquez.jpg"
 },
 "goya-saturn": {
 "a": "Francisco de Goya",
@@ -745,7 +812,8 @@
 "h": 1600,
 "fp": "50% 35%",
 "avg": "#292929",
-"src": "karthikayagrawal/guess-the-painting"
+"src": "karthikayagrawal/guess-the-painting",
+"u": "https://raw.githubusercontent.com/karthikayagrawal/guess-the-painting/main/images/painting-4-original.jpg"
 },
 "goya-may": {
 "a": "Francisco de Goya",
@@ -756,7 +824,8 @@
 "h": 927,
 "fp": "50% 50%",
 "avg": "#473a29",
-"src": "Hukex/Museum"
+"src": "Hukex/Museum",
+"u": "https://raw.githubusercontent.com/Hukex/Museum/master/DatosProyectoFinalBootstrap/LosFusilamientosDel3DeMayo.jpg"
 },
 "bosch-garden": {
 "a": "Hieronymus Bosch",
@@ -767,7 +836,8 @@
 "h": 853,
 "fp": "50% 50%",
 "avg": "#706d50",
-"src": "Hukex/Museum"
+"src": "Hukex/Museum",
+"u": "https://raw.githubusercontent.com/Hukex/Museum/master/DatosProyectoFinalBootstrap/ElJardinDeLasDelicias.jpg"
 },
 "bruegel-icarus": {
 "a": "Pieter Bruegel the Elder (after)",
@@ -778,7 +848,8 @@
 "h": 1044,
 "fp": "50% 50%",
 "avg": "#706841",
-"src": "karthikayagrawal/guess-the-painting"
+"src": "karthikayagrawal/guess-the-painting",
+"u": "https://raw.githubusercontent.com/karthikayagrawal/guess-the-painting/main/images/painting-7-original.jpg"
 },
 "gericault-raft": {
 "a": "Théodore Géricault",
@@ -789,7 +860,8 @@
 "h": 1092,
 "fp": "50% 50%",
 "avg": "#4c3d30",
-"src": "nakitamray/placard"
+"src": "nakitamray/placard",
+"u": "https://raw.githubusercontent.com/nakitamray/placard/main/data/artworks/gericault-raft-medusa/source.jpg"
 },
 "delacroix-liberty": {
 "a": "Eugène Delacroix",
@@ -800,7 +872,8 @@
 "h": 1267,
 "fp": "50% 45%",
 "avg": "#494039",
-"src": "nakitamray/placard"
+"src": "nakitamray/placard",
+"u": "https://raw.githubusercontent.com/nakitamray/placard/main/data/artworks/delacroix-liberty/source.jpg"
 },
 "friedrich-wanderer": {
 "a": "Caspar David Friedrich",
@@ -811,7 +884,8 @@
 "h": 1600,
 "fp": "50% 40%",
 "avg": "#848792",
-"src": "paulmrq/ArtBot-Twitter"
+"src": "paulmrq/ArtBot-Twitter",
+"u": "https://raw.githubusercontent.com/paulmrq/ArtBot-Twitter/main/images/Le%20Voyageur%20au%20dessus%20de%20la%20mer%20de%20nuages%20-%20Caspar_David_Friedrich_-1818.jpg"
 },
 "sargent-madamex": {
 "a": "John Singer Sargent",
@@ -822,7 +896,8 @@
 "h": 1600,
 "fp": "50% 30%",
 "avg": "#3e3427",
-"src": "foreverdesmond/world-famous-paintings-puzzle-game"
+"src": "foreverdesmond/world-famous-paintings-puzzle-game",
+"u": "https://raw.githubusercontent.com/foreverdesmond/world-famous-paintings-puzzle-game/main/assets/paintings/madame-x__john-singer-sargent.jpg"
 },
 "hooch-letter": {
 "a": "Pieter de Hooch",
@@ -833,7 +908,8 @@
 "h": 1600,
 "fp": "50% 45%",
 "avg": "#575a51",
-"src": "foreverdesmond/world-famous-paintings-puzzle-game"
+"src": "foreverdesmond/world-famous-paintings-puzzle-game",
+"u": "https://raw.githubusercontent.com/foreverdesmond/world-famous-paintings-puzzle-game/main/assets/paintings/reading-the-letter__pieter-de-hooch.jpg"
 },
 "repin-haulers": {
 "a": "Ilya Repin",
@@ -844,7 +920,8 @@
 "h": 740,
 "fp": "50% 50%",
 "avg": "#b19e7d",
-"src": "paulmrq/ArtBot-Twitter"
+"src": "paulmrq/ArtBot-Twitter",
+"u": "https://raw.githubusercontent.com/paulmrq/ArtBot-Twitter/main/images/Les%20haleurs%20de%20la%20Volga%20-Ilya_Repin-1873.jpeg"
 },
 "kramskoi-unknown": {
 "a": "Ivan Kramskoi",
@@ -855,7 +932,8 @@
 "h": 724,
 "fp": "50% 35%",
 "avg": "#918779",
-"src": "paulmrq/ArtBot-Twitter"
+"src": "paulmrq/ArtBot-Twitter",
+"u": "https://raw.githubusercontent.com/paulmrq/ArtBot-Twitter/main/images/Portrait%20of%20an%20unknown%20woman-%20Ivan%20Kramskoi-1883.jpg"
 },
 "constable-haywain": {
 "a": "John Constable",
@@ -866,7 +944,8 @@
 "h": 1103,
 "fp": "50% 50%",
 "avg": "#6f6557",
-"src": "nakitamray/placard"
+"src": "nakitamray/placard",
+"u": "https://raw.githubusercontent.com/nakitamray/placard/main/data/artworks/constable-hay-wain/source.jpg"
 },
 "elgreco-toledo": {
 "a": "El Greco",
@@ -877,7 +956,8 @@
 "h": 1600,
 "fp": "50% 50%",
 "avg": "#3e4d47",
-"src": "nakitamray/placard"
+"src": "nakitamray/placard",
+"u": "https://raw.githubusercontent.com/nakitamray/placard/main/data/artworks/el-greco-view-toledo/source.jpg"
 },
 "millais-ophelia": {
 "a": "John Everett Millais",
@@ -888,7 +968,8 @@
 "h": 1088,
 "fp": "50% 50%",
 "avg": "#515132",
-"src": "foreverdesmond/world-famous-paintings-puzzle-game"
+"src": "foreverdesmond/world-famous-paintings-puzzle-game",
+"u": "https://raw.githubusercontent.com/foreverdesmond/world-famous-paintings-puzzle-game/main/assets/paintings/ophelia__john-everett-millais.jpg"
 },
 "matisse-hat": {
 "a": "Henri Matisse",
@@ -899,7 +980,8 @@
 "h": 800,
 "fp": "50% 35%",
 "avg": "#867e86",
-"src": "jcjohnson/neural-style"
+"src": "jcjohnson/neural-style",
+"u": "https://raw.githubusercontent.com/jcjohnson/neural-style/master/examples/inputs/woman-with-hat-matisse.jpg"
 },
 "kand-vii": {
 "a": "Wassily Kandinsky",
@@ -910,7 +992,8 @@
 "h": 712,
 "fp": "50% 50%",
 "avg": "#8a6d5c",
-"src": "jcjohnson/fast-neural-style"
+"src": "jcjohnson/fast-neural-style",
+"u": "https://raw.githubusercontent.com/jcjohnson/fast-neural-style/master/images/styles/composition_vii.jpg"
 },
 "mondrian-1913": {
 "a": "Piet Mondrian",
@@ -921,7 +1004,8 @@
 "h": 825,
 "fp": "50% 50%",
 "avg": "#aca18b",
-"src": "xunhuang1995/AdaIN-style"
+"src": "xunhuang1995/AdaIN-style",
+"u": "https://raw.githubusercontent.com/xunhuang1995/AdaIN-style/master/input/style/mondrian.jpg"
 },
 "picabia-udnie": {
 "a": "Francis Picabia",
@@ -932,7 +1016,8 @@
 "h": 1260,
 "fp": "50% 50%",
 "avg": "#6b6b69",
-"src": "jcjohnson/fast-neural-style"
+"src": "jcjohnson/fast-neural-style",
+"u": "https://raw.githubusercontent.com/jcjohnson/fast-neural-style/master/images/styles/udnie.jpg"
 },
 "leger-contrast": {
 "a": "Fernand Léger",
@@ -943,7 +1028,8 @@
 "h": 1242,
 "fp": "50% 50%",
 "avg": "#877867",
-"src": "xunhuang1995/AdaIN-style"
+"src": "xunhuang1995/AdaIN-style",
+"u": "https://raw.githubusercontent.com/xunhuang1995/AdaIN-style/master/input/style/contrast_of_forms.jpg"
 },
 "hokusai-wave": {
 "a": "Katsushika Hokusai",
@@ -954,7 +1040,8 @@
 "h": 941,
 "fp": "50% 50%",
 "avg": "#bfc1b6",
-"src": "misha260/appmobile"
+"src": "misha260/appmobile",
+"u": "https://raw.githubusercontent.com/misha260/appmobile/claude/bold-cori-o6j3pn/assets/great-wave.jpg"
 },
 "hokusai-fuji": {
 "a": "Katsushika Hokusai",
@@ -965,7 +1052,8 @@
 "h": 823,
 "fp": "50% 50%",
 "avg": "#86857d",
-"src": "BhavyaAk25/GOART-Art-Gallery"
+"src": "BhavyaAk25/GOART-Art-Gallery",
+"u": "https://raw.githubusercontent.com/BhavyaAk25/GOART-Art-Gallery/main/public/paintings/hokusai-red-fuji.jpg"
 },
 "hokusai-cranes": {
 "a": "Katsushika Hokusai",
@@ -976,7 +1064,8 @@
 "h": 1600,
 "fp": "50% 30%",
 "avg": "#807c6a",
-"src": "BhavyaAk25/GOART-Art-Gallery"
+"src": "BhavyaAk25/GOART-Art-Gallery",
+"u": "https://raw.githubusercontent.com/BhavyaAk25/GOART-Art-Gallery/main/public/paintings/hokusai-cranes-pine.jpg"
 },
 "leo-salvator": {
 "a": "Leonardo da Vinci (attributed)",
@@ -987,7 +1076,8 @@
 "h": 1600,
 "fp": "50% 35%",
 "avg": "#26201c",
-"src": "sanjib/meps"
+"src": "sanjib/meps",
+"u": "https://raw.githubusercontent.com/sanjib/meps/master/assets/static/images/paintings/salvator_mundi.jpg"
 },
 "klimt-serpents": {
 "a": "Gustav Klimt",
@@ -998,7 +1088,8 @@
 "h": 880,
 "fp": "50% 50%",
 "avg": "#966957",
-"src": "sanjib/meps"
+"src": "sanjib/meps",
+"u": "https://raw.githubusercontent.com/sanjib/meps/master/assets/static/images/paintings/wasserschlangen_ii.jpg"
 },
 "klimt-adele2": {
 "a": "Gustav Klimt",
@@ -1009,7 +1100,8 @@
 "h": 1600,
 "fp": "50% 30%",
 "avg": "#848a98",
-"src": "sanjib/meps"
+"src": "sanjib/meps",
+"u": "https://raw.githubusercontent.com/sanjib/meps/master/assets/static/images/paintings/adele_bloch_bauer_ii.jpg"
 },
 "modi-nu": {
 "a": "Amedeo Modigliani",
@@ -1020,7 +1112,8 @@
 "h": 1008,
 "fp": "50% 50%",
 "avg": "#8e5742",
-"src": "sanjib/meps"
+"src": "sanjib/meps",
+"u": "https://raw.githubusercontent.com/sanjib/meps/master/assets/static/images/paintings/nu_couche.jpg"
 },
 "modi-nu-gauche": {
 "a": "Amedeo Modigliani",
@@ -1031,7 +1124,8 @@
 "h": 977,
 "fp": "50% 50%",
 "avg": "#987f72",
-"src": "sanjib/meps"
+"src": "sanjib/meps",
+"u": "https://raw.githubusercontent.com/sanjib/meps/master/assets/static/images/paintings/nu_couche_sur_le_cote_gauche.jpg"
 },
 "modi-blue": {
 "a": "Amedeo Modigliani",
@@ -1042,7 +1136,8 @@
 "h": 900,
 "fp": "50% 50%",
 "avg": "#7a5330",
-"src": "sanjib/meps"
+"src": "sanjib/meps",
+"u": "https://raw.githubusercontent.com/sanjib/meps/master/assets/static/images/paintings/reclining_nude_with_blue_cushion.jpg"
 },
 "monet-meules": {
 "a": "Claude Monet",
@@ -1053,7 +1148,8 @@
 "h": 1251,
 "fp": "50% 50%",
 "avg": "#978071",
-"src": "sanjib/meps"
+"src": "sanjib/meps",
+"u": "https://raw.githubusercontent.com/sanjib/meps/master/assets/static/images/paintings/meules.jpg"
 },
 "monet-bassin": {
 "a": "Claude Monet",
@@ -1064,7 +1160,8 @@
 "h": 785,
 "fp": "50% 50%",
 "avg": "#626a47",
-"src": "sanjib/meps"
+"src": "sanjib/meps",
+"u": "https://raw.githubusercontent.com/sanjib/meps/master/assets/static/images/paintings/le_bassin_aux_nympheas.jpg"
 },
 "monet-stacks": {
 "a": "Claude Monet",
@@ -1075,7 +1172,8 @@
 "h": 948,
 "fp": "50% 50%",
 "avg": "#9f9f92",
-"src": "kiarashfa/Galerium"
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/claude-monet--haystacks.jpg"
 },
 "gauguin-nafea": {
 "a": "Paul Gauguin",
@@ -1086,7 +1184,8 @@
 "h": 1600,
 "fp": "50% 40%",
 "avg": "#826945",
-"src": "kiarashfa/Galerium"
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/paul-gauguin--when-will-you-marry.jpg"
 },
 "gauguin-tefare": {
 "a": "Paul Gauguin",
@@ -1097,7 +1196,8 @@
 "h": 1255,
 "fp": "50% 50%",
 "avg": "#6d7651",
-"src": "sanjib/meps"
+"src": "sanjib/meps",
+"u": "https://raw.githubusercontent.com/sanjib/meps/master/assets/static/images/paintings/te_fare.jpg"
 },
 "pic-pipe": {
 "a": "Pablo Picasso",
@@ -1108,7 +1208,8 @@
 "h": 1600,
 "fp": "50% 30%",
 "avg": "#80493b",
-"src": "sanjib/meps"
+"src": "sanjib/meps",
+"u": "https://raw.githubusercontent.com/sanjib/meps/master/assets/static/images/paintings/garcon_a_la_pipe.jpg"
 },
 "pic-pierrette": {
 "a": "Pablo Picasso",
@@ -1119,7 +1220,8 @@
 "h": 600,
 "fp": "50% 50%",
 "avg": "#3a4943",
-"src": "sanjib/meps"
+"src": "sanjib/meps",
+"u": "https://raw.githubusercontent.com/sanjib/meps/master/assets/static/images/paintings/les_noces_de_pierrette.jpg"
 },
 "pic-basket": {
 "a": "Pablo Picasso",
@@ -1130,7 +1232,8 @@
 "h": 1600,
 "fp": "50% 30%",
 "avg": "#7e7c7d",
-"src": "sanjib/meps"
+"src": "sanjib/meps",
+"u": "https://raw.githubusercontent.com/sanjib/meps/master/assets/static/images/paintings/young_girl_with_a_flower_basket.jpg"
 },
 "pic-yo": {
 "a": "Pablo Picasso",
@@ -1141,7 +1244,8 @@
 "h": 1003,
 "fp": "50% 30%",
 "avg": "#63683b",
-"src": "sanjib/meps"
+"src": "sanjib/meps",
+"u": "https://raw.githubusercontent.com/sanjib/meps/master/assets/static/images/paintings/yo_picasso.jpg"
 },
 "vg-gachet": {
 "a": "Vincent van Gogh",
@@ -1152,7 +1256,8 @@
 "h": 1008,
 "fp": "50% 30%",
 "avg": "#6f684e",
-"src": "sanjib/meps"
+"src": "sanjib/meps",
+"u": "https://raw.githubusercontent.com/sanjib/meps/master/assets/static/images/paintings/portrait_of_dr._gachet.jpg"
 },
 "vg-sansbarbe": {
 "a": "Vincent van Gogh",
@@ -1163,7 +1268,8 @@
 "h": 1600,
 "fp": "50% 30%",
 "avg": "#706b59",
-"src": "sanjib/meps"
+"src": "sanjib/meps",
+"u": "https://raw.githubusercontent.com/sanjib/meps/master/assets/static/images/paintings/portrait_de_l-artiste_sans_barbe.jpg"
 },
 "rem-soolmans": {
 "a": "Rembrandt van Rijn",
@@ -1174,7 +1280,8 @@
 "h": 740,
 "fp": "50% 40%",
 "avg": "#262217",
-"src": "sanjib/meps"
+"src": "sanjib/meps",
+"u": "https://raw.githubusercontent.com/sanjib/meps/master/assets/static/images/paintings/maerten_soolmans_oopjen_coppit.jpg"
 },
 "kand-bunte": {
 "a": "Wassily Kandinsky",
@@ -1185,7 +1292,8 @@
 "h": 800,
 "fp": "50% 50%",
 "avg": "#5e6063",
-"src": "kiarashfa/Galerium"
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/wassily-kandinsky--das-bunte-leben.jpg"
 },
 "bott-roundel": {
 "a": "Sandro Botticelli",
@@ -1196,7 +1304,8 @@
 "h": 1600,
 "fp": "50% 30%",
 "avg": "#453f3b",
-"src": "kiarashfa/Galerium"
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/sandro-botticelli--portrait-of-a-young-man-holding-a-roundel.jpg"
 },
 "turner-rome": {
 "a": "J.M.W. Turner",
@@ -1207,7 +1316,8 @@
 "h": 1177,
 "fp": "50% 50%",
 "avg": "#bca781",
-"src": "kiarashfa/Galerium"
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/jmw-turner--rome-from-mount-aventine.jpg"
 },
 "schiele-wally": {
 "a": "Egon Schiele",
@@ -1218,7 +1328,8 @@
 "h": 1300,
 "fp": "50% 35%",
 "avg": "#8a7f6d",
-"src": "kiarashfa/Galerium"
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/egon-schiele--portrait-of-wally.jpg"
 },
 "schiele-maiden": {
 "a": "Egon Schiele",
@@ -1229,7 +1340,8 @@
 "h": 1346,
 "fp": "50% 50%",
 "avg": "#7e705b",
-"src": "kiarashfa/Galerium"
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/egon-schiele--death-and-the-maiden.jpg"
 },
 "schiele-family": {
 "a": "Egon Schiele",
@@ -1240,7 +1352,8 @@
 "h": 1511,
 "fp": "50% 40%",
 "avg": "#5c4f3b",
-"src": "kiarashfa/Galerium"
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/egon-schiele--the-family.jpg"
 },
 "schiele-stadt": {
 "a": "Egon Schiele",
@@ -1251,7 +1364,8 @@
 "h": 1600,
 "fp": "50% 50%",
 "avg": "#4e3d28",
-"src": "kiarashfa/Galerium"
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/egon-schiele--dammernde-stadt.jpg"
 },
 "canaletto-marco": {
 "a": "Canaletto",
@@ -1262,7 +1376,8 @@
 "h": 1118,
 "fp": "50% 55%",
 "avg": "#76796b",
-"src": "ivanfioravanti/canalsplat"
+"src": "ivanfioravanti/canalsplat",
+"u": "https://raw.githubusercontent.com/ivanfioravanti/canalsplat/main/images/canaletto-0.jpg"
 },
 "canaletto-rialto": {
 "a": "Canaletto",
@@ -1273,7 +1388,8 @@
 "h": 1299,
 "fp": "50% 55%",
 "avg": "#958e7e",
-"src": "ivanfioravanti/canalsplat"
+"src": "ivanfioravanti/canalsplat",
+"u": "https://raw.githubusercontent.com/ivanfioravanti/canalsplat/main/images/canaletto-6.jpg"
 },
 "rem-aristotle": {
 "a": "Rembrandt van Rijn",
@@ -1284,6 +1400,1463 @@
 "h": 1600,
 "fp": "50% 35%",
 "avg": "#282825",
-"src": "nakitamray/placard"
+"src": "nakitamray/placard",
+"u": "https://raw.githubusercontent.com/nakitamray/placard/main/data/artworks/rembrandt-aristotle-homer/source.jpg"
+},
+"cimabue-trinita": {
+"a": "Cimabue",
+"t": "Santa Trinita Maestà",
+"y": "c. 1290–1300",
+"c": "Uffizi, Florence",
+"w": 894,
+"h": 1600,
+"fp": "50% 40%",
+"avg": "#966638",
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/cimabue--santa-trinita-maesta.jpg",
+"ow": 1920,
+"oh": 3438
+},
+"duccio-maesta": {
+"a": "Duccio di Buoninsegna",
+"t": "Maestà (front panel)",
+"y": "1308–11",
+"c": "Museo dell’Opera del Duomo, Siena",
+"w": 1600,
+"h": 788,
+"fp": "50% 50%",
+"avg": "#9c703c",
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/duccio--maesta.jpg",
+"ow": 1920,
+"oh": 946
+},
+"giotto-lamentation": {
+"a": "Giotto di Bondone",
+"t": "The Lamentation (Arena Chapel)",
+"y": "c. 1305",
+"c": "Scrovegni (Arena) Chapel, Padua",
+"w": 1600,
+"h": 1505,
+"fp": "50% 45%",
+"avg": "#a49282",
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/giotto--lamentation.jpg",
+"ow": 1920,
+"oh": 1806
+},
+"martini-annunciation": {
+"a": "Simone Martini",
+"t": "The Annunciation with Saints Margaret and Ansanus",
+"y": "1333",
+"c": "Uffizi, Florence",
+"w": 1600,
+"h": 1389,
+"fp": "50% 50%",
+"avg": "#b6a28a",
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/simone-martini--annunciation-with-saint-margaret-and-saint-ansanus.jpg",
+"ow": 1920,
+"oh": 1667
+},
+"eyck-arnolfini": {
+"a": "Jan van Eyck",
+"t": "The Arnolfini Portrait",
+"y": "1434",
+"c": "National Gallery, London",
+"w": 1169,
+"h": 1600,
+"fp": "50% 40%",
+"avg": "#3b331f",
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/jan-van-eyck--arnolfini-portrait.jpg",
+"ow": 1920,
+"oh": 2627
+},
+"bruegel-hunters": {
+"a": "Pieter Bruegel the Elder",
+"t": "The Hunters in the Snow",
+"y": "1565",
+"c": "Kunsthistorisches Museum, Vienna",
+"w": 1600,
+"h": 1138,
+"fp": "50% 50%",
+"avg": "#7a7761",
+"src": "foreverdesmond/world-famous-paintings-puzzle-game",
+"u": "https://raw.githubusercontent.com/foreverdesmond/world-famous-paintings-puzzle-game/main/assets/paintings/the-hunters-in-the-snow__pieter-bruegel-the-elder.jpg",
+"ow": 1920,
+"oh": 1366
+},
+"durer-hare": {
+"a": "Albrecht Dürer",
+"t": "Young Hare",
+"y": "1502",
+"c": "Albertina, Vienna",
+"w": 1448,
+"h": 1600,
+"fp": "50% 50%",
+"avg": "#c3b4a0",
+"src": "foreverdesmond/world-famous-paintings-puzzle-game",
+"u": "https://raw.githubusercontent.com/foreverdesmond/world-famous-paintings-puzzle-game/main/assets/paintings/young-hare__albrecht-durer.jpg",
+"ow": 1920,
+"oh": 2122
+},
+"holbein-ambassadors": {
+"a": "Hans Holbein the Younger",
+"t": "The Ambassadors",
+"y": "1533",
+"c": "National Gallery, London",
+"w": 1600,
+"h": 1577,
+"fp": "50% 45%",
+"avg": "#3b3625",
+"src": "nakitamray/placard",
+"u": "https://raw.githubusercontent.com/nakitamray/placard/main/data/artworks/holbein-ambassadors/source.jpg",
+"ow": 3840,
+"oh": 3784
+},
+"cranach-cupid": {
+"a": "Lucas Cranach the Elder",
+"t": "Cupid Complaining to Venus",
+"y": "c. 1525",
+"c": "National Gallery, London",
+"w": 1089,
+"h": 1600,
+"fp": "50% 40%",
+"avg": "#51493a",
+"src": "Gerjo/paintings",
+"u": "https://raw.githubusercontent.com/Gerjo/paintings/master/Early%20Renaissance/1296-cupid-complaining-to-venus.jpg",
+"ow": 2042,
+"oh": 3000
+},
+"angelico-annunciation": {
+"a": "Fra Angelico",
+"t": "The Annunciation",
+"y": "c. 1440–45",
+"c": "Museo di San Marco, Florence",
+"w": 1600,
+"h": 1161,
+"fp": "50% 50%",
+"avg": "#82796c",
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/fra-angelico--annunciation.jpg",
+"ow": 1920,
+"oh": 1393
+},
+"piero-urbino": {
+"a": "Piero della Francesca",
+"t": "Portraits of the Duke and Duchess of Urbino",
+"y": "c. 1473–75",
+"c": "Uffizi, Florence",
+"w": 1438,
+"h": 1011,
+"fp": "50% 50%",
+"avg": "#a28c76",
+"src": "nakitamray/placard",
+"u": "https://raw.githubusercontent.com/nakitamray/placard/main/data/artworks/piero-urbino-diptych/source.jpg",
+"ow": 1438,
+"oh": 1011
+},
+"lippi-madonna": {
+"a": "Filippo Lippi",
+"t": "Madonna and Child with Two Angels",
+"y": "c. 1460–65",
+"c": "Uffizi, Florence",
+"w": 1091,
+"h": 1600,
+"fp": "50% 40%",
+"avg": "#695a4c",
+"src": "nakitamray/placard",
+"u": "https://raw.githubusercontent.com/nakitamray/placard/main/data/artworks/lippi-madonna-two-angels/source.jpg",
+"ow": 2045,
+"oh": 3000
+},
+"mantegna-parnassus": {
+"a": "Andrea Mantegna",
+"t": "Parnassus (Mars and Venus)",
+"y": "1497",
+"c": "Musée du Louvre, Paris",
+"w": 1600,
+"h": 1263,
+"fp": "50% 50%",
+"avg": "#5d492e",
+"src": "Frentan/paintings",
+"u": "https://raw.githubusercontent.com/Frentan/paintings/master/andrea-mantegna_-parnassus.jpeg",
+"ow": 1740,
+"oh": 1374
+},
+"mich-adam": {
+"a": "Michelangelo",
+"t": "The Creation of Adam",
+"y": "c. 1511–12",
+"c": "Sistine Chapel, Vatican",
+"w": 1600,
+"h": 726,
+"fp": "50% 50%",
+"avg": "#a39378",
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/michelangelo--the-creation-of-adam.jpg",
+"ow": 1920,
+"oh": 871
+},
+"titian-urbino": {
+"a": "Titian",
+"t": "Venus of Urbino",
+"y": "1538",
+"c": "Uffizi, Florence",
+"w": 1600,
+"h": 1125,
+"fp": "50% 50%",
+"avg": "#725745",
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/titian--venus-of-urbino.jpg",
+"ow": 1920,
+"oh": 1350
+},
+"giorgione-venus": {
+"a": "Giorgione",
+"t": "Sleeping Venus (Dresden Venus)",
+"y": "c. 1510",
+"c": "Gemäldegalerie Alte Meister, Dresden",
+"w": 1600,
+"h": 986,
+"fp": "50% 55%",
+"avg": "#725e43",
+"src": "Frentan/paintings",
+"u": "https://raw.githubusercontent.com/Frentan/paintings/master/Giorgione_-_Sleeping_Venus_-_Google_Art_Project_2.jpg",
+"ow": 6128,
+"oh": 3776
+},
+"leo-lastsupper": {
+"a": "Leonardo da Vinci",
+"t": "The Last Supper",
+"y": "1495–98",
+"c": "Santa Maria delle Grazie, Milan",
+"w": 1600,
+"h": 833,
+"fp": "50% 50%",
+"avg": "#786852",
+"src": "foreverdesmond/world-famous-paintings-puzzle-game",
+"u": "https://raw.githubusercontent.com/foreverdesmond/world-famous-paintings-puzzle-game/main/assets/paintings/the-last-supper__leonardo-da-vinci.jpg",
+"ow": 1920,
+"oh": 1000
+},
+"raph-sistine": {
+"a": "Raphael",
+"t": "The Sistine Madonna",
+"y": "1512–13",
+"c": "Gemäldegalerie Alte Meister, Dresden",
+"w": 1178,
+"h": 1600,
+"fp": "50% 40%",
+"avg": "#745d3f",
+"src": "foreverdesmond/world-famous-paintings-puzzle-game",
+"u": "https://raw.githubusercontent.com/foreverdesmond/world-famous-paintings-puzzle-game/main/assets/paintings/the-sistine-madonna__raphael.jpg",
+"ow": 1920,
+"oh": 2608
+},
+"veronese-cana": {
+"a": "Paolo Veronese",
+"t": "The Wedding Feast at Cana",
+"y": "1563",
+"c": "Musée du Louvre, Paris",
+"w": 1600,
+"h": 1077,
+"fp": "50% 50%",
+"avg": "#776d73",
+"src": "nakitamray/placard",
+"u": "https://raw.githubusercontent.com/nakitamray/placard/main/data/artworks/veronese-wedding-cana/source.jpg",
+"ow": 2000,
+"oh": 1346
+},
+"parmigianino-mirror": {
+"a": "Parmigianino",
+"t": "Self-Portrait in a Convex Mirror",
+"y": "c. 1524",
+"c": "Kunsthistorisches Museum, Vienna",
+"w": 1600,
+"h": 1598,
+"fp": "50% 45%",
+"avg": "#6a6254",
+"src": "Frentan/paintings",
+"u": "https://raw.githubusercontent.com/Frentan/paintings/master/Parmigianino_Selfportrait.jpg",
+"ow": 2613,
+"oh": 2609
+},
+"gentileschi-judith": {
+"a": "Artemisia Gentileschi",
+"t": "Judith Slaying Holofernes",
+"y": "c. 1620",
+"c": "Uffizi, Florence",
+"w": 1316,
+"h": 1600,
+"fp": "50% 45%",
+"avg": "#4b3825",
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/artemisia-gentileschi--judith-slaying-holofernes.jpg",
+"ow": 1920,
+"oh": 2335
+},
+"caravaggio-matthew": {
+"a": "Caravaggio",
+"t": "The Calling of Saint Matthew",
+"y": "1599–1600",
+"c": "San Luigi dei Francesi, Rome",
+"w": 1060,
+"h": 1001,
+"fp": "50% 45%",
+"avg": "#41352e",
+"src": "foreverdesmond/world-famous-paintings-puzzle-game",
+"u": "https://raw.githubusercontent.com/foreverdesmond/world-famous-paintings-puzzle-game/main/assets/paintings/the-calling-of-st-matthew__caravaggio.jpg",
+"ow": 1060,
+"oh": 1001
+},
+"vandyck-stuart": {
+"a": "Anthony van Dyck",
+"t": "Lord John Stuart and His Brother, Lord Bernard Stuart",
+"y": "c. 1638",
+"c": "National Gallery, London",
+"w": 979,
+"h": 1600,
+"fp": "50% 35%",
+"avg": "#463e34",
+"src": "standardebooks/william-shakespeare_the-comedy-of-errors",
+"u": "https://raw.githubusercontent.com/standardebooks/william-shakespeare_the-comedy-of-errors/master/images/cover.source.jpg",
+"ow": 2586,
+"oh": 4226
+},
+"latour-magdalen": {
+"a": "Georges de La Tour",
+"t": "The Penitent Magdalen",
+"y": "c. 1640",
+"c": "Metropolitan Museum of Art, New York",
+"w": 1122,
+"h": 1600,
+"fp": "50% 45%",
+"avg": "#211d12",
+"src": "standardebooks/m-r-james_short-fiction",
+"u": "https://raw.githubusercontent.com/standardebooks/m-r-james_short-fiction/master/images/cover.source.jpg",
+"ow": 2611,
+"oh": 3722
+},
+"velaz-rokeby": {
+"a": "Diego Velázquez",
+"t": "The Toilet of Venus (The Rokeby Venus)",
+"y": "1647–51",
+"c": "National Gallery, London",
+"w": 1600,
+"h": 1098,
+"fp": "50% 50%",
+"avg": "#725c51",
+"src": "nakitamray/placard",
+"u": "https://raw.githubusercontent.com/nakitamray/placard/main/data/artworks/velazquez-rokeby-venus/source.jpg",
+"ow": 1600,
+"oh": 1098
+},
+"hals-cavalier": {
+"a": "Frans Hals",
+"t": "The Laughing Cavalier",
+"y": "1624",
+"c": "Wallace Collection, London",
+"w": 1318,
+"h": 1600,
+"fp": "50% 35%",
+"avg": "#4e4d4d",
+"src": "standardebooks/baroness-orczy_the-laughing-cavalier",
+"u": "https://raw.githubusercontent.com/standardebooks/baroness-orczy_the-laughing-cavalier/master/images/cover.source.jpg",
+"ow": 1549,
+"oh": 1880
+},
+"ruisdael-egmond": {
+"a": "Jacob van Ruisdael",
+"t": "Landscape with the Ruins of the Castle of Egmond",
+"y": "1650–55",
+"c": "Art Institute of Chicago",
+"w": 1600,
+"h": 1199,
+"fp": "50% 50%",
+"avg": "#484433",
+"src": "standardebooks/j-s-fletcher_scarhaven-keep",
+"u": "https://raw.githubusercontent.com/standardebooks/j-s-fletcher_scarhaven-keep/master/images/cover.source.jpg",
+"ow": 3000,
+"oh": 2249
+},
+"steen-parrot": {
+"a": "Jan Steen",
+"t": "The Parrot Cage",
+"y": "c. 1660–70",
+"c": "Rijksmuseum, Amsterdam",
+"w": 1256,
+"h": 1600,
+"fp": "50% 50%",
+"avg": "#3e2c1b",
+"src": "standardebooks/gustave-flaubert_short-fiction_m-walter-dunne",
+"u": "https://raw.githubusercontent.com/standardebooks/gustave-flaubert_short-fiction_m-walter-dunne/master/images/cover.source.jpg",
+"ow": 4108,
+"oh": 5234
+},
+"ver-astronomer": {
+"a": "Johannes Vermeer",
+"t": "The Astronomer",
+"y": "c. 1668",
+"c": "Musée du Louvre, Paris",
+"w": 1100,
+"h": 1256,
+"fp": "50% 45%",
+"avg": "#45362c",
+"src": "standardebooks/william-wollaston_the-religion-of-nature-delineated",
+"u": "https://raw.githubusercontent.com/standardebooks/william-wollaston_the-religion-of-nature-delineated/master/images/cover.source.jpg",
+"ow": 1100,
+"oh": 1256
+},
+"rem-jewishbride": {
+"a": "Rembrandt van Rijn",
+"t": "The Jewish Bride",
+"y": "c. 1665–69",
+"c": "Rijksmuseum, Amsterdam",
+"w": 1600,
+"h": 1167,
+"fp": "50% 45%",
+"avg": "#40281a",
+"src": "foreverdesmond/world-famous-paintings-puzzle-game",
+"u": "https://raw.githubusercontent.com/foreverdesmond/world-famous-paintings-puzzle-game/main/assets/paintings/the-jewish-bride__rembrandt.jpg",
+"ow": 1920,
+"oh": 1400
+},
+"fragonard-swing": {
+"a": "Jean-Honoré Fragonard",
+"t": "The Swing",
+"y": "1767–68",
+"c": "Wallace Collection, London",
+"w": 1362,
+"h": 1600,
+"fp": "50% 40%",
+"avg": "#8d9272",
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/jean-honore-fragonard--the-swing.jpg",
+"ow": 1920,
+"oh": 2255
+},
+"boucher-pompadour": {
+"a": "François Boucher",
+"t": "Madame de Pompadour",
+"y": "1759",
+"c": "Wallace Collection, London",
+"w": 1206,
+"h": 1600,
+"fp": "50% 35%",
+"avg": "#433822",
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/francois-boucher--portrait-of-madame-de-pompadour.jpg",
+"ow": 1576,
+"oh": 2091
+},
+"watteau-cythera": {
+"a": "Antoine Watteau",
+"t": "Pilgrimage to Cythera (L’Embarquement pour Cythère)",
+"y": "1717",
+"c": "Musée du Louvre, Paris",
+"w": 1600,
+"h": 1049,
+"fp": "50% 50%",
+"avg": "#847a5e",
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/antoine-watteau--the-embarkation-for-cythera.jpg",
+"ow": 1920,
+"oh": 1259
+},
+"tiepolo-cleopatra": {
+"a": "Giovanni Battista Tiepolo",
+"t": "The Banquet of Cleopatra",
+"y": "1743–44",
+"c": "National Gallery of Victoria, Melbourne",
+"w": 1600,
+"h": 1118,
+"fp": "50% 50%",
+"avg": "#938777",
+"src": "Frentan/paintings",
+"u": "https://raw.githubusercontent.com/Frentan/paintings/master/Giambattista_Tiepolo_-_The_Banquet_of_Cleopatra_-_Google_Art_Project.jpg",
+"ow": 5978,
+"oh": 4177
+},
+"gainsborough-blueboy": {
+"a": "Thomas Gainsborough",
+"t": "The Blue Boy",
+"y": "c. 1770",
+"c": "Huntington Library and Art Museum, San Marino",
+"w": 1062,
+"h": 1600,
+"fp": "50% 35%",
+"avg": "#3e3e31",
+"src": "standardebooks/frances-hodgson-burnett_little-lord-fauntleroy",
+"u": "https://raw.githubusercontent.com/standardebooks/frances-hodgson-burnett_little-lord-fauntleroy/master/images/cover.source.jpg",
+"ow": 1576,
+"oh": 2375
+},
+"david-horatii": {
+"a": "Jacques-Louis David",
+"t": "Oath of the Horatii",
+"y": "1784",
+"c": "Musée du Louvre, Paris",
+"w": 1600,
+"h": 1241,
+"fp": "50% 50%",
+"avg": "#4f4437",
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/jacques-louis-david--oath-of-the-horatii.jpg",
+"ow": 1920,
+"oh": 1489
+},
+"david-marat": {
+"a": "Jacques-Louis David",
+"t": "The Death of Marat",
+"y": "1793",
+"c": "Royal Museums of Fine Arts of Belgium, Brussels",
+"w": 1243,
+"h": 1600,
+"fp": "50% 45%",
+"avg": "#5a492c",
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/jacques-louis-david--the-death-of-marat.jpg",
+"ow": 1920,
+"oh": 2471
+},
+"ingres-odalisque": {
+"a": "Jean-Auguste-Dominique Ingres",
+"t": "La Grande Odalisque",
+"y": "1814",
+"c": "Musée du Louvre, Paris",
+"w": 1600,
+"h": 892,
+"fp": "50% 50%",
+"avg": "#686563",
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/jean-auguste-dominique-ingres--grande-odalisque.jpg",
+"ow": 1920,
+"oh": 1071
+},
+"turner-temeraire": {
+"a": "J.M.W. Turner",
+"t": "The Fighting Temeraire",
+"y": "1839",
+"c": "National Gallery, London",
+"w": 1600,
+"h": 1189,
+"fp": "50% 50%",
+"avg": "#897c67",
+"src": "standardebooks/joseph-conrad_the-end-of-the-tether",
+"u": "https://raw.githubusercontent.com/standardebooks/joseph-conrad_the-end-of-the-tether/master/images/cover.source.jpg",
+"ow": 5684,
+"oh": 4223
+},
+"fuseli-nightmare": {
+"a": "Henry Fuseli",
+"t": "The Nightmare",
+"y": "1781",
+"c": "Detroit Institute of Arts",
+"w": 1600,
+"h": 1285,
+"fp": "50% 45%",
+"avg": "#443631",
+"src": "standardebooks/clark-ashton-smith_short-fiction",
+"u": "https://raw.githubusercontent.com/standardebooks/clark-ashton-smith_short-fiction/master/images/cover.source.jpg",
+"ow": 8192,
+"oh": 6577
+},
+"aivazovsky-ninth": {
+"a": "Ivan Aivazovsky",
+"t": "The Ninth Wave",
+"y": "1850",
+"c": "Russian Museum, St Petersburg",
+"w": 1600,
+"h": 1075,
+"fp": "50% 50%",
+"avg": "#896d55",
+"src": "Frentan/paintings",
+"u": "https://raw.githubusercontent.com/Frentan/paintings/master/Hovhannes_Aivazovsky_-_The_Ninth_Wave_-_Google_Art_Project.jpg",
+"ow": 5090,
+"oh": 3420
+},
+"friedrich-eismeer": {
+"a": "Caspar David Friedrich",
+"t": "The Sea of Ice (Das Eismeer)",
+"y": "1823–24",
+"c": "Hamburger Kunsthalle",
+"w": 1600,
+"h": 1196,
+"fp": "50% 50%",
+"avg": "#8e8a85",
+"src": "standardebooks/apsley-cherry-garrard_the-worst-journey-in-the-world",
+"u": "https://raw.githubusercontent.com/standardebooks/apsley-cherry-garrard_the-worst-journey-in-the-world/master/images/cover.source.jpg",
+"ow": 3176,
+"oh": 2375
+},
+"goya-sabbath": {
+"a": "Francisco Goya",
+"t": "Witches’ Sabbath",
+"y": "1798",
+"c": "Museo Lázaro Galdiano, Madrid",
+"w": 1120,
+"h": 1600,
+"fp": "50% 50%",
+"avg": "#676258",
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/francisco-goya--witches-sabbath.jpg",
+"ow": 1920,
+"oh": 2743
+},
+"courbet-burial": {
+"a": "Gustave Courbet",
+"t": "A Burial at Ornans",
+"y": "1849–50",
+"c": "Musée d’Orsay, Paris",
+"w": 1600,
+"h": 735,
+"fp": "50% 50%",
+"avg": "#494338",
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/gustave-courbet--a-burial-at-ornans.jpg",
+"ow": 1920,
+"oh": 882
+},
+"millet-gleaners": {
+"a": "Jean-François Millet",
+"t": "The Gleaners",
+"y": "1857",
+"c": "Musée d’Orsay, Paris",
+"w": 1600,
+"h": 1198,
+"fp": "50% 50%",
+"avg": "#7f7260",
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/jean-francois-millet--the-gleaners.jpg",
+"ow": 1920,
+"oh": 1437
+},
+"bonheur-nivernais": {
+"a": "Rosa Bonheur",
+"t": "Ploughing in the Nivernais",
+"y": "1849",
+"c": "Musée d’Orsay, Paris",
+"w": 1600,
+"h": 818,
+"fp": "50% 50%",
+"avg": "#787167",
+"src": "standardebooks/george-sand_the-devils-pool_jane-minot-sedgwick_ellery-sedgwick",
+"u": "https://raw.githubusercontent.com/standardebooks/george-sand_the-devils-pool_jane-minot-sedgwick_ellery-sedgwick/master/images/cover.source.jpg",
+"ow": 5414,
+"oh": 2769
+},
+"daumier-carriage": {
+"a": "Honoré Daumier",
+"t": "The Third-Class Carriage",
+"y": "c. 1862–64",
+"c": "Metropolitan Museum of Art, New York",
+"w": 1600,
+"h": 1157,
+"fp": "50% 50%",
+"avg": "#342013",
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/honore-daumier--the-third-class-carriage.jpg",
+"ow": 1920,
+"oh": 1388
+},
+"manet-olympia": {
+"a": "Édouard Manet",
+"t": "Olympia",
+"y": "1863",
+"c": "Musée d’Orsay, Paris",
+"w": 1600,
+"h": 1082,
+"fp": "50% 45%",
+"avg": "#7d7772",
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/edouard-manet--olympia.jpg",
+"ow": 1920,
+"oh": 1299
+},
+"bouguereau-orestes": {
+"a": "William-Adolphe Bouguereau",
+"t": "Orestes Pursued by the Furies",
+"y": "1862",
+"c": "Chrysler Museum of Art, Norfolk",
+"w": 1600,
+"h": 1329,
+"fp": "50% 45%",
+"avg": "#402f26",
+"src": "standardebooks/aeschylus_the-eumenides_gilbert-murray",
+"u": "https://raw.githubusercontent.com/standardebooks/aeschylus_the-eumenides_gilbert-murray/master/images/cover.source.jpg",
+"ow": 7884,
+"oh": 6547
+},
+"leighton-cimabue": {
+"a": "Frederic Leighton",
+"t": "Cimabue’s Celebrated Madonna is Carried in Procession through the Streets of Florence",
+"y": "1853–55",
+"c": "National Gallery, London (Royal Collection loan)",
+"w": 1600,
+"h": 708,
+"fp": "50% 50%",
+"avg": "#6e5754",
+"src": "standardebooks/george-eliot_romola",
+"u": "https://raw.githubusercontent.com/standardebooks/george-eliot_romola/master/images/cover.source.jpg",
+"ow": 7276,
+"oh": 3218
+},
+"gerome-muezzin": {
+"a": "Jean-Léon Gérôme",
+"t": "The Muezzin (The Call to Prayer)",
+"y": "1866",
+"c": "Joslyn Art Museum, Omaha",
+"w": 1045,
+"h": 1400,
+"fp": "50% 45%",
+"avg": "#a69989",
+"src": "standardebooks/george-meredith_the-shaving-of-shagpat",
+"u": "https://raw.githubusercontent.com/standardebooks/george-meredith_the-shaving-of-shagpat/master/images/cover.source.jpg",
+"ow": 1045,
+"oh": 1400
+},
+"levitan-pool": {
+"a": "Isaac Levitan",
+"t": "At the Deep Pool (U omuta)",
+"y": "1892",
+"c": "Tretyakov Gallery, Moscow",
+"w": 1600,
+"h": 1134,
+"fp": "50% 50%",
+"avg": "#474236",
+"src": "standardebooks/gene-stratton-porter_freckles",
+"u": "https://raw.githubusercontent.com/standardebooks/gene-stratton-porter_freckles/master/images/cover.source.jpg",
+"ow": 2000,
+"oh": 1417
+},
+"kuindzhi-dnieper": {
+"a": "Arkhip Kuindzhi",
+"t": "Red Sunset on the Dnieper",
+"y": "1905–08",
+"c": "Metropolitan Museum of Art, New York",
+"w": 1600,
+"h": 1160,
+"fp": "50% 50%",
+"avg": "#6a310b",
+"src": "standardebooks/carey-rockwell_stand-by-for-mars",
+"u": "https://raw.githubusercontent.com/standardebooks/carey-rockwell_stand-by-for-mars/master/images/cover.source.jpg",
+"ow": 3811,
+"oh": 2764
+},
+"surikov-streltsy": {
+"a": "Vasily Surikov",
+"t": "The Morning of the Streltsy Execution",
+"y": "1881",
+"c": "Tretyakov Gallery, Moscow",
+"w": 1600,
+"h": 916,
+"fp": "50% 50%",
+"avg": "#796f6a",
+"src": "standardebooks/jules-verne_michael-strogoff_w-h-g-kingston",
+"u": "https://raw.githubusercontent.com/standardebooks/jules-verne_michael-strogoff_w-h-g-kingston/master/images/cover.source.jpg",
+"ow": 3767,
+"oh": 2157
+},
+"repin-cossacks": {
+"a": "Ilya Repin",
+"t": "Reply of the Zaporozhian Cossacks",
+"y": "1880–91",
+"c": "Russian Museum, St Petersburg",
+"w": 1600,
+"h": 946,
+"fp": "50% 50%",
+"avg": "#7e7161",
+"src": "standardebooks/nikolai-gogol_short-fiction_various-translators",
+"u": "https://raw.githubusercontent.com/standardebooks/nikolai-gogol_short-fiction_various-translators/master/images/cover.source.jpg",
+"ow": 4122,
+"oh": 2437
+},
+"repin-ivan": {
+"a": "Ilya Repin",
+"t": "Ivan the Terrible and His Son Ivan on 16 November 1581",
+"y": "1885",
+"c": "Tretyakov Gallery, Moscow",
+"w": 1280,
+"h": 1005,
+"fp": "50% 45%",
+"avg": "#493828",
+"src": "paulmrq/ArtBot-Twitter",
+"u": "https://raw.githubusercontent.com/paulmrq/ArtBot-Twitter/main/images/Ivan%20le%20Terrible%20tue%20son%20fils%20-%20Ilya%20Repin%20-%201885.jpg",
+"ow": 1280,
+"oh": 1005
+},
+"vrubel-demon": {
+"a": "Mikhail Vrubel",
+"t": "The Demon Seated",
+"y": "1890",
+"c": "Tretyakov Gallery, Moscow",
+"w": 1600,
+"h": 880,
+"fp": "50% 50%",
+"avg": "#463d40",
+"src": "standardebooks/stanley-g-weinbaum_the-dark-other",
+"u": "https://raw.githubusercontent.com/standardebooks/stanley-g-weinbaum_the-dark-other/master/images/cover.source.jpg",
+"ow": 4000,
+"oh": 2199
+},
+"waterhouse-shalott": {
+"a": "John William Waterhouse",
+"t": "The Lady of Shalott",
+"y": "1888",
+"c": "Tate, London",
+"w": 1600,
+"h": 1228,
+"fp": "50% 45%",
+"avg": "#372d23",
+"src": "Frentan/paintings",
+"u": "https://raw.githubusercontent.com/Frentan/paintings/master/John_William_Waterhouse_-_The_Lady_of_Shalott_-_Google_Art_Project.jpg",
+"ow": 4180,
+"oh": 3208
+},
+"rossetti-lilith": {
+"a": "Dante Gabriel Rossetti",
+"t": "Lady Lilith",
+"y": "1866–68 (altered 1872–73)",
+"c": "Delaware Art Museum, Wilmington",
+"w": 1381,
+"h": 1600,
+"fp": "50% 40%",
+"avg": "#9c8263",
+"src": "standardebooks/george-macdonald_lilith",
+"u": "https://raw.githubusercontent.com/standardebooks/george-macdonald_lilith/master/images/cover.source.jpg",
+"ow": 2293,
+"oh": 2656
+},
+"millais-mariana": {
+"a": "John Everett Millais",
+"t": "Mariana",
+"y": "1851",
+"c": "Tate, London",
+"w": 1305,
+"h": 1600,
+"fp": "50% 40%",
+"avg": "#523f2c",
+"src": "standardebooks/william-shakespeare_measure-for-measure",
+"u": "https://raw.githubusercontent.com/standardebooks/william-shakespeare_measure-for-measure/master/images/cover.source.jpg",
+"ow": 2260,
+"oh": 2771
+},
+"mucha-serfdom": {
+"a": "Alphonse Mucha",
+"t": "The Abolition of Serfdom in Russia, from The Slav Epic",
+"y": "1914",
+"c": "The Slav Epic cycle, Prague",
+"w": 1600,
+"h": 1127,
+"fp": "50% 50%",
+"avg": "#bbaa99",
+"src": "standardebooks/nikolai-gogol_dead-souls_c-j-hogarth",
+"u": "https://raw.githubusercontent.com/standardebooks/nikolai-gogol_dead-souls_c-j-hogarth/master/images/cover.source.jpg",
+"ow": 1998,
+"oh": 1407
+},
+"beardsley-reward": {
+"a": "Aubrey Beardsley",
+"t": "The Dancer’s Reward (Salome)",
+"y": "1893",
+"c": "collection unrecorded",
+"w": 768,
+"h": 1047,
+"fp": "50% 50%",
+"avg": "#a3a3a3",
+"src": "rmartin99/rmartin99.github.io",
+"u": "https://raw.githubusercontent.com/rmartin99/rmartin99.github.io/UrquiagaReniAssignment5/images/artnouveau/TheDancersReward.jpg",
+"ow": 768,
+"oh": 1047
+},
+"moreau-oedipus": {
+"a": "Gustave Moreau",
+"t": "Oedipus and the Sphinx",
+"y": "1864",
+"c": "Metropolitan Museum of Art, New York",
+"w": 829,
+"h": 1600,
+"fp": "50% 45%",
+"avg": "#3b3526",
+"src": "standardebooks/sophocles_oedipus-rex_francis-storr",
+"u": "https://raw.githubusercontent.com/standardebooks/sophocles_oedipus-rex_francis-storr/master/images/cover.source.jpg",
+"ow": 2072,
+"oh": 4000
+},
+"bocklin-island": {
+"a": "Arnold Böcklin",
+"t": "The Island of Life",
+"y": "1888",
+"c": "Kunstmuseum Basel",
+"w": 1600,
+"h": 1068,
+"fp": "50% 50%",
+"avg": "#53504d",
+"src": "standardebooks/william-morris_the-water-of-the-wondrous-isles",
+"u": "https://raw.githubusercontent.com/standardebooks/william-morris_the-water-of-the-wondrous-isles/master/images/cover.source.jpg",
+"ow": 6701,
+"oh": 4473
+},
+"delville-plato": {
+"a": "Jean Delville",
+"t": "The School of Plato",
+"y": "1898",
+"c": "Musée d’Orsay, Paris",
+"w": 1600,
+"h": 685,
+"fp": "50% 50%",
+"avg": "#5c7f70",
+"src": "standardebooks/plato_dialogues_benjamin-jowett",
+"u": "https://raw.githubusercontent.com/standardebooks/plato_dialogues_benjamin-jowett/master/images/cover.source.jpg",
+"ow": 4198,
+"oh": 1798
+},
+"ensor-christ": {
+"a": "James Ensor",
+"t": "Christ’s Entry into Brussels in 1889",
+"y": "1888",
+"c": "J. Paul Getty Museum, Los Angeles",
+"w": 1600,
+"h": 912,
+"fp": "50% 50%",
+"avg": "#746251",
+"src": "standardebooks/leonid-andreyev_he-who-gets-slapped_gregory-zilboorg",
+"u": "https://raw.githubusercontent.com/standardebooks/leonid-andreyev_he-who-gets-slapped_gregory-zilboorg/master/images/cover.source.jpg",
+"ow": 12900,
+"oh": 7352
+},
+"munch-starry": {
+"a": "Edvard Munch",
+"t": "Starry Night",
+"y": "1893",
+"c": "J. Paul Getty Museum, Los Angeles",
+"w": 1600,
+"h": 1553,
+"fp": "50% 50%",
+"avg": "#32495e",
+"src": "standardebooks/matthew-arnold_poetry",
+"u": "https://raw.githubusercontent.com/standardebooks/matthew-arnold_poetry/master/images/cover.source.jpg",
+"ow": 3000,
+"oh": 2911
+},
+"pissarro-montmartre": {
+"a": "Camille Pissarro",
+"t": "The Boulevard Montmartre on a Winter Morning",
+"y": "1897",
+"c": "Metropolitan Museum of Art, New York",
+"w": 1600,
+"h": 1280,
+"fp": "50% 50%",
+"avg": "#958f87",
+"src": "standardebooks/emile-gaboriau_the-slaves-of-paris_charles-scribners-sons",
+"u": "https://raw.githubusercontent.com/standardebooks/emile-gaboriau_the-slaves-of-paris_charles-scribners-sons/master/images/cover.source.jpg",
+"ow": 2656,
+"oh": 2125
+},
+"sisley-flood": {
+"a": "Alfred Sisley",
+"t": "Flood at Port-Marly",
+"y": "1876",
+"c": "Musée d’Orsay, Paris",
+"w": 1300,
+"h": 945,
+"fp": "50% 50%",
+"avg": "#9f9b8a",
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/alfred-sisley--flooding-at-port-marly.jpg",
+"ow": 1300,
+"oh": 945
+},
+"monet-gare": {
+"a": "Claude Monet",
+"t": "La Gare Saint-Lazare",
+"y": "1877",
+"c": "Musée d’Orsay, Paris",
+"w": 1600,
+"h": 1291,
+"fp": "50% 50%",
+"avg": "#657380",
+"src": "standardebooks/e-nesbit_the-railway-children",
+"u": "https://raw.githubusercontent.com/standardebooks/e-nesbit_the-railway-children/master/images/cover.source.jpg",
+"ow": 3505,
+"oh": 2828
+},
+"cassatt-loge": {
+"a": "Mary Cassatt",
+"t": "In the Loge",
+"y": "1878",
+"c": "Museum of Fine Arts, Boston",
+"w": 1295,
+"h": 1600,
+"fp": "50% 40%",
+"avg": "#473627",
+"src": "standardebooks/edith-wharton_the-age-of-innocence",
+"u": "https://raw.githubusercontent.com/standardebooks/edith-wharton_the-age-of-innocence/master/images/cover.source.jpg",
+"ow": 1295,
+"oh": 1600
+},
+"rousseau-dream": {
+"a": "Henri Rousseau",
+"t": "The Dream",
+"y": "1910",
+"c": "Museum of Modern Art, New York",
+"w": 1600,
+"h": 1081,
+"fp": "50% 50%",
+"avg": "#353d1a",
+"src": "standardebooks/joseph-jacobs_indian-fairy-tales",
+"u": "https://raw.githubusercontent.com/standardebooks/joseph-jacobs_indian-fairy-tales/master/images/cover.source.jpg",
+"ow": 4483,
+"oh": 3028
+},
+"gauguin-vision": {
+"a": "Paul Gauguin",
+"t": "Vision after the Sermon (Jacob Wrestling with the Angel)",
+"y": "1888",
+"c": "National Galleries of Scotland, Edinburgh",
+"w": 1280,
+"h": 1010,
+"fp": "50% 50%",
+"avg": "#8a6862",
+"src": "yingang/modern-art-150-years",
+"u": "https://raw.githubusercontent.com/yingang/modern-art-150-years/main/docs/figures/04-13-vision-after-the-sermon.jpg",
+"ow": 1280,
+"oh": 1010
+},
+"vg-nightcafe": {
+"a": "Vincent van Gogh",
+"t": "The Night Café",
+"y": "1888",
+"c": "Yale University Art Gallery, New Haven",
+"w": 1280,
+"h": 1010,
+"fp": "50% 50%",
+"avg": "#7a6332",
+"src": "yingang/modern-art-150-years",
+"u": "https://raw.githubusercontent.com/yingang/modern-art-150-years/main/docs/figures/04-05-the-night-cafe.jpg",
+"ow": 1280,
+"oh": 1010
+},
+"seurat-parade": {
+"a": "Georges Seurat",
+"t": "Circus Sideshow (Parade de cirque)",
+"y": "1887–88",
+"c": "Metropolitan Museum of Art, New York",
+"w": 1600,
+"h": 1070,
+"fp": "50% 50%",
+"avg": "#4e4344",
+"src": "standardebooks/luigi-pirandello_six-characters-in-search-of-an-author_edward-storer",
+"u": "https://raw.githubusercontent.com/standardebooks/luigi-pirandello_six-characters-in-search-of-an-author_edward-storer/master/images/cover.source.jpg",
+"ow": 3920,
+"oh": 2621
+},
+"roerich-bridge": {
+"a": "Nicholas Roerich",
+"t": "The Bridge of Glory",
+"y": "1923",
+"c": "Nicholas Roerich Museum, New York",
+"w": 1600,
+"h": 793,
+"fp": "50% 50%",
+"avg": "#50567b",
+"src": "standardebooks/h-p-lovecraft_at-the-mountains-of-madness",
+"u": "https://raw.githubusercontent.com/standardebooks/h-p-lovecraft_at-the-mountains-of-madness/master/images/cover.source.jpg",
+"ow": 1800,
+"oh": 892
+},
+"matisse-dance": {
+"a": "Henri Matisse",
+"t": "Dance",
+"y": "1910",
+"c": "Hermitage, St Petersburg",
+"w": 1600,
+"h": 1102,
+"fp": "50% 50%",
+"avg": "#5a484d",
+"src": "foreverdesmond/world-famous-paintings-puzzle-game",
+"u": "https://raw.githubusercontent.com/foreverdesmond/world-famous-paintings-puzzle-game/main/assets/paintings/the-dance__henri-matisse.jpg",
+"ow": 1920,
+"oh": 1322
+},
+"matisse-joy": {
+"a": "Henri Matisse",
+"t": "Le Bonheur de vivre (The Joy of Life)",
+"y": "1905–06",
+"c": "Barnes Foundation, Philadelphia",
+"w": 1088,
+"h": 784,
+"fp": "50% 50%",
+"avg": "#ad9574",
+"src": "yingang/modern-art-150-years",
+"u": "https://raw.githubusercontent.com/yingang/modern-art-150-years/main/docs/figures/06-05-the-joy-of-life.jpg",
+"ow": 1088,
+"oh": 784
+},
+"marc-bluehorses": {
+"a": "Franz Marc",
+"t": "The Large Blue Horses",
+"y": "1911",
+"c": "Walker Art Center, Minneapolis",
+"w": 1470,
+"h": 843,
+"fp": "50% 50%",
+"avg": "#474867",
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/franz-marc--blue-horses.jpg",
+"ow": 1470,
+"oh": 843
+},
+"kirchner-berlin": {
+"a": "Ernst Ludwig Kirchner",
+"t": "Street, Berlin",
+"y": "1913",
+"c": "Museum of Modern Art, New York",
+"w": 1210,
+"h": 1600,
+"fp": "50% 40%",
+"avg": "#645763",
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/ernst-ludwig-kirchner--street-berlin.jpg",
+"ow": 1512,
+"oh": 2000
+},
+"picasso-demoiselles": {
+"a": "Pablo Picasso",
+"t": "Les Demoiselles d’Avignon",
+"y": "1907",
+"c": "Museum of Modern Art, New York",
+"w": 1544,
+"h": 1600,
+"fp": "50% 45%",
+"avg": "#ac8a82",
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/pablo-picasso--les-demoiselles-d-avignon.jpg",
+"ow": 1920,
+"oh": 1989
+},
+"gris-tablecloth": {
+"a": "Juan Gris",
+"t": "Still Life with Checked Tablecloth",
+"y": "1915",
+"c": "Metropolitan Museum of Art, New York",
+"w": 1239,
+"h": 1600,
+"fp": "50% 50%",
+"avg": "#4a534d",
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/juan-gris--still-life-with-checked-tablecloth.jpg",
+"ow": 1920,
+"oh": 2480
+},
+"delaunay-tower": {
+"a": "Robert Delaunay",
+"t": "Champs de Mars: The Red Tower",
+"y": "1911/23",
+"c": "Art Institute of Chicago",
+"w": 1000,
+"h": 1256,
+"fp": "50% 45%",
+"avg": "#816c64",
+"src": "kiarashfa/Galerium",
+"u": "https://raw.githubusercontent.com/kiarashfa/Galerium/main/public/images/paintings/robert-delaunay--champs-de-mars-the-red-tower.jpg",
+"ow": 1000,
+"oh": 1256
+},
+"leger-city": {
+"a": "Fernand Léger",
+"t": "Men in the City",
+"y": "1919",
+"c": "Peggy Guggenheim Collection, Venice",
+"w": 921,
+"h": 1200,
+"fp": "50% 50%",
+"avg": "#7c7364",
+"src": "yingang/modern-art-150-years",
+"u": "https://raw.githubusercontent.com/yingang/modern-art-150-years/main/docs/figures/15-01-men-in-the-city.jpg",
+"ow": 921,
+"oh": 1200
+},
+"boccioni-go": {
+"a": "Umberto Boccioni",
+"t": "States of Mind: Those Who Go",
+"y": "1911",
+"c": "Museum of Modern Art, New York",
+"w": 1600,
+"h": 1190,
+"fp": "50% 50%",
+"avg": "#4f5967",
+"src": "standardebooks/andre-norton_star-hunter",
+"u": "https://raw.githubusercontent.com/standardebooks/andre-norton_star-hunter/master/images/cover.source.jpg",
+"ow": 3300,
+"oh": 2454
+},
+"severini-tabarin": {
+"a": "Gino Severini",
+"t": "Dynamic Hieroglyphic of the Bal Tabarin",
+"y": "1912",
+"c": "Museum of Modern Art, New York",
+"w": 1024,
+"h": 1050,
+"fp": "50% 50%",
+"avg": "#a09187",
+"src": "standardebooks/aldous-huxley_point-counter-point",
+"u": "https://raw.githubusercontent.com/standardebooks/aldous-huxley_point-counter-point/master/images/cover.source.jpg",
+"ow": 1024,
+"oh": 1050
+},
+"russolo-rivolta": {
+"a": "Luigi Russolo",
+"t": "The Revolt (La Rivolta)",
+"y": "1911",
+"c": "Kunstmuseum Den Haag",
+"w": 1067,
+"h": 1600,
+"fp": "50% 50%",
+"avg": "#955c48",
+"src": "standardebooks/h-beam-piper_short-fiction",
+"u": "https://raw.githubusercontent.com/standardebooks/h-beam-piper_short-fiction/master/images/cover.source.jpg",
+"ow": 1400,
+"oh": 2100
+},
+"rodchenko-pure": {
+"a": "Alexander Rodchenko",
+"t": "Pure Red Colour, Pure Yellow Colour, Pure Blue Colour (triptych)",
+"y": "1921",
+"c": "Rodchenko and Stepanova archive, Moscow",
+"w": 1243,
+"h": 476,
+"fp": "50% 50%",
+"avg": "#7a3724",
+"src": "yingang/modern-art-150-years",
+"u": "https://raw.githubusercontent.com/yingang/modern-art-150-years/main/docs/figures/10-06-pure-red-color-pure-yellow-color-pure-blue-color.jpg",
+"ow": 1243,
+"oh": 476
+},
+"malevich-square": {
+"a": "Kazimir Malevich",
+"t": "Black Square",
+"y": "1915",
+"c": "Tretyakov Gallery, Moscow (a small reproduction: the work is a black square)",
+"w": 1024,
+"h": 1028,
+"fp": "50% 50%",
+"avg": "#7a7b83",
+"src": "yingang/modern-art-150-years",
+"u": "https://raw.githubusercontent.com/yingang/modern-art-150-years/main/docs/figures/10-02-black-square.jpg",
+"ow": 1024,
+"oh": 1028
+},
+"duchamp-king": {
+"a": "Marcel Duchamp",
+"t": "The King and Queen Surrounded by Swift Nudes",
+"y": "1912",
+"c": "Philadelphia Museum of Art",
+"w": 1600,
+"h": 1474,
+"fp": "50% 50%",
+"avg": "#827746",
+"src": "standardebooks/philip-francis-nowlan_the-airlords-of-han",
+"u": "https://raw.githubusercontent.com/standardebooks/philip-francis-nowlan_the-airlords-of-han/master/images/cover.source.jpg",
+"ow": 1617,
+"oh": 1490
+},
+"schwitters-revolving": {
+"a": "Kurt Schwitters",
+"t": "Revolving (Das Kreisen)",
+"y": "1919",
+"c": "Museum of Modern Art, New York",
+"w": 1168,
+"h": 1600,
+"fp": "50% 50%",
+"avg": "#625645",
+"src": "yingang/modern-art-150-years",
+"u": "https://raw.githubusercontent.com/yingang/modern-art-150-years/main/docs/figures/13-03-revolving.jpg",
+"ow": 1460,
+"oh": 2000
+},
+"arp-collage": {
+"a": "Jean (Hans) Arp",
+"t": "Untitled (Collage with Squares Arranged according to the Laws of Chance)",
+"y": "1916–17",
+"c": "Museum of Modern Art, New York",
+"w": 1133,
+"h": 1600,
+"fp": "50% 50%",
+"avg": "#919998",
+"src": "yingang/modern-art-150-years",
+"u": "https://raw.githubusercontent.com/yingang/modern-art-150-years/main/docs/figures/13-02-collage-with-squares-arranged-according-to-the-laws-of-chance.jpg",
+"ow": 1416,
+"oh": 2000
+},
+"kandinsky-circles": {
+"a": "Wassily Kandinsky",
+"t": "Circles in a Circle",
+"y": "1923",
+"c": "Philadelphia Museum of Art",
+"w": 1548,
+"h": 1600,
+"fp": "50% 50%",
+"avg": "#aa9f8e",
+"src": "standardebooks/robert-sheckley_short-fiction",
+"u": "https://raw.githubusercontent.com/standardebooks/robert-sheckley_short-fiction/master/images/cover.source.jpg",
+"ow": 1740,
+"oh": 1799
+},
+"hiroshige-shower": {
+"a": "Utagawa Hiroshige",
+"t": "Sudden Shower over Shin-Ōhashi Bridge and Atake, from One Hundred Famous Views of Edo",
+"y": "1857",
+"c": "woodblock print; impressions in many collections",
+"w": 1051,
+"h": 1600,
+"fp": "50% 50%",
+"avg": "#828077",
+"src": "nakitamray/placard",
+"u": "https://raw.githubusercontent.com/nakitamray/placard/main/data/artworks/hiroshige-sudden-shower/source.jpg",
+"ow": 3840,
+"oh": 5847
+},
+"utamaro-beauties": {
+"a": "Kitagawa Utamaro",
+"t": "Three Beauties of the Present Day",
+"y": "c. 1793",
+"c": "woodblock print; impressions in many collections",
+"w": 960,
+"h": 1410,
+"fp": "50% 40%",
+"avg": "#a19786",
+"src": "PJ-Finlay/Neural-Style-Transfer-Images",
+"u": "https://raw.githubusercontent.com/PJ-Finlay/Neural-Style-Transfer-Images/main/originals/three_beauties_of_the_present_time.jpeg",
+"ow": 960,
+"oh": 1410
+},
+"gukaizhi-admonitions": {
+"a": "Gu Kaizhi",
+"t": "Admonitions of the Court Instructress (the Admonitions Scroll; a Tang-dynasty copy after Gu Kaizhi)",
+"y": "5th–8th century",
+"c": "British Museum, London",
+"w": 1600,
+"h": 683,
+"fp": "50% 50%",
+"avg": "#8f7338",
+"src": "nakitamray/placard",
+"u": "https://raw.githubusercontent.com/nakitamray/placard/main/data/artworks/gu-kaizhi-admonitions/source.jpg",
+"ow": 1872,
+"oh": 799
+},
+"wanghui-kangxi": {
+"a": "Wang Hui",
+"t": "The Kangxi Emperor’s Southern Inspection Tour, Scroll Three: Ji’nan to Mount Tai",
+"y": "1698",
+"c": "Metropolitan Museum of Art, New York",
+"w": 1600,
+"h": 808,
+"fp": "50% 50%",
+"avg": "#9a8e6e",
+"src": "standardebooks/laozi_tao-te-ching_james-legge",
+"u": "https://raw.githubusercontent.com/standardebooks/laozi_tao-te-ching_james-legge/master/images/cover.source.jpg",
+"ow": 5656,
+"oh": 2858
+},
+"byz-pantocrator": {
+"a": "Unknown Byzantine mosaicist",
+"t": "Christ Pantocrator (Deësis mosaic)",
+"y": "c. 1261",
+"c": "Hagia Sophia, Istanbul",
+"w": 1514,
+"h": 1600,
+"fp": "50% 35%",
+"avg": "#b6957b",
+"src": "PJ-Finlay/Neural-Style-Transfer-Images",
+"u": "https://raw.githubusercontent.com/PJ-Finlay/Neural-Style-Transfer-Images/main/originals/christ_pantocrator.jpeg",
+"ow": 2744,
+"oh": 2900
+},
+"wood-gothic": {
+"a": "Grant Wood",
+"t": "American Gothic",
+"y": "1930",
+"c": "Art Institute of Chicago",
+"w": 1331,
+"h": 1600,
+"fp": "50% 35%",
+"avg": "#696960",
+"src": "foreverdesmond/world-famous-paintings-puzzle-game",
+"u": "https://raw.githubusercontent.com/foreverdesmond/world-famous-paintings-puzzle-game/main/assets/paintings/american-gothic__grant-wood.jpg",
+"ow": 1872,
+"oh": 2250
+},
+"whistler-mother": {
+"a": "James McNeill Whistler",
+"t": "Arrangement in Grey and Black No. 1 (Whistler’s Mother)",
+"y": "1871",
+"c": "Musée d’Orsay, Paris",
+"w": 1600,
+"h": 1423,
+"fp": "50% 45%",
+"avg": "#4e4c3d",
+"src": "foreverdesmond/world-famous-paintings-puzzle-game",
+"u": "https://raw.githubusercontent.com/foreverdesmond/world-famous-paintings-puzzle-game/main/assets/paintings/whistler-s-mother__james-mcneill-whistler.jpg",
+"ow": 1920,
+"oh": 1708
+},
+"eakins-gross": {
+"a": "Thomas Eakins",
+"t": "The Gross Clinic",
+"y": "1875",
+"c": "Philadelphia Museum of Art and Pennsylvania Academy of the Fine Arts",
+"w": 1290,
+"h": 1600,
+"fp": "50% 45%",
+"avg": "#2e2824",
+"src": "standardebooks/dorothy-l-sayers_whose-body",
+"u": "https://raw.githubusercontent.com/standardebooks/dorothy-l-sayers_whose-body/master/images/cover.source.jpg",
+"ow": 4537,
+"oh": 5627
+},
+"sargent-carnation": {
+"a": "John Singer Sargent",
+"t": "Carnation, Lily, Lily, Rose",
+"y": "1885–86",
+"c": "Tate, London",
+"w": 1416,
+"h": 1600,
+"fp": "50% 50%",
+"avg": "#51575e",
+"src": "standardebooks/tanizaki-junichiro_short-fiction_various-translators",
+"u": "https://raw.githubusercontent.com/standardebooks/tanizaki-junichiro_short-fiction_various-translators/master/images/cover.source.jpg",
+"ow": 3330,
+"oh": 3762
+},
+"hammershoi-strandgade": {
+"a": "Vilhelm Hammershøi",
+"t": "Interior in Strandgade, Sunlight on the Floor",
+"y": "1901",
+"c": "Statens Museum for Kunst, Copenhagen",
+"w": 1600,
+"h": 1402,
+"fp": "50% 50%",
+"avg": "#867b78",
+"src": "standardebooks/dorothy-m-richardson_honeycomb",
+"u": "https://raw.githubusercontent.com/standardebooks/dorothy-m-richardson_honeycomb/master/images/cover.source.jpg",
+"ow": 2337,
+"oh": 2048
+},
+"stubbs-whistlejacket": {
+"a": "George Stubbs",
+"t": "Whistlejacket",
+"y": "c. 1762",
+"c": "National Gallery, London",
+"w": 1334,
+"h": 1600,
+"fp": "50% 45%",
+"avg": "#77613c",
+"src": "nakitamray/placard",
+"u": "https://raw.githubusercontent.com/nakitamray/placard/main/data/artworks/stubbs-whistlejacket/source.jpg",
+"ow": 3840,
+"oh": 4604
 }
 }

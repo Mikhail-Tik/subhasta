@@ -68,7 +68,7 @@ const fs = require('fs'), path = require('path'), vm = require('vm');
 const ROOT = path.resolve(__dirname, '..');
 const SRC = path.join(ROOT, 'src');
 const DATA_FILES = ['data_houses.js', 'data_market.js', 'data_more.js', 'data_people.js', 'data_reel.js', 'data_under.js', 'data_pulse.js', 'data_atlas.js', 'data_world.js', 'data_flows.js', 'data_globe.js', 'data_circle.js', 'data_bench.js', 'data_movements.js', 'data_live.js', 'data_places.js'];
-const ENGINE_FILES = ['app.js', 'reel.js', 'under.js', 'pulse.js', 'atlas.js', 'clinic.js', 'globe.js', 'circle.js', 'lab.js', 'lab_prov.js', 'lab_hands.js', 'today.js', 'move.js', 'ask.js', 'world.js'];
+const ENGINE_FILES = ['app.js', 'reel.js', 'under.js', 'pulse.js', 'atlas.js', 'clinic.js', 'globe.js', 'circle.js', 'lab.js', 'lab_prov.js', 'lab_hands.js', 'today.js', 'move.js', 'ask.js', 'world.js', 'library.js', 'compare.js'];
 const IMG_META = path.join(ROOT, 'data', 'images_meta.json');
 const IMG_DIR = path.join(ROOT, 'build', 'img');
 const THUMB_DIR = path.join(ROOT, 'build', 'img', 't');
@@ -885,10 +885,11 @@ function checkPlaces(D) {
   for (const id of mvIds) if (!Array.isArray(M[id]) || !M[id].length) F.error(R, at('MOVEMENT_LL', `MOVEMENT_LL ${q(id)}`), 'movement has no centre; the World cannot place it');
   for (const [id, cities] of Object.entries(M)) { if (!mvIds.has(id)) F.error(R, at('MOVEMENT_LL', `MOVEMENT_LL ${q(id)}`), 'no such movement'); for (const c of cities || []) if (!C[c]) F.error(R, at('MOVEMENT_LL', `MOVEMENT_LL ${q(id)}`), `centre ${q(c)} is not in CITY_LL`); }
   const names = new Set([...(D.RESULTS || []).map(r => r.artist), ...(D.RESULTS_MORE || []).map(r => r.artist)]); (D.MOVEMENTS || []).forEach(m => (m.artists || []).forEach(a => names.add(typeof a === 'string' ? a : a && a.n)));
+  try { Object.values(JSON.parse(fs.readFileSync(IMG_META, 'utf8'))).forEach(m => names.add(m.a)); } catch (e) {}   /* a painter with a picture in the library belongs on the globe too */
   for (const [a, v] of Object.entries(B)) {
     if (!Array.isArray(v) || !C[v[0]]) F.error(R, at('ARTIST_BORN', `ARTIST_BORN ${q(a)}`), `birthplace ${q(v && v[0])} is not in CITY_LL`);
     else if (!Number.isFinite(v[1]) || (v[2] != null && (!Number.isFinite(v[2]) || v[2] < v[1]))) F.error(R, at('ARTIST_BORN', `ARTIST_BORN ${q(a)}`), `years must be [born, died|null], got ${JSON.stringify(v.slice(1))}`);
-    if (!names.has(a)) F.warn(R, at('ARTIST_BORN', `ARTIST_BORN ${q(a)}`), 'artist is in no lot or movement');
+    if (!names.has(a)) F.warn(R, at('ARTIST_BORN', `ARTIST_BORN ${q(a)}`), 'artist is in no lot, movement or picture');
   }
   let missing = 0; for (const a of names) if (a && !B[a] && !/\(|workshops|painters|artists|Codex|ware|Roman|United States|Hermès|Patek|Mercedes|Diamond|Dinosaur|Jordan|Larva|XCOPY|Beeple|Banksy/.test(a)) missing++;
   if (missing) F.info(R, at('ARTIST_BORN', 'ARTIST_BORN'), `${missing} named artists have no birthplace yet (they stay off the Then layer)`);

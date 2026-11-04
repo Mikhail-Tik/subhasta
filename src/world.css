@@ -126,3 +126,13 @@
 }
 @media (prefers-reduced-motion:reduce){.wd-cv{cursor:default}}
 @media print{.wd-stage,.wd-foot,.wd-strip,.wd-card{display:none}}
+
+/* the readings (v23): three computed pills under the modes; the card explains each */
+.wd-readings{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:14px;max-width:460px}
+.wd-readings .label{margin-right:4px}
+.wd-rd{font-size:12px;padding:4px 10px;border:1px solid var(--rule2);border-radius:999px;color:var(--ink);background:color-mix(in srgb,var(--paper2) 70%,transparent);cursor:pointer;font-variant-numeric:tabular-nums}
+.wd-rd:hover{border-color:var(--gilt);color:var(--gilt2)}
+.wd-rd.more{color:var(--ink3)}
+.wd-rdg b{display:block;font-family:var(--read);font-weight:400;font-size:15px;line-height:1.45;color:var(--ink)}
+.wd-rdg p{margin:6px 0 8px;font-size:13px;color:var(--ink2);line-height:1.5}
+@media (max-width:760px){.wd-readings{max-width:none}}
