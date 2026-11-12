@@ -665,3 +665,55 @@ Nothing approaches the 300 ms threshold, so no optimisation was made. The only r
 5. Light-theme `--ink2` (#59605a) and the nudged `--ink3` (#6d6a61) are now close in lightness; the hierarchy survives through size and italics, but a designer may want to pull `--ink2` slightly darker (e.g. #50574f, 6.0:1) to restore the step.
 6. `.pal .ri` result rows are mouse-only; arrow keys and Enter already drive the palette, so this is a polish item (`role=listbox/option`, `aria-activedescendant`).
 7. Table rows show the gilt outline on focus; on the light theme this is strong but legible. A designer may prefer the row-background highlight alone (`.tbl tr.clk:focus-visible td{background:var(--paper2)}`).
+
+
+---
+
+<!-- the v25 engine audit, 9 November 2026 -->
+# Subhasta — the Navigator's engine, audited (9 November 2026)
+
+A fresh agent that had not seen the engine written re-derived every figure `navPlan`, `navExport` and the ledger compute, against the sources the terminal cites and the primary pages it could open (a read-only harness, `scratchpad/v25/harness.js`, drove the arithmetic). Its JSON is `data/research/bundle.json` → `v25.audit_engine`. The working copy changed under it (the preliminary findings were applied as they arrived), so each finding carries a status: **applied** (confirmed in the live files by the harness) or **open** (applied by the owner afterwards, 12 November, where marked in REFRESH step 23 and ARCHITECTURE §16; the rest wait for a refresh that opens the page).
+
+| Severity | Status at the audit | Where | Finding |
+|---|---|---|---|
+| high | applied | src/nav.js navPlan, the ledger (else-branch): line('impvat') and line('duty'); gate 4 | Any route whose two ends differed charged the destination’s import VAT on the price, including routes between two EU members (fr→de showed ‘Import VAT in German |
+| high | applied | src/data_nav.js NAV_RULES.in.exp.needs (and nav.js navHit) | India’s only row was {cat:'any', age:100, value:0, bar:true}; the declared art treasures sat in exp.artists but no row carried artists:true, so a 1935 Amrita Sh |
+| high | applied (residual simplification noted) | src/data_nav.js NAV_RULES.kr.imp (was vat_rate 0.10, ‘10% VAT on import (U)’) | The Navigator charged 10% import VAT on a painting entering South Korea; the terminal’s own REGIMES row for Korea (src/data_atlas.js) says the opposite. |
+| medium | applied except China | src/data_nav.js NAV_RULES.*.imp.duty_rate (was 0 for all 22 jurisdictions) and nav.js ledger | duty_rate was 0 everywhere while the duty text said 5% (ae, qa, sa), 10% plus surcharge (in), ‘up to 6%’ (cn) and 4% (br); the ledger never showed a duty line a |
+| medium | open | src/data_nav.js NAV_RULES.cn.imp (duty ‘reported at up to 6%… a cut to 1% could not be confirmed’; duty_rate 0 | The two tables disagree on China’s duty, and the Navigator charges none. |
+| medium | open | src/data_nav.js NAV_RULES.in.imp.vat_rate 0.12 (‘IGST on import: 12% on paintings and sculpture (U)’) versus R | The Navigator charges 12% IGST on a painting entering India. |
+| medium | applied | src/nav.js navPlan gate 4 and the ledger, from==='freeport' && navKey(to)==='ch' | A work leaving the Geneva freeport into Switzerland showed ‘The work does not cross a border’ and no VAT line, although the freeport gate said the 8.1% falls du |
+| medium | applied | src/nav.js navPlan gate 1, the fundsRu branch (was ‘closed’ for every sanctioning sale-room country) | Money in a Russian bank closed the route with one text for all rooms: the CBR cap ‘on a resident’, Russian banks off SWIFT, ‘EU banks may not hold more than €10 |
+| low | applied | src/nav.js navPlan gate 1, the buyerRu branch for navKey(from)==='ch' | A Russia-resident buyer in a Swiss room was told ‘EU Regulation 833/2014, Article 3h, bars…’. |
+| low | applied | src/data_nav.js NAV_RULES.it.exp (rows bite on 70 years and €50,000 alone) and nav.js navExport | A 1949 painting by a living artist was told ‘A licence: paintings over 70 years old and €50,000’. |
+| low | applied | src/nav.js navPlan: const icg (was age>=200 && V>=€18,000 for any work entering the EU from outside) | The EU importer statement was required for any work over 200 years old and €18,000 entering the EU. |
+| medium | applied | src/nav.js navPlan ledger, mode 'consign' | Sending one’s own work abroad to sell charged the destination’s import VAT on the value to the consignor ($50,000 on $1m consigned from New York to London). |
+| low | applied | src/nav.js NAV_SANCTIONING (had 'kr') versus NAV_RULES.kr.sanctions (‘art not covered’) | A route from South Korea to Russia was closed with the luxury-goods-ban text while the Korean row said Korea’s measures are export controls on strategic goods. |
+| low | applied | src/nav.js navPlan ledger, the model branch (flowModel was always called with imported:false) | An auction purchase in London or Paris was always a non-imported lot. |
+| medium | open | src/data_nav.js NAV_MOSCOW.gates[3] (‘Luxury-goods bans’): ‘it is prohibited to export works of art worth £250 | The UK luxury-goods ban on works of art has a £250 threshold (sourced to a Women Art Dealers blog). |
+| low | open | src/nav.js navPlan gate 1 (fundsRu text: ‘the central bank caps a resident’s transfers abroad at $1m a month’) | The CBR’s $1m-a-month cap is stated as a current rule without a date; the research dates its last confirmed extension to 1 Oct 2025–31 Mar 2026. |
+| low | open | src/app.js SCHED (christies [[2e6,.28],[8e6,.22],[Infinity,.15]] ‘from 1 Sept 2026’; phillips 29/22/15 ‘from 1 | Christie’s and Sotheby’s share the 28/22/15 schedule; Phillips 29/22/15; Bonhams 30/28/25/21/14. |
+| low | open (date to add) | src/nav.js gate 7 and the usetax ledger line (‘Washington DC 6%’); DESTS/VENUES unaffected | The District of Columbia use tax is 6%. |
+| low | open | src/nav.js navPlan ledger: const vat=(price+duty)*vatRate | Import VAT is charged on the price (plus duty) alone. |
+| low | open | src/nav.js navExport (E.tax) and the exptax ledger line for routes from Spain to another EU member | Spain’s export tax is charged on a definitive export to any other country, including France (es→fr, 1880 painting, $1.5m → 30% band, $450,000). |
+| low | open | src/nav.js navPlan gate 2: obliged && V>=10000 | The money-laundering gate turns ‘conditional’ at $10,000. |
+| low | open | src/data_nav.js NAV_RULES.fr.exp.needs ‘paper’ row (€20,000, prints) used for ‘A drawing or print’ | A drawing from France is tested against the prints threshold (€20,000). |
+
+**Confirmed against sources:** 18 figures (the Sotheby's 28/22/15 schedule; UK Schedule 3A para 21 with no threshold; the UK OGEL thresholds; France's 2021 thresholds; Germany's § 24 KGSG; Italy's €50,000; Spain's bands; EU 2019/880; the apostille status table of 30 June 2026; the CBR limits to 31 March 2026; DC 6% to September 2027; Korea's exemption; China 1% + 13%; India 5%; Phillips 29/22/15; the flowModel arithmetic).
+
+**Still unconfirmed after the audit (13):**
+- Christie’s 28% to $2m / 22% / 15% ‘from 1 Sept 2026’ and Bonhams’ five tiers ‘from 1 Oct 2026’ (the trade press confirms changes in September 2026, not the figures); the houses’ own pages were not reachable within the allow-list.
+- Whether the Bank of Russia renewed the $1m-a-month cap for April–September 2026 and October 2026–March 2027 (last confirmed to 31 Mar 2026).
+- Switzerland’s CHF 300 luxury-goods threshold and the SECO page; the Swiss AMLA CHF 100,000 cash rule (art. 8a) and the KGTG CHF 5,000 due-diligence line (carried from the terminal, not opened).
+- The GCC 5% duty on works of art for the UAE, Qatar and Saudi Arabia, Saudi’s 15% VAT, Brazil’s 4% II and 18% ICMS, Mexico’s 16% IVA and 0% duty, Australia’s 10% GST, Japan’s 10% consumption tax, Singapore’s 9% GST, Hong Kong’s zero (all plausible and consistent with memory; not re-opened this sessio
+- The EU VAT rates the Navigator carries (France 5.5%, Germany 7%, Italy 5% since 1 Jul 2025 — the brief’s ‘Italy 10%’ is the pre-July-2025 rate —, Netherlands 9%, Spain 10%) and the UK’s effective 5% import VAT and 20% on the premium: carried from the terminal’s own primary citations (BOFiP, BMF, Ass
+- The UK Artist’s Resale Right in sterling since 1 Apr 2024 (£1,000 threshold, £12,500 cap, bands at £50,000/£200,000/£350,000/£500,000) and France’s €750 threshold and €12,500 cap: the arithmetic matches Directive 2001/84 and the gov.uk guidance the terminal cites, but gov.uk was not opened this sess
+- US EAR Supplement No. 5 to Part 746 ($300 per unit for chapter 97) and EU Regulation 833/2014 Art. 3h (€300) and Art. 5b (€100,000): read by the research on a mirror and on K&L Gates / gesetze.legal; not re-opened.
+- New York’s non-resident purchase exemption (Tax Law §1118(2), TSB-A-08(7)S) and the credit for sales tax paid elsewhere; the DC credit rule.
+- Mexico’s list of artists declared artistic monuments (the data’s eleven names) and India’s nine declared art treasures beyond the five named in the row.
+- Whether Spain levies the export tax on definitive exits to other EU member states in practice (the statute’s text has no EU exemption).
+- The Phillips French and Geneva VAT guides behind VENUES.paris (5.5% on hammer plus premium for imported lots) and VENUES.geneva (8.1% on hammer plus premium): cited by the terminal with dates, not re-opened; Christie’s and Sotheby’s Geneva practice may differ (margin-scheme lots taxed on the premium
+- The ICG system’s name (EU CSW-CERTEX) and the 90-day licence decision period.
+- NAV_FEES (condition report, crate, freight, insurance 0.15–0.45%, broker, installation, legalisation): indicative trade figures from one shipper’s playbook; not re-checked.
+
+Applied on 12 November 2026 from the open list: China's duty at 1% with 13% VAT on the duty-paid value; India's IGST at 5%; the Moscow case's gate 4 without the £250 threshold (and `ATLAS.luxuryban` likewise, with the legislation.gov.uk text in force as the first source); the CBR cap dated; DC's 7% from 1 October 2027 noted; the VAT base noted on the ledger line; Spain's export tax noted as unverified for a move within the Union; the money-laundering gate compared in euros; Korea's note on editions. Christie's and Bonhams's 2026 tiers stay flagged in the Lexicon until read on the houses' own pages; France's paper row keeps the lowest threshold and says so in the gate text's source.

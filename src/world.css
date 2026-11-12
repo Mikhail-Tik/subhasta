@@ -137,3 +137,28 @@
 .wd-rdg b{display:block;font-family:var(--read);font-weight:400;font-size:15px;line-height:1.45;color:var(--ink)}
 .wd-rdg p{margin:6px 0 8px;font-size:13px;color:var(--ink2);line-height:1.5}
 @media (max-width:760px){.wd-readings{max-width:none}}
+/* the Net (v25): the lenses, the layers, the replay */
+.wd-net{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:10px;font-size:12px}
+.wd-net .label{margin-right:2px}
+.wd-net .sep{width:1px;height:14px;background:var(--rule2);margin:0 6px}
+.wd-lens,.wd-layer,.wd-replay,.wd-years,.wd-markets{border:1px solid var(--rule2);border-radius:12px;padding:3px 10px;font-size:12px;color:var(--ink2);background:color-mix(in srgb,var(--paper) 70%,transparent);cursor:pointer;backdrop-filter:blur(4px)}
+.wd-lens:hover,.wd-layer:hover,.wd-replay:hover,.wd-years:hover,.wd-markets:hover{color:var(--ink);border-color:var(--ink3)}
+.wd-lens.on,.wd-layer.on{background:var(--gilt);border-color:var(--gilt);color:var(--ongilt)}
+.wd-replay{border-color:var(--gilt);color:var(--gilt)}
+.wd-replay[aria-pressed="true"]{background:var(--live);border-color:var(--live);color:#fff}
+.wd-zoomk{color:var(--ink3);font-variant-numeric:tabular-nums;margin-left:4px}
+.wd-legend i.node{background:transparent;border:1.5px solid var(--ink);box-shadow:none}
+.wd-legend i.web{background:var(--ink3);height:2px;border-radius:1px;width:14px;box-shadow:none}
+.wd-legend i.in{background:var(--gilt);height:2px;border-radius:1px;width:14px;box-shadow:none}
+.wd-legend i.out{background:var(--lapis);height:2px;border-radius:1px;width:14px;box-shadow:none}
+.wd-ev.player b,.wd-ev.lot b{display:block}
+.wd-person{font-size:13px;line-height:1.4;margin:0 0 6px}
+.wd-person .faint{font-size:12px}
+.wd-acts{display:flex;flex-wrap:wrap;gap:6px}
+/* the seven years and the markets: cards from the Net's controls */
+.wd-year b,.wd-market b{display:inline-block;font-size:14px;margin-right:6px}
+.wd-year p,.wd-market p{font-size:13px;line-height:1.45;margin:4px 0}
+.wd-year p .label{display:inline;margin-right:4px}
+.wd-srcs{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center;font-size:12px;margin:4px 0 6px}
+.wd-year .btn,.wd-market .btn{margin-top:2px}
+@media (max-width:760px){.wd-net{font-size:11.5px}.wd-lens,.wd-layer,.wd-replay,.wd-years,.wd-markets{padding:3px 8px;font-size:11.5px}}

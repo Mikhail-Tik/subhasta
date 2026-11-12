@@ -15,6 +15,8 @@ const CIRCLE={
    'The Lab: {labPeriods} holding periods against the S&P 500, gold and inflation, the round trip, {provThrough} histories read for 1933 to 1945 and {holdings} holdings dated',
    'The Navigator: a work, a route and the money, and the gates, the papers and the landed cost from the laws of {navRules} jurisdictions',
    'The Season: the fairs, sales, biennales and shows ahead, with the organisers’ ticket pages; the Horizon: eighteen theses on the next thirty years, each with its evidence',
+   'The Net: {players} players in {netCities} cities on the globe, who fronts them and whom they represent, and the money behind {flows} major sales since 2020, consignor to room to buyer',
+   'The Transformation: a sum, a room, a freeport and the way back, walked through the six stages the regulators watch, with the framework behind each gate',
    'The Salon board and a member card, signed in; mark where you are going and the room sees you there',
    'The Reel']},
   {id:'private',n:'Private',who:'One reader, one desk.',price:'On request',mark:true,act:['invite','Request an invitation'],items:[
@@ -23,11 +25,13 @@ const CIRCLE={
    'The Clinic and Follow the money with your own numbers; nothing you type leaves your browser',
    'The Atlas’s {regimes} regimes side by side — import VAT, sales tax, resale right, AML, export control — as a sheet to print',
    'The Navigator’s plan for your own route, printed, with the law behind each gate; the Horizon’s theses as a quarterly letter',
+   'The Transformation for your own sum and route, printed, with the controls named and the ledger of what arrives',
    'Priority corrections: a figure you dispute is re-checked at the next refresh']},
   {id:'desk',n:'Desk',who:'Advisors, family offices and houses.',price:'On request',act:['invite','Request an invitation'],items:[
    'Everything in Private',
    'The data behind the terminal as CSV and JSON after each refresh: lots, houses, hubs, regimes, segments, the calendar, the Season, the Navigator’s rules',
    'A Navigator route checked by a named specialist, a shipper or a lawyer, for a deal you are about to do',
+   'The Net as a file: the players, their offices, people and sources, and the money behind every major sale, for a desk’s own CRM or a bank’s onboarding file',
    'Custom lenses: a room, a regime and a set of segments cut for your desk',
    'A named analyst’s hour each month',
    'Early access to new corners of the terminal before they reach the page']}
@@ -88,3 +92,31 @@ const LIMITS=[
  {id:'revised',area:'market',t:'The market series is revised each year',b:'Arts Economics revises its estimates. Its current series puts the peak in 2022 at $67.8bn; points before 2019 are shown as first published, so 2014’s $68.2bn is not comparable.',at:['go','pulse']}
 ];
 const LIMIT_AREAS={money:'Follow the money',lots:'Lots and prices',returns:'Returns and the round trip',provenance:'Provenance',clinic:'The Clinic',data:'Data and flags',market:'Market figures'};
+/* ---------- v25: what each section is worth, to whom (the strip under every head) ----------
+   Three readers the terminal is built for: the collector (buying, holding, moving, selling), the advisor or dealer (pricing,
+   placing, representing), the banker or lender (lending against, moving money through, screening). One line each, no more. */
+const VALUE_WHO={c:'Collector',a:'Advisor and dealer',b:'Banker and lender'};
+const VALUE={
+world:{c:'Where this season’s money went, city by city, and what is coming where you are.',a:'The rooms and fairs as one map: where to consign, where the bidders were, where the next window opens.',b:'The trade’s geography in one glance, with the Net behind it: who sits where, and which money moved.'},
+library:{c:'Two hundred pictures in the public domain, at full size, to train the eye before the sale room.',a:'The canon by movement and century, to place a work and to show a client what it descends from.',b:'The names the collateral carries, with their records, before the appraisal arrives.'},
+floor:{c:'Today’s read, the sale room, the wire and the next events, in one page a day.',a:'The desk’s morning brief: what sold, what failed, what is coming, and what it means for a consignment.',b:'The market’s state each morning, with the figures that move an appraisal.'},
+ask:{c:'A question in plain words, answered from the terminal’s own records with the sources shown.',a:'A research desk that answers from 139 lots, 771 ownership histories and 71 undercurrents, and files what it cannot.',b:'Due-diligence questions answered with citations, and the gaps logged for the desk.'},
+movements:{c:'Every movement as the market prices it today: what a name costs, and why.',a:'The movements’ records, momentum and ideas, to argue a price from history.',b:'Which schools carry liquidity, and which do not, when the collateral is a movement’s name.'},
+hammer:{c:'The lots that set the prices, with the money behind each: who sold, who guaranteed, who bought.',a:'The sale room as a ledger of consignors, guarantees and buyers, the structure of every big sale since 2020.',b:'The finance direction of each major sale: estates, divorces, guarantees, and where the proceeds went.'},
+pulse:{c:'Eighteen vital signs of the market, the diagnosis, and the long view.',a:'The figures a client letter needs, sourced and flagged, from the reports the trade reads.',b:'The lending book, the wealth behind it, and the market’s pulse, from Deloitte, Art Basel and the houses.'},
+undertow:{c:'What a purchase really costs, line by line, and what a sale really returns.',a:'The money model for the five rooms: premium, VAT, sales tax, resale right, guarantees, fee shares.',b:'The cash flows behind a lot, the undercurrents of the trade, and the rules that govern them.'},
+ledger:{c:'Seven hundred and seventy-one ownership histories, to read a provenance before buying.',a:'The chains that make or break a sale, with the gaps the Clinic reads.',b:'Title and provenance as a lender needs them: the record, the gap, the restitution risk.'},
+navigator:{c:'Move a work from A to B lawfully: the gates, the papers, the time and the landed cost.',a:'A first answer on export licences, import tax and papers for any route, before the shipper’s quote.',b:'The legal framework of a cross-border deal, with the law cited and the closed gates named.'},
+season:{c:'Where to be next, with the organisers’ ticket pages and who else is going.',a:'The year’s fairs, sales and biennales as one calendar, with the reasons the desk lists each.',b:'The season’s windows: when the money gathers, and where.'},
+horizon:{c:'Where the money goes next: eighteen theses with the evidence and the risks.',a:'The long bets, sourced line by line, for a client’s ten-year view.',b:'The schools and regions whose collateral value is likely to rise, and those likely to lag.'},
+transform:{c:'What a sum buys, what the way in and out costs, and what comes back.',a:'The round trip a client must understand before treating a work as an asset.',b:'How money moves through art, stage by stage, with the controls at each gate and the red flags the regulators name.'},
+compare:{c:'Two artists or two movements side by side, by the numbers.',a:'A comparison to put before a client: records, momentum, liquidity.',b:'Relative value across names, for the appraisal that lends against one.'},
+lab:{c:'The round trip, the hands a work passes through, and a provenance clinic.',a:'The instruments: what a work costs to own and to move, and what it must earn.',b:'The loan maths and the estate maths, worked.'},
+atlas:{c:'Eighteen regimes and seventy-one undercurrents: the rules of the trade in one place.',a:'The regimes side by side: import VAT, sales tax, resale right, AML, export control.',b:'The regulatory map: sanctions, AML, freeports, the cases that shaped them.'},
+houses:{c:'Sixty-seven organisations: who they are, who owns them, what they charge.',a:'The houses’ schedules, leadership and private-sales desks.',b:'The counterparties: ownership, scale, and who fronts them.'},
+people:{c:'Ninety-six people who move the market, and where they sit.',a:'The rainmakers and the regional heads, by house and by city.',b:'The decision-makers at each counterparty.'},
+salon:{c:'A room of readers: cards, notes, and who is going where.',a:'The community that trades introductions and consignments.',b:'The members’ cards, with an opt-in line to reach them.'},
+lexicon:{c:'The trade’s words, defined.',a:'The vocabulary a client letter should use correctly.',b:'The terms of the conditions of sale and the loan agreement.'},
+circle:{c:'What the terminal offers, and what the Private and Desk tiers add.',a:'The data and the analyst’s hour for a working desk.',b:'The data as files and an API, after each refresh.'},
+desk:{c:'The owner’s outreach desk.',a:'The owner’s outreach desk.',b:'The owner’s outreach desk.'},
+signals:{c:'The signals the desk reads this season, each with its sources.',a:'What is heating and cooling, with the lots that show it.',b:'The market’s direction, flagged and sourced.'}};

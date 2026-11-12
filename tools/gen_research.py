@@ -3,13 +3,15 @@
 
     python3 tools/gen_research.py [--bundle PATH]
 
-Reads data/research/v24.json (keys law_europe, law_world, finance, events, horizon: the five research briefs of v24, each
-written by a research agent under scratchpad/v24/BRIEF_COMMON.md: every fact with a URL opened in the session, every entry
-flagged V/S/U) and writes:
+Reads data/research/bundle.json: key v24 (law_europe, law_world, finance, events, horizon: the five research briefs of v24)
+and key v25 (money_sales, players, law_more, transformation, audit_engine: the briefs of v25), each written by a research agent
+under scratchpad/v2x/BRIEF_COMMON.md (every fact with a URL opened in the session, every entry flagged V/S/U), and writes:
   src/data_nav.js      NAV_RULES (one entry per jurisdiction: REGIMES ids plus nl, es, ru, qa; Peru from memory, U), NAV_EU,
                        NAV_FEES (the research's shipping figures, the rest flagged U), NAV_MOSCOW (the worked case)
-  src/data_events.js   EVENTS, EVENTS_ASOF (the Season)
-  src/data_horizon.js  THESES, HORIZON_SIGNALS, HORIZON_ASOF (the Horizon)
+  src/data_season.js   EVENTS, EVENTS_ASOF (the Season); THESES, HORIZON_SIGNALS, HORIZON_ASOF (the Horizon)
+  src/data_net.js      NET_PLAYERS, NET_MARKETS (the players), NET_FLOWS and LOT_FIN (the money behind the major sales), TRANSFORM
+                       (the stages of money through art) — from the v25 briefs; the ten further jurisdictions of law_more join
+                       NAV_RULES
 House style is applied to every string: typographic quotes, $ not US$. Edit the research and regenerate, not these files.
 The finance brief feeds the Atlas, the Pulse and the Signals by hand (ARCHITECTURE §15); it is in the bundle for the record."""
 import json, re, sys, pathlib
@@ -17,8 +19,10 @@ from urllib.parse import urlparse
 
 root = pathlib.Path(__file__).resolve().parent.parent
 args = sys.argv[1:]
-bundle_path = pathlib.Path(args[args.index('--bundle') + 1]) if '--bundle' in args else root / 'data' / 'research' / 'v24.json'
-B = json.load(open(bundle_path, encoding='utf-8'))
+bundle_path = pathlib.Path(args[args.index('--bundle') + 1]) if '--bundle' in args else root / 'data' / 'research' / 'bundle.json'
+BUNDLE = json.load(open(bundle_path, encoding='utf-8'))
+B = BUNDLE['v24']            # the v24 briefs: law_europe, law_world, finance, events, horizon
+B25 = BUNDLE.get('v25', {})  # the v25 briefs: money_sales, players, law_more, transformation, audit_engine
 europe, world, EV, HZ = B['law_europe'], B['law_world'], B['events'], B['horizon']
 
 def typo(o):
@@ -34,7 +38,7 @@ def js(name, obj):
     return f'const {name}=' + json.dumps(typo(obj), ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/') + ';\n'
 
 # ======================= the Navigator =======================
-CUR = {'£': 'gbp', '€': 'eur', 'CHF': 'chf', 'HK$': 'hkd', 'S$': 'sgd', 'A$': 'aud', 'US$': 'usd', 'R$': 'brl', 'AED': 'aed'}
+CUR = {'£': 'gbp', '€': 'eur', 'CHF': 'chf', 'HK$': 'hkd', 'S$': 'sgd', 'A$': 'aud', 'C$': 'cad', 'US$': 'usd', 'R$': 'brl', 'AED': 'aed'}
 def money(s):
     """'€30,000 / €50,000' -> (30000, 'eur', '€30,000 / €50,000'); 'any' -> (0, None); 'none' -> (None, None)."""
     if s is None: return None, None
@@ -43,7 +47,7 @@ def money(s):
     if s.lower() in ('none', 'n/a', ''): return None, None
     vals = []
     cur = None
-    for m in re.finditer(r'(£|€|CHF|HK\$|S\$|A\$|US\$|R\$|AED)\s?([\d,\.]+)', s):
+    for m in re.finditer(r'(£|€|CHF|HK\$|S\$|A\$|C\$|US\$|R\$|AED)\s?([\d,\.]+)', s):
         cur = CUR.get(m.group(1), cur)
         vals.append(float(m.group(2).replace(',', '')))
     if not vals: return None, None
@@ -62,9 +66,10 @@ def needs_from(rows):
         if v is None and (age in (None, 0)):   # 'none': no licence for this category
             continue
         row = {'cat': cat, 'age': age or 0, 'value': v or 0, 'cur': cur, 'note': (r.get('note') or '').strip()}
-        if cat in out:   # paper twice: keep the lower threshold, join the notes
+        if cat in out:   # paper twice (drawings, watercolours, prints): keep the lowest threshold, join the notes and say so
             if row['value'] < out[cat]['value']: out[cat]['value'], out[cat]['cur'] = row['value'], row['cur']
             out[cat]['note'] = (out[cat]['note'] + ' ' + row['note']).strip()
+            out[cat]['lowest'] = True
         else:
             out[cat] = row
     return list(out.values())
@@ -82,7 +87,7 @@ def exp_entry(e, j):
     rows = needs_from(needs) if isinstance(needs, list) else []
     none_flag = isinstance(needs, list) and all(money(r.get('value'))[0] is None for r in needs) if isinstance(needs, list) else True
     o['none'] = bool(none_flag) and not rows
-    if isinstance(needs, str): o['needsText'] = needs
+    if isinstance(needs, str): o['needsText'] = needs; o['none'] = False   # a rule in prose: the engine shows it as a conditional gate
     o['needs'] = rows
     o['src'] = e.get('src') or []
     return o
@@ -126,7 +131,7 @@ rules['cn']['exp']['artists'] = []
 rules['cn']['exp']['none'] = False
 rules['kr']['exp']['needs'] = [{'cat': 'any', 'before': 1946, 'note': 'any work made before 1946 (general movable cultural heritage: appraisal and permit from the Korea Heritage Service); later works leave freely'}]
 rules['kr']['exp']['none'] = False
-rules['in']['exp']['needs'] = [{'cat': 'any', 'age': 100, 'value': 0, 'bar': True, 'note': 'any object over 100 years old is an antiquity and may not be exported except by the government; the declared art treasures (Tagore, Sher-Gil, Jamini Roy, Ravi Varma and others) may not leave at any age'}]
+rules['in']['exp']['needs'] = [{'cat': 'any', 'artists': True, 'bar': True, 'note': 'the declared art treasures (Tagore, Sher-Gil, Jamini Roy, Ravi Varma, Nandalal Bose and others) may not leave at any age'}, {'cat': 'any', 'age': 100, 'value': 0, 'bar': True, 'note': 'any object over 100 years old is an antiquity and may not be exported except by the government'}]
 rules['in']['exp']['artists'] = ['Rabindranath Tagore', 'Amrita Sher-Gil', 'Jamini Roy', 'Raja Ravi Varma', 'Nandalal Bose']
 rules['in']['exp']['none'] = False
 rules['br']['exp']['needs'] = [{'cat': 'any', 'before': 1890, 'bar': True, 'note': 'works produced in Brazil up to 1889 and listed (tombado) works may not leave; IPHAN allows temporary exits for exhibitions'}]
@@ -156,6 +161,26 @@ rules['us']['exp']['none'] = True
 rules['ch']['exp']['none'] = True
 rules['ch']['exp']['listed'] = 'Objects in the federal register may not leave permanently; every cultural good is declared at export with its type, origin, date and size.'
 
+# ---- the duty where the research states a rate (the Gulf’s 5% GCC tariff, India’s 10% plus the surcharge, Brazil’s 4%), and Korea’s VAT
+#      exemption for original works (editions and photographs pay 10%): the auditor’s findings of 9 Nov 2026 ----
+for j, d in (('ae', .05), ('qa', .05), ('sa', .05), ('in', .11), ('br', .04)):
+    rules[j]['imp']['duty_rate'] = d
+rules['in']['imp']['duty'] = '10% basic customs duty on chapter 97 plus the 10% social welfare surcharge on the duty: about 11% of the value (U); IGST is charged on the duty-paid value.'
+rules['kr']['imp']['vat_rate'] = 0
+rules['kr']['imp']['vat_kinds'] = {'photo': .10, 'paper': .10}
+rules['kr']['imp']['vat'] = 'Original works of art (paintings, sculpture, a hand-made drawing) are exempt from VAT on import and on sale (VAT Act art. 27(15), Enforcement Decree art. 56(17)); the 10% is charged on editions, prints and photographs, and the form’s ‘drawing or print’ is taxed as the edition it most often is.'
+rules['kr']['imp']['vf'] = 'S'
+# China: 1% MFN duty on original paintings (9701.91) and 13% import VAT on the duty-paid value, the auditor’s reading of the tariff (S); the
+# terminal’s own REGIMES row said the same. India: IGST on chapter 97 cut from 12% to 5% on 22 Sep 2025 (S), charged on the duty-paid value.
+rules['cn']['imp']['duty_rate'] = .01
+rules['cn']['imp']['duty'] = '1% MFN duty on original paintings (tariff line 9701.91; the general rate is 50%, and the 2025 tariff overlay on US-origin goods is added on top), charged on the customs value.'
+rules['cn']['imp']['vat'] = '13% import VAT on the duty-paid value; no reduced rate for art.'
+rules['cn']['imp']['vf'] = 'S'
+rules['cn']['imp']['src'] = (rules['cn']['imp'].get('src') or []) + [['China tariff, 9701.91.19 (mirror, read 9 Nov 2026)', 'https://treayo.com/en/hs/china/97019119']]
+rules['in']['imp']['vat_rate'] = .05
+rules['in']['imp']['vat'] = 'IGST 5% on import (cut from 12% on 22 Sep 2025, when chapter 97 moved to the 5% slab), charged on the value plus the 11% duty.'
+rules['in']['imp']['src'] = (rules['in']['imp'].get('src') or []) + [['GST on HSN chapter 97 (secondary, read 9 Nov 2026)', 'https://disytax.com/hsn-97-works-of-art-gst-rate/']]
+rules['it']['exp']['dead'] = True   # art. 65(3)(a): the author no longer living
 # ---- Peru: not in the research; carried from memory, flagged U ----
 rules['pe'] = {'n': 'Peru',
   'exp': {'none': False, 'law': 'The General Law of the Cultural Heritage of the Nation (Law 28296): pre-Hispanic, colonial and republican objects of cultural value may not be exported; a contemporary work needs the Ministry of Culture’s certificate that it is not cultural heritage before it leaves.', 'authority': 'the Ministry of Culture', 'needs': [{'cat': 'any', 'before': 1900, 'bar': True, 'note': 'heritage (pre-Hispanic, colonial, republican) may leave only for exhibition, by supreme resolution'}, {'cat': 'any', 'age': 0, 'value': 0, 'note': 'every other work needs the Ministry’s certificate before export'}], 'time': '1 to 3 weeks for the certificate', 'fee': 'a small fee', 'src': [], 'vf': 'U'},
@@ -202,6 +227,13 @@ NAV_MOSCOW = {
   'alternative': mc['lawful_alternative'],
   'flags': mc['red_flags'],
   'src': mc['src']}
+# the auditor’s reading of Schedule 3A (legislation.gov.uk, 9 Nov 2026): paragraph 21 (works of art, collectors’ pieces and antiques,
+# chapter 97) carries no sales-price threshold; the £250 floor belongs to other entries
+for g in NAV_MOSCOW['gates']:
+    if 'worth £250 or more' in g['rule']:
+        g['rule'] = g['rule'].replace('works of art worth £250 or more', 'works of art of any value (Schedule 3A, paragraph 21, carries no price threshold)')
+        g['src'] = [['Russia (Sanctions) (EU Exit) Regulations 2019, Schedule 3A, para 21', 'https://www.legislation.gov.uk/uksi/2019/855/schedule/3A']] + [x for x in g['src'] if 'womenartdealers' not in x[1]]
+        g['vf'] = 'V'
 
 head = """/* ---------- NAVIGATOR DATA (v24): the rules the route planner reads ----------
    Generated by tools/gen_research.py from the v24 research bundle (data/research/v24.json); edit the research
@@ -268,10 +300,96 @@ head_h = """/* ---------- THE HORIZON (v24): where the money goes next, as these
    work, price, house, date, src, vf, note}, movements (MOVEMENTS ids), artists, places. HORIZON_SIGNALS: three signals from the
    same research that the Signals view did not already carry; the Signals view appends them. */
 """
-(root / 'src' / 'data_events.js').write_text(head_e + f"const EVENTS_ASOF='{EV['asof']}';\n" + js('EVENTS', events), encoding='utf-8')
-(root / 'src' / 'data_horizon.js').write_text(head_h + f"const HORIZON_ASOF='{HZ['asof']}';\n" + js('THESES', theses) + js('HORIZON_SIGNALS', signals), encoding='utf-8')
+(root / 'src' / 'data_season.js').write_text(head_e + f"const EVENTS_ASOF='{EV['asof']}';\n" + js('EVENTS', events) + head_h + f"const HORIZON_ASOF='{HZ['asof']}';\n" + js('THESES', theses) + js('HORIZON_SIGNALS', signals), encoding='utf-8')
+for stale in ('data_events.js', 'data_horizon.js'):
+    p = root / 'src' / stale
+    if p.exists(): p.unlink()
 kinds = {}
 for e in events: kinds[e['kind']] = kinds.get(e['kind'], 0) + 1
 tk = {}
 for e in events: tk[e['tk']] = tk.get(e['tk'], 0) + 1
-print(f"wrote src/data_events.js: {len(events)} events {kinds}, links {tk}; src/data_horizon.js: {len(theses)} theses, {sum(len(t['evidence']) for t in theses)} evidence lines, {len(signals)} signals")
+print(f"wrote src/data_season.js: {len(events)} events {kinds}, links {tk}; {len(theses)} theses, {sum(len(t['evidence']) for t in theses)} evidence lines, {len(signals)} signals")
+
+# ======================= v25: the Net, the money behind the sales, the further jurisdictions, the Transformation =======================
+MS = B25.get('money_sales') or {}
+PL = B25.get('players') or {}
+LM = B25.get('law_more') or {}
+TR = B25.get('transformation') or {}
+
+# the ten further jurisdictions join NAV_RULES (same schema, plus the capital-controls field) and are written again
+if LM.get('jurisdictions'):
+    more = {}
+    for x in LM['jurisdictions']:
+        e = entry(x)
+        if 'capital' in x: e['capital'] = simple(x['capital'], 'rule', 'limits', 'routes', 'vf', 'note')
+        if e.get('exp') is not None and not e['exp'].get('needs'):
+            e['exp']['none'] = bool(e['exp'].get('none', True))
+        more[x['j']] = e
+    # Canada: the Cultural Property Export and Import Act bites on works 50 years old by an artist no longer living, above the Group V
+    # thresholds; a work made outside Canada with no Canadian connection: paintings and sculpture C$30,000, drawings, prints and
+    # photographs C$15,000 (the Canadian-made thresholds are lower; the research has them in needsText). Read on the Act (V).
+    if 'ca' in more and more['ca'].get('exp') is not None:
+        ce = more['ca']['exp']
+        ce['needs'] = [{'cat': 'painting', 'age': 50, 'value': 30000, 'cur': 'cad', 'note': 'a painting 50 years old by an artist no longer living, over C$30,000 (C$15,000 if the artist lived in Canada; C$20,000 for a Canadian subject): a permit from Canadian Heritage, which may be refused and referred to the Review Board for up to six months'},
+                       {'cat': 'sculpture', 'age': 50, 'value': 30000, 'cur': 'cad', 'note': 'a sculpture 50 years old by an artist no longer living, over C$30,000 (C$15,000 if the artist lived in Canada): a permit from Canadian Heritage'},
+                       {'cat': 'paper', 'age': 50, 'value': 15000, 'cur': 'cad', 'note': 'a drawing or print 50 years old by an artist no longer living, over C$15,000 (C$5,000 if the artist lived in Canada): a permit from Canadian Heritage'},
+                       {'cat': 'photo', 'age': 50, 'value': 15000, 'cur': 'cad', 'note': 'a photograph 50 years old by an artist no longer living, over the Group VII threshold (taken here as C$15,000, U): a permit from Canadian Heritage'}]
+        ce['none'] = False; ce['dead'] = True
+    rules.update(more)
+    out = head + js('NAV_RULES', rules) + js('NAV_EU', NAV_EU) + js('NAV_FEES', NAV_FEES) + js('NAV_MOSCOW', NAV_MOSCOW)
+    (root / 'src' / 'data_nav.js').write_text(out, encoding='utf-8')
+    print(f"  + {len(more)} further jurisdictions in NAV_RULES ({', '.join(more)}); {len(rules)} in all")
+
+# the money behind the lots: LOT_FIN keyed by lot id (joined to RESULTS at boot) and NET_FLOWS for the globe.
+# The research ids came from the export in B25['lots'] (a Python slug that strips accents); the page's ids are app.js's slug
+# (lower-case, the marks ’'".,:() dropped, every other run of non-alphanumerics a hyphen, accents included), computed at boot from
+# the artist's last word and the title. app_slug() repeats it here so that every id written matches the page's.
+def app_slug(artist, title):
+    s = (str(artist).split(' ')[-1] + '-' + str(title)).lower()
+    s = re.sub(r"[’'\".,:()]", '', s)
+    s = re.sub(r'[^a-z0-9]+', '-', s)
+    return s.strip('-')
+LOT_AT = {l['id']: (l.get('artist'), l.get('title')) for l in (B25.get('lots') or []) if l.get('id')}
+def page_id(l):
+    a, t = l.get('artist'), l.get('title')
+    if not (a and t): a, t = LOT_AT.get(l['id'], (None, None))
+    return app_slug(a, t) if (a and t) else l['id']
+FIN_KEYS = ('con', 'conType', 'conCity', 'conCountry', 'guar', 'guarBy', 'buyer', 'buyerType', 'buyerCity', 'buyerRegion', 'bidders', 'dir', 'fees', 'src', 'vf', 'note')
+lot_fin, new_lots = {}, []
+for l in MS.get('lots', []):
+    l['id'] = page_id(l)
+    lot_fin[l['id']] = {k: l.get(k) for k in FIN_KEYS if l.get(k) not in (None, '')}
+    if l.get('new'):
+        CAT = {'Pablo Picasso': 'Impressionist & Modern', 'Claude Monet': 'Impressionist & Modern', 'Édouard Manet': 'Impressionist & Modern', 'René Magritte': 'Impressionist & Modern'}
+        nl = {k: l.get(k) for k in ('id', 'artist', 'title', 'house', 'city', 'date') if l.get(k) not in (None, '')}
+        nl['price'] = l.get('price_musd'); nl['cat'] = CAT.get(l.get('artist'), 'Post-War & Contemporary'); nl['year'] = ''; nl['rec'] = []
+        nl['note'] = (l.get('dir') or l.get('note') or '')[:240]
+        new_lots.append(nl)
+REGION_LL = {'Asia': ['Hong Kong'], 'Europe': ['London'], 'North America': ['New York'], 'Middle East': ['Abu Dhabi'], 'Latin America': ['São Paulo'], 'Africa': ['Lagos']}
+flows = []
+for l in MS.get('lots', []):
+    flows.append({'id': l['id'], 'from': l.get('conCity') or '', 'fromWho': l.get('con') or '', 'fromType': l.get('conType') or '', 'to': l.get('buyerCity') or '', 'toRegion': l.get('buyerRegion') or '', 'toWho': l.get('buyer') or '', 'toType': l.get('buyerType') or '', 'guar': l.get('guar') or 'unknown', 'guarBy': l.get('guarBy') or '', 'vf': l.get('vf', 'U')})
+years = [{k: y.get(k) for k in ('y', 'guaranteed_share', 'asia_share', 'note', 'src', 'vf') if y.get(k) not in (None, '')} for y in MS.get('years', [])]
+
+# the players
+players = []
+for p in PL.get('players', []):
+    players.append({k: p.get(k) for k in ('id', 'n', 'kind', 'extends', 'hq', 'offices', 'people', 'represents', 'owner', 'scale', 'edge', 'src', 'vf', 'note') if p.get(k) not in (None, '', [], {})})
+markets = [{k: m.get(k) for k in ('city', 'role', 'src', 'vf') if m.get(k) not in (None, '')} for m in PL.get('markets', [])]
+
+# the Transformation
+transform = {k: TR.get(k) for k in ('asof', 'stages', 'typologies', 'roundtrip', 'cases') if TR.get(k) not in (None, '', [])}
+if LM.get('dhaka_toronto_case'): transform['dhaka'] = LM['dhaka_toronto_case']   # the research's own reading of the owner's worked route, gate by gate
+
+head_n = """/* ---------- THE NET (v25): the players, the money behind the major sales, the Transformation ----------
+   Generated by tools/gen_research.py from data/research/bundle.json (key v25); edit the research and regenerate.
+   NET_PLAYERS: the trade's organisations with where they are (hq, offices), who fronts them (people), whom they represent, who owns
+   them, their scale and edge, with sources and flags. NET_MARKETS: the significant markets in a paragraph each. LOT_FIN: the money
+   behind each major lot since 2020, keyed by lot id (consignor, guarantee, buyer, direction, fees); RESULTS gain it at boot as r.fin.
+   NET_FLOWS: the same as arcs for the globe (from the consignor's city to the room, from the room to the buyer's city or region).
+   NET_YEARS: the finance of each year since 2020. NET_NEW_LOTS: major sales the terminal lacked, added to the Hammer at boot.
+   TRANSFORM: the stages of money through art, the typologies and the controls that catch them, the round trip, the public cases. */
+"""
+asof = MS.get('asof') or PL.get('asof') or TR.get('asof') or ''
+(root / 'src' / 'data_net.js').write_text(head_n + f"const NET_ASOF='{asof}';\n" + js('NET_PLAYERS', players) + js('NET_MARKETS', markets) + js('LOT_FIN', lot_fin) + js('NET_FLOWS', flows) + js('NET_YEARS', years) + js('NET_NEW_LOTS', new_lots) + js('TRANSFORM', transform), encoding='utf-8')
+print(f"wrote src/data_net.js: {len(players)} players, {len(markets)} markets, {len(lot_fin)} lots with their money ({len(new_lots)} new), {len(flows)} flows, {len(transform.get('stages', []))} transformation stages")

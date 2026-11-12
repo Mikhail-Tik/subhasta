@@ -19,7 +19,7 @@ const cut=(s,n)=>{s=String(s==null?'':s).replace(/\s+/g,' ').trim();return s.len
 const askUnesc=s=>String(s).replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&amp;/g,'&');
 const privArtist=p=>String(p.work||'').split(',')[0].trim();
 const privTitle=p=>String(p.work||'').split(',').slice(1).join(',').trim();
-const KIND_NAMES={event:'Event',thesis:'Thesis',view:'Section',compare:'Compare',lot:'Lot',private:'Private sale',upcoming:'To come',sale:'Sale',movement:'Movement',artist:'Artist',house:'House',org:'Player',person:'Person',collector:'Collector',story:'Story',term:'Term',signal:'Signal',news:'Wire',cal:'Date',under:'Undercurrent',station:'Station',symptom:'Diagnosis',vital:'Vital sign',hub:'Hub',segment:'Segment',inst:'Institution',fair:'Fair',report:'Report',journey:'Journey',dealer:'Dealer',prov:'Ownership history',record:'Record',kb:'Learned',limit:'Limit'};
+const KIND_NAMES={player:'Player',event:'Event',thesis:'Thesis',view:'Section',compare:'Compare',lot:'Lot',private:'Private sale',upcoming:'To come',sale:'Sale',movement:'Movement',artist:'Artist',house:'House',org:'Player',person:'Person',collector:'Collector',story:'Story',term:'Term',signal:'Signal',news:'Wire',cal:'Date',under:'Undercurrent',station:'Station',symptom:'Diagnosis',vital:'Vital sign',hub:'Hub',segment:'Segment',inst:'Institution',fair:'Fair',report:'Report',journey:'Journey',dealer:'Dealer',prov:'Ownership history',record:'Record',kb:'Learned',limit:'Limit'};
 
 /* ---------- 1. the index ---------- */
 const KX={docs:[],post:new Map(),vocab:[],avg:1,built:false};
@@ -66,6 +66,7 @@ function kxBuildNow(){const D=[];
   GLOSSARY.forEach((g,i)=>add('term',i,g[0],`${g[0]}: ${g[2]||g[1]}`,g[2]||'',`${g[0]} term definition`));
   SIGNALS.forEach((s,i)=>add('signal',i,s.t,`${s.t} (${s.dir==='heat'?'heating':s.dir==='cool'?'cooling':'steady'}): ${s.p}`,s.p,`${s.t} signal trend`));
   EVENTS.forEach(e=>add('event',e.id,e.n,`${e.n}: ${SEASON_KINDS[e.kind]||e.kind}, ${e.city}${e.venue?` (${e.venue})`:''}, ${e.e&&e.e!==e.d?fspan(e.d,e.e):fdate(e.d)}. ${e.why||''}${e.price?` Tickets: ${e.price}.`:''}`,`${e.who||''} ${e.note||''}`,`${e.n} ${e.city} ${e.country||''} ${SEASON_KINDS[e.kind]||e.kind} ${kxWhen(e.d)} tickets event season fair biennale show`,{date:e.d}));
+  (typeof NET_PLAYERS==='object'?NET_PLAYERS:[]).forEach(p=>add('player',p.id,p.n,`${p.n}: ${(WD_NET_KINDS[p.kind]||p.kind).toLowerCase().replace(/s$/,'')} based in ${p.hq?p.hq.city:''}${p.offices&&p.offices.length?`, with offices in ${p.offices.slice(0,6).join(', ')}`:''}. ${p.edge||''} ${p.people&&p.people.length?`Fronted by ${p.people.slice(0,3).map(x=>x.n+(x.role?' ('+x.role+')':'')).join(', ')}.`:''} ${p.represents&&p.represents.length?`Represents ${p.represents.slice(0,8).join(', ')}.`:''} ${p.owner?`Owner: ${p.owner}.`:''} ${p.scale||''}`,'',`${p.n} ${p.kind} ${p.hq?p.hq.city:''} ${(p.offices||[]).join(' ')} ${(p.people||[]).map(x=>x.n).join(' ')} ${(p.represents||[]).join(' ')} player dealer gallery who represents`));
   THESES.forEach(t=>add('thesis',t.id,t.t,`${t.t} (${t.dir==='heat'?'heating':t.dir==='cool'?'cooling':'steady'}, ${t.horizon}): ${t.thesis}`,t.evidence.map(e=>e.f).join(' ')+' '+t.risks.join(' '),`${t.t} ${t.places.join(' ')} ${t.artists.join(' ')} horizon thesis next decade long term emerging`));
   VIEWS.forEach(v=>add('view',v,VIEW_NAMES[v]||v,`${VIEW_NAMES[v]||v}: a section of the terminal.`,'',`${VIEW_NAMES[v]||v} section view`));
   NEWS.forEach((n,i)=>add('news',i,n.h,`${fdate(n.dt)}, ${n.o}: ${n.h}. ${n.s||''}`,n.s,`${n.o} news ${kxWhen(n.dt)}`,{date:n.dt}));
@@ -112,7 +113,7 @@ function openRef(ref){const i=ref.indexOf(':');if(i<0)return;const k=ref.slice(0
   const land=sel=>{const el=$(sel);if(el){scrollToEl(el);if(!el.hasAttribute('tabindex'))el.tabIndex=-1;focusEl(el);}};
   switch(k){
     case 'lot':return openLot(lotById(id));case 'private':return openPrivate(+id);case 'upcoming':return openUpcoming(+id);case 'sale':return openSale(id);
-    case 'event':go('season');return openEvent(id);case 'thesis':go('horizon');return openThesis(id);case 'view':return go(id);
+    case 'event':go('season');return openEvent(id);case 'thesis':go('horizon');return openThesis(id);case 'view':return go(id);case 'player':return worldJump({mode:'net',player:id});
     case 'movement':return openMovement(id);case 'artist':return openArtist(id);case 'house':case 'org':return openOrg(id);case 'person':return openPerson(id);
     case 'collector':return openCollector(id);case 'story':return openStory(id);case 'kb':return openKB(id);case 'news':return openNews(+id);
     case 'compare':{const [kind,a,b]=id.split('~');return openCompare(kind,a,b);}

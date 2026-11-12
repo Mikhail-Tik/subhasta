@@ -152,3 +152,33 @@
 .mcontact{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--ink2);margin-top:3px}
 .mgoing{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
 .mgoing .tag{font-size:10.5px;cursor:pointer}
+/* the Transformation (v25) */
+.trstages li.closed .n{color:var(--claret)}
+.trstages li.conditional .n{color:var(--gilt)}
+.trstages li.open .n{color:var(--verd)}
+.trstages .tag{font-size:10.5px;vertical-align:2px;margin-left:6px}
+.trflags{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
+.tag.flag{color:var(--claret);border-color:color-mix(in srgb,var(--claret) 50%,transparent);font-size:11px;white-space:normal;text-align:left;line-height:1.3}
+.trcomp{margin:0 0 22px;max-width:860px}
+.trcomp ul{margin:0 0 14px;padding-left:18px;font-size:13.5px;line-height:1.5;color:var(--ink2)}
+.trcomp li{margin:0 0 5px}
+.trtyp,.trcases{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin:0 0 22px}
+.trt{border:1px solid var(--rule);border-radius:2px;padding:12px 14px;display:flex;flex-direction:column;gap:5px;background:var(--paper2)}
+.trt b{font-family:var(--ui);font-weight:600;font-size:13.5px;color:var(--ink)}
+.trt p{font-size:13px;line-height:1.45;margin:0;color:var(--ink2)}
+.trt .src{font-size:11.5px;color:var(--ink3)}
+
+/* the Transformation: the rule in full, behind a fold */
+.trmore{margin:2px 0 6px}
+.trmore summary{cursor:pointer;font-size:12px;color:var(--ink3);list-style:none;display:inline-flex;align-items:center;gap:4px}
+.trmore summary::-webkit-details-marker{display:none}
+.trmore summary::before{content:'+';display:inline-block;width:14px;height:14px;line-height:13px;text-align:center;border:1px solid var(--rule2);border-radius:50%;font-size:11px}
+.trmore[open] summary::before{content:'−'}
+.trmore summary:hover{color:var(--ink)}
+.trmore p{margin-top:6px;font-size:13px;color:var(--ink2)}
+.trresearch{margin:8px 0 6px;padding-left:22px;font-size:13.5px;line-height:1.5;color:var(--ink2)}
+.trresearch li{margin:0 0 6px}
+.trframe{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px;margin:8px 0 14px}
+.trframe .trt p{font-size:13px;color:var(--ink2);line-height:1.45;margin:4px 0 8px}
+.trfl{display:flex;flex-wrap:wrap;gap:4px}
+.trfl .tag{cursor:pointer}
