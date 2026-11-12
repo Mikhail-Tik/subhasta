@@ -25,7 +25,7 @@
 .navsum-k small{font-size:12px;color:var(--ink3)}
 @media (max-width:560px){.navsum-k{grid-template-columns:1fr}.navsum-h h2{font-size:19px}}
 /* the gates */
-.navgates{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;margin:0 0 26px}
+.navgates{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(250px,100%),1fr));gap:12px;margin:0 0 26px}
 .navgate{border:1px solid var(--rule);border-radius:2px;padding:12px 14px 12px;position:relative;display:flex;flex-direction:column;gap:5px;min-width:0}
 .navgate .st{font-family:var(--ui);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink3);display:flex;align-items:center;gap:6px}
 .navgate .st::before{content:'';width:9px;height:9px;border-radius:50%;background:var(--ink3);display:inline-block}
@@ -117,7 +117,7 @@
 .evacts{display:flex;flex-wrap:wrap;gap:8px}
 /* the strip on the World and Today */
 .evstrip{margin:18px 0 6px}
-.evcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.evcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(210px,100%),1fr));gap:10px}
 .evcard{border:1px solid var(--rule);border-radius:2px;padding:10px 12px 11px;display:flex;flex-direction:column;gap:4px;min-width:0;background:var(--paper2)}
 .evcard .tag{align-self:flex-start;font-size:10px}
 .evcard b{font-weight:400}
@@ -125,7 +125,7 @@
 .evcard small{font-size:12px;color:var(--ink3)}
 .evcard .btn{align-self:flex-start;margin-top:4px}
 /* the Horizon */
-.hzgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin:0 0 22px}
+.hzgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:14px;margin:0 0 22px}
 .hz{border:1px solid var(--rule);border-radius:2px;padding:14px 16px 12px;display:flex;flex-direction:column;gap:6px;min-width:0;border-top:3px solid var(--ink3);background:var(--paper2)}
 .hz.heat{border-top-color:var(--live)}.hz.steady{border-top-color:var(--gilt)}.hz.cool{border-top-color:var(--lapis)}
 .hzh{display:flex;justify-content:space-between;align-items:baseline;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink3)}
@@ -162,7 +162,7 @@
 .trcomp{margin:0 0 22px;max-width:860px}
 .trcomp ul{margin:0 0 14px;padding-left:18px;font-size:13.5px;line-height:1.5;color:var(--ink2)}
 .trcomp li{margin:0 0 5px}
-.trtyp,.trcases{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin:0 0 22px}
+.trtyp,.trcases{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(260px,100%),1fr));gap:12px;margin:0 0 22px}
 .trt{border:1px solid var(--rule);border-radius:2px;padding:12px 14px;display:flex;flex-direction:column;gap:5px;background:var(--paper2)}
 .trt b{font-family:var(--ui);font-weight:600;font-size:13.5px;color:var(--ink)}
 .trt p{font-size:13px;line-height:1.45;margin:0;color:var(--ink2)}
@@ -178,7 +178,41 @@
 .trmore p{margin-top:6px;font-size:13px;color:var(--ink2)}
 .trresearch{margin:8px 0 6px;padding-left:22px;font-size:13.5px;line-height:1.5;color:var(--ink2)}
 .trresearch li{margin:0 0 6px}
-.trframe{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px;margin:8px 0 14px}
+.trframe{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(280px,100%),1fr));gap:10px;margin:8px 0 14px}
 .trframe .trt p{font-size:13px;color:var(--ink2);line-height:1.45;margin:4px 0 8px}
 .trfl{display:flex;flex-wrap:wrap;gap:4px}
 .trfl .tag{cursor:pointer}
+
+/* ---------- the Deal Room (v26) ---------- */
+.navform label.chk{display:flex;flex-direction:row;align-items:center;gap:8px;font-size:13px;grid-column:1/-1}
+.navform label.chk input{width:auto;margin:0}
+.navform label span em{font-style:italic;color:var(--ink3);font-weight:400}
+.dealbar{display:flex;height:14px;border-radius:7px;overflow:hidden;margin:6px 0 6px;background:var(--paper2)}
+.dealbar span{display:block;min-width:2px}
+.db-consignor{background:var(--c1)}.db-house{background:var(--c2)}.db-guarantor{background:var(--gilt)}.db-adviser{background:var(--verd)}.db-intro{background:var(--lapis)}.db-lender{background:var(--ink3)}.db-state{background:var(--c3)}
+.dealkey{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--ink3);margin:0 0 10px}
+.dealkey i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+.dealtbl th:first-child{width:200px}
+.dealtbl{min-width:520px}
+.dealtbl td.how{font-size:12.5px;color:var(--ink2);line-height:1.4}
+.dealnote{margin:6px 0 10px;font-size:13px}
+.dealsank{margin:6px 0 14px}
+.dealsank svg{width:100%;height:auto}
+.dealclock li .who{font-size:12px;color:var(--ink3)}
+.dealterms{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:10px;margin:8px 0 14px}
+.dealterms .trt p{font-size:13px}
+.dealcases{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(320px,100%),1fr));gap:10px;margin:8px 0 14px}
+.dealcase{border:1px solid var(--rule2);border-radius:10px;padding:12px 14px;background:color-mix(in srgb,var(--paper2) 55%,transparent)}
+.dealcase .dc-h{display:flex;flex-direction:column;gap:2px;margin-bottom:6px}
+.dealcase .dc-h b{font-family:var(--display);font-weight:400;font-size:16px;line-height:1.25}
+.dealcase .dc-h span{font-size:12px;color:var(--ink3)}
+.dealcase p{font-size:12.5px;line-height:1.45;margin:3px 0;color:var(--ink2)}
+.dealcase p .label{display:inline;margin-right:4px}
+.dealcase .src{margin-top:6px}
+.dealpeople{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(240px,100%),1fr));gap:8px 14px;margin:8px 0 14px}
+.dealp{font-size:13px;line-height:1.4;padding:6px 0;border-top:1px solid var(--rule2)}
+.dealp b{display:block}
+.dealp span{color:var(--ink3);font-size:12px}
+.dealp p{font-size:12px;color:var(--ink2);margin:3px 0 0}
+.dealecon .trt p{font-size:13px}
+@media (max-width:760px){.dealtbl th:first-child{width:auto}}

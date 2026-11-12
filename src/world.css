@@ -13,7 +13,9 @@
 .wd-lead{position:absolute;left:var(--wdx);top:min(7vh,64px);width:min(460px,37vw);z-index:2;pointer-events:none}
 .wd-lead>*{pointer-events:auto}
 .wd-eye{color:var(--live)}
-.wd-h1{font-family:var(--display);font-weight:400;font-size:clamp(34px,4.1vw,60px);line-height:1.02;margin:4px 0 12px;letter-spacing:-.012em;text-wrap:balance}
+.wd-h1{font-family:var(--display);font-weight:400;font-size:clamp(34px,4.1vw,60px);}
+.wd[data-mode="net"] .wd-h1,.wd[data-mode="shifts"] .wd-h1{font-size:clamp(30px,3.3vw,48px)}
+.wd-h1{line-height:1.02;margin:4px 0 12px;letter-spacing:-.012em;text-wrap:balance}
 .wd-read{font-family:var(--read);font-size:16px;line-height:1.55;color:var(--ink2);margin:0 0 18px;max-width:430px}
 .wd-modes{display:inline-flex;gap:2px;padding:3px;border-radius:999px;background:color-mix(in srgb,var(--paper2) 70%,transparent);border:1px solid var(--rule)}
 .wd-mode{font-family:var(--ui);font-size:13px;font-weight:500;letter-spacing:.02em;padding:6px 14px;border-radius:999px;color:var(--ink2)}
@@ -151,11 +153,25 @@
 .wd-legend i.web{background:var(--ink3);height:2px;border-radius:1px;width:14px;box-shadow:none}
 .wd-legend i.in{background:var(--gilt);height:2px;border-radius:1px;width:14px;box-shadow:none}
 .wd-legend i.out{background:var(--lapis);height:2px;border-radius:1px;width:14px;box-shadow:none}
+.wd-legend i.vault{background:transparent;border:1.5px solid var(--lapis);border-bottom-width:4px;border-radius:1px;box-shadow:none}
+.wd-legend .wd-vaults{border:1px solid var(--lapis);border-radius:12px;padding:2px 9px;font-size:11.5px;color:var(--lapis);background:transparent;cursor:pointer;margin-left:2px}
+.wd-legend .wd-vaults:hover{background:var(--lapis);color:#fff}
+.wd-ev.vault b{display:block}
+.wd-legend .wd-wire{border:1px solid var(--live);border-radius:12px;padding:2px 9px;font-size:11.5px;color:var(--live);background:transparent;cursor:pointer;margin-left:2px}
+.wd-legend .wd-wire:hover{background:var(--live);color:#fff}
+.wd-wireline p{font-size:13px;line-height:1.45;margin:3px 0}
+.wd-wl{font-size:12.5px;line-height:1.45;margin:3px 0}
+.wd-more summary{cursor:pointer;font-size:12px;color:var(--ink3)}
+.wd-more p{font-size:13px;margin-top:4px}
+.wd-cityk{background:none;border:0;padding:0;font:inherit;color:var(--ink);cursor:pointer;text-decoration:underline;text-decoration-color:var(--rule2)}
+.wd-cityk:hover{text-decoration-color:var(--ink)}
 .wd-ev.player b,.wd-ev.lot b{display:block}
 .wd-person{font-size:13px;line-height:1.4;margin:0 0 6px}
 .wd-person .faint{font-size:12px}
 .wd-acts{display:flex;flex-wrap:wrap;gap:6px}
 /* the seven years and the markets: cards from the Net's controls */
+.wd-legend .wd-years,.wd-legend .wd-markets{border:1px solid var(--gilt);border-radius:12px;padding:2px 9px;font-size:11.5px;color:var(--gilt);background:transparent;cursor:pointer;margin-left:2px}
+.wd-legend .wd-years:hover,.wd-legend .wd-markets:hover{background:var(--gilt);color:var(--ongilt)}
 .wd-year b,.wd-market b{display:inline-block;font-size:14px;margin-right:6px}
 .wd-year p,.wd-market p{font-size:13px;line-height:1.45;margin:4px 0}
 .wd-year p .label{display:inline;margin-right:4px}

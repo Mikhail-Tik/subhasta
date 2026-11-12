@@ -388,8 +388,67 @@ head_n = """/* ---------- THE NET (v25): the players, the money behind the major
    behind each major lot since 2020, keyed by lot id (consignor, guarantee, buyer, direction, fees); RESULTS gain it at boot as r.fin.
    NET_FLOWS: the same as arcs for the globe (from the consignor's city to the room, from the room to the buyer's city or region).
    NET_YEARS: the finance of each year since 2020. NET_NEW_LOTS: major sales the terminal lacked, added to the Hammer at boot.
-   TRANSFORM: the stages of money through art, the typologies and the controls that catch them, the round trip, the public cases. */
+   TRANSFORM: the stages of money through art, the typologies and the controls that catch them, the round trip, the public cases.
 """
 asof = MS.get('asof') or PL.get('asof') or TR.get('asof') or ''
-(root / 'src' / 'data_net.js').write_text(head_n + f"const NET_ASOF='{asof}';\n" + js('NET_PLAYERS', players) + js('NET_MARKETS', markets) + js('LOT_FIN', lot_fin) + js('NET_FLOWS', flows) + js('NET_YEARS', years) + js('NET_NEW_LOTS', new_lots) + js('TRANSFORM', transform), encoding='utf-8')
-print(f"wrote src/data_net.js: {len(players)} players, {len(markets)} markets, {len(lot_fin)} lots with their money ({len(new_lots)} new), {len(flows)} flows, {len(transform.get('stages', []))} transformation stages")
+
+# ======================= v26: the East joins the Net; the vaults; the Deal Room; the trade's workflows (the pitch); the live feeds =======================
+B26 = BUNDLE.get('v26', {})
+EA = B26.get('east') or {}
+VA = B26.get('vaults') or {}
+DL = B26.get('deal') or {}
+WF = B26.get('workflows') or {}
+AP = B26.get('apis') or {}
+# the East's players and markets merge into the Net (a player the Net already has is extended, not duplicated)
+have = {p['id']: p for p in players}
+n_east_new = 0
+for p in EA.get('players', []):
+    if not p.get('id') or not p.get('n'): continue
+    row = {k: p.get(k) for k in ('id', 'n', 'kind', 'extends', 'hq', 'offices', 'people', 'represents', 'owner', 'scale', 'edge', 'src', 'vf', 'note') if p.get(k) not in (None, '', [], {})}
+    if isinstance(row.get('offices'), list): row['offices'] = [o if isinstance(o, str) else (o.get('city') or '') for o in row['offices'] if o]   # the East wrote some offices as {city, country}
+    for k in ('edge', 'scale', 'owner', 'note'):   # the East wrote |word| for emphasis; the page has no such markup
+        if isinstance(row.get(k), str): row[k] = re.sub(r'\|([^|]{1,40})\|', r'\1', row[k])
+    for x in row.get('people') or []:
+        if isinstance(x, dict) and isinstance(x.get('note'), str): x['note'] = re.sub(r'\|([^|]{1,40})\|', r'\1', x['note'])
+    row['east'] = True
+    if p['id'] in have:
+        cur = have[p['id']]
+        for k, v in row.items():
+            if k in ('offices', 'people', 'represents', 'src') and isinstance(v, list): cur[k] = (cur.get(k) or []) + [x for x in v if x not in (cur.get(k) or [])]
+            elif k not in cur or cur.get(k) in (None, '', [], {}): cur[k] = v
+    else:
+        players.append(row); have[p['id']] = row; n_east_new += 1
+have_m = {m['city'] for m in markets}
+for m in EA.get('markets', []):
+    if m.get('city') and m['city'] not in have_m:
+        markets.append({k: m.get(k) for k in ('city', 'role', 'src', 'vf') if m.get(k) not in (None, '')}); have_m.add(m['city'])
+wire = sorted([{k: w.get(k) for k in ('d', 'city', 't', 'src', 'vf') if w.get(k) not in (None, '')} for w in EA.get('wire', []) if w.get('d') and w.get('t')], key=lambda w: w['d'], reverse=True)
+russia = {k: EA['russia'].get(k) for k in ('state', 'law', 'src', 'vf') if EA.get('russia') and EA['russia'].get(k) not in (None, '')} if EA.get('russia') else {}
+# the vaults: free ports, bonded stores and storage, with their people and their published contact lines
+vaults = []
+for v in VA.get('vaults', []):
+    if not v.get('id') or not v.get('n'): continue
+    row = {k: (v.get(k).strip() if isinstance(v.get(k), str) else v.get(k)) for k in ('id', 'n', 'city', 'country', 'kind', 'operator', 'owner', 'opened', 'size', 'value', 'capital', 'tenants', 'people', 'contact', 'rules', 'fees', 'cases', 'src', 'vf', 'note') if v.get(k) not in (None, '', [], {})}
+    if isinstance(row.get('contact'), dict): row['contact'] = {k: x for k, x in row['contact'].items() if x not in (None, '')}
+    vaults.append(row)
+vault_ids = {v['id'] for v in vaults}
+def strip_ids(t):   # the research wrote vault ids in parentheses inside its prose; the page names the vaults beneath, so the ids go
+    return re.sub(r'\s*\(((?:[a-z0-9_]+)(?:,\s*[a-z0-9_]+)*)\)', lambda m: '' if all(x.strip() in vault_ids for x in m.group(1).split(',')) else m.group(0), t)
+vault_cities = [{k: (strip_ids(c.get(k)) if k == 'summary' else c.get(k)) for k in ('city', 'summary', 'src', 'vf') if c.get(k) not in (None, '')} for c in VA.get('cities', []) if c.get('city')]
+# the Deal Room's research
+deal = {k: DL.get(k) for k in ('asof', 'terms', 'economics', 'cases', 'people', 'guarantors') if DL.get(k) not in (None, '', [])}
+# the trade's day-to-day and what it pays for: the pitch
+pitch = {k: WF.get(k) for k in ('asof', 'roles', 'tools', 'functions', 'pricing') if WF.get(k) not in (None, '', [])}
+# the feeds a page can reach itself, and the datasets for the desk
+feeds = {'asof': AP.get('asof', ''), 'apis': [{k: a.get(k) for k in ('id', 'n', 'owner', 'what', 'endpoint', 'auth', 'cors', 'rate', 'licence', 'use', 'src', 'vf') if a.get(k) not in (None, '')} for a in AP.get('apis', [])],
+         'datasets': [{k: d.get(k) for k in ('id', 'n', 'what', 'url', 'format', 'licence', 'size', 'use', 'src', 'vf') if d.get(k) not in (None, '')} for d in AP.get('datasets', [])],
+         'closed': AP.get('closed', [])}
+head_n += """   v26 adds: NET_WIRE (what happened in the East, 2025–26, by date), NET_RUSSIA (the Russian market and its law), VAULTS and
+   VAULT_CITIES (free ports, bonded stores and fine-art storage by city: operator, owner, size, value as published, people, the
+   organisation's published contact lines, rules, cases), DEAL (the Deal Room's research: terms, the economics of a $50m hammer,
+   cases, people, guarantors), PITCH (the trade's roles and their days, the tools they pay for and their prices, the functions a
+   terminal should offer, the pricing benchmarks) and OPEN_FEEDS (the open APIs and datasets, with auth, CORS and licence as read).
+   The East's players carry east: true. */
+"""
+(root / 'src' / 'data_net.js').write_text(head_n + f"const NET_ASOF='{asof}';\n" + js('NET_PLAYERS', players) + js('NET_MARKETS', markets) + js('LOT_FIN', lot_fin) + js('NET_FLOWS', flows) + js('NET_YEARS', years) + js('NET_NEW_LOTS', new_lots) + js('TRANSFORM', transform) + js('NET_WIRE', wire) + js('NET_RUSSIA', russia) + js('VAULTS', vaults) + js('VAULT_CITIES', vault_cities) + js('DEAL', deal) + js('PITCH', pitch) + js('OPEN_FEEDS', feeds), encoding='utf-8')
+print(f"wrote src/data_net.js: {len(players)} players ({n_east_new} from the East), {len(markets)} markets, {len(lot_fin)} lots with their money ({len(new_lots)} new), {len(flows)} flows, {len(transform.get('stages', []))} transformation stages; {len(wire)} wire lines; {len(vaults)} vaults in {len(vault_cities)} cities; deal: {len(deal.get('terms', []))} terms, {len(deal.get('cases', []))} cases, {len(deal.get('people', []))} people; pitch: {len(pitch.get('roles', []))} roles, {len(pitch.get('tools', []))} tools, {len(pitch.get('functions', []))} functions; feeds: {len(feeds['apis'])} APIs, {len(feeds['datasets'])} datasets")

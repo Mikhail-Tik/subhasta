@@ -19,7 +19,7 @@ const cut=(s,n)=>{s=String(s==null?'':s).replace(/\s+/g,' ').trim();return s.len
 const askUnesc=s=>String(s).replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&amp;/g,'&');
 const privArtist=p=>String(p.work||'').split(',')[0].trim();
 const privTitle=p=>String(p.work||'').split(',').slice(1).join(',').trim();
-const KIND_NAMES={player:'Player',event:'Event',thesis:'Thesis',view:'Section',compare:'Compare',lot:'Lot',private:'Private sale',upcoming:'To come',sale:'Sale',movement:'Movement',artist:'Artist',house:'House',org:'Player',person:'Person',collector:'Collector',story:'Story',term:'Term',signal:'Signal',news:'Wire',cal:'Date',under:'Undercurrent',station:'Station',symptom:'Diagnosis',vital:'Vital sign',hub:'Hub',segment:'Segment',inst:'Institution',fair:'Fair',report:'Report',journey:'Journey',dealer:'Dealer',prov:'Ownership history',record:'Record',kb:'Learned',limit:'Limit'};
+const KIND_NAMES={player:'Player',vault:'Vault',deal:'Deal',event:'Event',thesis:'Thesis',view:'Section',compare:'Compare',lot:'Lot',private:'Private sale',upcoming:'To come',sale:'Sale',movement:'Movement',artist:'Artist',house:'House',org:'Player',person:'Person',collector:'Collector',story:'Story',term:'Term',signal:'Signal',news:'Wire',cal:'Date',under:'Undercurrent',station:'Station',symptom:'Diagnosis',vital:'Vital sign',hub:'Hub',segment:'Segment',inst:'Institution',fair:'Fair',report:'Report',journey:'Journey',dealer:'Dealer',prov:'Ownership history',record:'Record',kb:'Learned',limit:'Limit'};
 
 /* ---------- 1. the index ---------- */
 const KX={docs:[],post:new Map(),vocab:[],avg:1,built:false};
@@ -67,6 +67,9 @@ function kxBuildNow(){const D=[];
   SIGNALS.forEach((s,i)=>add('signal',i,s.t,`${s.t} (${s.dir==='heat'?'heating':s.dir==='cool'?'cooling':'steady'}): ${s.p}`,s.p,`${s.t} signal trend`));
   EVENTS.forEach(e=>add('event',e.id,e.n,`${e.n}: ${SEASON_KINDS[e.kind]||e.kind}, ${e.city}${e.venue?` (${e.venue})`:''}, ${e.e&&e.e!==e.d?fspan(e.d,e.e):fdate(e.d)}. ${e.why||''}${e.price?` Tickets: ${e.price}.`:''}`,`${e.who||''} ${e.note||''}`,`${e.n} ${e.city} ${e.country||''} ${SEASON_KINDS[e.kind]||e.kind} ${kxWhen(e.d)} tickets event season fair biennale show`,{date:e.d}));
   (typeof NET_PLAYERS==='object'?NET_PLAYERS:[]).forEach(p=>add('player',p.id,p.n,`${p.n}: ${(WD_NET_KINDS[p.kind]||p.kind).toLowerCase().replace(/s$/,'')} based in ${p.hq?p.hq.city:''}${p.offices&&p.offices.length?`, with offices in ${p.offices.slice(0,6).join(', ')}`:''}. ${p.edge||''} ${p.people&&p.people.length?`Fronted by ${p.people.slice(0,3).map(x=>x.n+(x.role?' ('+x.role+')':'')).join(', ')}.`:''} ${p.represents&&p.represents.length?`Represents ${p.represents.slice(0,8).join(', ')}.`:''} ${p.owner?`Owner: ${p.owner}.`:''} ${p.scale||''}`,'',`${p.n} ${p.kind} ${p.hq?p.hq.city:''} ${(p.offices||[]).join(' ')} ${(p.people||[]).map(x=>x.n).join(' ')} ${(p.represents||[]).join(' ')} player dealer gallery who represents`));
+  /* v26: the vaults and the Deal Room's cases */
+  (typeof VAULTS==='object'?VAULTS:[]).forEach(v=>add('vault',v.id,v.n,`${v.n}, ${v.city}: ${(WD_VAULT_KINDS[v.kind]||v.kind).toLowerCase()}${v.operator?`, run by ${v.operator}`:''}${v.owner?`; owned by ${v.owner.split(/[;(]/)[0].trim()}`:''}. ${v.size?v.size.split(/[;.]/)[0]+'. ':''}${v.value?v.value.split(/(?<=\.)\s/)[0]+' ':''}${v.people&&v.people.length?`In charge: ${v.people.slice(0,3).map(x=>x.n+(x.role?' ('+x.role+')':'')).join(', ')}.`:''} ${v.contact&&v.contact.web?`Contact: ${v.contact.web}${v.contact.phone?', '+v.contact.phone:''}.`:''}`,'',`${v.n} ${v.city} ${v.country||''} ${v.kind} freeport vault storage bonded ${v.operator||''} ${(v.tenants||[]).join(' ')} ${(v.people||[]).map(x=>x.n).join(' ')}`,{src:v.src,vf:v.vf}));
+  (typeof DEAL==='object'&&DEAL&&Array.isArray(DEAL.cases)?DEAL.cases:[]).forEach(c=>add('deal',c.id,c.work,`${c.work}: ${c.price}. ${c.terms||''} ${c.buyer?`Buyer: ${c.buyer}.`:''} ${c.underbidders?`Underbidders: ${c.underbidders}.`:''} ${(c.people||[]).length?`People: ${c.people.slice(0,4).join(', ')}.`:''}`,c.aftermath||'',`${c.work} ${c.consignor||''} ${c.buyer||''} ${(c.people||[]).join(' ')} guarantee irrevocable bid deal`,{src:c.src,vf:c.vf}));
   THESES.forEach(t=>add('thesis',t.id,t.t,`${t.t} (${t.dir==='heat'?'heating':t.dir==='cool'?'cooling':'steady'}, ${t.horizon}): ${t.thesis}`,t.evidence.map(e=>e.f).join(' ')+' '+t.risks.join(' '),`${t.t} ${t.places.join(' ')} ${t.artists.join(' ')} horizon thesis next decade long term emerging`));
   VIEWS.forEach(v=>add('view',v,VIEW_NAMES[v]||v,`${VIEW_NAMES[v]||v}: a section of the terminal.`,'',`${VIEW_NAMES[v]||v} section view`));
   NEWS.forEach((n,i)=>add('news',i,n.h,`${fdate(n.dt)}, ${n.o}: ${n.h}. ${n.s||''}`,n.s,`${n.o} news ${kxWhen(n.dt)}`,{date:n.dt}));
@@ -113,7 +116,7 @@ function openRef(ref){const i=ref.indexOf(':');if(i<0)return;const k=ref.slice(0
   const land=sel=>{const el=$(sel);if(el){scrollToEl(el);if(!el.hasAttribute('tabindex'))el.tabIndex=-1;focusEl(el);}};
   switch(k){
     case 'lot':return openLot(lotById(id));case 'private':return openPrivate(+id);case 'upcoming':return openUpcoming(+id);case 'sale':return openSale(id);
-    case 'event':go('season');return openEvent(id);case 'thesis':go('horizon');return openThesis(id);case 'view':return go(id);case 'player':return worldJump({mode:'net',player:id});
+    case 'event':go('season');return openEvent(id);case 'thesis':go('horizon');return openThesis(id);case 'view':return go(id);case 'player':return worldJump({mode:'net',player:id});case 'vault':return worldJump({mode:'net',vault:id});case 'deal':{go('deal');if(window.__DEAL)window.__DEAL.case(id);return;}
     case 'movement':return openMovement(id);case 'artist':return openArtist(id);case 'house':case 'org':return openOrg(id);case 'person':return openPerson(id);
     case 'collector':return openCollector(id);case 'story':return openStory(id);case 'kb':return openKB(id);case 'news':return openNews(+id);
     case 'compare':{const [kind,a,b]=id.split('~');return openCompare(kind,a,b);}
@@ -282,6 +285,26 @@ function askStop(){askQueue=[];if(askCtl)askCtl.abort();}
 
 /* ---------- the data answer: the same question answered from the records alone ---------- */
 const askAmount=q=>{const m=String(q).replace(/,/g,'').match(/(?:\$|us\$|usd\s?)?\s?(\d+(?:\.\d+)?)\s?(bn|billion|m|million|mn|k|thousand)\b/i)||String(q).replace(/,/g,'').match(/\$\s?(\d{4,})/);if(!m)return 0;const v=+m[1];const u=(m[2]||'').toLowerCase();return u.startsWith('b')?v*1e9:(u.startsWith('m')?v*1e6:u.startsWith('k')||u.startsWith('t')?v*1e3:v);};
+/* v26: a vault question (who runs, whom to contact, what is inside, the rules) answers from VAULTS; a deal question (terms, guarantee,
+   who bought, who stood behind) from DEAL.cases */
+function dataVault(q,ql,hits){if(!(typeof VAULTS==='object'&&VAULTS.length))return null;if(!/vault|free ?port|freeport|bonded|storage|warehouse|stored|who runs|contact/.test(ql))return null;
+  const byName=VAULTS.filter(v=>kxWord(ql,v.n.split(/[ (]/)[0].toLowerCase())&&v.n.split(' ')[0].length>3);const city=Object.keys(typeof CITY_LL==='object'?CITY_LL:{}).filter(c=>c.length>=4&&kxWord(ql,c.toLowerCase()));
+  const hv=(hits||[]).filter(h=>h.kind==='vault').map(h=>VAULTS.find(v=>v.id===h.id)).filter(Boolean);
+  let list=byName.length?byName:city.length?VAULTS.filter(v=>city.some(c=>wdCityKey(v.city)===c)):hv;if(!list.length)return null;list=list.slice(0,6);
+  const one=list.length===1?list[0]:null;const L=[];
+  if(one){const ct=one.contact||{};L.push(`### ${one.n}`,`${WD_VAULT_KINDS[one.kind]||one.kind} in ${one.city}${one.operator?`, run by ${one.operator}`:''}${one.owner?`; owned by ${one.owner.split(/[;(]/)[0].trim()}`:''}.`);
+    if(one.people&&one.people.length)L.push('',`**In charge:** ${one.people.map(x=>x.n+(x.role?' ('+x.role+')':'')).join('; ')}.`);
+    if(ct.web||ct.phone||ct.email||ct.address)L.push('',`**Contact (the organisation’s published lines):** ${[ct.address,ct.phone,ct.email,ct.web].filter(Boolean).join(' · ')}.`);
+    if(one.size)L.push('',`**Size:** ${one.size}`);if(one.value)L.push('',`**What is inside, as published:** ${one.value}`);if(one.capital)L.push('',`**The operator’s numbers:** ${one.capital}`);if(one.rules)L.push('',`**The regime:** ${one.rules}`);
+    if(one.cases&&one.cases.length)L.push('',`**Cases:** ${one.cases.join(' ')}`);L.push('',`[[vault:${one.id}|Open it on the globe]]`);}
+  else{L.push(`### ${city.length?`The vaults of ${city[0]}`:'The vaults'}`);const cs=city.length&&typeof VAULT_CITIES==='object'?VAULT_CITIES.find(x=>wdCityKey(x.city)===city[0]):null;if(cs)L.push(cs.summary,'');list.forEach(v=>L.push(`- [[vault:${v.id}|${v.n}]] · ${WD_VAULT_KINDS[v.kind]||v.kind}${v.operator&&v.operator!==v.n?', '+v.operator:''}${v.people&&v.people.length?'; '+v.people[0].n+(v.people[0].role?' ('+v.people[0].role+')':''):''}${v.contact&&v.contact.web?' · '+v.contact.web.replace(/^https?:\/\//,''):''}`));}
+  const src=[].concat(...list.map(v=>v.src||[])).filter(x=>Array.isArray(x)&&/^https/.test(x[1]||''));const seen=new Set();const S2=src.filter(x=>{if(seen.has(x[1]))return false;seen.add(x[1]);return true;}).slice(0,6);if(S2.length)L.push('','**Sources.** '+S2.map(x=>`[${String(x[0]).replace(/[[\]]/g,'')}](${x[1]})`).join(' · ')+(one&&one.vf?` · flag ${one.vf}`:''));return L.join('\n');}
+function dataDeal(q,ql,hits){if(!(typeof DEAL==='object'&&DEAL&&Array.isArray(DEAL.cases)))return null;if(!/guarante|irrevocable|terms|who (bought|stood|guaranteed|consigned)|underbidder|enhanced hammer|deal behind|behind the sale|consignor/.test(ql))return null;
+  const hd=(hits||[]).filter(h=>h.kind==='deal').map(h=>DEAL.cases.find(c=>c.id===h.id)).filter(Boolean);const STOP=new Set(['collection','collected','works','private','masterpieces','portrait','composition','number','untitled','legacy','beauty','leading','sale','evening','large','with']);
+  const score=c=>String(c.work+' '+(c.consignor||'')).split(/[^A-Za-zÀ-ÿ’]+/).filter(w=>/^[A-Z]/.test(w)&&w.length>3&&!STOP.has(w.toLowerCase())).reduce((n,w)=>n+(kxWord(ql,w.toLowerCase())?1:0),0);const byWord=DEAL.cases.map(c=>[score(c),c]).filter(x=>x[0]>0).sort((a,b)=>b[0]-a[0]).map(x=>x[1]);
+  const c=byWord[0]||hd[0];if(!c)return null;
+  const L=[`### ${c.work}`,c.price||'',''];if(c.consignor)L.push(`**Consignor:** ${c.consignor}`,'');if(c.terms)L.push(`**Terms:** ${c.terms}`,'');if(c.buyer)L.push(`**Buyer:** ${c.buyer}`,'');if(c.underbidders)L.push(`**Underbidders:** ${c.underbidders}`,'');if(c.people&&c.people.length)L.push(`**People:** ${c.people.join('; ')}`,'');if(c.aftermath)L.push(`**After:** ${c.aftermath}`,'');
+  L.push(`[[deal:${c.id}|Model it in the Deal Room]]`);const S2=(c.src||[]).filter(x=>Array.isArray(x)&&/^https/.test(x[1]||'')).slice(0,5);if(S2.length)L.push('','**Sources.** '+S2.map(x=>`[${String(x[0]).replace(/[[\]]/g,'')}](${x[1]})`).join(' · ')+(c.vf?` · flag ${c.vf}`:''));return L.join('\n');}
 function dataAnswer(q,hits){const ql=norm(q);const L=[];const ref=(d,label)=>`[[${d.ref}|${label||d.name}]]`;
   const amt=askAmount(q);
   if(amt&&/all[- ]?in|premium|cost|pay|fees?\b|tax|vat|duty|freeport|resale|import/.test(ql)){
@@ -294,6 +317,8 @@ function dataAnswer(q,hits){const ql=norm(q);const L=[];const ref=(d,label)=>`[[
   const cmp=typeof dataCompare==='function'?dataCompare(q):null;if(cmp)return cmp;
   const ss=typeof dataSeason==='function'?dataSeason(q):null;if(ss)return ss;
   const hz=typeof dataHorizon==='function'?dataHorizon(q):null;if(hz)return hz;
+  const vv=dataVault(q,ql,hits);if(vv)return vv;
+  const dd=dataDeal(q,ql,hits);if(dd)return dd;
   const top=hits[0];
   if(!top)return `The terminal holds nothing that matches this yet. ${askDeskReach()?'The question has gone to the research desk, which reads open questions twice a week.':'The question is kept in your open questions, in this browser.'}\n\nTry a movement (*Impressionism*, *Fluxus*), an artist (*Klimt*), a house (*Sotheby’s*), a term (*irrevocable bid*) or a sale (*the November evening sales*).`;
   const wantsPrivate=/private|treaty|behind closed|off[- ]market/.test(ql);const wantsTop=/biggest|largest|most expensive|highest|top\b|record/.test(ql);

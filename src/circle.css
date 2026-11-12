@@ -119,3 +119,28 @@
   body.print-brief #v-circle>*:not(.grid),body.print-brief #v-circle .grid>*:not(.ci-briefsect),body.print-brief .ci-briefsect>*:not(.brief),body.print-brief .shell main>*:not(#v-circle){display:none!important}
   body.print-brief #v-circle .grid{display:block}
 }
+
+/* the pitch (v26) */
+.ci-pitchlead{font-size:15px;line-height:1.55;max-width:70ch;margin:6px 0 14px}
+.ci-roles{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:8px 14px;margin:6px 0 16px}
+.ci-role{border:1px solid var(--rule2);border-radius:8px;padding:8px 12px;background:color-mix(in srgb,var(--paper2) 50%,transparent)}
+.ci-role summary{cursor:pointer;list-style:none;display:flex;flex-direction:column;gap:2px}
+.ci-role summary::-webkit-details-marker{display:none}
+.ci-role summary b{font-size:14px}
+.ci-role summary span{font-size:12px;color:var(--ink3)}
+.ci-role ul{margin:8px 0 6px;padding-left:18px;font-size:12.5px;line-height:1.45;color:var(--ink2)}
+.ci-role p{font-size:12.5px;line-height:1.45;margin:4px 0}
+.ci-role p .label{display:inline;margin-right:4px}
+.ci-funcs{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(250px,100%),1fr));gap:8px;margin:6px 0 16px}
+.ci-func{border:1px solid var(--rule2);border-radius:8px;padding:8px 10px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 8px;align-items:start}
+.ci-func.have{border-color:var(--gilt)}
+.ci-func b{font-size:13px}
+.ci-func p{grid-column:1/-1;font-size:12px;line-height:1.4;color:var(--ink2);margin:2px 0 0}
+.ci-func small{grid-column:1/-1;font-size:11px;color:var(--ink3)}
+.ci-func .tag{cursor:pointer}
+.ci-tools th small{display:block;font-weight:400;color:var(--ink3);font-size:11px}
+.ci-tools td{font-size:12.5px;line-height:1.4}
+.ci-bench{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(220px,100%),1fr));gap:8px;margin:6px 0 10px}
+.ci-b{border:1px solid var(--rule2);border-radius:8px;padding:8px 10px;font-size:12.5px}
+.ci-b b{display:block;font-size:13px}
+.ci-b span{color:var(--ink2)}
