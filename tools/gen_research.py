@@ -29,7 +29,8 @@ def typo(o):
     """House style: typographic quotes. 'any other article' -> ‘any other article’; a remaining apostrophe -> ’; US$ -> $."""
     if isinstance(o, str):
         o = re.sub(r"(?<![\w])'([^']+?)'(?![\w])", '‘\\1’', o)
-        return o.replace("'", '’').replace('US$', '$')
+        o = o.replace("'", '’').replace('US$', '$')
+        return re.sub(r'\$(\d[\d.,]*)([MBK])\b', lambda m: '$' + m.group(1) + {'M': 'm', 'B': 'bn', 'K': 'k'}[m.group(2)], o)   # $40M → $40m, the page's unit style
     if isinstance(o, list): return [typo(x) for x in o]
     if isinstance(o, dict): return {k: typo(v) for k, v in o.items()}
     return o
@@ -410,6 +411,8 @@ for p in EA.get('players', []):
         if isinstance(row.get(k), str): row[k] = re.sub(r'\|([^|]{1,40})\|', r'\1', row[k])
     for x in row.get('people') or []:
         if isinstance(x, dict) and isinstance(x.get('note'), str): x['note'] = re.sub(r'\|([^|]{1,40})\|', r'\1', x['note'])
+    if isinstance(row.get('represents'), list): row['represents'] = [re.sub(r'^\s*(?:from memory|From memory)\s*[:;,]\s*', '', x) for x in row['represents'] if isinstance(x, str)]   # the flag says it; the list need not
+    if p['id'] in have and isinstance(have[p['id']].get('represents'), list): have[p['id']]['represents'] = [re.sub(r'^\s*(?:from memory|From memory)\s*[:;,]\s*', '', x) for x in have[p['id']]['represents'] if isinstance(x, str)]
     row['east'] = True
     if p['id'] in have:
         cur = have[p['id']]
@@ -418,6 +421,10 @@ for p in EA.get('players', []):
             elif k not in cur or cur.get(k) in (None, '', [], {}): cur[k] = v
     else:
         players.append(row); have[p['id']] = row; n_east_new += 1
+def unmem(x):   # "From memory: A, B" → "A, B"; "From memory, before the cuts: A" → "before the cuts: A" (the flag already says U)
+    return re.sub(r'^\s*[Ff]rom memory\s*(?:[:;]\s*|,\s*)', '', x) if isinstance(x, str) else x
+for pl in players:
+    if isinstance(pl.get('represents'), list): pl['represents'] = [unmem(x) for x in pl['represents']]
 have_m = {m['city'] for m in markets}
 for m in EA.get('markets', []):
     if m.get('city') and m['city'] not in have_m:
@@ -437,6 +444,16 @@ def strip_ids(t):   # the research wrote vault ids in parentheses inside its pro
 vault_cities = [{k: (strip_ids(c.get(k)) if k == 'summary' else c.get(k)) for k in ('city', 'summary', 'src', 'vf') if c.get(k) not in (None, '')} for c in VA.get('cities', []) if c.get('city')]
 # the Deal Room's research
 deal = {k: DL.get(k) for k in ('asof', 'terms', 'economics', 'cases', 'people', 'guarantors') if DL.get(k) not in (None, '', [])}
+# the research read Christie's schedule as 27/22/15 from September 2025; Christie's moved to 28% on the first $2m in September 2026
+# (MyArtBroker, 28 Sep 2026, S; the terminal's FEES table and SCHED carry it), so the lines that cite 27% say so
+CHR_NOTE = ' Superseded in September 2026: Christie’s now charges 28% on the first $2m, 22% to $8m and 15% above, the structure Sotheby’s adopted in February (MyArtBroker, 28 Sep 2026); the terminal’s schedules carry the 2026 tiers.'
+CHR_SRC = ['MyArtBroker, 28 Sep 2026: the premium problem', 'https://www.myartbroker.com/market/articles/the-premium-problem-what-rising-auction-fees-mean-for-sellers']
+for t in deal.get('terms') or []:
+    if t.get('id') == 'buyers-premium' and '27%' in (t.get('what') or '') and 'Superseded' not in t['what']:
+        t['what'] = t['what'].rstrip() + CHR_NOTE; t['src'] = (t.get('src') or []) + [CHR_SRC]
+for l in (deal.get('economics') or {}).get('lines') or []:
+    if 'Christie' in (l.get('party') or '') and '27%' in (l.get('basis') or '') and 'Superseded' not in l['basis']:
+        l['basis'] = l['basis'].rstrip() + CHR_NOTE; l['src'] = (l.get('src') or []) + [CHR_SRC]
 # the trade's day-to-day and what it pays for: the pitch
 pitch = {k: WF.get(k) for k in ('asof', 'roles', 'tools', 'functions', 'pricing') if WF.get(k) not in (None, '', [])}
 # the feeds a page can reach itself, and the datasets for the desk
