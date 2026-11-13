@@ -57,7 +57,7 @@ data['data_reel'] = data['data_reel'].replace('/*__IMGMETA__*/{}', imeta_js)
 nga = json.load(open(root / 'data' / 'nga_subset.json', encoding='utf-8'))
 nga_js = json.dumps(nga, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
 app = read(src / 'app.js')
-for ph, f in (('/*__UNDER__*/', 'under.js'), ('/*__PULSE__*/', 'pulse.js'), ('/*__ATLAS__*/', 'atlas.js'), ('/*__CLINIC__*/', 'clinic.js'), ('/*__GLOBE__*/', 'globe.js'), ('/*__CIRCLE__*/', 'circle.js'), ('/*__LAB__*/', 'lab.js'), ('/*__LABPROV__*/', 'lab_prov.js'), ('/*__LABHANDS__*/', 'lab_hands.js'), ('/*__TODAY__*/', 'today.js'), ('/*__MOVE__*/', 'move.js'), ('/*__ASK__*/', 'ask.js'), ('/*__WORLD__*/', 'world.js'), ('/*__LIBRARY__*/', 'library.js'), ('/*__COMPARE__*/', 'compare.js'), ('/*__NAV__*/', 'nav.js'), ('/*__SEASON__*/', 'season.js'), ('/*__DEAL__*/', 'deal.js')):
+for ph, f in (('/*__UNDER__*/', 'under.js'), ('/*__PULSE__*/', 'pulse.js'), ('/*__ATLAS__*/', 'atlas.js'), ('/*__CLINIC__*/', 'clinic.js'), ('/*__GLOBE__*/', 'globe.js'), ('/*__CIRCLE__*/', 'circle.js'), ('/*__LAB__*/', 'lab.js'), ('/*__LABPROV__*/', 'lab_prov.js'), ('/*__LABHANDS__*/', 'lab_hands.js'), ('/*__TODAY__*/', 'today.js'), ('/*__MOVE__*/', 'move.js'), ('/*__ASK__*/', 'ask.js'), ('/*__WORLD__*/', 'world.js'), ('/*__LIBRARY__*/', 'library.js'), ('/*__COMPARE__*/', 'compare.js'), ('/*__NAV__*/', 'nav.js'), ('/*__SEASON__*/', 'season.js'), ('/*__DEAL__*/', 'deal.js'), ('/*__OCEAN__*/', 'ocean.js')):
     assert app.count(ph) == 1, f'app.js must carry exactly one {ph}'
     app = app.replace(ph, read(src / f))
 reel = read(src / 'reel.js')

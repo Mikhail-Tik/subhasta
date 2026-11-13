@@ -182,3 +182,19 @@
 /* a live line on a card (the Wikipedia lead) */
 .wd-card .wd-live{margin-top:10px;padding-top:8px;border-top:1px solid var(--rule2);font-size:12.5px}
 .wd-card .wd-live p{margin:2px 0 4px;line-height:1.45}
+
+/* the zoom buttons: a small column at the globe's lower right, finger-sized on a phone */
+.wd-zoomctl{position:absolute;right:16px;bottom:28px;z-index:3;display:flex;flex-direction:column;gap:6px}
+.wd-zb{width:36px;height:36px;border-radius:50%;border:1px solid var(--rule2);background:var(--paper);color:var(--ink2);font-size:20px;line-height:1;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.08);display:flex;align-items:center;justify-content:center;padding:0;font-family:var(--sans)}
+.wd-zb:hover{color:var(--gilt);border-color:var(--gilt)}
+@media (max-width:760px){.wd-zoomctl{position:static;order:0;flex-direction:row;justify-content:flex-end;gap:8px;padding:0 14px;margin:-52px 0 12px;position:relative;z-index:3}.wd-zb{width:40px;height:40px;font-size:22px}}
+
+/* v27: the currents, the stones and the temperatures in the legend and the cards */
+.wd-legend i.cur{background:transparent;height:0;width:16px;border-top:2px dashed var(--claret);border-radius:0;box-shadow:none}
+.wd-legend i.stone{width:10px;height:10px;border-radius:2px 5px 3px 6px;background:var(--ink);transform:rotate(12deg);box-shadow:none}
+.wd-legend i.temp{background:transparent;border:2.4px solid var(--claret);box-shadow:none}
+.wd-route{margin:4px 0 0;padding-left:18px;font-size:13px;line-height:1.5}
+.wd-route li{margin:2px 0}
+.wd-temp{border-left:3px solid var(--ink3);padding-left:10px}
+.wd-temp.hot{border-left-color:var(--claret)}.wd-temp.warm{border-left-color:var(--gilt)}.wd-temp.cold{border-left-color:var(--rule2)}
+.wd-ev.stone b,.wd-ev.tide b{display:block}

@@ -216,3 +216,92 @@
 .dealp p{font-size:12px;color:var(--ink2);margin:3px 0 0}
 .dealecon .trt p{font-size:13px}
 @media (max-width:760px){.dealtbl th:first-child{width:auto}}
+
+/* ---------- THE OCEAN (v27): the tides, the collectors, the currents, the whispers, the playbooks ---------- */
+.oc-filters{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:4px 0 14px}
+.oc-filters .tag{cursor:pointer}
+.oc-filters .tag.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.oc-filters input[type=search]{flex:1 1 280px;min-width:200px;padding:8px 12px;border:1px solid var(--rule2);border-radius:20px;background:var(--paper2);color:var(--ink);font:inherit;font-size:14px}
+.oc-tides,.oc-colls,.oc-cases{display:grid;grid-template-columns:repeat(auto-fill,minmax(420px,1fr));gap:14px}
+.oc-tide,.oc-coll,.oc-case{border:1px solid var(--rule2);border-radius:10px;padding:16px 18px;background:var(--paper);transition:box-shadow .3s}
+.oc-tide.lit,.oc-case.lit{box-shadow:0 0 0 2px var(--gilt)}
+.oc-th,.oc-ch{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin-bottom:8px}
+.oc-th h3,.oc-ch h3{font-family:var(--display);font-weight:400;font-size:19px;margin:0;flex:1 1 auto}
+.oc-ch h3 .lk{font:inherit;color:inherit;text-decoration:none}
+.oc-ch h3 .lk:hover{color:var(--gilt)}
+.oc-dir{display:inline-flex;width:26px;height:26px;border-radius:50%;align-items:center;justify-content:center;font-size:15px;border:1px solid var(--rule2);color:var(--ink2)}
+.oc-dir.rising{color:var(--ok,#2f7d4f);border-color:currentColor}
+.oc-dir.falling{color:var(--claret);border-color:currentColor}
+.oc-dir.turning{color:var(--gilt);border-color:currentColor}
+.oc-str{font-size:9px;letter-spacing:2px;color:var(--gilt)}
+.oc-tide p,.oc-coll p,.oc-case p{font-size:13.5px;line-height:1.5;color:var(--ink2);margin:4px 0}
+.oc-ev{margin:8px 0;padding:8px 10px;border-left:2px solid var(--gilt);background:var(--paper2);border-radius:0 6px 6px 0}
+.oc-evl{font-size:13px;line-height:1.45;margin:2px 0}
+.oc-cols{display:grid;grid-template-columns:1fr 1fr;gap:6px 16px;margin:6px 0}
+.oc-cols ul,.oc-nw ul,.oc-pit ul,.oc-rr ul,.oc-rec{margin:4px 0 0;padding-left:18px;font-size:13px;line-height:1.45;color:var(--ink2)}
+.oc-cols .label,.oc-nw .label,.oc-pred .label,.oc-pit .label,.oc-rr .label,.oc-lesson .label,.oc-out .label{display:inline-block;margin-bottom:2px}
+.oc-pred p{font-size:13px;margin:3px 0}
+.oc-rum{margin:8px 0;padding:8px 10px;border:1px dashed color-mix(in srgb,var(--claret) 50%,transparent);border-radius:6px}
+.oc-rum p{margin:4px 0 0;font-size:13px}
+.oc-foot{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:12.5px;margin:8px 0 4px;align-items:center}
+.oc-foot .lk{font:inherit;color:var(--ink);text-decoration:underline dotted;text-underline-offset:3px}
+.oc-foot .lk:hover{color:var(--gilt)}
+.oc-sound{display:grid;gap:6px;margin:8px 0}
+.oc-sr{display:grid;grid-template-columns:minmax(120px,1.2fr) minmax(0,3fr) auto auto;gap:10px;align-items:center;font-size:13px}
+.oc-sr .bar{position:relative;height:10px;background:var(--paper2);border-radius:5px;overflow:hidden}
+.oc-sr .bar i{position:absolute;left:0;top:0;height:5px;background:var(--ink3);opacity:.5}
+.oc-sr .bar i.b{top:5px;background:var(--gilt);opacity:1}
+.oc-sr .num{font-variant-numeric:tabular-nums;color:var(--ink2)}
+.oc-sr .d{font-variant-numeric:tabular-nums;font-weight:600}
+.oc-sr .d.up{color:var(--ok,#2f7d4f)}.oc-sr .d.down{color:var(--claret)}
+.oc-temps{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
+.oc-temp{text-align:left;border:1px solid var(--rule2);border-radius:8px;padding:10px 12px;background:var(--paper);cursor:pointer;font:inherit;color:inherit;border-left-width:4px}
+.oc-temp.hot{border-left-color:var(--claret)}.oc-temp.warm{border-left-color:var(--gilt)}.oc-temp.cool{border-left-color:var(--ink3)}.oc-temp.cold{border-left-color:var(--rule2)}
+.oc-temp b{display:inline-block;margin-right:6px}.oc-temp p{font-size:12.5px;margin:4px 0 0;color:var(--ink2)}
+.oc-temp:hover{border-color:var(--gilt)}
+.oc-reading{border:1px solid var(--rule2);border-radius:10px;padding:14px 18px;margin-top:10px;background:var(--paper2)}
+.oc-rh{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;margin-bottom:10px}
+.oc-rl{display:grid;grid-template-columns:minmax(160px,1.4fr) minmax(0,2fr) auto;gap:4px 12px;align-items:center;padding:6px 0;border-top:1px solid var(--rule2);font-size:13.5px}
+.oc-rl .why{grid-column:1/-1;font-size:12.5px;color:var(--ink2)}
+.oc-rl .bar{height:8px;background:var(--paper);border-radius:4px;overflow:hidden;border:1px solid var(--rule2)}
+.oc-rl .bar i{display:block;height:100%;background:var(--gilt)}
+.oc-rl .num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.oc-rl .lk{font:inherit;color:var(--ink);text-decoration:underline dotted;text-underline-offset:3px}
+.oc-rr{margin-top:8px}
+.oc-reports,.oc-next{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;margin:8px 0}
+.oc-links{margin:8px 0;display:grid;gap:4px}
+.oc-link{display:flex;gap:8px;align-items:flex-start;font-size:13px;line-height:1.45}
+.oc-link .tag{flex:0 0 auto}
+.oc-route{margin:6px 0 10px;padding-left:20px;font-size:13.5px;line-height:1.5;color:var(--ink2)}
+.oc-route li{margin:2px 0}
+.oc-lesson{padding:8px 10px;background:var(--paper2);border-radius:6px;font-size:13px}
+.oc-whs{display:grid;gap:10px}
+.oc-wh{border:1px solid var(--rule2);border-radius:8px;padding:12px 16px;background:var(--paper);border-left-width:4px;border-left-color:var(--ink3)}
+.oc-wh.rumour{border-left-color:var(--claret)}.oc-wh.prediction{border-left-color:var(--gilt)}.oc-wh.fact{border-left-color:var(--ok,#2f7d4f)}
+.oc-whh{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;margin-bottom:4px;font-size:12.5px}
+.oc-wt{font-size:15px;line-height:1.5;margin:2px 0}
+.oc-who{font-size:12.5px;color:var(--ink3);margin:2px 0}
+.oc-out{font-size:13px;margin:4px 0;padding:6px 10px;background:var(--paper2);border-radius:6px}
+.oc-rec .tag.ok{color:var(--ok,#2f7d4f);border-color:currentColor}
+.oc-books{display:grid;gap:10px}
+.oc-book{border:1px solid var(--rule2);border-radius:10px;background:var(--paper);padding:0 18px}
+.oc-book summary{list-style:none;cursor:pointer;display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 14px;align-items:center;padding:14px 0}
+.oc-book summary::-webkit-details-marker{display:none}
+.oc-book summary:hover b{color:var(--gilt)}
+.oc-bk{display:flex;flex-direction:column;gap:2px}.oc-bk b{font-family:var(--display);font-weight:400;font-size:18px}.oc-bk .faint{font-size:12.5px}
+.oc-bm{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.oc-steps{margin:0 0 12px;padding-left:24px;border-top:1px solid var(--rule2);padding-top:12px}
+.oc-steps li{margin:0 0 12px;font-size:13.5px;line-height:1.5}
+.oc-sn{font-weight:600;color:var(--ink)}
+.oc-steps p{margin:2px 0 4px;color:var(--ink2)}
+.oc-sm{display:flex;flex-wrap:wrap;gap:4px 16px;font-size:12.5px;color:var(--ink2)}
+.oc-pit{margin:8px 0 10px;font-size:13px}
+.oc-tools{display:flex;flex-wrap:wrap;gap:6px;margin-left:auto}
+.oc-book .oc-foot{padding-bottom:12px}
+@media print{body.print-one .view,body.print-one .nav,body.print-one .ask-dock,body.print-one header{display:none!important}body.print-one #v-playbooks{display:block!important}body.print-one .oc-book{display:none}body.print-one .oc-book.print-this{display:block;border:0}body.print-one #v-playbooks>*:not(.oc-books){display:none}}
+/* a long sum, cost or name in a tag wraps rather than widening the card (a phone otherwise scrolls sideways); every card stays inside its column */
+.oc-tide,.oc-coll,.oc-case,.oc-book,.oc-wh,.oc-tides>*,.oc-colls>*,.oc-cases>*{min-width:0;overflow-wrap:anywhere}
+.oc-th .tag,.oc-ch .tag,.oc-bm .tag,.oc-whh .tag,.oc-link .tag{white-space:normal;text-align:left;line-height:1.3;max-width:100%}
+.oc-ch h3 .lk,.oc-foot .lk,.oc-rl .lk{white-space:normal;text-align:left}
+.oc-route li b,.oc-route li .faint{overflow-wrap:anywhere}
+@media (max-width:760px){.oc-tides,.oc-colls,.oc-cases{grid-template-columns:1fr}.oc-cols{grid-template-columns:1fr}.oc-sr{grid-template-columns:1fr;gap:2px}.oc-rl{grid-template-columns:1fr;gap:2px}.oc-book{padding:0 14px}.oc-tide,.oc-coll,.oc-case{padding:14px}}

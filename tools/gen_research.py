@@ -30,6 +30,8 @@ def typo(o):
     if isinstance(o, str):
         o = re.sub(r"(?<![\w])'([^']+?)'(?![\w])", '‘\\1’', o)
         o = o.replace("'", '’').replace('US$', '$')
+        o = re.sub(r'\bUSD\s?(?=\d)', '$', o)   # "USD 2m" → "$2m"
+        o = re.sub(r'\$(\d+(?:\.\d+)?) (million|billion)\b', lambda m: '$' + m.group(1) + ('m' if m.group(2) == 'million' else 'bn'), o)   # "$27 million" → "$27m"
         return re.sub(r'\$(\d[\d.,]*)([MBK])\b', lambda m: '$' + m.group(1) + {'M': 'm', 'B': 'bn', 'K': 'k'}[m.group(2)], o)   # $40M → $40m, the page's unit style
     if isinstance(o, list): return [typo(x) for x in o]
     if isinstance(o, dict): return {k: typo(v) for k, v in o.items()}
@@ -460,6 +462,87 @@ pitch = {k: WF.get(k) for k in ('asof', 'roles', 'tools', 'functions', 'pricing'
 feeds = {'asof': AP.get('asof', ''), 'apis': [{k: a.get(k) for k in ('id', 'n', 'owner', 'what', 'endpoint', 'auth', 'cors', 'rate', 'licence', 'use', 'src', 'vf') if a.get(k) not in (None, '')} for a in AP.get('apis', [])],
          'datasets': [{k: d.get(k) for k in ('id', 'n', 'what', 'url', 'format', 'licence', 'size', 'use', 'src', 'vf') if d.get(k) not in (None, '')} for d in AP.get('datasets', [])],
          'closed': AP.get('closed', [])}
+# ======================= v27: the ocean — the tides, the collectors, the currents and the stones, the whispers, the playbooks =======================
+B27 = BUNDLE.get('v27', {})
+TI = B27.get('tides') or {}
+CO = B27.get('collectors') or {}
+CU = B27.get('currents') or {}
+WH = B27.get('whispers') or {}
+PB = B27.get('playbooks') or {}
+def clean_people_line(x):   # the people rules of the v27 brief: nothing is added here, but stray markup goes
+    return re.sub(r'\|([^|]{1,40})\|', r'\1', x) if isinstance(x, str) else x
+# the collectors join the Net as kind 'collector' (a collector the Net already has is extended)
+n_coll_new = 0
+LINKS_HELD = []   # (collector, kind, what): the unsourced links held back from the page
+HELD_BACK = []    # (what, why): records held back from the page for want of a source (the people rules)
+# the cities the globe knows (src/data_places.js CITY_LL), so a collector whose base names no city can sit where the record says the collection is
+_pl = (root / 'src' / 'data_places.js').read_text(encoding='utf-8')
+_m = re.search(r'const CITY_LL=(\{.*?\});', _pl, re.S)
+CITY_KEYS = sorted(json.loads(_m.group(1)).keys(), key=len, reverse=True) if _m else []
+def city_in(text):
+    t = text or ''
+    for c in CITY_KEYS:
+        if len(c) >= 4 and re.search(r'(^|[^A-Za-zÀ-ÿ])' + re.escape(c) + r'(?=$|[^A-Za-zÀ-ÿ])', t): return c
+    return None
+COLL_KEYS = ('wealth', 'source_of_wealth', 'holds', 'named_works', 'where', 'vehicle', 'deals', 'advisers', 'links', 'rumour')
+for c in CO.get('collectors', []):
+    if not c.get('id') or not c.get('n'): continue
+    cid = c.get('extends') if c.get('extends') in have else c['id']
+    row = {'id': cid, 'n': c['n'], 'kind': 'collector', 'hq': {'city': c.get('base') or '', 'country': c.get('country') or ''}, 'src': c.get('src') or [], 'vf': c.get('vf') or 'U', 'note': c.get('note') or ''}
+    for k in COLL_KEYS:
+        if c.get(k) not in (None, '', [], {}): row[k] = c[k]
+    if isinstance(row.get('links'), list):
+        # the people rules (BRIEF_COMMON v27): a link to politics, finance or the law is shown only as a reputable source states it. A link
+        # the research carried from background knowledge (vf U, or no source of its own and the record's flag U) is held back from the page
+        # and listed for the next research run; the bundle keeps it
+        kept, held = [], []
+        for l in row['links']:
+            if not isinstance(l, dict): continue
+            lvf = (l.get('vf') or row.get('vf') or 'U').upper()
+            (held if lvf == 'U' or not (l.get('src') or row.get('src')) else kept).append(l)
+        row['links'] = [{kk: (unmem(clean_people_line(l.get(kk))) if kk == 'what' else l.get(kk)) for kk in ('kind', 'what', 'src', 'vf') if l.get(kk) not in (None, '')} for l in kept]
+        for l in held: LINKS_HELD.append((c['n'], l.get('kind') or '', (l.get('what') or '')[:120]))
+    for k in ('holds', 'where', 'vehicle', 'source_of_wealth', 'wealth', 'rumour'):
+        if isinstance(row.get(k), str): row[k] = unmem(clean_people_line(row[k]))
+    row['edge'] = (c.get('holds') or '').split('. ')[0][:220]
+    if cid in have:
+        cur = have[cid]
+        for k, v in row.items():
+            if k in ('src', 'named_works', 'deals', 'advisers', 'links') and isinstance(v, list): cur[k] = (cur.get(k) or []) + [x for x in v if x not in (cur.get(k) or [])]
+            elif k not in cur or cur.get(k) in (None, '', [], {}): cur[k] = v
+        cur['collector'] = True
+    else:
+        row['collector'] = True
+        if CITY_KEYS and not city_in(row['hq']['city']):   # "California; Illinois" → the city the record names for the collection, else the collector stays off the Net
+            alt = city_in(c.get('where') or '') or city_in(c.get('holds') or '')
+            if alt: row['hq']['city'] = alt
+            else: HELD_BACK.append((c['n'], f"no city in base ‘{row['hq']['city']}’ or where")); continue
+        if not row['hq']['city']: continue
+        players.append(row); have[cid] = row; n_coll_new += 1
+vehicles = [v for v in CO.get('houses_of_capital', []) if v.get('n')]
+tides = {k: TI.get(k) for k in ('asof', 'tides', 'temperatures', 'reports') if TI.get(k) not in (None, '', [])}
+for t in tides.get('tides') or []:
+    t['strength'] = max(1, min(5, int(t.get('strength') or 1)))
+currents = {k: CU.get(k) for k in ('asof', 'cases', 'freeports', 'patterns') if CU.get(k) not in (None, '', [])}
+# a case names people: it is shown only with a source (the people rules); a case the research carried from background knowledge waits for one
+for c in [x for x in currents.get('cases') or [] if not x.get('src')]:
+    HELD_BACK.append((c.get('n') or c.get('id'), 'case without a source')); currents['cases'].remove(c)
+for pt in currents.get('patterns') or []:
+    if isinstance(pt.get('cases'), list): pt['cases'] = [i for i in pt['cases'] if any(x.get('id') == i for x in currents.get('cases') or [])]
+for c in currents.get('cases') or []:
+    for pp in c.get('people') or []:
+        if isinstance(pp, dict):
+            for kk in ('n', 'role', 'status'): pp[kk] = clean_people_line(pp.get(kk))
+whispers = {k: WH.get(k) for k in ('asof', 'whispers', 'forecasters', 'next') if WH.get(k) not in (None, '', [])}
+if whispers.get('whispers'): whispers['whispers'] = sorted([w for w in whispers['whispers'] if w.get('t')], key=lambda w: w.get('d') or '', reverse=True)
+playbooks = {k: PB.get(k) for k in ('asof', 'playbooks') if PB.get(k) not in (None, '', [])}
+head_n += """   v27 adds: the collectors as players of kind 'collector' (holds, named_works, where, vehicle, deals, advisers, links with their
+   status as the record states it, rumour attributed), HOLD_VEHICLES, TIDES (where each category, region, band and channel is moving,
+   with evidence, drivers, risks, predictions and labelled rumours; the cities' temperatures; the reports), CURRENTS (the documented
+   routes of money through art as cases with their routes, people, works, controls and outcomes; the free ports' flows; the patterns),
+   WHISPERS (rumours, reports and predictions, dated and attributed, with outcomes; the forecasters' records; what the trade expects
+   next) and PLAYBOOKS (what a task takes: the steps with forms, authorities, times, fees and documents).
+"""
 head_n += """   v26 adds: NET_WIRE (what happened in the East, 2025–26, by date), NET_RUSSIA (the Russian market and its law), VAULTS and
    VAULT_CITIES (free ports, bonded stores and fine-art storage by city: operator, owner, size, value as published, people, the
    organisation's published contact lines, rules, cases), DEAL (the Deal Room's research: terms, the economics of a $50m hammer,
@@ -467,5 +550,10 @@ head_n += """   v26 adds: NET_WIRE (what happened in the East, 2025–26, by dat
    terminal should offer, the pricing benchmarks) and OPEN_FEEDS (the open APIs and datasets, with auth, CORS and licence as read).
    The East's players carry east: true. */
 """
-(root / 'src' / 'data_net.js').write_text(head_n + f"const NET_ASOF='{asof}';\n" + js('NET_PLAYERS', players) + js('NET_MARKETS', markets) + js('LOT_FIN', lot_fin) + js('NET_FLOWS', flows) + js('NET_YEARS', years) + js('NET_NEW_LOTS', new_lots) + js('TRANSFORM', transform) + js('NET_WIRE', wire) + js('NET_RUSSIA', russia) + js('VAULTS', vaults) + js('VAULT_CITIES', vault_cities) + js('DEAL', deal) + js('PITCH', pitch) + js('OPEN_FEEDS', feeds), encoding='utf-8')
-print(f"wrote src/data_net.js: {len(players)} players ({n_east_new} from the East), {len(markets)} markets, {len(lot_fin)} lots with their money ({len(new_lots)} new), {len(flows)} flows, {len(transform.get('stages', []))} transformation stages; {len(wire)} wire lines; {len(vaults)} vaults in {len(vault_cities)} cities; deal: {len(deal.get('terms', []))} terms, {len(deal.get('cases', []))} cases, {len(deal.get('people', []))} people; pitch: {len(pitch.get('roles', []))} roles, {len(pitch.get('tools', []))} tools, {len(pitch.get('functions', []))} functions; feeds: {len(feeds['apis'])} APIs, {len(feeds['datasets'])} datasets")
+(root / 'src' / 'data_net.js').write_text(head_n + f"const NET_ASOF='{asof}';\n" + js('NET_PLAYERS', players) + js('NET_MARKETS', markets) + js('LOT_FIN', lot_fin) + js('NET_FLOWS', flows) + js('NET_YEARS', years) + js('NET_NEW_LOTS', new_lots) + js('TRANSFORM', transform) + js('NET_WIRE', wire) + js('NET_RUSSIA', russia) + js('VAULTS', vaults) + js('VAULT_CITIES', vault_cities) + js('DEAL', deal) + js('PITCH', pitch) + js('OPEN_FEEDS', feeds) + js('HOLD_VEHICLES', vehicles) + js('TIDES', tides) + js('CURRENTS', currents) + js('WHISPERS', whispers) + js('PLAYBOOKS', playbooks), encoding='utf-8')
+print(f"wrote src/data_net.js: {len(players)} players ({n_east_new} from the East), {len(markets)} markets, {len(lot_fin)} lots with their money ({len(new_lots)} new), {len(flows)} flows, {len(transform.get('stages', []))} transformation stages; {len(wire)} wire lines; {len(vaults)} vaults in {len(vault_cities)} cities; deal: {len(deal.get('terms', []))} terms, {len(deal.get('cases', []))} cases, {len(deal.get('people', []))} people; pitch: {len(pitch.get('roles', []))} roles, {len(pitch.get('tools', []))} tools, {len(pitch.get('functions', []))} functions; feeds: {len(feeds['apis'])} APIs, {len(feeds['datasets'])} datasets; v27: {n_coll_new} collectors new, {len(tides.get('tides', []))} tides, {len(tides.get('temperatures', []))} temperatures, {len(currents.get('cases', []))} cases, {len(whispers.get('whispers', []))} whispers, {len(playbooks.get('playbooks', []))} playbooks")
+for what, why in HELD_BACK: print(f'  held back from the page: {what} — {why}')
+if LINKS_HELD:
+    import collections as _c
+    print(f"  held back from the page, for the next research run to source: {len(LINKS_HELD)} unsourced links on {len({x[0] for x in LINKS_HELD})} collectors "
+          f"({dict(_c.Counter(x[1] for x in LINKS_HELD))}); they stay in data/research/bundle.json")

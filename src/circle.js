@@ -96,7 +96,7 @@ function renderCircle(){const el=$('#v-circle');if(!el)return;const C=CIRCLE,T=c
    them, the tools and their published prices, the functions the research named, the pricing benchmarks. The Circle shows it as the
    case to a house, a bank or an advisory: the day-to-day tasks the terminal already takes on (each function mapped to a palette
    code), what the desk pays three or four vendors for today, and the seat that would replace them. */
-const CI_FUNC_CODES={COMP:'COMP',EST:'EST',PITCH:'DEAL',GUAR:'GUAR',LAND:'LAND',KYC:'KYC',SCRN:'KYC',SOF:'KYC',VLT:'VLT',NET:'NET',WHO:'WHO',CAL:'CAL',FAIR:'CAL',FX:'FX',WIRE:'WIRE',PROV:'PROV',BUYIN:'COMP',PREM:'FEES',TRX:'TRX',DEAL:'DEAL',HOLD:null};
+const CI_FUNC_CODES={COMP:'COMP',EST:'EST',PITCH:'DEAL',GUAR:'GUAR',LAND:'LAND',KYC:'KYC',SCRN:'KYC',SOF:'KYC',VLT:'VLT',NET:'NET',WHO:'WHO',CAL:'CAL',FAIR:'CAL',FX:'FX',WIRE:'WIRE',PROV:'PROV',BUYIN:'COMP',PREM:'FEES',TRX:'TRX',DEAL:'DEAL',HOLD:null,/* v27, the ocean */PRIV:'WHISPER',MATCH:'FISH',CLNT:'FISH',COLL:'FISH',IDX:'TIDE',ALERT:'WATCH',UNDER:'DEAL',SHIP:'PLAY',LOAN:'PLAY',DUE:'STONE',RPT:'TIDE'};
 function ciPitch(){const P=typeof PITCH==='object'&&PITCH?PITCH:null;if(!P||!(P.roles||[]).length)return '';const roles=P.roles||[],tools=P.tools||[],funcs=P.functions||[],bench=(P.pricing&&P.pricing.benchmarks)||[];
   const codeOf=f=>{const m=String(f.n||'').match(/^([A-Z]{2,6})\b/);const c=m&&m[1];const have=typeof PAL_FUNCS==='object'?PAL_FUNCS.map(x=>x.c):[];const mapped=c?(c in CI_FUNC_CODES?(CI_FUNC_CODES[c]&&have.includes(CI_FUNC_CODES[c])?CI_FUNC_CODES[c]:null):(have.includes(c)?c:null)):null;return mapped;};
   const withCode=funcs.map(f=>({f,code:codeOf(f)}));const done=withCode.filter(x=>x.code).length;
