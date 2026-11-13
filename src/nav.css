@@ -282,7 +282,7 @@
 .oc-wt{font-size:15px;line-height:1.5;margin:2px 0}
 .oc-who{font-size:12.5px;color:var(--ink3);margin:2px 0}
 .oc-out{font-size:13px;margin:4px 0;padding:6px 10px;background:var(--paper2);border-radius:6px}
-.oc-rec .tag.ok{color:var(--ok,#2f7d4f);border-color:currentColor}
+.oc-rec .tag.ok{color:var(--verd);border-color:currentColor}
 .oc-books{display:grid;gap:10px}
 .oc-book{border:1px solid var(--rule2);border-radius:10px;background:var(--paper);padding:0 18px}
 .oc-book summary{list-style:none;cursor:pointer;display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 14px;align-items:center;padding:14px 0}
