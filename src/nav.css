@@ -358,3 +358,9 @@
 .br-pats{margin:0 0 8px;padding-left:20px;font-size:14px;line-height:1.5}.br-pats li{margin:0 0 6px}
 .br-next label{display:flex;gap:8px;align-items:flex-start;cursor:pointer;white-space:normal}.br-next input[type=checkbox]{margin-top:4px;flex:0 0 auto;width:16px;height:16px;min-width:16px}
 .br-steps .tag,.br-memo .tag,.br-wall .tag,.oc-filters [data-wfile]{white-space:normal;text-align:left;line-height:1.3;max-width:100%;vertical-align:top}
+.br-desk{border:1px solid var(--rule);border-radius:4px;background:var(--paper2);padding:0 16px;margin:0 0 16px}
+.br-desk summary{cursor:pointer;padding:12px 0;font-size:14px}
+.br-desk-day{font-size:14px;line-height:1.55;margin:4px 0 12px}
+.br-desk-g{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr));gap:6px 24px;padding-bottom:12px}
+.br-desk-g h4{margin:8px 0 4px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3)}
+.br-desk-l{margin:0;padding-left:18px;font-size:13.5px;line-height:1.5}.br-desk-l li{margin:0 0 6px}
