@@ -144,3 +144,23 @@
 .ci-b{border:1px solid var(--rule2);border-radius:8px;padding:8px 10px;font-size:12.5px}
 .ci-b b{display:block;font-size:13px}
 .ci-b span{color:var(--ink2)}
+
+/* the company (v28) */
+.ci-cof{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:12px 28px;margin:6px 0 12px}
+.ci-cocol h3{margin:0 0 6px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3)}
+.ci-sl{display:grid;grid-template-columns:1fr 150px 92px;align-items:center;gap:10px;font-size:13px;margin:0 0 6px}
+.ci-sl input[type=range]{width:100%;accent-color:var(--gilt)}
+.ci-sl output{text-align:right;font-variant-numeric:tabular-nums;font-size:13px}
+.ci-cogrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:12px 28px;align-items:start}
+.ci-cot{width:100%;border-collapse:collapse;font-size:13.5px}
+.ci-cot td,.ci-cot th{padding:4px 6px;border-bottom:1px solid var(--rule);text-align:left}
+.ci-cot .num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.ci-cot tr.tot td{border-top:2px solid var(--rule2);font-weight:600}
+.ci-cot .pos,.ci-cot tr.pos td.num{color:var(--verd)}.ci-cot .neg,.ci-cot tr.neg td.num{color:var(--claret)}
+.ci-bign{font-size:17px;font-weight:600;margin:0 0 6px}.ci-bign.pos{color:var(--verd)}.ci-bign.neg{color:var(--claret)}
+.ci-cobe p{font-size:13.5px;line-height:1.5;margin:0 0 8px}
+@media (max-width:760px){.ci-sl{grid-template-columns:1fr 80px;grid-template-rows:auto auto}.ci-sl span{grid-column:1/3}}
+.ci-gaps{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:10px;margin:6px 0 14px}
+.ci-gap{border:1px solid var(--rule2);border-radius:8px;padding:10px 12px;font-size:13px;line-height:1.45;min-width:0;overflow-wrap:anywhere}
+.ci-gap b{display:block;margin-bottom:2px}.ci-gfig{display:block;color:var(--gilt);font-variant-numeric:tabular-nums;margin-bottom:4px}
+.ci-gap p{margin:0 0 4px}.ci-gap small{display:block;color:var(--ink3)}

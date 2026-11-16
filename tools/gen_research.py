@@ -32,7 +32,12 @@ def typo(o):
         o = o.replace("'", '’').replace('US$', '$')
         o = re.sub(r'\bUSD\s?(?=\d)', '$', o)   # "USD 2m" → "$2m"
         o = re.sub(r'\$(\d+(?:\.\d+)?) (million|billion)\b', lambda m: '$' + m.group(1) + ('m' if m.group(2) == 'million' else 'bn'), o)   # "$27 million" → "$27m"
-        return re.sub(r'\$(\d[\d.,]*)([MBK])\b', lambda m: '$' + m.group(1) + {'M': 'm', 'B': 'bn', 'K': 'k'}[m.group(2)], o)   # $40M → $40m, the page's unit style
+        o = re.sub(r'\$(\d[\d.,]*)([MBK])\b', lambda m: '$' + m.group(1) + {'M': 'm', 'B': 'bn', 'K': 'k'}[m.group(2)], o)   # $40M → $40m, the page's unit style
+        # the researcher's "from memory" (its own background knowledge, flagged U) reads on the page as "unconfirmed": the flag says what it is
+        o = re.sub(r'\b[Ff]rom memory of (?:the )?', 'unconfirmed, from ', o)
+        o = re.sub(r'\b[Cc]arried from memory\b', 'carried unconfirmed', o)
+        o = re.sub(r'\b(?:are|is) from memory\b', lambda m: m.group(0).split(' ')[0] + ' unconfirmed', o)
+        return re.sub(r'\b[Ff]rom memory\b', 'unconfirmed', o)
     if isinstance(o, list): return [typo(x) for x in o]
     if isinstance(o, dict): return {k: typo(v) for k, v in o.items()}
     return o
@@ -347,6 +352,15 @@ if LM.get('jurisdictions'):
 # The research ids came from the export in B25['lots'] (a Python slug that strips accents); the page's ids are app.js's slug
 # (lower-case, the marks ’'".,:() dropped, every other run of non-alphanumerics a hyphen, accents included), computed at boot from
 # the artist's last word and the title. app_slug() repeats it here so that every id written matches the page's.
+def unmem(x):   # "From memory: A, B" → "A, B"; "From memory, before the cuts: A" → "before the cuts: A" (the flag already says U);
+    # inline "(from memory, U)" → "(unconfirmed, U)", "from memory of trade practice" → "unconfirmed, from trade practice": the page
+    # says what the flag means, not where the researcher got it
+    if not isinstance(x, str): return x
+    x = re.sub(r'^\s*[Ff]rom memory\s*(?:[:;]\s*|,\s*)', '', x)
+    x = re.sub(r'\b[Ff]rom memory of (?:the )?', 'unconfirmed, from ', x)
+    x = re.sub(r'\b[Ff]rom memory\b', 'unconfirmed', x)
+    x = re.sub(r'\b[Cc]arried from memory\b', 'carried unconfirmed', x)
+    return x
 def app_slug(artist, title):
     s = (str(artist).split(' ')[-1] + '-' + str(title)).lower()
     s = re.sub(r"[’'\".,:()]", '', s)
@@ -377,8 +391,17 @@ years = [{k: y.get(k) for k in ('y', 'guaranteed_share', 'asia_share', 'note', '
 # the players
 players = []
 for p in PL.get('players', []):
-    players.append({k: p.get(k) for k in ('id', 'n', 'kind', 'extends', 'hq', 'offices', 'people', 'represents', 'owner', 'scale', 'edge', 'src', 'vf', 'note') if p.get(k) not in (None, '', [], {})})
-markets = [{k: m.get(k) for k in ('city', 'role', 'src', 'vf') if m.get(k) not in (None, '')} for m in PL.get('markets', [])]
+    row = {k: p.get(k) for k in ('id', 'n', 'kind', 'extends', 'hq', 'offices', 'people', 'represents', 'owner', 'scale', 'edge', 'src', 'vf', 'note') if p.get(k) not in (None, '', [], {})}
+    for k in ('owner', 'scale', 'edge', 'note'):   # "Privately held (from memory)" → "Privately held (unconfirmed)": the flag says where it came from
+        if isinstance(row.get(k), str): row[k] = unmem(row[k])
+    for x in row.get('people') or []:
+        if isinstance(x, dict):
+            for k in ('note', 'role'):
+                if isinstance(x.get(k), str): x[k] = unmem(x[k])
+    if isinstance(row.get('offices'), list): row['offices'] = [unmem(o) if isinstance(o, str) else o for o in row['offices']]
+    if isinstance(row.get('represents'), list): row['represents'] = [unmem(o) if isinstance(o, str) else o for o in row['represents']]
+    players.append(row)
+markets = [{k: (unmem(m.get(k)) if k == 'role' else m.get(k)) for k in ('city', 'role', 'src', 'vf') if m.get(k) not in (None, '')} for m in PL.get('markets', [])]
 
 # the Transformation
 transform = {k: TR.get(k) for k in ('asof', 'stages', 'typologies', 'roundtrip', 'cases') if TR.get(k) not in (None, '', [])}
@@ -408,11 +431,11 @@ n_east_new = 0
 for p in EA.get('players', []):
     if not p.get('id') or not p.get('n'): continue
     row = {k: p.get(k) for k in ('id', 'n', 'kind', 'extends', 'hq', 'offices', 'people', 'represents', 'owner', 'scale', 'edge', 'src', 'vf', 'note') if p.get(k) not in (None, '', [], {})}
-    if isinstance(row.get('offices'), list): row['offices'] = [o if isinstance(o, str) else (o.get('city') or '') for o in row['offices'] if o]   # the East wrote some offices as {city, country}
+    if isinstance(row.get('offices'), list): row['offices'] = [unmem(o) if isinstance(o, str) else (o.get('city') or '') for o in row['offices'] if o]   # the East wrote some offices as {city, country}
     for k in ('edge', 'scale', 'owner', 'note'):   # the East wrote |word| for emphasis; the page has no such markup
-        if isinstance(row.get(k), str): row[k] = re.sub(r'\|([^|]{1,40})\|', r'\1', row[k])
+        if isinstance(row.get(k), str): row[k] = unmem(re.sub(r'\|([^|]{1,40})\|', r'\1', row[k]))
     for x in row.get('people') or []:
-        if isinstance(x, dict) and isinstance(x.get('note'), str): x['note'] = re.sub(r'\|([^|]{1,40})\|', r'\1', x['note'])
+        if isinstance(x, dict) and isinstance(x.get('note'), str): x['note'] = unmem(re.sub(r'\|([^|]{1,40})\|', r'\1', x['note']))
     if isinstance(row.get('represents'), list): row['represents'] = [re.sub(r'^\s*(?:from memory|From memory)\s*[:;,]\s*', '', x) for x in row['represents'] if isinstance(x, str)]   # the flag says it; the list need not
     if p['id'] in have and isinstance(have[p['id']].get('represents'), list): have[p['id']]['represents'] = [re.sub(r'^\s*(?:from memory|From memory)\s*[:;,]\s*', '', x) for x in have[p['id']]['represents'] if isinstance(x, str)]
     row['east'] = True
@@ -423,14 +446,12 @@ for p in EA.get('players', []):
             elif k not in cur or cur.get(k) in (None, '', [], {}): cur[k] = v
     else:
         players.append(row); have[p['id']] = row; n_east_new += 1
-def unmem(x):   # "From memory: A, B" → "A, B"; "From memory, before the cuts: A" → "before the cuts: A" (the flag already says U)
-    return re.sub(r'^\s*[Ff]rom memory\s*(?:[:;]\s*|,\s*)', '', x) if isinstance(x, str) else x
 for pl in players:
     if isinstance(pl.get('represents'), list): pl['represents'] = [unmem(x) for x in pl['represents']]
 have_m = {m['city'] for m in markets}
 for m in EA.get('markets', []):
     if m.get('city') and m['city'] not in have_m:
-        markets.append({k: m.get(k) for k in ('city', 'role', 'src', 'vf') if m.get(k) not in (None, '')}); have_m.add(m['city'])
+        markets.append({k: (unmem(m.get(k)) if k == 'role' else m.get(k)) for k in ('city', 'role', 'src', 'vf') if m.get(k) not in (None, '')}); have_m.add(m['city'])
 wire = sorted([{k: w.get(k) for k in ('d', 'city', 't', 'src', 'vf') if w.get(k) not in (None, '')} for w in EA.get('wire', []) if w.get('d') and w.get('t')], key=lambda w: w['d'], reverse=True)
 russia = {k: EA['russia'].get(k) for k in ('state', 'law', 'src', 'vf') if EA.get('russia') and EA['russia'].get(k) not in (None, '')} if EA.get('russia') else {}
 # the vaults: free ports, bonded stores and storage, with their people and their published contact lines
@@ -502,9 +523,12 @@ for c in CO.get('collectors', []):
             (held if lvf == 'U' or not (l.get('src') or row.get('src')) else kept).append(l)
         row['links'] = [{kk: (unmem(clean_people_line(l.get(kk))) if kk == 'what' else l.get(kk)) for kk in ('kind', 'what', 'src', 'vf') if l.get(kk) not in (None, '')} for l in kept]
         for l in held: LINKS_HELD.append((c['n'], l.get('kind') or '', (l.get('what') or '')[:120]))
-    for k in ('holds', 'where', 'vehicle', 'source_of_wealth', 'wealth', 'rumour'):
+    for k in ('holds', 'where', 'vehicle', 'source_of_wealth', 'wealth', 'rumour', 'note', 'edge', 'scale', 'owner'):
         if isinstance(row.get(k), str): row[k] = unmem(clean_people_line(row[k]))
-    row['edge'] = (c.get('holds') or '').split('. ')[0][:220]
+    for k in ('named_works', 'deals', 'advisers'):
+        if isinstance(row.get(k), list): row[k] = [unmem(clean_people_line(x)) if isinstance(x, str) else x for x in row[k]]
+    row['edge'] = unmem(clean_people_line((c.get('holds') or '').split('. ')[0]))[:220]
+    if isinstance(row.get('hq'), dict) and isinstance(row['hq'].get('city'), str): row['hq']['city'] = unmem(row['hq']['city'])
     if cid in have:
         cur = have[cid]
         for k, v in row.items():
@@ -536,6 +560,93 @@ for c in currents.get('cases') or []:
 whispers = {k: WH.get(k) for k in ('asof', 'whispers', 'forecasters', 'next') if WH.get(k) not in (None, '', [])}
 if whispers.get('whispers'): whispers['whispers'] = sorted([w for w in whispers['whispers'] if w.get('t')], key=lambda w: w.get('d') or '', reverse=True)
 playbooks = {k: PB.get(k) for k in ('asof', 'playbooks') if PB.get(k) not in (None, '', [])}
+
+# ---------- v28: the desk that solves — the worked cases, the walls, the sources, the week's whispers, the value and the tech ----------
+B28 = BUNDLE.get('v28', {})
+HO = B28.get('house') or {}
+CL = B28.get('collector') or {}
+WA = B28.get('walls') or {}
+SO = B28.get('sources') or {}
+VA = B28.get('value') or {}
+TE = B28.get('tech') or {}
+def slug_of(t):
+    import unicodedata
+    t = unicodedata.normalize('NFKD', str(t or '')).encode('ascii', 'ignore').decode('ascii').lower()
+    return re.sub(r'[^a-z0-9]+', '-', t).strip('-')
+def clean_case(c):
+    """A worked case on the common brief's schema: the people rules (no unsourced legal line), the house style, the ids."""
+    if not isinstance(c, dict) or not c.get('task'): return None
+    c = dict(c)
+    c['id'] = c.get('id') or slug_of(c['task'])[:48]
+    for k in ('task', 'reading', 'money', 'people', 'calendar', 'whispers', 'value_left', 'note', 'sum', 'persona', 'where'):
+        if isinstance(c.get(k), str): c[k] = unmem(clean_people_line(c[k]))
+    for k in ('risks', 'next'):
+        if isinstance(c.get(k), list): c[k] = [unmem(clean_people_line(x)) for x in c[k] if isinstance(x, str) and x.strip()]
+    if isinstance(c.get('road'), list): c['road'] = [{kk: unmem(st.get(kk)) if isinstance(st.get(kk), str) else st.get(kk) for kk in ('n', 'who', 'doc', 'time', 'fee', 'src', 'vf') if st.get(kk) not in (None, '')} for st in c['road'] if isinstance(st, dict) and st.get('n')]
+    if isinstance(c.get('walls'), list):
+        kept = []
+        for w in c['walls']:
+            if not isinstance(w, dict) or not w.get('n'): continue
+            if w.get('case') and (w.get('vf') or c.get('vf') or 'U').upper() == 'U' and not (w.get('src') or c.get('src')):
+                HELD_BACK.append((f"{c['id']}: wall ‘{w['n']}’", 'a case line without a source')); w = dict(w); w.pop('case', None)
+            kept.append({kk: unmem(clean_people_line(w.get(kk))) if isinstance(w.get(kk), str) else w.get(kk) for kk in ('n', 'cite', 'authority', 'threshold', 'date', 'what_it_does', 'case', 'src', 'vf') if w.get(kk) not in (None, '')})
+        c['walls'] = kept
+    return c
+cases = [x for x in [clean_case(c) for c in (HO.get('cases') or []) + (CL.get('cases') or [])] if x]
+seen_ids = set()
+for c in cases:
+    while c['id'] in seen_ids: c['id'] += '-2'
+    seen_ids.add(c['id'])
+worked = {'asof': HO.get('asof') or CL.get('asof') or asof, 'cases': cases, 'desk': HO.get('desk') or {}}
+def clean_file(f):
+    """A compliance file: the walls, the cases as the record states them (a case without a source is held back), the lawful course."""
+    if not isinstance(f, dict): return None
+    f = dict(f)
+    for k in ('summary', 'n'):
+        if isinstance(f.get(k), str): f[k] = unmem(clean_people_line(f[k]))
+    walls_kept = []
+    for w in f.get('walls') or []:
+        if not isinstance(w, dict) or not w.get('n'): continue
+        if not w.get('src'): HELD_BACK.append((f"walls/{f.get('id') or 'kandinsky'}: wall ‘{w['n'][:60]}’", 'a law stated without a source opened')); continue
+        walls_kept.append({kk: unmem(clean_people_line(w.get(kk))) if isinstance(w.get(kk), str) else w.get(kk) for kk in ('n', 'cite', 'authority', 'threshold', 'date', 'what_it_does', 'case', 'src', 'vf') if w.get(kk) not in (None, '')})
+    f['walls'] = walls_kept
+    kept = []
+    for cs in f.get('cases') or []:
+        if not isinstance(cs, dict) or not cs.get('n'): continue
+        if not cs.get('src'): HELD_BACK.append((f"walls/{f.get('id') or 'kandinsky'}: case ‘{cs['n']}’", 'a case without a source')); continue
+        kept.append({kk: unmem(clean_people_line(cs.get(kk))) if isinstance(cs.get(kk), str) else cs.get(kk) for kk in ('n', 'what', 'src', 'vf') if cs.get(kk) not in (None, '')})
+    f['cases'] = kept
+    f['lawful'] = [{kk: unmem(clean_people_line(l.get(kk))) if isinstance(l.get(kk), str) else l.get(kk) for kk in ('who', 'course', 'src', 'vf') if l.get(kk) not in (None, '')} for l in (f.get('lawful') or []) if isinstance(l, dict) and l.get('course')]
+    if f.get('russia_side'): f['russia_side'] = [{kk: unmem(clean_people_line(r.get(kk))) if isinstance(r.get(kk), str) else r.get(kk) for kk in ('n', 'what', 'src', 'vf') if r.get(kk) not in (None, '')} for r in f['russia_side'] if isinstance(r, dict) and r.get('n')]
+    return f
+walls = {'asof': WA.get('asof') or asof}
+if WA.get('kandinsky'): walls['kandinsky'] = clean_file(WA['kandinsky'])
+walls['files'] = [x for x in [clean_file(f) for f in (WA.get('files') or [])] if x and x.get('id')]
+sources = {'asof': SO.get('asof') or asof, 'sources': [{kk: unmem(s.get(kk)) if isinstance(s.get(kk), str) else s.get(kk) for kk in ('id', 'n', 'kind', 'who', 'cadence', 'good_for', 'price', 'record', 'how_to_read', 'url', 'src', 'vf') if s.get(kk) not in (None, '')} for s in (SO.get('sources') or []) if isinstance(s, dict) and s.get('n')], 'next': [n for n in (SO.get('next') or []) if isinstance(n, dict) and n.get('what')]}
+for s_ in sources['sources']:
+    if not s_.get('id'): s_['id'] = slug_of(s_['n'])[:40]
+# the week's whispers join the v27 whispers (newest first, no duplicate line)
+wk = [w for w in (SO.get('whispers') or []) if isinstance(w, dict) and w.get('t') and w.get('d')]
+if wk:
+    have_t = {typo(w.get('t', '')).strip().lower() for w in whispers.get('whispers') or []}
+    added = 0
+    for w in wk:
+        if typo(w['t']).strip().lower() in have_t: continue
+        w = {kk: (unmem(clean_people_line(typo(w.get(kk)))) if isinstance(w.get(kk), str) else w.get(kk)) for kk in ('id', 'd', 'kind', 'about', 't', 'detail', 'who', 'subjects', 'outcome', 'src', 'vf') if w.get(kk) not in (None, '')}
+        if not w.get('src'): HELD_BACK.append((f"whisper ‘{w['t'][:60]}’", 'no source')); continue
+        whispers.setdefault('whispers', []).append(w); added += 1
+    whispers['whispers'] = sorted(whispers['whispers'], key=lambda w: w.get('d') or '', reverse=True)
+    if sources['next'] and not whispers.get('next'): whispers['next'] = [{'when': n.get('when', ''), 'what': n.get('what', ''), 'src': n.get('src') or []} for n in sources['next']]
+    print(f'  v28: {added} of the week’s whispers added ({len(wk) - added} duplicates or unsourced)')
+value = {k: VA.get(k) for k in ('asof', 'houses', 'gaps', 'rivals', 'model') if VA.get(k) not in (None, '', [], {})}
+tech = {k: TE.get(k) for k in ('asof', 'houses', 'attempts', 'edge', 'risks', 'plan') if TE.get(k) not in (None, '', [], {})}
+head_n += """   v28 adds: CASES (the worked cases on the common brief's memo: persona, where, task, reading, money, road, walls, people,
+   calendar, whispers, risks, value_left, next, sources; and the specialist's desk), WALLS (the compliance files: the Kandinsky-to-
+   Moscow file with its walls, cases, lawful courses and the other side of the border; the PEP, the unknown principal, the provenance
+   gap, the protected material, the tax wall, the national treasure), SOURCES (where information lives: what each costs, what it is
+   good for, its record; the week ahead), HOUSE_VALUE (the houses' economics, the gaps, the rivals, the model's benchmarks) and TECH_EDGE (what
+   the houses run, the attempts at a Bloomberg of art, the edge, the risks, the plan). The week's whispers join WHISPERS.
+"""
 head_n += """   v27 adds: the collectors as players of kind 'collector' (holds, named_works, where, vehicle, deals, advisers, links with their
    status as the record states it, rumour attributed), HOLD_VEHICLES, TIDES (where each category, region, band and channel is moving,
    with evidence, drivers, risks, predictions and labelled rumours; the cities' temperatures; the reports), CURRENTS (the documented
@@ -550,8 +661,8 @@ head_n += """   v26 adds: NET_WIRE (what happened in the East, 2025–26, by dat
    terminal should offer, the pricing benchmarks) and OPEN_FEEDS (the open APIs and datasets, with auth, CORS and licence as read).
    The East's players carry east: true. */
 """
-(root / 'src' / 'data_net.js').write_text(head_n + f"const NET_ASOF='{asof}';\n" + js('NET_PLAYERS', players) + js('NET_MARKETS', markets) + js('LOT_FIN', lot_fin) + js('NET_FLOWS', flows) + js('NET_YEARS', years) + js('NET_NEW_LOTS', new_lots) + js('TRANSFORM', transform) + js('NET_WIRE', wire) + js('NET_RUSSIA', russia) + js('VAULTS', vaults) + js('VAULT_CITIES', vault_cities) + js('DEAL', deal) + js('PITCH', pitch) + js('OPEN_FEEDS', feeds) + js('HOLD_VEHICLES', vehicles) + js('TIDES', tides) + js('CURRENTS', currents) + js('WHISPERS', whispers) + js('PLAYBOOKS', playbooks), encoding='utf-8')
-print(f"wrote src/data_net.js: {len(players)} players ({n_east_new} from the East), {len(markets)} markets, {len(lot_fin)} lots with their money ({len(new_lots)} new), {len(flows)} flows, {len(transform.get('stages', []))} transformation stages; {len(wire)} wire lines; {len(vaults)} vaults in {len(vault_cities)} cities; deal: {len(deal.get('terms', []))} terms, {len(deal.get('cases', []))} cases, {len(deal.get('people', []))} people; pitch: {len(pitch.get('roles', []))} roles, {len(pitch.get('tools', []))} tools, {len(pitch.get('functions', []))} functions; feeds: {len(feeds['apis'])} APIs, {len(feeds['datasets'])} datasets; v27: {n_coll_new} collectors new, {len(tides.get('tides', []))} tides, {len(tides.get('temperatures', []))} temperatures, {len(currents.get('cases', []))} cases, {len(whispers.get('whispers', []))} whispers, {len(playbooks.get('playbooks', []))} playbooks")
+(root / 'src' / 'data_net.js').write_text(head_n + f"const NET_ASOF='{asof}';\n" + js('NET_PLAYERS', players) + js('NET_MARKETS', markets) + js('LOT_FIN', lot_fin) + js('NET_FLOWS', flows) + js('NET_YEARS', years) + js('NET_NEW_LOTS', new_lots) + js('TRANSFORM', transform) + js('NET_WIRE', wire) + js('NET_RUSSIA', russia) + js('VAULTS', vaults) + js('VAULT_CITIES', vault_cities) + js('DEAL', deal) + js('PITCH', pitch) + js('OPEN_FEEDS', feeds) + js('HOLD_VEHICLES', vehicles) + js('TIDES', tides) + js('CURRENTS', currents) + js('WHISPERS', whispers) + js('PLAYBOOKS', playbooks) + js('CASES', worked) + js('WALLS', walls) + js('SOURCES', sources) + js('HOUSE_VALUE', value) + js('TECH_EDGE', tech), encoding='utf-8')
+print(f"wrote src/data_net.js: {len(players)} players ({n_east_new} from the East), {len(markets)} markets, {len(lot_fin)} lots with their money ({len(new_lots)} new), {len(flows)} flows, {len(transform.get('stages', []))} transformation stages; {len(wire)} wire lines; {len(vaults)} vaults in {len(vault_cities)} cities; deal: {len(deal.get('terms', []))} terms, {len(deal.get('cases', []))} cases, {len(deal.get('people', []))} people; pitch: {len(pitch.get('roles', []))} roles, {len(pitch.get('tools', []))} tools, {len(pitch.get('functions', []))} functions; feeds: {len(feeds['apis'])} APIs, {len(feeds['datasets'])} datasets; v27: {n_coll_new} collectors new, {len(tides.get('tides', []))} tides, {len(tides.get('temperatures', []))} temperatures, {len(currents.get('cases', []))} cases, {len(whispers.get('whispers', []))} whispers, {len(playbooks.get('playbooks', []))} playbooks; v28: {len(cases)} worked cases, {len(walls.get('files', []))} files beside the Kandinsky ({'present' if walls.get('kandinsky') else 'absent'}), {len(sources['sources'])} sources, {len(value.get('gaps', []))} gaps, {len(tech.get('attempts', []))} attempts")
 for what, why in HELD_BACK: print(f'  held back from the page: {what} — {why}')
 if LINKS_HELD:
     import collections as _c
