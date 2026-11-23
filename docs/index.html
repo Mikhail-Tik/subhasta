@@ -2704,6 +2704,189 @@ body.navtight .navmore,body.navtight .navmore.on{display:flex;position:static;fl
 .readon{display:flex;flex-wrap:wrap;gap:8px;align-items:stretch;margin:28px 0 8px;padding-top:14px;border-top:1px solid var(--rule)}.readon>b{flex-basis:100%;font-family:var(--ui);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--gilt);font-weight:600}.readon button{display:flex;flex-direction:column;align-items:flex-start;gap:2px;flex:1 1 160px;max-width:260px;padding:10px 12px;border:1px solid var(--rule2);border-radius:6px;background:var(--paper);text-align:left;color:var(--ink);cursor:pointer}.readon button:hover{border-color:var(--gilt)}.readon button span{font-family:var(--read);font-size:16px}.readon button small{font-family:var(--ui);font-size:12px;color:var(--ink2)}
 #v-world .readon{display:none}
 
+/* ============================================================================================================
+   polish.css — v31 (23 November 2026): the luxury register. Pasted last, so it corrects the sheets before it.
+   The source: data/research/v31/interface-audit.md (fifty irritants, ranked) and luxury-interface.md (the laws
+   the houses practise). The rule of the layer: one face per line, true capitals instead of synthesised small
+   caps, ink as the action colour (the red keeps only the mark: the dot, the thumb, this week), lines instead
+   of pills, hairlines instead of boxes, no glow, no stripes, one focus ring on the keyboard only, every change
+   of state eased (120 ms on a control, 220 ms on a panel, 420 ms on a picture), nothing for those who asked
+   for no motion.
+   ============================================================================================================ */
+:root{
+  --t-fast:120ms;--t-base:220ms;--t-slow:420ms;--ease:cubic-bezier(.2,.6,.2,1);--ease-exit:cubic-bezier(.4,0,1,1);
+  --track-caps:.14em;--ring:1px solid var(--gilt);--ring-off:2px;
+  --chev:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%23948f85' stroke-width='1.2'/%3E%3C/svg%3E");
+}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--chev:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%236d6a61' stroke-width='1.2'/%3E%3C/svg%3E")}}
+:root[data-theme="light"]{--chev:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%236d6a61' stroke-width='1.2'/%3E%3C/svg%3E")}
+
+/* ---- 1–2. the Eye and the School take the page head ---- */
+.view>h1{font-family:var(--display);font-weight:400;font-size:46px;line-height:1.02;letter-spacing:-.005em;margin:6px 0 10px;text-wrap:balance}
+.view>.lead{font-family:var(--read);font-size:16px;line-height:1.55;color:var(--ink2);max-width:66ch;margin:0 0 26px;text-wrap:pretty}
+@media (max-width:900px){.view>h1{font-size:34px}}
+
+/* ---- 3. ink is the action colour; the red keeps the mark ---- */
+.btn.primary{background:var(--ink);color:var(--ground);border-color:var(--ink);font-weight:500}
+.btn.primary:hover{background:color-mix(in srgb,var(--ink) 88%,var(--ground));color:var(--ground);filter:none}
+.btn.primary:disabled{opacity:.45}
+.tdaskbar .btn{background:var(--ink);color:var(--ground);border-color:var(--ink);font-weight:500}
+.wd-eye{color:var(--gilt)}
+
+/* ---- 4. the flags mean something ---- */
+.lotvf{margin-left:8px;font-size:9.5px;vertical-align:2px}
+
+/* ---- 5–6. the level row and the orphan card ---- */
+.eye-bar.eye-tiers{justify-content:flex-start;gap:6px 8px;margin-bottom:4px}
+.eye-modes{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.eye-mode.on{border-color:var(--ink);box-shadow:none;background:var(--paper)}
+
+/* ---- 7. one left edge, top to bottom ---- */
+.wd{--wdx:max(24px,calc(50vw - 660px + 24px))}
+.wd-zoomctl{right:var(--wdx)}
+.wd-zb{box-shadow:none;font-family:var(--ui)}
+
+/* ---- 8–11. the masthead: one face, true capitals, the active mark meets the rule ---- */
+.nav button.headline{color:var(--ink2)}.nav button.headline.on{color:var(--ink)}
+.nav .asknav{color:var(--ink2)}.nav .asknav.on{color:var(--ink);border-bottom-color:var(--ink)}
+.nav button,.nav .morebtn{font-variant:normal;text-transform:uppercase;letter-spacing:var(--track-caps);font-size:11.5px}
+.nav button.on{border-bottom-color:var(--ink)}
+@media (min-width:1101px){
+  body:not(.navtight) .nav{align-self:stretch;gap:0}
+  body:not(.navtight) .nav button,body:not(.navtight) .nav .morebtn{height:var(--top);padding:0 10px;border-bottom:2px solid transparent}
+  body:not(.navtight) .nav button.on,body:not(.navtight) .nav .morebtn.on{border-bottom-color:var(--ink)}
+  .brand .spear{display:none}
+}
+.tools{border-left:1px solid var(--rule);padding-left:8px;margin-left:4px}
+.tools .chip,.askchip{border:0;background:none;border-radius:0;padding:0 10px;font-family:var(--read);text-transform:uppercase;font-size:11.5px;letter-spacing:var(--track-caps);color:var(--ink2);gap:8px}
+.tools .chip:hover{color:var(--ink)}
+.chip kbd{font-family:inherit;font-size:10px;letter-spacing:.08em;color:var(--ink3)}
+.eyebrow,.label.cap,.tbl td.t .k,.tdask .k,.srcol h3,.askempty .k,.turn .who,.navmore .navgrp>b{font-variant:normal;text-transform:uppercase;letter-spacing:var(--track-caps);font-size:11.5px}
+
+/* ---- 12–14. the globe panel: text tabs, figures in a line, a line for the question, a quiet legend ---- */
+.wd-modes{display:flex;gap:18px;padding:0;border-radius:0;background:none;border:0;border-bottom:1px solid var(--rule)}
+.wd-mode{font-family:var(--read);font-size:11.5px;font-weight:400;letter-spacing:var(--track-caps);text-transform:uppercase;padding:8px 0 9px;border-radius:0;margin-bottom:-1px;border-bottom:1px solid transparent;color:var(--ink2)}
+.wd-mode.on{color:var(--ink);background:none;border-bottom-color:var(--ink)}
+.wd-readings{gap:4px 16px}
+.wd-rd{font-family:var(--read);font-size:14px;padding:0;border:0;border-radius:0;background:none;color:var(--ink);text-decoration:underline;text-decoration-color:var(--rule2);text-underline-offset:4px}
+.wd-rd:hover{color:var(--ink);text-decoration-color:var(--ink)}
+.wd-ask{border:0;border-bottom:1px solid var(--rule2);border-radius:0;background:none;padding:0;backdrop-filter:none;-webkit-backdrop-filter:none}
+.wd-ask:focus-within{border-bottom-color:var(--ink)}
+.wd-q{padding:10px 0;background:none;border:0}
+.wd-go{border-radius:0;background:none;color:var(--ink);padding:8px 0 8px 12px;font-family:var(--read);font-weight:400;font-size:11.5px;letter-spacing:var(--track-caps);text-transform:uppercase}
+.wd-go::after{content:" →"}
+.wd-legend{gap:6px 16px;color:var(--ink2);align-items:baseline}
+.wd-legend span{white-space:nowrap}
+.wd-legend i.sold,.wd-legend i.fresh,.wd-legend i.mv,.wd-legend i.ce,.wd-legend i.note{box-shadow:none}
+.wd-legend i.fair{width:7px;height:7px;vertical-align:0}
+
+/* ---- 15–18. the Hammer: hairlines, italic records, the sort where it acts, one voice in the summary ---- */
+.tbl tbody tr:nth-child(even) td,.tbl tbody tr:nth-child(even) th,.tbl.sens tbody tr:nth-child(even) th,.dtab .tbl tbody tr:nth-child(even) th{background:transparent}
+#rtbl td:nth-child(5){white-space:nowrap}
+.tbl .tag{border:0;padding:0;margin:0 0 0 8px;border-radius:0;font-family:var(--read);font-style:italic;font-size:12.5px;color:var(--ink3);vertical-align:0}
+.tbl .tag.rec{color:var(--gilt)}
+.tbl .tag+.tag::before{content:"· ";color:var(--rule2)}
+.tbl th .sortb .ar{opacity:0;transition:opacity var(--t-fast) var(--ease)}
+.tbl th .sortb:hover .ar{opacity:.5}
+.tbl th .sortb.on .ar{opacity:1}
+.hsum p .money{font-size:inherit;font-family:inherit;color:var(--ink);font-weight:500}
+.hsum .btn.sm{border:0;padding:0 0 0 14px;background:none;color:var(--ink2);text-decoration:underline;text-decoration-color:var(--rule2);text-underline-offset:3px}
+.hsum .btn.sm:hover{color:var(--ink);text-decoration-color:var(--ink)}
+
+/* ---- 17. the fields: a line, not a box; a fine chevron ---- */
+input:not([type=checkbox]):not([type=radio]):not([type=range]):not(.wd-q):not(.tdaskbar input),select{background:transparent;border:0;border-bottom:1px solid var(--rule2);border-radius:0;padding:8px 0}
+select{appearance:none;-webkit-appearance:none;padding-right:22px;background:var(--chev) no-repeat right 4px center}
+select option{background:var(--paper);color:var(--ink)}
+textarea{border:1px solid var(--rule2);border-radius:2px;background:transparent}
+.toolbar{gap:0 28px}
+input[type=checkbox],input[type=radio],input[type=range]{accent-color:var(--ink)}
+
+/* ---- 19–20. the Navigator's form ---- */
+.navform{align-items:start}
+.navform fieldset{border:0;border-top:1px solid var(--rule2);border-radius:0;padding:14px 0 0;gap:14px}
+.navform legend{font-family:var(--read);font-size:11.5px;letter-spacing:var(--track-caps);text-transform:uppercase;color:var(--gilt);padding:0 10px 0 0;margin:0}
+.navform label>span{font-size:11.5px;letter-spacing:.02em}
+
+/* ---- 21–22. the audience strip and the status, as a line of italic ---- */
+.forwhom{font-family:var(--read);font-style:italic;font-size:13.5px;color:var(--ink3);gap:4px 28px;padding:10px 24px 10px 0;margin:-6px 0 26px}
+.forwhom span{flex:1 1 300px}
+.forwhom b{display:inline;font:inherit;font-style:normal;letter-spacing:0;text-transform:none;color:var(--ink2);margin:0 6px 0 0}
+.head .status{display:flex;gap:0 14px;font-family:var(--read);font-style:italic;font-size:13.5px;color:var(--ink3);align-self:flex-end}
+.head .status .chip{border:0;background:none;padding:0;border-radius:0;font:inherit;color:inherit;gap:6px}
+.chip.live i{width:6px;height:6px}
+.chip.live.on i{animation:none;box-shadow:none}
+
+/* ---- 23. the hero keeps the page's palette ---- */
+.tdask{border-radius:0}
+.tdask .askq{border:0;background:none;border-radius:0;padding:0;text-decoration:underline;text-decoration-color:color-mix(in srgb,currentColor 35%,transparent);text-underline-offset:4px}
+.tdask .askq:hover{text-decoration-color:currentColor;border:0}
+.tdex{gap:6px 20px}
+
+/* ---- 24–29. the Eye: the picture on the plate, the scores in ink, the glyphs quiet ---- */
+.eye-pic{border-radius:0;background:var(--paper);padding:0}
+.eye-pic img,.eye-pic canvas{background:var(--paper)}
+.eye-pic figcaption{margin:0;padding:8px 10px 10px;border-top:1px solid var(--rule)}
+.eye-globe-host,.eye-frame{border-radius:0}
+.eye-arch{white-space:nowrap}
+.eye-tiernote{display:none}
+.eye-pts{color:var(--ink);font-weight:500;font-family:var(--read)}
+.eye-score b{color:var(--ink);font-weight:400;font-size:28px}
+.eye-verdict{font-family:var(--read);font-style:italic;font-weight:400;color:var(--ink2)}
+.eye-big{color:var(--ink);font-weight:400}
+.eye-glyphs{font-size:13px;letter-spacing:5px;color:var(--ink3)}
+.wd-range::-webkit-slider-thumb{background:var(--ink);box-shadow:none}
+.wd-range::-moz-range-thumb{background:var(--ink);box-shadow:none}
+.eye-gz .lk{width:30px;height:30px;padding:0;border-radius:50%;border:1px solid var(--rule2);display:inline-flex;align-items:center;justify-content:center;font-family:var(--ui);font-size:17px}
+.eye-hint{display:none}
+
+/* ---- 30–31. the School: a sticky line of sections, paths as ruled chapters ---- */
+.sc-nav{position:sticky;top:calc(var(--top) + env(safe-area-inset-top,0px));z-index:3;background:var(--ground);gap:4px 22px;padding:12px 0 10px;font-family:var(--read);font-size:11.5px;letter-spacing:var(--track-caps);text-transform:uppercase}
+.sc-nav a{border-bottom:1px solid transparent;padding-bottom:2px;text-decoration:none}
+.sc-nav a:hover,.sc-nav a.on{color:var(--ink);border-bottom-color:var(--ink)}
+.sc-path{border:0;border-top:1px solid var(--ink);border-radius:0;background:none;padding:12px 0 4px}
+.sc-path summary{font-family:var(--display);font-size:20px}
+.sc-path summary b{font-weight:400}
+.sc-path summary .faint{font-family:var(--read);font-style:italic;font-size:14px}
+.sc-lh b{font-family:var(--display);font-weight:400;font-size:17px}
+.sc-ex .l,.sc-a .l{font-family:var(--read);font-size:11px;letter-spacing:var(--track-caps);color:var(--ink3)}
+.sc-ans summary{font-size:13px;color:var(--ink2);text-decoration:underline;text-decoration-color:var(--rule2);text-underline-offset:3px}
+
+/* ---- 33–35. motion: a section arrives, a control eases, a menu fades ---- */
+.view.on{animation:viewIn var(--t-base) var(--ease) both}
+a,button,.btn,.chip,.tag,.nav button,.wd-mode,.wd-rd,.wd-zb,.eye-mode,.eye-tier,.td-game,.gotile,.upl,.lot .t,.tbl tr.clk td,.sc-nav a,.readon button{transition:color var(--t-fast) var(--ease),border-color var(--t-fast) var(--ease),background-color var(--t-fast) var(--ease),text-decoration-color var(--t-fast) var(--ease),opacity var(--t-fast) var(--ease)}
+@media (min-width:1101px){
+  body:not(.navtight) .navmore{display:flex;opacity:0;visibility:hidden;transform:translateY(-4px);pointer-events:none;transition:opacity var(--t-base) var(--ease),transform var(--t-base) var(--ease),visibility 0s linear var(--t-base)}
+  body:not(.navtight) .navmore.on{opacity:1;visibility:visible;transform:none;pointer-events:auto;transition-delay:0s}
+}
+.pal{display:flex;opacity:0;visibility:hidden;transition:opacity var(--t-fast) var(--ease),visibility 0s linear var(--t-fast)}
+.pal.on{opacity:1;visibility:visible;transition-delay:0s}
+
+/* ---- 37. one focus ring, on the keyboard only ---- */
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--ink)}
+input:focus-visible,select:focus-visible,textarea:focus-visible,button:focus-visible,a:focus-visible,[tabindex]:focus-visible,.wd-cv:focus-visible,.ring:focus-visible{outline:var(--ring);outline-offset:var(--ring-off);box-shadow:none}
+.eye-globe:focus-visible{box-shadow:none;outline:var(--ring);outline-offset:-2px}
+
+/* ---- 44. one underline ---- */
+.view a:not(.btn):not(.lk):not(.chip),.lnk,.ref,.wd-cityk,.navsrc a,.colophon .credit a{text-decoration:underline;text-decoration-thickness:1px;text-decoration-color:color-mix(in srgb,currentColor 35%,transparent);text-underline-offset:3px;border-bottom:0}
+.view a:not(.btn):hover,.lnk:hover,.ref:hover,.wd-cityk:hover{text-decoration-color:currentColor}
+
+/* ---- 46–49. the phone: targets, tabs that scroll, the zoom under the globe, one gutter ---- */
+@media (max-width:900px){
+  .mast .in{padding-inline:16px}
+  .tools .chip{min-width:40px;min-height:40px;justify-content:center;padding:0 8px}
+  .eye-tier,.wd-rd,.wd-mode,.tag[role=button],.btn.sm{min-height:36px;display:inline-flex;align-items:center}
+}
+@media (max-width:760px){
+  .wd-modes{max-width:100%;overflow-x:auto;scrollbar-width:none;gap:16px}
+  .wd-mode{white-space:nowrap;flex:none}
+  .wd-zoomctl{margin:6px 0 4px}
+}
+@media (max-width:860px){
+  .eye-modes{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .eye-mode{padding:10px 12px}.eye-mode small{display:none}
+}
+@media (prefers-reduced-motion:reduce){.view.on,.navmore,.pal{animation:none;transition:none}}
+
 </style>
 
 <header class="mast">
@@ -5760,7 +5943,7 @@ const hammerTh=k=>{const on=rstate.sort===k,[label]=HAMMER_SORT[k];return `<th s
 function drawHammer(){const list=hammerList();const S=lotSummary(list),A=lotSummary(RESULTS),f=hammerFilters();
   $('#rsum').innerHTML=S.n?`<b>${S.n}</b> of ${A.n} lots${f?` <span class="f">(${esc(f)})</span>`:''} · total <span class="money">${mm(S.total)}</span>, ${Math.round(S.total/A.total*100)}% of the list’s value · median <span class="money">${mm(S.med)}</span> · top <button class="lnk" data-lot="${S.top.id}">${esc(S.top.artist)}, ${esc(S.top.title)}</button> <span class="money">${mm(S.top.price)}</span>`:`<b>0</b> of ${A.n} lots${f?` <span class="f">(${esc(f)})</span>`:''}: nothing matches; widen a filter.`;
   $('#rCsv').disabled=!S.n;
-  $('#rtbl').innerHTML=`<caption class="sr">Marquee results${f?`: ${esc(f)}`:''}, by ${esc(HAMMER_SORT[rstate.sort][0].toLowerCase())}</caption><thead><tr><th scope="col" class="n">Rank</th>${['artist','house','date','cat','price'].map(hammerTh).join('')}</tr></thead><tbody>${list.map(r=>`<tr class="clk" data-lot="${r.id}"><td class="n faint">${r.rank}</td><td class="t"><span class="k">${esc(r.artist)}</span>${esc(r.title)}${r.year||r.rec.length||r.chain?`<span class="a">${r.year?esc(r.year):''}${r.rec.length?` <span class="tag rec">${esc(r.rec[0])}</span>`:''}${r.chain?' <span class="tag">provenance</span>':''}</span>`:''}<span class="mob">${esc(houseName(r.house))}, ${esc(r.city)} · ${esc(fdate(r.date))}</span></td><td class="faint">${esc(houseName(r.house))}, ${esc(r.city)}</td><td class="faint nw">${esc(fdate(r.date))}</td><td class="faint">${esc(r.cat)}</td><td class="money">${mm(r.price)}<span class="tag flag lotvf" title="${r.vf==='V'?'read on the house’s own page':r.vf==='S'?'read in the trade press':'unconfirmed: no page opened for this lot yet'}">${esc(r.vf||'U')}</span></td></tr>`).join('')}${list.length?'':'<tr><td colspan="6" class="faint">Nothing matches.</td></tr>'}</tbody>`;
+  $('#rtbl').innerHTML=`<caption class="sr">Marquee results${f?`: ${esc(f)}`:''}, by ${esc(HAMMER_SORT[rstate.sort][0].toLowerCase())}</caption><thead><tr><th scope="col" class="n">Rank</th>${['artist','house','date','cat','price'].map(hammerTh).join('')}</tr></thead><tbody>${list.map(r=>`<tr class="clk" data-lot="${r.id}"><td class="n faint">${r.rank}</td><td class="t"><span class="k">${esc(r.artist)}</span>${esc(r.title)}${r.year||r.rec.length||r.chain?`<span class="a">${r.year?esc(r.year):''}${r.rec.length?` <span class="tag rec">${esc(r.rec[0])}</span>`:''}${r.chain?' <span class="tag">provenance</span>':''}</span>`:''}<span class="mob">${esc(houseName(r.house))}, ${esc(r.city)} · ${esc(fdate(r.date))}</span></td><td class="faint">${esc(houseName(r.house))}, ${esc(r.city)}</td><td class="faint nw">${esc(fdate(r.date))}</td><td class="faint">${esc(r.cat)}</td><td class="money">${mm(r.price)}<span class="vf ${(r.vf||'U').toLowerCase()} lotvf" title="${r.vf==='V'?'read on the house’s own page':r.vf==='S'?'read in the trade press':'unconfirmed: no page opened for this lot yet'}">${esc(r.vf||'U')}</span></td></tr>`).join('')}${list.length?'':'<tr><td colspan="6" class="faint">Nothing matches.</td></tr>'}</tbody>`;
   $$('#rtbl [data-sort]').forEach(b=>b.addEventListener('click',e=>{e.stopPropagation();const k=b.dataset.sort;hammerSort(k);focusEl($(`#rtbl [data-sort="${k}"]`));}));
   bindLinks($('#rtbl'));bindLinks($('#rsum'));markScrollables($('#v-hammer'));}
 /* v25: the money behind a lot (LOT_FIN, joined at boot as r.fin): who sold, who stood behind it, who bought, where the money went */
@@ -8580,7 +8763,7 @@ function renderWorld(el){if(!el)return;if(wdTeardown){try{wdTeardown();}catch(e)
   /* ---- the lead, per mode ---- */
   function lead(){const P=G.pins;
     if(G.mode==='now'){const sold=G.events.filter(e=>e.k==='lot'||e.k==='sale'),coming=G.events.filter(e=>e.k==='coming'),cities=new Set(sold.map(e=>e.c)),tot=sold.reduce((s,e)=>s+e.v,0);const top=sold.filter(e=>e.k==='lot').sort((a,b)=>b.v-a.v)[0]||sold.slice().sort((a,b)=>b.v-a.v)[0];const next=coming.slice().sort((a,b)=>String(a.d).localeCompare(String(b.d))||b.v-a.v)[0];const since=['January','February','March','April','May','June','July','August','September','October','November','December'][+glbAddDays(NOW,-WD_BACK).slice(5,7)-1];
-      return {eye:`The art world, ${fdate(NOW)}`,h1:sold.length?`${mm(tot)} sold in ${words(cities.size)} ${cities.size===1?'city':'cities'} since ${since}.`:'The season’s sales, on the globe.',read:`${top?`Top lot: ${cut(top.t,70)}, ${mm(top.v)}.`:''} ${next?`Next on the block: ${cut(next.t,70)}, ${fdate(next.d)}.`:''} Turn the globe; a dot is a city: gold where something sold this season, red where it sold this week, a diamond where a fair or a show is coming. Click it.`};}
+      return {eye:`The art world, ${fdate(NOW)}`,h1:sold.length?`${mm(tot)} sold in ${words(cities.size)} ${cities.size===1?'city':'cities'} since ${since}.`:'The season’s sales, on the globe.',read:`${top?`Top lot: ${cut(top.t,70)}, ${mm(top.v)}.`:''} ${next?`Next on the block: ${cut(next.t,70)}, ${fdate(next.d)}.`:''} Turn the globe; touch a city.`};}
     if(G.mode==='then'){const y=G.year,am=activeMv(y).slice().sort((a,b)=>b.from-a.from),al=alive(y),em=emerging(y);const names=(em.length?em:am).slice(0,2).map(x=>x.m.n);
       return {eye:`Back in time · ${wdYear(y)}`,h1:am.length?`${names.map(n=>n.replace(/ \(.*\)$/,'').replace(/:.*$/,'')).join(', ')}${am.length>names.length?` and ${words(am.length-names.length)} more`:''}.`:'Before the first image.',read:`${am.length?`${words(am.length)[0].toUpperCase()+words(am.length).slice(1)} ${am.length===1?'movement':'movements'} alive, ${al.length} painters at work.`:''} ${em.length?`Emerging: ${em.map(x=>x.m.n).slice(0,3).join(', ')}.`:''} Drag the rail or press Play; the globe flies to where the art was.`};}
     if(G.mode==='shifts'){const first=CE[0],last=CE[CE.length-1];return {eye:'Where the centre moved',h1:`${CE.length?`From ${first.c} to ${last.c} in ${words(CE.length-1)} moves`:'The centre of gravity'}.`,read:'The trade’s centre of gravity, era by era, drawn over today’s shares: the brighter the land, the larger its share of sales. The pulsing hubs are rising now. Click an era.'};}

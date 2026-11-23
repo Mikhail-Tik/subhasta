@@ -50,7 +50,7 @@ read = lambda p: p.read_text(encoding='utf-8')
 
 DATA_ORDER = ['data_houses', 'data_market', 'data_more', 'data_people', 'data_reel', 'data_under', 'data_pulse', 'data_atlas', 'data_world', 'data_flows', 'data_globe', 'data_circle', 'data_bench', 'data_movements', 'data_live', 'data_places', 'data_nav', 'data_season', 'data_net', 'data_eye', 'data_school']
 page = read(src / 'page.html')
-css = read(src / 'style.css') + '\n' + read(src / 'globe.css') + '\n' + read(src / 'circle.css') + '\n' + read(src / 'lab.css') + '\n' + read(src / 'ask.css') + '\n' + read(src / 'world.css') + '\n' + read(src / 'library.css') + '\n' + read(src / 'nav.css')
+css = read(src / 'style.css') + '\n' + read(src / 'globe.css') + '\n' + read(src / 'circle.css') + '\n' + read(src / 'lab.css') + '\n' + read(src / 'ask.css') + '\n' + read(src / 'world.css') + '\n' + read(src / 'library.css') + '\n' + read(src / 'nav.css') + '\n' + read(src / 'polish.css')
 data = {n: read(src / f'{n}.js') for n in DATA_ORDER}
 imeta = json.load(open(root / 'data' / 'images_meta.json', encoding='utf-8'))
 imeta_js = json.dumps(imeta, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
