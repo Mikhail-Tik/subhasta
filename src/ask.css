@@ -9,7 +9,8 @@
 .nav .morebtn{font-family:var(--read);font-variant:small-caps;letter-spacing:.06em;font-size:14.5px;color:var(--ink2);padding:6px 7px;border-bottom:1px solid transparent;white-space:nowrap}
 .nav .morebtn:hover,.nav .morebtn[aria-expanded="true"]{color:var(--ink)}
 .nav .morebtn.on{color:var(--ink);border-bottom-color:var(--gilt)}
-.nav{position:relative}
+@media (min-width:1101px){body:not(.navtight) .nav{position:relative}}   /* the More panel anchors to the bar on a wide screen; the folded menu (phone, tight, World) stays fixed */
+.nav.open{max-height:calc(100vh - var(--top) - env(safe-area-inset-top,0px));overflow-y:auto;-webkit-overflow-scrolling:touch}
 .navmore{display:none;position:absolute;right:0;top:calc(100% + 10px);min-width:190px;background:var(--ground);border:1px solid var(--rule2);box-shadow:0 18px 50px rgba(0,0,0,.35);padding:6px;z-index:45;flex-direction:column}
 .navmore.on{display:flex}
 .navmore button{text-align:left;padding:8px 12px;border-bottom:0;font-size:15px}
@@ -25,8 +26,8 @@ body.is-owner .owner-only{display:block!important}
   .navmore button{font-size:15px;padding:7px 10px}
   body.is-owner .navmore .owner-only{display:inline-block!important}
 }
-body.navtight .nav .morebtn,body.on-world .nav .morebtn{display:none}
-body.navtight .navmore,body.navtight .navmore.on,body.on-world .navmore,body.on-world .navmore.on{display:flex;position:static;flex-direction:row;flex-wrap:wrap;gap:2px;width:100%;box-shadow:none;border:0;border-top:1px solid var(--rule);margin-top:6px;padding:6px 0 0;background:transparent}
+body.navtight .nav .morebtn{display:none}
+body.navtight .navmore,body.navtight .navmore.on{display:flex;position:static;flex-direction:row;flex-wrap:wrap;gap:2px;width:100%;box-shadow:none;border:0;border-top:1px solid var(--rule);margin-top:6px;padding:6px 0 0;background:transparent}
 .pal .ri.ask .k{color:var(--gilt)}
 .pal .ri.ask .n{font-family:var(--read);font-style:italic}
 .colophon .credit{display:block;margin-top:10px;color:var(--ink2)}

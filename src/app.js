@@ -120,13 +120,50 @@ function initTheme(){const saved=store.get('theme',null);if(saved)document.docum
 const VIEWS=['world','library','floor','ask','movements','hammer','pulse','undertow','ledger','navigator','season','horizon','transform','deal','tides','collectors','currents','whispers','playbooks','brief','cases','walls','sources','eye','school','compare','lab','atlas','houses','people','salon','lexicon','circle','desk','signals'];
 /* each view's name in the palette; the masthead says Sales, Market, Money and Provenance for the Hammer, the Pulse, the Undertow and the Ledger */
 const VIEW_NAMES={world:'The World',library:'The Library',compare:'Compare',floor:'Today',ask:'Ask Subhasta',movements:'Movements',hammer:'Sales: the Hammer',pulse:'Market: the Pulse',undertow:'Money: the Undertow',ledger:'Provenance: the Ledger',navigator:'The Navigator',season:'The Season',horizon:'The Horizon',transform:'The Transformation',deal:'The Deal Room',tides:'The Tides',collectors:'The Collectors',currents:'The Currents',whispers:'The Whispers',playbooks:'The Playbooks',brief:'The Brief',cases:'Worked cases',walls:'The Walls',sources:'Sources',eye:'The Eye',school:'The School',lab:'The Lab',atlas:'Atlas',houses:'Houses and players',people:'People',salon:'Salon',lexicon:'Lexicon and instruments',circle:'The Circle',desk:'The desk',signals:'Signals'};
-const rendered={};let current='floor',booted=false;
+const rendered={};let current='world',booted=false;
 function show(v){closeDrawer();$$('.view').forEach(e=>e.classList.toggle('on',e.id==='v-'+v));document.body.classList.toggle('on-world',v==='world');if(v!=='world'){$('#nav').classList.remove('open');$('#menuBtn').setAttribute('aria-expanded','false');}   /* the World folds the masthead to the brand, the search and a Menu (v23) */firstVisit();$$('#nav button').forEach(b=>b.classList.toggle('on',b.dataset.v===v));const mb=$('#moreBtn');if(mb)mb.classList.toggle('on',!!$(`#navMore button[data-v="${v}"]`));navMore(false);$('#nav').classList.remove('open');$('#menuBtn').setAttribute('aria-expanded','false');window.scrollTo({top:0});markScrollables($('#v-'+v));if(booted){const a=document.activeElement;if(!a||a===document.body||!isVisible(a))settleFocus();}}
 /* one failing view must not blank the others: each render is isolated, and a failure leaves a readable notice in place of the view */
 const perf={};
 const MONEY_VIEWS=['hammer','lexicon','deal','undertow','navigator','transform','circle','lab','atlas','season','horizon','tides','brief','cases','eye','school'];
 /* the line every money-bearing view ends with; a view that redraws itself (the Navigator on every input) gets it back when it is shown */
-function ensureAdvice(v){const el=$('#v-'+v);if(MONEY_VIEWS.includes(v)&&el&&!$('.advice',el))el.insertAdjacentHTML('beforeend','<p class="faint advice">A reading of the public record, not investment, legal or tax advice; a professional’s number ends every route. Figures carry their source and a flag (V read on the primary page, S in the trade press, U unconfirmed).</p>');}
+/* v29.1: the chapters — every section ends with the sections that follow from it, like the next chapters of a book, so one thing leads to another */
+const READ_ON={world:[['eye','play today’s test on this globe'],['tides','where the market is moving'],['hammer','what sold, with its record'],['school','ground under the feet']],
+ floor:[['eye','today’s test'],['world','the globe'],['hammer','the sale room'],['tides','the tides']],
+ eye:[['school','the lessons the drills belong to'],['library','the pictures, large'],['movements','the timeline from the caves'],['hammer','the lots behind the prices']],
+ school:[['eye','the daily drills'],['navigator','move a work, lawfully'],['walls','what stops a task'],['sources','where the information lives'],['lexicon','the terms and the fee calculator']],
+ hammer:[['undertow','what the buyer pays in all'],['deal','behind a $50m painting'],['collectors','who holds what'],['lab','what the returns were']],
+ navigator:[['walls','what stops a move'],['transform','the money’s road'],['playbooks','step by step'],['brief','a memo for your case']],
+ walls:[['navigator','the route and its cost'],['cases','twenty tasks solved'],['currents','the documented cases'],['brief','your own case']],
+ tides:[['whispers','what the trade is saying'],['horizon','the theses'],['collectors','who is buying'],['hammer','the evidence in the room']],
+ ask:[['brief','a task solved on the record'],['sources','where answers live'],['school','learn the ground']],
+ brief:[['cases','worked cases on the same memo'],['navigator','the route in detail'],['walls','the law as it stands'],['playbooks','the steps']],
+ library:[['eye','test your eye on these'],['movements','the movements they belong to'],['ledger','whose hands they passed through']],
+ movements:[['library','the pictures'],['compare','two movements side by side'],['world','back in time on the globe']],
+ collectors:[['currents','where the money moved'],['whispers','what is said'],['deal','the terms behind a sale']],
+ currents:[['walls','the controls that bit'],['cases','tasks solved'],['transform','how money becomes a work']],
+ whispers:[['tides','the tide behind the rumour'],['collectors','the names'],['season','the dates']],
+ playbooks:[['navigator','the cost of the route'],['brief','your case'],['cases','how it went for others']],
+ cases:[['brief','your own case'],['walls','the walls they hit'],['playbooks','the steps']],
+ ledger:[['library','the pictures'],['lab','provenance measured'],['people','the dealers']],
+ lab:[['ledger','the histories'],['hammer','the lots'],['circle','the company model']],
+ circle:[['school','the free floor'],['sources','the data the trade pays for'],['lab','the instruments']],
+ sources:[['school','what to read first'],['circle','what Subhasta charges'],['ask','ask the analyst']],
+ deal:[['hammer','the lots'],['undertow','where the dollar goes'],['collectors','the guarantors']],
+ undertow:[['navigator','the move itself'],['hammer','the lots'],['deal','the terms']],
+ pulse:[['tides','the reading behind the index'],['hammer','the sales'],['horizon','what comes next']],
+ season:[['horizon','the theses'],['world','the dates on the globe'],['houses','who holds the sales']],
+ horizon:[['season','the calendar'],['tides','the tides'],['whispers','the rumours']],
+ people:[['houses','their houses'],['collectors','the collectors'],['ledger','the dealers in the histories']],
+ houses:[['people','the people'],['hammer','their results'],['lexicon','their fees']],
+ atlas:[['navigator','a route through the regimes'],['transform','the money'],['walls','the walls']],
+ lexicon:[['school','the lessons'],['undertow','the fees at work'],['navigator','the route']],
+ salon:[['circle','the membership'],['eye','the league']],
+ signals:[['floor','today'],['pulse','the index'],['tides','the tides']],
+ compare:[['movements','the timeline'],['library','the pictures']],
+ transform:[['navigator','the route'],['currents','the cases'],['walls','the law']]};
+function readOnLabel(v){const b=$('#nav [data-v="'+v+'"]');const t=b?b.textContent.replace(/[:·].*$/,'').trim():'';return t||v[0].toUpperCase()+v.slice(1);}
+function ensureReadOn(v){const el=$('#v-'+v);const L=READ_ON[v];if(!el||!L||$('.readon',el))return;el.insertAdjacentHTML('beforeend',`<nav class="readon" aria-label="Read on"><b>Read on</b>${L.filter(x=>VIEWS.includes(x[0])).map(x=>`<button data-go="${x[0]}"><span>${esc(readOnLabel(x[0]))}</span><small>${esc(x[1])}</small></button>`).join('')}</nav>`);}
+function ensureAdvice(v){ensureReadOn(v);const el=$('#v-'+v);if(MONEY_VIEWS.includes(v)&&el&&!$('.advice',el))el.insertAdjacentHTML('beforeend','<p class="faint advice">A reading of the public record, not investment, legal or tax advice; a professional’s number ends every route. Figures carry their source and a flag (V read on the primary page, S in the trade press, U unconfirmed).</p>');}
 function renderView(v){const el=$('#v-'+v);const t0=performance.now();try{RENDER[v]();}catch(err){reportError(err,'render '+v);if(el&&!el.innerHTML.trim())el.innerHTML=`<div class="head"><div><h1>${esc(v[0].toUpperCase()+v.slice(1))}</h1><p class="dek">This section could not be drawn. Reload the page; if it happens again, the error has been logged to the console.</p></div></div>`;}rendered[v]=true;ensureAdvice(v);if(EYEBROW[v]&&el){const h=$('.head h1',el);if(h&&!$('.eyebrow',el))h.insertAdjacentHTML('beforebegin',`<span class="eyebrow">${EYEBROW[v]}</span>`);}forWhom(el);try{bindAtlasLinks(el);bindUnderLinks(el);bindLensButtons(el);}catch(err){reportError(err,'bind '+v);}if(perf[v]==null)perf[v]=performance.now()-t0;}
 /* v25: the strip under every head: what this section is worth, to whom (VALUE in data_circle.js); re-inserted when a view re-renders */
 function forWhom(el){if(!el||!el.id||store.get('forwhom','on')==='off')return;const v=el.id.replace(/^v-/,'');const V=typeof VALUE==='object'&&VALUE[v];if(!V)return;const hd=el.querySelector(':scope > .head, :scope > .wd .wd-lead');if(!hd||el.querySelector('.forwhom'))return;if(v==='world')return;hd.insertAdjacentHTML('afterend',`<div class="forwhom" aria-label="What this section is worth, to whom">${['c','a','b'].map(k=>`<span><b>${VALUE_WHO[k]}</b>${esc(V[k])}</span>`).join('')}<button class="fw-x" title="Hide these lines on this device" aria-label="Hide">×</button></div>`);const x=el.querySelector('.forwhom .fw-x');if(x)x.addEventListener('click',()=>{store.set('forwhom','off');$$('.forwhom').forEach(n=>n.remove());toast('Hidden; the Circle has the full offer.');});}
@@ -151,7 +188,7 @@ function onAddress(){if(location.hash===lastHash&&!(window.__REEL&&window.__REEL
   const back=returningTo;returningTo=null;if(back!==null&&location.hash===back&&pageHash===back){prevAddr=lastHash;lastHash=location.hash;return;}
   prevAddr=lastHash;lastHash=location.hash;routing=true;try{route();}finally{routing=false;}}
 /* put an earlier address back without a new entry (the Reel closing onto the page it was opened over) */
-function restoreAddress(h){if(!h||h==='#'||/^#reel/.test(h)){routing=true;try{go('floor');}finally{routing=false;}return;}   /* the Floor replaces the Reel's address: no entry for Back to reopen it */try{history.replaceState(null,'',h);}catch(e){}lastHash=h;routing=true;try{route();}finally{routing=false;}}
+function restoreAddress(h){if(!h||h==='#'||/^#reel/.test(h)){routing=true;try{go('world');}finally{routing=false;}return;}   /* the Floor replaces the Reel's address: no entry for Back to reopen it */try{history.replaceState(null,'',h);}catch(e){}lastHash=h;routing=true;try{route();}finally{routing=false;}}
 /* the place an address names, for a back button's label */
 const DRAWER_VIEW={under:'undertow',symptom:'pulse',hub:'atlas',segment:'atlas',inst:'atlas',station:'undertow'};
 function placeName(h){h=String(h||'');const d=h.match(/^(under|symptom|hub|segment|inst|station)-/);if(d)h=DRAWER_VIEW[d[1]];if(/^lab-/.test(h))h='lab';
@@ -160,7 +197,7 @@ function placeName(h){h=String(h||'');const d=h.match(/^(under|symptom|hub|segme
 function openReelHere(i){if(!$('.view.on')){if(!rendered.world)renderView('world');show('world');pageHash='#world';}window.__REEL.open(i||0);}
 /* follow a hash route even when the address already carries it (setting the same hash fires no hashchange) */
 function openHashRoute(h){if(location.hash==='#'+h)route();else location.hash=h;}
-function route(){const h=(location.hash||'').replace('#','');if(window.__REEL&&window.__REEL.isOpen()&&!/^reel/.test(h))window.__REEL.close();if(!h){go('floor');return;}   /* v29: the page opens on Today, the magazine’s front; the World is one click away */   /* the page opens on the World (v23); the Reel is #reel */if(h==='reel'||/^reel-\d+$/.test(h)){const n=(h.match(/^reel-(\d+)$/)||[])[1];
+function route(){const h=(location.hash||'').replace('#','');if(window.__REEL&&window.__REEL.isOpen()&&!/^reel/.test(h))window.__REEL.close();if(!h){go('world');return;}   /* v29.1: the page opens on the World again, the globe turning; Today is one tap away. v29 had opened on Today, the magazine’s front; the World is one click away */   /* the page opens on the World (v23); the Reel is #reel */if(h==='reel'||/^reel-\d+$/.test(h)){const n=(h.match(/^reel-(\d+)$/)||[])[1];
     /* a Reel address reached by a link or typed in (the browser made the entry, without state) covers the page before it: the entry records that page, so Close and Back return there */
     if(booted&&!history.state&&prevAddr&&prevAddr!=='#'&&!/^#reel/.test(prevAddr)&&!(window.__REEL&&window.__REEL.isOpen())){try{history.replaceState({reel:1,from:prevAddr},'',location.hash);}catch(e){}}
     const floor=!$('.view.on');if(floor&&!rendered.world)renderView('world');if(window.__REEL)window.__REEL.open(n?Math.min(Math.max(+n,1),REEL.length)-1:0);if(floor){show('world');pageHash='#world';}return;}   /* the Reel opens first, so the first-visit guide waits until it closes */ /* #reel-N is clamped to 1…REEL.length, so #reel-0 opens the first card and an overshoot the last */if(VIEWS.includes(h)){go(h);return;}const lm=h.match(/^library-([a-z0-9]+)$/);if(lm){if(MOVEMENTS.find(x=>x.id===lm[1]))libs.mv=lm[1];if(rendered.library)renderLibrary();go('library');setHash(h);return;}   /* #library-<movement> opens the Library on that movement */
@@ -674,7 +711,7 @@ function drawWatching(){const C=watchChanges();const items=watchlist.map(k=>({k,
   const h=$('#tdWatchH');if(h)h.textContent=items.length?`${items.length} on your watchlist${changed?`, ${changed} changed since you last looked`:''}`:'your watchlist';const sec=$('#tdWatchSec');if(sec)sec.hidden=!items.length;}
 async function toggleWatch(key,btn){const on=watchlist.includes(key);watchlist=on?watchlist.filter(k=>k!==key):[...watchlist,key];if(btn){btn.classList.toggle('on',!on);btn.textContent=on?'☆ Watch':'★ Watching';}if(on)delete watchSnap[key];else watchSnap[key]=watchValue(key);
   await watchSave();drawWatching();refreshWatch();}
-async function initCaps(){if(!(window.claude&&window.claude.use))return finishCaps();
+async function initCaps(){if(!(window.claude&&window.claude.use)){try{if(typeof liveStatic==='function')liveStatic();}catch(e){}return finishCaps();}
   /* the four capabilities are requested together; a host that answers none settles in one timeout, not four, and one refusal does not block the others */
   const use=n=>{try{return Promise.resolve(window.claude.use(n)).catch(()=>null);}catch(e){return Promise.resolve(null);}};
   [sampleRef,dlRef,dbRef,userRef]=await Promise.all(['sample','downloads','db','user'].map(use));

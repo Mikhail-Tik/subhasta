@@ -41,6 +41,11 @@ function kbAll(){const m=new Map();KB.forEach(k=>m.set(k.id,k));LIVEDB.kb.forEac
 function liveInit(){if(!dbRef)return;const val=d=>d.exists===false?null:(typeof d.data==='function'?d.data():d.data);
   try{dbRef.collection('live').onSnapshot(snap=>{const ch=new Set();(snap&&snap.docs||[]).forEach(d=>{const id=d.id;if(!['status','read','sales','wire'].includes(id))return;const x=val(d);if(liveValid(id,x)){LIVEDB[id]=x;ch.add(id);}});if(ch.size)liveApply(ch);},()=>{});}catch(e){}
   try{dbRef.collection('kb').onSnapshot(snap=>{const L=[];(snap&&snap.docs||[]).forEach(d=>{if(!/^[a-z0-9-]{1,80}$/.test(d.id))return;const x=val(d);if(kbValid(x))L.push(Object.assign({},x,{id:d.id}));});LIVEDB.kb=L.slice(0,500);liveApply(new Set(['kb']));},()=>{});}catch(e){}}
+/* v29.1: the website has no database — it reads the same documents as files beside the page (docs/live/<id>.json, docs/kb/index.json),
+   which the daily desk writes to the repository; the same validators apply, so a bad file is ignored like a bad document */
+function liveStatic(){if(window.claude&&window.claude.use)return;if(!/^https?:$/.test(location.protocol))return;const J=u=>fetch(u,{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null);
+  Promise.all(['status','read','sales','wire'].map(id=>J(`live/${id}.json`).then(x=>[id,x]))).then(rows=>{const ch=new Set();rows.forEach(([id,x])=>{if(liveValid(id,x)){LIVEDB[id]=x;ch.add(id);}});if(ch.size)liveApply(ch);}).catch(()=>{});
+  J('kb/index.json').then(L=>{if(!Array.isArray(L))return;const K=L.filter(x=>x&&/^[a-z0-9-]{1,80}$/.test(x.id)&&kbValid(x)).slice(0,500);if(K.length){LIVEDB.kb=K;liveApply(new Set(['kb']));}}).catch(()=>{});}
 /* a live document arrived: the index learns it and the blocks that show it are drawn again */
 function liveApply(ch){kxInvalidate();if(typeof wdInvalidate==='function')wdInvalidate();const on=id=>{const el=$(id);return el&&$('#v-floor').contains(el)?el:null;};
   const step=(what,f)=>{try{f();}catch(err){reportError(err,'live '+what);}};

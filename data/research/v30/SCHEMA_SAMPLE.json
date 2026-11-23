@@ -1,0 +1,83 @@
+{
+ "players": [
+  {
+   "id": "cosmoscow",
+   "n": "Cosmoscow",
+   "kind": "fair",
+   "extends": "",
+   "hq": {
+    "city": "Moscow",
+    "country": "Russia"
+   },
+   "offices": [],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "13th edition, September 2025, Timiryazev Centre, Moscow: 97 galleries on 100 stands plus 20 partner stands; over 55,000 visitors; general partner Sberbank. In 2024 it moved to a remote suburban venue; 2025 returned closer to the centre.",
+   "edge": "Russia’s main contemporary fair since 2013 and the only one with foreign sections (India, Iran, Thailand, China, Brazil in 2025) and an online edition (TEO). Stands are reserved for galleries.",
+   "src": [
+    [
+     "Snob, 16 Sep 2025",
+     "https://snob.ru/news/cosmoscow-2025-v-timiriazev-tsentre-sobrala-bolee-55-tysiach-zritelei/"
+    ],
+    [
+     "Art Focus Now, 6 Dec 2024",
+     "https://artfocusnow.com/art-market/thriving-in-isolation-how-sanctions-are-boosting-the-domestic-russian-art-market"
+    ],
+    [
+     "Novaya Gazeta, 6 Oct 2025",
+     "https://novayagazeta.ru/articles/2025/10/06/igra-v-klassiku"
+    ]
+   ],
+   "vf": "S",
+   "note": "Top reported sales at the 2025 fair: RUB 5m each for a Rasikh Akhmetvaliev sculpture, a Grigory Orekhov mirror longboard and an Alexandra Patsamanyuk work; RUB 4.9m for a Kerim Ragimov painting. No total disclosed. Founder Margarita Pushkina not confirmed in the pages opened."
+  }
+ ],
+ "markets": [
+  {
+   "city": "Moscow",
+   "role": "Moscow is a rouble market cut off from the Western houses. MyReport Art counts the official 2025 revenue of 260 companies at RUB 4.1bn (+5.4%): auction houses the fastest-growing segment (RUB 597m, +23.4%), galleries shrinking (−11.1%), and nearly half of participants not filing, so the true market is larger. The rooms are Cosmoscow (97 galleries, 55,000 visitors, September 2025), the gallery-run |catalog|, the state-adjacent Art Russia at Gostiny Dvor, and the houses Vladey, Litfund, Sovcom and the new AukziON. Buyers are returnees from Riga, London and Paris, ‘patriotic’ corporate buyers and new money such as Timati, who paid EUR 575,000 for a Tselkov at Vladey in November 2024. What bites: the EU/UK/US luxury-goods bans on supplying art to Russia and the Bank of Russia’s cash-currency limits, extended to 9 March 2027. Sell-through at domestic sales is often about half.",
+   "src": [
+    [
+     "Snob, 25 Jun 2026",
+     "https://snob.ru/news/rossiiskii-art-rynok-vyros-do-41-mlrd-rublei-v-2025-godu/"
+    ],
+    [
+     "Snob, 16 Sep 2025",
+     "https://snob.ru/news/cosmoscow-2025-v-timiriazev-tsentre-sobrala-bolee-55-tysiach-zritelei/"
+    ],
+    [
+     "Art Focus Now, 6 Dec 2024",
+     "https://artfocusnow.com/art-market/thriving-in-isolation-how-sanctions-are-boosting-the-domestic-russian-art-market"
+    ],
+    [
+     "Art Focus Now, 25 Dec 2024",
+     "https://artfocusnow.com/art-market/what-comes-after-the-house-of-cards-fell-down/"
+    ],
+    [
+     "Bank of Russia, 1 Sep 2026",
+     "https://cbr.ru/press/event?id=32812"
+    ]
+   ],
+   "vf": "S"
+  }
+ ],
+ "wire": [
+  {
+   "d": "2024-11-29",
+   "city": "London",
+   "t": "Sotheby’s ‘Fabergé, Imperial and Revolutionary Art’ sale: three Zinaida Serebriakova portraits (1925) make EUR 750,000, far above expectations, in the absence of a dedicated Russian sale",
+   "src": [
+    [
+     "Art Focus Now, 25 Dec 2024",
+     "https://artfocusnow.com/art-market/what-comes-after-the-house-of-cards-fell-down/"
+    ]
+   ],
+   "vf": "S"
+  }
+ ],
+ "unconfirmed": [
+  "Litfund, Sovcom and Art Russe: no 2025–26 figures or pages opened; carried from memory.",
+  "blazar and 1703: ownership and 2025–26 editions from memory."
+ ]
+}

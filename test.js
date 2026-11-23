@@ -14,9 +14,10 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
   assert(q('#drawer').tagName==='DIV','#drawer is a <div>');
   const G=expr=>w.eval(expr); /* the data files are script-level consts: not window properties, but visible to an indirect eval */
   /* v23: the page opens on the World; without a canvas (jsdom) the lead, the modes, the legend and the card still work */
-  {assert(q('#v-floor').classList.contains('on')&&w.location.hash==='#floor'&&q('#tdEye .td-game'),'the page opens on Today with the Eye’s card (v29); the World is one click away');w.__S.go('world');assert(q('#v-world').classList.contains('on')&&w.location.hash==='#world','the World opens');
+  {assert(q('#v-world').classList.contains('on')&&w.location.hash==='#world','the page opens on the World (v29.1: the globe is the landing again)');w.__S.go('floor');assert(q('#v-floor').classList.contains('on')&&q('#tdEye .td-game'),'Today opens with the Eye’s card');w.__S.go('world');assert(q('#v-world').classList.contains('on')&&w.location.hash==='#world','the World opens');
+   const WM=w.__WORLD;if(WM&&WM.mode){WM.mode('eye');assert(qa('.wd-mode').some(b=>b.dataset.wmode==='eye'&&b.classList.contains('on'))&&q('.wd-card [data-eye-go]'),'the Eye is a mode of the globe: its card chooses the game');WM.mode('now');}
    assert(/sold in|sales, on the globe/.test(q('#v-world .wd-h1').textContent),`the World’s lead reads the season (${q('#v-world .wd-h1').textContent})`);
-   assert(qa('#v-world .wd-mode').length===5&&q('#v-world .wd-mode.on').dataset.wmode==='now','five modes, Now first');
+   assert(qa('#v-world .wd-mode').length===6&&q('#v-world .wd-mode.on').dataset.wmode==='now','six modes (the Eye since v29.1), Now first');
    const W=w.__WORLD;assert(W&&W.state().events>20&&W.state().pins>=5,`the World stacks the season’s events by city (${W&&W.state().events} events, ${W&&W.state().pins} cities)`);
    assert(W.events().some(e=>e.c==='New York'&&e.k==='coming')&&W.pins().some(p=>p.c==='London'&&p.kind==='sold'),'New York has sales to come and London has sold');
    assert(/cities with sales/.test(q('#v-world .wd-legend').textContent),'the legend counts the cities with sales');

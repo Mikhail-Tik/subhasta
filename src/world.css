@@ -198,3 +198,6 @@
 .wd-temp{border-left:3px solid var(--ink3);padding-left:10px}
 .wd-temp.hot{border-left-color:var(--claret)}.wd-temp.warm{border-left-color:var(--gilt)}.wd-temp.cold{border-left-color:var(--rule2)}
 .wd-ev.stone b,.wd-ev.tide b{display:block}
+
+/* v29.1: the corridors in the Net's card */
+.wd-cor{margin:0 0 14px}.wd-cor h4{margin:0 0 4px;font-family:var(--ui);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--gilt)}.wd-cor p{margin:0 0 8px;font-size:12px;line-height:1.45}.wd-cort{width:100%;border-collapse:collapse;font-size:12px;font-family:var(--ui)}.wd-cort th{text-align:left;font-weight:600;color:var(--ink2);padding:3px 6px 3px 0;border-bottom:1px solid var(--rule)}.wd-cort td{padding:3px 6px 3px 0;border-bottom:1px solid var(--rule)}.wd-cort td:nth-child(n+2){text-align:right;white-space:nowrap}.wd-cort tr.in td:first-child{border-left:3px solid var(--gilt);padding-left:6px}.wd-cort tr.out td:first-child{border-left:3px solid var(--lapis,#4c6fa5);padding-left:6px}

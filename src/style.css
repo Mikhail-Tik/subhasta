@@ -426,12 +426,12 @@ mark{background:transparent;color:var(--gilt);font-weight:500}
   .tools{margin-left:auto}
 }
 /* the same menu when the inline nav would run under the tools at a wider window (wider fonts than measured): app.js fitNav sets body.navtight;
-   and on the World (body.on-world, v23), where the globe carries the page and the masthead keeps only the brand, the search and a Menu */
-body.navtight .nav,body.on-world .nav{display:none;position:fixed;left:0;right:0;top:calc(var(--top) + env(safe-area-inset-top,0px));background:var(--ground);border-bottom:1px solid var(--rule);padding:8px 12px 10px;flex-wrap:wrap;gap:2px;z-index:39}
-body.navtight .nav.open,body.on-world .nav.open{display:flex}
-body.navtight .nav button,body.on-world .nav button{font-size:15px;padding:7px 10px}
-body.navtight .menu,body.on-world .menu{display:inline-flex}
-body.navtight .tools,body.on-world .tools{margin-left:auto}
+   (the World folded too from v23 to v29; since v29.1 the globe is the landing and keeps the full menu on a wide screen) */
+body.navtight .nav{display:none;position:fixed;left:0;right:0;top:calc(var(--top) + env(safe-area-inset-top,0px));background:var(--ground);border-bottom:1px solid var(--rule);padding:8px 12px 10px;flex-wrap:wrap;gap:2px;z-index:39}
+body.navtight .nav.open{display:flex}
+body.navtight .nav button{font-size:15px;padding:7px 10px}
+body.navtight .menu{display:inline-flex}
+body.navtight .tools{margin-left:auto}
 body.navtight .brand .spear{display:block}
 @media (max-width:900px){
   :root{--top:56px}
