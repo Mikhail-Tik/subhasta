@@ -22,6 +22,7 @@
              players by kind with whom they represent, and its flows; a player opens its own card
    Test hooks: window.__WORLD = {mode, year, state, project, pinAt, events, rebuild}. Without a 2D canvas (jsdom) the
    overlay renders, the card works from the list, and the globe is omitted. Names here are prefixed wd/WD_. */
+const WD_ZMAX=6;   /* v30.1: the globe zooms to 6× (was 3.2), smoothly — geometric steps eased out, so a city can be read */
 const WD_MODES=[['now','Now'],['eye','The Eye'],['net','Net'],['then','Then'],['shifts','Shifts'],['notes','Notes']];
 /* the Net’s lenses: a centre, a zoom and a reach in degrees; a city belongs to the lens within its reach */
 const WD_LENSES=[{id:'global',n:'Global',z:1},{id:'americas',n:'Americas',lon:-78,lat:28,z:1.75,reach:52},{id:'europe',n:'Europe',lon:9,lat:47,z:2.5,reach:17.5},{id:'east',n:'Moscow & east',lon:62,lat:46,z:1.6,reach:28},{id:'asia',n:'Asia',lon:118,lat:28,z:1.8,reach:42},{id:'gulf',n:'The Gulf',lon:50,lat:25,z:2.9,reach:14}];
@@ -264,8 +265,8 @@ function renderWorld(el){if(!el)return;if(wdTeardown){try{wdTeardown();}catch(e)
   /* ---- modes ---- */
   function setMode(m){if(!WD_MODES.some(([k])=>k===m))m='now';const was=G.mode;G.mode=m;G.placing=false;G.place=null;closeCard();if(was==='net'&&m!=='net'){netPlay(false);if(G.zoom!==1)zoomTo(1,700);}drawLead();drawLegend();drawReadings();drawNetCtl();if(m==='then'){yrEl.textContent=wdYear(G.year);setYear(G.year,true);}else play(false);if(m==='notes')subscribeNotes();if(m==='eye'){eyeDotsBuild();openEyeCard(false);}if(m==='shifts'&&G.era==null&&CE.length)flyTo(CE[CE.length-1].ll[0],CE[CE.length-1].ll[1],1200,true);if(m==='net'&&G.lens!=='global')setLens(G.lens);redraw();kick();}
   /* ---- the Net: lenses, zoom, replay, cards ---- */
-  function zoomSet(z){if(!Number.isFinite(+z))return;z=Math.max(1,Math.min(3.2,+z));G.zz=null;G.zoom=z;if(G.w){G.R=G.R0*G.zoom;if(!G.phone)G.cx=G.w*(.645+.1*Math.min(1,(G.zoom-1)/1.5));}drawNetCtl();redraw();}
-  function zoomTo(z,dur){if(!Number.isFinite(+z))return;z=Math.max(1,Math.min(3.2,+z));if(G.reduced||!G.ctx){G.zoom=z;if(G.w){G.R=G.R0*G.zoom;if(!G.phone)G.cx=G.w*(.645+.1*Math.min(1,(G.zoom-1)/1.5));}drawNetCtl();redraw();return;}G.zz={from:G.zoom,to:z,t0:performance.now(),dur:dur||900};kick();}
+  function zoomSet(z){if(!Number.isFinite(+z))return;z=Math.max(1,Math.min(WD_ZMAX,+z));G.zz=null;G.zoom=z;if(G.w){G.R=G.R0*G.zoom;if(!G.phone)G.cx=G.w*(.645+.1*Math.min(1,(G.zoom-1)/1.5));}drawNetCtl();redraw();}
+  function zoomTo(z,dur){if(!Number.isFinite(+z))return;z=Math.max(1,Math.min(WD_ZMAX,+z));if(G.reduced||!G.ctx){G.zoom=z;if(G.w){G.R=G.R0*G.zoom;if(!G.phone)G.cx=G.w*(.645+.1*Math.min(1,(G.zoom-1)/1.5));}drawNetCtl();redraw();return;}G.zz={from:G.zoom,to:z,t0:performance.now(),dur:dur||900};kick();}
   function setLens(id){const L=WD_LENSES.find(x=>x.id===id)||WD_LENSES[0];G.lens=L.id;G.touched=performance.now();G.net.sel=null;closeCard();if(L.id==='global'){zoomTo(1,800);G.auto=true;G.idleAt=performance.now()+3000;}else{flyTo(L.lon,L.lat,900,false);zoomTo(L.z,900);}drawNetCtl();drawLead();redraw();}
   /* replay: the seven years in 22 seconds, or one year (from the seven-years card) in 6 */
   function netPlay(onoff,year){if(onoff&&NFL.length){const from=year?`${year}-01-01`:'2020-03-01';const to=year&&`${year}-12-31`<NOW?`${year}-12-31`:NOW;G.net.play={t0:performance.now(),dur:year?6000:22000,at:0,from,to};G.auto=false;}else G.net.play=null;drawNetCtl();kick();redraw();}
@@ -355,6 +356,7 @@ function renderWorld(el){if(!el)return;if(wdTeardown){try{wdTeardown();}catch(e)
     /* the engraved plate: the hatching by tier (Shifts) and depth, the borders, the gilt rings, the light */
     glbPlateDraw(c,T,G,PLATE,projInto,G.mode==='shifts');glbLight(c,T,G);glbRings(c,T,G,projInto,'front');
     c.textBaseline='middle';c.textAlign='left';c.lineJoin='round';
+    drawCities(c,T);
     if(G.mode==='now')drawNow(c,T,now);else if(G.mode==='net')drawNet(c,T,now);else if(G.mode==='then')drawThen(c,T,now);else if(G.mode==='shifts')drawShifts(c,T,now);else if(G.mode==='eye')drawEyeDots(c,T,now);else drawNotes(c,T,now);
     if(G.placing&&G.mode==='notes'){c.font=`500 ${Math.max(12,13*k)}px ${T.ui}`;text(c,'Click where the note belongs',cx-c.measureText('Click where the note belongs').width/2,cy+R+18*k,T.live,1);}}
   function drawNow(c,T,now){const P=G.pins;P.forEach(p=>{const q=proj(p.v);p.sx=q[0];p.sy=q[1];p.d=q[2];p.r=pinR(p)*(.75+.25*Math.max(0,q[2]));});
@@ -431,6 +433,14 @@ function renderWorld(el){if(!el)return;if(wdTeardown){try{wdTeardown();}catch(e)
     c.restore();}
   function openEyeCard(focus){const html=typeof tdEyeHTML==='function'?tdEyeHTML().replace(/<div class="rh">[\s\S]*?<\/div>/,''):'<p class="faint">The Eye is not loaded.</p>';openCard('The Eye','Four tests a day',html+'<p class="faint" style="margin-top:10px">The streak is kept on this device; members compete in the week’s league; the level (easy, standard, expert) is chosen in the Eye.</p>',focus);
     $$('[data-eye-go]',cardB).forEach(b=>{if(b.__e)return;b.__e=1;b.addEventListener('click',()=>{try{store.set('eye.mode',b.dataset.eyeGo);}catch(e){}if(typeof rendered==='object'&&rendered.eye&&window.__EYE)window.__EYE.render();go('eye');});});}
+  /* v30.1: the cities the terminal knows (CITY_LL, 400+) appear as the globe zooms — a faint dot from 1.6×, its name from 2.3× — so a
+     place can be found and a pin set on it; cities that already carry a marker in the mode are left to that mode */
+  let CITY_V=null;function drawCities(c,T){const z=G.zoom||1;if(z<1.6||typeof CITY_LL!=='object')return;if(!CITY_V)CITY_V=Object.keys(CITY_LL).map(n=>({n,v:glbVec(CITY_LL[n][0],CITY_LL[n][1])}));
+    const skip=new Set();if(G.mode==='now')G.pins.forEach(p=>skip.add(p.c));if(G.mode==='net')NCITY.forEach(n=>{if(n.players.length||n.flows.length)skip.add(n.c);});
+    const k=G.k,o=[0,0,0,0];const fade=Math.min(1,(z-1.6)/.8);const lab=z>=2.3?Math.min(1,(z-2.3)/.9):0;c.save();c.beginPath();c.arc(G.cx,G.cy,G.R,0,TAU);c.clip();c.font=`500 ${Math.max(10,10.5*k)}px ${T.ui}`;c.textAlign='left';c.textBaseline='middle';const used=[];
+    for(const ci of CITY_V){if(skip.has(ci.n))continue;projInto(ci.v[0],ci.v[1],ci.v[2],o);if(o[2]<=.05)continue;const a=fade*(.35+.5*o[2]);c.beginPath();c.arc(o[0],o[1],1.6*k,0,TAU);c.fillStyle=glbCss(T.ink2,a);c.fill();
+      if(lab){const w=c.measureText(ci.n).width;if(used.some(u=>Math.abs(u[0]-o[0])<(u[2]+w)/2+10&&Math.abs(u[1]-o[1])<13))continue;used.push([o[0]+w/2+4,o[1],w]);text(c,ci.n,o[0]+5,o[1],T.ink2,lab*a);}}
+    c.restore();c.textAlign='start';c.textBaseline='alphabetic';}
   function drawNotes(c,T,now){G.notes.forEach(p=>{const q=proj(p.v);p.sx=q[0];p.sy=q[1];p.d=q[2];});const vis=G.notes.filter(p=>p.d>0);
     for(const p of vis){const hot=G.hover===p.id;const a=.5+.5*p.d;c.beginPath();c.moveTo(p.sx,p.sy);c.lineTo(p.sx,p.sy-12*G.k);c.lineWidth=1.2;c.strokeStyle=glbCss(T.ink,a);c.stroke();c.beginPath();c.arc(p.sx,p.sy-14*G.k,(hot?5:3.8)*G.k,0,TAU);c.fillStyle=glbCss(T.live,a);c.fill();c.lineWidth=1;c.strokeStyle=glbCss(T.live2,.9*a);c.stroke();}
     c.font=`500 ${Math.max(11,12*G.k)}px ${T.ui}`;for(const p of vis.filter(p=>p.d>.2).slice(0,30)){const put=placeLabel(c,p.t,p.sx,p.sy-14*G.k,7*G.k,16);if(!put)continue;text(c,p.t,put[0],put[1],G.hover===p.id?T.live2:T.ink2,.95);}
@@ -446,7 +456,7 @@ function renderWorld(el){if(!el)return;if(wdTeardown){try{wdTeardown();}catch(e)
     if(G.fly){const f=G.fly,u=Math.min(1,(t-f.t0)/f.dur),e=u<.5?2*u*u:1-Math.pow(-2*u+2,2)/2;G.lon0=wrapLon(f.lon+f.dlon*e);G.lat0=f.lat+f.dlat*e;if(u>=1){G.fly=null;if(f.resume)G.idleAt=t+4000;}}
     else if(G.vel){G.lon0=wrapLon(G.lon0+G.vel*dt/1000);G.vel*=Math.pow(.08,dt/1000);if(Math.abs(G.vel)<1)G.vel=0;}
     else if(spinning())G.lon0=wrapLon(G.lon0-360/WD_TURN*dt/1000);
-    if(G.zz){const z=G.zz,u=Math.min(1,(t-z.t0)/z.dur),e=u<.5?2*u*u:1-Math.pow(-2*u+2,2)/2;G.zoom=z.from+(z.to-z.from)*e;G.R=G.R0*G.zoom;if(!G.phone)G.cx=G.w*(.645+.1*Math.min(1,(G.zoom-1)/1.5));if(u>=1){G.zz=null;drawNetCtl();}}
+    if(G.zz){const z=G.zz,u=Math.min(1,(t-z.t0)/z.dur),e=1-Math.pow(1-u,3);G.zoom=z.from*Math.pow(z.to/z.from,e);G.R=G.R0*G.zoom;if(!G.phone)G.cx=G.w*(.645+.1*Math.min(1,(G.zoom-1)/1.5));if(u>=1){G.zz=null;drawNetCtl();}}
     if(G.playing){G.playT=Math.min(1,G.playT+dt/60000);const y=wdT2Y(G.playT);if(y!==G.year)setYear(y,true);if(G.playT>=1)play(false);}
     if(motion())G.phase+=dt/1000;
     draw();if(animating())G.raf=requestAnimationFrame(frame);else G.last=0;}
@@ -477,19 +487,19 @@ function renderWorld(el){if(!el)return;if(wdTeardown){try{wdTeardown();}catch(e)
     const PTS=new Map();let pinch=null,lastTap=0;
     on(cv,'pointerdown',e=>{G.touched=performance.now();if(e.pointerType==='mouse'&&e.button!==0)return;try{cv.setPointerCapture(e.pointerId);}catch(x){}const [x,y]=localXY(e);PTS.set(e.pointerId,[x,y]);
       if(PTS.size===2){const [a,b]=[...PTS.values()];drag=null;pinch={d0:Math.hypot(a[0]-b[0],a[1]-b[1])||1,z0:G.zoom||1};G.vel=0;G.fly=null;G.auto=false;hideTip();return;}
-      if(e.pointerType==='touch'){const t=performance.now();if(t-lastTap<320&&!G.placing){lastTap=0;G.auto=false;const h=hitAt(x,y);const ll=h&&(h.t==='pin'?h.p.ll:h.t==='city'?h.n.ll:h.t==='note'?h.p.ll:null);if(ll)flyTo(ll[0],ll[1],700,false);zoomTo(Math.min(3.2,(G.zoom||1)<1.5?2:(G.zoom||1)*1.6),600);return;}lastTap=t;}
+      if(e.pointerType==='touch'){const t=performance.now();if(t-lastTap<320&&!G.placing){lastTap=0;G.auto=false;const h=hitAt(x,y);const ll=h&&(h.t==='pin'?h.p.ll:h.t==='city'?h.n.ll:h.t==='note'?h.p.ll:null);if(ll)flyTo(ll[0],ll[1],700,false);zoomTo(Math.min(WD_ZMAX,(G.zoom||1)<1.5?2:(G.zoom||1)*1.6),600);return;}lastTap=t;}
       drag={x,y,lon:G.lon0,lat:G.lat0,moved:false,touch:e.pointerType==='touch',vx:0,lx:x,lt:performance.now()};G.vel=0;G.fly=null;hideTip();kick();});
     on(cv,'pointermove',e=>{const [x,y]=localXY(e);if(PTS.has(e.pointerId))PTS.set(e.pointerId,[x,y]);if(pinch&&PTS.size>=2){const [a,b]=[...PTS.values()];const d=Math.hypot(a[0]-b[0],a[1]-b[1])||1;zoomSet(pinch.z0*d/pinch.d0);return;}if(drag){const dx=x-drag.x,dy=y-drag.y;if(Math.abs(dx)+Math.abs(dy)>3)drag.moved=true;if(!drag.moved)return;const deg=(180/Math.PI)/G.R;G.lon0=wrapLon(drag.lon-dx*deg);G.lat0=clampLat(drag.lat+dy*deg);const nowT=performance.now(),dt=nowT-drag.lt;if(dt>0){drag.vx=.6*drag.vx+.4*(-(x-drag.lx)*deg*1000/dt);drag.lx=x;drag.lt=nowT;}G.idleAt=nowT+6000;cv.style.cursor='grabbing';draw();return;}
       if(e.pointerType==='touch')return;const h=hitAt(x,y);const key=hitKey(h);if(key!==G.hover){G.hover=key;cv.style.cursor=key?'pointer':(G.placing?'crosshair':'grab');if(h)showTip(e,tipFor(h));else hideTip();redraw();}else if(h)moveTip(e);});
     const endDrag=e=>{if(e&&e.pointerId!=null)PTS.delete(e.pointerId);if(pinch){if(PTS.size<2){pinch=null;G.suppressClick=true;setTimeout(()=>{G.suppressClick=false;},0);G.idleAt=performance.now()+6000;kick();}return;}if(!drag)return;const d=drag;drag=null;cv.style.cursor=G.placing?'crosshair':'grab';if(d.moved){G.suppressClick=true;setTimeout(()=>{G.suppressClick=false;},0);if(!G.reduced&&Math.abs(d.vx)>20&&performance.now()-d.lt<80)G.vel=Math.max(-240,Math.min(240,d.vx));}G.idleAt=performance.now()+6000;kick();};
     on(cv,'pointerup',endDrag);on(cv,'pointercancel',endDrag);
-    $$('.wd-zb',stage).forEach(b=>b.addEventListener('click',()=>{G.touched=performance.now();G.auto=false;zoomTo((G.zz?G.zz.to:G.zoom||1)*(b.dataset.wz==='in'?1.35:1/1.35),320);}));
+    $$('.wd-zb',stage).forEach(b=>b.addEventListener('click',()=>{G.touched=performance.now();G.auto=false;zoomTo((G.zz?G.zz.to:G.zoom||1)*(b.dataset.wz==='in'?1.35:1/1.35),700);}));
     on(cv,'pointerenter',e=>{if(e.pointerType!=='touch'){G.hovering=true;kick();}});
     on(cv,'pointerleave',()=>{G.hovering=false;if(G.hover){G.hover=null;hideTip();}cv.style.cursor='grab';if(!drag)redraw();G.idleAt=performance.now()+2500;kick();});
     on(cv,'click',e=>{if(G.suppressClick){G.suppressClick=false;return;}const [x,y]=localXY(e);if(G.placing&&G.mode==='notes'){const ll=lonlatAt(x,y);if(!ll)return;G.placing=false;G.place=ll;noteForm(ll[0],ll[1]);redraw();return;}const h=hitAt(x,y);if(h)clickHit(h);});
     on(cv,'focus',()=>{let kb=true;try{kb=cv.matches(':focus-visible');}catch(e){}G.focused=kb;kick();});on(cv,'blur',()=>{G.focused=false;kick();});
-    on(cv,'wheel',e=>{if(!(e.ctrlKey||e.metaKey))return;e.preventDefault();G.auto=false;G.touched=performance.now();zoomTo((G.zz?G.zz.to:G.zoom)*(e.deltaY<0?1.18:1/1.18),260);},{passive:false});
-    on(cv,'keydown',e=>{let used=true;G.touched=performance.now();if(e.key==='+'||e.key==='='){G.auto=false;zoomTo((G.zz?G.zz.to:G.zoom)*1.25,300);return;}if(e.key==='-'||e.key==='_'){zoomTo((G.zz?G.zz.to:G.zoom)/1.25,300);return;}if(e.key==='ArrowLeft')G.lon0=wrapLon(G.lon0-12);else if(e.key==='ArrowRight')G.lon0=wrapLon(G.lon0+12);else if(e.key==='ArrowUp')G.lat0=clampLat(G.lat0+8);else if(e.key==='ArrowDown')G.lat0=clampLat(G.lat0-8);else if(e.key==='Enter'||e.key===' '){openAll();}else used=false;if(!used)return;e.preventDefault();G.fly=null;G.vel=0;redraw();});
+    on(cv,'wheel',e=>{if(!(e.ctrlKey||e.metaKey))return;e.preventDefault();G.auto=false;G.touched=performance.now();zoomTo((G.zz?G.zz.to:G.zoom)*(e.deltaY<0?1.12:1/1.12),420);},{passive:false});
+    on(cv,'keydown',e=>{let used=true;G.touched=performance.now();if(e.key==='+'||e.key==='='){G.auto=false;zoomTo((G.zz?G.zz.to:G.zoom)*1.25,550);return;}if(e.key==='-'||e.key==='_'){zoomTo((G.zz?G.zz.to:G.zoom)/1.25,550);return;}if(e.key==='ArrowLeft')G.lon0=wrapLon(G.lon0-12);else if(e.key==='ArrowRight')G.lon0=wrapLon(G.lon0+12);else if(e.key==='ArrowUp')G.lat0=clampLat(G.lat0+8);else if(e.key==='ArrowDown')G.lat0=clampLat(G.lat0-8);else if(e.key==='Enter'||e.key===' '){openAll();}else used=false;if(!used)return;e.preventDefault();G.fly=null;G.vel=0;redraw();});
     on(document,'visibilitychange',()=>{G.hidden=!!document.hidden;kick();});
     if(typeof IntersectionObserver==='function'){const io=new IntersectionObserver(es=>{G.visible=es.some(x=>x.isIntersecting);if(G.visible){if(!G.shown){G.shown=true;const t=performance.now()+200;G.born.clear();G.pins.forEach((p,i)=>G.born.set(p.c,t+i*70));}if(fit())redraw();kick();}});io.observe(cv);listeners.push([io]);}
     if(typeof ResizeObserver==='function'){const ro=new ResizeObserver(()=>{if(fit())redraw();});ro.observe(wrap);listeners.push([ro]);}
