@@ -271,3 +271,9 @@ body.navtight .navmore,body.navtight .navmore.on,body.on-world .navmore,body.on-
   .mvfilters input{max-width:none}
 }
 @media print{.tdask,.askbar,.askside,.mvfilters,.gotiles{display:none!important}}
+/* v29: the More panel grouped; the headliners marked */
+.navmore{min-width:0;width:min(760px,calc(100vw - 32px));flex-direction:row;flex-wrap:wrap;gap:6px 18px;padding:12px 14px}
+.navgrp{display:flex;flex-direction:column;min-width:160px;flex:1 1 160px}.navgrp>b{font-family:var(--ui);font-weight:600;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--gilt);padding:4px 12px 2px}
+.navmore button{font-variant:normal;letter-spacing:0;font-size:14px;padding:5px 12px;white-space:normal;text-align:left}
+.nav button.headline{color:var(--gilt)}.nav button.headline.on{color:var(--ink)}
+@media (max-width:1100px){.navmore,.navmore.on{width:100%}.navgrp{flex:1 1 45%}}

@@ -6,7 +6,7 @@
 Reads data/research/bundle.json: key v24 (law_europe, law_world, finance, events, horizon: the five research briefs of v24)
 and key v25 (money_sales, players, law_more, transformation, audit_engine: the briefs of v25), each written by a research agent
 under scratchpad/v2x/BRIEF_COMMON.md (every fact with a URL opened in the session, every entry flagged V/S/U), and writes:
-  src/data_nav.js      NAV_RULES (one entry per jurisdiction: REGIMES ids plus nl, es, ru, qa; Peru from memory, U), NAV_EU,
+  src/data_nav.js      NAV_RULES (one entry per jurisdiction: REGIMES ids plus nl, es, ru, qa, the v25 ten, and za and nz from the v29 research), NAV_EU,
                        NAV_FEES (the research's shipping figures, the rest flagged U), NAV_MOSCOW (the worked case)
   src/data_season.js   EVENTS, EVENTS_ASOF (the Season); THESES, HORIZON_SIGNALS, HORIZON_ASOF (the Horizon)
   src/data_net.js      NET_PLAYERS, NET_MARKETS (the players), NET_FLOWS and LOT_FIN (the money behind the major sales), TRANSFORM
@@ -344,6 +344,31 @@ if LM.get('jurisdictions'):
                        {'cat': 'photo', 'age': 50, 'value': 15000, 'cur': 'cad', 'note': 'a photograph 50 years old by an artist no longer living, over the Group VII threshold (taken here as C$15,000, U): a permit from Canadian Heritage'}]
         ce['none'] = False; ce['dead'] = True
     rules.update(more)
+    # v29: the jurisdictions research (the audit's finding 10) — a researched cell replaces the fields it states and keeps the engine's
+    # rows (needs, none, dead) where the research gives none; a jurisdiction with an export and an import cell joins the Navigator
+    # whole (za, nz); one with only an apostille cell (tw, th, ge, kz, tr, il, sa, qa) waits in the bundle rather than compose half a plan
+    JR = (BUNDLE.get('v29') or {}).get('juris') or {}
+    j_merged, j_new, j_waiting = [], [], []
+    for jk, jv in (JR.get('rules') or {}).items():
+        cells = {c: jv[c] for c in ('exp', 'imp', 'aml', 'apost', 'cites', 'capital', 'sanctions') if isinstance(jv.get(c), dict)}
+        if jk in rules:
+            for c, cell in cells.items():
+                cur = rules[jk].get(c) or {}
+                keep = {k: cur[k] for k in ('needs', 'none', 'dead', 'ages', 'bars') if k in cur and k not in cell}
+                merged = dict(cur); merged.update(cell); merged.update(keep)
+                if c == 'imp' and merged.get('vat_rate') is not None and merged['vat_rate'] > 1: merged['vat_rate'] = merged['vat_rate'] / 100
+                if c == 'imp' and merged.get('duty_rate') is not None and merged['duty_rate'] > 1: merged['duty_rate'] = merged['duty_rate'] / 100
+                rules[jk][c] = merged
+            if jv.get('note'): rules[jk]['note'] = jv['note']
+            j_merged.append(jk)
+        elif 'exp' in cells and 'imp' in cells:
+            e = {'n': jv.get('n') or jk}; e.update(cells)
+            if e['imp'].get('vat_rate') is not None and e['imp']['vat_rate'] > 1: e['imp']['vat_rate'] = e['imp']['vat_rate'] / 100
+            if e['imp'].get('duty_rate') is not None and e['imp']['duty_rate'] > 1: e['imp']['duty_rate'] = e['imp']['duty_rate'] / 100
+            if not e['exp'].get('needs'): e['exp']['none'] = bool(e['exp'].get('none', True))
+            e['src'] = jv.get('src') or []; e['vf'] = jv.get('vf') or 'S'; rules[jk] = e; j_new.append(jk)
+        else: j_waiting.append(jk)
+    if JR: print(f"  + v29 jurisdictions: {len(j_merged)} merged ({', '.join(j_merged)}), {len(j_new)} new ({', '.join(j_new)}), {len(j_waiting)} waiting with an apostille cell only ({', '.join(j_waiting)})")
     out = head + js('NAV_RULES', rules) + js('NAV_EU', NAV_EU) + js('NAV_FEES', NAV_FEES) + js('NAV_MOSCOW', NAV_MOSCOW)
     (root / 'src' / 'data_nav.js').write_text(out, encoding='utf-8')
     print(f"  + {len(more)} further jurisdictions in NAV_RULES ({', '.join(more)}); {len(rules)} in all")
@@ -467,16 +492,15 @@ def strip_ids(t):   # the research wrote vault ids in parentheses inside its pro
 vault_cities = [{k: (strip_ids(c.get(k)) if k == 'summary' else c.get(k)) for k in ('city', 'summary', 'src', 'vf') if c.get(k) not in (None, '')} for c in VA.get('cities', []) if c.get('city')]
 # the Deal Room's research
 deal = {k: DL.get(k) for k in ('asof', 'terms', 'economics', 'cases', 'people', 'guarantors') if DL.get(k) not in (None, '', [])}
-# the research read Christie's schedule as 27/22/15 from September 2025; Christie's moved to 28% on the first $2m in September 2026
-# (MyArtBroker, 28 Sep 2026, S; the terminal's FEES table and SCHED carry it), so the lines that cite 27% say so
-CHR_NOTE = ' Superseded in September 2026: Christie’s now charges 28% on the first $2m, 22% to $8m and 15% above, the structure Sotheby’s adopted in February (MyArtBroker, 28 Sep 2026); the terminal’s schedules carry the 2026 tiers.'
-CHR_SRC = ['MyArtBroker, 28 Sep 2026: the premium problem', 'https://www.myartbroker.com/market/articles/the-premium-problem-what-rising-auction-fees-mean-for-sellers']
+# Christie's schedule: the research read 27% to $1.5m / £1m, 22% to $8m / £6m, 15% above, from September 2025 (The Art Newspaper,
+# 17 Feb 2026; Grossman LLP, 14 May 2026); v26.1 appended a 'superseded in September 2026 (28% to $2m)' note citing a page no research
+# run opened, and v29 removed it (the v29 audit, finding 4): SCHED and FEES carry 27/22/15 and the Deal Room's lines stand as researched
 for t in deal.get('terms') or []:
-    if t.get('id') == 'buyers-premium' and '27%' in (t.get('what') or '') and 'Superseded' not in t['what']:
-        t['what'] = t['what'].rstrip() + CHR_NOTE; t['src'] = (t.get('src') or []) + [CHR_SRC]
+    if t.get('id') == 'buyers-premium' and 'Superseded in September 2026' in (t.get('what') or ''):
+        t['what'] = t['what'].split(' Superseded in September 2026')[0]; t['src'] = [x for x in (t.get('src') or []) if 'myartbroker.com/market/articles/the-premium-problem' not in (x[1] if isinstance(x, list) and len(x) > 1 else '')]
 for l in (deal.get('economics') or {}).get('lines') or []:
-    if 'Christie' in (l.get('party') or '') and '27%' in (l.get('basis') or '') and 'Superseded' not in l['basis']:
-        l['basis'] = l['basis'].rstrip() + CHR_NOTE; l['src'] = (l.get('src') or []) + [CHR_SRC]
+    if 'Superseded in September 2026' in (l.get('basis') or ''):
+        l['basis'] = l['basis'].split(' Superseded in September 2026')[0]; l['src'] = [x for x in (l.get('src') or []) if 'the-premium-problem' not in (x[1] if isinstance(x, list) and len(x) > 1 else '')]
 # the trade's day-to-day and what it pays for: the pitch
 pitch = {k: WF.get(k) for k in ('asof', 'roles', 'tools', 'functions', 'pricing') if WF.get(k) not in (None, '', [])}
 # the feeds a page can reach itself, and the datasets for the desk
@@ -668,3 +692,167 @@ if LINKS_HELD:
     import collections as _c
     print(f"  held back from the page, for the next research run to source: {len(LINKS_HELD)} unsourced links on {len({x[0] for x in LINKS_HELD})} collectors "
           f"({dict(_c.Counter(x[1] for x in LINKS_HELD))}); they stay in data/research/bundle.json")
+
+# ========================= v29: the School and the Eye =========================
+# The v29 briefs (scratchpad/v29/BRIEF_*.md): pool (the open collections' works for the Eye, with the museum's own place strings),
+# hammer (sold lots with estimates for the Hammer and the Eye's price round), school (courses, archives, skills, critique, reading,
+# the learning paths with their exercises), game (the games studied and the design findings; in the bundle for the record).
+# Writes src/data_school.js: EYE_POOL (every work placed through EYE_GEO of src/data_eye.js: the most specific key the museum's
+# place string carries wins; a work no key places is held back), EYE_FORGERIES (records the museum itself catalogues as a modern
+# forgery), HAMMER_NEW (sold lots joining RESULTS at boot, with est_lo/est_hi, status, guarantee, sale, lot and sources),
+# HAMMER_HOUSES (names for houses the terminal's roster lacks), HAMMER_UNSOLD, SCHOOL.
+V29 = BUNDLE.get('v29', {})
+POOL, HAM, SCH, GAME = V29.get('pool', {}), V29.get('hammer', {}), V29.get('school', {}), V29.get('game', {})
+_geo_src = (root / 'src' / 'data_eye.js').read_text(encoding='utf-8')
+GEO = json.loads(re.search(r'const EYE_GEO=(\{.*?\});', _geo_src, re.S).group(1))
+GEO_RE = {k: re.compile(r'(?<![a-zÀ-ɏḀ-ỿ])' + re.escape(k) + r'(?![a-zÀ-ɏḀ-ỿ])') for k in GEO}
+def geo_norm(t):
+    t = (t or '').lower().replace('.', ' ').replace('’', '’')
+    return re.sub(r'\s+', ' ', t).strip()
+def geo_hits(text):
+    t = geo_norm(text)
+    if not t: return []
+    hits = [k for k, rx in GEO_RE.items() if rx.search(t)]
+    hits = [k for k in hits if not any(k != o and k in o for o in hits)]   # a key inside a longer hit ('edo' in 'edo period') gives way
+    return sorted(hits, key=lambda k: (GEO[k][2], -len(k)))
+REGION_KEY = {'Western Europe': 'europe', 'Byzantium & Eastern Europe': 'eastern europe', 'Greece & Rome': 'mediterranean', 'Ancient Egypt & Near East': 'ancient near east',
+              'Islamic world / Middle East': 'islamic world', 'South Asia': 'south asia', 'Southeast Asia': 'southeast asia', 'East Asia': 'east asia', 'Africa': 'africa',
+              'Oceania': 'oceania', 'North America': 'north america', 'Indigenous North America': 'native north american', 'Latin America': 'south america'}
+def place_work(w):
+    for field in ('place', 'country'):
+        h = geo_hits(w.get(field))
+        if h: return h[0]
+    k = REGION_KEY.get(w.get('region') or '')
+    return k if k in GEO else None
+pool_rows, pool_held, geo_used = [], [], {}
+for w in POOL.get('works', []):
+    if not w.get('img') or w.get('y0') is None or w.get('y1') is None: pool_held.append((w.get('id'), 'no image or no date')); continue
+    if (w.get('type') or '') in ('Coins', 'Spindle Whorl'): pool_held.append((w.get('id'), 'too small to read')); continue
+    k = place_work(w)
+    if not k: pool_held.append((w.get('id'), f"no place key in {w.get('place')!r} / {w.get('country')!r}")); continue
+    lat, lon, tol = GEO[k]; geo_used[k] = geo_used.get(k, 0) + 1
+    row = {'src': w['src'], 'id': str(w['id']), 'artist': w.get('artist') or '', 'title': (w.get('title') or '').strip()[:120], 'y0': int(w['y0']), 'y1': int(w['y1']),
+           'place': (w.get('place') or w.get('country') or '').strip()[:110], 'lat': lat, 'lon': lon, 'tol': tol, 'geo': k, 'img': w['img'], 'url': w.get('url') or '',
+           'credit': (w.get('credit') or '').strip()[:90], 'medium': (w.get('medium') or '').strip()[:90], 'type': w.get('type') or '', 'region': w.get('region') or ''}
+    if w.get('dyk'): row['dyk'] = w['dyk'][:240]
+    row['pvf'] = 'V'
+    m = re.match(r'https://openaccess-cdn\.clevelandart\.org/([^/]+)/\1_web\.jpg$', row['img'])
+    if w['src'] == 'cma' and m and row['url'] == f"https://clevelandart.org/art/{m.group(1)}": row['img'], row['url'] = m.group(1), ''   # the accession; eye.js rebuilds both URLs
+    pool_rows.append(row)
+pool_rows.sort(key=lambda r: (r['src'], int(r['id']) if r['id'].isdigit() else r['id']))
+# the Standard Ebooks paintings on the atlases (tools/eye_atlas.py): placed by the painter's city, else country, else nationality
+if not (root / 'data' / 'eye_atlas.json').exists():
+    raise SystemExit('data/eye_atlas.json is missing: the Eye\'s atlas index lives in the git repository (not in the artifact, for the file cap); take it from there before regenerating, or leave src/data_school.js as it is')
+ATLAS = json.load(open(root / 'data' / 'eye_atlas.json', encoding='utf-8'))
+se_rows, se_held = [], []
+for w in ATLAS.get('works', []):
+    k = None
+    for field in ('city', 'country', 'nationality'):
+        h = geo_hits(w.get(field))
+        if h: k = h[0]; break
+    if not k: se_held.append((w['id'], f"no place key in {w.get('city')!r} / {w.get('country')!r} / {w.get('nationality')!r}")); continue
+    lat, lon, tol = GEO[k]; geo_used[k] = geo_used.get(k, 0) + 1
+    place = (w.get('city') + ', ' if w.get('city') else '') + (w.get('country') or w.get('nationality') or '')
+    # the colophon's URL and the credit's wording are rebuilt by eye.js from the id (se:<repo>) and the book's title; pvf flags the place
+    se_rows.append({'src': 'se', 'id': w['id'], 'artist': w['artist'], 'title': w['title'][:120], 'y0': int(w['y0']), 'y1': int(w['y1']), 'place': place[:80],
+                    'lat': lat, 'lon': lon, 'tol': max(tol, 60 if w.get('city') else 250), 'geo': k, 'img': f"{w['sheet']}:{w['x']},{w['y']},{w['w']},{w['h']}", 'url': '', 'credit': (w.get('book') or '')[:60],
+                    'medium': w.get('kind') or 'painting', 'type': 'Painting', 'region': '', 'dyk': ('crop' if w.get('crop') else ''), 'pvf': w.get('place_vf') or 'U'})
+pool_rows += se_rows
+# the days: five works a day for everyone, the Standard Ebooks paintings and the Library's pictures shuffled once with a fixed seed
+import random as _rnd, datetime as _dt
+_made = json.loads(re.search(r'const EYE_MADE=(\{.*?\});', _geo_src, re.S).group(1))
+_imgmeta = json.load(open(root / 'data' / 'images_meta.json', encoding='utf-8'))
+day_ids = [r['id'] for r in se_rows] + ['lib:' + k for k in _made if k in _imgmeta and re.search(r'\d{3,4}|centur', str(_imgmeta[k].get('y') or ''))]
+_r = _rnd.Random(2029); _r.shuffle(day_ids)
+EYE_DAYS = [day_ids[i:i + 5] for i in range(0, len(day_ids) - len(day_ids) % 5, 5)]
+EYE_EPOCH = (_dt.date(2026, 11, 16) - _dt.date(1970, 1, 1)).days
+POOL_KEYS = ['src', 'id', 'artist', 'title', 'y0', 'y1', 'place', 'lat', 'lon', 'tol', 'geo', 'img', 'url', 'credit', 'medium', 'type', 'region', 'dyk', 'pvf']
+pool_compact = [[r.get(k, '') for k in POOL_KEYS] for r in pool_rows]
+forg = []
+for w in POOL.get('forgeries', []):
+    if not w.get('img'): continue
+    k = place_work(w) or 'egypt'
+    lat, lon, tol = GEO[k]
+    forg.append({'src': w['src'], 'id': str(w['id']), 'title': (w.get('title') or '').strip()[:120], 'y0': w.get('y0'), 'y1': w.get('y1'), 'place': (w.get('place') or '')[:110], 'lat': lat, 'lon': lon, 'tol': tol,
+                 'img': w['img'], 'url': w.get('url') or '', 'credit': (w.get('credit') or '')[:90], 'medium': (w.get('medium') or '')[:90], 'type': w.get('type') or '', 'verdict': w.get('verdict') or 'modern forgery',
+                 'dyk': (w.get('dyk') or '')[:260], 'tomb': (w.get('tomb') or '')[:220]})
+# the Hammer's new lots
+HOUSE_IDS = set(re.findall(r"\{id:'([a-z0-9-]+)'", (root / 'src' / 'data_houses.js').read_text(encoding='utf-8')))
+HOUSE_MAP = {'other: ketterer kunst': 'ketterer', 'ketterer kunst': 'ketterer', 'other: grisebach': 'grisebach', 'other: strauss & co': 'strauss', 'strauss & co': 'strauss',
+             'other: k auction': 'k-auction', 'k auction': 'k-auction', 'other: seoul auction': 'seoul-auction', 'seoul auction': 'seoul-auction', 'saffronart': 'saffronart'}
+HOUSE_NAMES = {'strauss': 'Strauss & Co', 'k-auction': 'K Auction', 'seoul-auction': 'Seoul Auction', 'saffronart': 'Saffronart'}
+CAT_MAP = {'sculpture': 'Sculpture', 'asian art': 'Asian Art', 'digital': 'Digital', 'luxury': 'Luxury', 'collectibles': 'Collectibles', 'old masters': 'Old Masters',
+           'impressionist & modern': 'Impressionist & Modern', 'post-war & contemporary': 'Post-War & Contemporary'}
+# reference rates, $ per unit: 2026 from the page's ECB fix of 8 Oct 2026 (RATES in data_flows.js: EUR 0.89397, GBP 0.75718 per $) and the HKD peg;
+# earlier years annual averages carried unconfirmed (U), stated on every converted lot
+FX_REF = {'EUR': {'2020': 1.142, '2021': 1.183, '2022': 1.053, '2023': 1.081, '2024': 1.082, '2025': 1.13, '2026': round(1 / 0.89397, 4)},
+          'GBP': {'2020': 1.284, '2021': 1.375, '2022': 1.237, '2023': 1.244, '2024': 1.278, '2025': 1.33, '2026': round(1 / 0.75718, 4)},
+          'HKD': {y: 0.1282 for y in ('2020', '2021', '2022', '2023', '2024', '2025', '2026')},
+          'KRW': {'2020': 1 / 1180, '2021': 1 / 1144, '2022': 1 / 1292, '2023': 1 / 1306, '2024': 1 / 1364, '2025': 1 / 1420, '2026': 1 / 1400},
+          'INR': {'2024': 1 / 83.7, '2025': 1 / 85.5, '2026': 1 / 86.0}, 'ZAR': {'2024': 1 / 18.3, '2025': 1 / 18.0, '2026': 1 / 17.5}, 'CHF': {'2024': 1.136, '2025': 1.2, '2026': round(1 / 0.83372, 4)}}
+def house_id(h):
+    h = (h or '').strip(); hl = h.lower()
+    if hl in HOUSE_IDS: return hl
+    if hl in HOUSE_MAP: return HOUSE_MAP[hl]
+    s = re.sub(r'^other:\s*', '', hl); s = re.sub(r'[^a-z0-9]+', '-', s).strip('-')
+    return s or 'unknown'
+def cat_name(c):
+    c = (c or '').strip()
+    if not c: return ''
+    return CAT_MAP.get(c.lower(), c[0].upper() + c[1:])
+existing_lots = set()
+for f in ('data_market.js', 'data_net.js'):
+    t = (root / 'src' / f).read_text(encoding='utf-8')
+    for m in re.finditer(r'"artist":"([^"]*)","title":"([^"]*)"', t): existing_lots.add((typo(m.group(1)), typo(m.group(2))))
+ham_new, ham_unsold, ham_houses, ham_dup, ham_held = [], [], {}, 0, []
+for l in HAM.get('lots', []):
+    if not l.get('artist') or not l.get('title') or not l.get('date') or not l.get('house'): ham_held.append((l.get('title'), 'incomplete')); continue
+    if not l.get('src'): ham_held.append((l.get('title'), 'no source')); continue
+    hid = house_id(l['house'])
+    if hid not in HOUSE_IDS: ham_houses[hid] = HOUSE_NAMES.get(hid, re.sub(r'^other:\s*', '', l['house']).strip())
+    key = (typo(l['artist']), typo(l['title']))
+    price, note, local, fx = (round(float(l['price']), 3) if l.get('price') else 0), (l.get('note') or ''), '', ''
+    if not price and l.get('local_price') and l.get('local_ccy') in FX_REF:
+        yr = l['date'][:4]; rate = FX_REF[l['local_ccy']].get(yr) or FX_REF[l['local_ccy']]['2026']
+        price = round(float(l['local_price']) * rate / 1e6, 3); local = l.get('cur') or f"{l['local_ccy']} {l['local_price']:,}"
+        fx = f"{local} as the house states it; the dollar figure converts it at {rate:g} $ per {l['local_ccy']}, the {yr} reference rate ({'ECB fix, V' if yr == '2026' and l['local_ccy'] in ('EUR', 'GBP') else 'peg, V' if l['local_ccy'] == 'HKD' else 'annual average, unconfirmed'})"
+    row = {'id': slug_of(f"{l['artist']} {l['title']} {l['date'][:4]}"), 'artist': l['artist'], 'title': l['title'], 'year': str(l.get('year') or ''), 'house': hid, 'city': l.get('city') or '',
+           'date': l['date'], 'price': price, 'cat': cat_name(l.get('cat')), 'rec': [], 'note': note, 'medium': l.get('medium') or '', 'local': local, 'fx': fx,
+           'est_lo': l.get('est_lo'), 'est_hi': l.get('est_hi'), 'hammer': l.get('hammer'), 'status': l.get('status') or 'sold', 'guarantee': l.get('guarantee') or 'unknown',
+           'sale': l.get('sale') or '', 'lot': str(l.get('lot') or ''), 'src': l['src'], 'vf': l.get('vf') or 'U'}
+    row['note'] = row['note'][:240]; row['src'] = [[a[:70], b] for a, b in row['src'][:2]]
+    if row['status'] != 'sold' or not row['price'] > 0: ham_unsold.append(row); continue
+    if key in existing_lots: ham_dup += 1; continue
+    existing_lots.add(key); ham_new.append(row)
+HAM_KEYS = ['id', 'artist', 'title', 'year', 'house', 'city', 'date', 'price', 'cat', 'note', 'medium', 'local', 'fx', 'est_lo', 'est_hi', 'hammer', 'status', 'guarantee', 'sale', 'lot', 'src', 'vf']
+ham_compact = [[r.get(k, '') if r.get(k) is not None else '' for k in HAM_KEYS] for r in ham_new]
+# the School
+school = {k: SCH.get(k) for k in ('asof', 'courses', 'archives', 'skills', 'critique', 'reading', 'paths', 'unconfirmed') if SCH.get(k) not in (None, '', [], {})}
+for c in school.get('courses', []):
+    if not c.get('src') and not c.get('url'): c['vf'] = 'U'
+head_s = """/* ---------- THE SCHOOL AND THE EYE (v29): generated by tools/gen_research.py from data/research/bundle.json (key v29) ----------
+   EYE_POOL: works from the open collections (Cleveland Museum of Art, CC0; Art Institute of Chicago, public domain) for the Eye's
+   Where & When round, as rows in the order of EYE_POOL_KEYS (eye.js expands them): src, id, artist, title, y0, y1 (the museum's
+   earliest and latest year), place (the museum's own words), lat, lon, tol (km: the free radius, from the most specific key of
+   EYE_GEO the place string carries; geo names the key), img (the museum's own image URL, or for Cleveland the accession number
+   from which eye.js rebuilds the image and page URLs), url, credit, medium, type, region, dyk (the museum's did-you-know or
+   first sentence).
+   A row with src 'se' is a Standard Ebooks cover painting on an atlas sheet (tools/eye_atlas.py): img is 'sheet:x,y,w,h' into
+   EYE_SHEETS[sheet]; its place is the painter's city or country (EYE_DAYS lists the five works of each day from EYE_EPOCH, the
+   same for everyone; the Library's pictures are 'lib:<id>'). EYE_FORGERIES: records the museum itself catalogues as a modern
+   forgery (definite wording only), for the Forger round (their images are the museum's own, shown where the host allows).
+   HAMMER_NEW: sold lots the v29 research added, as rows in the order of HAMMER_NEW_KEYS (app.js expands them and pushes them into
+   RESULTS at boot): est_lo, est_hi, hammer in $m where published; local (the house's own figure where it was not in dollars) and
+   fx (how the dollar figure was converted); status; guarantee; sale; lot; src; vf. HAMMER_HOUSES: names for houses the roster lacks. HAMMER_UNSOLD: bought-in and withdrawn lots.
+   SCHOOL: courses (priced where a primary page states it), archives, skills by role as the houses advertise them, critique,
+   reading, paths (lessons with an exercise and its answer from an opened page), unconfirmed. Edit the research and regenerate. */
+"""
+(root / 'src' / 'data_school.js').write_text(head_s + f"const EYE_ASOF='{POOL.get('asof') or ''}';\nconst EYE_EPOCH={EYE_EPOCH};\n" + js('EYE_SHEETS', [s_['file'] for s_ in ATLAS.get('sheets', [])]) + js('EYE_DAYS', EYE_DAYS) + js('EYE_POOL_KEYS', POOL_KEYS) + js('EYE_POOL', pool_compact) + js('EYE_FORGERIES', forg) + js('HAMMER_NEW_KEYS', HAM_KEYS) + js('HAMMER_NEW', ham_compact) + js('HAMMER_HOUSES', ham_houses) + js('HAMMER_UNSOLD', ham_unsold) + js('SCHOOL', school), encoding='utf-8')
+import collections as _cc
+_srcs = _cc.Counter(r['src'] for r in pool_rows); _tight = sum(1 for r in pool_rows if r['tol'] <= 100)
+print(f"wrote src/data_school.js: {len(pool_rows)} works in the Eye's pool ({dict(_srcs)}; {_tight} placed to a city or site, {len(geo_used)} place keys used; {len(pool_held)} + {len(se_held)} held back), {len(EYE_DAYS)} days of five on {len(ATLAS.get('sheets', []))} sheets, {len(forg)} forgeries; "
+      f"{len(ham_new)} lots join the Hammer ({ham_dup} already there, {len(ham_unsold)} unsold kept aside, {len(ham_held)} held back; {len(ham_houses)} houses named: {', '.join(ham_houses.values())}); "
+      f"school: {len(school.get('courses', []))} courses, {len(school.get('archives', []))} archives, {len(school.get('skills', []))} roles, {len(school.get('reading', []))} readings, {len(school.get('paths', []))} paths")
+for i, why in pool_held[:12]: print(f'  pool held back: {i} — {why}')
+if len(pool_held) > 12: print(f'  … and {len(pool_held) - 12} more')
+for t, why in ham_held[:8]: print(f'  hammer held back: {t} — {why}')

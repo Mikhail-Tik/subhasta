@@ -14,41 +14,46 @@
       <span class="motto">sub hasta — sold under the spear</span>
     </button>
     <nav class="nav" id="nav" aria-label="Sections">
-      <button data-v="world">World</button>
-      <button data-v="library">Library</button>
       <button data-v="floor">Today</button>
+      <button data-v="eye" class="headline">The Eye</button>
+      <button data-v="school" class="headline">The School</button>
       <button data-v="ask" class="asknav">Ask</button>
-      <button data-v="movements">Movements</button>
-      <button data-v="hammer">Sales</button>
-      <button data-v="pulse">Market</button>
-      <button data-v="undertow">Money</button>
+      <button data-v="hammer">Hammer</button>
       <button data-v="navigator">Navigator</button>
-      <button data-v="ledger">Provenance</button>
+      <button data-v="walls">Walls</button>
+      <button data-v="tides">Tides</button>
       <button class="morebtn" id="moreBtn" type="button" aria-expanded="false" aria-controls="navMore">More <span aria-hidden="true">▾</span></button>
       <div class="navmore" id="navMore" role="group" aria-label="More sections">
-        <button data-v="reel">The Reel</button>
-        <button data-v="season">Season</button>
-        <button data-v="horizon">Horizon</button>
-        <button data-v="transform">Transformation</button>
-        <button data-v="deal">Deal Room</button>
-        <button data-v="tides">Tides</button>
-        <button data-v="collectors">Collectors</button>
-        <button data-v="currents">Currents</button>
-        <button data-v="whispers">Whispers</button>
-        <button data-v="playbooks">Playbooks</button>
-        <button data-v="brief">The Brief</button>
-        <button data-v="cases">Worked cases</button>
-        <button data-v="walls">The Walls</button>
-        <button data-v="sources">Sources</button>
-        <button data-v="compare">Compare</button>
-        <button data-v="lab">The Lab</button>
-        <button data-v="atlas">Atlas</button>
-        <button data-v="houses">Houses</button>
-        <button data-v="people">People</button>
-        <button data-v="salon">Salon</button>
-        <button data-v="lexicon">Lexicon</button>
-        <button data-v="circle">Circle</button>
-        <button data-v="desk" class="owner-only">Desk</button>
+        <div class="navgrp"><b>The market</b>
+          <button data-v="pulse">The Pulse: the index</button>
+          <button data-v="season">Season: the calendar</button>
+          <button data-v="horizon">Horizon: the theses</button>
+          <button data-v="whispers">Whispers: the rumours</button>
+          <button data-v="currents">Currents: the cases</button>
+          <button data-v="collectors">Collectors and vaults</button>
+          <button data-v="houses">Houses and players</button>
+          <button data-v="people">People</button>
+          <button data-v="atlas">Atlas: the regimes</button></div>
+        <div class="navgrp"><b>Money and law</b>
+          <button data-v="brief">The Brief: a task solved</button>
+          <button data-v="cases">Worked cases</button>
+          <button data-v="transform">Transformation: the money</button>
+          <button data-v="undertow">Undertow: across a border</button>
+          <button data-v="deal">Deal Room: the terms</button>
+          <button data-v="lexicon">Lexicon and instruments</button>
+          <button data-v="playbooks">Playbooks</button></div>
+        <div class="navgrp"><b>The library</b>
+          <button data-v="world">The World: the globe</button>
+          <button data-v="library">The Library: the pictures</button>
+          <button data-v="movements">Movements</button>
+          <button data-v="reel">The Reel</button>
+          <button data-v="ledger">Provenance: the Ledger</button></div>
+        <div class="navgrp"><b>The company</b>
+          <button data-v="circle">The Circle: the model</button>
+          <button data-v="sources">Sources</button>
+          <button data-v="salon">Members’ board</button>
+          <button data-v="lab">The Lab</button>
+          <button data-v="desk" class="owner-only">Desk</button></div>
       </div>
     </nav>
     <div class="tools">
@@ -78,6 +83,8 @@
     <section class="view" id="v-cases" aria-label="Worked cases"></section>
     <section class="view" id="v-walls" aria-label="The Walls"></section>
     <section class="view" id="v-sources" aria-label="Sources"></section>
+    <section class="view" id="v-eye" aria-label="The Eye"></section>
+    <section class="view" id="v-school" aria-label="The School"></section>
     <section class="view" id="v-floor" aria-label="Today"></section>
     <section class="view" id="v-ask" aria-label="Ask Subhasta"></section>
     <section class="view" id="v-movements" aria-label="Movements"></section>
@@ -95,7 +102,7 @@
     <section class="view" id="v-lexicon" aria-label="Lexicon and instruments"></section>
     <section class="view" id="v-circle" aria-label="The Circle"></section>
     <section class="view" id="v-detail" aria-label="Dossier"></section>
-    <footer class="colophon"><b>Subhasta</b>, from the Latin <i>sub hasta</i>: in Rome, goods were auctioned beneath a spear planted in the ground, the praeco called the bids and the argentarius settled the money. Figures here are as reported by the houses, Arts Economics (Art Basel &amp; UBS 2026), ArtTactic, Bank of America Private Bank, Artprice and the trade press; every dossier, lot and signal links its sources. Provenance records come from the National Gallery of Art’s open data (CC0). Prices include buyer’s premium; private-treaty prices are press reports. Curated, not exhaustive: ${ALLCOUNT} organisations, ${PEOPLECOUNT} people, ${LOTCOUNT} lots, ${NGACOUNT} ownership histories, ${UNDERCOUNT} undercurrents, ${HUBCOUNT} hubs, ${SEGCOUNT} segments, ${INSTCOUNT} institutions. Map: Natural Earth via the D3 graph gallery, Robinson projection. Movements: ${MOVECOUNT}, with museum essays and market sources. The analyst is Claude, reading the terminal’s records; the research desk refreshes the live pages twice a week.<span class="credit">Designed and built by <a href="https://www.linkedin.com/in/mikhailtikhomirov/" target="_blank" rel="noopener">Mikhail Tikhomirov</a>.</span></footer>
+    <footer class="colophon"><b>Subhasta</b>, from the Latin <i>sub hasta</i>: in Rome, goods were auctioned beneath a spear planted in the ground, the praeco called the bids and the argentarius settled the money. Figures here are as reported by the houses, Arts Economics (Art Basel &amp; UBS 2026), ArtTactic, Bank of America Private Bank, Artprice and the trade press; every dossier, lot and signal links its sources, or says that it does not yet (the flag U). Nothing here is investment, legal or tax advice: every figure is a reading of the public record, and a professional’s number ends every route. Provenance records come from the National Gallery of Art’s open data (CC0). Prices include buyer’s premium; private-treaty prices are press reports. Curated, not exhaustive: ${ALLCOUNT} organisations, ${PEOPLECOUNT} people, ${LOTCOUNT} lots, ${NGACOUNT} ownership histories, ${UNDERCOUNT} undercurrents, ${HUBCOUNT} hubs, ${SEGCOUNT} segments, ${INSTCOUNT} institutions. Map: Natural Earth via the D3 graph gallery, Robinson projection. Movements: ${MOVECOUNT}, with museum essays and market sources. The analyst is Claude, reading the terminal’s records; the research desk refreshes the live pages twice a week.<span class="credit">Designed and built by <a href="https://www.linkedin.com/in/mikhailtikhomirov/" target="_blank" rel="noopener">Mikhail Tikhomirov</a>.</span></footer>
   </main>
 </div>
 
@@ -143,6 +150,8 @@
 /*__DATA_NAV__*/
 /*__DATA_SEASON__*/
 /*__DATA_NET__*/
+/*__DATA_EYE__*/
+/*__DATA_SCHOOL__*/
 const NGA=/*__NGA__*/[];
 /*__APP__*/
 /*__REEL__*/

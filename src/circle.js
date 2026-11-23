@@ -60,6 +60,7 @@ function briefMarkdown(B){const C=CIRCLE.brief;const L=[`# ${C.n} · ${B.month}`
 /* print only the sheet: body.print-brief gates the @media print rules in circle.css; the class comes off after the dialog closes */
 function printBrief(){const b=document.body;b.classList.add('print-brief');let mq=null;const done=()=>{b.classList.remove('print-brief');window.removeEventListener('afterprint',done);if(mq)try{mq.removeEventListener('change',onMq);}catch(e){}};
   const onMq=e=>{if(!e.matches)done();};window.addEventListener('afterprint',done);try{mq=window.matchMedia('print');mq.addEventListener('change',onMq);}catch(e){mq=null;}
+  if(typeof inArtifact==='function'&&inArtifact()){done();const sheet=$('.brief')||$('#v-circle');printable('The brief: Subhasta for the trade',sheet);return;}
   try{window.print();}catch(e){done();}}
 async function saveBrief(B){await offerFile(`subhasta-brief-${TODAY}.md`,briefMarkdown(B),'Markdown');}
 

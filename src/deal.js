@@ -11,7 +11,7 @@
    research (DEAL in src/data_deal.js: the terms with sources, the worked economics, eighteen cases, the people, the guarantors)
    sits beneath it, each line flagged. Every number the sources do not publish is marked so in the form. Test hooks: window.__DEAL. */
 const DEAL_ROOMS=[['ny','New York'],['london','London'],['paris','Paris'],['hk','Hong Kong'],['geneva','Geneva']];
-const DEAL_HOUSES=[['sothebys','Sotheby’s (28/22/15 from 13 Feb 2026)'],['christies','Christie’s (28/22/15 from Sept 2026)'],['phillips','Phillips (29/22/15)'],['bonhams','Bonhams']];
+const DEAL_HOUSES=[['sothebys','Sotheby’s (28/22/15 from 13 Feb 2026)'],['christies','Christie’s (27/22/15 at $1.5m from Sept 2025)'],['phillips','Phillips (29/22/15)'],['bonhams','Bonhams']];
 const DEAL_GUAR=[['none','No guarantee'],['house','The house’s own guarantee'],['third','A third party’s irrevocable bid']];
 const DEAL_DELIVER=[['home','Delivered at home in the room’s city'],['away','Shipped out of the room’s country']];
 const deals=Object.assign({hammer:50000000,room:'ny',house:'sothebys',living:false,deliver:'home',sc:0,eh:0,guar:'third',glevel:90,gshare:25,gfee:0,hshare:20,advance:false,ltv:50,rate:9,months:6,marketing:0,intro:0,adviser:0},(()=>{const s=store.get('deal',null);return s&&typeof s==='object'?s:{};})());

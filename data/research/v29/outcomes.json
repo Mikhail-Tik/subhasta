@@ -1,0 +1,347 @@
+{
+  "asof": "2026-11-16",
+  "brief": "v29 outcomes: the disposition on the record for every charge, claim and designation the terminal names (audit finding 13). Sources in the brief's order: DOJ releases, CourtListener dockets, SEC litigation releases, OFAC/OFSI notices, then the trade and general press. Every line follows the people rules: a charge is stated with its date and authority; an allegation is attributed and never upgraded; where no outcome is on the record the entry says so.",
+  "outcomes": [
+    {
+      "id": "bonham-carter-sdny",
+      "person": "Graham Bonham-Carter",
+      "matter": "United States v. Bonham-Carter (S.D.N.Y.; DOJ release 22-1085, 11 October 2022) — the Deripaska artwork and houses",
+      "charge_or_claim": "As the terminal states it: indicted in the SDNY on three counts (IEEPA conspiracy, IEEPA violation, wire fraud, each up to 20 years) and arrested in the UK on 11 Oct 2022 with extradition sought (DOJ); later plea and sentence not opened (U); a second entry carries ‘Bonham-Carter’s later guilty plea (2023, from memory)’.",
+      "outcome": "Indictment: the DOJ announced on 11 October 2022 a three-count indictment (conspiracy to violate and evade IEEPA sanctions; violating IEEPA; wire fraud; each up to 20 years), prosecuted by the US Attorney’s Office for the Southern District of New York; he was arrested in the United Kingdom the same day and ‘The U.S. government will seek his extradition to the United States’. The release alleges that in May 2021, after a New York auction house said it had reason to believe artwork belonged to Oleg Deripaska (designated by OFAC on 6 April 2018), he denied that the artwork or the US$12,146 shipping payment belonged to Deripaska. The release gives no docket number and names no judge. Extradition: at Westminster Magistrates’ Court on 12 December 2022 his barrister argued ‘whether the breaches of sanctions properly constitute extradition offences’ and a two-day hearing was listed for 22 May 2023; the court told the Press Association that the case concluded on 9 February 2023 after ‘the court received an email from the Home Office on behalf of the US authorities requesting the extradition order be withdrawn’; the Home Office said it does not comment on individual cases and no reason was given (The Independent, relayed by inkl; Duane Morris sanctions blog, 3 March 2023). No plea, trial, sentence, dismissal or docket entry appears on any page opened; whether the SDNY indictment remains open is not stated on them. The terminal’s ‘later guilty plea (2023, from memory)’ is unsupported by anything opened and should be removed.",
+      "status": "no disposition found",
+      "src": [
+        [
+          "US Department of Justice, release 22-1085, 11 October 2022",
+          "https://www.justice.gov/opa/pr/uk-businessman-graham-bonham-carter-indicted-sanctions-evasion-benefitting-russian-oligarch"
+        ],
+        [
+          "The Independent (via inkl), US drops bid to extradite British businessman linked to Russian oligarch (February 2023)",
+          "https://inkl.com/news/us-drops-bid-to-extradite-british-businessman-linked-to-russian-oligarch"
+        ],
+        [
+          "Duane Morris, European Sanctions Enforcement blog, 3 March 2023",
+          "https://blogs.duanemorris.com/europeansanctionsenforcement/2023/03/03/uk-extradition-request-for-man-withdrawn-by-us/"
+        ],
+        [
+          "The Art Newspaper, 7 February 2023",
+          "https://www.theartnewspaper.com/2023/02/07/us-authorities-subpoena-auction-houses-russian-sanctions"
+        ]
+      ],
+      "vf": "V",
+      "note": "The docket number could not be read: CourtListener’s search page is not on this session’s allowlist and the DOJ release gives none. The withdrawal is reported by the press from a court spokeswoman’s statement, not from a US court filing. Nothing opened says the indictment was dismissed; the charge stands as an allegation with no disposition on the record as of 16 November 2026."
+    },
+    {
+      "id": "subpoenas-2023-russian-collectors",
+      "person": "Andrey Melnichenko; Viktor Vekselberg; Roman Abramovich; Ihor Kolomoisky",
+      "matter": "The February 2023 subpoenas by federal prosecutors in New York to auction houses for sales records relating to the four men (as Bloomberg reported and The Art Newspaper relayed)",
+      "charge_or_claim": "As the terminal states it: named as subjects of records requests, not charged (The Art Newspaper, 7 Feb 2023); ‘Investigations; no house charged’.",
+      "outcome": "The Art Newspaper (7 February 2023), attributing the report to Bloomberg, states that ‘Federal prosecutors in New York’ subpoenaed auction houses for ‘years of sales records’ relating to Andrey Melnichenko, Viktor Vekselberg, Roman Abramovich and the Ukrainian billionaire Ihor Kolomoisky; ‘Auction houses linked to the probe have not been identified’ and ‘may include major firms like Christie’s, Sotheby’s and Phillips’; Sotheby’s told the paper in October 2022 that it ‘conducts business in strict compliance with all applicable laws and regulations, including global sanctions’. The article mentions no charge against any house or any of the four men. On the pages opened as of 16 November 2026 no charge, settlement or other disposition arising from these subpoenas was found against any auction house or against any of the four men; the subpoenas themselves are a records request, not a charge, and the record opened ends there.",
+      "status": "no disposition found",
+      "src": [
+        [
+          "The Art Newspaper, 7 February 2023",
+          "https://www.theartnewspaper.com/2023/02/07/us-authorities-subpoena-auction-houses-russian-sanctions"
+        ]
+      ],
+      "vf": "S",
+      "note": "Secondary (The Art Newspaper relaying Bloomberg; Bloomberg itself was not opened). Each man’s own sanctions status is a separate matter and is not restated here; see the related Vekselberg properties entry below if opened."
+    },
+    {
+      "id": "lee-jae-yong-bribery",
+      "person": "Lee Jae-yong (Jay Y. Lee), Samsung Electronics executive chairman",
+      "matter": "The bribery case tied to the Park Geun-hye scandal (South Korea, 2017–2022)",
+      "charge_or_claim": "As the terminal states it: ‘Lee Jae-yong (Samsung Electronics chairman) was pardoned in August 2022 after a 2021 bribery conviction and acquitted in a separate 2024 merger case — family relationship only, from memory (U)’.",
+      "outcome": "As the Reuters timeline (relayed by MarketScreener) states it: arrested 17 February 2017; indicted 28 February 2017 with 16 others; on 25 August 2017 the Seoul Central District Court sentenced him to five years for bribery, hiding assets abroad and embezzlement; on 5 February 2018 an appeals court cut the sentence to two and a half years, suspended for four years, and he was released; on 29 August 2019 the Supreme Court sent the case back to the Seoul High Court, finding the lower court’s reading of what counted as bribes too narrow; on 18 January 2021 the Seoul High Court sentenced him to two and a half years (30 months). Al Jazeera (12 August 2022): he ‘served 19 months in prison before being paroled’ in 2021; on Friday 12 August 2022 President Yoon Suk-yeol named him among the recipients of a presidential pardon for Liberation Day, which the article says ‘falls on Monday’ (Liberation Day is 15 August), alongside Kang Duk-soo (STX) and Chang Sae-joo (Dongkuk Steel). The AP (17 July 2025) states he ‘served 18 months’ and was pardoned in 2022 by then-President Yoon Suk Yeol.",
+      "status": "pardoned",
+      "src": [
+        [
+          "Reuters timeline via MarketScreener, Major events in Samsung leader Jay Y. Lee’s bribery case (18 January 2021)",
+          "https://www.marketscreener.com/quote/stock/SAMSUNG-ELECTRONICS-CO--6494906/news/Timeline-Major-events-in-Samsung-leader-Jay-Y-Lee-s-bribery-case-32216821/"
+        ],
+        [
+          "Al Jazeera, 12 August 2022",
+          "https://www.aljazeera.com/economy/2022/8/12/samsung-pardon-exposes-koreans-love-hate-feelings-for-tycoons"
+        ],
+        [
+          "Associated Press via The Washington Times, 17 July 2025",
+          "https://m.washingtontimes.com/news/2025/jul/17/samsungs-lee-jae-yong-acquittal-upheld-south-koreas-top-court/"
+        ]
+      ],
+      "vf": "S",
+      "note": "Press sources only; the Korean court records were not opened. The two reports differ on time served (19 months, Al Jazeera; 18 months, AP). The appeals court of 5 February 2018 is not named in the timeline (it was the Seoul High Court per the 2019 remand wording, which calls it ‘the appellate Seoul High Court’). His link to the Samsung family collection is a family relationship only; nothing more is stated."
+    },
+    {
+      "id": "lee-jae-yong-merger",
+      "person": "Lee Jae-yong (Jay Y. Lee)",
+      "matter": "The 2015 Samsung C&T–Cheil Industries merger and Samsung Biologics accounting case (19 charges: unfair influence, accounting fraud, breach of trust)",
+      "charge_or_claim": "As the terminal states it: ‘acquitted in a separate 2024 merger case — from memory (U)’.",
+      "outcome": "The Korea Times (17 July 2025): the Seoul Central District Court found him not guilty on all 19 charges in February 2024; the Seoul High Court upheld the acquittal in February 2025; on Thursday 17 July 2025 the Supreme Court acquitted him of all 19 charges, upholding the High Court and finding no misinterpretation of law, agreeing that some prosecution evidence was obtained unlawfully and other evidence lacked admissibility; 13 former Future Strategy Office executives, including Choi Gee-sung, were also acquitted; the ruling came ‘four years and 10 months after Lee was indicted on 19 charges’. The AP (17 July 2025): the Supreme Court dismissed prosecutors’ appeal; the ruling is final and cannot be appealed; Samsung’s lawyers said it ‘confirmed the 2015 merger was legitimate’.",
+      "status": "acquitted",
+      "src": [
+        [
+          "The Korea Times, 17 July 2025",
+          "https://www.koreatimes.co.kr/business/companies/20250717/koreas-top-court-acquits-samsung-head-of-unfair-merger-charges"
+        ],
+        [
+          "Associated Press via The Washington Times, 17 July 2025",
+          "https://m.washingtontimes.com/news/2025/jul/17/samsungs-lee-jae-yong-acquittal-upheld-south-koreas-top-court/"
+        ]
+      ],
+      "vf": "S",
+      "note": "The exact day of the February 2024 and February 2025 rulings is not given on the pages opened (the Korea Times caption dates a courthouse visit to 3 February). The indictment date (September 2020) is a back-calculation from ‘four years and 10 months’, not a stated date."
+    },
+    {
+      "id": "sec-v-sun",
+      "person": "Justin Sun (with Tron Foundation Limited, BitTorrent Foundation Ltd. and Rainberry, Inc.)",
+      "matter": "Securities and Exchange Commission v. Justin Sun, et al., No. 1:23-cv-02433 (S.D.N.Y., filed 22 March 2023, amended April 2024)",
+      "charge_or_claim": "As the terminal states it: ‘The SEC’s March 2023 civil fraud and unregistered-securities case against him and his companies, reported as paused in 2025, is from memory (U). Status: SEC case alleged (civil), status unconfirmed.’",
+      "outcome": "SEC Litigation Release No. 26496 (5 March 2026): the complaint, filed in March 2023 and amended in April 2024, alleged among other things that in 2018 and 2019 Rainberry facilitated wash trading to inflate the trading volume of TRX. The SEC filed a proposed final judgment under which Rainberry, ‘without admitting or denying the Commission’s allegations’, would be permanently enjoined from violating Section 17(a)(3) of the Securities Act and pay a civil penalty of US$10 million; if approved, all other claims against the Tron defendants (Sun, Tron Foundation, BitTorrent Foundation and the remaining Rainberry claims) would be dismissed with prejudice. The same day the SEC filed a notice of voluntary dismissal of the Section 17(b) claim against DeAndre Cortez Way (ECF No. 97, 5 March 2026, RECAP copy), stating that ‘The SEC’s decision to seek dismissal of this enforcement action is an exercise of its discretion’. The Block (5 March 2026) reported the SEC had sought a stay in February 2025 ‘to explore a potential settlement’, described the judgment as entered by the SDNY on Thursday 5 March 2026 but also wrote that ‘The court must still approve the judgment’; Sun told The Block ‘Today’s resolution brings closure, but I never stopped building’. The court’s approval of the final judgment was not confirmed on the pages opened.",
+      "status": "settled",
+      "src": [
+        [
+          "SEC Litigation Release No. 26496, 5 March 2026",
+          "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26496"
+        ],
+        [
+          "Notice of voluntary dismissal, ECF No. 97, SEC v. Sun, 1:23-cv-02433 (S.D.N.Y., 5 March 2026), CourtListener RECAP copy",
+          "https://storage.courtlistener.com/recap/gov.uscourts.nysd.596044/gov.uscourts.nysd.596044.97.0.pdf"
+        ],
+        [
+          "The Block, 5 March 2026",
+          "https://www.theblock.co/amp/post/392509/sec-dismisses-claims-against-justin-sun-and-tron-foundation-bittorrent-developer-rainberry-agrees-to-pay-10m-fine"
+        ]
+      ],
+      "vf": "V",
+      "note": "Status ‘settled’ rests on the SEC’s own release and consent; entry of the final judgment by the court is reported inconsistently by The Block and was not confirmed on a court page. The original complaint’s full list of charges (unregistered offers of TRX and BTT; celebrity touting) is from The Block’s summary, not the SEC page. The terminal’s art lines on Sun (the Giacometti and the Cattelan) are in a separate entry."
+    },
+    {
+      "id": "sun-art-giacometti-cattelan",
+      "person": "Justin Sun (and, as counter-party in the suit, David Geffen)",
+      "matter": "The Giacometti ‘Le Nez’ purchase (Sotheby’s New York, 2021), the Cattelan ‘Comedian’ purchase (Sotheby’s New York, 20 November 2024) and Sun v. Geffen (filed February 2025)",
+      "charge_or_claim": "As the terminal states it: bought ‘Le Nez’ at Sotheby’s in 2021 for US$78.3m (the Macklowe sale) and ‘Comedian’ in November 2024 for US$6.2m; sued David Geffen (February 2025) alleging his former adviser Sydney Xiong sold ‘Le Nez’ without authority for US$10.5m cash plus two paintings using forged documents; Geffen’s countersuit calls the narrative ‘bizarre and baseless’; both suits ongoing as of 13 May 2025.",
+      "outcome": "The Art Newspaper (13 May 2025): Sun bought ‘Le Nez’ (1947) at Sotheby’s in 2021 for US$78.3m; his February 2025 suit claims Sydney Xiong, his former art adviser, sold it to Geffen without authorisation, with forged documents and fake lawyers, for US$10.5m in cash plus two paintings, after the sculpture was moved to a Delaware storage facility, and that Sun had said he would sell only for US$80m or more; Geffen’s representatives called the narrative ‘bizarre and baseless’ and said Sun’s attempts to recover the work reflect ‘seller’s remorse’, citing the lack of a police report, deleted texts and conflicting accounts; Sun’s lawyer William Charron told ARTnews ‘Ms Xiong confessed to her theft, she was arrested in China and is in detention in China today’ — a claim from Sun’s side, not independently confirmed. The article reports no ruling or settlement, and none was found on the pages opened as of 16 November 2026: the dispute stands as allegation and counter-allegation, litigation pending. The banana: the Associated Press (relayed by Boston.com, 21 November 2024) reports that at Sotheby’s in New York on Wednesday 20 November 2024 the work hammered at US$5.2m, about US$6.2m with fees, to Justin Sun, ‘founder of cryptocurrency platform TRON’, who ‘purchased a certificate of authenticity that gives him the authority to duct-tape a banana to a wall and call it “Comedian”’, the opening bid having been US$800,000 and the 2019 Art Basel Miami Beach editions having sold for ‘between $120,000 and $150,000’; Sun said ‘in the coming days, I will personally eat the banana as part of this unique artistic experience’.",
+      "status": "pending",
+      "src": [
+        [
+          "The Art Newspaper, 13 May 2025",
+          "https://www.theartnewspaper.com/2025/05/13/justin-sun-david-geffen-lawsuit-giacometti"
+        ],
+        [
+          "Associated Press via Boston.com, 21 November 2024",
+          "https://www.boston.com/news/arts/2024/11/21/duct-taped-banana-sells-for-6-2-million-at-art-auction/"
+        ]
+      ],
+      "vf": "S",
+      "note": "The court in which Sun sued is not named in the article (Law360 lists ‘Sun v. Geffen et al’; not opened). Sotheby’s own results page was not opened; NPR refused the fetch. Nothing opened after May 2025 reports a disposition of the Geffen suits."
+    },
+    {
+      "id": "cohen-sac-capital",
+      "person": "Steven A. Cohen (and the SAC companies)",
+      "matter": "United States v. S.A.C. Capital Advisors, L.P. et al. (S.D.N.Y., plea 8 November 2013; sentence 10 April 2014) and In the Matter of Steven A. Cohen (SEC administrative proceeding, settled 8 January 2016)",
+      "charge_or_claim": "As the terminal states it: ‘SAC Capital Advisors pleaded guilty in November 2013 to insider-trading charges brought by the SDNY and paid US$1.8bn in penalties; Cohen himself was not criminally charged; in January 2016 he settled an SEC failure-to-supervise case, accepting a bar on managing outside money until 2018 — carried from memory (U)’.",
+      "outcome": "DOJ (SDNY release 13-342, 8 November 2013): four companies — S.A.C. Capital Advisors, L.P., S.A.C. Capital Advisors, LLC, CR Intrinsic Investors, LLC and Sigma Capital Management, LLC — pleaded guilty before Judge Laura T. Swain to each count charged (securities fraud and wire fraud in an insider-trading scheme), agreeing to a US$1.8bn penalty made of a US$900m criminal fine and a US$900m forfeiture, against which the US$616m already agreed with the SEC is credited (‘approximately $1.184 billion’ more); Judge Swain reserved on acceptance; Judge Richard J. Sullivan approved the forfeiture stipulation on 6 November 2013; the agreement ‘does not provide immunity from prosecution for any individual’. DOJ (10 April 2014): Judge Swain accepted the pleas and the plea agreement and sentenced the SAC companies to the US$900m fine, five years’ probation each and an independent compliance consultant; the release does not mention Cohen. SEC (release 2016-3, 8 January 2016): Cohen settled an order finding he ‘failed to supervise former portfolio manager Mathew Martoma’, who traded on inside information in 2008 at CR Intrinsic; he ‘is prohibited from serving in a supervisory role at any broker, dealer, or investment adviser until 2018’, must retain an independent consultant and submit to SEC examinations, and ‘neither admits nor denies the SEC’s finding’; the release also records CR Intrinsic’s agreement in March 2013 to pay more than US$600m to settle SEC charges and that Cohen’s entities ‘paid an additional $1.2 billion to resolve criminal charges’. No criminal charge against Cohen personally appears on any page opened. The terminal’s wording ‘a bar on managing outside money’ should read ‘a bar from supervisory roles at a broker-dealer or investment adviser until 2018’, as the SEC puts it.",
+      "status": "settled",
+      "src": [
+        [
+          "US Attorney SDNY, release 13-342, 8 November 2013",
+          "https://www.justice.gov/usao-sdny/pr/sac-capital-management-companies-plead-guilty-insider-trading-charges-manhattan-federal"
+        ],
+        [
+          "US Attorney SDNY, sentencing release, 10 April 2014",
+          "https://www.justice.gov/archive/usao/nys/pressreleases/April14/SACSentencingPR.php?print=1"
+        ],
+        [
+          "SEC press release 2016-3, 8 January 2016",
+          "https://www.sec.gov/news/press-release/2016-3"
+        ]
+      ],
+      "vf": "V",
+      "note": "Status: the firm convicted on its plea (sentenced 10 April 2014); Cohen settled the SEC’s failure-to-supervise order (8 January 2016), not charged. The SEC’s ‘$1.2 billion’ and the DOJ’s ‘$1.184 billion’ describe the same additional payment; the SEC page dates the criminal resolution to July 2013 (the indictment month) while the plea is November 2013."
+    },
+    {
+      "id": "mugrabi-family-litigation",
+      "person": "Mugrabi family (Jose, Alberto and David Mugrabi)",
+      "matter": "The litigation the terminal attributes to the family: a divorce ‘Alberto Mugrabi’s divorce from Colby Mugrabi (New York, 2021–22)’ and ‘a 2013–14 dispute with the Blackbird Trust over a Warhol consignment’ — both carried from memory (U)",
+      "charge_or_claim": "As the terminal states it: ‘Alberto Mugrabi’s divorce from Colby Mugrabi (New York, 2021–22) produced public filings about the family’s art holdings; the parties settled — from memory (U). A 2013–14 dispute with the Blackbird Trust over a Warhol consignment was reported — from memory (U).’",
+      "outcome": "Neither line is supported by anything opened. What the record opened states: (1) the public divorce was David Mugrabi’s from Libbie Mugrabi, not Alberto’s: Avenue (25 August 2020) reports the couple settled about two years after a July 2018 incident at a Hamptons dinner, ‘a source close to the former couple’ saying ‘She asked for a hundred million, and she’s happy with the deal she got’ and that the settlement ‘includes art, real estate, alimony and child support’; the amount was not reported; the article says the family art was held by an offshore entity rather than by David personally. Artnet News headlines (2018, 2020; not opened, Artnet refuses fetches) describe the family collection as a focus of the divorce. A search for ‘Blackbird’ with Mugrabi and Warhol returned nothing matching; the only Warhol lender dispute found is a 2024 Artnet headline about Libbie Mugrabi and lenders (not opened). (2) The documented court matter is David Mugrabi’s complaint against the storage firm Mana Contemporary (New York Supreme Court, 25 October 2017): Mana held the collection of 1,389 works, valued at more than US$100m, over an unpaid storage invoice of more than US$500,000; the court ordered Mana to release five works that day against US$1m and otherwise to turn over all 1,389 works within 24 hours, with oral argument set for 27 October 2017; the complaint alleged damage to works by Wesselmann, Prince, Flood, KAWS, Saville and others and sought US$5m plus US$10m punitive damages; Mana’s lawyer said the company ‘has no choice but to enforce its lien’ (The Art Newspaper, 25 October 2017). No charge, conviction or regulatory finding against any member of the family appears on any page opened. The terminal’s two lines should be replaced by the two matters above, each as stated here, or removed.",
+      "status": "settled",
+      "src": [
+        [
+          "The Art Newspaper, 25 October 2017",
+          "https://www.theartnewspaper.com/news/new-york-supreme-court-negotiates-release-of-mugrabi-familys-art-from-new-jersey-storage-site"
+        ],
+        [
+          "Avenue, 25 August 2020",
+          "https://avenuemagazine.com/libbie-mugrabi-david-mugrabi-divorce-settlement-100-million/"
+        ]
+      ],
+      "vf": "S",
+      "note": "The divorce terms come from an anonymous source in a society magazine and are carried only as that magazine states them; the amount is not on the record. The outcome of the Mana litigation after 27 October 2017 was not opened. Libbie Mugrabi is named only as the former spouse and party; nothing private is carried. ‘Settled’ refers to the divorce as Avenue reports it; the Mana case’s end is not confirmed."
+    },
+    {
+      "id": "green-beaufort-edny",
+      "person": "Matthew Green (London dealer; Mayfair Fine Art)",
+      "matter": "United States v. Beaufort Securities Ltd et al., E.D.N.Y. Docket No. 18-CR-102 (ENV), indictment announced 2 March 2018",
+      "charge_or_claim": "As the terminal states it: charged in the EDNY indictment unsealed 28 Feb 2018 with helping launder more than US$9.2m; arrested in 2018; as of Nov 2019 he had ‘yet to plead’ (The Art Newspaper); no later disposition found.",
+      "outcome": "The US Attorney for the Eastern District of New York (release of 2 March 2018) announced the indictment of six individuals — Matthew Green, Panayiotis Kyriacou, Aristos Aristodemou, Arvinsingh Canaye, Adrian Baron and Linda Bullock — and four companies (Beaufort Securities Ltd, Beaufort Management Services Ltd, Loyal Bank Ltd, Loyal Agency and Trust Corp.) for conspiracy to commit securities fraud and money laundering conspiracy; the defendants ‘proposed the Undercover Agent could purchase from Green a painting by Pablo Picasso’ (‘Personnages, Painted 11 April 1965’) and ‘agreed to launder £6.7 million, the equivalent of over $9 million dollars’; the scheme ‘was halted prior to the transfer of ownership of the painting’; ‘The charges in the indictment are merely allegations, and the defendants are presumed innocent unless and until proven guilty.’ No plea, trial, sentence or dismissal for Green was found on the pages opened as of 16 November 2026; the latest report opened remains The Art Newspaper’s of 27 November 2019 that he had yet to plead, and the terminal’s ‘US$9.2m’ should read ‘£6.7m, the equivalent of over US$9m’, as the release puts it.",
+      "status": "no disposition found",
+      "src": [
+        [
+          "US Attorney EDNY, release of 2 March 2018",
+          "https://www.justice.gov/usao-edny/pr/six-individuals-and-four-corporate-defendants-indicted-50-million-international"
+        ]
+      ],
+      "vf": "V",
+      "note": "The docket (18-CR-102, EDNY) was not opened on CourtListener (search page not on the allowlist). The charge is an allegation with no disposition on the record opened; the line must stay attributed to the indictment and dated. The Art Newspaper’s 27 November 2019 report (‘yet to plead’) is the terminal’s existing v27 source and was not re-opened here, so it is not cited in src."
+    },
+    {
+      "id": "chastain-opensea",
+      "person": "Nathaniel Chastain (former head of product, OpenSea)",
+      "matter": "United States v. Chastain (S.D.N.Y.; Second Circuit vacatur 31 July 2025; deferred prosecution January 2026)",
+      "charge_or_claim": "As the terminal states it: convicted by a jury of wire fraud and money laundering, sentenced to three months’ imprisonment; both convictions vacated by the Second Circuit on 31 Jul 2025 and remanded; further proceedings pending.",
+      "outcome": "Cointelegraph (23 January 2026): prosecutors told the Manhattan federal court that week that they will not retry Chastain on the wire-fraud and money-laundering charges; the parties entered a one-month deferred prosecution agreement after which the case will be formally dismissed; US Attorney Jay Clayton wrote that ‘The interest of the United States will be best served by deferring prosecution of this matter and not retrying the case’, citing that Chastain had already served part of his sentence, including three months in prison, and had agreed not to contest forfeiture of 15.98 ETH (US$47,330) obtained through the scheme; the article recalls the May 2023 jury conviction, the three-month sentence and US$50,000 fine, and the appeals court’s finding that the jury was improperly instructed because NFT homepage data without commercial value is not property under the wire-fraud statute. Whether the dismissal has since been entered, and whether with prejudice, was not confirmed on the pages opened.",
+      "status": "dismissed",
+      "src": [
+        [
+          "Cointelegraph, 23 January 2026",
+          "https://cointelegraph.com/news/doj-drops-opensea-manager-nft-insder-trader-case"
+        ]
+      ],
+      "vf": "S",
+      "note": "The Second Circuit date (31 July 2025) and the court’s name are from the terminal’s existing Mayer Brown source, not from the page opened here. The formal dismissal after the one-month deferral is reported as the agreed course, not yet as an entered order on the pages opened; status ‘dismissed’ is therefore the agreed outcome as reported on 23 January 2026."
+    },
+    {
+      "id": "wildenstein-paris-2024",
+      "person": "Guy Wildenstein (with Alec Wildenstein Jr and Liouba Stoupakova as co-defendants)",
+      "matter": "The Wildenstein tax-fraud trials (Paris, 2017–2024) and any further pourvoi to the Cour de cassation",
+      "charge_or_claim": "As the terminal states it: acquitted 2017 and on appeal 2018; the Cour de cassation overturned the acquittal in 2021 and ordered a third trial (18 Sep–4 Oct 2023); convicted of tax fraud by the Paris court of appeal on 5 Mar 2024: four years in prison, two suspended, and a €1m fine; whether a further cassation appeal is pending could not be confirmed.",
+      "outcome": "Wikipedia (opened as the only page that would load; weak source): cleared at trial in 2017, the judge finding a ‘clear attempt’ to hide assets but shortcomings in the investigation; in January 2021 the Cour de cassation, on the prosecutors’ appeal, ordered the family to be rejudged after two acquittals (citing Le Monde, 6 January 2021); ‘In March 2024 Guy Wildenstein was found guilty of money laundering and tax fraud and sentenced to four years’, two under house arrest and two suspended, with a fine the article gives as US$1m, about US$3.7m of assets seized and back taxes ordered (citing the New York Times, 5 March 2024). A further pourvoi: a search returned a Lextenso index entry for a Cour de cassation decision of 4 February 2026 in pourvoi no. 24-84.041 and a Gazette du Palais commentary (2026 no. 12) on the State’s right to compensation for the laundering of tax fraud, which match this case, but the pages did not open and the result (rejet or cassation) is not known. Status as established on the pages opened: convicted on 5 March 2024; whether that conviction is final is not confirmed.",
+      "status": "convicted",
+      "src": [
+        [
+          "Wikipedia, Guy Wildenstein (opened 16 November 2026; weak source, carried only for what it cites)",
+          "https://en.wikipedia.org/wiki/Guy_Wildenstein"
+        ]
+      ],
+      "vf": "U",
+      "note": "The Lextenso page (labase-lextenso.fr) refused the fetch. The 4 February 2026 cassation ruling is a lead from a search-result title only; it must be read before the terminal states that the conviction is final or was quashed. The 2018 acquittal, the 2023 retrial dates and the co-defendants’ sentences are from the terminal’s own v27 source, not re-read here. The Art Newspaper’s 5 March 2024 report is the terminal’s existing v27 source and was not re-opened here, so it is not cited in src."
+    },
+    {
+      "id": "nazem-ahmad-edny-nagarajan",
+      "person": "Nazem Said Ahmad; Sundar Nagarajan (co-defendant)",
+      "matter": "United States v. Nazem Said Ahmad et al. (E.D.N.Y., nine-count indictment unsealed 18 April 2023)",
+      "charge_or_claim": "As the terminal states it: Ahmad designated by OFAC on 13 Dec 2019 and by HM Treasury on 18 Apr 2023; indicted in the EDNY, nine counts, unsealed 18 Apr 2023; at large; case pending. ‘Sundar Nagarajan’s later extradition and plea are from memory and unconfirmed (U).’",
+      "outcome": "The National (20 December 2023): Sundar Nagarajan, 56, an Indian citizen described by the US Treasury as Ahmad’s ‘primary international accountant’ and ‘central manager of financial ledgers’, who the Treasury says facilitated payment for and shipment of art Ahmad bought from auction houses and galleries, was arrested in London in April 2023 by the Metropolitan Police’s National Extradition Unit on a warrant at the US request, agreed to be extradited, and was extradited to the United States on 8 December 2023 (‘I can confirm the requested person was extradited to the USA on December 8’ — a Crown Prosecution Service representative); the US Attorney Breon Peace was quoted: ‘As alleged, Nazem Ahmad and his co-defendants benefitted from the multimillion-dollar trade’. Nazem Ahmad: the DOJ says he ‘is not in US custody and is believed to be a resident of Lebanon’; a US reward is offered for information on him. No plea, trial or sentence for Nagarajan, and no disposition for Ahmad, was found on the pages opened as of 16 November 2026 (the DOJ site search for Nagarajan returned nothing). The terminal’s ‘plea’ for Nagarajan is unconfirmed and should be dropped; his extradition can be stated with the date.",
+      "status": "pending",
+      "src": [
+        [
+          "The National, 20 December 2023",
+          "https://thenationalnews.com/world/uk-news/2023/12/20/accused-hezbollah-financier-nazem-ahmads-right-hand-man-extradited-to-us"
+        ]
+      ],
+      "vf": "S",
+      "note": "Secondary. The EDNY docket was not opened. Everything about Ahmad remains an allegation under an indictment and a designation under OFAC and HM Treasury, as the terminal already states."
+    },
+    {
+      "id": "kapoor-india-us",
+      "person": "Subhash (Subash Chandra) Kapoor, dealer, Art of the Past",
+      "matter": "The Tamil Nadu conviction (Kumbakonam, 1 November 2022), the Madras High Court habeas corpus order (8 September 2026), the Supreme Court of India stay (27 October 2026) and the US extradition request (27 September 2021)",
+      "charge_or_claim": "As the terminal states it: convicted on 1 Nov 2022 by a trial court in Kumbakonam, Tamil Nadu, with five accomplices, and sentenced to 10 years for theft and illegal export of 19 idols; Manhattan DA arrest warrant 2012, extradition paperwork filed 2020, extradition to the US pending.",
+      "outcome": "Deccan Chronicle (ANI, 27 October 2026): Kapoor, an American citizen, was extradited from Germany to India on 13 July 2012 in the Udayarpalayam idol-theft case (Crime No. 65 of 2008); the Kumbakonam ACJM convicted him on 1 November 2022 and sentenced him to 10 years; the High Court noted that after set-off that sentence was complete, a custody certificate recording 22 February 2023 as the release date for that conviction; on 8 September 2026 the Madras High Court allowed his habeas corpus petition and directed the Centre to take custody of him from Tiruchirappalli Central Prison and ‘proceed in accordance with law for returning him to Germany’, holding under Article 19 of the India–Germany extradition treaty (rule of speciality) and section 21 of the Extradition Act 1962 that his continued detention for other pre-extradition offences could not be sustained without Germany’s consent and was ‘without authority of law’; on Tuesday 27 October 2026 a Supreme Court bench of Justices B.V. Nagarathna and R. Mahadevan stayed that order on an appeal by a temple devotee acting as next friend of the deities; he remains in Tiruchirappalli Central Prison; the High Court judgment recorded a US extradition request dated 27 September 2021, and the Ministry of External Affairs’ status report said that if released from domestic detention he would have to be produced before the Special Court at Patiala House, New Delhi, under section 5 of the Extradition Act. The Week (19 September 2026) reported that ‘Germany expressly declined India’s request to extend Kapoor’s prosecution’. Earlier, on 15 September 2025, the same bench disposed of his Special Leave Petition (Crl.) No. 15606/2024 against a Madras High Court order of 1 February 2013, ‘reserving liberty to the petitioner herein to take all legal contentions available’ under the Extradition Act 1962 before the appropriate forum. Status: convicted in India (sentence served); US extradition request pending; his return to Germany ordered by the High Court and stayed by the Supreme Court.",
+      "status": "convicted",
+      "src": [
+        [
+          "Deccan Chronicle (ANI), 27 October 2026",
+          "https://www.deccanchronicle.com/legalnews/sc-stays-madras-hc-order-directing-return-of-international-art-trafficker-subash-chandra-kapoor-to-germany-1999325"
+        ],
+        [
+          "The Week, column of 19 September 2026",
+          "https://www.theweek.in/voices/columns/lakshmi-subramanian/2026/09/19/idol-smuggler-subhash-kapoors-journey-comes-full-circle.amp.html"
+        ],
+        [
+          "Supreme Court of India, order of 15 September 2025, SLP (Crl.) No. 15606/2024",
+          "https://api.sci.gov.in/supremecourt/2024/47381/47381_2024_5_28_64216_Order_15-Sep-2025.pdf"
+        ]
+      ],
+      "vf": "V",
+      "note": "The US request of 27 September 2021 is as the High Court judgment is reported by ANI; the Manhattan DA is not named on the pages opened. The ‘five accomplices’ and ‘19 idols’ are from the terminal’s v27 source, not re-read here; The Week gives the 19 idols at about ₹94 crore. The Madras High Court judgment itself was not opened."
+    },
+    {
+      "id": "philbrick-basquiat-title-athena",
+      "person": "Athena Art Finance (lender); the collector represented by Grossman LLP (the terminal names Alexander ‘Sasha’ Pesko / Satfinance)",
+      "matter": "The title fight over the Philbrick Basquiat ‘Humidity’ (S.D.N.Y. 1:20-cv-04669; Second Circuit, 2026)",
+      "charge_or_claim": "As the terminal states it: Magistrate Judge Figueredo recommended that the Boxwood transfer was ‘a fraudulent conveyance’ and that the painting belongs to Pesko; final decision for Judge George B. Daniels; Athena said it would appeal; ‘Pending final decision and appeal (2024)’.",
+      "outcome": "Grossman LLP (post of 22 May 2026): the firm won summary judgment for its collector client in late 2024, which the federal court later upheld; the court ordered Athena to turn over the painting and denied Athena’s request for a stay; that week the Second Circuit ‘flatly denied Athena’s motion’ for a stay pending appeal in an order of ‘just two sentences plus two case citations’, so the client ‘can retain possession of the Basquiat while Athena’s appeal unfolds’; Athena’s appeal on the merits remains pending in the Second Circuit. The post does not name the client, the case number or the decision date; the terminal’s identification of the client as Pesko/Satfinance rests on its earlier Artnet-relayed source.",
+      "status": "pending",
+      "src": [
+        [
+          "Grossman LLP, Federal appeals court upholds Grossman client’s possession of Basquiat masterpiece, 22 May 2026",
+          "https://www.grossmanllp.com/strongfederal-appeals-court-upholds-grossman-clients-possession-of-basquiat-masterpiecestrong"
+        ]
+      ],
+      "vf": "S",
+      "note": "A party’s law firm is the source; flagged accordingly. The district court’s final judgment and the Second Circuit docket were not opened (a Justia copy of docket entry 158 in 1:20-cv-04669 appeared in search results but was not opened). Civil matter; no charge against any person."
+    },
+    {
+      "id": "salander-oreilly",
+      "person": "Lawrence Salander (Salander-O’Reilly Galleries)",
+      "matter": "People v. Salander (Manhattan; Manhattan District Attorney; sentenced 3 August 2010)",
+      "charge_or_claim": "As the terminal states it: pleaded guilty in Mar 2010 to grand larceny and fraud counts and was sentenced in Aug 2010 by the New York State Supreme Court to six to eighteen years (from memory; none opened).",
+      "outcome": "Courthouse News (undated page; the plea occurred ‘Thursday’): Salander, 61, co-owner of the Salander-O’Reilly Gallery, pleaded guilty to 29 counts of grand larceny; Manhattan DA Cyrus Vance said he expected a sentence of six to 18 years in state prison and that Salander and the gallery should be ordered to pay US$120m; Vance: ‘The defendant not only stole money from his victims, but in some cases he stole their family’s heritage’; victims named include John McEnroe (artwork used in a loan application that defrauded Bank of America of US$2m) and the estate of Robert De Niro Sr. Bloomberg (3 August 2010): sentenced in lower Manhattan to six to 18 years in state prison, ‘the maximum he could receive’, for taking US$120m from clients, investors and Bank of America; handcuffed and taken into custody. ArtfixDaily (3 August 2010, citing ARTnews): sentenced ‘on Tuesday’ (3 August 2010) to 6 to 18 years after pleading guilty to grand larceny and fraud following his 2009 arrest; the gallery ‘filed for bankruptcy in 2007 after a series of lawsuits’; victims had not received restitution from him personally. The court’s name and the judge, the plea date (the terminal’s March 2010) and any restitution order are not on the pages opened.",
+      "status": "convicted",
+      "src": [
+        [
+          "Bloomberg, 3 August 2010 (paywalled; excerpt read)",
+          "https://www.bloomberg.com/news/articles/2010-08-03/art-dealer-salander-gets-up-to-18-years-for-defrauding-investors-clients"
+        ],
+        [
+          "Courthouse News (plea report, undated page)",
+          "https://www.courthousenews.com/?p=289827"
+        ],
+        [
+          "ArtfixDaily, 3 August 2010",
+          "https://artfixdaily.com/news_feed/2010/08/03/2779-art-fraudster-salander-sentenced-to-up-to-18-years"
+        ]
+      ],
+      "vf": "S",
+      "note": "Press only; the Manhattan DA’s release was not found by search. Leigh Morse (gallery director) remains unverified: nothing on her was opened."
+    },
+    {
+      "id": "vekselberg-voronchenko-sdny",
+      "person": "Vladimir Voronchenko (charged); Viktor Vekselberg (owner of the properties; not charged on the pages opened)",
+      "matter": "United States v. Voronchenko (S.D.N.Y., indictment unsealed 7 February 2023) and the civil forfeiture complaint of 24 February 2023 against about US$75m of Vekselberg properties",
+      "charge_or_claim": "Related to the terminal’s 2023 subpoenas entry (Vekselberg named as a subject of records requests, not charged) and its Vekselberg collector entry (designated by OFAC 6 April 2018).",
+      "outcome": "The Art Newspaper (1 March 2023): the SDNY unsealed on 7 February 2023 an indictment of Vladimir Voronchenko, founding director of the Fabergé Museum in St Petersburg and described as a ‘businessman, art collector, and art dealer, and a close friend and business associate of Vekselberg’, for participating in a scheme to funnel about US$4m in maintenance payments for four of Vekselberg’s US properties, attempting to sell two of them, and contempt of court for leaving the United States for Moscow via Dubai in May 2022 after being served a grand-jury subpoena; the complaint says he managed US$18.5m wired by Vekselberg-owned companies; on 24 February 2023 a civil forfeiture complaint sought about US$75m of properties (a Park Avenue apartment bought for about US$11m; Southampton; Fisher Island; six properties named), US Attorney Damian Williams saying the proceeds would be used ‘to help our allies in Ukraine’; the article reports that Voronchenko fled to Moscow and does not say whether Vekselberg himself was charged. No disposition of the Voronchenko indictment or of the forfeiture action was found on the pages opened as of 16 November 2026.",
+      "status": "pending",
+      "src": [
+        [
+          "The Art Newspaper, 1 March 2023",
+          "https://www.theartnewspaper.com/2023/02/28/vladimir-voronchenko-viktor-vekselberg-sanctions-russia-ukraine-forfeiture"
+        ]
+      ],
+      "vf": "S",
+      "note": "The SDNY release linked from the article was not opened. The charges are allegations; Vekselberg’s link is as the owner of the properties and the designated person, as the article states it."
+    }
+  ],
+  "no_disposition": [
+    "Graham Bonham-Carter (SDNY, indicted Oct 2022): extradition request withdrawn by the US (Westminster Magistrates’ Court, concluded 9 Feb 2023); no plea, trial, sentence or dismissal on the pages opened; docket number not read.",
+    "Matthew Green (EDNY 18-CR-102, indicted 2018): no plea, trial, sentence or dismissal found; last report opened says ‘yet to plead’ (The Art Newspaper, 27 Nov 2019).",
+    "The February 2023 subpoenas on Melnichenko, Vekselberg, Abramovich and Kolomoisky: no charge against any house or any of the four found; the record opened ends with the records request.",
+    "Nazem Said Ahmad (EDNY, 2023): at large, believed in Lebanon (DOJ via The National, Dec 2023); Sundar Nagarajan extradited 8 Dec 2023, no plea or sentence found.",
+    "Vladimir Voronchenko (SDNY, 2023): fled to Moscow per The Art Newspaper; no disposition of the indictment or of the US$75m forfeiture found.",
+    "Sun v. Geffen (filed Feb 2025): no ruling or settlement found after The Art Newspaper’s 13 May 2025 report.",
+    "SEC v. Sun: the proposed final judgment of 5 March 2026 is stated by the SEC as subject to court approval; entry by the court not confirmed on a court page.",
+    "Chastain: the one-month deferred prosecution and dismissal reported 23 Jan 2026; the entered dismissal and whether with prejudice not confirmed.",
+    "Wildenstein: the Cour de cassation decision of 4 Feb 2026 (pourvoi 24-84.041) is a search-result lead only; result unknown.",
+    "Athena v. the Basquiat ‘Humidity’ owner: Athena’s merits appeal pending in the Second Circuit after the stay was denied (May 2026).",
+    "Kapoor: US extradition request of 27 Sep 2021 pending; Madras High Court’s order to return him to Germany (8 Sep 2026) stayed by the Supreme Court of India (27 Oct 2026).",
+    "Not checked within budget (no search or fetch left): any appeal from the 2026 New York order on the Nahmad Modigliani; Phoenix Ancient Art’s announced appeal of the 11 Apr 2025 summary judgment; Vilma Bautista’s appeal after her Jan 2014 sentence; Michael Barzman’s sentence after his 2023 plea; the ‘Baller Ape’ defendant; the Almagià investigation (Manhattan DA, 2022); the French and Swiss Obiang proceedings; the Feb 2020 increase of Jaime Botín’s sentence; Jho Low’s criminal charges (EDNY and D.D.C., stated as pending in the DOJ’s 23 Jul 2024 release read in v28); the Bressers trial in Belgium; the 2021 Gilgamesh forfeiture order; Robert Newland’s sentence; Aven’s and Fridman’s UK status; the Mugrabi–Mana litigation after 27 Oct 2017; Leigh Morse.",
+    "Lines the terminal should drop as unsupported: Bonham-Carter’s ‘later guilty plea (2023)’; Nagarajan’s ‘plea’; ‘Alberto Mugrabi’s divorce from Colby Mugrabi (2021–22)’ and ‘the Blackbird Trust’ Warhol dispute; Cohen’s ‘bar on managing outside money’ (the SEC bar is from supervisory roles at a broker-dealer or investment adviser until 2018)."
+  ],
+  "method": {
+    "budget_used": "searches 25 of 25; fetches 38 of 40 (failures: CourtListener search page not on the session allowlist; UPI; NPR; Lextenso)",
+    "sources_order": "DOJ releases (Bonham-Carter, SAC plea and sentence, Beaufort indictment), the SEC (LR-26496; release 2016-3), a RECAP docket filing (SEC v. Sun ECF 97), the Supreme Court of India’s order, then the trade press (The Art Newspaper) and the general press (AP, Reuters relay, Al Jazeera, Korea Times, The National, Bloomberg excerpt); Artnet carried only as headlines (its site refuses fetches); Wikipedia used once, flagged U.",
+    "flags": "V = read on a primary source; S = trade or general press; U = not confirmed in this session or weak page",
+    "people_rules": "Every charge is stated as an allegation with its date and authority; acquittals, dismissals and withdrawals are stated in the same line as the charge; nothing private is carried; family links (Lee Jae-yong to the Samsung collection; Libbie Mugrabi as former spouse; Zhukova) are stated as such and nothing more."
+  }
+}

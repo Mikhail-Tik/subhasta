@@ -1,0 +1,1391 @@
+{
+ "asof": "2026-11-16",
+ "status": "complete — six parts; 55 page fetches this session (42 citation checks incl. 2 reserves, 13 for Part 5, of which 6 refused by the allowlist), 4 web searches",
+ "citations": [
+  {
+   "where": "v28.collector.cases[0].money (singapore-buys-richter-new-york)",
+   "claim": "Sotheby’s 28% of hammer to US$2m (£1.5m), 22% to US$8m (£6m), 15% above, worldwide since 13 February 2026",
+   "url": "https://www.theartnewspaper.com/2026/02/17/sothebys-adjusts-buyers-premiums-fee-structures-securitisation",
+   "verdict": "supported",
+   "page_says": "‘the buyer’s premium for sales in New York are increasing from 27% on lots priced at or above $1m to 28%’ … ‘up to and including $2m (£1.5m in London)’ … ‘remain 22% … $2m-$8m (£1.5m-$6m)’ … ‘more than $8m (£6m), will remain 15%’; ‘from Friday 13 February’, ‘in locations worldwide’.",
+   "note": "The page also carries Christie’s 27% to US$1.5m/£1m from September 2025, which the terminal uses. Phillips tiers are not on this page; the terminal takes them from Grossman LLP."
+  },
+  {
+   "where": "v28.collector.cases[2].reading and walls (dubai-buys-london-ships-home)",
+   "claim": "Abu Dhabi DCT, February 2026: full waiver of the 5% customs duty on works from AED 10m (US$2.72m) kept three years; due diligence, provenance, expert committee; six-month export window",
+   "url": "https://www.wealthbriefing.com/html/article.php/abu-dhabi-launches-customs-duty-waiver-for-art,-targets-family-offices,-ultra_dash_hnw-segment",
+   "verdict": "supported",
+   "page_says": "‘fully waive the standard 5 per cent customs duty on eligible works of art’ … ‘valued from AED10 million ($2.72 million)’ … ‘stay in the jurisdiction for at least three years’; six-month export window; ‘a specialised committee, comprising global experts’; 19 February 2026.",
+   "note": "Secondary (WealthBriefing); DCT’s own release not cited. The page adds that ‘the 5 per cent import VAT and other applicable taxes remain in force’, which the terminal reflects."
+  },
+  {
+   "where": "v28.collector.cases[3] and STRATEGY §2 (Ravi Varma record)",
+   "claim": "Raja Ravi Varma record US$17.9m, Saffronart, Delhi, April 2026",
+   "url": "https://fr.euronews.com/2026/04/08/un-tableau-de-raja-ravi-varma-vendu-159-millions-deuros-record-pour-lart-indien",
+   "verdict": "supported",
+   "page_says": "Body: ‘15,3 millions d’euros (17,9 millions de dollars)’; headline: 15,9 million euros; Saffronart ‘basée à Mumbai’; sale ‘à Delhi la semaine dernière’ (article 8 April 2026); ‘Yashoda and Krishna’.",
+   "note": "The source contradicts itself (€15.3m in the body, €15.9m in the headline); the sale date is only ‘last week’. Saffronart’s own result page would be the primary source and is not cited."
+  },
+  {
+   "where": "v28.house.cases[2].money (compliance-refusal-london)",
+   "claim": "OFSI penalties up to £1m or 50% of the breach value, whichever is higher; up to six months for failing to report; up to seven years on indictment",
+   "url": "https://www.gov.uk/government/publications/financial-sanctions-guidance-for-high-value-dealers-and-art-market-participants/financial-sanctions-guidance-for-high-value-dealers-art-market-participants",
+   "verdict": "supported",
+   "page_says": "‘up to £1 million or 50% of the total value of the breach, whichever is higher’; ‘up to 7 years imprisonment on conviction on indictment’; failure to report ‘liable on summary conviction to imprisonment for a term not exceeding 6 months’; ‘from 14 May 2025, art market participants will be added to the list of relevant firms’; ‘Updated 12 May 2026’.",
+   "note": ""
+  },
+  {
+   "where": "v28.walls.kandinsky.walls[9] (UK Schedule 3A item 21)",
+   "claim": "Item 21 reads ‘Works of art, collectors’ pieces and antiques, meaning any thing which falls within chapter 97’ with no sales-price threshold; other entries carry £250, £630, £840, £42,000",
+   "url": "https://legislation.gov.uk/uksi/2019/855/schedule/3A",
+   "verdict": "supported",
+   "page_says": "Paragraph 21: ‘Works of art, collectors’ pieces and antiques, meaning any thing which falls within chapter 97.’ No threshold. Para 2 horses ‘exceeds £250’; para 16 £630; para 17 £840; para 18 £42,000; para 20 musical instruments £1,260; amendments 14/04/2022, 15/12/2023, 24/04/2025, 20/05/2026.",
+   "note": "The terminal’s own note says item 21 ‘was not re-read after those amendments’; it is unchanged on the revised text read today, so the hedge can be dropped."
+  },
+  {
+   "where": "v28.walls.kandinsky.cases[3] (R v Ojiri)",
+   "claim": "Pleaded guilty 9 May 2025 at Westminster Magistrates’ Court to eight s.21A Terrorism Act offences over sales worth ‘almost £140,000’ to Nazem Ahmad (US-sanctioned 2019, UK 2023); discussions 24 Oct 2020–18 Dec 2021; sentenced 6 June 2025, Central Criminal Court, 2 years 6 months plus 12 months extended licence",
+   "url": "https://www.cps.gov.uk/node/26576",
+   "verdict": "supported",
+   "page_says": "‘Oghenochuko Ojiri, 53, sold artwork worth almost £140,000’; eight counts ‘contrary to Section 21A of the Terrorism Act 2000’; ‘sanctioned by the United States in 2019 and the UK in 2023’; 24 October 2020 to 18 December 2021; 6 June 2025, Central Criminal Court; two years six months with an extended 12 months on licence.",
+   "note": "Primary source, every element matches."
+  },
+  {
+   "where": "v28.walls.kandinsky.cases[2] (R v Hauser & Wirth)",
+   "claim": "On 8 July 2026 HHJ Baumgartner at Southwark Crown Court dismissed both charges against both defendants under Schedule 3 para 2 of the Crime and Disorder Act 1998; Condo’s Escape from Humanity (2021) sold to Alexander Popov, ‘not under UK sanctions and was not accused of any wrongdoing’",
+   "url": "https://www.theartnewspaper.com/2026/07/09/hauser-wirth-cleared-of-russian-sanction-charges",
+   "verdict": "partly",
+   "page_says": "Charges quashed ‘yesterday’ (article 9 July 2026); judge ‘Tony Baumgardner’; no court named; gallery spokesperson: ‘dismissed the case against our UK gallery in its entirety’; Condo, Escape from Humanity (2021); Popov ‘is not under UK sanctions and was not accused of any wrongdoing’; sale between 14 April and 31 December 2022; prosecutors ‘had not produced sufficient evidence that Popov was a Russian resident at the time of the sale’. No mention of the Crime and Disorder Act or of the shipping company’s outcome.",
+   "note": "The court, the statutory basis and ‘both defendants’ rest on the second source (Global Sanctions, 13 July 2026), not fetched; the judge’s surname is spelt differently from the page. The entry’s substance (dismissal, date, the buyer’s status stated in the paper’s words) is sound."
+  },
+  {
+   "where": "v28.house.cases[7].money (estate-sale-connecticut-forty-works)",
+   "claim": "Basic exclusion US$15,000,000 for 2026 decedents (US$13,990,000 for 2025) under Public Law 119-21 of 4 July 2025; IRS page updated 3 Nov 2026",
+   "url": "https://irs.gov/businesses/small-businesses-self-employed/whats-new-estate-and-gift-tax",
+   "verdict": "supported",
+   "page_says": "‘increasing the basic exclusion amount to $15,000,000 for calendar year 2026’; table ‘$13,990,000’ for 2025; ‘signed into law on July 4, 2025 as Public Law 119-21’; ‘Page Last Reviewed or Updated: 03-Nov-2026’.",
+   "note": "Primary. The 40% top rate in the same line is flagged ‘from memory’ by the terminal."
+  },
+  {
+   "where": "v27.tides.tides[0].evidence[0–1] (the trophy tide)",
+   "claim": "Auction sales above US$10m up 30% in 2025, lots sold up 9%; fine-art lots over US$1m value up 21%, transactions up 15%",
+   "url": "https://www.artbasel.com/stories/the-art-basel-and-ubs-global-art-market-report-2026",
+   "verdict": "supported",
+   "page_says": "‘sales above $10 million grew 30%, alongside a 9% increase in the number of lots sold’; ‘The value of fine art lots sold for over $1 million increased 21% year-on-year, with transactions at this level rising 15%’; global sales ‘$59.6 billion’, up 4%; US 44%.",
+   "note": "The page carries no publication date; the terminal says March 2026 from press coverage."
+  },
+  {
+   "where": "v27.tides.tides[2].evidence[2] (sculpture)",
+   "claim": "Christie’s London March 2026: Chillida £3,344,000 (low estimate £800,000); Moore Goslar Warrior £4,564,000; Lipchitz £2,002,000; Giacometti bust £1,143,000; Lalanne Grenouille Fontaine £914,400",
+   "url": "https://www.christies.com.cn/en/stories/20th-21st-century-london-sale-results-march-2026-075542c67559435caa67e9068525f65b",
+   "verdict": "supported",
+   "page_says": "‘£3,344,000’ … ‘more than four times its low estimate of £800,000’; Goslar Warrior ‘£4,564,000’; Jeune fille à la tresse ‘£2,002,000’; Buste d’homme sur socle ‘£1,143,000’; Grenouille Fontaine ‘£914,400’; all 5 March 2026; evening sale £114,175,900; Vanthournout sale £40,317,750.",
+   "note": "Primary (the house’s own results page on its China mirror)."
+  },
+  {
+   "where": "v27.collectors[7] (geffen) holds",
+   "claim": "TAN 18 Feb 2016: Geffen’s foundation sold de Kooning’s Interchange (c. US$300m) and Pollock’s Number 17A (c. US$200m) to Ken Griffin, around US$500m; first reported by the Baer Faxt, citing Bloomberg Businessweek",
+   "url": "https://www.theartnewspaper.com/2016/02/18/ken-griffin-spends-reported-dollar500m-on-two-abstract-expressionist-paintings",
+   "verdict": "supported",
+   "page_says": "‘has bought two Abstract Expressionist paintings for around $500m’ … ‘from the business magnate David Geffen’s foundation’ … ‘Interchange (1955) for around $300m’ … ‘Number 17A (1948) for around $200m’; ‘first reported in the industry newsletter Baer Faxt, although the buyer was not named’.",
+   "note": "The entry correctly keeps the figures as ‘reported’; the other Geffen sales in the same field are flagged U."
+  },
+  {
+   "where": "v27.currents.cases[7] (schiff)",
+   "claim": "About US$6.5m from at least 12 clients, one artist, an artist’s estate and a gallery; sentenced 19 Mar 2025 to 30 months",
+   "url": "https://www.justice.gov/usao-sdny/pr/former-art-advisor-lisa-schiff-sentenced-30-months-prison-defrauding-clients",
+   "verdict": "supported",
+   "page_says": "‘sentenced today to 30 months in prison’ (release dated 19 March 2025); ‘approximately $6.5 million’; ‘at least 12 clients, one artist, the estate of another artist, and one gallery’.",
+   "note": "Primary."
+  },
+  {
+   "where": "v27.currents.cases[9] (wildenstein)",
+   "claim": "Convicted on appeal 5 Mar 2024 after acquittals in 2017 and 2018; paintings valued at €1bn",
+   "url": "https://www.theartnewspaper.com/2024/03/05/paris-court-finds-billionaire-dealer-guy-wildenstein-guilty-of-tax-fraud",
+   "verdict": "supported",
+   "page_says": "Court of appeal, 5 March 2024; ‘four years in prison, two of which are suspended’ plus €1m fine; acquitted ‘in 2017 and 2018’; 2021 Supreme Court ordered a third trial; ‘paintings valued at €1bn’.",
+   "note": "The entry says a further cassation appeal ‘could not be confirmed’ — honest; the sentence itself is not in the entry’s outcome line and should be."
+  },
+  {
+   "where": "v27.whispers[15] and [17] (Goodman Richters; Matisse)",
+   "claim": "Apollo 24 May 2026: all eight Goodman Richters guaranteed, US$78.8m together, over half of Christie’s US$136.8m; Matisse La Chaise lorraine US$48.4m against US$25m estimate, 19 May",
+   "url": "https://apollo-magazine.com/?p=1043331",
+   "verdict": "supported",
+   "page_says": "‘By Anna Brady, 24 May 2026’; eight Richters, ‘all were guaranteed’, $78.8m, ‘more than half of the $136.8m total for Christie’s 21st-century evening sale’; Matisse ‘drew four bidders over more than ten minutes before landing at $48.4m’, estimate $25m, 19 May; Fox Kelly: ‘the very top of the market is unquestionably alive’, ‘a really bifurcated market’.",
+   "note": ""
+  },
+  {
+   "where": "v27.playbooks[4].steps[3] (export-it-attestato)",
+   "claim": "DGABAP circular of 24 April 2026: offices to process CAI/CAS requests without limits of value, age or author, immediate effect; Constitutional Court 51/2026 on art. 72(1); Law 40/2026",
+   "url": "https://dgabap.cultura.gov.it/wp-content/uploads/2026/04/CircolaresentenzaCC51.2026_signed_signed.pdf",
+   "verdict": "supported",
+   "page_says": "‘24/04/2026’; ‘Sentenza Corte Costituzionale n. 51 del 2026’; ‘ha dichiarato l’illegittimità costituzionale dell’articolo 72, comma 1’; Law 40/2026 ‘ha eliminato ogni limite di valore, età o qualificazione dell’autore’; requests ‘devono essere accolte e istruite senza limitazioni’ as to ‘valore economico … vetustà … autore sia vivente o meno’; ‘efficacia immediata’.",
+   "note": "Primary; the terminal’s wording is a fair paraphrase."
+  },
+  {
+   "where": "v27.playbooks[1].steps[3] (buy-auction-foreign-buyer)",
+   "claim": "Sotheby’s: collect within 30 calendar days (60 for Preferred) in New York, London, Paris, Hong Kong, Cologne, Geneva; London lots to Greenford Park after 90 days; London wine £2 per case per week after 30 days; Paris wine €10 per lot per month",
+   "url": "https://help.sothebys.com/en/support/solutions/articles/44002518840",
+   "verdict": "supported",
+   "page_says": "‘within 30 calendar days from the sale date’, ‘60 days if you are a Sotheby’s Preferred member’ (NY, London, Paris, HK, Cologne, Geneva); ‘within 90 calendar days of the live auction will be transferred to Sotheby’s Greenford Park’; ‘£2 per case or part case per week’; ‘€10 per lot per month’.",
+   "note": "Primary."
+  },
+  {
+   "where": "v26.vaults[0] (genevafreeport) size and capital",
+   "claim": "76,261 m² leased site, ground rent CHF 2,510k; new building 14,500 m² net, delivery early 2028, fully let 15 years; net sales CHF 23,797k (2024: 23,603k); real estate 20,519k, logistics 3,278k; net profit 1,170k (2024: 2,307k); dividend 180k; KPMG",
+   "url": "https://geneva-freeports.ch/wp-content/uploads/2026/06/rapport-de-gestion_04.05.2026-id-39989.pdf",
+   "verdict": "supported",
+   "page_says": "‘pour une surface louée de 76’261 m2’; ‘la rente annuelle et constante du droit de superficie s’élève à 2’510 milliers de CHF’; ‘14’500 m2 nets’, ‘La livraison est prévue début 2028’, ‘loué en totalité pour une durée de 15 ans renouvelable’; produits nets 23’797 / 23’603; 20’519 / 3’278; résultat net 1’170 / 2’307; ‘Dividende 180’; KPMG; ‘détenus majoritairement par le Canton de Genève’.",
+   "note": "Primary, exact to the thousand francs. The entry calls 76,261 m² the ‘site’; the report calls it the leased area."
+  },
+  {
+   "where": "v26.vaults[30] (crozier_ny)",
+   "claim": "Four facilities totalling nearly 500,000 sq ft at the 2015 sale to Iron Mountain",
+   "url": "https://investors.ironmountain.com/news/news-details/2015/Iron-Mountain-Agrees-to-Acquire-Crozier-Fine-Arts/default.aspx",
+   "verdict": "supported",
+   "page_says": "‘The transaction includes four storage facilities totaling nearly 500,000 square feet.’ Release of 14 October 2015.",
+   "note": "Eleven years old; the entry says so (‘per-site sizes not published’)."
+  },
+  {
+   "where": "v26.east.players[94] (almatymuseum) and east.wire[9]",
+   "claim": "Opened 12 Sept 2025; 10,000 sq m Chapman Taylor building; 700+ works; 14,000 visitors in three days, about 60,000 in 19 days; 38% …",
+   "url": "https://www.almaty.art/news/60000-visitors-in-september",
+   "verdict": "partly",
+   "page_says": "‘September 12, 2025’; ‘14,000 visitors passing through its doors in the first three days alone’; 60,000 by end-September; about 3,000 weekdays, up to 6,000 weekends; ‘38% of visitors were children under six, school children, and students’. No building size, no architect, no work count.",
+   "note": "The building, architect and ‘700 works’ are not on the cited museum page; they would rest on the second source (TAN, 30 April 2025, a pre-opening piece) — not fetched."
+  },
+  {
+   "where": "v26.east.players[118] (gstindia)",
+   "claim": "GST on art and cultural goods cut from 12% to 5% with effect from 22 September 2025; PIB factsheet lists statues, statuettes, engravings, prints, lithographs, ornamental articles, stone art ware",
+   "url": "https://pib.gov.in/FactsheetDetails.aspx?Id=150304",
+   "verdict": "partly",
+   "page_says": "Heading ‘GST Reduction on Art and Cultural Goods – From 12% to 5%’; items ‘statues, statuettes, original engravings, prints, lithographs, ornamental articles … stone art ware, and stone inlay work’; posted 22 SEP 2025; no effective date stated; paintings not listed.",
+   "note": "The effective date rests on IBEF/Business Standard, as the entry says. The factsheet does not name paintings, yet the Navigator’s India rule (v25.law_more in.import) still carries IGST ‘12% on paintings (U)’ — the two records disagree and neither cites the GST notification itself."
+  },
+  {
+   "where": "v26.east.wire[33] (ART SG)",
+   "claim": "Fourth edition closed with over 43,000 visitors; first co-presentation with S.E.A. Focus; over 100 exhibitors from 30-plus countries",
+   "url": "https://artsg.com/?p=70887",
+   "verdict": "supported",
+   "page_says": "‘closed its fourth edition on Sunday evening’ (22–25 January 2026); ‘over 43,000 visitors’; ‘debuted its inaugural co-presentation with S.E.A. Focus’; ‘over 100 exhibitors from more than 30 countries and territories’.",
+   "note": "The exhibitor count sits in the S.E.A. Focus sentence on the page; the entry reads it as the fair’s."
+  },
+  {
+   "where": "v26.deal.terms[3] (house guarantee)",
+   "claim": "Sotheby’s 10-K 2015: above the guarantee the house is ‘generally entitled to a share of the excess proceeds’; below it the house funds the shortfall; unsold, the house pays and takes the work into inventory; an irrevocable bidder pays ‘the predetermined price plus the buyer’s premium’",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000823094/000082309416000080/bid1231201510k_xbrl2015.htm",
+   "verdict": "supported",
+   "page_says": "‘Sotheby’s is generally entitled to a share of the excess proceeds’; ‘must perform under the auction guarantee by funding the difference between the sale price at auction’; ‘If the property does not sell, the amount of the auction guarantee must be paid’, ‘Sotheby’s takes ownership of the unsold property’; ‘the predetermined price plus the applicable buyer’s premium’.",
+   "note": "Primary; ‘(the overage)’ is the terminal’s gloss, not the filing’s word. The filing is from 2015, the last before the company went private."
+  },
+  {
+   "where": "v26.deal.cases[15] (kahlo-el-sueno-2025)",
+   "claim": "US$54,660,000 with fees (US$47m hammer), 20 Nov 2025, lot 13 of ‘Exquisite Corpus’, 24 lots, US$98,097,200, 100% sold",
+   "url": "https://en.thevalue.com/articles/frida-kahlo-painting-smashes-auction-record-sothebys-ny-2025",
+   "verdict": "supported",
+   "page_says": "‘Sold: US$54,660,000’; ‘Hammer Price: US$47,000,000’; ‘Estimate: US$40,000,000 - 60,000,000’; ‘Date: 20 November 2025’; ‘Lot 13’; ‘Number of Lots: 24’; ‘Sale Total: US$98,097,200’; ‘Sale Rate: 100%’; ‘Offered with an irrevocable bid, the lot was backed by a third-party guarantor’.",
+   "note": "Secondary (The Value); Sotheby’s own results page is not cited."
+  },
+  {
+   "where": "v26.deal.cases[3] (magritte-empire-ertegun-2024)",
+   "claim": "US$121.2m with fees (US$105m final bid), 19 Nov 2024; estimate ‘in excess of $95m’; ‘guaranteed by the house and backed by a third-party bid’; opened at US$75m; almost ten minutes",
+   "url": "https://www.theartnewspaper.com/2024/09/18/rene-magritte-lempire-des-lumieres-christies-95m-new-york-auctions",
+   "verdict": "partly",
+   "page_says": "‘estimated to sell for more than $95m at Christie’s New York this autumn’; evening sale ‘on 19 November in New York’; ‘from the collection of late interior designer Mica Ertegun’. No guarantee, no opening bid, no result; a sidebar teaser says ‘sold for a record $121.1m’.",
+   "note": "The cited TAN page is the September preview; the result, the guarantee and the US$75m opening rest on Artnet News (Nov 2024), which the common rules say refuses fetches. The sidebar’s US$121.1m differs from the terminal’s US$121.2m (Christie’s own figure is US$121,160,000, so both roundings exist; the house page is not cited)."
+  },
+  {
+   "where": "v24.law_europe uk.export (NAV_RULES.uk)",
+   "claim": "Paintings over 50 years £180,000 (portraits of British historical personages £10,000); ‘any other article over 50 years’ £65,000",
+   "url": "https://www.artscouncil.org.uk/sites/default/files/download-file/UK%20OGEL%20Value%20limits.pdf",
+   "verdict": "supported",
+   "page_says": "Category 11 oil or tempera over 50 years ‘£180,000’; category 8 portraits of British historical personages ‘£10,000’; category 1 ‘Any article over 50 years of age … £ 65,000’; photographs £10,000; textiles £12,000.",
+   "note": "Primary; undated PDF, no effective date stated (the terminal notes the trade’s call to raise the thresholds)."
+  },
+  {
+   "where": "v24.law_europe uk.import vat (NAV_RULES.uk)",
+   "claim": "Import VAT at 20% on a reduced valuation giving an effective 5% (VAT Act 1994 s.21); works of art, collectors’ items and antiques, 97.01–97.06",
+   "url": "https://www.gov.uk/hmrc-internal-manuals/imports/imps05200",
+   "verdict": "supported",
+   "page_says": "‘The Vat Act 1994, Section 21 gives the general valuation rules’; reduced valuation ‘giving an effective VAT rate of 5 per cent’; headings ‘97.01 to 97.05 … 97.06’; Published 10 April 2016, Updated 21 October 2026.",
+   "note": "The ‘over 100 years’ condition for antiques is not on this page (it is in the Act and in Notice 702)."
+  },
+  {
+   "where": "v24.law_europe fr.export (NAV_RULES.fr)",
+   "claim": "Paintings over 50 years €300,000 (was €150,000 before 2021); sculpture €100,000 (was €50,000)",
+   "url": "https://www.culture.gouv.fr/Media/Medias-creation-rapide/Certificats-et-AST_modifs-decret-seuils_13-01-2021.pdf",
+   "verdict": "supported",
+   "page_says": "‘Tableaux et peintures de plus de 50 ans’ 150 000 € → 300 000 €; ‘Art statuaire et sculpture … de plus de 50 ans’ 50 000 € → 100 000 €; dessins 15 000 → 30 000; aquarelles 30 000 → 50 000; estampes 15 000 → 20 000; photographies 15 000 → 25 000; décret n° 2020-1718 du 28 décembre 2020, from 1 January 2021.",
+   "note": "Primary. The terminal’s own unconfirmed list still says the 2021 thresholds ‘were not opened’ — stale, they were."
+  },
+  {
+   "where": "v24.law_europe it.export (NAV_RULES.it)",
+   "claim": "Art. 65 as amended by L. 17 marzo 2026 n. 40: threshold for deceased authors over 70 years rose from €13,500 to €50,000; above it an attestato (art. 68); below, a declaration under DPR 445/2000",
+   "url": "https://brocardi.it/codice-dei-beni-culturali-e-del-paesaggio/parte-seconda/titolo-i/capo-v/sezione-i-bis/art65.html",
+   "verdict": "supported",
+   "page_says": "Comma 3 a): ‘il cui valore … sia superiore a euro 50.000’; a-bis) library goods ‘euro 13.500’; comma 4 b) ‘inferiore a euro 50.000’; comma 4-bis ‘mediante dichiarazione ai sensi del testo unico di cui al decreto del Presidente della Repubblica’; note (1): L. 40/2026 modified comma 3 a) and introduced a-bis; ‘Aggiornato al 10/05/2026’.",
+   "note": "A legal-publisher mirror, not Normattiva; consistent with the circular of 24 April 2026."
+  },
+  {
+   "where": "v24.law_world us.import overlays (NAV_RULES.us)",
+   "claim": "IEEPA ‘reciprocal’ and fentanyl tariffs struck down by the Supreme Court on 20 Feb 2026 (Learning Resources v. Trump); art exempt as informational materials",
+   "url": "https://www.dlapiper.com/insights/publications/2026/02/us-supreme-court-holds-ieepa-does-not-authorize-tariffs",
+   "verdict": "unreachable",
+   "page_says": "Not fetched: the session allowlist refused the URL. A web search returned law-firm notes dated 20 February 2026 (Faegre Drinker, King & Spalding, Ropes & Gray, Pillsbury) titled ‘Supreme Court invalidates IEEPA tariffs in Learning Resources, Inc. v. Trump’.",
+   "note": "The figure is consistent with the search results; the cited page itself could not be opened here. The s.122 surcharge dates and the s.301 forced-labour tariffs (91 FR 47318) in the same field were not checked."
+  },
+  {
+   "where": "v24.law_europe uk.aml threshold (NAV_RULES.uk); STRATEGY §4",
+   "claim": "Art market participants’ threshold £10,000 since July 2026 (SI 2026/621); €10,000 from January 2020 to June 2026",
+   "url": "https://www.legislation.gov.uk/uksi/2026/621/made",
+   "verdict": "supported",
+   "page_says": "‘The Money Laundering and Terrorist Financing (Amendment) Regulations 2026’, made 9 June 2026, in force ‘21 days after the day on which these Regulations are made’ (30 June 2026); regulation 9: ‘In regulation 14, for “10,000 euros”, in each place it occurs, substitute “£10,000”.’",
+   "note": "Primary. ‘Since July 2026’ is a day late (in force 30 June 2026); STRATEGY’s ‘SI 2026/621 of June 2026’ is right."
+  },
+  {
+   "where": "v25.money_sales.lots[24] and [25] (Klimt Gertrud Loew; Freud)",
+   "claim": "Klimt ‘pursued by seven bidders’, £36.2m (US$47.9m) with fees, the Lewis Collection; Freud £29.3m (US$38.8m), estimate £25–35m, from Acquavella 1996",
+   "url": "https://www.sothebys.com/en/articles/editorial-the-london-sales-summer-season-achieve-the-highest-total-ever-in-europe",
+   "verdict": "supported",
+   "page_says": "‘pursued by seven bidders’ … ‘£36.2 million ($47.9 million)’; Freud ‘£29.3 million ($38.8 million)’, ‘£25-35 million’, ‘held in The Lewis Collection since it was acquired from Acquavella Galleries in 1996’; season £420.5 million; 26 June 2026.",
+   "note": "Primary. The page does not name Joe Lewis; the entry says ‘as reported’."
+  },
+  {
+   "where": "v25.players[1] (christies) scale (NET_PLAYERS)",
+   "claim": "Christie’s projected 2025 total US$6.2bn (+6%); auctions US$4.7bn (+8%); private US$1.5bn (24%); luxury US$795m (+17%); 20th/21st US$2.8bn; Old Masters US$182m (+24%)",
+   "url": "https://www.theartnewspaper.com/2025/12/17/christies-and-sothebys-end-2025-with-increased-sales-thanks-to-luxury-goods-trophy-lots-and-private-deals",
+   "verdict": "supported",
+   "page_says": "‘Christie’s will turnover $6.2bn overall’, up 6%; $4.7bn up 8%; private sales ‘24% of total revenue’; luxury $795m up 17%; 20th/21st $2.8bn up 6%; Old Masters $182m up 24%; Asia Pacific buyer spend down 3%.",
+   "note": "The US$1.5bn private-sales figure is implied by the page’s 24%, not printed."
+  },
+  {
+   "where": "STRATEGY §3 / v28.value.gaps[0] / Circle company model",
+   "claim": "79% of May 2026 New York evening-sale turnover third-party guaranteed (Pi-eX via TAN); US$2.5bn with fees against US$1.3bn in May 2025",
+   "url": "https://www.theartnewspaper.com/2026/06/29/why-one-season-of-successful-auctions-wont-transform-the-art-market",
+   "verdict": "supported",
+   "page_says": "‘a record 79% of the turnover at Christie’s, Sotheby’s and Phillips’s evening auctions’ backed by third-party guarantees, ‘data supplied by the London-based auction analysts Pi-eX’; ‘an aggregate $2.5bn (with fees)’, ‘almost double the $1.3bn … the previous May’; Scott Reyburn, 29 June 2026.",
+   "note": ""
+  },
+  {
+   "where": "STRATEGY §3 / v28.value.gaps[6] (the unpaid lot)",
+   "claim": "Chardin sold for US$28m June 2024; invoice due a week later; unpaid six months; late fees US$195,000; suit in Paris for US$28.7m; underbidder reported as the Kimbell",
+   "url": "https://artlyst.com/?p=157021",
+   "verdict": "supported",
+   "page_says": "‘record-breaking $28 million’; ‘sold in June’; ‘due a week after the close of the auction’; ‘the last six months’; ‘an additional $195,000 in late fees’; ‘bringing the total sum to $28.7 million’; court in Paris; ‘the painting’s underbidder was the Kimbell Art Museum in Fort Worth, Texas’; 17 December 2024.",
+   "note": "The page names the buyer; the terminal does not, which the people rules allow. TAN (13 Dec 2024), cited elsewhere, gives the price as €26.7m; the terminal mixes the two currencies across entries."
+  },
+  {
+   "where": "STRATEGY §4 / v28.tech.edge[2] (trust gap)",
+   "claim": "Only 38% of collectors and 27% of wealth managers report high trust in art-market data (Deloitte/ArtTactic 2025 via Paperjam); more than half name the lack of it as the obstacle",
+   "url": "https://en.paperjam.lu/article/art-and-wealth-10-key-takeaways-from-deloittes-2025-report",
+   "verdict": "partly",
+   "page_says": "‘Only 38% of collectors and 27% of wealth managers reported high levels of trust in art market data, according to Deloitte.’ Nothing about ‘more than half’; only ‘Valuation uncertainty, fragmented information and limited transparency continue to complicate investment decisions.’",
+   "note": "The ‘more than half’ clause is attributed in the bundle to Bloomberg, but STRATEGY §4 hangs it on Paperjam alone. The Deloitte report itself is not cited."
+  },
+  {
+   "where": "STRATEGY §4 / v28.tech.edge[4] (cost structure)",
+   "claim": "Sotheby’s 2024: 2,218 staff, US$813m commissions and fees, US$248m pretax loss, US$29.2m severance, US$2.76bn net debt",
+   "url": "https://www.irishtimes.com/business/2025/09/11/sothebys-annual-loss-more-than-doubles-to-248m",
+   "verdict": "supported",
+   "page_says": "‘annual pretax loss more than doubled to $248 million’; ‘from $994 million in 2023 to $813 million in 2024’; ‘to 2,218 employees’; ‘severance costs last year were $29.2 million’; ‘cut its long-term net debt from $3.55 billion to $2.76 billion’; FT copyright, 11 September 2025.",
+   "note": "Secondary relay of the FT’s reading of the bond-investor accounts; the accounts themselves are not public."
+  },
+  {
+   "where": "STRATEGY §5 / v28.tech.attempts[3] (Collectrium)",
+   "claim": "DMCA US$1,755,000, CFAA US$5,000, terms US$1; award January 2019, confirmed June 2019, N.D. Texas No. 3:16-cv-03404-D; copyright ‘thin’, reuse fair use",
+   "url": "https://www.grossmanllp.com/Damages-Awarded-But-Both-Sides-Claim-VictorynbspI",
+   "verdict": "supported",
+   "page_says": "‘$1,755,000 on a DMCA claim’ (1,755 wilful accesses at $1,000); ‘$5,000 on its CFAA claim’; ‘$1 (nominal damages)’; ‘the January arbitration award’, ‘confirmed by the federal court in June’; No. 3:16-cv-03404-D (N.D. Tex.); listings’ copyright ‘thin’; fair use; post 19 August 2019.",
+   "note": "The year 2019 is implied by the post date, not printed beside the award."
+  },
+  {
+   "where": "STRATEGY §5 / v28.tech.risks[1] (Christie’s breach)",
+   "claim": "US$990,000 settlement, final approval July 2025, more than 500,000 customers’ names, passport and driving-licence data, May 2024 RansomHub incident",
+   "url": "https://news.bloomberglaw.com/litigation/christies-pays-990-000-to-settle-ransomhub-data-breach-lawsuit",
+   "verdict": "supported",
+   "page_says": "‘agreed to pay $990,000 to settle litigation stemming from a 2024 RansomHub cyberattack’; ‘final approval order entered Tuesday by Judge Jesse M. Furman’ (S.D.N.Y.); ‘allegedly exposed the personal information of more than 500,000 customers’; ‘passport information and driver’s license numbers, alongside full names’; 29 July 2025.",
+   "note": "The page says ‘allegedly’ of the 500,000; ‘May’ 2024 is not on this page."
+  },
+  {
+   "where": "STRATEGY §4/§6 / v28.value.model.benchmarks (ArtTactic)",
+   "claim": "ArtTactic Analyst Pro £195 a month ex VAT; Analyst Pro+ £1,195 a year on sale (list £2,340)",
+   "url": "https://www.join.arttactic.com/store/p/arttactic-analyst-pro-membership",
+   "verdict": "supported",
+   "page_says": "‘£195.00 every month’, ‘Price Exclusive of VAT’; ‘£1,195.00 every 12 months’, original ‘£2,340.00 every 12 months’; ‘Cancel anytime, no contractual committment’.",
+   "note": "Primary (the vendor’s store)."
+  },
+  {
+   "where": "STRATEGY §6 / v28.value.rivals (1stDibs)",
+   "claim": "FY2025 net revenue US$89.6m (+2%); gross margin 73.0%; GAAP net loss US$13.7m (2024 US$18.6m); Q4 GMV US$90.2m (−5%); Q1 2026 adjusted EBITDA margin guidance 0–4%",
+   "url": "https://www.businesswire.com/news/home/20260227605469/en/1stDibs-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results",
+   "verdict": "supported",
+   "page_says": "‘Net revenue was $89.6 million, an increase of 2% year-over-year’; gross margin 73.0%; ‘GAAP net loss was $13.7 million, compared to $18.6 million’; ‘GMV was $90.2 million, a decrease of 5%’; guidance 0% to 4%; 27 February 2026.",
+   "note": "Primary (the company’s release)."
+  },
+  {
+   "where": "STRATEGY §4 / v28.tech.edge[6] (Bloomberg seat; Artnet–Artsy)",
+   "claim": "Bloomberg’s terminal at US$27,000–32,000 a seat, which Georgina Adam judged too high for the art trade; Artnet merged with Artsy in April 2026 with ‘dozens’ of layoffs",
+   "url": "https://www.theartnewspaper.com/2026/04/23/comment-%7C-how-viable-is-the-artnet-and-artsys-merger",
+   "verdict": "partly",
+   "page_says": "‘how many will pay for Bloomberg-type terminal costs which are about $27,000 to $30,000 a year?’; ‘officially merged last week’; ‘at least seven staff members of Artnet News’ laid off, ‘the exact number of redundancies has not been communicated’; Wolff will ‘develop additional data and information services’, ‘a sort of Bloomberg for the arts’.",
+   "note": "The upper bound (US$32,000) and the ‘judged too high’ are not in the page: she asks a question. ‘Dozens’ of layoffs is not in this page; if it comes from another outlet it needs its own citation."
+  },
+  {
+   "where": "STRATEGY §5/§6 / v28.value.rivals (Artprice)",
+   "claim": "Artmarket.com FY2025 revenue €8,497k (2024 €8,359k); net income €1k (2024 €654k); restructuring items",
+   "url": "https://www.ideal-investisseur.fr/en/actions-b/artmarket-net-income-drops-to-1keur-firm-focuses-on-ai/18378.html",
+   "verdict": "supported",
+   "page_says": "‘Revenue stood at €8,497K as of December 31, 2025, up €138K from €8,359K’; ‘The net result for the fiscal year stands at €1K … down from €654K in 2024’; absorption of The European Judicial Server (€494K), Artprice Inc. write-off (€1,143K), €850K current-account loss; 29 April 2026.",
+   "note": "Secondary relay of the company release; the AAP mirror of the release is also cited."
+  }
+ ],
+ "briefs": [
+  {
+   "input": "#1 collector, Singapore; buy Gerhard Richter painting (1990) in New York, to Singapore; US$3m; clean",
+   "score": 4,
+   "sections": [
+    "reading",
+    "money",
+    "road",
+    "walls",
+    "people",
+    "calendar",
+    "whispers",
+    "risks",
+    "next",
+    "letter"
+   ],
+   "worst": "Import VAT in Singapore (9.0%) … U — the Navigator still flags the 9% GST ‘rate unconfirmed, U’ although the v28 worked case verified it on IRAS; and the premium line cites ‘Sotheby’s buyer’s premium, sothebys.com/en/buy/buyers-premium’ as V, a page no research run opened.",
+   "note": "Ledger checked by hand: premium 28%×2m + 22%×1m = US$780,000 (matches the worked case); GST 9% on 3.78m = 340,200; totals 4,128,130–4,149,080 add up. Three Richter lots, so ‘the median $8.86m’ is the middle of three. No Zero-GST warehouse option, which the worked case names. Gates sensible."
+  },
+  {
+   "input": "#2 collector, Lagos; buy Ben Enwonwu painting (1965) in London, to Lagos; £150,000 typed, read as US$150,000; clean",
+   "score": 2,
+   "sections": [
+    "reading",
+    "money",
+    "road",
+    "walls",
+    "people",
+    "calendar",
+    "whispers",
+    "risks",
+    "next",
+    "letter"
+   ],
+   "worst": "The whispers section opens with ‘On 5 November 2026 a Paris court ordered the restitution … of Pissarro’s Darse de pêche’ — matched on the word ‘london’, nothing to do with Enwonwu or Lagos.",
+   "note": "The Nigeria import gate warns of a 20% ECOWAS duty (U) but the ledger charges no duty (NAV_RULES.ng.imp.duty_rate = 0, src []), so the landed total is understated by about US$38,000 on its own reading. No VAT on the London premium (20%, refundable on export) in the ledger. The parser took ‘£150,000’ as dollars. Enwonwu is not in the Hammer and the memo says nothing about him. The people list for London omits Sotheby’s and offers MacDougall’s (Russian art) and Saffronart."
+  },
+  {
+   "input": "#3 dealer, Almaty; sell Wassily Kandinsky painting (1913) in London, the work in Almaty; US$2m; clean",
+   "score": 1,
+   "sections": [
+    "reading",
+    "money",
+    "road",
+    "walls",
+    "people",
+    "calendar",
+    "whispers",
+    "risks",
+    "next",
+    "letter"
+   ],
+   "worst": "‘Getting the work to the room: $134,430–$152,380 on top (the Navigator’s ledger from United States to United Kingdom)’ — the work is in Almaty; the Navigator does not know Kazakhstan and silently substituted the United States.",
+   "note": "‘Wassily Kandinsky in the Hammer: 1 lot since 2026, the record $41.8m …, the median $41.8m’ — a record and a median from one lot. ‘The consignor receives $2.00m on the terms the Deal Room assumes (seller’s commission 0% …)’ — the house research in the same bundle says Sotheby’s standard seller’s commission is 10%. Kazakh export control (the 1992 Law on the Export and Import of Cultural Property) absent."
+  },
+  {
+   "input": "#4 executor, Lima; sell Fernando de Szyszlo painting (1975) in New York, the work in Lima; US$400,000; clean",
+   "score": 3,
+   "sections": [
+    "reading",
+    "money",
+    "road",
+    "walls",
+    "people",
+    "calendar",
+    "whispers",
+    "risks",
+    "next",
+    "letter"
+   ],
+   "worst": "‘the consignor receives $400,000 on the terms the Deal Room assumes (seller’s commission 0%, enhanced hammer 0%, a third-party irrevocable bid)’ — a third-party guarantee and a nil commission assumed for a US$400,000 lot.",
+   "note": "Peru is known (export licence conditional, AML conditional) — good. The artist is not in the Hammer and the reading says nothing about him, not even ‘no lot in the sample’, because the name is not in ARTISTS. Calendar correct for New York. The reading is the generic post-war tide."
+  },
+  {
+   "input": "#5 collector, Tbilisi; move Niko Pirosmani painting (1910) from Tbilisi to Paris; US$1.2m; clean",
+   "score": 1,
+   "sections": [
+    "reading",
+    "money",
+    "road",
+    "walls",
+    "people",
+    "calendar",
+    "whispers",
+    "risks",
+    "next",
+    "letter"
+   ],
+   "worst": "‘Export licence — open: No export licence for works of art as such. Export rules touch art only through CITES/ESA … OFAC … EAR’ — the memo applies the United States’ export regime to a work in Georgia; Pirosmani is the Georgian national painter and the move would need the Ministry of Culture’s permit.",
+   "note": "J.from fell back to ‘us’. The playbook attached is ‘Export from the UK (licence)’. The walls quote EAR Supplement 5. Nothing in the memo says the terminal does not know Georgia."
+  },
+  {
+   "input": "#6 collector, Auckland; buy Zao Wou-Ki painting (1960) in Hong Kong, to Auckland; US$5m; clean",
+   "score": 1,
+   "sections": [
+    "reading",
+    "money",
+    "road",
+    "walls",
+    "people",
+    "calendar",
+    "whispers",
+    "risks",
+    "next",
+    "letter"
+   ],
+   "worst": "‘Use tax at home (Washington DC 6% to New York City 8.875%) $373,200–$552,025’ — for a buyer in Auckland. New Zealand is not in the Navigator; the destination became ‘us’ and the ledger charges American use tax instead of New Zealand’s 15% GST on import.",
+   "note": "The Net knows Webb’s in Auckland, so the people section is right while the money is wrong — the two engines do not share a map of the world. ‘Tax at home — conditional’ gate also American. Hong Kong side sensible."
+  },
+  {
+   "input": "#7 adviser, London; buy Wassily Kandinsky painting (1912) in New York, to Moscow; US$20m; counterparty designated (exposed)",
+   "score": 2,
+   "sections": [
+    "reading",
+    "money",
+    "road",
+    "walls",
+    "people",
+    "calendar",
+    "whispers",
+    "risks",
+    "next",
+    "letter"
+   ],
+   "worst": "The letter: ‘3. the shipping and insurance from New York to Moscow, with the export licence lead time (the terminal reads 4–14 weeks)’ — drafted to the head of sale for a designated person’s purchase that the same memo’s wall has just closed (EO 14024, EAR Supp. 5, Schedule 3A).",
+   "note": "The wall itself is right and well sourced, and the file is attached. But the memo does not stop: the ledger prices ‘Import VAT in Russia (20.0%) $4.74m’, the next steps say ‘Register with the house before the sale’ and ‘Instruct a fine-art shipper early’, and the risks list Christie’s 30-day damage rule from the consignor’s playbook. README’s ‘a closed road stops there’ is not what the engine does."
+  },
+  {
+   "input": "#8 specialist, Milan; move an Old Masters painting (1620) from Milan to Geneva; US$800,000; clean",
+   "score": 4,
+   "sections": [
+    "reading",
+    "money",
+    "road",
+    "walls",
+    "people",
+    "calendar",
+    "whispers",
+    "risks",
+    "next",
+    "letter"
+   ],
+   "worst": "‘Sanctions screening — open: … a buyer in his own name, paying from his own account, clears it in a day’ — boilerplate for a move with no buyer.",
+   "note": "Italy’s attestato gate fires (1620, above €50,000, the 2026 thresholds); AML conditional; Swiss 8.1% import VAT; the export-it-attestato playbook with the April 2026 circular. The free-port alternative (bond, VAT suspended) is not offered although the destination is Geneva."
+  },
+  {
+   "input": "#9 collector, Tokyo; move an ivory netsuke (Asian Art sculpture, 1850) from Tokyo to London; US$40,000; clean",
+   "score": 1,
+   "sections": [
+    "reading",
+    "money",
+    "road",
+    "walls",
+    "people",
+    "calendar",
+    "whispers",
+    "risks",
+    "next",
+    "letter"
+   ],
+   "worst": "No wildlife gate at all: the Brief never passes materials to the Navigator (navPlan is called without ‘mats’), so an ivory object raises neither CITES nor the UK Ivory Act 2018, and the reading offers ‘The women artists’ tide — rising, strength 4/5. Frida Kahlo’s El sueño …’.",
+   "note": "The parser has no word for ivory, tortoiseshell or rosewood (the Navigator’s own form has them). The risks are UK export rules (‘Failure to return a temporarily exported object … Order 2003’) for a move into the UK. The playbook attached is ‘Export from the UK’."
+  },
+  {
+   "input": "#10 lender, Geneva; borrow against Pablo Picasso painting (1932); US$10m; 3 years; clean",
+   "score": 2,
+   "sections": [
+    "reading",
+    "money",
+    "road",
+    "walls",
+    "people",
+    "calendar",
+    "whispers",
+    "risks",
+    "next",
+    "letter"
+   ],
+   "worst": "The letter: ‘Dear [name], the lender, I am a lender or a bank in Geneva. I am considering a loan against Pablo Picasso’s painting of 1932 … 1. your advance rate, the rate of interest and the term’ — a lender writing to a lender; the persona and the task contradict and the engine does not notice.",
+   "note": "The only product is Sotheby’s Financial Services (US, California licence); no Swiss bank, no Swiss pledge law (possession requirement under art. 884 CO), no Geneva free-port custody. The Transformation’s borrow stage is quoted."
+  },
+  {
+   "input": "#11 museum, Paris; lend Claude Monet painting (1899) from Paris to New York; US$30m; clean",
+   "score": 3,
+   "sections": [
+    "reading",
+    "money",
+    "road",
+    "walls",
+    "people",
+    "calendar",
+    "whispers",
+    "risks",
+    "next",
+    "letter"
+   ],
+   "worst": "‘From the playbook Lending under UK Government Indemnity’ — attached to a Paris-to-New-York museum loan; the US Immunity from Seizure Act (22 U.S.C. §2459) and the Arts and Artifacts Indemnity Act are absent.",
+   "note": "The French export step (certificate/AST, Ministère de la Culture) and ‘no sale: no AML’ are right. Insurance line is a percentage of value only."
+  },
+  {
+   "input": "#12 insurer, Hong Kong; insure Yayoi Kusama painting (2005); US$2m; clean",
+   "score": 3,
+   "sections": [
+    "reading",
+    "money",
+    "road",
+    "walls",
+    "people",
+    "calendar",
+    "whispers",
+    "risks",
+    "next",
+    "letter"
+   ],
+   "worst": "‘Yayoi Kusama in the Hammer: 2 lots since 2022, the record $10.5m …, the median $10.5m’ — a median of two lots, and it is the higher one.",
+   "note": "The insurance playbook (0.1–2% a year, carriers named, valuation cycle) is sensible; people lists AXA XL and Chubb in Hong Kong. Kusama’s death (reported August 2026, in the terminal’s own unconfirmed list) is not mentioned in a reading for a Kusama insurance value."
+  },
+  {
+   "input": "#13 family office, Dubai; give an Impressionist & Modern painting (1885); US$5m; clean",
+   "score": 1,
+   "sections": [
+    "reading",
+    "money",
+    "road",
+    "walls",
+    "people",
+    "calendar",
+    "whispers",
+    "risks",
+    "next",
+    "letter"
+   ],
+   "worst": "‘Obtain a qualified appraisal and complete Form 8283 Section B — the donor; the qualified appraiser; the donee museum signs Form 8283’ — the US income-tax deduction procedure served to a family office in Dubai, where there is no such deduction.",
+   "note": "The ‘give’ task has one playbook (donate-us-museum) and it is served to every city. Letter asks for ‘the appraisal the tax authority will require’ and ‘the timing against the tax year’."
+  },
+  {
+   "input": "#14 collector, Mumbai; value M. F. Husain painting (1970); US$50,000; clean",
+   "score": 1,
+   "sections": [
+    "reading",
+    "money",
+    "road",
+    "walls",
+    "people",
+    "calendar",
+    "whispers",
+    "risks",
+    "next",
+    "letter"
+   ],
+   "worst": "‘The money: The appraisal fee; the Statement of Value user fee (updated biannually); counsel … Obtain a qualified appraisal and complete Form 8283 Section B’ — an Indian collector asking for a valuation is given the IRS donation playbook.",
+   "note": "‘value’ maps to playbookFor('appraisal valuation') which returns the US donation playbook. Husain is in the Hammer? The reading shows only the post-war tide, so no. Nothing on Indian registered valuers or the Antiquities Act registration."
+  },
+  {
+   "input": "#15 lawyer, London; check a Post-War painting (2010) and a counterparty; US$1m; counterparty an agent (principal unknown)",
+   "score": 4,
+   "sections": [
+    "reading",
+    "money",
+    "road",
+    "walls",
+    "people",
+    "calendar",
+    "whispers",
+    "risks",
+    "next",
+    "letter"
+   ],
+   "worst": "The reading: ‘The post-war tide — turning, strength 4/5. Post-war is still the largest auction sector …’ — a market tide offered to a lawyer running a title and counterparty check.",
+   "note": "The Art Loss Register tariff (£85/€100/$110, ALR 2026), the principal file (MLR 2017 reg. 28(4) and (10), Sotheby’s conditions 16(a)–(b)) and the patterns are the right content. People section absent (no ‘advisor/data/regulator’ in London matched)."
+  },
+  {
+   "input": "#16 dealer, Berlin; open a gallery; US$200,000; clean",
+   "score": 1,
+   "sections": [
+    "reading",
+    "money",
+    "road",
+    "walls",
+    "people",
+    "calendar",
+    "whispers",
+    "risks",
+    "next",
+    "letter"
+   ],
+   "worst": "‘£740 for a single-premises gallery with one approved person in year one (£300 + £400 + £40), then £400 a year per premises (HMRC, fees from 1 December 2025)’ — HMRC’s registration fees served to a dealer opening in Berlin.",
+   "note": "The ‘open’ task has one playbook (gallery-uk-aml-registration). German law (GwG §2(1) no. 16 for Güterhändler and Kunstvermittler, no registration fee; the Umsatzsteuer 7% on art sales since 2025, which the bundle itself carries) is not used."
+  },
+  {
+   "input": "#17 collector, Moscow; buy Natalia Goncharova painting (1912) in London, to Moscow; US$500,000; clean",
+   "score": 2,
+   "sections": [
+    "reading",
+    "money",
+    "road",
+    "walls",
+    "people",
+    "calendar",
+    "whispers",
+    "risks",
+    "next",
+    "letter"
+   ],
+   "worst": "‘Import VAT in Russia (20.0%) … $128,000 U’ in the ledger of a purchase the wall above has closed under regulation 46B and Schedule 3A.",
+   "note": "The sanctions wall is right (a person connected with Russia; no price threshold). The export licence gate is conditional (Goncharova 1912: over 50 years, over £180,000 — right). The letter still asks the head of sale for ‘the shipping and insurance from London to Moscow’."
+  },
+  {
+   "input": "#18 collector, New York; buy Andy Warhol painting (1964) in New York, kept in New York; US$200m; clean",
+   "score": 4,
+   "sections": [
+    "reading",
+    "money",
+    "road",
+    "walls",
+    "people",
+    "calendar",
+    "whispers",
+    "risks",
+    "next",
+    "letter"
+   ],
+   "worst": "‘Andy Warhol in the Hammer: 3 lots since 2022, the record $195.0m …, the median $84.5m’ — a median from three lots that are all trophies.",
+   "note": "Ledger checked by hand: premium 28%×2m + 22%×6m + 15%×192m = US$30.68m; NYC sales tax 8.875% on 230.68m = US$20.47m; total US$251.45m — right on the Navigator’s rules. No mention that at this level the premium is negotiated or given back."
+  },
+  {
+   "input": "#19 collector, Shanghai; buy Li Hua print (1947) in Hong Kong, to Shanghai; US$5,000; clean",
+   "score": 2,
+   "sections": [
+    "reading",
+    "money",
+    "road",
+    "walls",
+    "people",
+    "calendar",
+    "whispers",
+    "risks",
+    "next",
+    "letter"
+   ],
+   "worst": "‘The money’s road — closed: China (mainland) controls its capital: a resident may not send $5,000 abroad to pay for a work of art without an approval that is not given for this.’ — no rule text, no source, and the individual’s US$50,000 annual facilitation quota is not mentioned; the road is declared closed for a five-thousand-dollar print.",
+   "note": "The fee floor does not scale: a US$5,000 print ‘lands’ at US$10,742–22,707 because the condition report, crate, air freight and brokers are the same lines as for a US$3m painting. The risks list Christie’s 30-day damage rule from the consignor’s playbook. The artist is unknown and silently dropped."
+  },
+  {
+   "input": "#20 journalist, Tokyo; check an Asian Art painting (1700) and a counterparty; US$100,000; counterparty politically exposed",
+   "score": 1,
+   "sections": [
+    "reading",
+    "money",
+    "road",
+    "walls",
+    "calendar",
+    "whispers",
+    "risks",
+    "next",
+    "letter"
+   ],
+   "worst": "‘A designated or politically exposed counterparty: the file — A designated Russian businessman cannot lawfully buy a Kandinsky at a New York sale or have it taken to Moscow …’ — the Russia sanctions file served for a politically exposed person in Japan; the PEP file the bundle holds (MLR 2017 reg. 35; Obiang; 1MDB) is never used by the Brief.",
+   "note": "‘exposed’ is one bucket for designated persons and PEPs, and the Brief always opens the Kandinsky file for it. People section absent. The ALR search step is the right content for the title half of the task."
+  },
+  {
+   "input": "#21 executor, Greenwich (Connecticut); sell Mark Rothko painting (1957) in New York; US$20m; clean",
+   "score": 3,
+   "sections": [
+    "reading",
+    "money",
+    "road",
+    "walls",
+    "people",
+    "calendar",
+    "whispers",
+    "risks",
+    "next",
+    "letter"
+   ],
+   "worst": "‘the consignor receives $20.0m on the terms the Deal Room assumes (seller’s commission 0%, enhanced hammer 0%, a third-party irrevocable bid); the house nets $3.18m’ — the estate is told it would net 100% of a US$20m hammer.",
+   "note": "‘Greenwich’ is not a known city; the engine fell back to ‘us’, which happens to be right (it would be equally ‘us’ for Greenwich, London). The calendar lists the right New York sales of 16–18 November 2026. ‘Mark Rothko … the median $85.7m’ from six trophy lots, offered to a seller at US$20m."
+  },
+  {
+   "input": "#22 collector, Riyadh; buy an Old Masters painting (1650) in Paris, to Riyadh; US$3m; clean",
+   "score": 3,
+   "sections": [
+    "reading",
+    "money",
+    "road",
+    "walls",
+    "people",
+    "calendar",
+    "whispers",
+    "risks",
+    "next",
+    "letter"
+   ],
+   "worst": "‘Import at the border — conditional: 5% customs duty on works of art under the GCC tariff (U). 15% VAT on import (U).’ — both Saudi lines unverified, and they are the two largest costs after the premium (US$189,000 and US$595,350).",
+   "note": "French export gate right (over 50 years and €300,000); ledger arithmetic right (duty on hammer+premium, VAT on the duty-paid value). The EU licence under Regulation 116/2009 for leaving the Union is not named in the gate text. Saudi apostille authority ‘Not established’."
+  },
+  {
+   "input": "#23 shipper, Mexico City; move Frida Kahlo painting (1940) from Mexico City to Miami; US$10m; clean",
+   "score": 3,
+   "sections": [
+    "reading",
+    "money",
+    "road",
+    "walls",
+    "people",
+    "calendar",
+    "whispers",
+    "risks",
+    "next",
+    "letter"
+   ],
+   "worst": "After ‘Export licence — closed’ (Kahlo’s work is a declared national artistic monument), the ledger still prices ‘Use tax at home (Washington DC 6%; New York City 8.875%) $600,000–$887,500’ for a work going to Miami (Florida use tax 6%).",
+   "note": "The Mexico wall is the right call and the memo flags the closed road in the risks. The playbook attached is ‘Export from the UK’. The letter is addressed to ‘the shipper’ by a shipper."
+  },
+  {
+   "input": "#24 collector, Sydney; buy Emily Kame Kngwarreye painting (1994) in New York, to Sydney; US$1m; clean",
+   "score": 2,
+   "sections": [
+    "reading",
+    "money",
+    "road",
+    "walls",
+    "people",
+    "calendar",
+    "whispers",
+    "risks",
+    "next",
+    "letter"
+   ],
+   "worst": "The reading says nothing about Emily Kame Kngwarreye at all — not even ‘no lot in the Hammer’s sample’ — because the name is not in ARTISTS and the memo drops an unknown artist silently; it opens with ‘The post-war tide’.",
+   "note": "Australia is known (10% GST on import, U). People lists Deutscher and Hackett, Menzies, Smith & Singer. Australia’s Protection of Movable Cultural Heritage Act (relevant on resale/export of Aboriginal art) absent."
+  },
+  {
+   "input": "#25 artist’s foundation, Basel; sell Alberto Giacometti sculpture (1950) in Hong Kong, the work in Basel; US$50m; counterparty an agent",
+   "score": 3,
+   "sections": [
+    "reading",
+    "money",
+    "road",
+    "walls",
+    "people",
+    "calendar",
+    "whispers",
+    "risks",
+    "next",
+    "letter"
+   ],
+   "worst": "‘the consignor receives $50.0m on the terms the Deal Room assumes (seller’s commission 0%, enhanced hammer 0%, a third-party irrevocable bid); the house nets $6.93m’ — at US$50m the trade negotiates an enhanced hammer and a guarantee fee; the memo prices none of it.",
+   "note": "Swiss export open (no federal-register entry), AML conditional in Switzerland, the agent/principal file attached. The sculpture tide is pulled. The Giacometti Foundation’s own role (authentication by the Comité Giacometti) is not named."
+  }
+ ],
+ "depth": [
+  {
+   "engine": "The Hammer (RESULTS)",
+   "count": "154 lots since 1990: 56 in 2026, 14 in 2025, 8 in 2024, 3 in 2023, 20 in 2022, 12 in 2021, 2 in 2020; Impressionist & Modern 61, Post-War 52, Sculpture 13, Old Masters 10, Collectibles 7, Asian 6, Luxury 4, Digital 1; Christie’s 74, Sotheby’s 69, Phillips 7, Poly 2, Freeman’s 1, Heritage 1; New York 83, London 44, Paris 12, Hong Kong 7; 83 artists, of whom 54 have one lot, 13 two, 10 three, 6 more than three; 8 lots under US$1m, the smallest US$220,000",
+   "thin": "No lot carries a source or a V/S/U flag (fields: artist, title, year, price, house, city, date, cat, rec, note, id, chain, rank; 71 carry a research ‘fin’ block). The README’s ‘every figure … carries a verification flag and links its source’ is untrue of the terminal’s central table. A ‘record and median’ per artist rests on one to three trophy lots for 77 of 83 artists; there is nothing in the band where the Circle’s first-time buyer or sub-US$50,000 consignor trades; 2023 is almost empty (the bundle’s own unconfirmed list names the US$67m Basquiat, US$74m Monet and US$46m Diebenkorn as missing).",
+   "evidence": "pw_depth.js over RESULTS; src/data_market.js lot literals; the lot page (src/app.js openLot) links only Wikimedia and Google image searches, no result page of the house."
+  },
+  {
+   "engine": "Private treaty and upcoming (PRIVATE_TREATY, UPCOMING)",
+   "count": "26 reported private sales (10 with src and vf, 16 with neither); 12 upcoming lots, all with src",
+   "thin": "16 private sales unsourced and unflagged; the Lab’s instrument counts only the 10.",
+   "evidence": "pw_lots.js field counts."
+  },
+  {
+   "engine": "The Net (NET_PLAYERS)",
+   "count": "330 players: 108 collectors, 85 dealers, 51 houses, 22 fairs, 12 lenders, 9 advisers, 7 storage, 7 insurers, 6 data, 5 shippers, 5 regulators, 5 museums, 4 freeports, 4 foundations; 121 city strings; New York 55, London 23, Moscow 18, Seoul 14, Paris 12, Istanbul 10, Shanghai 9; Hong Kong 4, Geneva 2, Singapore 4, Almaty 3, Tbilisi 2, Auckland 1, Lagos 0, Lima 0",
+   "thin": "vf: V 18, S 165, U 147 (45% unverified); 91 players with no source at all. Hong Kong, the third sale room, has four players; Geneva two.",
+   "evidence": "pw_depth.js over NET_PLAYERS."
+  },
+  {
+   "engine": "The Navigator (NAV_RULES)",
+   "count": "32 jurisdictions with 6–8 rule sections each (export, import, AML, sanctions, apostille, CITES, freeport, capital); sources per jurisdiction: us 26, uk 14, ch 9, fr 8, ca 8, de 6, it 6, es 6, ru 6, bd 6, nl 5, cn 5, sg 4, ar 4, hk 3, in 3, ng 3, jp 2, kr 2, mx 2, au 2, eg 2, pk 2, id 2, vn 2, qa 1, sa 1, br 1, tr 1, il 1, pe 0",
+   "thin": "22 of 32 jurisdictions are thin (four or more U sections, or three or fewer sources): hk, sg, cn, jp, kr, qa, sa, in, ru, mx, br, au, pe, bd, ar, eg, ng, pk, tr, id, vn, il. Peru has six U sections and no source. The globe knows 505 cities; the Navigator 32 countries, and any other place (Almaty, Tbilisi, Auckland, Greenwich) becomes ‘us’ without a word. Nigeria’s duty text says 20% but its duty_rate is 0 with no source; Singapore’s 9% GST is still U although v28 verified it on IRAS; India carries IGST ‘12% on paintings (U)’ beside the East’s ‘GST cut to 5% from 22 Sept 2025’.",
+   "evidence": "pw_depth.js nav.per; pw_consts.js (ng, sg); bundle v25.law_more in.import vs v26.east gstindia; src/brief.js briefPlan J fallback ‘us’."
+  },
+  {
+   "engine": "Tides (TIDES)",
+   "count": "32 tides; 23 city temperatures (V 11, S 12); 14 reports; evidence rows: top-end 6, sculpture 7, design 6, old-masters 6, impressionist-modern 6, single-owner 6, post-war 5, ultra-contemporary 5, women-artists 5, indian-modern 5, hong-kong-mainland 5, paris 5, luxury 5, gulf 5, seoul 5, middle-market 4, london 4, us-share 3, online 3, private-sales 3, art-lending 3, chinese-art 3, gen-z 3, memorabilia 2, african 2, photography 2, prints-editions 2, latin-american 2, antiquities 2, tokyo 2, southeast-asian 1, digital-nfts 1",
+   "thin": "Nine tides carry a direction and a strength on two evidence rows or fewer; two on one row. Rumours: one across all 32 tides, so ‘rumours labelled’ is a field that is empty. The Brief’s tideFor() returned ‘the women artists’ tide’ for an Asian Art sculpture.",
+   "evidence": "pw_depth.js tides.evidenceRows; briefs_raw.json #9."
+  },
+  {
+   "engine": "Collectors (the ocean’s)",
+   "count": "109 collectors (V 7, S 66, U 36); wealth figures for 8; ‘rumour’ field used for 4; the Salon’s own list 24",
+   "thin": "A third unverified; the ARTnews Top 200 list (a PDF copy on a third-party site) is the source for most; several entries say ‘not documented as significant art collectors … included because the brief names him’ (Zuckerberg, Dell, Koch, Tisch).",
+   "evidence": "pw_depth.js collectors; cand_v27.txt collectors[40–43]."
+  },
+  {
+   "engine": "Currents (CURRENTS)",
+   "count": "51 cases (V 27, S 24): sanctions 8, corruption 8, fraud 8, antiquities 8, laundering 6, tax 5, forgery 4, securities 3, freeport 1; every case has an outcome; 14 patterns; 7 free ports",
+   "thin": "The best-built engine: primary sources (DOJ, CPS, FATF, Senate PSI) for half. The bundle had 52 cases; one was held back. Hong Kong and the Dutch/Belgian free ports have no case (the bundle says so).",
+   "evidence": "pw_depth.js currents; v27.currents.unconfirmed."
+  },
+  {
+   "engine": "Whispers (WHISPERS)",
+   "count": "125 entries (76 from v27 plus 49 from the v28 week): 73 ‘fact’, 39 ‘report’, 10 ‘prediction’, 3 ‘rumour’; by month: Nov 2026 18, Sep 17, Oct 15, Jul 15, May 14, Aug 9, Mar 9, Jun 6, Jan 5, Apr 4, Feb 0, and 13 from 2025; 49 with an outcome; 23 forecasters; vf S 105, V 17, U 3",
+   "thin": "‘What the trade is saying before it happens’ is 58% reported facts after the event; 13 of 125 are predictions or rumours. February 2026 is empty and January–April carry 18 entries against 50 for September–November, so the forecasters’ records are scored on a few months.",
+   "evidence": "pw_depth.js whispers."
+  },
+  {
+   "engine": "Playbooks (PLAYBOOKS)",
+   "count": "33 playbooks, 120 steps (V 20, S 11, U 2); by jurisdiction: uk 8, us 7, any 6, eu 3, fr 2, ch 2, it 1, in 1, cn 1, ru 1, hk 1",
+   "thin": "No playbook for Germany, Japan, Korea, the UAE, Singapore, Australia, Mexico, Brazil, Canada or Nigeria, so playbookFor() hands the UK AML registration to a Berlin gallery, the IRS Form 8283 route to a Dubai gift and a Mumbai valuation, UK Government Indemnity to a Paris–New York loan, and ‘Export from the UK’ to moves out of Tokyo, Tbilisi and Mexico City.",
+   "evidence": "pw_depth.js playbooks.byJ; briefs_raw.json #5, #9, #11, #13, #14, #16, #23."
+  },
+  {
+   "engine": "Worked cases (CASES)",
+   "count": "20 cases (sell 6, buy 5, settle 3, check 1, claim 1, move 1, value 1, borrow 1, lend 1); vf S 11, V 5, U 4",
+   "thin": "Four cases rest on unverified money lines (Shanghai, Lagos, Geneva loan, Paris museum loan); the Lagos case carries no Bonhams premium tiers; the Geneva loan case’s advance rate and interest are ‘from memory’.",
+   "evidence": "pw_depth.js cases; cand_v28.txt."
+  },
+  {
+   "engine": "The Walls (WALLS)",
+   "count": "Kandinsky file: 13 walls (V 6, S 4, U 3) and 9 cases; six further files: pep 4 walls/2 cases, principal 3/2, provenance 6/3, protected 4/0, tax 2/2, export 5/1",
+   "thin": "The ‘protected’ file (CITES, ivory) has no case; the Brief never opens it. Three Kandinsky walls are U (the EU asset freeze, the ‘no Russia’ clause, the US tariffs) and the US export-control wall rests on a third-party mirror of 15 CFR 746.10 (the terminal’s own Navigator text says §746.10 ‘is now reserved’ and the rule sits in §746.8 — the two engines disagree).",
+   "evidence": "pw_depth.js walls; cand_v28.txt walls[1], walls[4], walls[7], walls[8]; briefs_raw.json #5 walls text."
+  },
+  {
+   "engine": "Sources (SOURCES)",
+   "count": "70 sources: regional 11, database 9, journalist 9, press 7, newsletter 6, law 6, report 6, registry 4, academic 4, podcast 3, fair 3, social 2; vf U 38, V 18, S 14; a numeric price for 8 (6 of them V); ‘free’ for 38",
+   "thin": "‘What each costs’ is known for eight of seventy; 54% of the entries are unverified; the Artnet and Artprice price lists, the two that matter, were never opened.",
+   "evidence": "pw_depth.js sources."
+  },
+  {
+   "engine": "Vaults (VAULTS)",
+   "count": "62 sites: storage 40, bonded 10, freeport 6, museum-grade 6; vf V 38, S 24",
+   "thin": "Fees published for 2 of 62; capacity or value stored for a handful; the Geneva report is the one primary financial source.",
+   "evidence": "pw_depth.js vaults."
+  },
+  {
+   "engine": "Season (EVENTS)",
+   "count": "80 events to June 2027: fairs 29, exhibitions 27, biennales 14, sales 6, conferences 2, openings 2; vf V 19, S 55, U 6",
+   "thin": "Six sale entries carry the whole auction calendar; the Brief’s calendar section for any city outside New York and London is empty or generic.",
+   "evidence": "pw_depth.js events; briefs_raw.json calendar sections."
+  },
+  {
+   "engine": "The Lab’s ‘How much is verified’ instrument",
+   "count": "444 flagged figures in 17 collections: 50% V, 46% S, 4% U; 844 distinct links on 362 sites; results counted 71 (8 V, 50 S, 13 U, 11% verified)",
+   "thin": "The headline excludes NET_PLAYERS (330, 45% U), NAV_RULES (32), TIDES, CURRENTS, WHISPERS, PLAYBOOKS, CASES, WALLS, SOURCES (54% U), VAULTS and EVENTS, i.e. the v25–v28 research that now makes most of the page; ‘2 Nov 2026 is the one verification date every V flag carries’ is stale against research dated 12–16 November.",
+   "evidence": "pw_lab6.js text of instrument six."
+  },
+  {
+   "engine": "Other collections",
+   "count": "NGA provenance histories 771 (115 artists); movements 58; houses 16; people 96; hubs 31; regimes 18; Atlas undercurrents 71; Net markets 43; KB 14; news 40; stories 18; signals 16; Ask index 2,735 records (README says about 1,900)",
+   "thin": "The 96 people are the houses’ staff lists; the People view has no compliance status field. KB (what the desk learned) holds 14 entries.",
+   "evidence": "pw_depth.js misc; kxCount()."
+  }
+ ],
+ "rules": [
+  {
+   "rule": "people",
+   "where": "Currents: ‘United States v. Bonham-Carter’ and ‘The Manhattan subpoenas … and the Deripaska artworks indictment (2022)’ (CURRENTS.cases deripaska-bonham-carter, us-subpoenas-russian-collectors-2023)",
+   "text": "‘Graham Bonham-Carter: indicted in the SDNY on three counts (IEEPA conspiracy, IEEPA violation, wire fraud, each up to 20 years) and arrested in the UK on 11 Oct 2022 … later plea and sentence’; outcome: ‘Indicted and arrested Oct 2022; disposition not confirmed here’",
+   "problem": "A charge stated with date and authority but no outcome, in two entries, four years on. The people rules require the outcome (plea, conviction, dismissal) with its date and authority in the same line; ‘later plea and sentence’ is a fragment that names neither. The case is on the page under a named person."
+  },
+  {
+   "rule": "people",
+   "where": "Currents: us-subpoenas-russian-collectors-2023, people[2].status",
+   "text": "‘Abramovich is believed to have bought the Bacon ($86.3m) and Freud ($33.6m) records of 2008’",
+   "problem": "‘Is believed’ names no believer: an attribution-less assertion about a designated person’s purchases, in a status field rather than the rumour field."
+  },
+  {
+   "rule": "people",
+   "where": "Collectors: samsung-lee, links[0]",
+   "text": "‘Lee Jae-yong (Samsung Electronics chairman) was pardoned in August 2022 after a 2021 bribery conviction and acquitted in a separate 2024 merger case — family relationship only, unconfirmed (U)’",
+   "problem": "A conviction, a pardon and an acquittal about a named person carried from memory (U) on a page shown to investors; the rule is a conviction only as a source states it, with date and authority. The acquittal is at least in the same line."
+  },
+  {
+   "rule": "people",
+   "where": "Collectors: justin-sun, links[1]",
+   "text": "‘The SEC’s March 2023 civil fraud and unregistered-securities case against him and his companies, reported as paused in 2025, is unconfirmed (U). Status: SEC case alleged’",
+   "problem": "A regulator’s fraud allegation against a named person carried unconfirmed from memory; the SEC’s own complaint and the 2025 stay are public documents that could have been cited or the line held back."
+  },
+  {
+   "rule": "people",
+   "where": "Collectors: mugrabi (vf U), cohen (‘reported holdings carried unconfirmed (U)’), zuckerberg, dell, koch, tisch (‘included because the brief names him; nothing further found’)",
+   "text": "‘Dealer-collectors holding the largest private stock of Warhols (reported at 800–1,000 works) … — all unconfirmed (U)’",
+   "problem": "Wholly unverified entries about named living people published because the brief named them. The bundle’s Mugrabi entry also carried a divorce ‘from memory (U)’; the generator held that link back, which is right, but the U holdings went through. Honest labelling is not the same as sourcing."
+  },
+  {
+   "rule": "people",
+   "where": "Hammer lot notes (RESULTS), e.g. Salvator Mundi ‘bought for Saudi Arabia (reported, for Louvre Abu Dhabi)’, Shot Sage Blue Marilyn ‘bought by Larry Gagosian (reportedly for a client)’, Botticelli ‘seemingly a Russian client bidding by telephone’",
+   "text": "notes on 154 lots naming consignors and buyers",
+   "problem": "The lots carry no source at all (no src, no vf), so every name in a lot note is an unsourced statement about a person; the hedges (‘reported’, ‘seemingly’) point to no outlet."
+  },
+  {
+   "rule": "compliance",
+   "where": "Playbooks: freeport-delaware-luxembourg-singapore, step 1 (PLAYBOOKS)",
+   "text": "‘A free port must sit in a state without sales or use tax (Oregon, Delaware, Montana, New Hampshire, Alaska) to avoid triggering use tax on delivery.’",
+   "problem": "Route-shaped: a sentence that tells the reader where to put the work so that a tax is not triggered. The lawful reading is that the tax is deferred, not avoided, and falls due the day the work comes to rest in New York; the control (New York use tax on delivery; the Attorney General’s 2016 US$7m settlement over use tax on art) is not named in the step."
+  },
+  {
+   "rule": "compliance",
+   "where": "Currents: freeports[3] Delaware (CURRENTS) and the Net: player ‘Delaware Freeport’ (NET_PLAYERS)",
+   "text": "‘a US$10m painting shipped from Manhattan avoids New York City’s 8.875% (US$887,500) for as long as it stays, on an honour-system reporting of any return’; ‘works bought in New York and shipped to Delaware avoid New York’s 8.875% sales tax until they move’",
+   "problem": "‘Avoids’ and ‘honour-system’ describe the gap rather than the control. The compliance rule asks for the control that enforces it (the use-tax return on delivery, the audit) and the case where it caught someone; neither is given."
+  },
+  {
+   "rule": "compliance",
+   "where": "The East: markets[15] Jakarta (NET_MARKETS)",
+   "text": "‘Indonesia’s collectors (Museum MACAN’s founders among them, memory) buy through Singapore and Hong Kong to avoid import duty and luxury tax.’",
+   "problem": "A practice described as a way around a control, from memory, with no control named (Indonesian import duty and the declaration on return) and a named institution’s founders attached to it."
+  },
+  {
+   "rule": "compliance",
+   "where": "The Brief: any memo whose Navigator road is closed (tested: a designated buyer’s Kandinsky New York→Moscow; a Moscow resident buying a Goncharova in London; a Kahlo out of Mexico)",
+   "text": "After ‘■ Sanctions — closed … The road is closed as the law stands. The terminal names the control and stops there’, the same memo prints ‘Import VAT in Russia (20.0%) $4.74m’, ‘Register with the house before the sale’, ‘Instruct a fine-art shipper early: the licence lead time is 4–14 weeks’, and the letter asks the head of sale for ‘the shipping and insurance from New York to Moscow, with the export licence lead time (the terminal reads 4–14 weeks)’.",
+   "problem": "Not a route around a control, but an operational plan and a draft letter for a transaction the memo has just declared unlawful. ‘A closed road stops there’ (README, the memo’s own sentence) is not what the engine does: briefCompose() runs every section regardless of plan.nav.closed."
+  },
+  {
+   "rule": "compliance",
+   "where": "Navigator steps (src/nav.js, the AML step) and the Brief’s agent file fallback",
+   "text": "‘The threshold is low (€10,000 in Europe and the UK)’",
+   "problem": "Stale against the terminal’s own data: the UK threshold is £10,000 since 30 June 2026 (SI 2026/621), which NAV_RULES.uk.aml and STRATEGY §4 state. A control misdescribed in the engine’s prose."
+  },
+  {
+   "rule": "advice",
+   "where": "Rendered views: Navigator, Transformation, Deal Room, Undertow, Playbooks, Worked cases, Collectors, Currents, Whispers, Sources, Lab, Circle, Pulse, Hammer, Today",
+   "text": "No ‘not investment, legal or tax advice’ (or equivalent) sentence in the rendered text of these views; present only in Ask (‘Not investment advice’), Tides (‘A reading, not advice’), Walls (‘A reading, never a route … Not legal advice’), Horizon (‘readings, not advice’), Atlas (‘leads for a lawyer, not advice’) and the Brief memo (‘Not investment, legal or tax advice; a professional’s number ends every route’).",
+   "problem": "STRATEGY §7 says ‘Nothing on the page is investment, legal or tax advice, and every reading says so’. The views that compute money for a person — the landed-cost ledger, the Transformation, the Deal Room split, the Undertow, the 20 worked cases with their ‘next’ checklists, the Lab’s round trip — do not say so."
+  },
+  {
+   "rule": "people",
+   "where": "Sources (SOURCES.sources): journalists scored, e.g. ‘Kenny Schachter … Rumour labelled as such by the author; libel-aware but combative’",
+   "text": "Nine named journalists ‘the terminal scores’ with ‘record’ and ‘how to read’ fields",
+   "problem": "Not a violation as written (the entries describe style and record), but the scoring of named journalists is itself a statement about people that will be read by them; each record line should carry the article it rests on, and several carry vf U."
+  }
+ ],
+ "connect": [
+  {
+   "n": "The Met Collection API",
+   "kind": "museum",
+   "url": "https://metmuseum.github.io/",
+   "cors": "unknown",
+   "key": "none",
+   "licence": "Data CC0 (‘for unrestricted commercial and noncommercial use’); images ‘in the public domain’ (JPEG)",
+   "terms": "‘we do not require API users to register or obtain an API key’; ‘Please limit request rate to 80 requests per second’; ‘/v1/search … is deprecated and will be retired on October 1, 2026’ — use /v1.1/search with offset and limit, ‘The sum of offset and limit may not exceed 10,000’; use subject to the Met’s terms and conditions (linked).",
+   "adds": "Museum holdings and public-domain images per artist in the Hammer’s artist page, the Brief’s reading (‘what the museums hold’) and the Library; the Ledger’s NGA histories gain a second museum.",
+   "risk": "The bundle’s v26 ‘met’ entry still points at /v1/search, retired six weeks ago; CORS not stated in the docs. The artifact host blocks external fetches (README), so every ‘connect’ item below needs the host’s fetch capability or a build-time import, not a browser call.",
+   "src": [
+    [
+     "The Met Collection API documentation",
+     "https://metmuseum.github.io/"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "n": "Art Institute of Chicago API v1",
+   "kind": "museum",
+   "url": "https://api.artic.edu/docs/",
+   "cors": "yes",
+   "key": "none",
+   "licence": "CC0 1.0 except the description field (CC BY 4.0); images via IIIF under the museum’s image terms",
+   "terms": "60 requests a minute per anonymous IP; scraping asked to stay at or under 1 request a second; nightly JSON dumps on GitHub (as the v26 research recorded, with CORS ‘stated in docs’)",
+   "adds": "The one museum API whose docs state CORS, so the only one a page could call directly: comparable works with image, medium, date and credit line in the artist panel.",
+   "risk": "Not re-opened in this session; carried from the bundle’s v26 entry (flagged V there).",
+   "src": [],
+   "vf": "U"
+  },
+  {
+   "n": "UK Sanctions List (gov.uk)",
+   "kind": "sanctions",
+   "url": "https://www.gov.uk/government/publications/the-uk-sanctions-list",
+   "cors": "unknown",
+   "key": "none",
+   "licence": "Open Government Licence v3.0 (‘All content is available under the Open Government Licence v3.0, except where otherwise stated’), Crown copyright",
+   "terms": "Published as ODT, ODS, XML, HTML, text, CSV and PDF (no JSON); XML schema and format guide linked; a search service, no API; ‘last updated 12 November 2026’; ‘The OFSI Consolidated List of Asset Freeze Targets closed on Wednesday 28 January 2026 and is no longer being updated’ — the UK Sanctions List is now the only source.",
+   "adds": "A live designated-person check for the KYC code, the Walls and the Brief’s ‘exposed’ party (today the Brief checks nothing: ‘exposed’ is a radio button). The CSV is small enough to bundle at build time with its date.",
+   "risk": "Name matching is a compliance act with false positives; the 50% ownership rule is not in the list; the list must be refreshed with every amendment (weekly in 2026). OGL permits commercial use with attribution.",
+   "src": [
+    [
+     "GOV.UK, The UK Sanctions List",
+     "https://www.gov.uk/government/publications/the-uk-sanctions-list"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "n": "OFAC Sanctions List Service (SDN list files)",
+   "kind": "sanctions",
+   "url": "https://sanctionslist.ofac.treas.gov/Home/static/sdn.html",
+   "cors": "unknown",
+   "key": "none",
+   "licence": "None stated on the page (US federal government work)",
+   "terms": "SDN.CSV, ADD.CSV, ALT.CSV, SDN_COMMENTS.CSV, SDN.XML, SDN_ADVANCED.XML, SDN_ENHANCED.XML, .FF fixed-field files, XSD schemas, DAT_SPEC.TXT, PDFs (SDNLIST.PDF, SDNNEW26.PDF ‘Changes to the SDN list’); no JSON, no changes feed on this page, no terms. The download links on the page read today point at ‘ofacwebdev.wc2h.treasury.gov/SlsPublicApi_hotfix/…’, a development/hotfix host.",
+   "adds": "The US half of the designated-person check (with the UK list above): OFAC’s SDN and consolidated lists, with programme tags (RUSSIA-EO14024) the Walls cite.",
+   "risk": "The link host on the public page is a hotfix/dev host — unstable URLs; the changes feed the bundle names (changes/latest) failed to fetch in v26 too. The OFAC data-formats page on ofac.treasury.gov was not on this session’s allowlist.",
+   "src": [
+    [
+     "OFAC Sanctions List Service, SDN list page",
+     "https://sanctionslist.ofac.treas.gov/Home/static/sdn.html"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "n": "EU consolidated financial sanctions list (FSF)",
+   "kind": "sanctions",
+   "url": "https://webgate.ec.europa.eu/fsd/fsf",
+   "cors": "unknown",
+   "key": "free",
+   "licence": "Not established in this session",
+   "terms": "Not opened. Absent from the v26 API research altogether (40 APIs, no EU list), although Regulation 269/2014 is one of the Kandinsky file’s walls.",
+   "adds": "The EU half of the check; Regulation 269/2014 designations with their dates.",
+   "risk": "Carried from memory: the file needs a token and comes as XML/CSV/PDF. Unverified here; a gap in the terminal’s own research.",
+   "src": [],
+   "vf": "U"
+  },
+  {
+   "n": "OpenSanctions",
+   "kind": "sanctions",
+   "url": "https://www.opensanctions.org/licensing/",
+   "cors": "unknown",
+   "key": "paid",
+   "licence": "CC BY-NC 4.0: ‘The data is licensed under the terms of Creative Commons 4.0 Attribution NonCommercial’",
+   "terms": "‘All of it is open for download’ (bulk data); for commercial use a ‘Screening license: A tailored license to use the full dataset inside your own organization … Internal use only’ or a ‘Reseller license: A wholesale license to redistribute our data inside the products you sell’; ‘get a quote during our first conversation’ (no prices); the Screening API is ‘billed by the query’, ‘Prepaid credit bundles’, ‘Sign up with free credits’.",
+   "adds": "The consolidated sanctions-plus-PEP dataset with ownership links (the 50% rule computed), which is exactly the PEP and beneficial-owner check the Brief’s ‘exposed’ and ‘agent’ buckets pretend to run.",
+   "risk": "A terminal that sells seats is commercial: the NC licence does not cover it, and the reseller licence is unpriced. The v26 entry has this right (‘key (paid)’).",
+   "src": [
+    [
+     "OpenSanctions, Licensing",
+     "https://www.opensanctions.org/licensing/"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "n": "Companies House Public Data API (UK)",
+   "kind": "register",
+   "url": "https://developer.company-information.service.gov.uk/overview",
+   "cors": "unknown",
+   "key": "free",
+   "licence": "Not established in this session (the v26 entry: Crown copyright footer, licence not stated)",
+   "terms": "The overview page was not on this session’s allowlist. The v26 research recorded a free API key and a rate limit (flagged V) and the base URL from memory (U).",
+   "adds": "Company, officers and persons-with-significant-control lookups for the ‘company or agent in front’ brief — the beneficial-owner question the Walls’ principal file states as law (MLR 2017 reg. 28) but the page cannot ask.",
+   "risk": "UK companies only; PSC data is self-declared; the API terms restrict bulk redistribution.",
+   "src": [],
+   "vf": "U"
+  },
+  {
+   "n": "CourtListener REST API (Free Law Project)",
+   "kind": "court",
+   "url": "https://wiki.free.law/c/courtlistener/help/api/rest/v4/overview",
+   "cors": "unknown",
+   "key": "free",
+   "licence": "Not stated on the overview (‘this API and its documentation are open source’); the opinions are public records",
+   "terms": "‘Use the Authorization HTTP Header with the word Token, a space, and then your key’; ‘many of our APIs are open by default’; ‘By default, authenticated users may make up to 5 requests per minute, 50 requests per hour, and 125 requests per day’; Search API, Case Law API, PACER Data APIs (‘dockets, entries, documents, parties, and attorneys’).",
+   "adds": "Docket links and outcomes for the Currents and the Walls — United States v. Bonham-Carter, Schiff, Philbrick, Accent Delight v. Sotheby’s, Heritage v. Christie’s — the missing dispositions found in Part 4; RECAP documents for the indictments the Walls quote second-hand.",
+   "risk": "125 requests a day on the default tier is a research-desk tool, not a page call; a search-result title says ‘API included in memberships’ (7 May 2026, not opened), so the free tier may have narrowed.",
+   "src": [
+    [
+     "Free Law Project wiki, CourtListener REST API v4 overview",
+     "https://wiki.free.law/c/courtlistener/help/api/rest/v4/overview"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "n": "Frankfurter (ECB reference rates)",
+   "kind": "fx",
+   "url": "https://api.frankfurter.dev",
+   "cors": "yes",
+   "key": "none",
+   "licence": "Open source (frankfurter.dev/licence, per the v26 entry)",
+   "terms": "No key; the v26 research observed the docs’ browser-fetch example (CORS ‘yes (observed in docs)’, V).",
+   "adds": "Live month-end and daily rates for the Pulse’s currency weather and the Navigator’s FX table (today a hand-typed FX constant).",
+   "risk": "ECB reference rates only; not re-opened in this session.",
+   "src": [],
+   "vf": "U"
+  },
+  {
+   "n": "Europeana APIs",
+   "kind": "museum",
+   "url": "https://www.europeana.eu/how-to-register-for-and-manage-an-api-key",
+   "cors": "unknown",
+   "key": "free",
+   "licence": "Not stated on the page read (the v26 entry carries ‘metadata CC0’ from memory)",
+   "terms": "Personal key: ‘Request a personal API key’ and ‘you will be automatically assigned one’ (for exploration and testing); project key: a form reviewed by the API management team; a box to confirm ‘the API key terms of use’. No rate limit on the page.",
+   "adds": "European museum holdings and provenance text for the Library and the Ledger (continental artists the NGA set lacks).",
+   "risk": "The project key for a product needs approval; the terms of use were not read.",
+   "src": [
+    [
+     "Europeana, How to register for and manage an API key",
+     "https://www.europeana.eu/how-to-register-for-and-manage-an-api-key"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "n": "Wikidata SPARQL and Wikimedia Commons",
+   "kind": "museum",
+   "url": "https://query.wikidata.org/sparql",
+   "cors": "unknown",
+   "key": "none",
+   "licence": "CC0 (Wikidata, per the v26 entry, V); Commons per file",
+   "terms": "Not re-opened; the v26 research could not open mediawiki.org and carries the response shape and CORS from memory (U).",
+   "adds": "Artist authority data (birth and death places and dates for the globe’s ‘Then’ mode, ULAN and museum identifiers), collection counts per museum, and the public-domain pictures’ licence metadata.",
+   "risk": "Unverified terms; the Wikimedia API access policy was never read.",
+   "src": [],
+   "vf": "U"
+  },
+  {
+   "n": "The houses’ own public result pages (Sotheby’s terms of use)",
+   "kind": "results",
+   "url": "https://www.sothebys.com/en/terms-conditions",
+   "cors": "no",
+   "key": "none",
+   "licence": "Proprietary: content ‘only for your own personal, non-commercial use’; ‘Any commercial distribution, publishing, use or exploitation of the Digital Platforms or any element thereof’ prohibited; images may not be used ‘on another website, for any purpose’",
+   "terms": "Section 4(d) prohibits ‘data mining, spidering, “screen scraping,” “database scraping,” harvesting of catalogue information … or any other automatic means of obtaining information from the Digital Platforms’; governed by New York law; ‘Last Modified: April 26, 2019’.",
+   "adds": "Nothing by automated means. Results and estimates can be read and typed by a person, with the page cited; a feed cannot be built on them.",
+   "risk": "STRATEGY §5 says ‘The lawful data practice is defined by the Collectrium case: the facts are free; the login is not. The terminal reads the houses’ public pages and never a gated one.’ Sotheby’s terms forbid automated harvesting of the public pages too; Collectrium decided the DMCA and CFAA points, not the contract claim. Christie’s terms could not be read (bot challenge, as the bundle records).",
+   "src": [
+    [
+     "Sotheby’s, Terms and Conditions (Website Terms of Use)",
+     "https://www.sothebys.com/en/terms-conditions"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "n": "Auction-calendar feeds",
+   "kind": "calendar",
+   "url": "",
+   "cors": "unknown",
+   "key": "none",
+   "licence": "Each publisher’s",
+   "terms": "No open calendar feed from any house was found by the v26 research (‘No public results API’); The Art Newspaper and Artnet RSS carry headlines only (v26, S).",
+   "adds": "Little: the Season’s 80 events are hand-entered and would stay so; a desk task, not a connection.",
+   "risk": "None beyond staleness.",
+   "src": [],
+   "vf": "U"
+  },
+  {
+   "n": "Price data: what a database costs and what the trade pays",
+   "kind": "price",
+   "url": "https://www.join.arttactic.com/store/p/arttactic-analyst-pro-membership",
+   "cors": "no",
+   "key": "paid",
+   "licence": "Subscription terms of each vendor",
+   "terms": "ArtTactic Analyst Pro ‘£195.00 every month’, ‘Price Exclusive of VAT’, Pro+ ‘£1,195.00 every 12 months’ (list ‘£2,340.00’) — read today. Artnet Price Database per-search passes (one-day 5 searches US$32.50; rollover 10 searches US$42.50 …) are in the bundle (v26, V, not re-opened). Artprice subscription prices were never opened (artprice.com refused). Bloomberg ‘about $27,000 to $30,000 a year’ (Georgina Adam, TAN 23 Apr 2026, read today). The Baer Faxt database went free in February 2025 (bundle). No vendor publishes an enterprise or redistribution licence price: Artnet, Artprice and OpenSanctions all say ‘contact us’.",
+   "adds": "A licensed results feed would fill the Hammer’s 154-lot hole below US$1m — but no published price exists for a licence that allows display in a product; the bundle’s own benchmark note says the trade pays by the seat, ‘cheaply and in pieces’.",
+   "risk": "The terminal’s company model (data licences £10,000–15,000 a year) rests on seat prices, not on a redistribution licence; the only priced redistribution-free data are the museums’ CC0 sets and the governments’ lists.",
+   "src": [
+    [
+     "ArtTactic store, Analyst Pro membership",
+     "https://www.join.arttactic.com/store/p/arttactic-analyst-pro-membership"
+    ],
+    [
+     "The Art Newspaper (Georgina Adam), 23 Apr 2026",
+     "https://www.theartnewspaper.com/2026/04/23/comment-%7C-how-viable-is-the-artnet-and-artsys-merger"
+    ]
+   ],
+   "vf": "V"
+  }
+ ],
+ "findings": [
+  {
+   "rank": 1,
+   "severity": "critical",
+   "where": "The Hammer (RESULTS, 154 lots; the lot page in src/app.js openLot)",
+   "what": "The terminal’s central table carries no source and no verification flag on any lot; the lot page links only Wikimedia and Google image searches. README and STRATEGY say every figure ‘carries a verification flag and links its source’.",
+   "evidence": "pw_lots.js: lot fields are artist, title, year, price, house, city, date, cat, rec, note, id, chain, rank (71 with a research ‘fin’ block); no src, no vf. The Lab’s own instrument counts 71 results, 8 of them V.",
+   "fix": "add: a source (the house’s result page or the trade report) and a flag on every lot; the v25 money-sales research already holds 71; type the rest from the pages, with dates.",
+   "effort": "a research run"
+  },
+  {
+   "rank": 2,
+   "severity": "critical",
+   "where": "The Brief (src/brief.js briefPlan: J.from = brJ(b.from)||brJ(b.where)||'us')",
+   "what": "Any city the Navigator does not know becomes the United States without a word: an Almaty dealer’s Kandinsky is costed ‘from United States to United Kingdom’; a Tbilisi Pirosmani gets the US export regime (‘No export licence for works of art as such’); an Auckland buyer is charged ‘Use tax at home (Washington DC 6% to New York City 8.875%)’.",
+   "evidence": "briefs_raw.json #3, #5, #6, #21; the Navigator holds 32 jurisdictions while the globe knows 505 cities.",
+   "fix": "tune: when a place has no jurisdiction, compose no money, walls or road and print ‘the Navigator does not hold X’; then add the missing countries (NZ, GE, KZ, TW, TH, ZA …) by research.",
+   "effort": "hours for the guard; a research run for the countries"
+  },
+  {
+   "rank": 3,
+   "severity": "critical",
+   "where": "The Brief (briefCompose runs every section regardless of plan.nav.closed)",
+   "what": "A closed road does not stop the memo. For a designated buyer’s Kandinsky to Moscow, and for a Moscow resident buying in London, the memo prints the sanctions wall, then prices ‘Import VAT in Russia (20.0%) $4.74m’, lists ‘Register with the house before the sale’ and ‘Instruct a fine-art shipper early’, and drafts a letter to the head of sale asking for ‘the shipping and insurance from New York to Moscow, with the export licence lead time (the terminal reads 4–14 weeks)’.",
+   "evidence": "briefs_raw.json #7, #17 (and #23 for the closed Mexican export); README: ‘the walls (a closed road stops there)’.",
+   "fix": "tune: if any gate is closed, compose the reading, the walls and the lawful course only; no ledger, no road, no next steps, no letter.",
+   "effort": "hours"
+  },
+  {
+   "rank": 4,
+   "severity": "critical",
+   "where": "src/app.js SCHED.christies = [[2e6,.28],[8e6,.22],[Infinity,.15]] — the Lexicon calculator, 74 Christie’s lot pages (implied hammer and fee check), the Deal Room, the Undertow",
+   "what": "The engine prices Christie’s at 28% to US$2m; the terminal’s own verified research (The Art Newspaper, 17 Feb 2026, read today) and its worked cases say 27% to US$1.5m/£1m, 22% to US$8m, 15% above, since September 2025. On a US$3m hammer the engine says US$780,000, the research US$735,000. The 9 November engine audit flagged it and it is still ‘open’.",
+   "evidence": "part1 A1 (page_says); bundle v28 collector case 0 ‘US$735,000 at Christie’s’; v25.audit_engine findings (status open).",
+   "fix": "tune: one line; then generate SCHED from the bundle so the engine and the research cannot disagree.",
+   "effort": "hours"
+  },
+  {
+   "rank": 5,
+   "severity": "serious",
+   "where": "src/nav.js, the ledger’s premium line (twice): [['Sotheby’s buyer’s premium','https://www.sothebys.com/en/buy/buyers-premium']] flagged V; plan.house is always 'sothebys'",
+   "what": "A citation to a page no research run opened (the URL occurs nowhere in the bundle; the v28 run says the houses’ fee pages were not opened), flagged verified, on every landed-cost ledger the Brief prints; and the premium is Sotheby’s whatever the room or house.",
+   "evidence": "grep of bundle.json (0 hits) and src/nav.js (2 hits); briefs_raw.json premium src on #1.",
+   "fix": "tune: cite the pages the bundle did open (TAN 17 Feb 2026; Sotheby’s help centre 9 Sep 2026; sothebys.com/feestructure) and let the Brief take the house from the input.",
+   "effort": "hours"
+  },
+  {
+   "rank": 6,
+   "severity": "serious",
+   "where": "Playbooks (33 for uk 8, us 7, any 6, eu 3, fr 2, ch 2, it/in/cn/ru/hk 1) and window.__OCEAN.playbookFor()",
+   "what": "The Brief hands the UK AML registration (‘£740 … HMRC’) to a dealer opening in Berlin, IRS Form 8283 to a Dubai gift and a Mumbai valuation, UK Government Indemnity to a Paris–New York museum loan, and ‘Export from the UK’ to moves out of Tokyo, Tbilisi and Mexico City.",
+   "evidence": "briefs_raw.json #5, #9, #11, #13, #14, #16, #23; pw_depth.js playbooks.byJ.",
+   "fix": "tune: playbookFor() returns nothing outside its jurisdiction and the memo says ‘no playbook for Germany yet’; add: playbooks for de, jp, kr, ae, sg, au, mx, ca, ng.",
+   "effort": "hours for the guard; a research run for the playbooks"
+  },
+  {
+   "rank": 7,
+   "severity": "serious",
+   "where": "The Brief’s parser and briefPlan (no ‘mats’ passed to navPlan); WALLS.files ‘protected’ (0 cases)",
+   "what": "An ivory netsuke moved from Tokyo to London raises no wildlife gate and no Ivory Act 2018 wall, although NAV_RULES.uk.cites holds the rule; the reading offered is ‘the women artists’ tide’.",
+   "evidence": "briefs_raw.json #9; src/brief.js line 119; src/nav.js gate 5 requires i.mats.",
+   "fix": "tune: parse ivory, tortoiseshell, rosewood, coral into mats and pass them; open the ‘protected’ file; add a case (the Ivory Act prosecutions).",
+   "effort": "hours"
+  },
+  {
+   "rank": 8,
+   "severity": "serious",
+   "where": "The Brief’s ‘exposed’ party (BR_PARTY) and brWalls()",
+   "what": "‘A designated person, or a politically exposed person’ is one bucket, and it always opens the Russia/Kandinsky file: a journalist in Tokyo checking a PEP reads ‘A designated Russian businessman cannot lawfully buy a Kandinsky…’. The PEP file in WALLS.files (MLR 2017 reg. 35; Obiang; 1MDB) is never used by the Brief, and no name is ever screened against a list.",
+   "evidence": "briefs_raw.json #20; src/brief.js line 74.",
+   "fix": "tune: split the bucket; open the pep file for PEPs and the Kandinsky file for designations; connect: the UK Sanctions List CSV (OGL v3) and OFAC’s SDN.CSV at build time, dated, for a name check.",
+   "effort": "days"
+  },
+  {
+   "rank": 9,
+   "severity": "serious",
+   "where": "The Deal Room defaults (src/deal.js: sc 0, eh 0, guar 'third') as the Brief uses them",
+   "what": "Every ‘sell’ memo tells the consignor he receives 100% of the hammer: ‘the consignor receives $20.0m on the terms the Deal Room assumes (seller’s commission 0%, enhanced hammer 0%, a third-party irrevocable bid)’. The house research in the same bundle gives Sotheby’s standard seller’s commission as 10%.",
+   "evidence": "briefs_raw.json #3, #4, #21, #25; bundle v28 house case 0 (‘seller’s commission standard 10% of hammer’).",
+   "fix": "tune: default 10%, no guarantee, and print the assumptions as assumptions; let the Brief pass the house and the room.",
+   "effort": "hours"
+  },
+  {
+   "rank": 10,
+   "severity": "serious",
+   "where": "NAV_RULES (22 of 32 jurisdictions thin) and src/nav.js prose",
+   "what": "Peru has six U sections and no source; Nigeria’s duty text says 20% but duty_rate is 0 (no source); India carries IGST ‘12% on paintings (U)’ while the East carries the GST cut to 5%; Singapore’s 9% GST is still U after v28 verified it on IRAS; the AML step says ‘€10,000 in Europe and the UK’ after SI 2026/621 (£10,000 from 30 June 2026); China’s capital gate closes a US$5,000 purchase with no rule text; 10 of the 9 November engine findings are still open.",
+   "evidence": "pw_depth.js nav.per; pw_consts.js; briefs_raw.json #2, #19; v25.audit_engine findings; src/nav.js step text.",
+   "fix": "a research run on the 22 jurisdictions (primary pages); tune the prose and the three contradictions; make each rule carry the date it was last read.",
+   "effort": "a research run"
+  },
+  {
+   "rank": 11,
+   "severity": "serious",
+   "where": "STRATEGY §5 (‘the facts are free; the login is not. The terminal reads the houses’ public pages and never a gated one’) and the tech risks",
+   "what": "Sotheby’s website terms (last modified 26 April 2019, read today) prohibit ‘data mining, spidering, “screen scraping,” “database scraping,” harvesting of catalogue information … or any other automatic means’ and allow content ‘only for your own personal, non-commercial use’, under New York law. The lawful-data position is misstated: Collectrium decided the DMCA and CFAA points, not the contract.",
+   "evidence": "part5 ‘The houses’ own public result pages’ (page_says).",
+   "fix": "tune: restate the position (manual reading and typing, with the page cited; no automated harvesting; images never copied); add the terms to the Sources view.",
+   "effort": "hours"
+  },
+  {
+   "rank": 12,
+   "severity": "serious",
+   "where": "The Lab, instrument six (‘How much of this terminal is verified’)",
+   "what": "‘Of 444 flagged figures, 50% are verified’ counts 17 old collections and leaves out NET_PLAYERS (330, 45% U, 91 unsourced), SOURCES (70, 54% U), NAV_RULES, TIDES, CURRENTS, WHISPERS, PLAYBOOKS, CASES, WALLS, VAULTS and EVENTS — most of the page since v25; ‘2 Nov 2026 is the one verification date every V flag carries’ is stale against research of 12–16 November.",
+   "evidence": "pw_lab6.js; pw_depth.js vf counts per collection.",
+   "fix": "tune: count every collection, show the U share per collection, and date each run.",
+   "effort": "hours"
+  },
+  {
+   "rank": 13,
+   "severity": "serious",
+   "where": "People rules: Currents (deripaska-bonham-carter; us-subpoenas-russian-collectors-2023), Collectors (samsung-lee, justin-sun, mugrabi, cohen), Hammer lot notes",
+   "what": "A 2022 indictment with no outcome four years on (‘later plea and sentence’); ‘Abramovich is believed to have bought…’ with no believer; a conviction, a pardon and an SEC fraud case carried ‘unconfirmed (U)’ from memory about named living people; 154 lot notes naming buyers and consignors with no source.",
+   "evidence": "pw_people.js; rules_people.txt; part4 rules.",
+   "fix": "a research run for outcomes (DOJ releases, CourtListener dockets); hold back any U line about a named person, as the generator already holds back unsourced links.",
+   "effort": "days"
+  },
+  {
+   "rank": 14,
+   "severity": "serious",
+   "where": "Navigator, Transformation, Deal Room, Undertow, Playbooks, Worked cases, Lab, Circle (rendered text)",
+   "what": "No ‘not investment, legal or tax advice’ line in the views that compute money for a person; STRATEGY §7 says ‘every reading says so’. Present only in Ask, Tides, Walls, Horizon, Atlas and the Brief memo.",
+   "evidence": "pw_advice.js.",
+   "fix": "tune: one sentence in each header and in the printed memo of the twenty worked cases.",
+   "effort": "hours"
+  },
+  {
+   "rank": 15,
+   "severity": "moderate",
+   "where": "The Hammer’s sample as the Brief reads it (brReading: ‘the record … the median’)",
+   "what": "54 of 83 artists have one lot, 16 have three or more, nothing sells under US$220,000 and 2023 holds three lots; the memo prints ‘Wassily Kandinsky in the Hammer: 1 lot …, the record $41.8m, the median $41.8m’ and tells a US$20m Rothko seller the median is US$85.7m. The Circle’s target clients (the first-time buyer, the sub-US$50,000 consignor) have no comparable in the terminal.",
+   "evidence": "pw_depth.js results; briefs_raw.json #3, #12, #18, #21.",
+   "fix": "tune: print ‘n lots’ and no median below five; add: 300–500 lots in the US$20,000–1m band typed from the houses’ public result pages with sources.",
+   "effort": "a research run"
+  },
+  {
+   "rank": 16,
+   "severity": "moderate",
+   "where": "Compliance wording: PLAYBOOKS freeport-delaware-luxembourg-singapore step 1; CURRENTS freeports[3]; NET_PLAYERS Delaware Freeport; NET_MARKETS Jakarta",
+   "what": "‘A free port must sit in a state without sales or use tax … to avoid triggering use tax on delivery’; ‘a US$10m painting shipped from Manhattan avoids New York City’s 8.875% … on an honour-system reporting of any return’; Indonesian collectors ‘buy through Singapore and Hong Kong to avoid import duty and luxury tax’ (from memory). Route-shaped sentences that name the gap, not the control.",
+   "evidence": "rules_compliance.txt.",
+   "fix": "tune: state the control (use tax due on delivery; the New York Attorney General’s use-tax settlements) and the case; drop the Jakarta line or source it.",
+   "effort": "hours"
+  },
+  {
+   "rank": 17,
+   "severity": "moderate",
+   "where": "The Brief’s relevance filters (brWhispers, brRisks, brReading tideFor, NAV_FEES floor)",
+   "what": "Whispers matched on a city word (a Pissarro restitution for a Lagos buyer of Enwonwu); risks from the consignor’s playbook served to buyers (‘Loss or damage must be reported to Christie’s in writing within 30 days’); ‘the women artists’ tide’ for an Asian sculpture; unknown artists dropped silently; a US$5,000 print ‘lands’ at US$10,742–22,707 because the condition report, crate, air freight and brokers do not scale; a lender ‘borrowing’ writes to ‘the lender’.",
+   "evidence": "briefs_raw.json #2, #9, #10, #19, #24.",
+   "fix": "tune: match whispers on the artist or the route, not the city alone; filter pitfalls by side; say ‘not in the sample’; scale fees to value; check persona against task.",
+   "effort": "days"
+  },
+  {
+   "rank": 18,
+   "severity": "moderate",
+   "where": "Whispers (125) and Tides (32)",
+   "what": "‘What the trade is saying before it happens’ is 73 facts and 39 reports after the event, 10 predictions and 3 rumours; February 2026 is empty; nine tides carry a direction and a strength on two evidence rows or fewer (Southeast Asian and NFTs on one); one rumour across all tides.",
+   "evidence": "pw_depth.js whispers, tides.evidenceRows.",
+   "fix": "tune: label the view by what it holds; show ‘thin’ on a tide with fewer than three rows; score forecasters only where a prediction exists.",
+   "effort": "hours"
+  },
+  {
+   "rank": 19,
+   "severity": "moderate",
+   "where": "Sources (70), Vaults (62), Collectors (109), Net players (330)",
+   "what": "‘What each costs’ is known for 8 of 70 sources (54% U); fees for 2 of 62 vaults; wealth figures for 8 of 109 collectors; 91 players with no source and 18 of 330 verified.",
+   "evidence": "pw_depth.js sources, vaults, collectors, players.",
+   "fix": "a research run on the price lists and the fee pages, or drop the ‘what each costs’ promise from the Sources view and the Circle.",
+   "effort": "a research run"
+  },
+  {
+   "rank": 20,
+   "severity": "minor",
+   "where": "Citation hygiene in the secondary layer (six of 42 sampled figures go past their page)",
+   "what": "The Hauser & Wirth entry states a court and a statute the cited page does not; the Almaty entry’s building, architect and 700 works are not on the museum page cited; STRATEGY hangs ‘more than half name the lack of it’ on Paperjam, which does not say it; ‘Bloomberg US$27,000–32,000 … judged too high’ and ‘dozens of layoffs’ are not what Georgina Adam wrote (US$27,000–30,000, a question, ‘at least seven’); the Magritte result and guarantee are cited to a September preview; the Ravi Varma record rests on a Euronews piece that gives €15.3m and €15.9m; the v24 unconfirmed list says the French 2021 thresholds ‘were not opened’ when they were.",
+   "evidence": "part1 citations A3, A7, C3, C8, E3, R1; bundle v24.law_europe.unconfirmed.",
+   "fix": "tune the entries; a rule in gen_research.py that a figure’s src is the page that carries it, with a second src for the rest.",
+   "effort": "hours"
+  }
+ ],
+ "verdict": "Where the terminal cites, it cites well: 35 of 42 sampled figures are on the cited page as written, the law and the cases rest on primary sources (CPS, DOJ, legislation.gov.uk, the IRS, the Geneva free port’s own accounts to the thousand francs), and the Currents and the Walls are the real asset. But that strength sits in the research bundle, not in the engines that ‘solve’. The Brief composes a confident memo from wrong defaults — the United States for any city it does not know, Sotheby’s for every house, a 0% seller’s commission, UK and US playbooks for Berlin, Dubai, Mumbai and Mexico City — it continues past its own closed wall into a shipping quote and a letter for a prohibited sale, it cannot see ivory, it screens no name, and it prints ‘the median’ from one lot; the central table of 154 lots carries no source at all; the fee engine disagrees with the research it is built on; and the instrument that tells the reader how much is verified does not count the half of the page where most of the unverified lines are. The 25 briefs scored 2.28 of 5 — the engine is right where the research is deep (New York, London, Paris, Milan, the sanctions files) and silently wrong everywhere else. This is a well-sourced library with a memo generator in front of it, not yet a foundation for ‘deep, precise analysis of any request in the field’. What would make it one, in order: a guard that refuses to compose money, walls or road for any place, house, playbook or material the data does not hold, and says so; one generated table for fees and rules so the engine cannot contradict the bundle; the stop at a closed road; a source and a flag on every lot and a few hundred lots in the band where the Circle’s clients actually trade; the UK and US sanctions lists and the company registers built in at a dated version so the ‘exposed’ and ‘agent’ buckets check something; outcomes for every charge the page names; and a verification instrument over every collection. Each is hours or a research run, none is code for its own sake; until they are done the memo should say ‘the terminal does not hold this’ far more often than it does.",
+ "stats": {
+  "citations_checked": 42,
+  "supported": 35,
+  "partly": 6,
+  "not_found": 0,
+  "contradicted": 0,
+  "unreachable": 1,
+  "briefs_mean": 2.28
+ }
+}
