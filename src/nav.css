@@ -403,7 +403,10 @@
 .eye-tbl{width:100%;border-collapse:collapse;font-size:13.5px}.eye-tbl th,.eye-tbl td{padding:6px 8px;border-bottom:1px solid var(--rule);text-align:left}.eye-tbl th{font-family:var(--ui);font-weight:600;font-size:12px;color:var(--ink2)}.eye-tbl .num{text-align:right;font-variant-numeric:tabular-nums}.eye-tbl tr.me td{color:var(--gilt)}
 @media (max-width:860px){.eye-grid{grid-template-columns:1fr}.eye-modes{grid-template-columns:1fr}.eye-pic img{max-height:52vh}.eye-detail img{height:48vh;max-height:48vh}.eye-big{font-size:36px}}
 @media (prefers-reduced-motion:reduce){.eye-detail img,.eye-detail canvas{transition:none}}
-.eye-frame{overflow:hidden;position:relative;touch-action:pan-y;cursor:zoom-in;border-radius:2px}.eye-frame.zoomed{cursor:grab}.eye-frame.zoomed:active{cursor:grabbing}.eye-frame img,.eye-frame canvas{transition:transform .25s ease;will-change:transform}.eye-frame.zoomed img,.eye-frame.zoomed canvas{transition:none}
+.eye-frame{overflow:hidden;position:relative;touch-action:pan-y;cursor:zoom-in;border-radius:2px}.eye-frame.zoomed{cursor:grab}.eye-frame.zoomed:active{cursor:grabbing}.eye-frame img,.eye-frame canvas{transition:transform .25s ease,opacity .7s ease,filter .9s ease;will-change:transform}.eye-frame.zoomed img,.eye-frame.zoomed canvas{transition:opacity .7s ease,filter .9s ease}
+/* v30.2: the picture develops — from a soft blur to sharp when it has loaded; nothing jumps */
+.eye-frame img{opacity:0;filter:blur(14px) saturate(.8)}.eye-frame img.ready{opacity:1;filter:none}.eye-pic canvas{filter:blur(14px);transition:opacity .7s ease,filter .9s ease,transform .25s ease}.eye-pic canvas.ready{filter:none}
+@media (prefers-reduced-motion:reduce){.eye-frame img,.eye-pic canvas{transition:none;filter:none}}
 .eye-verdict{font-family:var(--ui);font-weight:600;color:var(--gilt);margin-left:4px}
 .eye-tiers{gap:6px 10px;align-items:center;flex-wrap:wrap;justify-content:flex-start;margin-bottom:6px}.eye-tier{font-family:var(--ui);font-size:13px;padding:3px 10px;border:1px solid var(--rule2);border-radius:999px}.eye-tier.on{border-color:var(--gilt);color:var(--ink)}.eye-tiernote{flex-basis:100%;font-size:12px}
 @media (min-width:861px){.eye-grid{grid-template-columns:minmax(0,1.35fr) minmax(0,1fr)}.eye-pic img,.eye-pic canvas{max-height:78vh}}
