@@ -790,7 +790,7 @@ const PAL_FUNCS=[
  {c:'GUAR',n:'The guarantee book',arg:'',what:'who stands behind the lots: the share guaranteed, the guarantors named, the economics',f:()=>{if(window.__DEAL)window.__DEAL.open({guar:'third'});else go('deal');}},
  {c:'CAL',n:'The calendar',arg:'',what:'the Season: fairs, sales, biennales and shows ahead, with the tickets',f:()=>go('season')},
  {c:'FX',n:'Currency weather',arg:'',what:'what the dollar buys in the currencies art is priced in',f:()=>{go('pulse');setTimeout(()=>{const t=$('#fxw')||$('.fxw')||$('#v-pulse .weather');if(t)scrollToEl(t);},200);}},
- {c:'WIRE',n:'The wire',arg:'',what:'what happened this week, and the East’s wire',f:()=>{worldJump({mode:'net'});setTimeout(()=>{const b=$('.wd-legend .wd-wire');if(b)b.click();},500);}},
+ {c:'WIRE',n:'The wire',arg:'',what:'what happened this week, and the wire from the East and the South',f:()=>{worldJump({mode:'net'});setTimeout(()=>{const b=$('.wd-legend .wd-wire');if(b)b.click();},500);}},
  {c:'PROV',n:'Provenance',arg:'a name or a title',what:'the Ledger: 771 ownership histories, searched',f:a=>{go('ledger');const i=$('#lq');if(i&&a){i.value=a;i.dispatchEvent(new Event('input'));}}},
  {c:'HOLD',n:'Holding periods',arg:'',what:'the Lab: what trophies earned against the S&P, gold and inflation',f:()=>go('lab')},
  {c:'WATCH',n:'Your watchlist',arg:'',what:'what you star, with what changed since you last looked',f:()=>{go('floor');setTimeout(()=>{const t=$('#tdWatchSec');if(t&&!t.hidden)scrollToEl(t);else toast('Nothing starred yet: every dossier and card has a star');},200);}},

@@ -5,127 +5,1774 @@
  "hs": "97",
  "note": "Latest full year is 2025 for the Trading Economics (UN Comtrade mirror) rows and for the HS 9701 exporter ranking; TrendEconomy (UN Comtrade mirror) rows for Singapore, India and Kenya are 2023, the latest year those pages carried. Values are as declared to customs by the reporting economy named in each row; mirror figures from the partner differ, sometimes by an order of magnitude (see caveats). OEC product pages render client-side and returned no figures; UN Comtrade Plus, WITS, USITC DataWeb, Eurostat Comext, Swiss-Impex and HK C&SD tables were not reachable as static pages within the budget. 'S' here means a reputable mirror of official customs data or the Art Basel & UBS report; no figure was read on a statistics office's own page, so no row is 'V'.",
  "totals": [
-  {"c": "US", "name": "United States", "exp": 10300, "imp": 8800, "hs": "97", "year": 2024, "src": [["Art Basel & UBS Art Market Report 2025, p.25 (USITC data)", "https://theartmarket.artbasel.com/download/The-Art-Basel-and-UBS-Art-Market-Report-2025.pdf"], ["Art Basel & UBS Art Market Report 2026, ch.1 (US imports 2025)", "https://theartmarket.artbasel.com/global-sales"]], "vf": "S", "note": "2024: imports fell 15% to $8.8bn, exports fell 7% to $10.3bn; France, the UK and Germany took 56% of imports and 41% of exports; China 13% of exports (4th destination). 2025 (2026 report): imports $9.9bn, +13%; exports down 1% in value (no dollar figure given)."},
-  {"c": "US", "name": "United States", "exp": 7177.8, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, paintings & drawings by country (ITC/Comtrade data), 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": "33.9% of world HS 9701 exports (US$21.2bn in 2025, +4.2% on $20.3bn in 2024)."},
-  {"c": "GB", "name": "United Kingdom", "exp": null, "imp": null, "hs": "97", "year": 2025, "src": [["HMRC uktradeinfo, chapter 97 (structure only, no values)", "https://www.uktradeinfo.com/commodities/97"]], "vf": "U", "note": "No HS 97 total read on a page; HMRC's commodity page lists only the subheadings. Corridor rows give the UK's main partners."},
-  {"c": "GB", "name": "United Kingdom", "exp": 1827.0, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": "8.6% of world HS 9701 exports."},
-  {"c": "CH", "name": "Switzerland", "exp": 3440, "imp": null, "hs": "97", "year": 2025, "src": [["Trading Economics (UN Comtrade), Switzerland exports of HS 97, 2025", "https://tradingeconomics.com/switzerland/exports/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Imports total not opened."},
-  {"c": "CH", "name": "Switzerland", "exp": 2406.7, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": "11.4% of world HS 9701 exports."},
-  {"c": "HK", "name": "Hong Kong", "exp": 4531.1, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": "21.4% of world HS 9701 exports; almost all Hong Kong art exports are re-exports (not confirmed on a C&SD page within budget). HS 97 totals not opened."},
-  {"c": "FR", "name": "France", "exp": 1234.3, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": "5.8% of world HS 9701 exports. HS 97 totals not opened."},
-  {"c": "CN", "name": "China (mainland)", "exp": 453.0, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": "2.1% of world HS 9701 exports. HS 97 totals not opened."},
-  {"c": "DE", "name": "Germany", "exp": 628.3, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": "3% of world HS 9701 exports."},
-  {"c": "JP", "name": "Japan", "exp": 85.1, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": ""},
-  {"c": "KR", "name": "South Korea", "exp": 267.1, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": "1.3% of world HS 9701 exports."},
-  {"c": "SG", "name": "Singapore", "exp": 1480.2, "imp": 957.0, "hs": "97", "year": 2023, "src": [["TrendEconomy (UN Comtrade), Singapore HS 97, 2023", "https://trendeconomy.com/data/h2/Singapore/97"]], "vf": "S", "note": "Exports US$1,480,181,438; imports US$957,045,259."},
-  {"c": "SG", "name": "Singapore", "exp": 676.0, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": "3.2% of world HS 9701 exports."},
-  {"c": "AE", "name": "United Arab Emirates", "exp": 120.8, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": "HS 97 totals not opened."},
-  {"c": "IT", "name": "Italy", "exp": 263.9, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": "1.2% of world HS 9701 exports."},
-  {"c": "NL", "name": "Netherlands", "exp": 52.8, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": ""},
-  {"c": "BE", "name": "Belgium", "exp": 175.1, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": "0.8% of world HS 9701 exports."},
-  {"c": "CA", "name": "Canada", "exp": 124.6, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": "0.6% of world HS 9701 exports."},
-  {"c": "IN", "name": "India", "exp": 169.6, "imp": 460.9, "hs": "97", "year": 2023, "src": [["TrendEconomy (UN Comtrade), India HS 97, 2023", "https://trendeconomy.com/data/h2/India/97"]], "vf": "S", "note": "Exports US$169,640,669; imports US$460,891,342. The import table lists 'India' itself at 18.1% (US$83m), i.e. re-imports."},
-  {"c": "IN", "name": "India", "exp": 76.2, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": ""},
-  {"c": "BR", "name": "Brazil", "exp": 148.9, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": "0.7% of world HS 9701 exports."},
-  {"c": "MX", "name": "Mexico", "exp": 2.4, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"], ["Trading Economics, Mexico imports of HS 97 (INEGI monthly series)", "https://tradingeconomics.com/mexico/imports-of-works-of-art-collectors-pieces-ant"]], "vf": "S", "note": "INEGI monthly series via Trading Economics: January 2024 imports US$2,132 thousand, December 2023 US$775 thousand; 2014–2024 monthly average US$3,639 thousand; no annual total on the page."},
-  {"c": "ZA", "name": "South Africa", "exp": 14.6, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": "HS 97 totals not opened."},
-  {"c": "NG", "name": "Nigeria", "exp": null, "imp": null, "hs": "97", "year": 2025, "src": [["World's Top Exports, 2025 (Nigeria not in the top 100)", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "U", "note": "Nigeria does not appear among the 100 HS 9701 exporters listed; no HS 97 total opened."},
-  {"c": "AU", "name": "Australia", "exp": 71.9, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": ""},
-  {"c": "KE", "name": "Kenya", "exp": 6.45, "imp": 0.83, "hs": "97", "year": 2023, "src": [["TrendEconomy (UN Comtrade), Kenya HS 97, 2023", "https://trendeconomy.com/data/h2/Kenya/97"]], "vf": "S", "note": "Exports US$6,446,623; imports US$833,448."},
-  {"c": "TW", "name": "Taiwan", "exp": 4.9, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": ""},
-  {"c": "TH", "name": "Thailand", "exp": 7.4, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": ""},
-  {"c": "VN", "name": "Vietnam", "exp": 7.2, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": ""},
-  {"c": "PH", "name": "Philippines", "exp": 4.6, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": ""},
-  {"c": "GH", "name": "Ghana", "exp": 7.1, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": ""},
-  {"c": "MA", "name": "Morocco", "exp": 3.8, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": ""},
-  {"c": "EG", "name": "Egypt", "exp": 0.4, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": ""},
-  {"c": "AR", "name": "Argentina", "exp": 1.2, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": ""},
-  {"c": "CO", "name": "Colombia", "exp": 0.95, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": ""},
-  {"c": "CL", "name": "Chile", "exp": 3.4, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": ""},
-  {"c": "PE", "name": "Peru", "exp": 1.9, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": ""},
-  {"c": "ID", "name": "Indonesia", "exp": null, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025 (Indonesia not in the top 100)", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "U", "note": "Not among the 100 HS 9701 exporters listed."},
-  {"c": "WLD", "name": "World", "exp": 21200, "imp": null, "hs": "9701", "year": 2025, "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"]], "vf": "S", "note": "World exports of paintings and drawings US$21.2bn in 2025, +4.2% on US$20.3bn in 2024 and +3.9% on US$20.4bn in 2022."}
+  {
+   "c": "US",
+   "name": "United States",
+   "exp": 10300,
+   "imp": 8800,
+   "hs": "97",
+   "year": 2024,
+   "src": [
+    [
+     "Art Basel & UBS Art Market Report 2025, p.25 (USITC data)",
+     "https://theartmarket.artbasel.com/download/The-Art-Basel-and-UBS-Art-Market-Report-2025.pdf"
+    ],
+    [
+     "Art Basel & UBS Art Market Report 2026, ch.1 (US imports 2025)",
+     "https://theartmarket.artbasel.com/global-sales"
+    ]
+   ],
+   "vf": "S",
+   "note": "2024: imports fell 15% to $8.8bn, exports fell 7% to $10.3bn; France, the UK and Germany took 56% of imports and 41% of exports; China 13% of exports (4th destination). 2025 (2026 report): imports $9.9bn, +13%; exports down 1% in value (no dollar figure given)."
+  },
+  {
+   "c": "US",
+   "name": "United States",
+   "exp": 7177.8,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, paintings & drawings by country (ITC/Comtrade data), 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": "33.9% of world HS 9701 exports (US$21.2bn in 2025, +4.2% on $20.3bn in 2024)."
+  },
+  {
+   "c": "GB",
+   "name": "United Kingdom",
+   "exp": null,
+   "imp": null,
+   "hs": "97",
+   "year": 2025,
+   "src": [
+    [
+     "HMRC uktradeinfo, chapter 97 (structure only, no values)",
+     "https://www.uktradeinfo.com/commodities/97"
+    ]
+   ],
+   "vf": "U",
+   "note": "No HS 97 total read on a page; HMRC's commodity page lists only the subheadings. Corridor rows give the UK's main partners."
+  },
+  {
+   "c": "GB",
+   "name": "United Kingdom",
+   "exp": 1827.0,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": "8.6% of world HS 9701 exports."
+  },
+  {
+   "c": "CH",
+   "name": "Switzerland",
+   "exp": 3440,
+   "imp": null,
+   "hs": "97",
+   "year": 2025,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), Switzerland exports of HS 97, 2025",
+     "https://tradingeconomics.com/switzerland/exports/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Imports total not opened."
+  },
+  {
+   "c": "CH",
+   "name": "Switzerland",
+   "exp": 2406.7,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": "11.4% of world HS 9701 exports."
+  },
+  {
+   "c": "HK",
+   "name": "Hong Kong",
+   "exp": 4531.1,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": "21.4% of world HS 9701 exports; almost all Hong Kong art exports are re-exports (not confirmed on a C&SD page within budget). HS 97 totals not opened."
+  },
+  {
+   "c": "FR",
+   "name": "France",
+   "exp": 1234.3,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": "5.8% of world HS 9701 exports. HS 97 totals not opened."
+  },
+  {
+   "c": "CN",
+   "name": "China (mainland)",
+   "exp": 453.0,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": "2.1% of world HS 9701 exports. HS 97 totals not opened."
+  },
+  {
+   "c": "DE",
+   "name": "Germany",
+   "exp": 628.3,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": "3% of world HS 9701 exports."
+  },
+  {
+   "c": "JP",
+   "name": "Japan",
+   "exp": 85.1,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "c": "KR",
+   "name": "South Korea",
+   "exp": 267.1,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": "1.3% of world HS 9701 exports."
+  },
+  {
+   "c": "SG",
+   "name": "Singapore",
+   "exp": 1480.2,
+   "imp": 957.0,
+   "hs": "97",
+   "year": 2023,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), Singapore HS 97, 2023",
+     "https://trendeconomy.com/data/h2/Singapore/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Exports US$1,480,181,438; imports US$957,045,259."
+  },
+  {
+   "c": "SG",
+   "name": "Singapore",
+   "exp": 676.0,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": "3.2% of world HS 9701 exports."
+  },
+  {
+   "c": "AE",
+   "name": "United Arab Emirates",
+   "exp": 120.8,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": "HS 97 totals not opened."
+  },
+  {
+   "c": "IT",
+   "name": "Italy",
+   "exp": 263.9,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": "1.2% of world HS 9701 exports."
+  },
+  {
+   "c": "NL",
+   "name": "Netherlands",
+   "exp": 52.8,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "c": "BE",
+   "name": "Belgium",
+   "exp": 175.1,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": "0.8% of world HS 9701 exports."
+  },
+  {
+   "c": "CA",
+   "name": "Canada",
+   "exp": 124.6,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": "0.6% of world HS 9701 exports."
+  },
+  {
+   "c": "IN",
+   "name": "India",
+   "exp": 169.6,
+   "imp": 460.9,
+   "hs": "97",
+   "year": 2023,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), India HS 97, 2023",
+     "https://trendeconomy.com/data/h2/India/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Exports US$169,640,669; imports US$460,891,342. The import table lists 'India' itself at 18.1% (US$83m), i.e. re-imports."
+  },
+  {
+   "c": "IN",
+   "name": "India",
+   "exp": 76.2,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "c": "BR",
+   "name": "Brazil",
+   "exp": 148.9,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": "0.7% of world HS 9701 exports."
+  },
+  {
+   "c": "MX",
+   "name": "Mexico",
+   "exp": 2.4,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ],
+    [
+     "Trading Economics, Mexico imports of HS 97 (INEGI monthly series)",
+     "https://tradingeconomics.com/mexico/imports-of-works-of-art-collectors-pieces-ant"
+    ]
+   ],
+   "vf": "S",
+   "note": "INEGI monthly series via Trading Economics: January 2024 imports US$2,132 thousand, December 2023 US$775 thousand; 2014–2024 monthly average US$3,639 thousand; no annual total on the page."
+  },
+  {
+   "c": "ZA",
+   "name": "South Africa",
+   "exp": 14.6,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": "HS 97 totals not opened."
+  },
+  {
+   "c": "NG",
+   "name": "Nigeria",
+   "exp": null,
+   "imp": null,
+   "hs": "97",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025 (Nigeria not in the top 100)",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "U",
+   "note": "Nigeria does not appear among the 100 HS 9701 exporters listed; no HS 97 total opened."
+  },
+  {
+   "c": "AU",
+   "name": "Australia",
+   "exp": 71.9,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "c": "KE",
+   "name": "Kenya",
+   "exp": 6.45,
+   "imp": 0.83,
+   "hs": "97",
+   "year": 2023,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), Kenya HS 97, 2023",
+     "https://trendeconomy.com/data/h2/Kenya/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Exports US$6,446,623; imports US$833,448."
+  },
+  {
+   "c": "TW",
+   "name": "Taiwan",
+   "exp": 4.9,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "c": "TH",
+   "name": "Thailand",
+   "exp": 7.4,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "c": "VN",
+   "name": "Vietnam",
+   "exp": 7.2,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "c": "PH",
+   "name": "Philippines",
+   "exp": 4.6,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "c": "GH",
+   "name": "Ghana",
+   "exp": 7.1,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "c": "MA",
+   "name": "Morocco",
+   "exp": 3.8,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "c": "EG",
+   "name": "Egypt",
+   "exp": 0.4,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "c": "AR",
+   "name": "Argentina",
+   "exp": 1.2,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "c": "CO",
+   "name": "Colombia",
+   "exp": 0.95,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "c": "CL",
+   "name": "Chile",
+   "exp": 3.4,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "c": "PE",
+   "name": "Peru",
+   "exp": 1.9,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "c": "ID",
+   "name": "Indonesia",
+   "exp": null,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025 (Indonesia not in the top 100)",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "U",
+   "note": "Not among the 100 HS 9701 exporters listed."
+  },
+  {
+   "c": "WLD",
+   "name": "World",
+   "exp": 21200,
+   "imp": null,
+   "hs": "9701",
+   "year": 2025,
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ]
+   ],
+   "vf": "S",
+   "note": "World exports of paintings and drawings US$21.2bn in 2025, +4.2% on US$20.3bn in 2024 and +3.9% on US$20.4bn in 2022."
+  }
  ],
  "flows": [
-  {"from": "US", "to": "GB", "hs": "97", "year": 2025, "v": 2360, "src": [["Trading Economics (UN Comtrade), US exports to UK, 2025", "https://tradingeconomics.com/united-states/exports/united-kingdom/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Reporter US. Paintings $1.79bn, sculpture $251m, antiques $182m, prints $74m, collections $69m."},
-  {"from": "GB", "to": "US", "hs": "97", "year": 2025, "v": 1440, "src": [["Trading Economics (UN Comtrade), UK exports to US, 2025", "https://tradingeconomics.com/united-kingdom/exports/united-states/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Reporter GB. Paintings $661m, sculpture $250m, collections $239m, antiques $209m, prints $84m."},
-  {"from": "GB", "to": "US", "hs": "97", "year": 2025, "v": 1630, "src": [["Trading Economics (UN Comtrade), US imports from UK, 2025", "https://tradingeconomics.com/united-states/imports/united-kingdom/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Mirror row: reporter US. Paintings $1.11bn, sculpture $255m, antiques $127m, collections $70m, prints $61m."},
-  {"from": "US", "to": "HK", "hs": "97", "year": 2025, "v": 675.07, "src": [["Trading Economics (UN Comtrade), US exports to Hong Kong, 2025", "https://tradingeconomics.com/united-states/exports/hong-kong/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Reporter US. Paintings $464m, antiques $97m, sculpture $64m, collections $40m."},
-  {"from": "US", "to": "HK", "hs": "97", "year": 2025, "v": 1640, "src": [["Trading Economics (UN Comtrade), Hong Kong imports from US, 2025", "https://tradingeconomics.com/hong-kong/imports/united-states/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Mirror row: reporter HK. Paintings $1.28bn, antiques $186m, sculpture $116m, collections $51m."},
-  {"from": "HK", "to": "US", "hs": "97", "year": 2025, "v": 1930, "src": [["Trading Economics (UN Comtrade), Hong Kong exports to US, 2025", "https://tradingeconomics.com/hong-kong/exports/united-states/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Reporter HK. Paintings $1.70bn, sculpture $144m, collections $58m, antiques $18m."},
-  {"from": "HK", "to": "CH", "hs": "97", "year": 2025, "v": 97, "src": [["Trading Economics (UN Comtrade), Hong Kong exports to Switzerland, 2025", "https://tradingeconomics.com/hong-kong/exports/switzerland/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Reporter HK. Paintings $74m, collections $14m."},
-  {"from": "HK", "to": "GB", "hs": "97", "year": 2025, "v": 463.92, "src": [["Trading Economics (UN Comtrade), Hong Kong exports to UK, 2025", "https://tradingeconomics.com/hong-kong/exports/united-kingdom/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Reporter HK. Paintings $400m, antiques $37m, sculpture $23m."},
-  {"from": "HK", "to": "GB", "hs": "97", "year": 2025, "v": 8.29, "src": [["Trading Economics (UN Comtrade), UK imports from Hong Kong, 2025", "https://tradingeconomics.com/united-kingdom/imports/hong-kong/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Mirror row: reporter GB. Paintings $4.7m. The UK-reported figure is a fraction of the Hong Kong-reported $464m: goods in transit or declared elsewhere."},
-  {"from": "CH", "to": "GB", "hs": "97", "year": 2025, "v": 355.67, "src": [["Trading Economics (UN Comtrade), Switzerland exports to UK, 2025", "https://tradingeconomics.com/switzerland/exports/united-kingdom/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Reporter CH. Paintings $151m, antiques $102m, collections $62m, sculpture $33m."},
-  {"from": "GB", "to": "CH", "hs": "97", "year": 2025, "v": 476.06, "src": [["Trading Economics (UN Comtrade), UK exports to Switzerland, 2025", "https://tradingeconomics.com/united-kingdom/exports/switzerland/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Reporter GB. Paintings $257m, sculpture $97m, collections $91m, antiques $18m."},
-  {"from": "FR", "to": "US", "hs": "97", "year": 2025, "v": 890.64, "src": [["Trading Economics (UN Comtrade), France exports to US, 2025", "https://tradingeconomics.com/france/exports/united-states/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Reporter FR. Paintings $485m, sculpture $235m, antiques $107m, collections $44m."},
-  {"from": "US", "to": "FR", "hs": "97", "year": 2025, "v": 1300, "src": [["Trading Economics (UN Comtrade), US exports to France, 2025", "https://tradingeconomics.com/united-states/exports/france/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Reporter US. Paintings $940m, sculpture $218m, antiques $81m."},
-  {"from": "CH", "to": "US", "hs": "97", "year": 2025, "v": 813.41, "src": [["Trading Economics (UN Comtrade), Switzerland exports to US, 2025", "https://tradingeconomics.com/switzerland/exports/united-states/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Reporter CH. Paintings $582m, collections $105m, sculpture $87m."},
-  {"from": "CH", "to": "US", "hs": "97", "year": 2025, "v": 187.77, "src": [["Trading Economics (UN Comtrade), US imports from Switzerland, 2025", "https://tradingeconomics.com/united-states/imports/switzerland/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Mirror row: reporter US. Paintings $129m, sculpture $44m. Far below the Swiss-reported $813m: a transit-hub asymmetry."},
-  {"from": "FR", "to": "CH", "hs": "97", "year": 2025, "v": 416.92, "src": [["Trading Economics (UN Comtrade), France exports to Switzerland, 2025", "https://tradingeconomics.com/france/exports/switzerland/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Reporter FR. Paintings $331m, sculpture $46m, collections $23m."},
-  {"from": "CH", "to": "FR", "hs": "97", "year": 2025, "v": 425.43, "src": [["Trading Economics (UN Comtrade), France imports from Switzerland, 2025", "https://tradingeconomics.com/france/imports/switzerland/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Reporter FR. Paintings $223m, sculpture $180m."},
-  {"from": "CH", "to": "DE", "hs": "97", "year": 2025, "v": 1100, "src": [["Trading Economics (UN Comtrade), Switzerland exports to Germany, 2025", "https://tradingeconomics.com/switzerland/exports/germany/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Reporter CH. Paintings $1.02bn, sculpture $52m. Switzerland's largest declared art corridor in 2025."},
-  {"from": "GB", "to": "FR", "hs": "97", "year": 2025, "v": 419.37, "src": [["Trading Economics (UN Comtrade), UK exports to France, 2025", "https://tradingeconomics.com/united-kingdom/exports/france/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Reporter GB. Paintings $178m, antiques $84m, sculpture $73m, collections $55m, prints $28m."},
-  {"from": "DE", "to": "GB", "hs": "97", "year": 2025, "v": 201.39, "src": [["Trading Economics (UN Comtrade), Germany exports to UK, 2025", "https://tradingeconomics.com/germany/exports/united-kingdom/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Reporter DE. Paintings $121m, collections $29m, sculpture $26m."},
-  {"from": "CN", "to": "HK", "hs": "97", "year": 2025, "v": 601.01, "src": [["Trading Economics (UN Comtrade), Hong Kong imports from China, 2025", "https://tradingeconomics.com/hong-kong/imports/china/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Reporter HK. Paintings $359m, antiques $170m, sculpture $71m."},
-  {"from": "JP", "to": "HK", "hs": "97", "year": 2025, "v": 326.9, "src": [["Trading Economics (UN Comtrade), Hong Kong imports from Japan, 2025", "https://tradingeconomics.com/hong-kong/imports/japan/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Reporter HK. Paintings $170m, antiques $132m."},
-  {"from": "US", "to": "JP", "hs": "97", "year": 2025, "v": 112.16, "src": [["Trading Economics (UN Comtrade), Japan imports from US, 2025", "https://tradingeconomics.com/japan/imports/united-states/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Reporter JP. Paintings $70m, sculpture $35m."},
-  {"from": "FR", "to": "AE", "hs": "97", "year": 2025, "v": 40.8, "src": [["Trading Economics (UN Comtrade), France exports to UAE, 2025", "https://tradingeconomics.com/france/exports/united-arab-emirates/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Reporter FR. Antiques $16m, paintings $10m, sculpture $9m."},
-  {"from": "IT", "to": "US", "hs": "97", "year": 2025, "v": 1090, "src": [["Trading Economics (UN Comtrade), US imports from Italy, 2025", "https://tradingeconomics.com/united-states/imports/italy/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Reporter US. Paintings $830m, sculpture $163m, collections $60m."},
-  {"from": "BR", "to": "US", "hs": "97", "year": 2025, "v": 154.42, "src": [["Trading Economics (UN Comtrade), US imports from Brazil, 2025", "https://tradingeconomics.com/united-states/imports/brazil/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Reporter US. Paintings $124m, sculpture $26m."},
-  {"from": "KR", "to": "US", "hs": "97", "year": 2025, "v": 119.61, "src": [["Trading Economics (UN Comtrade), South Korea exports to US, 2025", "https://tradingeconomics.com/south-korea/exports/united-states/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Reporter KR. Paintings $100m, sculpture $19m."},
-  {"from": "HK", "to": "KR", "hs": "97", "year": 2025, "v": 117.35, "src": [["Trading Economics (UN Comtrade), Hong Kong exports to South Korea, 2025", "https://tradingeconomics.com/hong-kong/exports/south-korea/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Reporter HK. Paintings $104m, sculpture $11m."},
-  {"from": "MA", "to": "US", "hs": "97", "year": 2025, "v": 2.62, "src": [["Trading Economics (UN Comtrade), Morocco exports to US, 2025", "https://tradingeconomics.com/morocco/exports/united-states/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Reporter MA. Collections $1.7m, paintings $0.66m."},
-  {"from": "GB", "to": "MX", "hs": "97", "year": 2025, "v": 13.04, "src": [["Trading Economics (UN Comtrade), UK exports to Mexico, 2025", "https://tradingeconomics.com/united-kingdom/exports/mexico/works-art-collectors-pieces-antiques"]], "vf": "S", "note": "Reporter GB. Sculpture $8m, paintings $3.4m."},
-  {"from": "SG", "to": "US", "hs": "97", "year": 2023, "v": 416, "src": [["TrendEconomy (UN Comtrade), Singapore HS 97, 2023", "https://trendeconomy.com/data/h2/Singapore/97"]], "vf": "S", "note": "Reporter SG; 28% of Singapore's HS 97 exports."},
-  {"from": "SG", "to": "HK", "hs": "97", "year": 2023, "v": 334, "src": [["TrendEconomy (UN Comtrade), Singapore HS 97, 2023", "https://trendeconomy.com/data/h2/Singapore/97"]], "vf": "S", "note": "Reporter SG; 22%."},
-  {"from": "SG", "to": "CN", "hs": "97", "year": 2023, "v": 251, "src": [["TrendEconomy (UN Comtrade), Singapore HS 97, 2023", "https://trendeconomy.com/data/h2/Singapore/97"]], "vf": "S", "note": "Reporter SG; 16.9%."},
-  {"from": "SG", "to": "FR", "hs": "97", "year": 2023, "v": 114, "src": [["TrendEconomy (UN Comtrade), Singapore HS 97, 2023", "https://trendeconomy.com/data/h2/Singapore/97"]], "vf": "S", "note": "Reporter SG; 7.71%."},
-  {"from": "SG", "to": "GB", "hs": "97", "year": 2023, "v": 90, "src": [["TrendEconomy (UN Comtrade), Singapore HS 97, 2023", "https://trendeconomy.com/data/h2/Singapore/97"]], "vf": "S", "note": "Reporter SG; 6.13%."},
-  {"from": "US", "to": "SG", "hs": "97", "year": 2023, "v": 280, "src": [["TrendEconomy (UN Comtrade), Singapore HS 97, 2023", "https://trendeconomy.com/data/h2/Singapore/97"]], "vf": "S", "note": "Reporter SG (imports); 29% of Singapore's HS 97 imports."},
-  {"from": "HK", "to": "SG", "hs": "97", "year": 2023, "v": 158, "src": [["TrendEconomy (UN Comtrade), Singapore HS 97, 2023", "https://trendeconomy.com/data/h2/Singapore/97"]], "vf": "S", "note": "Reporter SG (imports); 16.6%."},
-  {"from": "GB", "to": "SG", "hs": "97", "year": 2023, "v": 128, "src": [["TrendEconomy (UN Comtrade), Singapore HS 97, 2023", "https://trendeconomy.com/data/h2/Singapore/97"]], "vf": "S", "note": "Reporter SG (imports); 13.4%."},
-  {"from": "FR", "to": "SG", "hs": "97", "year": 2023, "v": 95, "src": [["TrendEconomy (UN Comtrade), Singapore HS 97, 2023", "https://trendeconomy.com/data/h2/Singapore/97"]], "vf": "S", "note": "Reporter SG (imports); 9.97%."},
-  {"from": "JP", "to": "SG", "hs": "97", "year": 2023, "v": 77, "src": [["TrendEconomy (UN Comtrade), Singapore HS 97, 2023", "https://trendeconomy.com/data/h2/Singapore/97"]], "vf": "S", "note": "Reporter SG (imports); 8.04%."},
-  {"from": "IN", "to": "US", "hs": "97", "year": 2023, "v": 49, "src": [["TrendEconomy (UN Comtrade), India HS 97, 2023", "https://trendeconomy.com/data/h2/India/97"]], "vf": "S", "note": "Reporter IN; 29% of India's HS 97 exports."},
-  {"from": "IN", "to": "FR", "hs": "97", "year": 2023, "v": 43, "src": [["TrendEconomy (UN Comtrade), India HS 97, 2023", "https://trendeconomy.com/data/h2/India/97"]], "vf": "S", "note": "Reporter IN; 25%."},
-  {"from": "IN", "to": "GB", "hs": "97", "year": 2023, "v": 19.3, "src": [["TrendEconomy (UN Comtrade), India HS 97, 2023", "https://trendeconomy.com/data/h2/India/97"]], "vf": "S", "note": "Reporter IN; 11.3%."},
-  {"from": "IN", "to": "HK", "hs": "97", "year": 2023, "v": 13.3, "src": [["TrendEconomy (UN Comtrade), India HS 97, 2023", "https://trendeconomy.com/data/h2/India/97"]], "vf": "S", "note": "Reporter IN; 7.89%."},
-  {"from": "IN", "to": "AE", "hs": "97", "year": 2023, "v": 7.43, "src": [["TrendEconomy (UN Comtrade), India HS 97, 2023", "https://trendeconomy.com/data/h2/India/97"]], "vf": "S", "note": "Reporter IN; 4.38%."},
-  {"from": "IN", "to": "JP", "hs": "97", "year": 2023, "v": 7.01, "src": [["TrendEconomy (UN Comtrade), India HS 97, 2023", "https://trendeconomy.com/data/h2/India/97"]], "vf": "S", "note": "Reporter IN; 4.13%."},
-  {"from": "IN", "to": "OM", "hs": "97", "year": 2023, "v": 6.89, "src": [["TrendEconomy (UN Comtrade), India HS 97, 2023", "https://trendeconomy.com/data/h2/India/97"]], "vf": "S", "note": "Reporter IN; 4.06%."},
-  {"from": "IN", "to": "SG", "hs": "97", "year": 2023, "v": 6.4, "src": [["TrendEconomy (UN Comtrade), India HS 97, 2023", "https://trendeconomy.com/data/h2/India/97"]], "vf": "S", "note": "Reporter IN; 3.77%."},
-  {"from": "IN", "to": "CH", "hs": "97", "year": 2023, "v": 5.61, "src": [["TrendEconomy (UN Comtrade), India HS 97, 2023", "https://trendeconomy.com/data/h2/India/97"]], "vf": "S", "note": "Reporter IN; 3.3%."},
-  {"from": "IN", "to": "AU", "hs": "97", "year": 2023, "v": 1.6, "src": [["TrendEconomy (UN Comtrade), India HS 97, 2023", "https://trendeconomy.com/data/h2/India/97"]], "vf": "S", "note": "Reporter IN."},
-  {"from": "US", "to": "IN", "hs": "97", "year": 2023, "v": 182, "src": [["TrendEconomy (UN Comtrade), India HS 97, 2023", "https://trendeconomy.com/data/h2/India/97"]], "vf": "S", "note": "Reporter IN (imports); 39% of India's HS 97 imports."},
-  {"from": "GB", "to": "IN", "hs": "97", "year": 2023, "v": 98, "src": [["TrendEconomy (UN Comtrade), India HS 97, 2023", "https://trendeconomy.com/data/h2/India/97"]], "vf": "S", "note": "Reporter IN (imports); 21%."},
-  {"from": "FR", "to": "IN", "hs": "97", "year": 2023, "v": 35, "src": [["TrendEconomy (UN Comtrade), India HS 97, 2023", "https://trendeconomy.com/data/h2/India/97"]], "vf": "S", "note": "Reporter IN (imports); 7.73%."},
-  {"from": "HK", "to": "IN", "hs": "97", "year": 2023, "v": 13, "src": [["TrendEconomy (UN Comtrade), India HS 97, 2023", "https://trendeconomy.com/data/h2/India/97"]], "vf": "S", "note": "Reporter IN (imports); 2.83%."},
-  {"from": "DE", "to": "IN", "hs": "97", "year": 2023, "v": 11.9, "src": [["TrendEconomy (UN Comtrade), India HS 97, 2023", "https://trendeconomy.com/data/h2/India/97"]], "vf": "S", "note": "Reporter IN (imports); 2.58%."},
-  {"from": "KR", "to": "IN", "hs": "97", "year": 2023, "v": 11.5, "src": [["TrendEconomy (UN Comtrade), India HS 97, 2023", "https://trendeconomy.com/data/h2/India/97"]], "vf": "S", "note": "Reporter IN (imports); 2.49%."},
-  {"from": "AE", "to": "IN", "hs": "97", "year": 2023, "v": 5.83, "src": [["TrendEconomy (UN Comtrade), India HS 97, 2023", "https://trendeconomy.com/data/h2/India/97"]], "vf": "S", "note": "Reporter IN (imports); 1.26%."},
-  {"from": "CH", "to": "IN", "hs": "97", "year": 2023, "v": 3.6, "src": [["TrendEconomy (UN Comtrade), India HS 97, 2023", "https://trendeconomy.com/data/h2/India/97"]], "vf": "S", "note": "Reporter IN (imports)."},
-  {"from": "JP", "to": "IN", "hs": "97", "year": 2023, "v": 3.51, "src": [["TrendEconomy (UN Comtrade), India HS 97, 2023", "https://trendeconomy.com/data/h2/India/97"]], "vf": "S", "note": "Reporter IN (imports)."},
-  {"from": "KE", "to": "GB", "hs": "97", "year": 2023, "v": 4.27, "src": [["TrendEconomy (UN Comtrade), Kenya HS 97, 2023", "https://trendeconomy.com/data/h2/Kenya/97"]], "vf": "S", "note": "Reporter KE; 66% of Kenya's HS 97 exports."},
-  {"from": "KE", "to": "US", "hs": "97", "year": 2023, "v": 1.65, "src": [["TrendEconomy (UN Comtrade), Kenya HS 97, 2023", "https://trendeconomy.com/data/h2/Kenya/97"]], "vf": "S", "note": "Reporter KE; 25%."},
-  {"from": "KE", "to": "ZA", "hs": "97", "year": 2023, "v": 0.093, "src": [["TrendEconomy (UN Comtrade), Kenya HS 97, 2023", "https://trendeconomy.com/data/h2/Kenya/97"]], "vf": "S", "note": "Reporter KE; 1.45%."},
-  {"from": "KE", "to": "AE", "hs": "97", "year": 2023, "v": 0.088, "src": [["TrendEconomy (UN Comtrade), Kenya HS 97, 2023", "https://trendeconomy.com/data/h2/Kenya/97"]], "vf": "S", "note": "Reporter KE; 1.36%."},
-  {"from": "CN", "to": "KE", "hs": "97", "year": 2023, "v": 0.396, "src": [["TrendEconomy (UN Comtrade), Kenya HS 97, 2023", "https://trendeconomy.com/data/h2/Kenya/97"]], "vf": "S", "note": "Reporter KE (imports); 47% of Kenya's HS 97 imports."},
-  {"from": "IN", "to": "KE", "hs": "97", "year": 2023, "v": 0.101, "src": [["TrendEconomy (UN Comtrade), Kenya HS 97, 2023", "https://trendeconomy.com/data/h2/Kenya/97"]], "vf": "S", "note": "Reporter KE (imports); 12.2%."},
-  {"from": "US", "to": "KE", "hs": "97", "year": 2023, "v": 0.077, "src": [["TrendEconomy (UN Comtrade), Kenya HS 97, 2023", "https://trendeconomy.com/data/h2/Kenya/97"]], "vf": "S", "note": "Reporter KE (imports); 9.32%."}
+  {
+   "from": "US",
+   "to": "GB",
+   "hs": "97",
+   "year": 2025,
+   "v": 2360,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), US exports to UK, 2025",
+     "https://tradingeconomics.com/united-states/exports/united-kingdom/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter US. Paintings $1.79bn, sculpture $251m, antiques $182m, prints $74m, collections $69m."
+  },
+  {
+   "from": "GB",
+   "to": "US",
+   "hs": "97",
+   "year": 2025,
+   "v": 1440,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), UK exports to US, 2025",
+     "https://tradingeconomics.com/united-kingdom/exports/united-states/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter GB. Paintings $661m, sculpture $250m, collections $239m, antiques $209m, prints $84m."
+  },
+  {
+   "from": "GB",
+   "to": "US",
+   "hs": "97",
+   "year": 2025,
+   "v": 1630,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), US imports from UK, 2025",
+     "https://tradingeconomics.com/united-states/imports/united-kingdom/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Mirror row: reporter US. Paintings $1.11bn, sculpture $255m, antiques $127m, collections $70m, prints $61m."
+  },
+  {
+   "from": "US",
+   "to": "HK",
+   "hs": "97",
+   "year": 2025,
+   "v": 675.07,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), US exports to Hong Kong, 2025",
+     "https://tradingeconomics.com/united-states/exports/hong-kong/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter US. Paintings $464m, antiques $97m, sculpture $64m, collections $40m."
+  },
+  {
+   "from": "US",
+   "to": "HK",
+   "hs": "97",
+   "year": 2025,
+   "v": 1640,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), Hong Kong imports from US, 2025",
+     "https://tradingeconomics.com/hong-kong/imports/united-states/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Mirror row: reporter HK. Paintings $1.28bn, antiques $186m, sculpture $116m, collections $51m."
+  },
+  {
+   "from": "HK",
+   "to": "US",
+   "hs": "97",
+   "year": 2025,
+   "v": 1930,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), Hong Kong exports to US, 2025",
+     "https://tradingeconomics.com/hong-kong/exports/united-states/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter HK. Paintings $1.70bn, sculpture $144m, collections $58m, antiques $18m."
+  },
+  {
+   "from": "HK",
+   "to": "CH",
+   "hs": "97",
+   "year": 2025,
+   "v": 97,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), Hong Kong exports to Switzerland, 2025",
+     "https://tradingeconomics.com/hong-kong/exports/switzerland/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter HK. Paintings $74m, collections $14m."
+  },
+  {
+   "from": "HK",
+   "to": "GB",
+   "hs": "97",
+   "year": 2025,
+   "v": 463.92,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), Hong Kong exports to UK, 2025",
+     "https://tradingeconomics.com/hong-kong/exports/united-kingdom/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter HK. Paintings $400m, antiques $37m, sculpture $23m."
+  },
+  {
+   "from": "HK",
+   "to": "GB",
+   "hs": "97",
+   "year": 2025,
+   "v": 8.29,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), UK imports from Hong Kong, 2025",
+     "https://tradingeconomics.com/united-kingdom/imports/hong-kong/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Mirror row: reporter GB. Paintings $4.7m. The UK-reported figure is a fraction of the Hong Kong-reported $464m: goods in transit or declared elsewhere."
+  },
+  {
+   "from": "CH",
+   "to": "GB",
+   "hs": "97",
+   "year": 2025,
+   "v": 355.67,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), Switzerland exports to UK, 2025",
+     "https://tradingeconomics.com/switzerland/exports/united-kingdom/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter CH. Paintings $151m, antiques $102m, collections $62m, sculpture $33m."
+  },
+  {
+   "from": "GB",
+   "to": "CH",
+   "hs": "97",
+   "year": 2025,
+   "v": 476.06,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), UK exports to Switzerland, 2025",
+     "https://tradingeconomics.com/united-kingdom/exports/switzerland/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter GB. Paintings $257m, sculpture $97m, collections $91m, antiques $18m."
+  },
+  {
+   "from": "FR",
+   "to": "US",
+   "hs": "97",
+   "year": 2025,
+   "v": 890.64,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), France exports to US, 2025",
+     "https://tradingeconomics.com/france/exports/united-states/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter FR. Paintings $485m, sculpture $235m, antiques $107m, collections $44m."
+  },
+  {
+   "from": "US",
+   "to": "FR",
+   "hs": "97",
+   "year": 2025,
+   "v": 1300,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), US exports to France, 2025",
+     "https://tradingeconomics.com/united-states/exports/france/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter US. Paintings $940m, sculpture $218m, antiques $81m."
+  },
+  {
+   "from": "CH",
+   "to": "US",
+   "hs": "97",
+   "year": 2025,
+   "v": 813.41,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), Switzerland exports to US, 2025",
+     "https://tradingeconomics.com/switzerland/exports/united-states/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter CH. Paintings $582m, collections $105m, sculpture $87m."
+  },
+  {
+   "from": "CH",
+   "to": "US",
+   "hs": "97",
+   "year": 2025,
+   "v": 187.77,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), US imports from Switzerland, 2025",
+     "https://tradingeconomics.com/united-states/imports/switzerland/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Mirror row: reporter US. Paintings $129m, sculpture $44m. Far below the Swiss-reported $813m: a transit-hub asymmetry."
+  },
+  {
+   "from": "FR",
+   "to": "CH",
+   "hs": "97",
+   "year": 2025,
+   "v": 416.92,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), France exports to Switzerland, 2025",
+     "https://tradingeconomics.com/france/exports/switzerland/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter FR. Paintings $331m, sculpture $46m, collections $23m."
+  },
+  {
+   "from": "CH",
+   "to": "FR",
+   "hs": "97",
+   "year": 2025,
+   "v": 425.43,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), France imports from Switzerland, 2025",
+     "https://tradingeconomics.com/france/imports/switzerland/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter FR. Paintings $223m, sculpture $180m."
+  },
+  {
+   "from": "CH",
+   "to": "DE",
+   "hs": "97",
+   "year": 2025,
+   "v": 1100,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), Switzerland exports to Germany, 2025",
+     "https://tradingeconomics.com/switzerland/exports/germany/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter CH. Paintings $1.02bn, sculpture $52m. Switzerland's largest declared art corridor in 2025."
+  },
+  {
+   "from": "GB",
+   "to": "FR",
+   "hs": "97",
+   "year": 2025,
+   "v": 419.37,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), UK exports to France, 2025",
+     "https://tradingeconomics.com/united-kingdom/exports/france/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter GB. Paintings $178m, antiques $84m, sculpture $73m, collections $55m, prints $28m."
+  },
+  {
+   "from": "DE",
+   "to": "GB",
+   "hs": "97",
+   "year": 2025,
+   "v": 201.39,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), Germany exports to UK, 2025",
+     "https://tradingeconomics.com/germany/exports/united-kingdom/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter DE. Paintings $121m, collections $29m, sculpture $26m."
+  },
+  {
+   "from": "CN",
+   "to": "HK",
+   "hs": "97",
+   "year": 2025,
+   "v": 601.01,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), Hong Kong imports from China, 2025",
+     "https://tradingeconomics.com/hong-kong/imports/china/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter HK. Paintings $359m, antiques $170m, sculpture $71m."
+  },
+  {
+   "from": "JP",
+   "to": "HK",
+   "hs": "97",
+   "year": 2025,
+   "v": 326.9,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), Hong Kong imports from Japan, 2025",
+     "https://tradingeconomics.com/hong-kong/imports/japan/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter HK. Paintings $170m, antiques $132m."
+  },
+  {
+   "from": "US",
+   "to": "JP",
+   "hs": "97",
+   "year": 2025,
+   "v": 112.16,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), Japan imports from US, 2025",
+     "https://tradingeconomics.com/japan/imports/united-states/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter JP. Paintings $70m, sculpture $35m."
+  },
+  {
+   "from": "FR",
+   "to": "AE",
+   "hs": "97",
+   "year": 2025,
+   "v": 40.8,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), France exports to UAE, 2025",
+     "https://tradingeconomics.com/france/exports/united-arab-emirates/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter FR. Antiques $16m, paintings $10m, sculpture $9m."
+  },
+  {
+   "from": "IT",
+   "to": "US",
+   "hs": "97",
+   "year": 2025,
+   "v": 1090,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), US imports from Italy, 2025",
+     "https://tradingeconomics.com/united-states/imports/italy/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter US. Paintings $830m, sculpture $163m, collections $60m."
+  },
+  {
+   "from": "BR",
+   "to": "US",
+   "hs": "97",
+   "year": 2025,
+   "v": 154.42,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), US imports from Brazil, 2025",
+     "https://tradingeconomics.com/united-states/imports/brazil/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter US. Paintings $124m, sculpture $26m."
+  },
+  {
+   "from": "KR",
+   "to": "US",
+   "hs": "97",
+   "year": 2025,
+   "v": 119.61,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), South Korea exports to US, 2025",
+     "https://tradingeconomics.com/south-korea/exports/united-states/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter KR. Paintings $100m, sculpture $19m."
+  },
+  {
+   "from": "HK",
+   "to": "KR",
+   "hs": "97",
+   "year": 2025,
+   "v": 117.35,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), Hong Kong exports to South Korea, 2025",
+     "https://tradingeconomics.com/hong-kong/exports/south-korea/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter HK. Paintings $104m, sculpture $11m."
+  },
+  {
+   "from": "MA",
+   "to": "US",
+   "hs": "97",
+   "year": 2025,
+   "v": 2.62,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), Morocco exports to US, 2025",
+     "https://tradingeconomics.com/morocco/exports/united-states/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter MA. Collections $1.7m, paintings $0.66m."
+  },
+  {
+   "from": "GB",
+   "to": "MX",
+   "hs": "97",
+   "year": 2025,
+   "v": 13.04,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), UK exports to Mexico, 2025",
+     "https://tradingeconomics.com/united-kingdom/exports/mexico/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter GB. Sculpture $8m, paintings $3.4m."
+  },
+  {
+   "from": "SG",
+   "to": "US",
+   "hs": "97",
+   "year": 2023,
+   "v": 416,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), Singapore HS 97, 2023",
+     "https://trendeconomy.com/data/h2/Singapore/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter SG; 28% of Singapore's HS 97 exports."
+  },
+  {
+   "from": "SG",
+   "to": "HK",
+   "hs": "97",
+   "year": 2023,
+   "v": 334,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), Singapore HS 97, 2023",
+     "https://trendeconomy.com/data/h2/Singapore/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter SG; 22%."
+  },
+  {
+   "from": "SG",
+   "to": "CN",
+   "hs": "97",
+   "year": 2023,
+   "v": 251,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), Singapore HS 97, 2023",
+     "https://trendeconomy.com/data/h2/Singapore/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter SG; 16.9%."
+  },
+  {
+   "from": "SG",
+   "to": "FR",
+   "hs": "97",
+   "year": 2023,
+   "v": 114,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), Singapore HS 97, 2023",
+     "https://trendeconomy.com/data/h2/Singapore/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter SG; 7.71%."
+  },
+  {
+   "from": "SG",
+   "to": "GB",
+   "hs": "97",
+   "year": 2023,
+   "v": 90,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), Singapore HS 97, 2023",
+     "https://trendeconomy.com/data/h2/Singapore/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter SG; 6.13%."
+  },
+  {
+   "from": "US",
+   "to": "SG",
+   "hs": "97",
+   "year": 2023,
+   "v": 280,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), Singapore HS 97, 2023",
+     "https://trendeconomy.com/data/h2/Singapore/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter SG (imports); 29% of Singapore's HS 97 imports."
+  },
+  {
+   "from": "HK",
+   "to": "SG",
+   "hs": "97",
+   "year": 2023,
+   "v": 158,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), Singapore HS 97, 2023",
+     "https://trendeconomy.com/data/h2/Singapore/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter SG (imports); 16.6%."
+  },
+  {
+   "from": "GB",
+   "to": "SG",
+   "hs": "97",
+   "year": 2023,
+   "v": 128,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), Singapore HS 97, 2023",
+     "https://trendeconomy.com/data/h2/Singapore/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter SG (imports); 13.4%."
+  },
+  {
+   "from": "FR",
+   "to": "SG",
+   "hs": "97",
+   "year": 2023,
+   "v": 95,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), Singapore HS 97, 2023",
+     "https://trendeconomy.com/data/h2/Singapore/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter SG (imports); 9.97%."
+  },
+  {
+   "from": "JP",
+   "to": "SG",
+   "hs": "97",
+   "year": 2023,
+   "v": 77,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), Singapore HS 97, 2023",
+     "https://trendeconomy.com/data/h2/Singapore/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter SG (imports); 8.04%."
+  },
+  {
+   "from": "IN",
+   "to": "US",
+   "hs": "97",
+   "year": 2023,
+   "v": 49,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), India HS 97, 2023",
+     "https://trendeconomy.com/data/h2/India/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter IN; 29% of India's HS 97 exports."
+  },
+  {
+   "from": "IN",
+   "to": "FR",
+   "hs": "97",
+   "year": 2023,
+   "v": 43,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), India HS 97, 2023",
+     "https://trendeconomy.com/data/h2/India/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter IN; 25%."
+  },
+  {
+   "from": "IN",
+   "to": "GB",
+   "hs": "97",
+   "year": 2023,
+   "v": 19.3,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), India HS 97, 2023",
+     "https://trendeconomy.com/data/h2/India/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter IN; 11.3%."
+  },
+  {
+   "from": "IN",
+   "to": "HK",
+   "hs": "97",
+   "year": 2023,
+   "v": 13.3,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), India HS 97, 2023",
+     "https://trendeconomy.com/data/h2/India/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter IN; 7.89%."
+  },
+  {
+   "from": "IN",
+   "to": "AE",
+   "hs": "97",
+   "year": 2023,
+   "v": 7.43,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), India HS 97, 2023",
+     "https://trendeconomy.com/data/h2/India/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter IN; 4.38%."
+  },
+  {
+   "from": "IN",
+   "to": "JP",
+   "hs": "97",
+   "year": 2023,
+   "v": 7.01,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), India HS 97, 2023",
+     "https://trendeconomy.com/data/h2/India/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter IN; 4.13%."
+  },
+  {
+   "from": "IN",
+   "to": "OM",
+   "hs": "97",
+   "year": 2023,
+   "v": 6.89,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), India HS 97, 2023",
+     "https://trendeconomy.com/data/h2/India/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter IN; 4.06%."
+  },
+  {
+   "from": "IN",
+   "to": "SG",
+   "hs": "97",
+   "year": 2023,
+   "v": 6.4,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), India HS 97, 2023",
+     "https://trendeconomy.com/data/h2/India/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter IN; 3.77%."
+  },
+  {
+   "from": "IN",
+   "to": "CH",
+   "hs": "97",
+   "year": 2023,
+   "v": 5.61,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), India HS 97, 2023",
+     "https://trendeconomy.com/data/h2/India/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter IN; 3.3%."
+  },
+  {
+   "from": "IN",
+   "to": "AU",
+   "hs": "97",
+   "year": 2023,
+   "v": 1.6,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), India HS 97, 2023",
+     "https://trendeconomy.com/data/h2/India/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter IN."
+  },
+  {
+   "from": "US",
+   "to": "IN",
+   "hs": "97",
+   "year": 2023,
+   "v": 182,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), India HS 97, 2023",
+     "https://trendeconomy.com/data/h2/India/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter IN (imports); 39% of India's HS 97 imports."
+  },
+  {
+   "from": "GB",
+   "to": "IN",
+   "hs": "97",
+   "year": 2023,
+   "v": 98,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), India HS 97, 2023",
+     "https://trendeconomy.com/data/h2/India/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter IN (imports); 21%."
+  },
+  {
+   "from": "FR",
+   "to": "IN",
+   "hs": "97",
+   "year": 2023,
+   "v": 35,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), India HS 97, 2023",
+     "https://trendeconomy.com/data/h2/India/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter IN (imports); 7.73%."
+  },
+  {
+   "from": "HK",
+   "to": "IN",
+   "hs": "97",
+   "year": 2023,
+   "v": 13,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), India HS 97, 2023",
+     "https://trendeconomy.com/data/h2/India/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter IN (imports); 2.83%."
+  },
+  {
+   "from": "DE",
+   "to": "IN",
+   "hs": "97",
+   "year": 2023,
+   "v": 11.9,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), India HS 97, 2023",
+     "https://trendeconomy.com/data/h2/India/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter IN (imports); 2.58%."
+  },
+  {
+   "from": "KR",
+   "to": "IN",
+   "hs": "97",
+   "year": 2023,
+   "v": 11.5,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), India HS 97, 2023",
+     "https://trendeconomy.com/data/h2/India/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter IN (imports); 2.49%."
+  },
+  {
+   "from": "AE",
+   "to": "IN",
+   "hs": "97",
+   "year": 2023,
+   "v": 5.83,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), India HS 97, 2023",
+     "https://trendeconomy.com/data/h2/India/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter IN (imports); 1.26%."
+  },
+  {
+   "from": "CH",
+   "to": "IN",
+   "hs": "97",
+   "year": 2023,
+   "v": 3.6,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), India HS 97, 2023",
+     "https://trendeconomy.com/data/h2/India/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter IN (imports)."
+  },
+  {
+   "from": "JP",
+   "to": "IN",
+   "hs": "97",
+   "year": 2023,
+   "v": 3.51,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), India HS 97, 2023",
+     "https://trendeconomy.com/data/h2/India/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter IN (imports)."
+  },
+  {
+   "from": "KE",
+   "to": "GB",
+   "hs": "97",
+   "year": 2023,
+   "v": 4.27,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), Kenya HS 97, 2023",
+     "https://trendeconomy.com/data/h2/Kenya/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter KE; 66% of Kenya's HS 97 exports."
+  },
+  {
+   "from": "KE",
+   "to": "US",
+   "hs": "97",
+   "year": 2023,
+   "v": 1.65,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), Kenya HS 97, 2023",
+     "https://trendeconomy.com/data/h2/Kenya/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter KE; 25%."
+  },
+  {
+   "from": "KE",
+   "to": "ZA",
+   "hs": "97",
+   "year": 2023,
+   "v": 0.093,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), Kenya HS 97, 2023",
+     "https://trendeconomy.com/data/h2/Kenya/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter KE; 1.45%."
+  },
+  {
+   "from": "KE",
+   "to": "AE",
+   "hs": "97",
+   "year": 2023,
+   "v": 0.088,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), Kenya HS 97, 2023",
+     "https://trendeconomy.com/data/h2/Kenya/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter KE; 1.36%."
+  },
+  {
+   "from": "CN",
+   "to": "KE",
+   "hs": "97",
+   "year": 2023,
+   "v": 0.396,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), Kenya HS 97, 2023",
+     "https://trendeconomy.com/data/h2/Kenya/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter KE (imports); 47% of Kenya's HS 97 imports."
+  },
+  {
+   "from": "IN",
+   "to": "KE",
+   "hs": "97",
+   "year": 2023,
+   "v": 0.101,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), Kenya HS 97, 2023",
+     "https://trendeconomy.com/data/h2/Kenya/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter KE (imports); 12.2%."
+  },
+  {
+   "from": "US",
+   "to": "KE",
+   "hs": "97",
+   "year": 2023,
+   "v": 0.077,
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), Kenya HS 97, 2023",
+     "https://trendeconomy.com/data/h2/Kenya/97"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter KE (imports); 9.32%."
+  }
  ],
  "caveats": [
-  {"t": "Customs figures are values declared at the border by the reporting economy, not sales. Mirror rows disagree: the UK declares US$1.44bn of HS 97 exports to the US for 2025 while the US declares US$1.63bn of imports from the UK; Switzerland declares US$813m of exports to the US while the US records US$188m of imports from Switzerland; Hong Kong declares US$464m of exports to the UK while the UK records US$8.3m of imports from Hong Kong. Goods in transit, consignment moves, valuation rules and declaration points explain the gaps; the globe should show which side reported each arrow.", "src": [["Trading Economics (UN Comtrade), UK exports to US, 2025", "https://tradingeconomics.com/united-kingdom/exports/united-states/works-art-collectors-pieces-antiques"], ["Trading Economics (UN Comtrade), US imports from UK, 2025", "https://tradingeconomics.com/united-states/imports/united-kingdom/works-art-collectors-pieces-antiques"], ["Trading Economics (UN Comtrade), US imports from Switzerland, 2025", "https://tradingeconomics.com/united-states/imports/switzerland/works-art-collectors-pieces-antiques"], ["Trading Economics (UN Comtrade), UK imports from Hong Kong, 2025", "https://tradingeconomics.com/united-kingdom/imports/hong-kong/works-art-collectors-pieces-antiques"]], "vf": "S"},
-  {"t": "Trade is not the market: the Art Basel & UBS report puts US sales at 43% of the world by value in 2024 (UK 18%, China incl. Hong Kong 15%, France 7%), while US customs imports of art and antiques fell 15% to US$8.8bn and exports 7% to US$10.3bn in 2024 (USITC data), with France, the UK and Germany taking 56% of imports and 41% of exports and China 13% of exports. In 2025 US imports rose 13% to US$9.9bn and exports slipped 1%.", "src": [["Art Basel & UBS Art Market Report 2025, pp.17–27", "https://theartmarket.artbasel.com/download/The-Art-Basel-and-UBS-Art-Market-Report-2025.pdf"], ["Art Basel & UBS Art Market Report 2026, ch.1", "https://theartmarket.artbasel.com/global-sales"]], "vf": "S"},
-  {"t": "US tariffs: after the Supreme Court struck down the 2025 tariffs, the regime announced in July 2026 (10% or 12.5% on about 80 countries under Section 301) exempts works of art, antiques and collectors' items, following trade-body submissions including Cinoa's; separately, 50% tariffs announced on 20 July 2026 on Canadian imports do apply to contemporary and historical art, antiques, antiquities, stamps and coins. The 2025 tariffs had already pushed collectors towards bonded storage. Customs values are therefore mostly duty-free entries, and tariff shocks show up as timing shifts rather than as duty paid.", "src": [["The Art Newspaper, 28 Jul 2026", "https://www.theartnewspaper.com/2026/07/28/new-trump-tariffs-largely-exempt-art-antiques"], ["The Art Newspaper, 19 Jun 2025", "https://www.theartnewspaper.com/2025/06/19/anxious-collectors-are-increasingly-turning-to-freeport-havens-experts-say"]], "vf": "S"},
-  {"t": "Freeports and bonded warehouses hold works in customs suspension: a shipment into the Geneva, Luxembourg or Singapore freeports, a UK bonded warehouse or Delaware Freeport is not an import for duty until it clears, so a move between two vaults can appear as an export from one economy with no matching import, or not at all. Geneva Freeport reported a 'significant increase' in clients over three years to mid-2025 as US tariffs and new EU import rules pushed collectors to hedge.", "src": [["The Art Newspaper, 19 Jun 2025", "https://www.theartnewspaper.com/2025/06/19/anxious-collectors-are-increasingly-turning-to-freeport-havens-experts-say"]], "vf": "S"},
-  {"t": "Switzerland is a transit and storage hub rather than a market of its size: it declared US$3.44bn of HS 97 exports in 2025 and US$2.41bn of HS 9701 exports (11.4% of the world), its largest declared corridor is to Germany (US$1.1bn, almost all paintings), and its exports to the US (US$813m) are more than four times what the US records arriving from Switzerland (US$188m). The Art Basel & UBS report records Swiss sales falling 3% in 2024; Swiss customs values should be read as movements, not Swiss buying.", "src": [["Trading Economics (UN Comtrade), Switzerland exports of HS 97, 2025", "https://tradingeconomics.com/switzerland/exports/works-art-collectors-pieces-antiques"], ["Trading Economics (UN Comtrade), Switzerland exports to Germany, 2025", "https://tradingeconomics.com/switzerland/exports/germany/works-art-collectors-pieces-antiques"], ["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"], ["Art Basel & UBS Art Market Report 2025, p.29", "https://theartmarket.artbasel.com/download/The-Art-Basel-and-UBS-Art-Market-Report-2025.pdf"]], "vf": "S"},
-  {"t": "Hong Kong's declared art trade is dominated by re-exports: it declared US$4.53bn of HS 9701 exports in 2025 (21.4% of the world, second only to the US) and US$1.93bn of HS 97 exports to the US alone, while receiving US$1.64bn from the US, US$601m from mainland China and US$327m from Japan. These are consignments moving through the auction and fair calendar, not Hong Kong production or consumption.", "src": [["World's Top Exports, 2025", "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"], ["Trading Economics (UN Comtrade), Hong Kong exports to US, 2025", "https://tradingeconomics.com/hong-kong/exports/united-states/works-art-collectors-pieces-antiques"], ["Trading Economics (UN Comtrade), Hong Kong imports from China, 2025", "https://tradingeconomics.com/hong-kong/imports/china/works-art-collectors-pieces-antiques"], ["Trading Economics (UN Comtrade), Hong Kong imports from Japan, 2025", "https://tradingeconomics.com/hong-kong/imports/japan/works-art-collectors-pieces-antiques"]], "vf": "S"},
-  {"t": "Mirror data and small economies: for Singapore, India and Kenya the rows come from the reporter's own declarations for 2023 (TrendEconomy mirror of UN Comtrade); India's import table lists India itself at 18.1% (US$83m), i.e. returned goods, and Kenya's whole HS 97 trade is under US$8m, so arrows there are thin lines.", "src": [["TrendEconomy (UN Comtrade), India HS 97, 2023", "https://trendeconomy.com/data/h2/India/97"], ["TrendEconomy (UN Comtrade), Kenya HS 97, 2023", "https://trendeconomy.com/data/h2/Kenya/97"], ["TrendEconomy (UN Comtrade), Singapore HS 97, 2023", "https://trendeconomy.com/data/h2/Singapore/97"]], "vf": "S"}
+  {
+   "t": "Customs figures are values declared at the border by the reporting economy, not sales. Mirror rows disagree: the UK declares US$1.44bn of HS 97 exports to the US for 2025 while the US declares US$1.63bn of imports from the UK; Switzerland declares US$813m of exports to the US while the US records US$188m of imports from Switzerland; Hong Kong declares US$464m of exports to the UK while the UK records US$8.3m of imports from Hong Kong. Goods in transit, consignment moves, valuation rules and declaration points explain the gaps; the globe should show which side reported each arrow.",
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), UK exports to US, 2025",
+     "https://tradingeconomics.com/united-kingdom/exports/united-states/works-art-collectors-pieces-antiques"
+    ],
+    [
+     "Trading Economics (UN Comtrade), US imports from UK, 2025",
+     "https://tradingeconomics.com/united-states/imports/united-kingdom/works-art-collectors-pieces-antiques"
+    ],
+    [
+     "Trading Economics (UN Comtrade), US imports from Switzerland, 2025",
+     "https://tradingeconomics.com/united-states/imports/switzerland/works-art-collectors-pieces-antiques"
+    ],
+    [
+     "Trading Economics (UN Comtrade), UK imports from Hong Kong, 2025",
+     "https://tradingeconomics.com/united-kingdom/imports/hong-kong/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "t": "Trade is not the market: the Art Basel & UBS report puts US sales at 43% of the world by value in 2024 (UK 18%, China incl. Hong Kong 15%, France 7%), while US customs imports of art and antiques fell 15% to US$8.8bn and exports 7% to US$10.3bn in 2024 (USITC data), with France, the UK and Germany taking 56% of imports and 41% of exports and China 13% of exports. In 2025 US imports rose 13% to US$9.9bn and exports slipped 1%.",
+   "src": [
+    [
+     "Art Basel & UBS Art Market Report 2025, pp.17–27",
+     "https://theartmarket.artbasel.com/download/The-Art-Basel-and-UBS-Art-Market-Report-2025.pdf"
+    ],
+    [
+     "Art Basel & UBS Art Market Report 2026, ch.1",
+     "https://theartmarket.artbasel.com/global-sales"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "t": "US tariffs: after the Supreme Court struck down the 2025 tariffs, the regime announced in July 2026 (10% or 12.5% on about 80 countries under Section 301) exempts works of art, antiques and collectors' items, following trade-body submissions including Cinoa's; separately, 50% tariffs announced on 20 July 2026 on Canadian imports do apply to contemporary and historical art, antiques, antiquities, stamps and coins. The 2025 tariffs had already pushed collectors towards bonded storage. Customs values are therefore mostly duty-free entries, and tariff shocks show up as timing shifts rather than as duty paid.",
+   "src": [
+    [
+     "The Art Newspaper, 28 Jul 2026",
+     "https://www.theartnewspaper.com/2026/07/28/new-trump-tariffs-largely-exempt-art-antiques"
+    ],
+    [
+     "The Art Newspaper, 19 Jun 2025",
+     "https://www.theartnewspaper.com/2025/06/19/anxious-collectors-are-increasingly-turning-to-freeport-havens-experts-say"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "t": "Freeports and bonded warehouses hold works in customs suspension: a shipment into the Geneva, Luxembourg or Singapore freeports, a UK bonded warehouse or Delaware Freeport is not an import for duty until it clears, so a move between two vaults can appear as an export from one economy with no matching import, or not at all. Geneva Freeport reported a 'significant increase' in clients over three years to mid-2025 as US tariffs and new EU import rules pushed collectors to hedge.",
+   "src": [
+    [
+     "The Art Newspaper, 19 Jun 2025",
+     "https://www.theartnewspaper.com/2025/06/19/anxious-collectors-are-increasingly-turning-to-freeport-havens-experts-say"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "t": "Switzerland is a transit and storage hub rather than a market of its size: it declared US$3.44bn of HS 97 exports in 2025 and US$2.41bn of HS 9701 exports (11.4% of the world), its largest declared corridor is to Germany (US$1.1bn, almost all paintings), and its exports to the US (US$813m) are more than four times what the US records arriving from Switzerland (US$188m). The Art Basel & UBS report records Swiss sales falling 3% in 2024; Swiss customs values should be read as movements, not Swiss buying.",
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), Switzerland exports of HS 97, 2025",
+     "https://tradingeconomics.com/switzerland/exports/works-art-collectors-pieces-antiques"
+    ],
+    [
+     "Trading Economics (UN Comtrade), Switzerland exports to Germany, 2025",
+     "https://tradingeconomics.com/switzerland/exports/germany/works-art-collectors-pieces-antiques"
+    ],
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ],
+    [
+     "Art Basel & UBS Art Market Report 2025, p.29",
+     "https://theartmarket.artbasel.com/download/The-Art-Basel-and-UBS-Art-Market-Report-2025.pdf"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "t": "Hong Kong's declared art trade is dominated by re-exports: it declared US$4.53bn of HS 9701 exports in 2025 (21.4% of the world, second only to the US) and US$1.93bn of HS 97 exports to the US alone, while receiving US$1.64bn from the US, US$601m from mainland China and US$327m from Japan. These are consignments moving through the auction and fair calendar, not Hong Kong production or consumption.",
+   "src": [
+    [
+     "World's Top Exports, 2025",
+     "https://www.worldstopexports.com/exported-paintings-and-drawings-by-country"
+    ],
+    [
+     "Trading Economics (UN Comtrade), Hong Kong exports to US, 2025",
+     "https://tradingeconomics.com/hong-kong/exports/united-states/works-art-collectors-pieces-antiques"
+    ],
+    [
+     "Trading Economics (UN Comtrade), Hong Kong imports from China, 2025",
+     "https://tradingeconomics.com/hong-kong/imports/china/works-art-collectors-pieces-antiques"
+    ],
+    [
+     "Trading Economics (UN Comtrade), Hong Kong imports from Japan, 2025",
+     "https://tradingeconomics.com/hong-kong/imports/japan/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "t": "Mirror data and small economies: for Singapore, India and Kenya the rows come from the reporter's own declarations for 2023 (TrendEconomy mirror of UN Comtrade); India's import table lists India itself at 18.1% (US$83m), i.e. returned goods, and Kenya's whole HS 97 trade is under US$8m, so arrows there are thin lines.",
+   "src": [
+    [
+     "TrendEconomy (UN Comtrade), India HS 97, 2023",
+     "https://trendeconomy.com/data/h2/India/97"
+    ],
+    [
+     "TrendEconomy (UN Comtrade), Kenya HS 97, 2023",
+     "https://trendeconomy.com/data/h2/Kenya/97"
+    ],
+    [
+     "TrendEconomy (UN Comtrade), Singapore HS 97, 2023",
+     "https://trendeconomy.com/data/h2/Singapore/97"
+    ]
+   ],
+   "vf": "S"
+  }
  ],
  "unconfirmed": [
   "No figure was read on a statistics office's own page (USITC DataWeb, HMRC, BAZG/Swiss-Impex, HK C&SD, Eurostat Comext, UN Comtrade Plus, WITS, OEC all render dynamically or were not surfaced by search within the budget); every row is a reputable mirror of UN Comtrade (Trading Economics, TrendEconomy, World's Top Exports) or the Art Basel & UBS report, flagged S.",
-  "HS 97 export and import totals were not captured for the UK, Hong Kong, France, China, Germany, Japan, South Korea, UAE, Italy, Netherlands, Belgium, Canada, Brazil, Mexico (annual), South Africa, Nigeria and Australia; their rows carry HS 9701 exports for 2025 from World's Top Exports instead, with imports null.",
+  "HS 97 export and import totals were not captured for the UK, Hong Kong, France, China, Germany, Japan, South Korea, UAE, Italy, Netherlands, Belgium, Canada, Brazil, Mexico (annual), South Africa, Nigeria and Australia; their rows carry HS 9701 exports for 2025 from World's Top Exports instead, with imports not recorded.",
   "UK–EU change after 2020: from 1 January 2021 UK trade with EU members is declared at customs and enters HMRC statistics on a customs basis, so UK–EU art corridors before and after 2020 are not comparable; this is from memory and no page confirming it was opened.",
   "The US exemption of art from the 2025 tariffs under the 'informational materials' exception (50 U.S.C. 1702(b)) is from memory; the Art Newspaper article opened (28 Jul 2026) describes the 2026 Section 301 exemption without naming the statute.",
   "Hong Kong C&SD's distinction between domestic exports and re-exports of HS 97 was not read on a C&SD page; the re-export caveat rests on the corridor values themselves.",
