@@ -747,3 +747,33 @@ Each list is in the order the edits should be made. Finish every one with `npm r
 **The landmarks (`data/landmarks.json`, `tools/gen_landmarks.py`, `drawLandmarks`).** One engraved building per city, drawn by the desk as polylines in a 100×100 box (the ground at y=100; `tools/landmarks_preview.py` renders a contact sheet with the 40-px test). `drawLandmarks` runs after `drawCities`: from 2.4× each landmark whose city is front-facing and in the frame is drawn standing on its point, scaled to 34–92 px with the zoom, closed paths filled with paper to mask the hatching, strokes in ink at a constant screen width; the first time a city comes into view at this zoom it unfolds upward over 650 ms with an ease-out-back (`G.lmBorn`), and `kick()` keeps the frames coming while any is growing; under 2.3× the births are forgotten so they unfold again. Reduced motion draws them at full size at once.
 
 **The backdrop (`.wd-stage::before`).** When the globe is close its limb passes under the panel; from 1.25× the wrap carries `wd-zoomed` and a paper strip the width of the panel fades in behind the lead, the controls and the legend, fading to the globe at its right edge. The phone’s stacked layout never shows it.
+
+## 25. v33: the close view and the historical globe (23–24 November 2026)
+
+**Why.** The owner’s screenshot of the Eye over France showed a blank country: nothing to orient by. And the brief for Then was the whole
+of it — the Earth turning back, borders, empires, armies, wonders rising and falling, the people and the art of each century, from
+academic sources.
+
+**The close view (`data_regions.js`, `glbCloseDraw`, `glbPlacesDraw`).** `tools/gen_regions.py` reads Natural Earth (public domain):
+the 10m admin-1 boundary lines at MIN_ZOOM ≤ 7 (the regions of France, the Länder, the Italian regions, the US states, the Chinese
+provinces …) simplified at 0.04°, the 50m rivers (scalerank ≤ 6), the 50m lakes (≤ 3) and the 50m populated places (1,251 with
+scalerank and the capital flag), written as integers in hundredths of a degree, delta-encoded (`glbDecode`). Both globes draw the water
+from 1.8× and the regions (dashed, faint) from 2.2× on the cached plate, and the places as dots with names by rank and zoom
+(capitals and the largest from 2×, names from 2.6×, collisions skipped); the World skips the places it already names. The hatching
+thins beyond 3× (`za`). A `scalerank` of 0 is the most important place: `rank()` guards the Python `or` trap that first turned Paris
+into a rank-9 town.
+
+**The historical globe (`world.js`, the v33 block before `drawThen`).** `HISTORY` (from `tools/gen_history.py`) holds the centuries,
+the events, the wonders, the people and the list of border years; `HIST_ASSETS` maps `all` to an asset URL in the artifact; `WONDER_ART`
+holds the wonders’ line art. The borders: `histGet(y)` fetches `hist/all.json` once (the website) or the asset (the artifact), prepares
+every snapshot (`glbDecode`, the hue from the name) and redraws; `histSnapYear` picks the latest snapshot not after the year;
+`drawHistBorders` paints the states on the plate (the plate key carries the snapshot year) and `drawHistLabels` names the largest in
+capitals, as many as the zoom allows; the lands the basemap names by their way of life (`histState`) stay unfilled and unnamed. The
+events: a point pulses for twenty-five years after its date; a route is drawn as far as the year has travelled it, with a head
+(`eventsAt`, `routeV`); a voyage is dashed, a plague claret. The wonders: `wondersAt` scales each by its rise over the forty years before
+it was built and its fall over the forty after it was lost; `drawGlyph` draws the art standing on the site, a plain pyramid where there
+is none. The people: squares at their cities, alive from fourteen. Hits, tips and clicks open `openEvent`, `openWonder` (with the glyph
+drawn on a canvas in the card) and `openPerson`; the year card opens with `centuryHTML` — the population with its source, the powers as
+buttons that fly to their capitals, what moved, the art, the events within twenty-five years, the wonders standing, the people alive.
+`setYear` nudges `G.vel` against the direction of time so the globe turns back when the years do. The licence of the borders
+(GPL-3.0, aourednik/historical-basemaps) is named in the legend and in `data/hist/index.json`.

@@ -1,0 +1,30 @@
+{
+  "asof": "2026-11-23",
+  "status": "sample — the shapes the page reads; replace every row with researched ones",
+  "centuries": [
+    {"y": 1500, "n": "The world in 1500", "pop": 460, "pop_src": ["McEvedy & Jones, Atlas of World Population History (1978), via Wikipedia", "https://en.wikipedia.org/wiki/Estimates_of_historical_world_population"], "pop_vf": "S",
+     "powers": [{"n": "Ming China", "cap": "Beijing", "ll": [39.9, 116.4], "note": "the largest state by population; the Yongle voyages had ended in 1433"},
+                {"n": "Ottoman Empire", "cap": "Constantinople", "ll": [41.0, 28.98], "note": "Bayezid II; the sultanate holds the Balkans and Anatolia"},
+                {"n": "Spain and Portugal", "cap": "Toledo / Lisbon", "ll": [39.86, -4.02], "note": "the treaty of Tordesillas (1494) has divided the seas"}],
+     "moved": "Silver did not yet move from the Americas; pepper reached Lisbon round the Cape from 1499; the printing press was fifty years old.",
+     "art": "The High Renaissance in Florence and Rome; the Northern Renaissance in Bruges and Nuremberg; Ming blue-and-white for the Indian Ocean trade.",
+     "people": ["leonardo", "durer", "erasmus", "machiavelli"],
+     "src": [["Wikipedia, 1500", "https://en.wikipedia.org/wiki/1500"]], "vf": "S"}
+  ],
+  "events": [
+    {"id": "columbus-1492", "n": "Columbus crosses the Atlantic", "from": 1492, "to": 1493, "kind": "voyage",
+     "route": [[37.2, -6.95], [28.1, -15.4], [24.1, -74.5], [19.9, -75.8], [19.7, -70.5], [38.7, -9.1]],
+     "t": "Three ships leave Palos on 3 August 1492, water at La Gomera, make landfall on 12 October and return to Lisbon in March 1493.",
+     "src": [["Wikipedia, Voyages of Christopher Columbus", "https://en.wikipedia.org/wiki/Voyages_of_Christopher_Columbus"]], "vf": "S"},
+    {"id": "milan-313", "n": "The Edict of Milan", "from": 313, "to": 313, "kind": "event", "ll": [45.46, 9.19],
+     "t": "Constantine and Licinius grant toleration to Christians; the cross can be shown.", "src": [["Wikipedia, Edict of Milan", "https://en.wikipedia.org/wiki/Edict_of_Milan"]], "vf": "S"}
+  ],
+  "wonders": [
+    {"id": "giza", "n": "The Great Pyramid of Giza", "ll": [29.98, 31.13], "built": -2560, "gone": null, "t": "Khufu's tomb; the only ancient wonder standing.", "src": [["Wikipedia, Great Pyramid of Giza", "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza"]], "vf": "S"},
+    {"id": "lighthouse", "n": "The Lighthouse of Alexandria", "ll": [31.21, 29.89], "built": -280, "gone": 1323, "t": "Built under Ptolemy II; brought down by earthquakes between 956 and 1323.", "src": [["Wikipedia, Lighthouse of Alexandria", "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria"]], "vf": "S"}
+  ],
+  "people": [
+    {"id": "aristotle", "n": "Aristotle", "born": -384, "died": -322, "ll": [40.38, 23.62], "city": "Stagira", "role": "philosopher", "t": "Tutor to Alexander; the Lyceum in Athens from 335 BC.", "src": [["Wikipedia, Aristotle", "https://en.wikipedia.org/wiki/Aristotle"]], "vf": "S"}
+  ],
+  "unconfirmed": []
+}

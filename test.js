@@ -149,6 +149,14 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
    assert(w.__WORLD.cats()>=12,'the categories beyond painting are on the Net');w.__WORLD.category('watches');assert(/Watches/.test(q('.wd-ch').textContent)&&qa('.wd-card .wd-ev.player').length>=2&&qa('.wd-card [data-wcity]').length>=1,'a category opens with its players and its rooms');
    w.__WORLD.netCity('Tokyo');assert(qa('.wd-card [data-cat]').length>=1&&[...qa('.wd-card .wd-sec .label')].some(l=>/Beyond painting/.test(l.textContent)),'a city lists the categories traded there');
    const LM=G('LANDMARKS');assert(Object.keys(LM).length>=12&&Object.keys(LM).every(c=>G('CITY_LL')[c]&&LM[c].p.length>=3),'every landmark stands on a known city');
+   /* v33: the close view (Natural Earth) and the historical layer of Then */
+   assert(G('NE_REGIONS').length>20000&&G('NE_RIVERS').length>500&&G('NE_LAKES').length>50&&G('NE_PLACES').length>1000&&G('NE_PLACES').some(p=>p[0]==='Paris'&&p[3]===0),'the regions, rivers, lakes and places of the close view are on the page, ranked');
+   const HI=G('HISTORY');assert(HI&&Array.isArray(HI.years)&&HI.years.length>=20&&HI.years.includes(1500)&&HI.years.includes(-323),'the border snapshots are listed for the Then mode');
+   w.__WORLD.mode('then');w.__WORLD.year(1500);const hs=w.__WORLD.hist();assert(hs.snap===1500&&hs.years.length>=20,'1500 has its own snapshot');
+   w.__WORLD.open();assert(q('.wd-card .wd-ch').textContent==='1500'&&(!HI.centuries.length||q('.wd-card .wd-hist')),'the year card carries the world of the century when the research holds it');
+   if(HI.events.length){const e=HI.events.find(x=>x.route)||HI.events[0];w.__WORLD.event(e.id);assert(q('.wd-card .wd-ch').textContent===e.n&&qa('.wd-card .wd-srcs a').length>=1,'an event opens with its sources');}
+   if(HI.wonders.length){w.__WORLD.wonder(HI.wonders[0].id);assert(q('.wd-card .wd-ch').textContent===HI.wonders[0].n,'a wonder opens');}
+   w.__WORLD.mode('now');
    w.__WORLD.player('gagosian');assert(w.__WORLD.net().sel==='gagosian'&&/8 other offices|other offices/.test(q('.wd-ch').textContent),'a player card opens with its offices');q('.wd-x').click();
    w.__WORLD.mode('now');assert(q('#wdNet').hidden,'leaving the Net hides its controls');
    w.__S.go('hammer');assert(q('#v-hammer .forwhom')&&qa('#v-hammer .forwhom span').length===3&&/Collector/.test(q('#v-hammer .forwhom').textContent),'every section says what it is worth, to whom');

@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
-"""Render every landmark in data/landmarks.json to one contact sheet (PNG).
+"""Render every drawing in a landmarks-style JSON file to one contact sheet (PNG).
 
-    python3 tools/landmarks_preview.py [out.png] [--cols N] [--only City,City]
+    python3 tools/landmarks_preview.py [data.json] [out.png] [--cols N] [--only A,B]
 
-Each landmark gets a 160x160 cell (black lines on cream, stroke 1.5 px x w,
-drawn 4x oversize and downsampled so hairlines stay crisp), its name, and a
-40 px-tall miniature next to the name - the "recognisable at 40 px" test.
+data.json defaults to data/landmarks.json; data/wonders.json uses the same
+drawing format (polylines in a 100x100 box, y down, ground at y=100) and can
+be passed instead.  out.png defaults to <stem>.png in the scratchpad folder.
+
+Each drawing gets a 160x160 cell (black lines on cream, stroke 1.5 px x w,
+drawn 4x oversize and downsampled so hairlines stay crisp), its label, and a
+40 px-tall miniature next to the label - the "recognisable at 40 px" test.
 Prints a table of path/point counts and warns about anything outside the
 100x100 box, more than 8 paths or more than 160 points.
 """
@@ -16,9 +20,8 @@ import sys
 from PIL import Image, ImageDraw, ImageFont
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-DATA = os.path.join(HERE, "..", "data", "landmarks.json")
-DEFAULT_OUT = ("/tmp/claude-0/-home-claude/726626c5-26bf-57d4-8ba9-c4a299f32622/"
-               "scratchpad/landmarks.png")
+DEFAULT_DATA = os.path.join(HERE, "..", "data", "landmarks.json")
+SCRATCH = "/tmp/claude-0/-home-claude/726626c5-26bf-57d4-8ba9-c4a299f32622/scratchpad"
 
 CELL = 160          # drawing area, px
 STRIP = 44          # label strip under the drawing (name + 40 px miniature)
@@ -31,7 +34,21 @@ FAINT = (222, 210, 184)
 LABEL = (90, 76, 56)
 
 
+FONT_CANDIDATES = [
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed.ttf",
+    "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
+    "/usr/share/fonts/truetype/freefont/FreeSans.ttf",
+]
+
+
 def load_font(size):
+    for path in FONT_CANDIDATES:          # a Unicode TTF so names like São Paulo print
+        if os.path.exists(path):
+            try:
+                return ImageFont.truetype(path, size)
+            except OSError:
+                pass
     try:
         return ImageFont.load_default(size=size)
     except TypeError:            # Pillow < 10.1
@@ -39,8 +56,8 @@ def load_font(size):
 
 
 def draw_landmark(item, box_px, stroke_px, frame=False):
-    """Return an RGB image of size (box_px + 2*pad) with the landmark drawn.
-    box_px: pixel height of the 100-unit box; stroke_px: final stroke width."""
+    """Return an RGB image with the drawing; box_px is the pixel height of the
+    100-unit box, stroke_px the final stroke width (before the item's w)."""
     pad = round(box_px * PAD / 140.0) if frame else 1
     size = box_px + 2 * pad
     big = Image.new("RGB", (size * SS, size * SS), CREAM)
@@ -66,6 +83,13 @@ def draw_landmark(item, box_px, stroke_px, frame=False):
     return big.resize((size, size), Image.LANCZOS)
 
 
+def labels(item):
+    """(headline, subline) for the cell: city/site, then the name."""
+    head = item.get("city") or item.get("site") or item.get("id") or ""
+    name = item.get("n") or item.get("name") or ""
+    return head, name
+
+
 def check(item):
     warns = []
     paths = item.get("paths", [])
@@ -85,7 +109,8 @@ def check(item):
 
 
 def main(argv):
-    out = DEFAULT_OUT
+    data_path = DEFAULT_DATA
+    out = None
     cols = 8
     only = None
     args = list(argv)
@@ -95,15 +120,21 @@ def main(argv):
             cols = int(args.pop(0))
         elif a == "--only":
             only = set(s.strip() for s in args.pop(0).split(","))
+        elif a.lower().endswith(".json"):
+            data_path = a
         else:
             out = a
-    with open(DATA) as f:
+    if out is None:
+        stem = os.path.splitext(os.path.basename(data_path))[0]
+        out = os.path.join(SCRATCH, stem + ".png")
+
+    with open(data_path) as f:
         data = json.load(f)
     items = data["items"]
     if only:
-        items = [it for it in items if it["city"] in only]
+        items = [it for it in items if (it.get("city") or it.get("id") or it.get("site")) in only]
     if not items:
-        print("no landmarks to draw")
+        print("no drawings to render")
         return 1
 
     rows = (len(items) + cols - 1) // cols
@@ -113,28 +144,27 @@ def main(argv):
     font = load_font(12)
     small = load_font(10)
 
-    print("%-14s %-34s %5s %5s  %s" % ("city", "name", "paths", "pts", "warnings"))
+    print("%-16s %-32s %5s %5s  %s" % ("city/site", "name", "paths", "pts", "warnings"))
     for k, item in enumerate(items):
         cx = (k % cols) * CELL
         cy = (k // cols) * cell_h
+        head, name = labels(item)
         npts, warns = check(item)
-        print("%-14s %-34s %5d %5d  %s" % (item["city"], item.get("n", item.get("name", "")),
-                                           len(item["paths"]), npts, "; ".join(warns)))
+        print("%-16s %-32s %5d %5d  %s" % (head, name, len(item["paths"]), npts, "; ".join(warns)))
         main_img = draw_landmark(item, CELL - 2 * PAD, 1.5, frame=True)
         sheet.paste(main_img, (cx, cy))
         mini = draw_landmark(item, MINI, 1.0)
         sheet.paste(mini, (cx + CELL - mini.width - 4, cy + CELL + 1))
-        d.text((cx + 6, cy + CELL + 4), item["city"], fill=INK, font=font)
-        name = item.get("n", item.get("name", ""))
-        if len(name) > 20:
-            name = name[:19] + "~"
+        d.text((cx + 6, cy + CELL + 4), head[:18], fill=INK, font=font)
+        if len(name) > 22:
+            name = name[:21] + "~"
         d.text((cx + 6, cy + CELL + 20), name, fill=LABEL, font=small)
         d.line([(cx, cy + cell_h - 1), (cx + CELL, cy + cell_h - 1)], fill=FAINT)
         d.line([(cx + CELL - 1, cy), (cx + CELL - 1, cy + cell_h)], fill=FAINT)
 
     os.makedirs(os.path.dirname(os.path.abspath(out)), exist_ok=True)
     sheet.save(out)
-    print("sheet: %s  (%d landmarks, %dx%d)" % (out, len(items), sheet.width, sheet.height))
+    print("sheet: %s  (%d drawings, %dx%d)" % (out, len(items), sheet.width, sheet.height))
     return 0
 
 

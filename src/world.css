@@ -190,7 +190,7 @@
 .wd-card .wd-live p{margin:2px 0 4px;line-height:1.45}
 
 /* the zoom buttons: a small column at the globe's lower right, finger-sized on a phone */
-.wd-zoomctl{position:absolute;right:16px;bottom:28px;z-index:3;display:flex;flex-direction:column;gap:6px}
+.wd-zoomctl{position:absolute;right:16px;bottom:28px;z-index:3;display:flex;flex-direction:column;gap:6px}.wd[data-mode="then"] .wd-zoomctl{bottom:96px}   /* v33: above the year rail */
 .wd-zb{width:36px;height:36px;border-radius:50%;border:1px solid var(--rule2);background:var(--paper);color:var(--ink2);font-size:20px;line-height:1;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.08);display:flex;align-items:center;justify-content:center;padding:0;font-family:var(--sans)}
 .wd-zb:hover{color:var(--gilt);border-color:var(--gilt)}
 @media (max-width:760px){.wd-zoomctl{position:static;order:0;flex-direction:row;justify-content:flex-end;gap:8px;padding:0 14px;margin:-52px 0 12px;position:relative;z-index:3}.wd-zb{width:40px;height:40px;font-size:22px}}
@@ -208,6 +208,7 @@
 /* v29.1: the corridors in the Net's card */
 .wd-cor{margin:0 0 14px}.wd-cor h4{margin:0 0 4px;font-family:var(--ui);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--gilt)}.wd-cor p{margin:0 0 8px;font-size:12px;line-height:1.45}.wd-cort{width:100%;border-collapse:collapse;font-size:12px;font-family:var(--ui)}.wd-cort th{text-align:left;font-weight:600;color:var(--ink2);padding:3px 6px 3px 0;border-bottom:1px solid var(--rule)}.wd-cort td{padding:3px 6px 3px 0;border-bottom:1px solid var(--rule)}.wd-cort td:nth-child(n+2){text-align:right;white-space:nowrap}.wd-cort tr.in td:first-child{border-left:3px solid var(--gilt);padding-left:6px}.wd-cort tr.out td:first-child{border-left:3px solid var(--lapis,#4c6fa5);padding-left:6px}
 .wd-legend i.trade{background:var(--claret,#8a2a2a);height:2px;width:14px;border-radius:0;display:inline-block;vertical-align:middle;margin-right:6px}.wd-cort tr.tr td:first-child{border-left:3px solid var(--claret,#8a2a2a);padding-left:6px}
+.wd-legend i.ev{background:var(--gilt);border-radius:50%}.wd-legend i.won{width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:9px solid var(--ink);background:none;border-radius:0}.wd-legend i.per{background:var(--ink2);border-radius:0;width:7px;height:7px}.wd-legend i.pol{background:hsla(200,40%,55%,.25);border:1px solid var(--ink);border-radius:2px;width:12px;height:9px}
 /* v31.1: the city dossier — the players folded by kind; a second label inside a section; the sources under the market paragraph */
 .wd-kind{margin:0 0 6px}.wd-kind summary{cursor:pointer;font-family:var(--read);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);padding:6px 0;list-style:none}.wd-kind summary::-webkit-details-marker{display:none}.wd-kind summary::before{content:"+ ";color:var(--ink3)}.wd-kind[open] summary::before{content:"− "}
 .wd-sec .label.sub{display:block;margin-top:10px}.wd-src a{color:inherit}.wd-mk p{font-family:var(--read);font-size:15px;line-height:1.5}
