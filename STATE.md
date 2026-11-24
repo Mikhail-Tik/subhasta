@@ -86,6 +86,9 @@ sentences, every figure sourced and flagged V/S/U, never a route around a contro
 - [x] Website: pushed to github.com/Mikhail-Tik/subhasta; Pages workflow added. The owner sets Settings → Pages → Source: GitHub
       Actions once (the API path is closed to this session). Push from a session: `git -c push.negotiate=true push origin main`
       (after `add_repo` with push in a fresh session).
+- [x] The scheduled tasks read the repository, not the artifact’s mirror: the monthly refresh (1st, 08:52 ET) now clones Mikhail-Tik/subhasta,
+      builds, checks, commits, pushes (which deploys the site) and then publishes both artifacts (the main artifact is at its 511-file cap,
+      so the publish carries only the mirrored sources that changed; `data_landmarks.js`, the tools and the research files live in git only).
 - [x] Daily data on the website: since 23 Nov the daily desk’s prompt (step 5) also clones the repository (`add_repo` with push), writes
       `docs/live/{status,read,sales,wire}.json` and `docs/kb/index.json` and pushes; the page reads them (`liveStatic`). First run: 24 Nov
       06:43 ET — check the Actions log and the website’s Today the next morning.
