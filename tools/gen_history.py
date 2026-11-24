@@ -52,32 +52,44 @@ for it in W.get('items') or []:
     if it.get('id') and paths: art[it['id']] = {'n': it.get('n') or '', 'w': float(it.get('w') or 1), 'p': paths, 'll': swap(it['ll']) if ll_ok(it.get('ll')) else None}
 
 def norm(t): return re.sub(r'[^a-z0-9]+', ' ', str(t or '').lower()).strip()
-STOP = {'the', 'of', 'at', 'de', 'la', 'le', 'a', 'and', 'great', 'basilica', 'cathedral', 'palace', 'temple', 'tower', 'wall', 'house', 'gate'}
-def words_of(t): return {w for w in norm(t).split() if w not in STOP and len(w) > 2}
-def art_for(wid, name, ll):
-    # the research names a wonder in its own words; match it to a drawing by id, then by shared words, then by place (within 60 km)
+STOP = {'the', 'of', 'at', 'de', 'la', 'le', 'a', 'and', 'in', 'el', 'al'}
+def words_of(t): return {w for w in norm(t).split() if w not in STOP and len(w) > 1}
+# the city landmarks (data/landmarks.json) can stand for a wonder too (the Eiffel Tower, the Empire State Building, St Basil's …)
+LMK = json.load(open(root / 'data' / 'landmarks.json', encoding='utf-8')) if (root / 'data' / 'landmarks.json').exists() else {'items': []}
+for it in LMK.get('items') or []:
+    nm = it.get('n') or it.get('name') or ''
+    k = 'city-' + re.sub(r'[^a-z0-9]+', '-', nm.lower()).strip('-')[:40]
+    paths = []
+    for p in it.get('paths', []):
+        flat = []
+        for pt in p:
+            if isinstance(pt, (list, tuple)) and len(pt) == 2: flat += [round(float(pt[0]), 1), round(float(pt[1]), 1)]
+        if len(flat) >= 4: paths.append(flat)
+    if nm and paths and k not in art: art[k] = {'n': nm, 'w': float(it.get('w') or 1), 'p': paths, 'city': it.get('city')}
+def art_for(wid, name):
+    # the research names a wonder in its own words; a drawing matches when its id is the same, or when the words of one name are all in the other's
     if wid in art: return wid
-    nw = words_of(name)
+    nw = words_of(name) | words_of(wid.replace('-', ' '))
     best, bs = None, 0
     for k, a in art.items():
-        aw = words_of(a['n']) | words_of(k.replace('-', ' '))
-        score = len(nw & aw)
-        if score > bs: best, bs = k, score
-    if best and bs >= 1: return best
-    for k, a in art.items():
-        if a.get('ll') and ll and abs(a['ll'][0] - ll[0]) < .6 and abs(a['ll'][1] - ll[1]) < .6: return k
-    return None
+        aw = words_of(a['n']) | words_of(k.replace('city-', '').replace('-', ' '))
+        if not aw or not nw: continue
+        inter = nw & aw
+        if inter and (aw <= nw or nw <= aw) and len(inter) > bs: best, bs = k, len(inter)
+    return best
 wonders = []
 for w in H.get('wonders') or []:
     b = yr(w.get('built'))
     if b is None or not w.get('n') or not ll_ok(w.get('ll')) or not ok_src(w.get('src')): held.append(('wonder', w.get('n') or w.get('id'), 'no year, place or opened source')); continue
     g = yr(w.get('gone')) if w.get('gone') not in (None, '', 'null') else None
     wid = w.get('id') or re.sub(r'[^a-z0-9]+', '-', clean(w['n']).lower())[:40]
-    ll = swap(w['ll']); a = art_for(wid, w['n'], ll)
+    ll = swap(w['ll']); a = art_for(wid, w['n'])
     wonders.append({'id': wid, 'n': clean(w['n']), 'll': ll, 'built': b, 'gone': g, 't': clean(w.get('t')), 'src': w['src'], 'vf': w.get('vf', 'S'), 'art': a})
 # a wonder drawn in data/wonders.json but not in the research still stands on the globe if it carries a place and years there
 for wid, a in art.items():
-    if not any(x['art'] == wid for x in wonders): held.append(('wonder art without a research row', wid, 'drawn but undated: not shown'))
+    if not wid.startswith('city-') and not any(x['art'] == wid for x in wonders): held.append(('wonder art without a research row', wid, 'drawn but undated: not shown'))
+used = {x['art'] for x in wonders if x['art']}
+art = {k: v for k, v in art.items() if k in used or not k.startswith('city-')}   # the city drawings travel only when a wonder uses them
 wonders.sort(key=lambda w: w['built'])
 
 people = []
