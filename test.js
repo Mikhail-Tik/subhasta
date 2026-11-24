@@ -148,7 +148,7 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
    w.__WORLD.netCity('Moscow');assert(q('.wd-ch').textContent==='Moscow'&&[...qa('.wd-card .wd-sec .label')].some(l=>/customs corridors/.test(l.textContent))&&[...qa('.wd-card details.wd-more summary')].some(x=>/corridors since 2022/.test(x.textContent)),'Moscow’s dossier lists its corridors and the corridors story');
    assert(w.__WORLD.cats()>=12,'the categories beyond painting are on the Net');w.__WORLD.category('watches');assert(/Watches/.test(q('.wd-ch').textContent)&&qa('.wd-card .wd-ev.player').length>=2&&qa('.wd-card [data-wcity]').length>=1,'a category opens with its players and its rooms');
    w.__WORLD.netCity('Tokyo');assert(qa('.wd-card [data-cat]').length>=1&&[...qa('.wd-card .wd-sec .label')].some(l=>/Beyond painting/.test(l.textContent)),'a city lists the categories traded there');
-   const LM=G('LANDMARKS');assert(Object.keys(LM).length>=12&&Object.keys(LM).every(c=>G('CITY_LL')[c]&&LM[c].p.length>=3),'every landmark stands on a known city');
+   const LM=G('LANDMARKS');assert(Object.keys(LM).length>=12&&Object.keys(LM).every(c=>G('CITY_LL')[c]&&LM[c].p.length>=1&&LM[c].p.every(p=>p.length>=4)),'every landmark stands on a known city');
    /* v33: the close view (Natural Earth) and the historical layer of Then */
    assert(G('NE_REGIONS').length>20000&&G('NE_RIVERS').length>500&&G('NE_LAKES').length>50&&G('NE_PLACES').length>1000&&G('NE_PLACES').some(p=>p[0]==='Paris'&&p[3]===0),'the regions, rivers, lakes and places of the close view are on the page, ranked');
    const HI=G('HISTORY');assert(HI&&Array.isArray(HI.years)&&HI.years.length>=20&&HI.years.includes(1500)&&HI.years.includes(-323),'the border snapshots are listed for the Then mode');

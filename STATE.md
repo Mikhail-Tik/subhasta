@@ -17,8 +17,10 @@ sentences, every figure sourced and flagged V/S/U, never a route around a contro
   `data/hist/<year>.json` and one bundle `hist/all.json` fetched once; a wash of colour per state, labels for the larger ones, the
   unstated lands unfilled), the events with routes that are travelled as the year runs (`drawHist`), the wonders standing in the year
   (line art in `data/wonders.json`, unfolding as they are built and folding as they fall), the thinkers and rulers alive, and the world
-  of the century in the year card (population, the powers, what moved, the art) from `data/research/v33/history.json` through
-  `tools/gen_history.py` → `src/data_history.js`. The rail turns the globe a little back when the years run back. The zoom buttons
+  of the century in the year card (population with its source, the powers as buttons that fly to their capitals, what moved, the
+  art, the events within twenty-five years, the wonders standing, the people alive) from `data/research/v33/history.json` (52
+  centuries, 225 events of which 69 with routes, 47 wonders of which 33 drawn, 187 people) through `tools/gen_history.py` →
+  `src/data_history.js`. The rail turns the globe a little back when the years run back. The zoom buttons
   sit above the rail. Hooks: `__WORLD.year`, `hist`, `event`, `wonder`; `__EYE.globe`.
 - **v32 (23 Nov 2026, evening).** The globe turns at the device’s frame rate: the engraved plate lives on its own canvas
   (`.wd-pl`, under `.wd-cv`) and is redrawn only when the view changes (rotation quantised to half a pixel, zoom, size, theme,
