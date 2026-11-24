@@ -1,0 +1,4455 @@
+{
+ "asof": "2026-11-23",
+ "categories": [
+  {
+   "id": "netsuke",
+   "n": "Netsuke and Japanese art",
+   "size": "No published market total. The main rooms: Bonhams London Asian Art Week, 12–19 May 2025, £10.7m across five sales (Chinese-led); Bonhams New York 'Netsuke from American Collections', closed 17 October, US$567,500 for over 150 lots (year not stated on the page); Lempertz Asian Art, Cologne, 12 December 2025, about €1.4m, every lot sold. Sotheby's Hong Kong 2025: Utamaro 'Fukagawa in Snow' HK$55.27m, Hokusai 'Great Wave' HK$21.72m. (The Kurstin collection total of US$1.9m, December 2022, sits in unconfirmed with its source note.)",
+   "record": "Netsuke: Bonhams states it holds the world record for a netsuke, US$441,375, sold in 2022 (its own release); the lot — a kirin on a cloud from the Joseph and Elena Kurstin collection, Bonhams New York, 16 December 2022 — is described on an Artdaily page reached through an image-path URL, see unconfirmed. Ukiyo-e: Utamaro 'Fukagawa in Snow', HK$55.27m (US$7.1m), Sotheby's Hong Kong 2025, record for the artist and for any ukiyo-e painting.",
+   "hubs": [
+    "London",
+    "New York",
+    "Tokyo",
+    "Hong Kong",
+    "Cologne"
+   ],
+   "players": [
+    "bonhams-japanese",
+    "sydney-l-moss",
+    "max-rutherston",
+    "olympia-auctions",
+    "lempertz",
+    "van-ham",
+    "sothebys-asia"
+   ],
+   "walls": [
+    {
+     "n": "UK: the Ivory Act 2018 and the pre-1918 'outstanding value' exemption certificate",
+     "cite": "Ivory Act 2018, in force 6 June 2022; guidance extended on 28 January 2025 to hippopotamus, killer whale, narwhal and sperm whale ivory. Dealing in ivory is banned unless the item holds a standard exemption registration or a pre-1918 exemption certificate for outstandingly high artistic, cultural or historical value. The exemption 'is designed to be narrow': the applicant pays a £250 non-refundable fee, an expert at one of 12 prescribed museums assesses, APHA decides for the Secretary of State, about three months; no sale until the certificate is granted. Inaccurate information: fine up to £250,000 or up to five years' imprisonment. Ivory netsuke sold in London must pass this gate.",
+     "src": [
+      [
+       "gov.uk guidance, Ivory: apply for an exemption certificate (updated 15 May 2025)",
+       "https://gov.uk/guidance/ivory-apply-for-an-exemption-certificate-to-deal-in-pre-1918-outstandingly-high-artistic-cultural-or-historical-value-items"
+      ]
+     ],
+     "vf": "V"
+    }
+   ],
+   "note": "A connoisseur's market of a few hundred serious buyers. Prices are made by named carvers (Masanao of Kyoto, Kaigyokusai, Tametaka), by provenance from published collections, and by condition. Wood and stag-antler pieces now lead because ivory needs an exemption certificate in Britain and faces bans elsewhere; the Kurstin kirin that set the record was a wood piece. The rooms are Bonhams in London and New York, Lempertz and Van Ham in Cologne, and the London dealers Sydney L. Moss and Max Rutherston, who publish catalogues and sell at TEFAF and the Treasure House Fair. American estates supply the stock; buyers are European, American and increasingly Japanese, who repatriate. Ukiyo-e prints and paintings clear in Hong Kong, where Sotheby's set the Utamaro and Hokusai records in 2025.",
+   "src": [
+    [
+     "Bonhams press release, Asian Art Week London £10.7m (May 2025)",
+     "https://www.bonhams.com/press_release/40084"
+    ],
+    [
+     "Bonhams press release, Netsuke from American Collections",
+     "https://bonhams.com/press_release/38962"
+    ],
+    [
+     "Lempertz, Auction 1281 Asian Art post-sale review (12 December 2025)",
+     "https://www.lempertz.com/en/press/auction-1281-asian-art-post-sale-review.html"
+    ],
+    [
+     "Sotheby's, Inside a stellar year for Asian art, 2025 in review (4 December 2025)",
+     "https://www.sothebys.com/en/articles/inside-a-stellar-year-for-asian-art-at-sothebys-2025-in-review"
+    ],
+    [
+     "Van Ham, netsuke lot page",
+     "https://auction.van-ham.com/en/netsuke-of-a-chinese-acrobat--id-29652-item.html"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "arms",
+   "n": "Antique arms, armour and sporting guns",
+   "size": "No published total. Hermann Historica, Munich, 104th auction, 28 April–9 May 2025: 'well over 6,500' objects; top arms lot a Polish-Lithuanian winged hussar armour €32,000 hammer, a Korriphila HSP 701 pistol €62,000 (prices net of 29.5% premium). Rock Island Auction, Bedford, Texas: 'The American Sale', 27 June 2026, Henry rifle serial no. 1 US$5,875,000. Bonhams Knightsbridge 'Antique Arms and Armour', 24 June–8 July 2025, 179 lots. Gavin Gardiner's sporting-gun sale of 29 April 2026 was read by the Antiques Trade Gazette as proof that US demand for British guns survives the tariffs.",
+   "record": "Henry rifle serial no. 1, presented by New Haven Arms Co. to Secretary of War Edwin M. Stanton, US$5,875,000 (US$5m hammer), Rock Island Auction Company, 27 June 2026 — the most expensive rifle sold at auction; the hammer matched the Colt Single Action Army that killed Billy the Kid.",
+   "hubs": [
+    "Munich",
+    "London",
+    "Bedford (Texas)",
+    "New York"
+   ],
+   "players": [
+    "hermann-historica",
+    "bonhams-arms",
+    "peter-finer",
+    "holland-holland",
+    "purdey",
+    "gavin-gardiner",
+    "rock-island"
+   ],
+   "walls": [
+    {
+     "n": "Firearms law: antiques are exempt only within each state's definition; modern sporting guns need a certificate or licence",
+     "cite": "Stated from memory, not read on a page in this session: the UK Firearms Act 1968 s.58(2) antique exemption as defined by the Antique Firearms Regulations 2021; the US National Firearms Act and the pre-1899 'antique' definition; the EU Firearms Directive. Figures and thresholds kept out. Shotgun certificates are required for Purdey and Holland & Holland guns in Britain; export to the US runs through import licences on the buyer's side.",
+     "src": [],
+     "vf": "U"
+    }
+   ],
+   "note": "Two markets share one room. Antique arms and armour (pre-1800 swords, harness, wheellocks) are an art market: Peter Finer sells at TEFAF, Hermann Historica and Bonhams run the sales, provenance from princely armouries makes the price. Sporting guns are a working luxury trade: 'best' London side-by-sides by Purdey, Holland & Holland and Boss trade second-hand through Gavin Gardiner's sales and the makers' own used-gun rooms, and the US is the marginal buyer. American collector firearms are the biggest money: Rock Island sells historical Colts and Winchesters to American buyers at prices that now reach US$5m. What moves it: presidential and military provenance, serial-number-one pieces, condition; what blocks it: firearms law at every border.",
+   "src": [
+    [
+     "Hermann Historica, press release, Munich May 2025 (104th auction)",
+     "https://www.hermann-historica.de/en/services/press-releases/nachbericht-104/"
+    ],
+    [
+     "Rock Island Auction, most expensive rifle ever sold at auction brings $5.9 million (June 2026)",
+     "https://www.rockislandauction.com/news/most-expensive-rifle-ever-sold-at-auction-brings-5-9-million"
+    ],
+    [
+     "Bonhams, Antique Arms and Armour, 24 June–8 July 2025",
+     "https://www.bonhams.com/auction/30969/antique-arms-and-armour"
+    ],
+    [
+     "Antiques Trade Gazette, US buyers target British sporting guns (May 2026, paywalled)",
+     "https://www.antiquestradegazette.com/print-edition/2026/may/2745/feature-arms-armour/us-buyers-target-british-sporting-guns/"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "falconry",
+   "n": "Falconry and the Gulf's hunting market",
+   "size": "ADIHEX, Abu Dhabi (ADNEC), 2026 edition: 2,400 companies from 71 countries, 55 falcon-breeding farms, ten days; three falcons over Dh1m, the top one Dh2.1m. Saudi Falcons Club Auction 2025, Malham north of Riyadh, 1 October–30 November 2025, 26 nights: 40 falcons, more than SR6.4m (about US$1.7m). International Falcon Breeders Auction 2025 (Saudi Falcons Club, Malham, 21 days to 25 August 2025): cumulative four-year sales over SAR29m and 2,300 falcons; top international-farm bird SAR1.75m, top local-farm bird over SAR500,000.",
+   "record": "A pure ultra-white gyrfalcon bred by the Mark Moglich farm (US), Dh2.1m, ADIHEX falcon auction, Abu Dhabi, 6 September 2026 — the highest price for a falcon at ADIHEX; buyer not named.",
+   "hubs": [
+    "Abu Dhabi",
+    "Riyadh (Malham)",
+    "Doha",
+    "Dubai"
+   ],
+   "players": [
+    "adihex",
+    "saudi-falcons-club",
+    "moccae",
+    "moglich-farm"
+   ],
+   "walls": [
+    {
+     "n": "UAE: the falcon passport and CITES permits",
+     "cite": "Captive-bred falcons must be registered with the Ministry of Climate Change and Environment, which issues closed rings; the CITES-compliant falcon passport (introduced 2002, the UAE says first in the world) carries falcon and owner details, requires a closed leg ring, is valid three years and allows movement without a separate permit. Otherwise MOCCAE CITES certificates: import permits valid one year, export and re-export permits six months, digital with QR verification. Federal Law No. 5 of 2025: import, re-export or introduction from the sea of CITES-listed species without a valid permit — up to 15 years' imprisonment and AED 2 million.",
+     "src": [
+      [
+       "MOCCAE presentation, Regulating falconry in the UAE: registration, permits and conservation (CMS Raptors MoU, March 2026)",
+       "https://raptors.cms.int/sites/default/files/2026-04/Regulating%20Falconry%20in%20the%20UAE%20-%20Registration%2C%20Permits%20%26amp%3B%20Conservation_0.pdf"
+      ]
+     ],
+     "vf": "V"
+    }
+   ],
+   "note": "A seasonal, state-sponsored market. Captive-bred gyrfalcons, sakers, peregrines and hybrids from farms in the US, Europe and the Gulf are sold at live auctions inside the hunting fairs — ADIHEX in Abu Dhabi in late summer, the Saudi Falcons Club's two auctions at Malham from August to November — to Gulf falconers before the hunting season. Pure white gyrs are the trophies and the only birds that reach seven figures in dirhams; the bulk trades at tens of thousands. Clubs supply transport, lodging and sale documents to foreign breeders, and the state carries the conservation story. The wall is CITES: every bird crosses a border on a passport or permit, and the UAE's 2025 law sets prison terms for the undocumented.",
+   "src": [
+    [
+     "The National, 7 September 2026, rare falcon sells for record Dh2.1 million",
+     "https://thenationalnews.com/news/uae/2026/09/07/exceptionally-rare-falcon-sells-for-record-setting-dh21-million-in-abu-dhabi-auction"
+    ],
+    [
+     "Arab News, 3 December 2025, Riyadh falcons auction concludes with $1.7m in sales",
+     "https://www.arabnews.pk/node/2624891/saudi-arabia"
+    ],
+    [
+     "Saudi Falcons Club, International Falcon Breeders Auction 2025 (25 August 2025)",
+     "https://sfc.org.sa/sa/en/news/641"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "cars",
+   "n": "Classic cars",
+   "size": "Monterey Car Week 2025 (classic-analytics): US$432.8m across the houses, 818 of 1,078 lots sold (76%), average US$529,035; second-highest total after 2022's US$471.2m; US$397.2m without the charity Daytona SP3. By house: RM Sotheby's US$163.8m (135/158, 85%), Gooding Christie's US$127.8m (149/178, 84%), Broad Arrow US$57.4m (135/169, 80%), Bonhams US$44.2m (87/91, 96%), Mecum US$39.5m (312/482, 65%). Gooding Christie's full year 2025: over US$234m from four sales, 906 lots, 96% sold. Gooding Christie's Pebble Beach 2026: over US$159m, 158 lots, 94%.",
+   "record": "Highest price of 2026: 1964 Shelby Cobra Daytona Coupe, ex-Carroll Shelby, US$42,905,000, Gooding Christie's, Pebble Beach, 14–15 August 2026 — the most expensive American car at auction, beating the US$22m Duesenberg SSJ of 2018. Highest of 2025: 2025 Ferrari Daytona SP3 'Tailor Made' one-off, US$26m for the Ferrari Foundation, RM Sotheby's Monterey, August 2025; highest non-charity lot 1961 Ferrari 250 GT SWB California Spider Competizione, US$25,305,000, Gooding Christie's, August 2025. The all-time record (a Mercedes-Benz 300 SLR, 2022) is held from memory, see unconfirmed.",
+   "hubs": [
+    "Monterey / Pebble Beach",
+    "Scottsdale",
+    "Amelia Island",
+    "Paris (Rétromobile)",
+    "London",
+    "Abu Dhabi"
+   ],
+   "players": [
+    "rm-sothebys",
+    "gooding-christies",
+    "bonhams-cars",
+    "broad-arrow",
+    "mecum"
+   ],
+   "walls": [],
+   "note": "The year turns on one week in August on the Monterey Peninsula, where five houses sell about US$400m of cars around the Pebble Beach Concours; Scottsdale in January and Amelia Island in March are the other American poles, Paris and London the European ones. Ferrari is the currency: in 2025 eight of the ten top lots at Monterey were Ferraris, and modern limited-run supercars (F40 LM, F50, LaFerrari, Daytona SP3) now outsell most pre-war classics. Buyers bid from 46 countries at RM Sotheby's; sell-through runs 85–96% at the top houses and 65% at Mecum's volume sale. Both leaders are now owned by art houses: Christie's bought Gooding at the close of 2024, Sotheby's holds RM. What moves prices: chassis history, race provenance, originality and one-off status.",
+   "src": [
+    [
+     "classic-analytics, Monterey Car Week 2025 achieves second-highest total ever (August 2025)",
+     "https://classic-analytics.de/en/news/monterey-car-week-2025-achieves-second-highest-total-ever-modern-supercars-take-the-lead"
+    ],
+    [
+     "RM Sotheby's press release, 18 August 2025",
+     "https://rmsothebys.com/media-center/press-releases/rm-sotheby-s-tops-165-million-at-monterey-car-week-led-by-26-million-ferrari-daytona-sp3-and-multiple-world-records"
+    ],
+    [
+     "Gooding Christie's press release, 17 August 2026 (Shelby Cobra Daytona Coupe)",
+     "https://www.goodingco.com/press/article/43-million-shelby-cobra-daytona-coupe-comes-out-on-top-at-2026-car-week-across-all-auction-sales-becomes-highest-grossing-american-car-of-all-time"
+    ],
+    [
+     "Gooding Christie's press release, 17 December 2025 (US$234m year)",
+     "https://www.goodingco.com/press/article/gooding-christies-records-highest-grossing-year-to-date-with-over-usd234"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "watches",
+   "n": "Watches",
+   "size": "Phillips in association with Bacs & Russo, 2025: US$290,463,315 at auction (highest annual total for any watch auction house; previous Phillips record US$227m in 2022), US$370m with private sales and Phillips Perpetual; six live and seven online sales, 1,802 lots, 11 unsold. Sotheby's luxury (handbags, watches, jewellery) 2025: US$2.7bn, +22%; Christie's luxury 2025: US$795m, +17% (The Art Newspaper). Phillips Geneva Watch Auction XXIII, 9–10 May 2026: CHF74,846,995 (US$96.3m), 224 of 225 lots — the highest-grossing watch auction in history.",
+   "record": "1943 Patek Philippe Ref. 1518 in stainless steel, CHF14,190,000 (US$17,631,075), Phillips 'Decade One', Geneva, November 2025 — most valuable vintage Patek Philippe wristwatch and the most valuable timepiece sold at auction in 2025. F.P. Journe FFC Prototype from the Francis Ford Coppola collection, US$10,755,000, Phillips New York, December 2025 — record for an independent maker. The all-time record (a Patek Philippe Grandmaster Chime at a charity sale, 2019) is held from memory, see unconfirmed.",
+   "hubs": [
+    "Geneva",
+    "Hong Kong",
+    "New York"
+   ],
+   "players": [
+    "phillips-watches",
+    "christies-watches",
+    "sothebys-watches",
+    "antiquorum"
+   ],
+   "walls": [],
+   "note": "Geneva in May and November is the clearing house: the four houses sell in the same hotels in the same week, and Phillips with Bacs & Russo has taken the top of the market with 99% sell-through and two non-charity wristwatches above US$10m in 2025. Hong Kong and New York are the second and third rooms. The 2025 season was 'a plateau with striking peaks': vintage steel Patek and independents (F.P. Journe, Dufour, Akrivia, Louis Richard) ran, mainstream modern brands were cold, and many top lots went to known collectors. Celebrity provenance (Coppola) and single-owner sales make the records. One in three Phillips buyers was new in 2025. Private sales and 'Perpetual' retail arms grow beside the auctions.",
+   "src": [
+    [
+     "Phillips, Year in review 2025, Phillips in association with Bacs & Russo",
+     "https://www.phillips.com/article/164672423/year-in-review-2025-phillips-in-association-with-bacs-and-russo"
+    ],
+    [
+     "Phillips press release, highest-grossing watch auction in history (May 2026)",
+     "https://www.phillips.com/press/release/phillips-has-just-set-the-highestgrossing-watch-auction-in-history"
+    ],
+    [
+     "SJX Watches, Report: Geneva fall auctions 2025 (12 November 2025)",
+     "https://watchesbysjx.com/2025/11/geneva-fall-auctions-2025.html"
+    ],
+    [
+     "The Art Newspaper, 17 December 2025, Christie's and Sotheby's end 2025 with increased sales",
+     "https://www.theartnewspaper.com/2025/12/17/christies-and-sothebys-end-2025-with-increased-sales-thanks-to-luxury-goods-trophy-lots-and-private-deals"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "jewels",
+   "n": "Jewels and gems",
+   "size": "Sotheby's jewellery 2025: US$317.7m, +18% (Rapaport, 22 January 2026). Christie's gave no annual total at press time; its Geneva Magnificent Jewels, May 2025, made over US$72.3m, 100% sold; New York, June 2025, US$87.7m; New York, December 2025, US$46.5m across 152 lots. Sotheby's 'A Legacy of Elegance', December 2025, US$30m. Sotheby's first Abu Dhabi jewellery and watch sale, 5 December 2025, all 42 lots sold.",
+   "record": "Top jewel of 2025: the Mellon Blue diamond, 9.51 ct, US$25.6m, Christie's Geneva, November 2025. Mediterranean Blue, 10.03 ct, US$21.5m, Sotheby's Geneva, May 2025. Royal Blue necklace of 16 Kashmir sapphires (104.61 ct), over US$16.1m, Christie's Hong Kong, November 2025 — record for a Kashmir sapphire necklace. Desert Rose, 31.68 ct fancy vivid orangy pink, over US$8.8m, Sotheby's Abu Dhabi, 5 December 2025, record for its colour. The all-time record (the CTF Pink Star, 2017) is held from memory, see unconfirmed.",
+   "hubs": [
+    "Geneva",
+    "Hong Kong",
+    "New York",
+    "London",
+    "Abu Dhabi"
+   ],
+   "players": [
+    "christies-jewels",
+    "sothebys-jewels",
+    "phillips-jewels",
+    "bonhams-jewels",
+    "graff",
+    "moussaieff"
+   ],
+   "walls": [],
+   "note": "Two Geneva weeks (May and November) and the Hong Kong and New York seasons set the prices; Abu Dhabi joined in December 2025 with Sotheby's first sale there. The market is a handful of stones: fancy coloured diamonds (blue, pink), Kashmir sapphires, Burmese rubies and Colombian emeralds with laboratory reports, signed period pieces (Cartier, JAR, Tiffany) and royal or dynastic provenance (Napoleon, Vanderbilt). Christie's head Max Fawcett expected 87–89% sell-through for 2025 with about 60% of lots above estimate. Beside the houses sit the Bond Street dealers Graff and Moussaieff, who buy the top stones at auction and in private and re-cut or re-set them. Asia's buyers set the records for sapphires and jadeite; Geneva for blue diamonds.",
+   "src": [
+    [
+     "Rapaport Magazine, 22 January 2026, Bringing the hammer down on a strong auction year",
+     "https://rapaport.com/magazine-article/bringing-the-hammer-down-on-a-strong-auction-year/"
+    ],
+    [
+     "The Art Newspaper, 17 December 2025",
+     "https://www.theartnewspaper.com/2025/12/17/christies-and-sothebys-end-2025-with-increased-sales-thanks-to-luxury-goods-trophy-lots-and-private-deals"
+    ],
+    [
+     "Phillips 2025: a look back (Vanderbilt Sapphire)",
+     "https://www.phillips.com/article/164687220/phillips-2025-a-look-back"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "wine",
+   "n": "Wine and spirits",
+   "size": "Sotheby's Wine & Spirits 2025: US$127.5m at auction, +12%, more than double 2015's US$47m; Burgundy 39%, Bordeaux 28%, spirits 20%; bidders from a record 63 countries; one-third of buyers new, half under 50. Christie's New York, the Bill Koch cellar, June 2025: US$28.8m, 100% sold, record for a single-owner wine collection in North America. Zachys New York, the Jacqueline (de Rothschild) Piatigorsky collection, 19 September 2025: US$11,160,375 against a US$2.76m estimate, 162 world records, two-day total US$17,163,925. Acker Hong Kong, 'The Immaculate Collection of The Chairman', 25–26 April 2025: HK$90m, Acker's largest Hong Kong sale in nearly four years.",
+   "record": "Sotheby's states it sold the most valuable bottle of wine of 2025, the only house above US$450,000 for a single lot (lot not named in the report). Zachys, September 2025: Lafite-Rothschild 1870 magnum US$387,500. Christie's Koch sale: 600cl Romanée-Conti 1999 US$275,000. The all-time record (a 1945 Romanée-Conti, 2018) is held from memory, see unconfirmed.",
+   "hubs": [
+    "Hong Kong",
+    "New York",
+    "London",
+    "Beaune",
+    "Geneva"
+   ],
+   "players": [
+    "sothebys-wine",
+    "acker",
+    "zachys",
+    "christies-wine",
+    "bonhams-wine"
+   ],
+   "walls": [
+    {
+     "n": "Hong Kong: zero wine duty since 2008",
+     "cite": "The Commerce and Economic Development Bureau records that 'with the wine duty removed in 2008' Hong Kong became a regional wine trading and distribution hub and a top global wine auction centre; the policy page lists advance consignment clearance into the Mainland, CEPA zero-tariff access for Hong Kong-made wine, anti-counterfeit work by Customs and Excise, and storage and registration schemes. Current rates and the 2024 liquor-duty change are not on the page (page revised 6 October 2025).",
+     "src": [
+      [
+       "Commerce and Economic Development Bureau, Hong Kong, wine business policy page (revised 6 October 2025)",
+       "https://www.cedb.gov.hk/en/policies/wine-business.html"
+      ]
+     ],
+     "vf": "V"
+    }
+   ],
+   "note": "Three rooms: Hong Kong (duty-free since 2008, Acker, Sotheby's, Zachys and Christie's all sell there; Asian buyers favour Burgundy), New York (Zachys, Acker, Sotheby's, Christie's' return in 2025 with the Koch cellar) and London (Sotheby's, Bonhams, Christie's). Single-owner 'legacy cellars' with release-date provenance make the headlines and the records — Koch, Piatigorsky, 'The Chairman' — because fraud (Rudy Kurniawan) made provenance the price. Burgundy (DRC, Leroy, Roumier, Liger-Belair) leads at 39% of Sotheby's sales; Bordeaux recovered in 2025; whisky and spirits are a fifth. Buyers are younger than in art: half of Sotheby's wine buyers are under 50. Houses now run retail arms beside the auctions.",
+   "src": [
+    [
+     "Sotheby's Wine, 2025 Wine & Spirits market report (12 March 2026)",
+     "https://wine.sothebys.com/blogs/news/2025-wine-spirits-market-report"
+    ],
+    [
+     "Decanter, 18 June 2025, Bill Koch's wine cellar fetches record $28.8m",
+     "https://www.decanter.com/wine-news/billionaire-bill-kochs-wine-cellar-fetches-record-28-8m-at-auction-559466/"
+    ],
+    [
+     "Zachys press release, 23 September 2025, Piatigorsky collection",
+     "https://auction.zachys.com/Zachysshattersrecords"
+    ],
+    [
+     "Acker press release, 29 April 2025, The Chairman HK$90m",
+     "https://uk.ackerwines.com/news/press-releases/the-chairman-takes-command-in-hk90m-sale"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "books",
+   "n": "Rare books, manuscripts and maps",
+   "size": "No published market total. Christie's London 'Valuable Books and Manuscripts', 10 December 2025: £6,514,084, 190 of 212 lots sold (89.6%), 106% of the high estimate; top lot William Harvey, 'De motu cordis' (1628), £1,016,000; a 10th-century Gospels £889,000. Sotheby's New York single-lot sale of the Codex Sassoon, 16 May 2023: US$38.1m.",
+   "record": "Codex Sassoon, the oldest near-complete Hebrew Bible, US$38.1m with fees, Sotheby's New York, 16 May 2023, estimate US$30–50m — the most valuable manuscript at auction, beating Leonardo's Codex Leicester (US$30.8m, Christie's 1994, bought by Bill Gates). Bought by Alfred H. Moses for American Friends of ANU; now at the ANU Museum of the Jewish People, Tel Aviv. (A first printing of the US Constitution made US$43.2m at Sotheby's in November 2021, a printed document, not a manuscript.)",
+   "hubs": [
+    "London",
+    "New York",
+    "Paris"
+   ],
+   "players": [
+    "sothebys-books",
+    "christies-books",
+    "bonhams-books",
+    "peter-harrington",
+    "maggs",
+    "heritage"
+   ],
+   "walls": [],
+   "note": "A dealer-led market with the auctions as its price index. London's Peter Harrington and Maggs Bros and the New York trade buy at Christie's and Sotheby's and sell on at fairs (Firsts London, the New York International Antiquarian Book Fair) and from stock; Heritage in Dallas runs the volume end. Prices rest on edition, condition, completeness and association copies; science (Harvey, Newton), early printing, illuminated manuscripts and modern first editions (Harry Potter, Fleming, Tolkien) are the active shelves. Institutions and their donors buy the trophies: the Codex Sassoon went to a museum through a philanthropist, as did the Codex Leicester to a private owner who lends it. Judaica, Islamic manuscripts and maps are their own circuits.",
+   "src": [
+    [
+     "The Art Newspaper, 17 May 2023, Codex Sassoon sets auction record for a manuscript",
+     "https://www.theartnewspaper.com/2023/05/17/codex-sassoon-auction-record-manuscript-sothebys"
+    ],
+    [
+     "Rare Book Hub, Christie's Valuable Books and Manuscripts sale 23880, 10 December 2025",
+     "https://www.rarebookhub.com/auctions/auction_detail_report?id=46927"
+    ],
+    [
+     "Galerie Magazine, 11 October 2024, Pom Harrington",
+     "https://galeriemagazine.com/collectors-pom-harrington/"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "chinese",
+   "n": "Chinese works of art and ceramics",
+   "size": "Sotheby's Asian art 2025 to 4 December: over US$346.83m; Hong Kong autumn 2025 HK$1.4bn (US$180.37m) combined; the Asian Works of Art series HK$1.17bn across three sales, the most valuable since 2013 — Okada Museum of Art HK$688m (125 lots), Ise collection of Chinese ceramics, 9 September 2025, HK$358,970,660 (181 of 182 lots, 229 bidders from 17 countries), Imperial Connoisseurship HK$118.7m (14 lots). China Guardian Hong Kong autumn, 6–8 October 2025: about HK$445m (US$57.2m) overall, ceramics and works of art about HK$227m (US$29.2m), 70% sold of nearly 2,000 lots. Poly Auction Hong Kong spring 2026: over HK$255m, +23% on autumn 2025; three Chinese works of art sales over HK$110m. Christie's Asian art and world art 2025: down 6%; Asia-Pacific buyer spend down 3% (The Art Newspaper).",
+   "record": "2025: Rao Jie Yuan-dynasty calligraphy handscroll, HK$250m (US$32m), Sotheby's Hong Kong, April 2025, 25 times the estimate after 95 minutes and 200 bids — the most valuable Chinese calligraphy sold at Sotheby's. Ceramics 2025: Southern Song Guan lobed dish from the Ise collection, HK$55.88m (US$7.2m), Sotheby's Hong Kong, 9 September 2025. Bronze: Late Shang 'Ya Yi' fanglei, HK$38,805,000, Okada sale. The all-time ceramics record (the Meiyintang chicken cup, 2014) is held from memory, see unconfirmed.",
+   "hubs": [
+    "Hong Kong",
+    "Beijing",
+    "London",
+    "New York"
+   ],
+   "players": [
+    "sothebys-asia",
+    "christies-asia",
+    "poly",
+    "china-guardian",
+    "eskenazi",
+    "marchant",
+    "bonhams-chinese"
+   ],
+   "walls": [],
+   "note": "Hong Kong clears the top of the market: Sotheby's, Christie's, Poly and China Guardian sell there in April and October, and the mainland houses' Beijing seasons follow. Prices are made by imperial reign marks (Yongle, Chenghua, Yongzheng, Qianlong), by Song monochromes for the scholar-collectors and by provenance from Japanese museums and old Western collections — the 2025 Okada and Ise sales were the year. London's Asian Art Week in May and November is the second pole, where Bonhams sold the Christofides Song ceramics for five times estimate and the dealers Eskenazi and Marchant exhibit. Mainland buyers bid in Hong Kong; new bidders at Sotheby's hit a 14-year high in 2025 even as Christie's Asian totals fell. Sell-through at the mainland houses runs about 70%.",
+   "src": [
+    [
+     "Sotheby's, Inside a stellar year for Asian art, 2025 in review (4 December 2025)",
+     "https://www.sothebys.com/en/articles/inside-a-stellar-year-for-asian-art-at-sothebys-2025-in-review"
+    ],
+    [
+     "The Value, 10 October 2025, China Guardian Hong Kong Chinese works of art",
+     "https://en.thevalue.com/articles/china-guardian-hong-kong-2025-auctions-chinese-works-of-art-fall-sales-result"
+    ],
+    [
+     "Poly Auction Hong Kong, spring auctions 2026 press release (17 April 2026)",
+     "https://www.prnewswire.com/apac/news-releases/poly-auction-hong-kong-spring-auctions-2026-concluded-on-a-high-note-302745739.html"
+    ],
+    [
+     "Bonhams press release, Asian Art Week London (May 2025)",
+     "https://www.bonhams.com/press_release/40084"
+    ],
+    [
+     "The Art Newspaper, 17 December 2025",
+     "https://www.theartnewspaper.com/2025/12/17/christies-and-sothebys-end-2025-with-increased-sales-thanks-to-luxury-goods-trophy-lots-and-private-deals"
+    ],
+    [
+     "The Value, 10 September 2025, the Ise collection at Sotheby's Hong Kong",
+     "https://en.thevalue.com/articles/sothebys-hong-kong-single-owner-sale-japanese-eggking-ise-collection-chinese-ceramics-2025-result"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "islamic",
+   "n": "Islamic and Indian art",
+   "size": "Christie's London, the Prince Sadruddin Aga Khan collection, 28 October 2025: £45.8m (US$61m) for 95 lots against an estimate 'in excess of £8m' — the highest-value South Asian art sale in any category, above Saffronart New Delhi (US$40.2m) and Sotheby's New York (US$25.5m), both September 2025. London, end of April 2026: Sotheby's Arts of the Islamic World & India, Orientalist and Middle Eastern sales together £14.8m; Christie's Art from the Islamic and Indian Worlds plus the Mary and Cheney Cowles sale £17.6m. Saffronart Mumbai, 1 April 2026: Raja Ravi Varma 'Yashoda and Krishna' US$17.9m with fees.",
+   "record": "Classical Indian or Islamic painting: Basawan, 'A Family of Cheetahs in a Rocky Landscape' (c.1575–80), £10.2m (US$13.6m), Christie's London, 28 October 2025. Indian painting at auction: Raja Ravi Varma, 'Yashoda and Krishna' (1890s), US$17.9m (INR1,672m), Saffronart Mumbai, 1 April 2026, bought by Cyrus Poonawalla — beating M.F. Husain's 'Gram Yatra', US$13.7m, Christie's New York, March 2025. Islamic glass: 14th-century Mamluk gilded and enamelled footed bowl, £5.5m (estimate £1.2–1.8m), Christie's London, April 2026. Islamic astronomical instrument: 17th-century Mughal astrolabe, £2m, Sotheby's London, April 2026.",
+   "hubs": [
+    "London",
+    "New Delhi",
+    "Mumbai",
+    "New York",
+    "Doha",
+    "Tashkent"
+   ],
+   "players": [
+    "christies-islamic",
+    "sothebys-islamic",
+    "bonhams-islamic",
+    "simon-ray",
+    "francesca-galloway",
+    "forge-lynch",
+    "saffronart"
+   ],
+   "walls": [],
+   "note": "London's two Islamic weeks (April and October) are the exchange: Christie's, Sotheby's and Bonhams sell in the same days, and the dealers Simon Ray, Francesca Galloway and Oliver Forge & Brendan Lynch show around them. What changed in 2025–26 is the buyer: Christie's Sara Plumbly credits 'the emergence of Indian buyers' for Mughal prices; an unnamed Indian collector took the Cowles Mughal drawing; a Tashkent delegation (Islamic Civilisation Center) bid in London; Gulf institutions remain the deep pockets. Indian modern art clears in Mumbai, New Delhi and New York through Saffronart, Christie's and Sotheby's, where a pharmaceuticals billionaire set the US$17.9m record. Iznik ceramics, astrolabes and Qur'an leaves are the steady middle; single-owner estates (Aga Khan, Cowles, Brocklebank, Barlow) are the events.",
+   "src": [
+    [
+     "The Art Newspaper, 29 October 2025, Aga Khan collection breaks record for South Asian art sale",
+     "https://www.theartnewspaper.com/2025/10/29/led-by-£10m-cheetah-miniature-aga-khan-collection-breaks-record-for-south-asian-art-sale"
+    ],
+    [
+     "The Art Newspaper, 11 May 2026, record £5.5m glass leads London Indian and Islamic sales",
+     "https://www.theartnewspaper.com/2026/05/11/record-£55m-glass-goblet-leads-london-indian-and-islamic-sales"
+    ],
+    [
+     "The Art Newspaper, 2 April 2026, vaccine billionaire buys $17.9m Raja Ravi Varma",
+     "https://www.theartnewspaper.com/2026/04/02/vaccine-billionaire-buys-179m-raja-ravi-varma-setting-new-record-for-indian-painting-at-auction"
+    ],
+    [
+     "Bonhams, Islamic and Indian Art department page",
+     "https://www.bonhams.com/departments/ISL"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "carpets",
+   "n": "Antique carpets and textiles",
+   "size": "No published market total; the houses fold rugs into the Islamic and Indian weeks (Christie's London sale title: 'Art of the Islamic and Indian Worlds including Rugs and Carpets'). Reference prices from the dealer Nazmiyal's list: Comtesse de Béhague 'vase' carpet US$9.6m (Christie's), Vanderbilt Mughal millefleurs star-lattice carpet US$7.7m (Christie's), Pearl Carpet of Baroda US$5.54m (Sotheby's), Doris Duke silk Isfahan US$4.45m (Christie's), Louis XV Savonnerie US$4.4m (Christie's).",
+   "record": "The Clark Sickle-Leaf carpet, Kerman, early 17th century, from the William A. Clark collection deaccessioned by the Corcoran, US$33.7m, Sotheby's New York, June 2013 — the record for any carpet at auction (date from the 2013 press reports found in search; the Nazmiyal page gives the price and house without the month).",
+   "hubs": [
+    "London",
+    "New York",
+    "Istanbul",
+    "Tehran",
+    "Hamburg",
+    "Mannheim"
+   ],
+   "players": [
+    "sothebys-rugs",
+    "christies-rugs",
+    "nazmiyal",
+    "bausback"
+   ],
+   "walls": [
+    {
+     "n": "Iran: US sanctions and the collapse of Persian carpet exports",
+     "cite": "Al-Monitor, 23 September 2025: Iran's hand-woven carpet exports fell from over US$2bn in the early 1990s and above US$400m in 2017 to US$41.7m in the year to March 2025 (customs figures), more than 95% below the peak; the US, reimposing sanctions in 2018, had bought over 70% of Iranian hand-woven carpets ('we lost the US', Zahra Kamani, head of the National Carpet Centre); exports now go to 55 countries led by Germany, the UAE, Japan and China; at least two million people depend on weaving; a silk carpet retails at US$30,000–40,000 (trader Hamed Nabizadeh).",
+     "src": [
+      [
+       "Al-Monitor, 23 September 2025, Iran's carpet industry unravelling under sanctions",
+       "https://www.al-monitor.com/originals/2025/09/irans-carpet-industry-unravelling-under-sanctions"
+      ]
+     ],
+     "vf": "S"
+    }
+   ],
+   "note": "A thin market with a long memory. Classical Persian, Mughal and Ottoman carpets of the 16th–17th centuries are sold as works of art at Christie's and Sotheby's in London and New York, mostly within the Islamic weeks, and a handful of records (Clark Sickle-Leaf, Béhague, Vanderbilt) stand for decades. Below them the trade is dealer-run: Nazmiyal in New York, Bausback in Mannheim, the Hamburg and London rug dealers, with Istanbul's bazaar and Tehran as sources. The source is drying: Iran's exports fell from over US$2bn in the early 1990s to US$41.7m in the year to March 2025 after the 2018 US sanctions cut off the buyer of 70% of its hand-woven carpets, so Germany, the UAE and Japan now lead. Provenance from Gilded Age collections (Clark, Vanderbilt, Duke) is what makes a seven-figure price; condition and colour do the rest.",
+   "src": [
+    [
+     "Nazmiyal Antique Rugs, most expensive rug ever sold",
+     "https://nazmiyalantiquerugs.com/blog/most-expensive-rug-ever-sold/"
+    ],
+    [
+     "The Art Newspaper, 11 May 2026 (Christie's sale title including rugs and carpets)",
+     "https://www.theartnewspaper.com/2026/05/11/record-£55m-glass-goblet-leads-london-indian-and-islamic-sales"
+    ],
+    [
+     "Al-Monitor, 23 September 2025",
+     "https://www.al-monitor.com/originals/2025/09/irans-carpet-industry-unravelling-under-sanctions"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "design",
+   "n": "Design and decorative arts",
+   "size": "Phillips 2025: global sales up 10%, over 110 world records, 88% sell-through by lot; design top lot Lalanne 'Brebis' £412,800. Artcurial, Paris, 19–21 May 2026: over €8.1m across Art Deco / Design, Italian Design and Limited Edition, twenty Lalanne lots over €3.1m. Piasa 'French Design', 26 March 2025: approaching €4m. Design Miami.Paris, 22–26 October 2025: over 25 galleries. PAD London, October 2025: prices from £45,000 (Aalto suite) to £68,000 (Finn Juhl table). No Design department total published by any house.",
+   "record": "At the houses opened: François-Xavier Lalanne, 'Singe attentif II' (1999), €1,438,400, Artcurial Paris, May 2026; Jean Royère 'Écusson' suite €367,200, Piasa, March 2025; Lalanne 'Brebis' £412,800, Phillips, 2025. Category all-time records (Eileen Gray 'Dragons' armchair, 2009) are held from memory, see unconfirmed.",
+   "hubs": [
+    "Paris",
+    "New York",
+    "London",
+    "Miami",
+    "Basel"
+   ],
+   "players": [
+    "phillips-design",
+    "christies-design",
+    "wright",
+    "piasa",
+    "artcurial",
+    "seguin",
+    "kreo",
+    "pad",
+    "design-miami"
+   ],
+   "walls": [],
+   "note": "Paris is the capital — the Lalanne, Royère, Prouvé and Perriand markets were made there by Artcurial, Piasa and the dealers Patrick Seguin and Kreo — with New York (Phillips, Wright, Christie's) and London (Phillips, PAD) as the other rooms, and Design Miami in Basel, Miami and Paris as the fair circuit. Prices are made by the sculptural end (Lalanne animals, Giacometti lamps, Gray), by documented commissions (a Prouvé house, a Perriand interior) and by living makers under gallery contract. Phillips reports a third of buyers new and most lots sold online; decorators and contemporary-art collectors, not antiquarians, are the bidders.",
+   "src": [
+    [
+     "Phillips 2025: a look back",
+     "https://www.phillips.com/article/164687220/phillips-2025-a-look-back"
+    ],
+    [
+     "Artcurial, May 2026 results",
+     "https://www.artcurial.com/en/articles/over-8.1m-for-the-art-deco--design-and-limited-edition-departments"
+    ],
+    [
+     "Piasa, French Design results (31 March 2025)",
+     "https://www.piasa.fr/en/news/results-french-design"
+    ],
+    [
+     "The Art Newspaper, 16 October 2025, PAD London",
+     "https://www.theartnewspaper.com/2025/10/16/in-pictures-demand-is-high-at-the-pavilion-of-art-and-design"
+    ],
+    [
+     "Galerie Magazine, 22 October 2025, Design Miami.Paris",
+     "https://galeriemagazine.com/design-miami-paris-2025-highlights/"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "coins",
+   "n": "Coins and medals",
+   "size": "Stack's Bowers Galleries 2025: over US$325m, +18% on 2024's US$275m, more than 134,000 lots in over 130 sales; US paper money over US$20m; world coins over 40,000 lots; final 'Omega' cent sets nearly US$17m in December 2025. Heritage Auctions numismatics 2025: US$470m (of a company total of US$2,158,204,321). PCGS: 28 of the 30 most valuable coins sold in 2025 were in its holders; the top 30 were sold by Stack's Bowers, Heritage and GreatCollections. Spink, London: almost £6m in six sales over two weeks around Coinex (24 September–4 October; year not on the page). NAC, Zurich: the Traveller Collection, a US$100m series, 'the most expensive collection of coins ever to go to auction'.",
+   "record": "Top coin of 2025: 1804 Draped Bust silver dollar, Class III, the James A. Stack Sr specimen, US$6,000,000, Stack's Bowers Galleries; second, 1794 Flowing Hair dollar, Choice Mint State, US$4,500,000, Stack's Bowers, November 2025; third, 1927-D Saint-Gaudens double eagle, US$3,840,000, Heritage. The all-time record (the 1933 Double Eagle, 2021) is held from memory, see unconfirmed. European gold: a 100-ducat of Ferdinand III (Prague), CHF2,388,750 (€2,564,072), NAC Zurich, November 2025 — the most expensive post-antique European gold coin at auction.",
+   "hubs": [
+    "Costa Mesa / Dallas",
+    "New York",
+    "Zurich",
+    "London",
+    "Hong Kong"
+   ],
+   "players": [
+    "stacks-bowers",
+    "heritage",
+    "spink",
+    "nac",
+    "greatcollections"
+   ],
+   "walls": [],
+   "note": "The most liquid collectible market because grading made it fungible: PCGS and NGC holders turn a coin into a quoted instrument, and the Greysheet publishes bid-ask. American federal coins dominate the top (early dollars, proof gold, the 1933 Double Eagle), sold by Stack's Bowers and Heritage at the big shows and online, with US$1m lots now routine. World and ancient coins clear in Zurich (NAC, Stack's Bowers' Bruun sales), London (Spink) and Hong Kong (Chinese patterns and Mukden dollars above US$1m). Old-family collections (Stack, Starr, Bruun) make the headline sales. New assets ride the same rails: Stack's Bowers sells physical bitcoin and 'Omega' cents beside Morgan dollars.",
+   "src": [
+    [
+     "CoinWeek, 7 January 2026, Stack's Bowers announces record $325 million year",
+     "https://coinweek.com/stacks-bowers-galleries-announces-record-shattering-325-million-year-of-auctions-in-2025/"
+    ],
+    [
+     "PCGS, 28 of the top 30 most valuable coins sold in 2025",
+     "https://www.pcgseurope.com/article/pcgs-newsflash-28-of-the-top-30?l=es"
+    ],
+    [
+     "cllct, Heritage Auctions sets new sales record with $2.15 billion in 2025",
+     "https://www.cllct.com/sports-collectibles/auctions/heritage-auctions-sets-new-sales-record-with-2-15-billion-in-2025"
+    ],
+    [
+     "Spink, £6 million realised during two weeks of world records",
+     "https://spink.com/media/view?id=105"
+    ],
+    [
+     "CoinWeek, 13 November 2025, Traveller Collection second auction",
+     "https://coinweek.com/100-ducat-gold-giant-sells-for-record-e2-5-million-in-second-traveller-collection-auction/"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "memorabilia",
+   "n": "Memorabilia, sport and trading cards",
+   "size": "Heritage Auctions 2025: US$2,158,204,321, +15.6% on US$1.867bn in 2024, fifth straight annual record; sports US$189.2m; over 2 million registered online bidders. Top Heritage lots of 2025: the 'Rosebud' sled from Citizen Kane US$14.75m; Frank Frazetta's 1967 'Conan' cover painting US$13.5m (record for comic or fantasy art); the Kobe Bryant–Michael Jordan dual Logoman card US$12.932m; the highest-graded Superman No. 1 US$9.12m.",
+   "record": "Sports card: 2007-08 Upper Deck Exquisite Kobe Bryant–Michael Jordan dual Logoman, US$12.932m, Heritage, 2025 — record for any sports card at public auction. The all-time memorabilia record (Babe Ruth's 1932 jersey, 2024) is held from memory, see unconfirmed.",
+   "hubs": [
+    "Dallas",
+    "New York",
+    "Philadelphia (Goldin)",
+    "Los Angeles"
+   ],
+   "players": [
+    "heritage",
+    "goldin",
+    "sothebys-sports"
+   ],
+   "walls": [],
+   "note": "An American market built on grading (PSA, SGC) and population reports, where cards trade like securities and the record moves yearly: a dual Logoman card made US$12.9m in 2025 at Heritage, the house that also sold the Citizen Kane sled and a Superman No. 1 for eight figures. Game-worn jerseys with photo-matching, championship rings and Hollywood props are the other eight-figure lots. Heritage in Dallas is the volume leader (US$2.16bn across all categories); Goldin runs online and on television; Sotheby's took sport into its luxury calendar. Buyers are young, wealthy and online — Heritage passed two million registered bidders in 2025 — and the market reads sports results and film anniversaries as catalysts.",
+   "src": [
+    [
+     "cllct, Heritage Auctions sets new sales record with $2.15 billion in 2025",
+     "https://www.cllct.com/sports-collectibles/auctions/heritage-auctions-sets-new-sales-record-with-2-15-billion-in-2025"
+    ]
+   ],
+   "vf": "S"
+  }
+ ],
+ "players": [
+  {
+   "id": "bonhams-japanese",
+   "n": "Bonhams Fine Japanese Art",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.5074,
+    "lon": -0.1278
+   },
+   "offices": [
+    "New York"
+   ],
+   "people": [
+    {
+     "n": "Jeff Olson",
+     "role": "Director of the Japanese Department, New York (Bonhams release on the Netsuke from American Collections sale)"
+    },
+    {
+     "n": "Rachel Hyman",
+     "role": "Department Director, Asian Art, London (Bonhams release, May 2025)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "'Netsuke from American Collections', New York, closed 17 October (year not stated on the release): US$567,500 for over 150 lots; top lot an 18th-century wood netsuke of a sitting monkey by Masanao, US$140,200, 28 times estimate. Asian Art Week London, 12–19 May 2025: £10.7m across five sales. Bonhams states it holds the world record for a netsuke, US$441,375, 2022.",
+   "edge": "The only house with regular dedicated netsuke sales (New York) and a Fine Japanese Art sale in each London Asian Art Week.",
+   "src": [
+    [
+     "Bonhams press release, Netsuke soars past estimates at Bonhams' dedicated sale",
+     "https://bonhams.com/press_release/38962"
+    ],
+    [
+     "Bonhams press release, Asian Art Week in London achieves £10.7m (May 2025)",
+     "https://www.bonhams.com/press_release/40084"
+    ]
+   ],
+   "vf": "V",
+   "note": "The record lot (a kirin on a cloud from the Kurstin collection, 16 December 2022) is described on an Artdaily page reached through an image-path URL; see unconfirmed."
+  },
+  {
+   "id": "sydney-l-moss",
+   "n": "Sydney L. Moss Ltd",
+   "kind": "dealer",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.5074,
+    "lon": -0.1278
+   },
+   "offices": [],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "No figures published. Max Rutherston's profile at Olympia Auctions records that he 'led the Japanese side' of this Asian art dealership before setting up on his own.",
+   "edge": "The reference London dealer in netsuke, inrō and Chinese scholar's objects; publishes its own catalogues.",
+   "src": [
+    [
+     "Olympia Auctions, people: Max Rutherston",
+     "https://olympiaauctions.com/about-us/people/max-rutherston"
+    ]
+   ],
+   "vf": "S",
+   "note": "Search results list the firm at TEFAF, the Treasure House Fair and BADA, and name Paul Moss as principal (Antiques Trade Gazette profile, 2017); none of those pages was opened."
+  },
+  {
+   "id": "max-rutherston",
+   "n": "Max Rutherston",
+   "kind": "dealer",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.5074,
+    "lon": -0.1278
+   },
+   "offices": [],
+   "people": [
+    {
+     "n": "Max Rutherston",
+     "role": "Netsuke specialist: about 26 years in Japanese works of art and 16 in netsuke; formerly ran Sotheby's Japanese department; led the Japanese side at Sydney L. Moss; four years chairman of Asian Art in London; chairs the Japanese vetting committee at Masterpiece (Olympia Auctions profile, undated)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "No figures published.",
+   "edge": "Writes and lectures on netsuke in four languages; the London trade's vetting authority for Japanese art.",
+   "src": [
+    [
+     "Olympia Auctions, people: Max Rutherston",
+     "https://olympiaauctions.com/about-us/people/max-rutherston"
+    ]
+   ],
+   "vf": "V",
+   "note": "The Olympia page does not state his role at Olympia Auctions."
+  },
+  {
+   "id": "olympia-auctions",
+   "n": "Olympia Auctions",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.4967,
+    "lon": -0.21
+   },
+   "offices": [],
+   "people": [
+    {
+     "n": "Max Rutherston",
+     "role": "listed on the house's people page; role not stated"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "No figures opened.",
+   "edge": "A London saleroom whose people page carries the netsuke specialist Max Rutherston.",
+   "src": [
+    [
+     "Olympia Auctions, people: Max Rutherston",
+     "https://olympiaauctions.com/about-us/people/max-rutherston"
+    ]
+   ],
+   "vf": "V",
+   "note": ""
+  },
+  {
+   "id": "lempertz",
+   "n": "Kunsthaus Lempertz",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Cologne",
+    "country": "Germany",
+    "lat": 50.9375,
+    "lon": 6.9603
+   },
+   "offices": [],
+   "people": [
+    {
+     "n": "Jan Bykowski",
+     "role": "Press and Public Relations (post-sale review, December 2025)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "Auction 1281 Asian Art, Cologne, 12 December 2025: about €1.4m, every lot sold, some results up to seven times estimate. Ivory Gama Sennin netsuke from the Frank Lapisch collection, €45,300 against a €6,000 estimate; Southern Song/Yuan Geyao hibiscus-form dish €214,000; Tibetan brass Sachen Kunga Nyingpo about €92,000.",
+   "edge": "The continental room for Asian art, with Japanese lots sold beside Chinese, Tibetan and Indian.",
+   "src": [
+    [
+     "Lempertz, Auction 1281 Asian Art post-sale review (12 December 2025)",
+     "https://www.lempertz.com/en/press/auction-1281-asian-art-post-sale-review.html"
+    ]
+   ],
+   "vf": "V",
+   "note": "A Brussels Chinese art sale appears in a Lempertz press title in search results, not opened."
+  },
+  {
+   "id": "van-ham",
+   "n": "Van Ham Kunstauktionen",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Cologne",
+    "country": "Germany",
+    "lat": 50.9375,
+    "lon": 6.9603
+   },
+   "offices": [],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "A 19th-century ivory netsuke of a Chinese acrobat (lot 941, German private collection) sold for €710 including the 29% premium against €500–800 under 'Asian Art – Netsuke, Okimono, Sagemono, Inro' (sale date not shown on the lot page). Search results show a dedicated netsuke catalogue, no. 394.",
+   "edge": "Cologne's second house for Asian art, with netsuke-only catalogues.",
+   "src": [
+    [
+     "Van Ham, lot page: netsuke of a Chinese acrobat",
+     "https://auction.van-ham.com/en/netsuke-of-a-chinese-acrobat--id-29652-item.html"
+    ]
+   ],
+   "vf": "V",
+   "note": "Sale date not on the page."
+  },
+  {
+   "id": "sothebys-asia",
+   "n": "Sotheby's Asia (Hong Kong)",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Hong Kong",
+    "country": "China",
+    "lat": 22.3193,
+    "lon": 114.1694
+   },
+   "offices": [],
+   "people": [
+    {
+     "n": "Denise Tsui",
+     "role": "Head of Editorial, Sotheby's Asia (author of the 2025 review)"
+    },
+    {
+     "n": "CC Wang",
+     "role": "auctioneer of the Rao Jie handscroll sale, April 2025"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "Asian art 2025 to 4 December: over US$346.83m. Hong Kong autumn 2025: HK$1.4bn (US$180.37m) combined; Asian Works of Art series HK$1.17bn, the most valuable since 2013 — Okada Museum of Art HK$688m (125 lots, nineteen above HK$10m), Ise collection of Chinese ceramics HK$359m (182 lots, 99.5% sold, 229 bidders from 17 countries), Imperial Connoisseurship HK$118.7m (14 lots). Rao Jie Yuan calligraphy handscroll HK$250m (US$32m), April 2025. Utamaro 'Fukagawa in Snow' HK$55.27m; Hokusai 'Great Wave' HK$21.72m. Highest number of new bidders in 14 years.",
+   "edge": "The record room for Chinese calligraphy, Song ceramics, ukiyo-e and Japanese-museum deaccessions.",
+   "src": [
+    [
+     "Sotheby's, Inside a stellar year for Asian art at Sotheby's: 2025 in review (4 December 2025)",
+     "https://www.sothebys.com/en/articles/inside-a-stellar-year-for-asian-art-at-sothebys-2025-in-review"
+    ]
+   ],
+   "vf": "V",
+   "note": ""
+  },
+  {
+   "id": "hermann-historica",
+   "n": "Hermann Historica",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Munich (Grasbrunn)",
+    "country": "Germany",
+    "lat": 48.1351,
+    "lon": 11.582
+   },
+   "offices": [],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "104th auction, 28 April–9 May 2025: 'well over 6,500' objects; arms and armour top lot a Polish-Lithuanian winged hussar armour €32,000 hammer; a hussar's sabre €13,000; wheellock pistol and rifle €8,200 each; Korriphila HSP 701 Damascus pistol €62,000; Walther WA 2000 €23,000; overall top lot an Ovchinnikov cloisonné triptych €70,000. Prices net of the 29.5% premium and VAT. No total published; demand 'at an all-time high'.",
+   "edge": "The largest European specialist sale calendar for arms, armour, orders and militaria, with firearms sold in separate sessions.",
+   "src": [
+    [
+     "Hermann Historica, press release, Munich, May 2025 (104th auction)",
+     "https://www.hermann-historica.de/en/services/press-releases/nachbericht-104/"
+    ]
+   ],
+   "vf": "V",
+   "note": "Special firearms auction 105 (24 July 2025) and autumn auction 106 appear in press titles and all4shooters reports, not opened."
+  },
+  {
+   "id": "bonhams-arms",
+   "n": "Bonhams Arms & Armour (Knightsbridge)",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.4994,
+    "lon": -0.166
+   },
+   "offices": [],
+   "people": [
+    {
+     "n": "Thomas Owens",
+     "role": "contact for viewing, Antique Arms and Armour sale (role not labelled on the page)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "'Antique Arms and Armour', 24 June–8 July 2025, 179 lots, viewing by appointment; results not displayed on the page.",
+   "edge": "London's regular room for antique arms, armour and modern sporting guns.",
+   "src": [
+    [
+     "Bonhams, Antique Arms and Armour, auction 30969",
+     "https://www.bonhams.com/auction/30969/antique-arms-and-armour"
+    ]
+   ],
+   "vf": "V",
+   "note": ""
+  },
+  {
+   "id": "peter-finer",
+   "n": "Peter Finer",
+   "kind": "dealer",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.5074,
+    "lon": -0.1378
+   },
+   "offices": [],
+   "people": [
+    {
+     "n": "Peter Finer",
+     "role": "founder, 1967; dealer in arms and armour (The Art Newspaper, 17 October 2025)"
+    },
+    {
+     "n": "Redmond Finer",
+     "role": "son; broadened the business to ancient and Islamic material (The Art Newspaper, 17 October 2025)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "Frieze Masters, October 2025: a gilded 16th-century armour for man and horse at £1.8m; an Italian Renaissance sword with a Medusa gilt hilt; a late 16th-century staghorn crossbow; prices from £6,500 to seven figures. TEFAF profile: 38 & 39 Duke Street, St James's; 'Arms and Armour from cultures worldwide, Bronze Age to the 19th century'; clients include the Metropolitan Museum of Art and the Royal Armouries; exhibiting at TEFAF Maastricht 13–18 March 2027.",
+   "edge": "Dominates the arms-and-armour stands at Frieze Masters and TEFAF; Finer calls the small market 'a double-edged sword' and wishes for more dealers.",
+   "src": [
+    [
+     "The Art Newspaper, 17 October 2025, arms and armour at Frieze Masters",
+     "https://www.theartnewspaper.com/2025/10/17/double-edged-sword-arms-and-armour-play-a-smallbut-mightyrole-at-frieze-masters"
+    ],
+    [
+     "TEFAF, exhibitor profile: Peter Finer",
+     "https://www.tefaf.com/fairs/exhibitors/fine"
+    ]
+   ],
+   "vf": "S",
+   "note": "Clients described by the paper: museums, specialist collectors (one in Viking swords, one in Boutet pistols), many from the US; younger collectors rare."
+  },
+  {
+   "id": "holland-holland",
+   "n": "Holland & Holland",
+   "kind": "maker and dealer",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.5074,
+    "lon": -0.1278
+   },
+   "offices": [],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "Nothing opened. A pair of Coggan-engraved Holland & Holland Royal de Luxe shotguns appears as a Rock Island Auction lot in search results, not opened.",
+   "edge": "A London 'best' gunmaker whose second-hand guns are a currency of the sporting-gun sales.",
+   "src": [],
+   "vf": "U",
+   "note": "Ownership held from memory and kept out."
+  },
+  {
+   "id": "purdey",
+   "n": "James Purdey & Sons",
+   "kind": "maker and dealer",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.5074,
+    "lon": -0.1278
+   },
+   "offices": [],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "Nothing opened. A '£96,000 pair of Purdey guns' and a Pedretti-engraved Purdey at Morphy's December 2025 sale appear in search titles, not opened.",
+   "edge": "The other London 'best' name that sets the price of a pair at auction.",
+   "src": [],
+   "vf": "U",
+   "note": "Ownership held from memory and kept out."
+  },
+  {
+   "id": "gavin-gardiner",
+   "n": "Gavin Gardiner Ltd",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Pulborough (West Sussex)",
+    "country": "United Kingdom",
+    "lat": 50.9578,
+    "lon": -0.5125
+   },
+   "offices": [],
+   "people": [
+    {
+     "n": "Gavin Gardiner",
+     "role": "specialist who launched his own business (Antiques Trade Gazette, May 2026)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "'Fine Modern and Vintage Sporting Guns' sale, 29 April 2026, 25% buyer's premium; the Antiques Trade Gazette read the results as proof that US demand for British sporting guns survives the tariffs. Figures behind the paywall, not read.",
+   "edge": "The specialist sporting-gun auctioneer of the British trade.",
+   "src": [
+    [
+     "Antiques Trade Gazette, May 2026, US buyers target British sporting guns (paywalled)",
+     "https://www.antiquestradegazette.com/print-edition/2026/may/2745/feature-arms-armour/us-buyers-target-british-sporting-guns/"
+    ]
+   ],
+   "vf": "S",
+   "note": "Base town from memory; the article did not state it."
+  },
+  {
+   "id": "rock-island",
+   "n": "Rock Island Auction Company",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Bedford (Texas)",
+    "country": "United States",
+    "lat": 32.844,
+    "lon": -97.1431
+   },
+   "offices": [],
+   "people": [
+    {
+     "n": "Kevin Hogan",
+     "role": "President (company news page, June 2026)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "'The American Sale', 27 June 2026: Henry rifle serial no. 1, presented by New Haven Arms Co. to Secretary of War Edwin M. Stanton, US$5,875,000 (US$5m hammer, matching the Colt that killed Billy the Kid); Gen. Norman Schwarzkopf's Gulf War pistol US$411,250; the Armistead gold sword US$323,125. No sale total stated.",
+   "edge": "The house of the seven-figure American historical firearm; Bedford, Texas is where it holds its in-person sales.",
+   "src": [
+    [
+     "Rock Island Auction, most expensive rifle ever sold at auction brings $5.9 million (June 2026)",
+     "https://www.rockislandauction.com/news/most-expensive-rifle-ever-sold-at-auction-brings-5-9-million"
+    ]
+   ],
+   "vf": "V",
+   "note": "A 2024 annual total of US$111m appears in a company news title in search results, not opened."
+  },
+  {
+   "id": "adihex",
+   "n": "Abu Dhabi International Hunting and Equestrian Exhibition (ADIHEX)",
+   "kind": "fair",
+   "extends": "",
+   "hq": {
+    "city": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "lat": 24.4539,
+    "lon": 54.3773
+   },
+   "offices": [],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "2026 edition at ADNEC, ten days to 6 September 2026: 2,400 companies from 71 countries, 55 falcon-breeding farms, the largest falcon auction programme in its history; a pure ultra-white gyrfalcon bred by the Mark Moglich farm (US) sold for Dh2.1m, two others for Dh1.5m and Dh1.1m.",
+   "edge": "The Gulf's largest hunting fair and the room where falcon records are set.",
+   "src": [
+    [
+     "The National, 7 September 2026, exceptionally rare falcon sells for record-setting Dh2.1 million",
+     "https://thenationalnews.com/news/uae/2026/09/07/exceptionally-rare-falcon-sells-for-record-setting-dh21-million-in-abu-dhabi-auction"
+    ]
+   ],
+   "vf": "S",
+   "note": "The organiser is not named in the article. 2025-edition totals (a WAM title says AED1.7m) were not opened."
+  },
+  {
+   "id": "saudi-falcons-club",
+   "n": "Saudi Falcons Club",
+   "kind": "organiser and trade body",
+   "extends": "",
+   "hq": {
+    "city": "Malham (Riyadh)",
+    "country": "Saudi Arabia",
+    "lat": 24.7136,
+    "lon": 46.6753
+   },
+   "offices": [],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "Saudi Falcons Club Auction 2025, club headquarters at Malham north of Riyadh, 1 October–30 November 2025, 26 nights: 40 falcons, more than SR6.4m (about US$1.7m). International Falcon Breeders Auction 2025, 21 days to 25 August 2025: cumulative sales since launch over SAR29m and 2,300 falcons; top international-farm bird SAR1.75m, top local-farm bird over SAR500,000. The club gives foreign breeders transport, lodging and sale documents.",
+   "edge": "Runs the kingdom's two annual falcon auctions and the Saudi Falcons and Hunting Exhibition.",
+   "src": [
+    [
+     "Arab News, 3 December 2025, Riyadh falcons auction concludes with $1.7m in sales",
+     "https://www.arabnews.pk/node/2624891/saudi-arabia"
+    ],
+    [
+     "Saudi Falcons Club, International Falcon Breeders Auction 2025 concludes (25 August 2025)",
+     "https://sfc.org.sa/sa/en/news/641"
+    ]
+   ],
+   "vf": "V",
+   "note": ""
+  },
+  {
+   "id": "moccae",
+   "n": "UAE Ministry of Climate Change and Environment",
+   "kind": "regulator",
+   "extends": "",
+   "hq": {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "lat": 25.2048,
+    "lon": 55.2708
+   },
+   "offices": [],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "Registers captive-bred falcons and issues closed rings; the CITES-compliant falcon passport (since 2002, valid three years); CITES import permits valid one year, export and re-export six months, digital with QR codes; Federal Law No. 5 of 2025 sets up to 15 years' imprisonment and AED 2 million for unpermitted trade in CITES-listed species.",
+   "edge": "The gate every Gulf falcon passes through.",
+   "src": [
+    [
+     "MOCCAE presentation, Regulating falconry in the UAE (CMS Raptors MoU, March 2026)",
+     "https://raptors.cms.int/sites/default/files/2026-04/Regulating%20Falconry%20in%20the%20UAE%20-%20Registration%2C%20Permits%20%26amp%3B%20Conservation_0.pdf"
+    ]
+   ],
+   "vf": "V",
+   "note": "City from memory; the document lists contact details only."
+  },
+  {
+   "id": "moglich-farm",
+   "n": "Mark Moglich farm",
+   "kind": "breeder",
+   "extends": "",
+   "hq": {
+    "city": "United States (location not stated)",
+    "country": "United States",
+    "lat": null,
+    "lon": null
+   },
+   "offices": [],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "Bred the pure ultra-white gyrfalcon sold for Dh2.1m at ADIHEX on 6 September 2026.",
+   "edge": "The US breeder behind the ADIHEX record bird.",
+   "src": [
+    [
+     "The National, 7 September 2026",
+     "https://thenationalnews.com/news/uae/2026/09/07/exceptionally-rare-falcon-sells-for-record-setting-dh21-million-in-abu-dhabi-auction"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "id": "rm-sothebys",
+   "n": "RM Sotheby's",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Blenheim (Ontario)",
+    "country": "Canada",
+    "lat": 42.334,
+    "lon": -81.999
+   },
+   "offices": [],
+   "people": [
+    {
+     "n": "Gord Duff",
+     "role": "President (press release, 18 August 2025)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "Monterey, August 2025 (28th annual sale): over US$165m, 87% sold, bidders from 46 countries, 37 lots over US$1m, 14 world records; 2025 Ferrari Daytona SP3 'Tailor Made' US$26m for the Ferrari Foundation; 1993 Ferrari F40 LM US$11,005,000; 1995 F50 US$9,245,000. classic-analytics counts US$163.8m, 135 of 158 lots.",
+   "edge": "The top-grossing house of Monterey week in 2025.",
+   "src": [
+    [
+     "RM Sotheby's press release, 18 August 2025",
+     "https://rmsothebys.com/media-center/press-releases/rm-sotheby-s-tops-165-million-at-monterey-car-week-led-by-26-million-ferrari-daytona-sp3-and-multiple-world-records"
+    ],
+    [
+     "classic-analytics, Monterey Car Week 2025",
+     "https://classic-analytics.de/en/news/monterey-car-week-2025-achieves-second-highest-total-ever-modern-supercars-take-the-lead"
+    ]
+   ],
+   "vf": "V",
+   "note": "Head office town from memory."
+  },
+  {
+   "id": "gooding-christies",
+   "n": "Gooding Christie's",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Santa Monica (California)",
+    "country": "United States",
+    "lat": 34.0195,
+    "lon": -118.4912
+   },
+   "offices": [
+    "Geneva",
+    "London"
+   ],
+   "people": [
+    {
+     "n": "David Gooding",
+     "role": "President (press releases, December 2025 and August 2026)"
+    },
+    {
+     "n": "David Brynan",
+     "role": "Senior Specialist (press release, August 2026)"
+    },
+    {
+     "n": "Oliver Camelin",
+     "role": "EMEA Managing Director, Geneva (press release, December 2025)"
+    },
+    {
+     "n": "James Knight",
+     "role": "Senior Specialist Consultant, London (press release, December 2025)"
+    }
+   ],
+   "represents": [],
+   "owner": "Christie's, which acquired Gooding at the close of 2024 (Gooding press release)",
+   "scale": "2025: over US$234m from four sales, 906 lots, 96% sold, 52 lots over US$1m — Amelia Island US$67m+, Pebble Beach US$128m+, the Stan Lucas Collection (Long Beach, 20 September) US$33.9m+ at 100%. Pebble Beach 14–15 August 2026: over US$159m, 158 lots, 94%, 28 lots over US$1m; 1964 Shelby Cobra Daytona Coupe US$42,905,000; 1963 Ferrari 250 P US$18,705,000.",
+   "edge": "Holder of the American-car record and of its own house record (Ferrari 250 GT SWB California Spider Competizione US$25,305,000, August 2025).",
+   "src": [
+    [
+     "Gooding Christie's press release, 17 December 2025",
+     "https://www.goodingco.com/press/article/gooding-christies-records-highest-grossing-year-to-date-with-over-usd234"
+    ],
+    [
+     "Gooding Christie's press release, 17 August 2026",
+     "https://www.goodingco.com/press/article/43-million-shelby-cobra-daytona-coupe-comes-out-on-top-at-2026-car-week-across-all-auction-sales-becomes-highest-grossing-american-car-of-all-time"
+    ]
+   ],
+   "vf": "V",
+   "note": "Head office city from memory."
+  },
+  {
+   "id": "bonhams-cars",
+   "n": "Bonhams|Cars",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.5074,
+    "lon": -0.1278
+   },
+   "offices": [],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "Monterey 2025: US$44.2m, 87 of 91 lots (96%), average US$508,364; top lot 2020 Bugatti Divo US$8,557,500.",
+   "edge": "The highest sell-through of Monterey week 2025.",
+   "src": [
+    [
+     "classic-analytics, Monterey Car Week 2025",
+     "https://classic-analytics.de/en/news/monterey-car-week-2025-achieves-second-highest-total-ever-modern-supercars-take-the-lead"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "id": "broad-arrow",
+   "n": "Broad Arrow Auctions",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Grosse Pointe (Michigan)",
+    "country": "United States",
+    "lat": 42.3862,
+    "lon": -82.9118
+   },
+   "offices": [],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "Monterey (Jet Center) 2025: US$57.4m, 135 of 169 lots (80%), average US$425,175; 2024: US$69.5m, 129 of 156.",
+   "edge": "The newest of the Monterey houses; third by total in 2025.",
+   "src": [
+    [
+     "classic-analytics, Monterey Car Week 2025",
+     "https://classic-analytics.de/en/news/monterey-car-week-2025-achieves-second-highest-total-ever-modern-supercars-take-the-lead"
+    ]
+   ],
+   "vf": "S",
+   "note": "Head office and parent (Hagerty) from memory, see unconfirmed."
+  },
+  {
+   "id": "mecum",
+   "n": "Mecum Auctions",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Walworth (Wisconsin)",
+    "country": "United States",
+    "lat": 42.5306,
+    "lon": -88.5995
+   },
+   "offices": [],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "Monterey 2025: US$39.5m, 312 of 482 lots (65%), average US$126,546; 2024: US$51.3m, 292 of 496.",
+   "edge": "The volume seller of the week.",
+   "src": [
+    [
+     "classic-analytics, Monterey Car Week 2025",
+     "https://classic-analytics.de/en/news/monterey-car-week-2025-achieves-second-highest-total-ever-modern-supercars-take-the-lead"
+    ]
+   ],
+   "vf": "S",
+   "note": "Head office town from memory."
+  },
+  {
+   "id": "phillips-watches",
+   "n": "Phillips in association with Bacs & Russo",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Geneva",
+    "country": "Switzerland",
+    "lat": 46.2044,
+    "lon": 6.1432
+   },
+   "offices": [
+    "Hong Kong",
+    "New York"
+   ],
+   "people": [
+    {
+     "n": "Aurel Bacs",
+     "role": "Senior Consultant (press release, May 2026)"
+    },
+    {
+     "n": "Livia Russo",
+     "role": "Senior Consultant (press release, May 2026)"
+    },
+    {
+     "n": "Alexandre Ghotbi",
+     "role": "Deputy Chairman and Head of Watches, Europe and Middle East (press release, May 2026)"
+    },
+    {
+     "n": "Tiffany To",
+     "role": "Senior International Watch Specialist and Head of Sale (press release, May 2026)"
+    },
+    {
+     "n": "Martin Wilson",
+     "role": "CEO, Phillips (2025 look back)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "2025: US$290,463,315 at auction, the highest annual total of any watch auction house; US$370m with private sales and Phillips Perpetual (240 watches, US$80m); six live and seven online sales, 1,802 lots, 11 unsold; 36 watches above US$1m. Geneva Watch Auction XXIII, 9–10 May 2026: CHF74,846,995 (US$96.3m), 224 of 225 lots, 43 world records, 14 lots above CHF1m; Patek Philippe Ref. 2523 'South America' CHF7,961,000; F.P. Journe Résonance 'Souscription No. 18' CHF4,875,500.",
+   "edge": "Five straight years above US$200m; the only house to sell non-charity wristwatches above US$10m, twice in 2025 (Patek 1518 steel CHF14.19m; Coppola's F.P. Journe FFC US$10.755m).",
+   "src": [
+    [
+     "Phillips, Year in review 2025",
+     "https://www.phillips.com/article/164672423/year-in-review-2025-phillips-in-association-with-bacs-and-russo"
+    ],
+    [
+     "Phillips press release, highest-grossing watch auction in history (May 2026)",
+     "https://www.phillips.com/press/release/phillips-has-just-set-the-highestgrossing-watch-auction-in-history"
+    ],
+    [
+     "Phillips 2025: a look back",
+     "https://www.phillips.com/article/164687220/phillips-2025-a-look-back"
+    ]
+   ],
+   "vf": "V",
+   "note": "The May 2026 release says the sale 'surpasses the US$100m mark' while stating US$96.3m; the stated figure is used."
+  },
+  {
+   "id": "christies-watches",
+   "n": "Christie's Watches",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Geneva",
+    "country": "Switzerland",
+    "lat": 46.2044,
+    "lon": 6.1432
+   },
+   "offices": [
+    "Hong Kong",
+    "New York",
+    "London"
+   ],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "'Rare Watches', Geneva, 9 November 2026: US$58.7m (CHF47.8m), a record for the division, up 221% on the previous year; F.P. Journe rose-gold 'Vagabondage' CHF2.54m; five F.P. Journe watches once owned by Michael Schumacher about US$8.48m. November 2025: Patek Philippe ref. 570 with 'E. Gubelin' dial CHF419,100.",
+   "edge": "The fastest-growing Geneva watch department in 2026.",
+   "src": [
+    [
+     "Il Sole 24 Ore, 12 November 2026, Geneva record auctions: watch sales exceed $203 million",
+     "https://en.ilsole24ore.com/art/geneva-record-auctions-watch-sales-exceed-203-million-AJXyFJDC"
+    ],
+    [
+     "SJX Watches, Report: Geneva fall auctions 2025",
+     "https://watchesbysjx.com/2025/11/geneva-fall-auctions-2025.html"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "id": "sothebys-watches",
+   "n": "Sotheby's Watches",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Geneva",
+    "country": "Switzerland",
+    "lat": 46.2044,
+    "lon": 6.1432
+   },
+   "offices": [
+    "Hong Kong",
+    "New York"
+   ],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "'Important Watches', Geneva, 8–9 November 2026: US$32.1m (CHF26.3m), 181 of 182 lots, its best Geneva result in over a decade; Patek Philippe Sky Moon Tourbillon ref. 5002 US$2.79m; its Hong Kong sale of September 2026 set an Asian watch-sale record. November 2025: Breguet pocket watch no. 1890 CHF1.88m; George Daniels three-wheel pendulum clock (1968) CHF1.88m; 'The Companion Oyster' (Rolex, 1927) CHF1.39m.",
+   "edge": "Strong in horological history (Breguet, Daniels) and in Hong Kong.",
+   "src": [
+    [
+     "Il Sole 24 Ore, 12 November 2026",
+     "https://en.ilsole24ore.com/art/geneva-record-auctions-watch-sales-exceed-203-million-AJXyFJDC"
+    ],
+    [
+     "SJX Watches, Report: Geneva fall auctions 2025",
+     "https://watchesbysjx.com/2025/11/geneva-fall-auctions-2025.html"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "id": "antiquorum",
+   "n": "Antiquorum",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Geneva",
+    "country": "Switzerland",
+    "lat": 46.2044,
+    "lon": 6.1432
+   },
+   "offices": [],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "Held a Geneva sale on 8 November 2025 (catalogue pages in search results, not opened). SJX's November 2025 report mentions it only as a saleroom location.",
+   "edge": "The oldest of the Geneva watch auctioneers (claim from memory, flagged).",
+   "src": [
+    [
+     "SJX Watches, Report: Geneva fall auctions 2025",
+     "https://watchesbysjx.com/2025/11/geneva-fall-auctions-2025.html"
+    ]
+   ],
+   "vf": "S",
+   "note": "No figures opened."
+  },
+  {
+   "id": "christies-jewels",
+   "n": "Christie's Jewels",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Geneva",
+    "country": "Switzerland",
+    "lat": 46.2044,
+    "lon": 6.1432
+   },
+   "offices": [
+    "New York",
+    "Hong Kong",
+    "London"
+   ],
+   "people": [
+    {
+     "n": "Max Fawcett",
+     "role": "head of jewellery (Rapaport, 22 January 2026)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "2025: the Mellon Blue, 9.51 ct, US$25.6m, Geneva, November — the year's top jewel; the Royal Blue necklace of 16 Kashmir sapphires, over US$16.1m, Hong Kong, November; the Marie-Thérèse Pink, 10.38 ct in a JAR ring, over US$13.9m, New York, June; Geneva Magnificent Jewels, May, over US$72.3m at 100% sold; New York, June, US$87.7m; New York, December, US$46.5m across 152 lots. Fawcett expected 87–89% sell-through for the year.",
+   "edge": "Sold the top jewel of 2025 and the Kashmir-sapphire necklace record.",
+   "src": [
+    [
+     "Rapaport Magazine, 22 January 2026, Bringing the hammer down on a strong auction year",
+     "https://rapaport.com/magazine-article/bringing-the-hammer-down-on-a-strong-auction-year/"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "id": "sothebys-jewels",
+   "n": "Sotheby's Jewels",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Geneva",
+    "country": "Switzerland",
+    "lat": 46.2044,
+    "lon": 6.1432
+   },
+   "offices": [
+    "New York",
+    "Hong Kong",
+    "Abu Dhabi"
+   ],
+   "people": [
+    {
+     "n": "Quig Bruning",
+     "role": "Head of Jewels, Americas, Europe, Middle East and Africa (Rapaport, 22 January 2026)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "2025: US$317.7m, up 18%. The Mediterranean Blue, 10.03 ct, US$21.5m, Geneva, May; the Desert Rose, 31.68 ct fancy vivid orangy pink, over US$8.8m, Abu Dhabi, 5 December (record for its colour; first Abu Dhabi sale, all 42 lots sold); Napoleon's diamond brooch nearly US$4.4m, Royal & Noble Jewels, Geneva, November; 'A Legacy of Elegance', December, US$30m, white-glove.",
+   "edge": "The only house to publish a 2025 jewellery total; opened Abu Dhabi as a saleroom.",
+   "src": [
+    [
+     "Rapaport Magazine, 22 January 2026",
+     "https://rapaport.com/magazine-article/bringing-the-hammer-down-on-a-strong-auction-year/"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "id": "phillips-jewels",
+   "n": "Phillips Jewels",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Geneva",
+    "country": "Switzerland",
+    "lat": 46.2044,
+    "lon": 6.1432
+   },
+   "offices": [
+    "New York",
+    "Hong Kong"
+   ],
+   "people": [
+    {
+     "n": "Benoît Repellin",
+     "role": "worldwide head of jewellery (Rapaport, 22 January 2026)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "The Vanderbilt Sapphire (Tiffany & Co., 42.68 ct Kashmir), CHF2,876,000 (US$3,570,841), Geneva, 10 November 2025; the Vanderbilt Family Jewels sale 100% sold at four times estimate.",
+   "edge": "Single-family provenance sales.",
+   "src": [
+    [
+     "Rapaport Magazine, 22 January 2026",
+     "https://rapaport.com/magazine-article/bringing-the-hammer-down-on-a-strong-auction-year/"
+    ],
+    [
+     "Phillips 2025: a look back",
+     "https://www.phillips.com/article/164687220/phillips-2025-a-look-back"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "id": "bonhams-jewels",
+   "n": "Bonhams Jewels",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.5074,
+    "lon": -0.1278
+   },
+   "offices": [],
+   "people": [
+    {
+     "n": "Jean Ghika",
+     "role": "global jewellery head (Rapaport, 22 January 2026)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "No 2025 total published in the article opened.",
+   "edge": "The fourth jewellery house of the London and Hong Kong calendars.",
+   "src": [
+    [
+     "Rapaport Magazine, 22 January 2026",
+     "https://rapaport.com/magazine-article/bringing-the-hammer-down-on-a-strong-auction-year/"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "id": "graff",
+   "n": "Graff",
+   "kind": "dealer and maker",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.511,
+    "lon": -0.144
+   },
+   "offices": [],
+   "people": [
+    {
+     "n": "Laurence Graff",
+     "role": "'celebrated British diamond dealer' who bought back a diamond he had owned (JCK, 18 November 2011)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "Bought a 24.30 ct D-colour internally flawless oval diamond ring for US$3.99m at Christie's Magnificent Jewels, Geneva, 16 November 2011 (JCK).",
+   "edge": "The Bond Street dealer most often named as the buyer of top stones at auction.",
+   "src": [
+    [
+     "JCK, 18 November 2011, Graff wins auction for diamond he once owned",
+     "https://www.jckonline.com/editorial-article/graff-wins-auction-for-diamond-he-once-owned/"
+    ]
+   ],
+   "vf": "S",
+   "note": "Only a 2011 report was opened; later purchases known from memory are kept out."
+  },
+  {
+   "id": "moussaieff",
+   "n": "Moussaieff Jewellers",
+   "kind": "dealer",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.511,
+    "lon": -0.144
+   },
+   "offices": [],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "Nothing opened.",
+   "edge": "A Bond Street buyer of coloured diamonds at auction (from memory).",
+   "src": [],
+   "vf": "U",
+   "note": "Nothing opened in this session."
+  },
+  {
+   "id": "sothebys-wine",
+   "n": "Sotheby's Wine & Spirits",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "New York",
+    "country": "United States",
+    "lat": 40.7128,
+    "lon": -74.006
+   },
+   "offices": [
+    "London",
+    "Hong Kong",
+    "Paris",
+    "Tokyo",
+    "Zurich"
+   ],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "2025: US$127.5m at auction, up 12%, more than double 2015's US$47m; Burgundy 39%, Bordeaux 28%, spirits 20%; bidders from 63 countries; one-third of buyers new, half under 50 and half of those under 40; sold the most valuable bottle of wine of 2025 (over US$450,000, lot not named) and four of the top five spirits lots worldwide; full-time specialists in Tokyo and Zurich.",
+   "edge": "The market leader for single-owner 'legacy cellars' by its own account.",
+   "src": [
+    [
+     "Sotheby's Wine, 2025 Wine & Spirits market report (12 March 2026)",
+     "https://wine.sothebys.com/blogs/news/2025-wine-spirits-market-report"
+    ]
+   ],
+   "vf": "V",
+   "note": ""
+  },
+  {
+   "id": "acker",
+   "n": "Acker (Acker Merrall & Condit)",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "New York",
+    "country": "United States",
+    "lat": 40.7128,
+    "lon": -74.006
+   },
+   "offices": [
+    "Hong Kong"
+   ],
+   "people": [
+    {
+     "n": "John Kapon",
+     "role": "Chairman of Acker (press release, 29 April 2025)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "'The Immaculate Collection of The Chairman', Hong Kong, 25–26 April 2025: HK$90m, Acker's largest Hong Kong sale in nearly four years; six bottles 1947 Cheval Blanc HK$900,000; 12 bottles 1945 Latour, 12 bottles 1959 Latour and 12 bottles 2010 DRC Montrachet HK$800,000 each; 'numerous American buyers' in the room.",
+   "edge": "The New York wine auctioneer with the deepest Hong Kong book.",
+   "src": [
+    [
+     "Acker press release, 29 April 2025, The Chairman takes command in HK$90M sale",
+     "https://uk.ackerwines.com/news/press-releases/the-chairman-takes-command-in-hk90m-sale"
+    ]
+   ],
+   "vf": "V",
+   "note": "The consignor 'The Chairman' is not named."
+  },
+  {
+   "id": "zachys",
+   "n": "Zachys Wine Auctions",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "New York",
+    "country": "United States",
+    "lat": 40.7128,
+    "lon": -74.006
+   },
+   "offices": [
+    "Hong Kong"
+   ],
+   "people": [
+    {
+     "n": "Eileen Rizzo",
+     "role": "CEO (press release, 23 September 2025)"
+    },
+    {
+     "n": "Charles Antin",
+     "role": "Global Head of Wine Auctions (press release, 23 September 2025)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "The Jacqueline (de Rothschild) Piatigorsky collection, New York (The Pool), 19 September 2025: US$11,160,375 against a US$2.76m estimate, 100% sold, 162 world records; Lafite-Rothschild 1870 magnum US$387,500; 1878 double magnum US$312,500; two-day total with the multi-vendor sale US$17,163,925.",
+   "edge": "Record single-owner Bordeaux provenance sales.",
+   "src": [
+    [
+     "Zachys press release, 23 September 2025, Piatigorsky collection",
+     "https://auction.zachys.com/Zachysshattersrecords"
+    ]
+   ],
+   "vf": "V",
+   "note": "A 2024 total of US$63m appears in a drinks business headline, not opened."
+  },
+  {
+   "id": "christies-wine",
+   "n": "Christie's Wine & Spirits",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.5074,
+    "lon": -0.1278
+   },
+   "offices": [
+    "New York",
+    "Hong Kong",
+    "Geneva"
+   ],
+   "people": [
+    {
+     "n": "Adam Bilbey",
+     "role": "global head of wine and spirits (Decanter, 18 June 2025)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "The Bill Koch cellar, New York, three days, June 2025: US$28.8m (£21.2m), every lot sold, a record for a single-owner wine collection sold in North America; 600cl Romanée-Conti 1999 US$275,000; six magnums Bonnes Mares 1985 (Roumier) US$200,000; two lots of six magnums Latour 1961 US$187,500 each.",
+   "edge": "Returned to the New York wine room in 2025 with the Koch sale.",
+   "src": [
+    [
+     "Decanter, 18 June 2025, Bill Koch's wine cellar fetches record $28.8m",
+     "https://www.decanter.com/wine-news/billionaire-bill-kochs-wine-cellar-fetches-record-28-8m-at-auction-559466/"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "id": "bonhams-wine",
+   "n": "Bonhams Fine & Rare Wines",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.5074,
+    "lon": -0.1278
+   },
+   "offices": [
+    "Hong Kong"
+   ],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "A Hong Kong government press title (April 2008) records its inaugural Hong Kong Fine & Rare Wines auction; not opened.",
+   "edge": "London and Hong Kong wine sales.",
+   "src": [],
+   "vf": "U",
+   "note": "Nothing opened in this session."
+  },
+  {
+   "id": "sothebys-books",
+   "n": "Sotheby's Books & Manuscripts",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "New York",
+    "country": "United States",
+    "lat": 40.7128,
+    "lon": -74.006
+   },
+   "offices": [
+    "London",
+    "Paris"
+   ],
+   "people": [
+    {
+     "n": "Sharon Mintz",
+     "role": "senior specialist in Judaica (The Art Newspaper, 17 May 2023)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "Codex Sassoon, single-lot sale, New York, 16 May 2023: US$38.1m with fees, estimate US$30–50m, four minutes between two bidders; bought by Alfred H. Moses for American Friends of ANU for the ANU Museum of the Jewish People, Tel Aviv. A first printing of the US Constitution, US$43.2m, November 2021.",
+   "edge": "Holds the manuscript record.",
+   "src": [
+    [
+     "The Art Newspaper, 17 May 2023, Codex Sassoon",
+     "https://www.theartnewspaper.com/2023/05/17/codex-sassoon-auction-record-manuscript-sothebys"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "id": "christies-books",
+   "n": "Christie's Books & Manuscripts",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.5074,
+    "lon": -0.1278
+   },
+   "offices": [
+    "New York",
+    "Paris"
+   ],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "'Valuable Books and Manuscripts', sale 23880, 10 December 2025: £6,514,084, 190 of 212 lots (89.6%), 106% of the high estimate; William Harvey, 'De motu cordis' (1628) £1,016,000; 10th-century Gospels £889,000; Higden 'Polychronicon' £241,300; Jenner letters £165,100.",
+   "edge": "London's December book sale; sold the Codex Leicester to Bill Gates in 1994 (US$30.8m).",
+   "src": [
+    [
+     "Rare Book Hub, auction detail report, Christie's sale 23880",
+     "https://www.rarebookhub.com/auctions/auction_detail_report?id=46927"
+    ],
+    [
+     "The Art Newspaper, 17 May 2023 (Codex Leicester)",
+     "https://www.theartnewspaper.com/2023/05/17/codex-sassoon-auction-record-manuscript-sothebys"
+    ]
+   ],
+   "vf": "S",
+   "note": "The Rare Book Hub report does not state the city; the sale code is Christie's London, King Street."
+  },
+  {
+   "id": "bonhams-books",
+   "n": "Bonhams Books & Manuscripts",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.5074,
+    "lon": -0.1278
+   },
+   "offices": [],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "Nothing opened.",
+   "edge": "",
+   "src": [],
+   "vf": "U",
+   "note": "Nothing opened in this session."
+  },
+  {
+   "id": "peter-harrington",
+   "n": "Peter Harrington",
+   "kind": "dealer",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.5074,
+    "lon": -0.1278
+   },
+   "offices": [],
+   "people": [
+    {
+     "n": "Pom Harrington",
+     "role": "directs the firm; son of the founder (Galerie Magazine, 11 October 2024)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "Founded 1969 by Peter Harrington as a stall in a Chelsea antiques market; described by Galerie Magazine as 'the largest antiquarian book dealer in Europe' with several London shops; exhibits at TEFAF; sold a first edition of 'Frankenstein' inscribed by Mary Shelley to Lord Byron for over US$300,000.",
+   "edge": "Europe's largest antiquarian bookseller by the magazine's account.",
+   "src": [
+    [
+     "Galerie Magazine, 11 October 2024, The Collectors: Pom Harrington",
+     "https://galeriemagazine.com/collectors-pom-harrington/"
+    ]
+   ],
+   "vf": "S",
+   "note": "Shop addresses (Dover Street, Fulham Road) from memory, not on the page."
+  },
+  {
+   "id": "maggs",
+   "n": "Maggs Bros",
+   "kind": "dealer",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.5074,
+    "lon": -0.1278
+   },
+   "offices": [],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "Nothing opened.",
+   "edge": "A long-established London antiquarian bookseller (from memory).",
+   "src": [],
+   "vf": "U",
+   "note": "Nothing opened in this session."
+  },
+  {
+   "id": "heritage",
+   "n": "Heritage Auctions",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Dallas",
+    "country": "United States",
+    "lat": 32.7767,
+    "lon": -96.797
+   },
+   "offices": [],
+   "people": [
+    {
+     "n": "Steve Ivy",
+     "role": "co-founder and CEO (cllct, January 2026)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "2025: US$2,158,204,321, up from US$1.867bn in 2024, fifth straight annual record; numismatics US$470m; sports US$189.2m; over 2 million registered online bidders. Top lots: 'Rosebud' sled from Citizen Kane US$14.75m; Frazetta's 1967 'Conan' cover US$13.5m; the Kobe Bryant–Michael Jordan dual Logoman card US$12.932m; Superman No. 1 US$9.12m. Coins 2025 (PCGS list): 1927-D Saint-Gaudens double eagle US$3,840,000; 1798 half eagle US$3,000,000; 1907 Indian Head eagle rolled edge US$2,400,000.",
+   "edge": "The largest collectibles auctioneer by sales; founded 1976; 50th anniversary in 2026.",
+   "src": [
+    [
+     "cllct, Heritage Auctions sets new sales record with $2.15 billion in 2025",
+     "https://www.cllct.com/sports-collectibles/auctions/heritage-auctions-sets-new-sales-record-with-2-15-billion-in-2025"
+    ],
+    [
+     "PCGS, 28 of the top 30 most valuable coins sold in 2025",
+     "https://www.pcgseurope.com/article/pcgs-newsflash-28-of-the-top-30?l=es"
+    ]
+   ],
+   "vf": "S",
+   "note": "Rare books are one of its departments; no books figure opened."
+  },
+  {
+   "id": "christies-asia",
+   "n": "Christie's Asia (Hong Kong)",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Hong Kong",
+    "country": "China",
+    "lat": 22.3193,
+    "lon": 114.1694
+   },
+   "offices": [],
+   "people": [
+    {
+     "n": "Bonnie Brennan",
+     "role": "Chief Executive, Christie's (The Art Newspaper, 17 December 2025)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "2025: Asian art and world art down 6%; spend from Asia Pacific-based buyers down 3%; group revenue US$6.2bn (+6%), public auctions US$4.7bn, private sales about US$1.5bn (24%).",
+   "edge": "The other Hong Kong room; its autumn 2025 series is reported by The Art Newspaper as down 46% on 2024 (headline seen, not opened).",
+   "src": [
+    [
+     "The Art Newspaper, 17 December 2025",
+     "https://www.theartnewspaper.com/2025/12/17/christies-and-sothebys-end-2025-with-increased-sales-thanks-to-luxury-goods-trophy-lots-and-private-deals"
+    ]
+   ],
+   "vf": "S",
+   "note": "The Value's 'over US$123 million' autumn 2025 Asian Art Week headline was not opened."
+  },
+  {
+   "id": "poly",
+   "n": "Poly Auction Hong Kong",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Hong Kong",
+    "country": "China",
+    "lat": 22.3193,
+    "lon": 114.1694
+   },
+   "offices": [
+    "Beijing"
+   ],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "Spring 2026: over HK$255m, up 23% on autumn 2025; six lots over HK$10m, 43 over HK$1m, bidders from over 17 countries; Chinese ceramics and works of art three sales over HK$110m — Yongle blue and white 'grapes' dish HK$24.6m, Tang sancai horse and groom HK$10.8m, Tsui Museum of Art section HK$18.27m at 74% sold; modern art over HK$76m (Liu Wei HK$27.6m); jewels, watches and handbags over HK$44m.",
+   "edge": "The Hong Kong arm of the mainland's state-linked house.",
+   "src": [
+    [
+     "PR Newswire, 17 April 2026, Poly Auction Hong Kong spring auctions 2026 concluded on a high note",
+     "https://www.prnewswire.com/apac/news-releases/poly-auction-hong-kong-spring-auctions-2026-concluded-on-a-high-note-302745739.html"
+    ]
+   ],
+   "vf": "V",
+   "note": "Company release distributed by PR Newswire."
+  },
+  {
+   "id": "china-guardian",
+   "n": "China Guardian (Hong Kong)",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Hong Kong",
+    "country": "China",
+    "lat": 22.3193,
+    "lon": 114.1694
+   },
+   "offices": [
+    "Beijing"
+   ],
+   "people": [
+    {
+     "n": "John Chong",
+     "role": "Manager, Ceramics and Works of Art (The Value, 10 October 2025)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "Autumn 2025, 6–8 October: about HK$445m (US$57.2m) overall, up 9% on spring; ceramics and works of art about HK$227m (US$29.2m); 70% sold of nearly 2,000 lots; Qianlong zitan throne HK$11.85m; Qianlong doucai double-gourd vase HK$8,983,500; Yidetang Qing porcelain HK$48.53m at 96%.",
+   "edge": "The mainland's first auction house, selling in Hong Kong twice a year.",
+   "src": [
+    [
+     "The Value, 10 October 2025, China Guardian Hong Kong Chinese works of art result",
+     "https://en.thevalue.com/articles/china-guardian-hong-kong-2025-auctions-chinese-works-of-art-fall-sales-result"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "id": "eskenazi",
+   "n": "Eskenazi Ltd",
+   "kind": "dealer",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.5105,
+    "lon": -0.14
+   },
+   "offices": [],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "'Chinese ceramics, metalwork and lacquer from the 12th to the 14th century', 10 Clifford Street, 27 October–14 November 2025: twelve objects, e-catalogue, no prices listed; the firm counts 'over 75 exhibitions in the past 50 years'. Listed for Asian Art in London 2026 (29 October–10 November 2026) at 10 Clifford Street, Mayfair.",
+   "edge": "The London dealer whose autumn exhibition anchors Asian Art in London.",
+   "src": [
+    [
+     "Eskenazi Ltd, exhibition page (autumn 2025)",
+     "https://www.eskenazi.co.uk/exhibitions/chinese-ceramics-metalwork-lacquer-12-14-century"
+    ],
+    [
+     "asianart.com, Asian Art in London 2026 participants",
+     "https://asianart.com/exhibitions/aalondon/index.html"
+    ]
+   ],
+   "vf": "V",
+   "note": "Principals (Giuseppe and Daniel Eskenazi) not named on the pages opened."
+  },
+  {
+   "id": "marchant",
+   "n": "Marchant",
+   "kind": "dealer",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.506,
+    "lon": -0.193
+   },
+   "offices": [],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "Nothing opened; the firm does not appear in the Asian Art in London 2026 participant list that was opened.",
+   "edge": "Kensington Church Street dealer in Chinese ceramics (from memory).",
+   "src": [],
+   "vf": "U",
+   "note": "Nothing opened in this session."
+  },
+  {
+   "id": "bonhams-chinese",
+   "n": "Bonhams Chinese Ceramics & Works of Art",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.5074,
+    "lon": -0.1278
+   },
+   "offices": [
+    "Hong Kong",
+    "New York"
+   ],
+   "people": [
+    {
+     "n": "Asaph Hyman",
+     "role": "Global Head, Chinese Ceramics & Works of Art (Bonhams release, May 2025)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "'Instinct & Knowledge: A Life in the Company of Song Ceramics', the collection of the late Emmanuel Christofides, New Bond Street, 15 May 2025: 28 lots, £5,246,000, five times estimate; Junyao light-blue bowl £1,016,400 (estimate £80,000–120,000); Cizhou sgraffiato meiping £825,900; Longquan 'Kinuta' bowl £762,400. 'Scholarly Gems from the Collection of Mr & Mrs Gerard Hawthorn', 14 May 2025: 94 lots, £1,337,662.",
+   "edge": "London's Song-ceramics room in 2025.",
+   "src": [
+    [
+     "Bonhams press release, Asian Art Week in London achieves £10.7m (May 2025)",
+     "https://www.bonhams.com/press_release/40084"
+    ]
+   ],
+   "vf": "V",
+   "note": ""
+  },
+  {
+   "id": "christies-islamic",
+   "n": "Christie's Islamic and Indian Art",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.5074,
+    "lon": -0.1278
+   },
+   "offices": [],
+   "people": [
+    {
+     "n": "Sara Plumbly",
+     "role": "International Head of Islamic and Indian Art (The Art Newspaper, 29 October 2025 and 11 May 2026)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "The Prince Sadruddin Aga Khan collection, 28 October 2025: £45.8m (US$61m), 95 lots, estimate 'in excess of £8m'; Basawan's cheetahs £10.2m; eight Fraser Album paintings £6.2m; Dust Muhammad portrait £2.7m. April 2026 week: 'Art from the Islamic and Indian Worlds' plus the Mary and Cheney Cowles sale £17.6m; Mamluk enamelled glass footed bowl £5.5m (estimate £1.2–1.8m); Cowles sale £5.3m at 100%.",
+   "edge": "Holder of the records for a classical Indian or Islamic painting and for Islamic glass.",
+   "src": [
+    [
+     "The Art Newspaper, 29 October 2025",
+     "https://www.theartnewspaper.com/2025/10/29/led-by-£10m-cheetah-miniature-aga-khan-collection-breaks-record-for-south-asian-art-sale"
+    ],
+    [
+     "The Art Newspaper, 11 May 2026",
+     "https://www.theartnewspaper.com/2026/05/11/record-£55m-glass-goblet-leads-london-indian-and-islamic-sales"
+    ]
+   ],
+   "vf": "S",
+   "note": "Plumbly credits 'the emergence of Indian buyers' for Mughal prices."
+  },
+  {
+   "id": "sothebys-islamic",
+   "n": "Sotheby's Arts of the Islamic World & India",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.5074,
+    "lon": -0.1278
+   },
+   "offices": [],
+   "people": [
+    {
+     "n": "Benedict Carter",
+     "role": "head of Indian and Islamic art (The Art Newspaper, 11 May 2026)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "April 2026 week: Arts of the Islamic World & India, Orientalist and Middle Eastern sales together £14.8m; 17th-century Mughal astrolabe £2m, a record for an Islamic astronomical instrument; Ralph Brocklebank collection £994,560; Alan Barlow collection £956,000; Brocklebank Iznik dish £256,000; Barlow Iznik jug £230,400. New York, September 2025: a South Asian sale of US$25.5m.",
+   "edge": "Iznik and scientific instruments.",
+   "src": [
+    [
+     "The Art Newspaper, 11 May 2026",
+     "https://www.theartnewspaper.com/2026/05/11/record-£55m-glass-goblet-leads-london-indian-and-islamic-sales"
+    ],
+    [
+     "The Art Newspaper, 29 October 2025",
+     "https://www.theartnewspaper.com/2025/10/29/led-by-£10m-cheetah-miniature-aga-khan-collection-breaks-record-for-south-asian-art-sale"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "id": "bonhams-islamic",
+   "n": "Bonhams Islamic and Indian Art",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.5074,
+    "lon": -0.1278
+   },
+   "offices": [],
+   "people": [
+    {
+     "n": "Oliver White",
+     "role": "Head of Department, Islamic and Indian Art; led the department since 2015, joined Bonhams in 2008 (department page)"
+    },
+    {
+     "n": "Nima Sagharchi",
+     "role": "Group Head of Middle Eastern, Islamic and South Asian Art; appointed 2022, joined 2014 (department page)"
+    },
+    {
+     "n": "Matthew Thomas",
+     "role": "Senior Specialist, Indian miniature paintings and Arabic and Persian manuscripts; in the department since 2004 (department page)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "Two live auctions a year in London's Islamic Art Week (spring and autumn) and two online sales. The department page claims 'the auction world record for any Indian and Islamic work of art' and cites the Bedchamber Sword of Tipu Sultan as a record price; no figures on the page.",
+   "edge": "The third house of the London Islamic weeks; claims the category record (Tipu Sultan's sword) without stating the sum.",
+   "src": [
+    [
+     "Bonhams, Islamic and Indian Art department page",
+     "https://www.bonhams.com/departments/ISL"
+    ]
+   ],
+   "vf": "V",
+   "note": "The Tipu Sultan sword figure (May 2023) is known from memory and kept out."
+  },
+  {
+   "id": "simon-ray",
+   "n": "Simon Ray",
+   "kind": "dealer",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.5074,
+    "lon": -0.1378
+   },
+   "offices": [],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "Nothing opened; annual catalogues (2016–2024) appear on Issuu in search results.",
+   "edge": "Indian and Islamic works of art dealer, St James's (from memory).",
+   "src": [],
+   "vf": "U",
+   "note": "Nothing opened in this session."
+  },
+  {
+   "id": "francesca-galloway",
+   "n": "Francesca Galloway",
+   "kind": "dealer",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.503,
+    "lon": -0.206
+   },
+   "offices": [],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "Catalogue 'RARE: Indian Art for Court and Trade', August 2025, foreword signed by Francesca Galloway; South Asian paintings, works of art and textiles; exhibiting at Frieze Masters in October. Listed for Asian Art in London 2026 at 56 Holland Park.",
+   "edge": "Indian courtly painting and textiles; Frieze Masters exhibitor.",
+   "src": [
+    [
+     "Francesca Galloway, RARE: Indian Art for Court and Trade (August 2025 catalogue)",
+     "https://francescagalloway.com/usr/library/documents/main/rare-indian-art-for-court-and-trade-francesca-galloway.pdf"
+    ],
+    [
+     "asianart.com, Asian Art in London 2026 participants",
+     "https://asianart.com/exhibitions/aalondon/index.html"
+    ]
+   ],
+   "vf": "V",
+   "note": ""
+  },
+  {
+   "id": "forge-lynch",
+   "n": "Oliver Forge and Brendan Lynch",
+   "kind": "dealer",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.5074,
+    "lon": -0.1378
+   },
+   "offices": [],
+   "people": [
+    {
+     "n": "Brendan Lynch",
+     "role": "dealer, business partner of Oliver Forge (The Art Newspaper, 11 May 2026)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "Named by The Art Newspaper in its report on the April 2026 London Islamic and Indian sales.",
+   "edge": "Indian and Islamic paintings dealers active in the London weeks.",
+   "src": [
+    [
+     "The Art Newspaper, 11 May 2026",
+     "https://www.theartnewspaper.com/2026/05/11/record-£55m-glass-goblet-leads-london-indian-and-islamic-sales"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "id": "saffronart",
+   "n": "Saffronart",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Mumbai",
+    "country": "India",
+    "lat": 19.076,
+    "lon": 72.8777
+   },
+   "offices": [
+    "New Delhi"
+   ],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "Mumbai, 1 April 2026: Raja Ravi Varma, 'Yashoda and Krishna' (1890s), US$15m hammer, US$17.9m (INR1,672m) with fees, estimate US$8.6–12.9m, bought by Cyrus Poonawalla (confirmed by a Saffronart representative) — the record for an Indian painting at auction. New Delhi, September 2025: a US$40.2m sale, then the highest for South Asian art.",
+   "edge": "India's own record room.",
+   "src": [
+    [
+     "The Art Newspaper, 2 April 2026",
+     "https://www.theartnewspaper.com/2026/04/02/vaccine-billionaire-buys-179m-raja-ravi-varma-setting-new-record-for-indian-painting-at-auction"
+    ],
+    [
+     "The Art Newspaper, 29 October 2025",
+     "https://www.theartnewspaper.com/2025/10/29/led-by-£10m-cheetah-miniature-aga-khan-collection-breaks-record-for-south-asian-art-sale"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "id": "sothebys-rugs",
+   "n": "Sotheby's Rugs & Carpets",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "New York",
+    "country": "United States",
+    "lat": 40.7128,
+    "lon": -74.006
+   },
+   "offices": [
+    "London"
+   ],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "The Clark Sickle-Leaf carpet, Kerman, early 17th century, from the Clark collection, US$33.7m, Sotheby's New York — the carpet record (year 2013 from search-result headlines; the Nazmiyal page gives price and house only). The Pearl Carpet of Baroda US$5.54m (Sotheby's; undated on the page).",
+   "edge": "Holder of the carpet record.",
+   "src": [
+    [
+     "Nazmiyal Antique Rugs, most expensive rug ever sold",
+     "https://nazmiyalantiquerugs.com/blog/most-expensive-rug-ever-sold/"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "id": "christies-rugs",
+   "n": "Christie's Rugs & Carpets",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.5074,
+    "lon": -0.1278
+   },
+   "offices": [
+    "New York"
+   ],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "Records listed by Nazmiyal (undated): Comtesse de Béhague 'vase' carpet US$9.6m, the record before 2013; Vanderbilt Mughal millefleurs star-lattice carpet US$7.7m; Doris Duke silk Isfahan US$4.45m; Louis XV Savonnerie by Pierre-Josse Perrot US$4.4m. Sells rugs within 'Art of the Islamic and Indian Worlds including Rugs and Carpets' in London.",
+   "edge": "Four of the six highest carpet prices.",
+   "src": [
+    [
+     "Nazmiyal Antique Rugs, most expensive rug ever sold",
+     "https://nazmiyalantiquerugs.com/blog/most-expensive-rug-ever-sold/"
+    ],
+    [
+     "The Art Newspaper, 11 May 2026",
+     "https://www.theartnewspaper.com/2026/05/11/record-£55m-glass-goblet-leads-london-indian-and-islamic-sales"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "id": "nazmiyal",
+   "n": "Nazmiyal Antique Rugs",
+   "kind": "dealer",
+   "extends": "",
+   "hq": {
+    "city": "New York",
+    "country": "United States",
+    "lat": 40.746,
+    "lon": -73.984
+   },
+   "offices": [],
+   "people": [
+    {
+     "n": "Jason Nazmiyal",
+     "role": "pictured with the Clark carpet on the firm's page; role not stated"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "31 East 32nd Street, New York; publishes the reference list of carpet auction records.",
+   "edge": "The most visible American antique-rug dealer online.",
+   "src": [
+    [
+     "Nazmiyal Antique Rugs, most expensive rug ever sold",
+     "https://nazmiyalantiquerugs.com/blog/most-expensive-rug-ever-sold/"
+    ]
+   ],
+   "vf": "V",
+   "note": ""
+  },
+  {
+   "id": "bausback",
+   "n": "Bausback",
+   "kind": "dealer",
+   "extends": "",
+   "hq": {
+    "city": "Mannheim",
+    "country": "Germany",
+    "lat": 49.4875,
+    "lon": 8.466
+   },
+   "offices": [],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "Nothing opened.",
+   "edge": "German antique-carpet dealer (from memory).",
+   "src": [],
+   "vf": "U",
+   "note": "Nothing opened in this session."
+  },
+  {
+   "id": "phillips-design",
+   "n": "Phillips Design",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.5074,
+    "lon": -0.1278
+   },
+   "offices": [
+    "New York"
+   ],
+   "people": [
+    {
+     "n": "Martin Wilson",
+     "role": "CEO, Phillips (2025 look back)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "2025 top design lot: François-Xavier Lalanne, 'Brebis' from 'Nouveaux Moutons' (1995), £412,800 (US$540,273); records for Judy Kensley McKie, Guy de Rougemont, Adolf Loos and Kathy Butterly. Group: sales up 10%, private sales up 66%, over 110 world records, 88% sold by lot, one in three buyers new. No design total published.",
+   "edge": "London and New York design sales twice a year; press titles list London totals of £3.4m–£4.8m per sale (not opened).",
+   "src": [
+    [
+     "Phillips 2025: a look back",
+     "https://www.phillips.com/article/164687220/phillips-2025-a-look-back"
+    ]
+   ],
+   "vf": "V",
+   "note": ""
+  },
+  {
+   "id": "christies-design",
+   "n": "Christie's Design",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.8566,
+    "lon": 2.3522
+   },
+   "offices": [
+    "New York",
+    "London"
+   ],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "Nothing opened.",
+   "edge": "",
+   "src": [],
+   "vf": "U",
+   "note": "Nothing opened in this session."
+  },
+  {
+   "id": "wright",
+   "n": "Wright",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Chicago",
+    "country": "United States",
+    "lat": 41.8781,
+    "lon": -87.6298
+   },
+   "offices": [
+    "New York"
+   ],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "Nothing opened.",
+   "edge": "American design auctioneer (from memory).",
+   "src": [],
+   "vf": "U",
+   "note": "Nothing opened in this session."
+  },
+  {
+   "id": "piasa",
+   "n": "Piasa",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.879,
+    "lon": 2.311
+   },
+   "offices": [],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "'French Design', 26 March 2025 (held at 118 rue du Faubourg Saint-Honoré): approaching €4m with fees; Jean Royère 'Écusson' sofa and armchairs €367,200 (estimate €150,000–200,000); Jean Prouvé 'BA12' €221,000; Jean-Michel Frank stools €95,200; Pierre Jeanneret library table €78,000. Address 54 rue de Monceau.",
+   "edge": "The Paris house of Royère, Prouvé and Frank.",
+   "src": [
+    [
+     "Piasa, results: French Design (31 March 2025)",
+     "https://www.piasa.fr/en/news/results-french-design"
+    ]
+   ],
+   "vf": "V",
+   "note": ""
+  },
+  {
+   "id": "artcurial",
+   "n": "Artcurial",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.8698,
+    "lon": 2.31
+   },
+   "offices": [],
+   "people": [
+    {
+     "n": "Sabrina Dolla",
+     "role": "contact, Art Deco / Design (Artcurial results page)"
+    },
+    {
+     "n": "Karine Castagna",
+     "role": "contact, Limited Edition (Artcurial results page)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "19–21 May 2026: over €8.1m across Art Deco / Design, Italian Design, Limited Edition and a Zao Wou-Ki online sale; François-Xavier Lalanne 'Singe attentif II' (1999) €1,438,400; twenty Lalanne lots over €3.1m; Pierre Dunand (Leleu) panels €556,080; Claude Lalanne butterfly chandelier €503,120; Gio Ponti 'Pavone' €66,200. Address 7 rond-point des Champs-Élysées.",
+   "edge": "Paris's Lalanne room.",
+   "src": [
+    [
+     "Artcurial, over €8.1m for the Art Deco & Design and Limited Edition departments (May 2026)",
+     "https://www.artcurial.com/en/articles/over-8.1m-for-the-art-deco--design-and-limited-edition-departments"
+    ]
+   ],
+   "vf": "V",
+   "note": ""
+  },
+  {
+   "id": "seguin",
+   "n": "Galerie Patrick Seguin",
+   "kind": "dealer",
+   "extends": "",
+   "hq": {
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.8566,
+    "lon": 2.3522
+   },
+   "offices": [],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "Nothing opened.",
+   "edge": "Prouvé and Perriand dealer (from memory).",
+   "src": [],
+   "vf": "U",
+   "note": "Nothing opened in this session."
+  },
+  {
+   "id": "kreo",
+   "n": "Galerie kreo",
+   "kind": "dealer",
+   "extends": "",
+   "hq": {
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.8566,
+    "lon": 2.3522
+   },
+   "offices": [
+    "London"
+   ],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "Nothing opened.",
+   "edge": "Contemporary design editions gallery (from memory).",
+   "src": [],
+   "vf": "U",
+   "note": "Nothing opened in this session."
+  },
+  {
+   "id": "pad",
+   "n": "PAD (Pavilion of Art & Design)",
+   "kind": "fair",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.5098,
+    "lon": -0.146
+   },
+   "offices": [
+    "Paris"
+   ],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "PAD London, Berkeley Square, Mayfair, October 2025: sales 'within minutes of the doors opening' on day one; Modernity's Finn Juhl Judas table (1948) at £68,000; Rose Uniacke's Alvar Aalto birch dining suite at £45,000; Sceners' Carlo Bugatti desk and chair at £65,000 (best stand); Adrian Sassoon's Felicity Aylieff pot at £55,000; Glenn Spiro jewels from £90,000.",
+   "edge": "The Mayfair design and decorative-arts fair of Frieze week.",
+   "src": [
+    [
+     "The Art Newspaper, 16 October 2025, demand is high at the Pavilion of Art and Design",
+     "https://www.theartnewspaper.com/2025/10/16/in-pictures-demand-is-high-at-the-pavilion-of-art-and-design"
+    ]
+   ],
+   "vf": "S",
+   "note": "Galerie kreo and Patrick Seguin are not mentioned in the article."
+  },
+  {
+   "id": "design-miami",
+   "n": "Design Miami",
+   "kind": "fair",
+   "extends": "",
+   "hq": {
+    "city": "Miami",
+    "country": "United States",
+    "lat": 25.7617,
+    "lon": -80.1918
+   },
+   "offices": [
+    "Basel",
+    "Paris"
+   ],
+   "people": [
+    {
+     "n": "Jen Roberts",
+     "role": "CEO, Design Miami (Galerie Magazine, 22 October 2025)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "Design Miami.Paris 2025, 22–26 October 2025, L'Hôtel de Maisons (Karl Lagerfeld's former residence): more than 25 galleries, among them Galerie Mitterrand (Lalanne), Nilufar, Friedman Benda, The Future Perfect, Hostler Burrows; no prices reported.",
+   "edge": "The collectible-design fair with editions in Miami, Basel and Paris.",
+   "src": [
+    [
+     "Galerie Magazine, 22 October 2025, highlights from Design Miami.Paris 2025",
+     "https://galeriemagazine.com/design-miami-paris-2025-highlights/"
+    ]
+   ],
+   "vf": "S",
+   "note": "Galerie kreo, Patrick Seguin and Carpenters Workshop are not mentioned in the article."
+  },
+  {
+   "id": "stacks-bowers",
+   "n": "Stack's Bowers Galleries",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Costa Mesa (California)",
+    "country": "United States",
+    "lat": 33.6411,
+    "lon": -117.9187
+   },
+   "offices": [
+    "New York",
+    "Philadelphia",
+    "Boston",
+    "Miami",
+    "Hong Kong",
+    "Zurich",
+    "Copenhagen"
+   ],
+   "people": [
+    {
+     "n": "Brian Kendrella",
+     "role": "President (CoinWeek, 7 January 2026)"
+    },
+    {
+     "n": "Peter Treglia",
+     "role": "Vice President and Managing Director of Currency"
+    },
+    {
+     "n": "Matt Orsini",
+     "role": "Director of World and Ancient Numismatics"
+    },
+    {
+     "n": "James McCartney",
+     "role": "Director of Numismatics and Physical Cryptocurrency"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "2025: over US$325m, up 18% from US$275m; over 134,000 lots in more than 130 sales; 1804 Draped Bust dollar (James A. Stack Sr specimen) US$6,000,000, the year's top coin; 1794 Flowing Hair dollar US$4,500,000 (November); 1849 Pacific Company US$5 US$1,260,000 (February); Mukden Tiger dollar pattern US$1,020,000 (Hong Kong); the final 'Omega' cent sets nearly US$17m (December); Bruun collection 1659 Denmark 5 ducats €288,000 (Zurich/Copenhagen); Lealana 1 BTC US$118,500, a record for a physical bitcoin collectible.",
+   "edge": "Sold the two most valuable coins of 2025.",
+   "src": [
+    [
+     "CoinWeek, 7 January 2026, Stack's Bowers announces record $325 million year",
+     "https://coinweek.com/stacks-bowers-galleries-announces-record-shattering-325-million-year-of-auctions-in-2025/"
+    ],
+    [
+     "PCGS, 28 of the top 30 most valuable coins sold in 2025",
+     "https://www.pcgseurope.com/article/pcgs-newsflash-28-of-the-top-30?l=es"
+    ]
+   ],
+   "vf": "S",
+   "note": "Head office city from memory; the article names retail galleries only."
+  },
+  {
+   "id": "spink",
+   "n": "Spink & Son",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.52,
+    "lon": -0.125
+   },
+   "offices": [],
+   "people": [
+    {
+     "n": "Olivier D. Stocker",
+     "role": "Chairman and CEO (Spink media page)"
+    },
+    {
+     "n": "Mike Veissid",
+     "role": "Head of Numismatic Division (Spink media page)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "Two weeks of six sales in London around Coinex, 24 September–4 October (year not stated on the page): almost £6m with world records for a Tripura mohur of Durga Manikya £21,600, a 1638 Genoa 12½-doppie £150,000, a 1944 Iraq specimen 50 fils note £45,600 and a 1941 Bermuda £5 serial A 000001 £45,600. British Medals and World Coins with the Hurter-Amman collection of ancient and European gold (auction 25055, page in search results, not opened).",
+   "edge": "London's coin, medal and banknote house, selling on the Coinex calendar.",
+   "src": [
+    [
+     "Spink, £6 million realised during two weeks of world records",
+     "https://spink.com/media/view?id=105"
+    ]
+   ],
+   "vf": "V",
+   "note": "The media page carries no year; search listings show Spink Insider items from 2025."
+  },
+  {
+   "id": "nac",
+   "n": "Numismatica Ars Classica (NAC)",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Zurich",
+    "country": "Switzerland",
+    "lat": 47.3769,
+    "lon": 8.5417
+   },
+   "offices": [
+    "London"
+   ],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "Founded in Zurich in 1988; sales at the Hotel Baur au Lac. November 2025, the second Traveller Collection auction: a 100-ducat gold coin of Ferdinand III (Prague, 348.5 g fine gold) CHF2,388,750 (€2,564,072) with premium, 'the most expensive post-antique European gold coin ever sold at auction'; a 1937 Kremnica 5 ducat CHF673,750; a Transylvanian 10 ducat CHF490,000. The Traveller Collection is described as a US$100m series, the most expensive coin collection to go to auction.",
+   "edge": "The Zurich house selling the US$100m Traveller Collection.",
+   "src": [
+    [
+     "CoinWeek, 13 November 2025, 100 ducat gold giant sells for record in second Traveller Collection auction",
+     "https://coinweek.com/100-ducat-gold-giant-sells-for-record-e2-5-million-in-second-traveller-collection-auction/"
+    ]
+   ],
+   "vf": "S",
+   "note": "The article is written by NAC and published by CoinWeek; the collector is not named."
+  },
+  {
+   "id": "greatcollections",
+   "n": "GreatCollections",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Irvine (California)",
+    "country": "United States",
+    "lat": 33.6846,
+    "lon": -117.8265
+   },
+   "offices": [],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "2025 (PCGS top-30 list): 1869 Liberty Head double eagle PR64DCAM US$1,372,500; 1795 Draped Bust eagle MS65 US$1,338,750; 1864 double eagle PF65UCAM US$669,375.",
+   "edge": "The online coin auctioneer with three of 2025's top 30.",
+   "src": [
+    [
+     "PCGS, 28 of the top 30 most valuable coins sold in 2025",
+     "https://www.pcgseurope.com/article/pcgs-newsflash-28-of-the-top-30?l=es"
+    ]
+   ],
+   "vf": "S",
+   "note": "Head office city from memory."
+  },
+  {
+   "id": "goldin",
+   "n": "Goldin",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "Runnemede (New Jersey)",
+    "country": "United States",
+    "lat": 39.8523,
+    "lon": -75.0677
+   },
+   "offices": [],
+   "people": [
+    {
+     "n": "Ken Goldin",
+     "role": "founder and executive chairman (Front Office Sports, 22 March 2021)"
+    }
+   ],
+   "represents": [],
+   "owner": "",
+   "scale": "By 22 March 2021 Goldin had passed US$100m of trading-card sales for the year, beating its 2020 total with nine months left; a March 2021 auction made about US$8.5m; a Mike Trout autographed rookie card US$3.94m (August 2020); a US$40m funding round in February 2021 (Front Office Sports). 2025 results appear only in search titles (a T206 Honus Wagner US$5.1m; a US$20m live auction), not opened.",
+   "edge": "The online card house that turned card auctions into a quarterly league table.",
+   "src": [
+    [
+     "Front Office Sports, 22 March 2021, Goldin beats last year's sales in three months",
+     "https://frontofficesports.com/goldin-beats-last-years-sales-in-3-months"
+    ]
+   ],
+   "vf": "S",
+   "note": "Only a 2021 report was opened; head-office town from memory."
+  },
+  {
+   "id": "sothebys-sports",
+   "n": "Sotheby's Sports Memorabilia",
+   "kind": "house",
+   "extends": "",
+   "hq": {
+    "city": "New York",
+    "country": "United States",
+    "lat": 40.7128,
+    "lon": -74.006
+   },
+   "offices": [],
+   "people": [],
+   "represents": [],
+   "owner": "",
+   "scale": "Nothing opened.",
+   "edge": "",
+   "src": [],
+   "vf": "U",
+   "note": "Nothing opened in this session."
+  }
+ ],
+ "markets": [
+  {
+   "city": "Kyiv",
+   "lat": 50.4501,
+   "lon": 30.5234,
+   "role": "A small domestic market under martial law, counted in hundreds of thousands of dollars. Forbes Ukraine's year-end list (26 December 2025) puts the eleven most expensive paintings sold at Ukrainian auctions in 2025 at over US$740,000 together; the top lot was Ivan Marchuk's 'Breath of Spring', US$118,000 at Goldens in May 2025, and Marchuk painted four of the eleven; a Zadorozhnyi was offered at the Mercury auction house. Abroad, Marchuk's still life 'The Generous Planet' (1994) made €96,000 at Sotheby's against a €40,000–60,000 estimate, from a US private collection, beating the house's earlier €76,000 for 'Peace Has Settled Here' (Komersant, 5 June, year not stated). The institutions are PinchukArtCentre and its prize (shortlist of 20 in 2025; page not opened) and the Kyiv galleries. The wall is the 1999 law on the export, import and restitution of cultural objects: export or temporary export of works in HS chapter 97 needs a certificate from the Ministry of Culture and Information Policy, administered by the State Customs Service, notified to the WTO as an export prohibition in force from 25 September 2024.",
+   "rooms": [
+    {
+     "n": "Goldens auction house",
+     "when": "Marchuk 'Breath of Spring' US$118,000, May 2025"
+    },
+    {
+     "n": "Mercury (Меркурій) auction house",
+     "when": "2025 season"
+    },
+    {
+     "n": "PinchukArtCentre",
+     "when": "PinchukArtCentre Prize 2025 exhibition of 20 shortlisted artists (search titles; not opened)"
+    }
+   ],
+   "src": [
+    [
+     "Forbes Ukraine, 26 December 2025, the most expensive paintings sold at Ukrainian auctions in 2025",
+     "https://forbes.ua/lifestyle/11-kartin-za-ponad-740-000-forbes-ukraine-zibrav-top-naydorozhchikh-poloten-prodanikh-na-ukrainskikh-auktsionakh-u-2025-rotsi-chii-roboti-u-spisku-24122025-35102"
+    ],
+    [
+     "Komersant.ua, Sotheby's sets a new auction result for Ivan Marchuk",
+     "https://komersant.ua/en/sotheby-s-vstanovyv-novyy-auktsionnyy-uspikh-dlia-ivana-marchuka/"
+    ],
+    [
+     "WTO quantitative restrictions database, Ukraine measure 5981 (notification G/MA/QR/N/UKR/7, 27 September 2024)",
+     "https://qr.wto.org/en/qrs/5981"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "city": "Tokyo / Kyoto",
+   "lat": 35.6762,
+   "lon": 139.6503,
+   "role": "Japan is the supply side of these markets more than a clearing room. The two largest Asian works of art sales of 2025 were Japanese collections sold in Hong Kong: the Okada Museum of Art, HK$688m (125 lots), and the Ise collection of Chinese ceramics, HK$359m (182 lots, 99.5% sold). Ukiyo-e records were set in Hong Kong, not Tokyo (Utamaro HK$55.27m; Hokusai 'Great Wave' HK$21.72m). Kyoto is the historic netsuke school: the Kurstin sale's third lot was a rat by Masanao of Kyoto (US$94,900), and Masanao monkeys led Bonhams' New York netsuke sale (US$140,200). Sotheby's keeps a full-time wine specialist in Tokyo; Phillips staged 'Thierry Noir: Rush Hour' there in 2025. Tokyo's own salerooms were not opened in this session.",
+   "rooms": [
+    {
+     "n": "Sotheby's Tokyo (wine specialist; exhibitions)",
+     "when": "2025"
+    },
+    {
+     "n": "Phillips Tokyo (selling exhibition)",
+     "when": "2025"
+    }
+   ],
+   "src": [
+    [
+     "Sotheby's, 2025 in review, Asian art",
+     "https://www.sothebys.com/en/articles/inside-a-stellar-year-for-asian-art-at-sothebys-2025-in-review"
+    ],
+    [
+     "Sotheby's Wine, 2025 market report",
+     "https://wine.sothebys.com/blogs/news/2025-wine-spirits-market-report"
+    ],
+    [
+     "Phillips 2025: a look back",
+     "https://www.phillips.com/article/164687220/phillips-2025-a-look-back"
+    ],
+    [
+     "Bonhams press release, Netsuke from American Collections",
+     "https://bonhams.com/press_release/38962"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "city": "Abu Dhabi",
+   "lat": 24.4539,
+   "lon": 54.3773,
+   "role": "Two seasons. In late summer ADIHEX at ADNEC runs the Gulf's largest falcon auction programme: in 2026, ten days to 6 September, 2,400 companies from 71 countries and 55 breeding farms, three falcons above Dh1m and a record Dh2.1m pure ultra-white gyrfalcon bred in the US by the Mark Moglich farm. In December Sotheby's held its first Abu Dhabi Collectors' Week (2025): US$133.4m across cars, real estate, watches, jewellery and handbags, and a jewellery and watch sale on 5 December in which all 42 lots sold, led by the Desert Rose diamond, over US$8.8m. The falcon passport and MOCCAE's CITES permits are the paperwork; Federal Law No. 5 of 2025 sets up to 15 years and AED 2 million for unpermitted trade.",
+   "rooms": [
+    {
+     "n": "ADIHEX falcon auctions, ADNEC",
+     "when": "ten days to 6 September 2026"
+    },
+    {
+     "n": "Sotheby's Abu Dhabi Collectors' Week",
+     "when": "December 2025 (first edition)"
+    }
+   ],
+   "src": [
+    [
+     "The National, 7 September 2026",
+     "https://thenationalnews.com/news/uae/2026/09/07/exceptionally-rare-falcon-sells-for-record-setting-dh21-million-in-abu-dhabi-auction"
+    ],
+    [
+     "The Art Newspaper, 17 December 2025",
+     "https://www.theartnewspaper.com/2025/12/17/christies-and-sothebys-end-2025-with-increased-sales-thanks-to-luxury-goods-trophy-lots-and-private-deals"
+    ],
+    [
+     "Rapaport Magazine, 22 January 2026",
+     "https://rapaport.com/magazine-article/bringing-the-hammer-down-on-a-strong-auction-year/"
+    ],
+    [
+     "MOCCAE presentation, March 2026",
+     "https://raptors.cms.int/sites/default/files/2026-04/Regulating%20Falconry%20in%20the%20UAE%20-%20Registration%2C%20Permits%20%26amp%3B%20Conservation_0.pdf"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "city": "Riyadh (Malham)",
+   "lat": 24.7136,
+   "lon": 46.6753,
+   "role": "The Saudi Falcons Club's headquarters at Malham, north of Riyadh, hosts two auctions a year. The International Falcon Breeders Auction (21 days to 25 August 2025) sells foreign farms' birds: cumulative sales since its launch four years earlier passed SAR29m and 2,300 falcons, with a top international bird at SAR1.75m and a top local bird above SAR500,000. The Saudi Falcons Club Auction (1 October–30 November 2025, 26 nights) sold 40 falcons for more than SR6.4m (about US$1.7m). The club pays breeders' transport and lodging and issues official sale documents; the Saudi Press Agency reports the totals.",
+   "rooms": [
+    {
+     "n": "International Falcon Breeders Auction, Saudi Falcons Club HQ",
+     "when": "21 days to 25 August 2025"
+    },
+    {
+     "n": "Saudi Falcons Club Auction",
+     "when": "1 October–30 November 2025"
+    }
+   ],
+   "src": [
+    [
+     "Saudi Falcons Club, 25 August 2025",
+     "https://sfc.org.sa/sa/en/news/641"
+    ],
+    [
+     "Arab News, 3 December 2025",
+     "https://www.arabnews.pk/node/2624891/saudi-arabia"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "city": "Monterey / Pebble Beach",
+   "lat": 36.5725,
+   "lon": -121.9486,
+   "role": "One August week sells about a tenth of the world's auctioned classic cars by value. 2025: US$432.8m across RM Sotheby's (US$163.8m), Gooding Christie's (US$127.8m), Broad Arrow (US$57.4m), Bonhams (US$44.2m) and Mecum (US$39.5m); 818 of 1,078 lots sold (76%), average US$529,035; the second-highest total after 2022 (US$471.2m), or US$397.2m without the charity Daytona SP3. RM Sotheby's drew bidders from 46 countries and set 14 records; Gooding Christie's set its house record with the US$25,305,000 Ferrari 250 GT SWB California Spider Competizione. 2026: Gooding Christie's Pebble Beach sale, 14–15 August, over US$159m at 94% sold, led by the US$42,905,000 Shelby Cobra Daytona Coupe, the most expensive American car at auction.",
+   "rooms": [
+    {
+     "n": "RM Sotheby's Monterey",
+     "when": "Friday–Saturday of car week, August 2025"
+    },
+    {
+     "n": "Gooding Christie's Pebble Beach Auctions",
+     "when": "15–16 August 2025; 14–15 August 2026"
+    },
+    {
+     "n": "Broad Arrow, Monterey Jet Center",
+     "when": "August 2025"
+    },
+    {
+     "n": "Bonhams|Cars, Quail Lodge",
+     "when": "August 2025"
+    },
+    {
+     "n": "Mecum Monterey",
+     "when": "August 2025"
+    }
+   ],
+   "src": [
+    [
+     "classic-analytics, Monterey Car Week 2025",
+     "https://classic-analytics.de/en/news/monterey-car-week-2025-achieves-second-highest-total-ever-modern-supercars-take-the-lead"
+    ],
+    [
+     "RM Sotheby's press release, 18 August 2025",
+     "https://rmsothebys.com/media-center/press-releases/rm-sotheby-s-tops-165-million-at-monterey-car-week-led-by-26-million-ferrari-daytona-sp3-and-multiple-world-records"
+    ],
+    [
+     "Gooding Christie's press release, 17 August 2026",
+     "https://www.goodingco.com/press/article/43-million-shelby-cobra-daytona-coupe-comes-out-on-top-at-2026-car-week-across-all-auction-sales-becomes-highest-grossing-american-car-of-all-time"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "city": "Geneva",
+   "lat": 46.2044,
+   "lon": 6.1432,
+   "role": "The clearing house for watches and jewels, twice a year in May and November. Watches, November 2026: over US$203m (CHF166m) across three houses in three days — Christie's 'Rare Watches' US$58.7m (a divisional record, +221%), Sotheby's 'Important Watches' US$32.1m (best in over a decade), Phillips Geneva Watch Auction XXIV with an F.P. Journe Résonance 'Régence' at US$10.59m. Phillips' XXIII sale of 9–10 May 2026 (CHF74.8m, US$96.3m) is the highest-grossing watch auction ever; its November 2025 'Decade One' sale sold the steel Patek 1518 for CHF14.19m. Jewels: Christie's Geneva Magnificent Jewels, May 2025, over US$72.3m at 100% sold, and November 2025 with the Mellon Blue at US$25.6m; Sotheby's Mediterranean Blue US$21.5m in May 2025; Phillips' Vanderbilt sale on 10 November 2025. Antiquorum sells in the same week.",
+   "rooms": [
+    {
+     "n": "Phillips Geneva Watch Auction (Hôtel La Réserve, from memory)",
+     "when": "9–10 May 2026; 7–8 November 2026"
+    },
+    {
+     "n": "Christie's Rare Watches and Magnificent Jewels",
+     "when": "May and November; 9 November 2026"
+    },
+    {
+     "n": "Sotheby's Important Watches and Magnificent & Noble Jewels",
+     "when": "8–9 November 2026"
+    },
+    {
+     "n": "Antiquorum Geneva",
+     "when": "8 November 2025 (catalogue in search results)"
+    }
+   ],
+   "src": [
+    [
+     "Il Sole 24 Ore, 12 November 2026",
+     "https://en.ilsole24ore.com/art/geneva-record-auctions-watch-sales-exceed-203-million-AJXyFJDC"
+    ],
+    [
+     "Phillips press release, May 2026",
+     "https://www.phillips.com/press/release/phillips-has-just-set-the-highestgrossing-watch-auction-in-history"
+    ],
+    [
+     "SJX Watches, November 2025",
+     "https://watchesbysjx.com/2025/11/geneva-fall-auctions-2025.html"
+    ],
+    [
+     "Rapaport Magazine, 22 January 2026",
+     "https://rapaport.com/magazine-article/bringing-the-hammer-down-on-a-strong-auction-year/"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "city": "Hong Kong",
+   "lat": 22.3193,
+   "lon": 114.1694,
+   "role": "The room for Chinese works of art, Asian jewels, wine and Japanese prints. Sotheby's autumn 2025: HK$1.4bn combined, the Asian Works of Art series HK$1.17bn (Okada HK$688m; the Ise collection HK$358,970,660 on 9 September; Imperial Connoisseurship HK$118.7m), and in April the Rao Jie handscroll HK$250m. China Guardian, 6–8 October 2025: about HK$445m overall at 70% sold. Poly, spring 2026: over HK$255m. Christie's: the Royal Blue sapphire necklace over US$16.1m (November 2025) while its Asian art total fell 6% for the year. Wine: duty-free since 2008; Acker's 'Chairman' sale HK$90m (25–26 April 2025). Phillips Hong Kong Watch Auction XX, May 2025: a Cartier nephrite lantern clock HK$9,144,000. Sotheby's Hong Kong watch sale, September 2026, set an Asian record.",
+   "rooms": [
+    {
+     "n": "Sotheby's Hong Kong spring and autumn series",
+     "when": "April and October 2025"
+    },
+    {
+     "n": "China Guardian Hong Kong",
+     "when": "6–8 October 2025"
+    },
+    {
+     "n": "Poly Auction Hong Kong",
+     "when": "spring 2026 (results 17 April 2026)"
+    },
+    {
+     "n": "Acker Hong Kong",
+     "when": "25–26 April 2025"
+    },
+    {
+     "n": "Phillips Hong Kong Watch Auction XX",
+     "when": "May 2025"
+    }
+   ],
+   "src": [
+    [
+     "Sotheby's, 2025 in review, Asian art",
+     "https://www.sothebys.com/en/articles/inside-a-stellar-year-for-asian-art-at-sothebys-2025-in-review"
+    ],
+    [
+     "The Value, 10 October 2025",
+     "https://en.thevalue.com/articles/china-guardian-hong-kong-2025-auctions-chinese-works-of-art-fall-sales-result"
+    ],
+    [
+     "PR Newswire, 17 April 2026, Poly Auction Hong Kong",
+     "https://www.prnewswire.com/apac/news-releases/poly-auction-hong-kong-spring-auctions-2026-concluded-on-a-high-note-302745739.html"
+    ],
+    [
+     "Acker press release, 29 April 2025",
+     "https://uk.ackerwines.com/news/press-releases/the-chairman-takes-command-in-hk90m-sale"
+    ],
+    [
+     "Commerce and Economic Development Bureau, wine business",
+     "https://www.cedb.gov.hk/en/policies/wine-business.html"
+    ],
+    [
+     "Phillips, Year in review 2025",
+     "https://www.phillips.com/article/164672423/year-in-review-2025-phillips-in-association-with-bacs-and-russo"
+    ],
+    [
+     "The Value, 10 September 2025",
+     "https://en.thevalue.com/articles/sothebys-hong-kong-single-owner-sale-japanese-eggking-ise-collection-chinese-ceramics-2025-result"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "city": "London",
+   "lat": 51.5074,
+   "lon": -0.1278,
+   "role": "The dealer capital of the collectible categories and the room for Islamic, Indian, Japanese and Chinese art, books and sporting guns. Asian Art Week (May and November): Bonhams £10.7m across five sales in May 2025, the Christofides Song ceramics at five times estimate; Eskenazi, Marchant, Sydney L. Moss and Max Rutherston exhibit around it. Islamic weeks (April and October): the Aga Khan sale at Christie's, 28 October 2025, £45.8m; April 2026, Christie's £17.6m and Sotheby's £14.8m with the £5.5m Mamluk glass. Frieze Masters in October: Peter Finer's £1.8m armour. Christie's 'Valuable Books and Manuscripts', 10 December 2025, £6.5m. Gavin Gardiner's sporting-gun sale of 29 April 2026; Bonhams Knightsbridge arms, June–July 2025. Phillips Design sales in London. The Ivory Act 2018 governs every ivory netsuke sold here. PAD London in Berkeley Square (October) and Spink's Coinex fortnight (24 September–4 October, almost £6m) complete the autumn; Asian Art in London 2026 runs 29 October–10 November with Eskenazi, Francesca Galloway, Bonhams, Christie's, Sotheby's, Lyon & Turnbull and Roseberys listed.",
+   "rooms": [
+    {
+     "n": "Asian Art in London / Bonhams Asian Art Week",
+     "when": "12–19 May 2025; November"
+    },
+    {
+     "n": "Islamic and Indian art weeks (Christie's, Sotheby's, Bonhams)",
+     "when": "28 October 2025; end of April 2026"
+    },
+    {
+     "n": "Frieze Masters",
+     "when": "October 2025"
+    },
+    {
+     "n": "Christie's Valuable Books and Manuscripts",
+     "when": "10 December 2025"
+    },
+    {
+     "n": "Gavin Gardiner sporting guns",
+     "when": "29 April 2026"
+    },
+    {
+     "n": "PAD London, Berkeley Square",
+     "when": "October 2025"
+    },
+    {
+     "n": "Spink, Coinex fortnight",
+     "when": "24 September–4 October"
+    },
+    {
+     "n": "Asian Art in London 2026",
+     "when": "29 October–10 November 2026"
+    }
+   ],
+   "src": [
+    [
+     "Bonhams press release, May 2025",
+     "https://www.bonhams.com/press_release/40084"
+    ],
+    [
+     "The Art Newspaper, 29 October 2025",
+     "https://www.theartnewspaper.com/2025/10/29/led-by-£10m-cheetah-miniature-aga-khan-collection-breaks-record-for-south-asian-art-sale"
+    ],
+    [
+     "The Art Newspaper, 11 May 2026",
+     "https://www.theartnewspaper.com/2026/05/11/record-£55m-glass-goblet-leads-london-indian-and-islamic-sales"
+    ],
+    [
+     "The Art Newspaper, 17 October 2025",
+     "https://www.theartnewspaper.com/2025/10/17/double-edged-sword-arms-and-armour-play-a-smallbut-mightyrole-at-frieze-masters"
+    ],
+    [
+     "Rare Book Hub, Christie's sale 23880",
+     "https://www.rarebookhub.com/auctions/auction_detail_report?id=46927"
+    ],
+    [
+     "gov.uk, Ivory Act exemption certificate guidance",
+     "https://gov.uk/guidance/ivory-apply-for-an-exemption-certificate-to-deal-in-pre-1918-outstandingly-high-artistic-cultural-or-historical-value-items"
+    ],
+    [
+     "The Art Newspaper, 16 October 2025, PAD",
+     "https://www.theartnewspaper.com/2025/10/16/in-pictures-demand-is-high-at-the-pavilion-of-art-and-design"
+    ],
+    [
+     "Spink media page",
+     "https://spink.com/media/view?id=105"
+    ],
+    [
+     "asianart.com, Asian Art in London 2026",
+     "https://asianart.com/exhibitions/aalondon/index.html"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "city": "Munich",
+   "lat": 48.1351,
+   "lon": 11.582,
+   "role": "Hermann Historica's two seasons (spring: 28 April–9 May 2025, 'well over 6,500' objects; a special firearms auction on 24 July 2025 and an autumn auction in press titles not opened) make Munich the European exchange for arms, armour, orders and militaria. Prices are quoted net of a 29.5% premium. The 2025 spring top lots: winged hussar armour €32,000, Korriphila pistol €62,000, an Atatürk letter €42,000, an Ovchinnikov triptych €70,000.",
+   "rooms": [
+    {
+     "n": "Hermann Historica spring auction (104th)",
+     "when": "28 April–9 May 2025"
+    }
+   ],
+   "src": [
+    [
+     "Hermann Historica, press release, May 2025",
+     "https://www.hermann-historica.de/en/services/press-releases/nachbericht-104/"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "city": "Cologne",
+   "lat": 50.9375,
+   "lon": 6.9603,
+   "role": "Germany's Asian-art salerooms. Lempertz Auction 1281 (12 December 2025) made about €1.4m with every lot sold, a netsuke at €45,300 and a Geyao dish at €214,000; Van Ham runs netsuke-only catalogues (not opened).",
+   "rooms": [
+    {
+     "n": "Lempertz Asian Art",
+     "when": "12 December 2025"
+    }
+   ],
+   "src": [
+    [
+     "Lempertz, Auction 1281 post-sale review",
+     "https://www.lempertz.com/en/press/auction-1281-asian-art-post-sale-review.html"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "city": "New York",
+   "lat": 40.7128,
+   "lon": -74.006,
+   "role": "The American room for wine, watches, books and netsuke. Wine 2025: Christie's Koch cellar US$28.8m (June), Zachys' Piatigorsky sale US$11.16m (19 September), Acker's home base. Watches: Phillips New York Watch Auction XIII, December 2025, Coppola's F.P. Journe FFC US$10.755m, the highest US watch price since 2017. Books: the Codex Sassoon, US$38.1m, Sotheby's, 16 May 2023. Netsuke: Bonhams' dedicated sales (Kurstin, December 2022; American Collections). Jewels: Christie's June 2025 US$87.7m and December US$46.5m. Rugs: Nazmiyal on East 32nd Street; Sotheby's sold the Clark carpet here.",
+   "rooms": [
+    {
+     "n": "Phillips New York Watch Auction XIII",
+     "when": "December 2025"
+    },
+    {
+     "n": "Christie's wine, the Koch cellar",
+     "when": "June 2025"
+    },
+    {
+     "n": "Zachys, The Pool",
+     "when": "19 September 2025"
+    },
+    {
+     "n": "Christie's Magnificent Jewels New York",
+     "when": "June and December 2025"
+    }
+   ],
+   "src": [
+    [
+     "Phillips, Year in review 2025",
+     "https://www.phillips.com/article/164672423/year-in-review-2025-phillips-in-association-with-bacs-and-russo"
+    ],
+    [
+     "Decanter, 18 June 2025",
+     "https://www.decanter.com/wine-news/billionaire-bill-kochs-wine-cellar-fetches-record-28-8m-at-auction-559466/"
+    ],
+    [
+     "Zachys press release, 23 September 2025",
+     "https://auction.zachys.com/Zachysshattersrecords"
+    ],
+    [
+     "The Art Newspaper, 17 May 2023",
+     "https://www.theartnewspaper.com/2023/05/17/codex-sassoon-auction-record-manuscript-sothebys"
+    ],
+    [
+     "Rapaport Magazine, 22 January 2026",
+     "https://rapaport.com/magazine-article/bringing-the-hammer-down-on-a-strong-auction-year/"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "city": "Dallas",
+   "lat": 32.7767,
+   "lon": -96.797,
+   "role": "Heritage Auctions' home and the volume centre of American collectibles: US$2.158bn in 2025 across coins (US$470m), sports (US$189.2m), comics, film props and books, with over two million registered bidders. The 2025 trophies — the Rosebud sled, the Frazetta Conan, the Kobe–Jordan Logoman card, Superman No. 1 — all cleared through Heritage.",
+   "rooms": [
+    {
+     "n": "Heritage Auctions signature sales",
+     "when": "2025"
+    }
+   ],
+   "src": [
+    [
+     "cllct, Heritage 2025 record",
+     "https://www.cllct.com/sports-collectibles/auctions/heritage-auctions-sets-new-sales-record-with-2-15-billion-in-2025"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "city": "Bedford (Texas)",
+   "lat": 32.844,
+   "lon": -97.1431,
+   "role": "Rock Island Auction Company holds its in-person sales here. 'The American Sale' of 27 June 2026 sold Henry rifle serial no. 1 for US$5,875,000, the most expensive rifle at auction.",
+   "rooms": [
+    {
+     "n": "Rock Island Auction, The American Sale",
+     "when": "27 June 2026"
+    }
+   ],
+   "src": [
+    [
+     "Rock Island Auction news, June 2026",
+     "https://www.rockislandauction.com/news/most-expensive-rifle-ever-sold-at-auction-brings-5-9-million"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "city": "Mumbai / New Delhi",
+   "lat": 19.076,
+   "lon": 72.8777,
+   "role": "Saffronart's rooms. Mumbai, 1 April 2026: the Raja Ravi Varma record, US$17.9m with fees, bought by the Serum Institute founder Cyrus Poonawalla; New Delhi, September 2025: a US$40.2m sale, then the highest for South Asian art. DAG's Ashish Anand called the Varma price 'a turning point' for India's market. Indian buyers are now the marginal bidders in London's Mughal sales.",
+   "rooms": [
+    {
+     "n": "Saffronart Mumbai",
+     "when": "1 April 2026"
+    },
+    {
+     "n": "Saffronart New Delhi",
+     "when": "September 2025"
+    }
+   ],
+   "src": [
+    [
+     "The Art Newspaper, 2 April 2026",
+     "https://www.theartnewspaper.com/2026/04/02/vaccine-billionaire-buys-179m-raja-ravi-varma-setting-new-record-for-indian-painting-at-auction"
+    ],
+    [
+     "The Art Newspaper, 29 October 2025",
+     "https://www.theartnewspaper.com/2025/10/29/led-by-£10m-cheetah-miniature-aga-khan-collection-breaks-record-for-south-asian-art-sale"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "city": "Paris",
+   "lat": 48.8566,
+   "lon": 2.3522,
+   "role": "The design capital. Artcurial (7 rond-point des Champs-Élysées): over €8.1m across its May 2026 design sales, twenty Lalanne lots over €3.1m, 'Singe attentif II' €1,438,400. Piasa (54 rue de Monceau): 'French Design', 26 March 2025, approaching €4m, Royère suite €367,200, Prouvé 'BA12' €221,000. Design Miami.Paris, 22–26 October 2025, more than 25 galleries at L'Hôtel de Maisons. Galerie Patrick Seguin and Galerie kreo were not opened. Bonhams offered Elsa Peretti's Ge washer in Paris on 11 June 2025.",
+   "rooms": [
+    {
+     "n": "Artcurial Art Deco / Design",
+     "when": "19–21 May 2026"
+    },
+    {
+     "n": "Piasa French Design",
+     "when": "26 March 2025"
+    },
+    {
+     "n": "Design Miami.Paris, L'Hôtel de Maisons",
+     "when": "22–26 October 2025"
+    },
+    {
+     "n": "Bonhams Paris",
+     "when": "11 June 2025"
+    }
+   ],
+   "src": [
+    [
+     "Artcurial, May 2026 results",
+     "https://www.artcurial.com/en/articles/over-8.1m-for-the-art-deco--design-and-limited-edition-departments"
+    ],
+    [
+     "Piasa, French Design results (31 March 2025)",
+     "https://www.piasa.fr/en/news/results-french-design"
+    ],
+    [
+     "Galerie Magazine, 22 October 2025",
+     "https://galeriemagazine.com/design-miami-paris-2025-highlights/"
+    ],
+    [
+     "Bonhams press release, May 2025",
+     "https://www.bonhams.com/press_release/40084"
+    ]
+   ],
+   "vf": "V"
+  }
+ ],
+ "collectors": [
+  {
+   "n": "Francis Ford Coppola",
+   "what": "Watches: the 2021 F.P. Journe FFC Prototype from his collection sold for US$10,755,000 at Phillips New York Watch Auction XIII, December 2025 — a record for an independent maker",
+   "city": "New York (sale)",
+   "src": [
+    [
+     "Phillips, Year in review 2025",
+     "https://www.phillips.com/article/164672423/year-in-review-2025-phillips-in-association-with-bacs-and-russo"
+    ]
+   ],
+   "vf": "V",
+   "note": "Named by the house as the consignor; film director."
+  },
+  {
+   "n": "Cyrus Poonawalla",
+   "what": "Indian painting: bought Raja Ravi Varma's 'Yashoda and Krishna' for US$17.9m at Saffronart, Mumbai, 1 April 2026, the record for an Indian painting at auction; founder of the Serum Institute, Pune; wealth US$24.8bn per Forbes as cited by The Art Newspaper (2 April 2026)",
+   "city": "Pune",
+   "src": [
+    [
+     "The Art Newspaper, 2 April 2026",
+     "https://www.theartnewspaper.com/2026/04/02/vaccine-billionaire-buys-179m-raja-ravi-varma-setting-new-record-for-indian-painting-at-auction"
+    ]
+   ],
+   "vf": "S",
+   "note": "Buyer confirmed to the paper by a Saffronart representative."
+  },
+  {
+   "n": "William I. 'Bill' Koch",
+   "what": "Wine: sold part of his cellar at Christie's New York, June 2025, for US$28.8m, a North American single-owner record; known for pursuing counterfeiters and as a prosecution witness in the Rudy Kurniawan trial; net worth about US$2bn per Forbes as cited by Decanter (18 June 2025)",
+   "city": "United States",
+   "src": [
+    [
+     "Decanter, 18 June 2025",
+     "https://www.decanter.com/wine-news/billionaire-bill-kochs-wine-cellar-fetches-record-28-8m-at-auction-559466/"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "n": "Bill Gates",
+   "what": "Manuscripts: bought Leonardo's Codex Leicester for US$30.8m at Christie's in 1994, the manuscript record until the Codex Sassoon (The Art Newspaper, 17 May 2023)",
+   "city": "United States",
+   "src": [
+    [
+     "The Art Newspaper, 17 May 2023",
+     "https://www.theartnewspaper.com/2023/05/17/codex-sassoon-auction-record-manuscript-sothebys"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "n": "Alfred H. Moses",
+   "what": "Manuscripts: American diplomat who acquired the Codex Sassoon (US$38.1m, Sotheby's New York, 16 May 2023) on behalf of American Friends of ANU for the ANU Museum of the Jewish People, Tel Aviv",
+   "city": "New York (organisation)",
+   "src": [
+    [
+     "The Art Newspaper, 17 May 2023",
+     "https://www.theartnewspaper.com/2023/05/17/codex-sassoon-auction-record-manuscript-sothebys"
+    ]
+   ],
+   "vf": "S",
+   "note": "A philanthropic purchase for a museum, not a private collection."
+  },
+  {
+   "n": "Mary and Cheney Cowles",
+   "what": "Mughal paintings and drawings: single-owner sale at Christie's London, April 2026, 100% sold, £5.3m with fees; 'A Courtier Holding a Book' £571,500; Cheney Cowles is a retired East Asian art dealer (Crane Gallery)",
+   "city": "not stated",
+   "src": [
+    [
+     "The Art Newspaper, 11 May 2026",
+     "https://www.theartnewspaper.com/2026/05/11/record-£55m-glass-goblet-leads-london-indian-and-islamic-sales"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "n": "Ralph Brocklebank collection",
+   "what": "Iznik ceramics: sold at Sotheby's London, April 2026, £994,560; an Iznik dish £256,000",
+   "city": "London (sale)",
+   "src": [
+    [
+     "The Art Newspaper, 11 May 2026",
+     "https://www.theartnewspaper.com/2026/05/11/record-£55m-glass-goblet-leads-london-indian-and-islamic-sales"
+    ]
+   ],
+   "vf": "S",
+   "note": "Historic collection; the collector's dates not stated in the article."
+  },
+  {
+   "n": "Alan Barlow collection",
+   "what": "Iznik ceramics: sold at Sotheby's London, April 2026, £956,000; an Iznik jug £230,400",
+   "city": "London (sale)",
+   "src": [
+    [
+     "The Art Newspaper, 11 May 2026",
+     "https://www.theartnewspaper.com/2026/05/11/record-£55m-glass-goblet-leads-london-indian-and-islamic-sales"
+    ]
+   ],
+   "vf": "S",
+   "note": "Historic collection."
+  },
+  {
+   "n": "Emmanuel Christofides (the late)",
+   "what": "Song ceramics: 'Instinct & Knowledge: A Life in the Company of Song Ceramics', Bonhams New Bond Street, 15 May 2025, 28 lots, £5,246,000, five times estimate; Junyao bowl £1,016,400",
+   "city": "London (sale)",
+   "src": [
+    [
+     "Bonhams press release, May 2025",
+     "https://www.bonhams.com/press_release/40084"
+    ]
+   ],
+   "vf": "V",
+   "note": ""
+  },
+  {
+   "n": "Mr and Mrs Gerard Hawthorn",
+   "what": "Asian art: 'Scholarly Gems', Bonhams New Bond Street, 14 May 2025, 94 lots, £1,337,662, double estimate; a Korean scroll £305,200; a zitan scholar's box £203,600",
+   "city": "London (sale)",
+   "src": [
+    [
+     "Bonhams press release, May 2025",
+     "https://www.bonhams.com/press_release/40084"
+    ]
+   ],
+   "vf": "V",
+   "note": ""
+  },
+  {
+   "n": "Elsa Peretti",
+   "what": "Chinese ceramics: her Song/Yuan Ge washer was offered by Bonhams in Paris on 11 June 2025 (announced in the May 2025 release)",
+   "city": "Paris (sale)",
+   "src": [
+    [
+     "Bonhams press release, May 2025",
+     "https://www.bonhams.com/press_release/40084"
+    ]
+   ],
+   "vf": "V",
+   "note": "Result not opened."
+  },
+  {
+   "n": "Prince Sadruddin Aga Khan",
+   "what": "Islamic and Indian paintings: his collection sold at Christie's London on 28 October 2025 for £45.8m (US$61m), 95 lots, the highest-value South Asian art sale; Basawan's cheetahs £10.2m",
+   "city": "London (sale)",
+   "src": [
+    [
+     "The Art Newspaper, 29 October 2025",
+     "https://www.theartnewspaper.com/2025/10/29/led-by-£10m-cheetah-miniature-aga-khan-collection-breaks-record-for-south-asian-art-sale"
+    ]
+   ],
+   "vf": "S",
+   "note": "Deceased; the paper names the prince only."
+  },
+  {
+   "n": "Joseph and Elena Kurstin",
+   "what": "Netsuke and inrō: the collection of the late Dr Joseph Kurstin sold at Bonhams New York on 16 December 2022 for US$1.9m (61 lots, 93% sold); a kirin on a cloud US$441,300, the world record for a netsuke",
+   "city": "not stated",
+   "src": [],
+   "vf": "U",
+   "note": "Read on an Artdaily page reached through an image-path URL returned by search; the article's canonical URL was not confirmed, so the source is withheld. Bonhams' own release states the record as US$441,375 in 2022."
+  },
+  {
+   "n": "Frank Lapisch",
+   "what": "Netsuke: an ivory Gama Sennin from his collection made €45,300 at Lempertz, Cologne, 12 December 2025, against a €6,000 estimate",
+   "city": "not stated",
+   "src": [
+    [
+     "Lempertz, Auction 1281 post-sale review",
+     "https://www.lempertz.com/en/press/auction-1281-asian-art-post-sale-review.html"
+    ]
+   ],
+   "vf": "V",
+   "note": ""
+  },
+  {
+   "n": "Okada Museum of Art",
+   "what": "Chinese and Japanese art: deaccession sale at Sotheby's Hong Kong, autumn 2025, HK$688m (US$88m), 125 lots, nineteen above HK$10m; Yongzheng celadon vase HK$30,875,000; Late Shang 'Ya Yi' fanglei HK$38,805,000",
+   "city": "Japan",
+   "src": [
+    [
+     "Sotheby's, 2025 in review, Asian art",
+     "https://www.sothebys.com/en/articles/inside-a-stellar-year-for-asian-art-at-sothebys-2025-in-review"
+    ]
+   ],
+   "vf": "V",
+   "note": "An institution, not a private collector; its founder is not named on the page."
+  },
+  {
+   "n": "Hikonobu Ise (the Ise collection)",
+   "what": "Chinese ceramics: built over three decades by Hikonobu Ise, 'the Egg King of Japan' (ISE Foods, later Tamago & Company); sold at Sotheby's Hong Kong on 9 September 2025 for HK$358,970,660 (US$46m), 181 of 182 lots; Southern Song Guan lobed dish HK$55,885,000; Chenghua 'lily' palace bowl HK$35,145,000; Southern Song Guan 'beishoku' vase HK$24,775,000",
+   "city": "Japan (city not stated)",
+   "src": [
+    [
+     "Sotheby's, 2025 in review, Asian art",
+     "https://www.sothebys.com/en/articles/inside-a-stellar-year-for-asian-art-at-sothebys-2025-in-review"
+    ],
+    [
+     "The Value, 10 September 2025",
+     "https://en.thevalue.com/articles/sothebys-hong-kong-single-owner-sale-japanese-eggking-ise-collection-chinese-ceramics-2025-result"
+    ]
+   ],
+   "vf": "S",
+   "note": "Buyers not named; the top lot went to a telephone client of Sotheby's Jen Hua."
+  },
+  {
+   "n": "Xiao Wan Liu Tang collection",
+   "what": "Chinese fan paintings and calligraphy: three white-glove sales at Sotheby's Hong Kong since October 2024, HK$182.32m (US$23.46m); October 2025 HK$39.37m; a Yun Shouping landscape HK$11.6m at 77 times low estimate",
+   "city": "Hong Kong (sale)",
+   "src": [
+    [
+     "Sotheby's, 2025 in review, Asian art",
+     "https://www.sothebys.com/en/articles/inside-a-stellar-year-for-asian-art-at-sothebys-2025-in-review"
+    ]
+   ],
+   "vf": "V",
+   "note": "Studio name; the collector is not named."
+  },
+  {
+   "n": "Yidetang collection",
+   "what": "Qing porcelain: 'Harmonious Flames of Majesty', China Guardian Hong Kong, October 2025, HK$48.53m, 53 of 55 lots sold",
+   "city": "Hong Kong (sale)",
+   "src": [
+    [
+     "The Value, 10 October 2025",
+     "https://en.thevalue.com/articles/china-guardian-hong-kong-2025-auctions-chinese-works-of-art-fall-sales-result"
+    ]
+   ],
+   "vf": "S",
+   "note": "Studio name; the collector is not named."
+  },
+  {
+   "n": "Tsui Museum of Art collection",
+   "what": "Chinese works of art: a section at Poly Auction Hong Kong, spring 2026, HK$18.27m at 74% sold",
+   "city": "Hong Kong",
+   "src": [
+    [
+     "PR Newswire, 17 April 2026",
+     "https://www.prnewswire.com/apac/news-releases/poly-auction-hong-kong-spring-auctions-2026-concluded-on-a-high-note-302745739.html"
+    ]
+   ],
+   "vf": "V",
+   "note": "Institutional collection; founder not named in the release."
+  },
+  {
+   "n": "James A. Stack Sr collection",
+   "what": "US coins: the 1804 Draped Bust dollar US$6,000,000 (the top coin of 2025) and 1854 and 1859 proof double eagles at US$900,000 each, Stack's Bowers, 2025",
+   "city": "United States",
+   "src": [
+    [
+     "CoinWeek, 7 January 2026",
+     "https://coinweek.com/stacks-bowers-galleries-announces-record-shattering-325-million-year-of-auctions-in-2025/"
+    ]
+   ],
+   "vf": "S",
+   "note": "Historic collection."
+  },
+  {
+   "n": "Floyd T. Starr collection",
+   "what": "US coins: an 1878 proof US$3 gold piece US$348,000, Stack's Bowers, August 2025",
+   "city": "United States",
+   "src": [
+    [
+     "CoinWeek, 7 January 2026",
+     "https://coinweek.com/stacks-bowers-galleries-announces-record-shattering-325-million-year-of-auctions-in-2025/"
+    ]
+   ],
+   "vf": "S",
+   "note": "Historic collection."
+  },
+  {
+   "n": "Shores Collection",
+   "what": "US paper money: an 1880 US$500 Silver Certificate US$528,000 and an 1863 US$20 Gold Certificate US$516,000, Stack's Bowers, 2025",
+   "city": "United States",
+   "src": [
+    [
+     "CoinWeek, 7 January 2026",
+     "https://coinweek.com/stacks-bowers-galleries-announces-record-shattering-325-million-year-of-auctions-in-2025/"
+    ]
+   ],
+   "vf": "S",
+   "note": ""
+  },
+  {
+   "n": "Bruun Collection",
+   "what": "Danish and Scandinavian coins: 1659 Denmark 5 ducats €288,000, 1663 4 ducats €240,000, 1593 half Portugaloser €204,000, Stack's Bowers, Zurich and Copenhagen, 2025",
+   "city": "Copenhagen",
+   "src": [
+    [
+     "CoinWeek, 7 January 2026",
+     "https://coinweek.com/stacks-bowers-galleries-announces-record-shattering-325-million-year-of-auctions-in-2025/"
+    ]
+   ],
+   "vf": "S",
+   "note": "Historic collection."
+  },
+  {
+   "n": "The Vanderbilt family",
+   "what": "Jewels: 'The Vanderbilt Family Jewels', Phillips Geneva, 10 November 2025, 100% sold at four times estimate; the Vanderbilt Sapphire (Tiffany & Co., 42.68 ct Kashmir) CHF2,876,000 (US$3,570,841)",
+   "city": "Geneva (sale)",
+   "src": [
+    [
+     "Phillips 2025: a look back",
+     "https://www.phillips.com/article/164687220/phillips-2025-a-look-back"
+    ],
+    [
+     "Rapaport Magazine, 22 January 2026",
+     "https://rapaport.com/magazine-article/bringing-the-hammer-down-on-a-strong-auction-year/"
+    ]
+   ],
+   "vf": "S",
+   "note": "Family provenance sale; the consignors are not named."
+  },
+  {
+   "n": "Stan Lucas collection",
+   "what": "Cars: single-owner auction by Gooding Christie's, Long Beach, 20 September 2025, over US$33.9m, 100% sold",
+   "city": "Long Beach (California)",
+   "src": [
+    [
+     "Gooding Christie's press release, 17 December 2025",
+     "https://www.goodingco.com/press/article/gooding-christies-records-highest-grossing-year-to-date-with-over-usd234"
+    ]
+   ],
+   "vf": "V",
+   "note": ""
+  },
+  {
+   "n": "Jacqueline (de Rothschild) Piatigorsky",
+   "what": "Wine: granddaughter of the 1868 buyer of Château Lafite; her Lafite-Rothschild and Latour cellar, bought on release and stored in Pauillac, sold at Zachys New York on 19 September 2025 for US$11,160,375 with 162 world records",
+   "city": "Pauillac (cellar)",
+   "src": [
+    [
+     "Zachys press release, 23 September 2025",
+     "https://auction.zachys.com/Zachysshattersrecords"
+    ]
+   ],
+   "vf": "V",
+   "note": "Deceased."
+  },
+  {
+   "n": "Michael Schumacher",
+   "what": "Watches: five F.P. Journe watches once owned by him made about US$8.48m at Christie's Geneva 'Rare Watches', 9 November 2026",
+   "city": "Geneva (sale)",
+   "src": [
+    [
+     "Il Sole 24 Ore, 12 November 2026",
+     "https://en.ilsole24ore.com/art/geneva-record-auctions-watch-sales-exceed-203-million-AJXyFJDC"
+    ]
+   ],
+   "vf": "S",
+   "note": "Former owner as stated by the paper; nothing further recorded."
+  },
+  {
+   "n": "Toledo Museum of Art (deaccession)",
+   "what": "Islamic glass: the 14th-century Mamluk footed bowl, formerly Jules-Albert Goupil's, deaccessioned by the museum and sold at Christie's London in April 2026 for £5.5m",
+   "city": "Toledo (Ohio)",
+   "src": [
+    [
+     "The Art Newspaper, 11 May 2026",
+     "https://www.theartnewspaper.com/2026/05/11/record-£55m-glass-goblet-leads-london-indian-and-islamic-sales"
+    ]
+   ],
+   "vf": "S",
+   "note": "Institutional seller."
+  },
+  {
+   "n": "William A. Clark, Cornelius Vanderbilt and Doris Duke (historical)",
+   "what": "Carpets: the Clark Sickle-Leaf carpet US$33.7m (Sotheby's New York), the Vanderbilt Mughal millefleurs carpet US$7.7m and the Doris Duke silk Isfahan US$4.45m (both Christie's) — the Gilded Age provenances behind the carpet records",
+   "city": "New York",
+   "src": [
+    [
+     "Nazmiyal Antique Rugs, most expensive rug ever sold",
+     "https://nazmiyalantiquerugs.com/blog/most-expensive-rug-ever-sold/"
+    ]
+   ],
+   "vf": "S",
+   "note": "Historical collectors; sale dates not on the page."
+  }
+ ],
+ "wire": [
+  {
+   "d": "2025-03-26",
+   "city": "Paris",
+   "t": "Piasa's 'French Design' sale approaches €4m with fees; a Jean Royère 'Écusson' sofa and armchairs €367,200 against €150,000–200,000; a Jean Prouvé 'BA12' €221,000",
+   "src": [
+    [
+     "Piasa, results: French Design (31 March 2025)",
+     "https://www.piasa.fr/en/news/results-french-design"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "d": "2025-04-01",
+   "city": "Hong Kong",
+   "t": "April 2025: Sotheby's sells Rao Jie's Yuan-dynasty calligraphy handscroll for HK$250m (US$32m), 25 times the estimate, after 95 minutes and over 200 bids — the most valuable Chinese calligraphy sold at the house and its longest Hong Kong bidding session",
+   "src": [
+    [
+     "Sotheby's, 2025 in review, Asian art",
+     "https://www.sothebys.com/en/articles/inside-a-stellar-year-for-asian-art-at-sothebys-2025-in-review"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "d": "2025-04-26",
+   "city": "Hong Kong",
+   "t": "Acker's 'Immaculate Collection of The Chairman' makes HK$90m over 25–26 April, its largest Hong Kong sale in nearly four years; six bottles of 1947 Cheval Blanc HK$900,000",
+   "src": [
+    [
+     "Acker press release, 29 April 2025",
+     "https://uk.ackerwines.com/news/press-releases/the-chairman-takes-command-in-hk90m-sale"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "d": "2025-05-01",
+   "city": "Geneva",
+   "t": "May 2025: Phillips Geneva Watch Auction XXI sells the F.P. Journe × Breguet Pendule Sympathique No. 1 for CHF5,505,000 and the Cartier Portico Mystery Clock No. 3 for CHF3,932,000; Christie's Magnificent Jewels makes over US$72.3m at 100% sold and Sotheby's sells the Mediterranean Blue diamond for US$21.5m",
+   "src": [
+    [
+     "Phillips, Year in review 2025",
+     "https://www.phillips.com/article/164672423/year-in-review-2025-phillips-in-association-with-bacs-and-russo"
+    ],
+    [
+     "Rapaport Magazine, 22 January 2026",
+     "https://rapaport.com/magazine-article/bringing-the-hammer-down-on-a-strong-auction-year/"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "d": "2025-05-01",
+   "city": "Kyiv",
+   "t": "May 2025: Ivan Marchuk's 'Breath of Spring' sells for US$118,000 at the Goldens auction house, the top price at a Ukrainian auction in 2025 (Forbes Ukraine's year-end ranking)",
+   "src": [
+    [
+     "Forbes Ukraine, 26 December 2025",
+     "https://forbes.ua/lifestyle/11-kartin-za-ponad-740-000-forbes-ukraine-zibrav-top-naydorozhchikh-poloten-prodanikh-na-ukrainskikh-auktsionakh-u-2025-rotsi-chii-roboti-u-spisku-24122025-35102"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "d": "2025-05-09",
+   "city": "Munich",
+   "t": "Hermann Historica's 104th auction (28 April–9 May) sells 'well over 6,500' objects: a Polish-Lithuanian winged hussar armour €32,000 hammer, a Korriphila HSP 701 pistol €62,000, an Atatürk letter €42,000",
+   "src": [
+    [
+     "Hermann Historica, press release, May 2025",
+     "https://www.hermann-historica.de/en/services/press-releases/nachbericht-104/"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "d": "2025-05-15",
+   "city": "London",
+   "t": "Bonhams' Asian Art Week totals £10.7m across five sales; the late Emmanuel Christofides' Song ceramics make £5,246,000, five times estimate, led by a Junyao bowl at £1,016,400 against £80,000–120,000",
+   "src": [
+    [
+     "Bonhams press release, May 2025",
+     "https://www.bonhams.com/press_release/40084"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "d": "2025-06-18",
+   "city": "New York",
+   "t": "Christie's sells part of Bill Koch's cellar for US$28.8m over three days, every lot sold, a record for a single-owner wine collection in North America; a 600cl Romanée-Conti 1999 makes US$275,000",
+   "src": [
+    [
+     "Decanter, 18 June 2025",
+     "https://www.decanter.com/wine-news/billionaire-bill-kochs-wine-cellar-fetches-record-28-8m-at-auction-559466/"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "d": "2025-08-16",
+   "city": "Pebble Beach",
+   "t": "Gooding Christie's Pebble Beach Auctions (15–16 August) pass US$128m at 85% sold; a 1961 Ferrari 250 GT SWB California Spider Competizione makes US$25,305,000, the most valuable car in the company's history",
+   "src": [
+    [
+     "Gooding Christie's press release, 17 December 2025",
+     "https://www.goodingco.com/press/article/gooding-christies-records-highest-grossing-year-to-date-with-over-usd234"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "d": "2025-08-18",
+   "city": "Monterey",
+   "t": "RM Sotheby's tops US$165m at Monterey with 87% sold and bidders from 46 countries; the one-off 2025 Ferrari Daytona SP3 'Tailor Made' makes US$26m for the Ferrari Foundation; a 1993 F40 LM US$11,005,000 and a 1995 F50 US$9,245,000 set model records",
+   "src": [
+    [
+     "RM Sotheby's press release, 18 August 2025",
+     "https://rmsothebys.com/media-center/press-releases/rm-sotheby-s-tops-165-million-at-monterey-car-week-led-by-26-million-ferrari-daytona-sp3-and-multiple-world-records"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "d": "2025-08-18",
+   "city": "Monterey",
+   "t": "Monterey Car Week auctions total US$432.8m, the second-highest ever after 2022's US$471.2m; 818 of 1,078 lots sold (76%); without the charity Daytona SP3 the total is US$397.2m, up 4% on 2024",
+   "src": [
+    [
+     "classic-analytics, Monterey Car Week 2025",
+     "https://classic-analytics.de/en/news/monterey-car-week-2025-achieves-second-highest-total-ever-modern-supercars-take-the-lead"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "d": "2025-08-25",
+   "city": "Riyadh",
+   "t": "The Saudi Falcons Club's International Falcon Breeders Auction 2025 closes after 21 days at Malham; cumulative sales since launch pass SAR29m and 2,300 falcons; the top international-farm bird made SAR1.75m",
+   "src": [
+    [
+     "Saudi Falcons Club, 25 August 2025",
+     "https://sfc.org.sa/sa/en/news/641"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "d": "2025-09-09",
+   "city": "Hong Kong",
+   "t": "Sotheby's opens its Hong Kong autumn season with the Ise collection of Chinese ceramics (9 September): HK$358,970,660 (US$46m), 181 of 182 lots; the Southern Song Guan lobed dish HK$55,885,000 after 13 minutes; the season's Asian Works of Art series goes on to HK$1.17bn with the Okada Museum of Art sale at HK$688m and Utamaro's 'Fukagawa in Snow' at HK$55.27m",
+   "src": [
+    [
+     "Sotheby's, 2025 in review, Asian art",
+     "https://www.sothebys.com/en/articles/inside-a-stellar-year-for-asian-art-at-sothebys-2025-in-review"
+    ],
+    [
+     "The Value, 10 September 2025",
+     "https://en.thevalue.com/articles/sothebys-hong-kong-single-owner-sale-japanese-eggking-ise-collection-chinese-ceramics-2025-result"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "d": "2025-09-19",
+   "city": "New York",
+   "t": "Zachys sells the Jacqueline (de Rothschild) Piatigorsky collection for US$11,160,375 against a US$2.76m estimate, 100% sold with 162 world records; a Lafite-Rothschild 1870 magnum makes US$387,500",
+   "src": [
+    [
+     "Zachys press release, 23 September 2025",
+     "https://auction.zachys.com/Zachysshattersrecords"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "d": "2025-09-20",
+   "city": "Long Beach",
+   "t": "Gooding Christie's sells the Stan Lucas Collection for over US$33.9m at 100% sold",
+   "src": [
+    [
+     "Gooding Christie's press release, 17 December 2025",
+     "https://www.goodingco.com/press/article/gooding-christies-records-highest-grossing-year-to-date-with-over-usd234"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "d": "2025-09-23",
+   "city": "Tehran",
+   "t": "Al-Monitor: Iran's hand-woven carpet exports fell to US$41.7m in the year to March 2025, more than 95% below the early-1990s peak of over US$2bn, after the 2018 US sanctions cut off the buyer of 70% of them",
+   "src": [
+    [
+     "Al-Monitor, 23 September 2025",
+     "https://www.al-monitor.com/originals/2025/09/irans-carpet-industry-unravelling-under-sanctions"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "d": "2025-10-08",
+   "city": "Hong Kong",
+   "t": "China Guardian's autumn sales (6–8 October) make about HK$445m (US$57.2m), up 9% on spring, at 70% sold; a Qianlong zitan throne HK$11.85m; the Yidetang Qing porcelain HK$48.53m at 96%",
+   "src": [
+    [
+     "The Value, 10 October 2025",
+     "https://en.thevalue.com/articles/china-guardian-hong-kong-2025-auctions-chinese-works-of-art-fall-sales-result"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "d": "2025-10-16",
+   "city": "London",
+   "t": "PAD London opens in Berkeley Square with sales within minutes; a Finn Juhl Judas table at £68,000 (Modernity), an Aalto dining suite at £45,000 (Rose Uniacke), a Carlo Bugatti desk and chair at £65,000 (Sceners, best stand)",
+   "src": [
+    [
+     "The Art Newspaper, 16 October 2025",
+     "https://www.theartnewspaper.com/2025/10/16/in-pictures-demand-is-high-at-the-pavilion-of-art-and-design"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "d": "2025-10-17",
+   "city": "London",
+   "t": "At Frieze Masters, Peter Finer offers a gilded 16th-century armour for man and horse at £1.8m; The Art Newspaper calls the arms-and-armour gallery world 'very small' and dominated by one dealer",
+   "src": [
+    [
+     "The Art Newspaper, 17 October 2025",
+     "https://www.theartnewspaper.com/2025/10/17/double-edged-sword-arms-and-armour-play-a-smallbut-mightyrole-at-frieze-masters"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "d": "2025-10-22",
+   "city": "Paris",
+   "t": "Design Miami.Paris opens at L'Hôtel de Maisons, Karl Lagerfeld's former residence, with more than 25 galleries (22–26 October); CEO Jen Roberts",
+   "src": [
+    [
+     "Galerie Magazine, 22 October 2025",
+     "https://galeriemagazine.com/design-miami-paris-2025-highlights/"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "d": "2025-10-28",
+   "city": "London",
+   "t": "Christie's sells the Prince Sadruddin Aga Khan collection for £45.8m (US$61m), 95 lots against an estimate above £8m; Basawan's 'A Family of Cheetahs' £10.2m is the most expensive classical Indian or Islamic painting at auction",
+   "src": [
+    [
+     "The Art Newspaper, 29 October 2025",
+     "https://www.theartnewspaper.com/2025/10/29/led-by-£10m-cheetah-miniature-aga-khan-collection-breaks-record-for-south-asian-art-sale"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "d": "2025-11-01",
+   "city": "Geneva",
+   "t": "November 2025: Phillips' 'Decade One' sale makes US$83m; a 1943 steel Patek Philippe Ref. 1518 sells for CHF14,190,000 (US$17.63m), the most valuable vintage Patek wristwatch and the top timepiece of 2025; Christie's sells the 9.51 ct Mellon Blue diamond for US$25.6m, the year's top jewel; Phillips sells the Vanderbilt Sapphire for CHF2,876,000 on 10 November",
+   "src": [
+    [
+     "Phillips, Year in review 2025",
+     "https://www.phillips.com/article/164672423/year-in-review-2025-phillips-in-association-with-bacs-and-russo"
+    ],
+    [
+     "Rapaport Magazine, 22 January 2026",
+     "https://rapaport.com/magazine-article/bringing-the-hammer-down-on-a-strong-auction-year/"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "d": "2025-11-13",
+   "city": "Zurich",
+   "t": "NAC's second Traveller Collection auction sells a 100-ducat gold coin of Ferdinand III (Prague, 348.5 g) for CHF2,388,750 (€2,564,072), the most expensive post-antique European gold coin at auction; the series is described as US$100m, the most expensive coin collection ever to go to auction",
+   "src": [
+    [
+     "CoinWeek, 13 November 2025",
+     "https://coinweek.com/100-ducat-gold-giant-sells-for-record-e2-5-million-in-second-traveller-collection-auction/"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "d": "2025-11-30",
+   "city": "Riyadh",
+   "t": "The Saudi Falcons Club Auction 2025 closes after 26 nights (1 October–30 November): 40 falcons sold for more than SR6.4m (about US$1.7m)",
+   "src": [
+    [
+     "Arab News, 3 December 2025",
+     "https://www.arabnews.pk/node/2624891/saudi-arabia"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "d": "2025-12-01",
+   "city": "New York",
+   "t": "December 2025: Phillips New York Watch Auction XIII sells the F.P. Journe FFC Prototype from Francis Ford Coppola's collection for US$10,755,000, a record for an independent maker and the highest US watch price since the 2017 Paul Newman Daytona",
+   "src": [
+    [
+     "Phillips, Year in review 2025",
+     "https://www.phillips.com/article/164672423/year-in-review-2025-phillips-in-association-with-bacs-and-russo"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "d": "2025-12-05",
+   "city": "Abu Dhabi",
+   "t": "Sotheby's first Abu Dhabi jewellery and watch sale sells all 42 lots; the 31.68 ct Desert Rose diamond makes over US$8.8m, a record for its colour; the inaugural Collectors' Week totals US$133.4m across cars, real estate, watches, jewellery and handbags",
+   "src": [
+    [
+     "Rapaport Magazine, 22 January 2026",
+     "https://rapaport.com/magazine-article/bringing-the-hammer-down-on-a-strong-auction-year/"
+    ],
+    [
+     "The Art Newspaper, 17 December 2025",
+     "https://www.theartnewspaper.com/2025/12/17/christies-and-sothebys-end-2025-with-increased-sales-thanks-to-luxury-goods-trophy-lots-and-private-deals"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "d": "2025-12-10",
+   "city": "London",
+   "t": "Christie's 'Valuable Books and Manuscripts' makes £6,514,084 (190 of 212 lots); William Harvey's 'De motu cordis' (1628) £1,016,000; a 10th-century Gospels £889,000",
+   "src": [
+    [
+     "Rare Book Hub, Christie's sale 23880",
+     "https://www.rarebookhub.com/auctions/auction_detail_report?id=46927"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "d": "2025-12-12",
+   "city": "Cologne",
+   "t": "Lempertz's Asian Art auction 1281 makes about €1.4m with every lot sold; an ivory Gama Sennin netsuke from the Frank Lapisch collection €45,300 against €6,000; a Geyao hibiscus dish €214,000",
+   "src": [
+    [
+     "Lempertz, Auction 1281 post-sale review",
+     "https://www.lempertz.com/en/press/auction-1281-asian-art-post-sale-review.html"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "d": "2025-12-17",
+   "city": "Santa Monica",
+   "t": "Gooding Christie's reports its highest-grossing year: over US$234m from four sales, 906 lots, 96% sold, 52 lots above US$1m",
+   "src": [
+    [
+     "Gooding Christie's press release, 17 December 2025",
+     "https://www.goodingco.com/press/article/gooding-christies-records-highest-grossing-year-to-date-with-over-usd234"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "d": "2025-12-17",
+   "city": "London / New York",
+   "t": "The Art Newspaper: Sotheby's projects 2025 sales of US$7bn (+17%) with luxury at US$2.7bn (+22%); Christie's reports US$6.2bn (+6%) with luxury at US$795m (+17%) and Asian art down 6%",
+   "src": [
+    [
+     "The Art Newspaper, 17 December 2025",
+     "https://www.theartnewspaper.com/2025/12/17/christies-and-sothebys-end-2025-with-increased-sales-thanks-to-luxury-goods-trophy-lots-and-private-deals"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "d": "2025-12-26",
+   "city": "Kyiv",
+   "t": "Forbes Ukraine ranks the eleven most expensive paintings sold at Ukrainian auctions in 2025 at over US$740,000 together; Ivan Marchuk painted four of them",
+   "src": [
+    [
+     "Forbes Ukraine, 26 December 2025",
+     "https://forbes.ua/lifestyle/11-kartin-za-ponad-740-000-forbes-ukraine-zibrav-top-naydorozhchikh-poloten-prodanikh-na-ukrainskikh-auktsionakh-u-2025-rotsi-chii-roboti-u-spisku-24122025-35102"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "d": "2026-01-01",
+   "city": "Dallas",
+   "t": "January 2026 (article undated): Heritage Auctions closes 2025 above US$2.158bn, its fifth straight annual record; numismatics US$470m, sports US$189.2m; the Kobe–Jordan dual Logoman card at US$12.932m is the record for any sports card at public auction",
+   "src": [
+    [
+     "cllct, Heritage 2025 record",
+     "https://www.cllct.com/sports-collectibles/auctions/heritage-auctions-sets-new-sales-record-with-2-15-billion-in-2025"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "d": "2026-01-07",
+   "city": "Costa Mesa",
+   "t": "Stack's Bowers Galleries reports a record US$325m for 2025 (+18%), over 134,000 lots; the James A. Stack Sr 1804 dollar at US$6,000,000 was the year's top coin",
+   "src": [
+    [
+     "CoinWeek, 7 January 2026",
+     "https://coinweek.com/stacks-bowers-galleries-announces-record-shattering-325-million-year-of-auctions-in-2025/"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "d": "2026-03-12",
+   "city": "New York",
+   "t": "Sotheby's 2025 Wine & Spirits report: US$127.5m at auction, +12%; Burgundy 39%, Bordeaux 28%, spirits 20%; bidders from 63 countries; half of buyers under 50",
+   "src": [
+    [
+     "Sotheby's Wine, 2025 market report",
+     "https://wine.sothebys.com/blogs/news/2025-wine-spirits-market-report"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "d": "2026-04-01",
+   "city": "Mumbai",
+   "t": "Saffronart sells Raja Ravi Varma's 'Yashoda and Krishna' for US$17.9m with fees (US$15m hammer) to Cyrus Poonawalla, the record for an Indian painting at auction, above Husain's 'Gram Yatra' (US$13.7m, Christie's New York, March 2025)",
+   "src": [
+    [
+     "The Art Newspaper, 2 April 2026",
+     "https://www.theartnewspaper.com/2026/04/02/vaccine-billionaire-buys-179m-raja-ravi-varma-setting-new-record-for-indian-painting-at-auction"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "d": "2026-04-17",
+   "city": "Hong Kong",
+   "t": "Poly Auction Hong Kong's spring sales pass HK$255m, up 23% on autumn 2025; a Yongle blue and white 'grapes' dish HK$24.6m; Liu Wei's 'You Like Pork?' HK$27.6m",
+   "src": [
+    [
+     "PR Newswire, 17 April 2026",
+     "https://www.prnewswire.com/apac/news-releases/poly-auction-hong-kong-spring-auctions-2026-concluded-on-a-high-note-302745739.html"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "d": "2026-04-30",
+   "city": "London",
+   "t": "End of April 2026: a 14th-century Mamluk enamelled glass footed bowl makes £5.5m at Christie's against £1.2–1.8m, a record for Islamic glass; Christie's Islamic and Indian sales total £17.6m, Sotheby's £14.8m; a Mughal astrolabe £2m at Sotheby's",
+   "src": [
+    [
+     "The Art Newspaper, 11 May 2026",
+     "https://www.theartnewspaper.com/2026/05/11/record-£55m-glass-goblet-leads-london-indian-and-islamic-sales"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "d": "2026-05-10",
+   "city": "Geneva",
+   "t": "Phillips' Geneva Watch Auction XXIII (9–10 May) makes CHF74,846,995 (US$96.3m), 224 of 225 lots, the highest-grossing watch auction in history; a Patek Philippe Ref. 2523 'South America' CHF7,961,000",
+   "src": [
+    [
+     "Phillips press release, May 2026",
+     "https://www.phillips.com/press/release/phillips-has-just-set-the-highestgrossing-watch-auction-in-history"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "d": "2026-05-21",
+   "city": "Paris",
+   "t": "Artcurial's Art Deco / Design, Italian Design and Limited Edition sales (19–21 May) pass €8.1m; François-Xavier Lalanne's 'Singe attentif II' (1999) €1,438,400; twenty Lalanne lots over €3.1m",
+   "src": [
+    [
+     "Artcurial, May 2026 results",
+     "https://www.artcurial.com/en/articles/over-8.1m-for-the-art-deco--design-and-limited-edition-departments"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "d": "2026-06-27",
+   "city": "Bedford (Texas)",
+   "t": "Rock Island Auction sells Henry rifle serial no. 1, presented to Secretary of War Edwin M. Stanton, for US$5,875,000, the most expensive rifle at auction",
+   "src": [
+    [
+     "Rock Island Auction news, June 2026",
+     "https://www.rockislandauction.com/news/most-expensive-rifle-ever-sold-at-auction-brings-5-9-million"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "d": "2026-08-15",
+   "city": "Pebble Beach",
+   "t": "Gooding Christie's sells the ex-Carroll Shelby 1964 Shelby Cobra Daytona Coupe for US$42,905,000, the most expensive American car at auction; the two-day sale passes US$159m at 94% sold",
+   "src": [
+    [
+     "Gooding Christie's press release, 17 August 2026",
+     "https://www.goodingco.com/press/article/43-million-shelby-cobra-daytona-coupe-comes-out-on-top-at-2026-car-week-across-all-auction-sales-becomes-highest-grossing-american-car-of-all-time"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "d": "2026-09-06",
+   "city": "Abu Dhabi",
+   "t": "A pure ultra-white gyrfalcon bred by the Mark Moglich farm sells for Dh2.1m on the last day of ADIHEX, the highest price for a falcon at the fair; two others make Dh1.5m and Dh1.1m",
+   "src": [
+    [
+     "The National, 7 September 2026",
+     "https://thenationalnews.com/news/uae/2026/09/07/exceptionally-rare-falcon-sells-for-record-setting-dh21-million-in-abu-dhabi-auction"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "d": "2026-11-09",
+   "city": "Geneva",
+   "t": "Geneva's November watch week passes US$203m (CHF166m) across three houses; Christie's 'Rare Watches' US$58.7m is a divisional record (+221%); Sotheby's US$32.1m is its best in over a decade; Phillips sells an F.P. Journe Résonance 'Régence' for US$10.59m; five Journe watches once owned by Michael Schumacher make about US$8.48m at Christie's",
+   "src": [
+    [
+     "Il Sole 24 Ore, 12 November 2026",
+     "https://en.ilsole24ore.com/art/geneva-record-auctions-watch-sales-exceed-203-million-AJXyFJDC"
+    ]
+   ],
+   "vf": "S"
+  }
+ ],
+ "unconfirmed": [
+  "Netsuke record lot: Artdaily describes the Kurstin kirin on a cloud at US$441,300 (Bonhams New York, 16 December 2022); the page was reached through an image-path URL returned by search and its canonical article URL was not confirmed. Bonhams' own release (opened) states the record as US$441,375 in 2022. Carver attribution (Kaigyokusai) from memory.",
+  "Bonhams 'Netsuke from American Collections' (US$567,500): the release does not state the year; the release number suggests 2024.",
+  "Classic cars all-time record: a 1955 Mercedes-Benz 300 SLR Uhlenhaut Coupé at an RM Sotheby's sale in Stuttgart, May 2022, for €135m (memory; not opened).",
+  "Watches all-time record: the Patek Philippe Grandmaster Chime at Only Watch, Geneva, November 2019, about CHF31m (memory; not opened). Non-charity records before 2025: Paul Newman's Rolex Daytona, Phillips New York, October 2017, US$17.75m (memory).",
+  "Jewels all-time record: the CTF Pink Star, 59.60 ct, Sotheby's Hong Kong, April 2017, US$71.2m (memory; not opened).",
+  "Wine record bottle: 1945 Romanée-Conti, Sotheby's New York, October 2018, US$558,000 (memory; not opened). Sotheby's 2025 report names no lot for its 'over US$450,000' bottle.",
+  "Chinese ceramics all-time record: the Meiyintang Chenghua chicken cup, Sotheby's Hong Kong, April 2014, HK$281m (memory; not opened).",
+  "Coins all-time record: the 1933 Double Eagle, Sotheby's New York, June 2021, US$18.9m (memory; not opened).",
+  "Memorabilia all-time record: Babe Ruth's 1932 'called shot' jersey, Heritage, August 2024, US$24.12m (memory; not opened).",
+  "Design record: Eileen Gray's 'Dragons' armchair, Christie's Paris, Yves Saint Laurent and Pierre Bergé sale, February 2009, about €21.9m (memory; not opened).",
+  "Rock Island Auction 2024 annual total US$111m: company news title in search results, not opened.",
+  "Hermann Historica special firearms auction 105 (24 July 2025) and autumn auction 106: press and all4shooters titles, not opened.",
+  "Zachys 2024 annual auction sales 'top US$63m': the drinks business headline (January 2025), not opened.",
+  "ADIHEX 2025 falcon auction sales 'AED1.7 million': WAM and Gulf News headlines, not opened; Khaleej Times headlines report a Dh350,000 falcon in 2025 and a Dh1.5m 'Qarmousha' falcon in 2026, not opened.",
+  "Christie's Hong Kong autumn 2025: The Art Newspaper headline 'drops 46% from last year' and The Value headline 'over US$123 million, highest autumn total since 2018': not opened.",
+  "Sotheby's Islamic and Middle Eastern sales '£14.8 million' (Artdaily headline) matches the figure read in The Art Newspaper of 11 May 2026.",
+  "PinchukArtCentre Prize 2025: Lesia Vasylchenko main award (The Art Newspaper, e-flux, Ocula headlines, June 2025); not opened.",
+  "Ivan Marchuk's Sotheby's result (€96,000): Komersant article dated 5 June with no year on the page.",
+  "Ownership from memory, kept out of the records: Broad Arrow (Hagerty), Holland & Holland (Beretta Holdings), James Purdey & Sons (Richemont), RM Sotheby's (Sotheby's); Mecum, Gooding, Broad Arrow, Stack's Bowers, GreatCollections and Goldin head-office towns are from memory.",
+  "ADIHEX organiser (the Emirates Falconers' Club with ADNEC) from memory; not named in The National's report.",
+  "Okada Museum of Art location (Hakone) and founder from memory; not on the Sotheby's page.",
+  "The Clark Sickle-Leaf carpet sale date (June 2013, Sotheby's New York) from search-result headlines (CBS, Christian Science Monitor, Fox); pages not opened.",
+  "Goldin 2025: search titles report a T206 Honus Wagner at US$5.1m, a US$20m live auction and a first quarter above all of 2024 (Front Office Sports); not opened.",
+  "Phillips Design London sale totals (£3.4m–£4.8m per sale) from press-release titles; not opened.",
+  "Players with nothing opened in this session (vf U, no figures): Holland & Holland, James Purdey & Sons, Moussaieff Jewellers, Bonhams Fine & Rare Wines, Bonhams Books & Manuscripts, Maggs Bros, Marchant, Simon Ray, Bausback, Christie's Design, Wright, Galerie Patrick Seguin, Galerie kreo, Sotheby's Sports Memorabilia.",
+  "Walls stated from memory (vf U, no figures): firearms licensing (UK Firearms Act 1968 s.58 and Antique Firearms Regulations 2021; US NFA; EU Firearms Directive).",
+  "Spink's '£6 million' fortnight: the media page gives 24 September–4 October without a year.",
+  "Goldin: only a 2021 report (Front Office Sports) was opened; 2025 figures in search titles were not.",
+  "Bonhams Islamic and Indian Art: the department page claims the Indian and Islamic world record (Tipu Sultan's bedchamber sword) without a figure; the sum is known from memory and kept out.",
+  "Fetch failures: the drinks business (biggest fine wine auctions of 2025), Vinetur (first-half 2026 wine auctions) and WAM (ADIHEX 2025 falcon sales) returned no article text; four fetches failed on a tool usage limit at 14:23 ET on 23 November 2026 and were re-run after the reset."
+ ]
+}

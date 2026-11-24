@@ -1,0 +1,89 @@
+{
+ "id": "pep",
+ "n": "The politically exposed person: a minister’s relative buys a US$5m work through a company",
+ "summary": "A UK art market participant must find out whether the customer or the beneficial owner of the buying company is a politically exposed person, a family member or a known close associate (MLR 2017 regulation 35), must identify and verify the beneficial owner behind the company (regulation 28), and, where the answer is yes, must obtain senior-management approval, establish the source of wealth and the source of funds, and run enhanced ongoing monitoring, for at least 12 months after the PEP leaves office. A minister’s spouse, child, child’s spouse or parent is a ‘family member’ by definition. The record on which this rests is 1MDB (DOJ forfeitures of works by Van Gogh, Monet, Picasso, Basquiat and Arbus bought with misappropriated funds; over US$1.4bn returned to Malaysia by 2024) and the Obiang cases (carried from memory, flagged). The lawful course is the full enhanced check, documented, and a refusal where the source of wealth cannot be established; a report where there is suspicion.",
+ "walls": [
+  {
+   "n": "UK: enhanced due diligence on politically exposed persons",
+   "cite": "Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer) Regulations 2017 (SI 2017/692), regulation 35, as amended by SI 2023/1371 (domestic PEPs, in force 10 January 2024)",
+   "authority": "HM Treasury; supervisor for art market participants: HM Revenue & Customs",
+   "threshold": "Applies to the business relationship or occasional transaction regardless of sum once the art market participant is in scope (the MLR scope for art market participants is €10,000 per transaction or linked transactions, stated from the regulations as known, not read on the page)",
+   "date": "26 June 2017; domestic-PEP amendment 10 January 2024",
+   "what_it_does": "A relevant person must have ‘appropriate risk-management systems and procedures to determine whether a customer or the beneficial owner of a customer is’ a PEP, a family member or a known close associate, and must manage the enhanced risks. Where one is identified the firm must have approval from senior management for establishing or continuing the business relationship, take adequate steps to establish the source of wealth and source of funds, and conduct enhanced ongoing monitoring. The measures continue ‘for a period of at least 12 months after the date on which that person ceased to be entrusted’ with the function (longer if the firm judges it necessary); for family members and close associates they end when the PEP leaves office. Family member means the spouse or civil partner, children and their spouses or civil partners, and parents. Known close associate means a person with joint beneficial ownership of an entity or arrangement with the PEP, other close business relations, or sole beneficial ownership of an entity known to have been set up for the PEP’s benefit. A domestic (UK) PEP is treated as presenting a lower level of risk than a non-domestic PEP absent enhanced risk factors. Prominent public functions include ministers, members of parliament, supreme and constitutional court judges, central bank boards, ambassadors and senior officers, and state-enterprise boards.",
+   "case": "No UK prosecution of an art market participant for a PEP failure was opened in this session.",
+   "src": [
+    [
+     "MLR 2017, regulation 35 (legislation.gov.uk, version of 10 January 2024)",
+     "https://www.legislation.gov.uk/en/uksi/2017/692/regulation/35/2024-01-10"
+    ]
+   ],
+   "vf": "V"
+  }
+ ],
+ "cases": [
+  {
+   "n": "1MDB: the DOJ civil forfeitures of art bought with misappropriated funds (Central District of California; release of 23 July 2024)",
+   "what": "The Department of Justice announced on 23 July 2024 an agreement with Loo Ai Swan (‘Jasmine’ Loo), a former general counsel of 1MDB, resolving a civil forfeiture action against a Picasso artwork and a Swiss financial account under her control worth ‘approximately $1.8 million’ combined; the agreement releases no criminal claims against her. The release records forfeiture orders against Low Taek Jho (Jho Low) covering diamond jewellery and artwork by Vincent van Gogh, Claude Monet, Pablo Picasso, Jean-Michel Basquiat and Diane Arbus, without titles or values; the three related civil forfeiture cases with the Loo assets are valued at ‘nearly $85 million’; before this settlement the United States had returned or assisted in returning ‘over $1.4 billion’ to Malaysia. Low faces separate criminal charges in the Eastern District of New York (money laundering and FCPA conspiracy) and the District of Columbia; the release states charges, not convictions. The actions were brought under the Kleptocracy Asset Recovery Initiative. Status: civil forfeitures and settlements; criminal charges against Low pending as the release states.",
+   "src": [
+    [
+     "US Department of Justice, 23 July 2024, Justice Department to recover nearly $85M in additional funds linked to 1MDB scheme",
+     "https://www.justice.gov/opa/pr/justice-department-recover-nearly-85m-additional-funds-linked-1mdb-scheme"
+    ]
+   ],
+   "vf": "V"
+  }
+ ],
+ "lawful": [
+  {
+   "who": "the house or dealer",
+   "course": "Run the PEP screen on the customer and on the beneficial owner of the buying company (regulation 35); identify and verify the beneficial owner and the ownership and control structure, and record every step (regulation 28); for a PEP or family member obtain senior-management approval, establish the source of wealth and the source of funds, and keep the relationship under enhanced monitoring for at least 12 months after the PEP leaves office. Refuse the transaction where the beneficial owner or the source of wealth cannot be established; where there is knowledge or suspicion of laundering, report to the National Crime Agency under the Proceeds of Crime Act 2002 (stated from the Act as known) and, if a sanctions link appears, to OFSI.",
+   "src": [
+    [
+     "MLR 2017 regulation 35",
+     "https://www.legislation.gov.uk/en/uksi/2017/692/regulation/35/2024-01-10"
+    ],
+    [
+     "MLR 2017 regulation 28",
+     "https://www.legislation.gov.uk/uksi/2017/692/regulation/28"
+    ],
+    [
+     "OFSI guidance for art market participants",
+     "https://www.gov.uk/government/publications/financial-sanctions-guidance-for-high-value-dealers-and-art-market-participants/financial-sanctions-guidance-for-high-value-dealers-art-market-participants"
+    ]
+   ],
+   "vf": "V"
+  }
+ ],
+ "src": [
+  [
+   "MLR 2017 regulation 35",
+   "https://www.legislation.gov.uk/en/uksi/2017/692/regulation/35/2024-01-10"
+  ],
+  [
+   "MLR 2017 regulation 28",
+   "https://www.legislation.gov.uk/uksi/2017/692/regulation/28"
+  ],
+  [
+   "DOJ, 23 July 2024 (1MDB)",
+   "https://www.justice.gov/opa/pr/justice-department-recover-nearly-85m-additional-funds-linked-1mdb-scheme"
+  ],
+  [
+   "Sotheby’s Conditions of Business for Buyers, London, 2 July 2024",
+   "https://sothebys.com/conditions-of-business-for-buyers-london-02.07.2024.pdf"
+  ],
+  [
+   "US Department of Justice, 10 October 2014, Second Vice President of Equatorial Guinea agrees to relinquish more than $30 million of assets purchased with corruption proceeds",
+   "https://www.justice.gov/opa/pr/second-vice-president-equatorial-guinea-agrees-relinquish-more-30-million-assets-purchased"
+  ],
+  [
+   "eucrim, The EU’s new AML single rulebook regulation (Regulation (EU) 2024/1624)",
+   "https://eucrim.eu/news/the-eu-new-aml-single-rulebook-regulation/"
+  ],
+  [
+   "HLC, Anti-money laundering rules and the luxury goods sector (14 October 2026)",
+   "https://hlc.com/en/publications/antimoney-laundering-rules-and-the-luxury-goods-sector"
+  ]
+ ],
+ "vf": "V",
+ "note": "EU AMLR sourced on secondary notes (16 November 2026); the Obiang US settlement sourced on the DOJ release; the French and Swiss Obiang cases, the 5AMLD text and the AMLR PEP articles not opened."
+}

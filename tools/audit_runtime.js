@@ -150,8 +150,8 @@ if (!args.includes('--shots')) (async () => {   /* the audit; `--shots` runs the
       const stops = []; for (let i = 0; i < 24; i++) { await page.keyboard.press('Tab'); stops.push(await act(page)); }
       if (!stops.some(s => s.inNav)) problems.push('Tab never reaches the nav');
       if (!stops.some(s => s.inMain)) problems.push('Tab never reaches the view');
-      await page.click('#moreBtn'); await page.waitForTimeout(100); await page.focus('#navMore button[data-v="people"]'); await page.keyboard.press('Enter'); await page.waitForTimeout(150);
-      if ((await state(page, 'view')).view !== 'v-people') problems.push('Enter on a nav button does not switch');
+      await page.click('#moreBtn'); await page.waitForTimeout(100); await page.focus('#navMore button[data-v="players"]'); await page.keyboard.press('Enter'); await page.waitForTimeout(150);
+      if (!(await page.evaluate(() => document.querySelector('#v-people').classList.contains('on')))) problems.push('Enter on a nav button does not switch');
       await page.focus('#plist .person'); await page.keyboard.press('Enter'); await page.waitForTimeout(150);
       if (!(await state(page, 'person')).detailOn) problems.push('Enter on a person row does not open it');
       await nav(page, '#hammer'); await page.focus('#rtbl tr.clk'); await page.keyboard.press('Space'); await page.waitForTimeout(150);

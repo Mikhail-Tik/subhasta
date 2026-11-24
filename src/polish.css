@@ -180,3 +180,18 @@ input:focus-visible,select:focus-visible,textarea:focus-visible,button:focus-vis
   .eye-mode{padding:10px 12px}.eye-mode small{display:none}
 }
 @media (prefers-reduced-motion:reduce){.view.on,.navmore,.pal{animation:none;transition:none}}
+
+/* ---- v31.1: the panel never runs into the foot — the lead clamps on a short screen ---- */
+.wd-read{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden;-webkit-line-clamp:9}
+@media (max-height:860px){.wd-read{-webkit-line-clamp:6}}
+@media (max-height:740px){.wd-read{-webkit-line-clamp:4}.wd-lead{top:28px}}
+@media (max-width:760px){.wd-read{display:block;-webkit-line-clamp:none;overflow:visible}}
+.wd-net{row-gap:4px}
+
+/* v32: the spreads — chapters of one page (the Market; Who’s who) */
+.spread-nav{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 22px;margin:0 0 26px;padding:0 0 12px;border-bottom:1px solid var(--rule);font-size:11.5px;letter-spacing:var(--track-caps);text-transform:uppercase}
+.spread-nav b{font-weight:600;color:var(--ink);margin-right:6px}.spread-nav button{font:inherit;letter-spacing:inherit;text-transform:inherit;color:var(--ink2);padding:0;border-bottom:1px solid transparent;transition:color var(--t-base) var(--ease),border-color var(--t-base) var(--ease)}
+.spread-nav button:hover{color:var(--ink);border-bottom-color:var(--gilt)}
+.view.in-spread.after{border-top:2px solid var(--ink);margin-top:56px;padding-top:30px}
+.view.in-spread.after .head h1{font-size:clamp(28px,3.4vw,40px)}.view.in-spread.after .forwhom{display:none}
+@media (max-width:760px){.view.in-spread.after{margin-top:40px;padding-top:22px}.spread-nav{gap:6px 16px}}

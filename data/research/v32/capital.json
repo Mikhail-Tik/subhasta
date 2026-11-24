@@ -1,0 +1,942 @@
+{
+ "asof": "2026-11-23",
+ "files": [
+  {
+   "id": "weak-currency",
+   "n": "Weak currency into art: a non-designated private person with roubles who wants to hold value in art outside Western jurisdictions",
+   "summary": "Three sanctions walls govern the case, and all three attach to Russia as destination or to the buyer's connection with Russia, not to nationality. The EU prohibits the sale, supply, transfer or export of Annex XVIII luxury goods to any person in Russia or for use in Russia; works of art are entry 20 and the €300 per item threshold applies (Regulation 833/2014, Article 3h). The UK prohibits export, supply, delivery and making available of luxury goods to a person connected with Russia or for use in Russia (regulation 46B); works of art are Schedule 3A paragraph 21, with no price threshold. The US requires a licence, reviewed under a policy of denial, for export of listed luxury goods, including chapter 97 art, to Russia or Belarus and worldwide to listed persons (15 CFR 746.10). A non-designated person resident outside Russia who buys in Hong Kong for storage outside Russia crosses none of these walls. What governs instead is the house's own terms: registration 48 hours before the sale, passport and proof of address, payment only from the registered bidder in the invoice currency, no cash. On the Russian side the Bank of Russia's cash measures run to 9 March 2027. The record of what catches is the 2014 Rotenberg purchases through an adviser, and the designated A7/A7A5 network, which is no rail.",
+   "walls": [
+    {
+     "n": "EU: luxury goods ban covering works of art (Article 3h and Annex XVIII)",
+     "cite": "Council Regulation (EU) No 833/2014, Article 3h(1), (2), (2a), (3), (3a), (4); Annex XVIII entry 20 'Works of art, collectors' pieces and antiques' (ex 9700), inserted by Council Regulation (EU) 2022/428 of 15 March 2022",
+     "authority": "Council of the European Union; enforced by member-state customs and competent authorities",
+     "threshold": "Goods whose value exceeds EUR 300 per item (Article 3h(2a)); the Annex XVIII art entry carries no separate threshold",
+     "date": "15 March 2022 (Regulation 2022/428); entry into force the day after publication in the Official Journal",
+     "what_it_does": "It is prohibited to sell, supply, transfer or export Annex XVIII luxury goods, directly or indirectly, to any natural or legal person, entity or body in Russia or for use in Russia (3h(1)). Related technical assistance, brokering, financing and financial assistance are prohibited (3h(2)). The ban does not reach goods for diplomatic missions (3h(3)) or jewellery for the personal use of travellers leaving the EU (3h(3a)). Competent authorities may authorise the transfer of cultural goods on loan under formal cultural cooperation (3h(4)). The destination is Russia; a buyer resident outside Russia is not addressed by the article.",
+     "case": "No EU prosecution of an art sale under Article 3h was opened in this session.",
+     "src": [
+      ["Regulation 833/2014 Article 3h, consolidated text (gesetze.legal mirror of the EU text)", "https://gesetze.legal/eu/vo_eu_2014_833/3h"],
+      ["Council Regulation (EU) 2022/428 of 15 March 2022, Annex (Annex XVIII), EUR-Lex", "https://eur-lex.europa.eu/eli/reg/2022/428/oj/eng"]
+     ],
+     "vf": "V"
+    },
+    {
+     "n": "UK: luxury goods ban covering works of art with no price threshold",
+     "cite": "Russia (Sanctions) (EU Exit) Regulations 2019 (SI 2019/855), regulation 46B (export, supply and delivery, making available), regulations 46BA–46BC (technical assistance, financial services and funds, brokering; inserted 15 December 2023); Schedule 3A Part 2 paragraph 21",
+     "authority": "Foreign, Commonwealth and Development Office (trade sanctions); HM Revenue & Customs (enforcement); Office of Trade Sanctions Implementation",
+     "threshold": "None for works of art: paragraph 21 reads 'Works of art, collectors' pieces and antiques, meaning any thing which falls within chapter 97' and states no sales price, where most other Part 2 entries set per-item prices of £250 to £1,260",
+     "date": "Schedule 3A inserted 14 April 2022 at 5.00 p.m. by SI 2022/452; services provisions 15 December 2023",
+     "what_it_does": "The export of luxury goods to, or for use in, Russia is prohibited (46B(1)). A person must not directly or indirectly supply or deliver luxury goods from a third country to a place in Russia, make them available to a person connected with Russia, or make them available for use in Russia (46B(2)). Each limb has a defence where the person did not know and had no reasonable cause to suspect. Technical assistance, financial services and funds, and brokering connected with such arrangements are prohibited (46BA–46BC). All are subject to Part 7 exceptions and licences. 'Person connected with Russia' is defined in regulation 21, which was not opened.",
+     "case": "No UK prosecution of an art sale under regulation 46B was opened in this session.",
+     "src": [
+      ["SI 2019/855 Part 5 Chapter 4B (legislation.gov.uk, generated 30 May 2024)", "https://www.legislation.gov.uk/uksi/2019/855/part/5/chapter/4B/data.pdf"],
+      ["SI 2019/855 Schedule 3A (legislation.gov.uk, generated 26 March 2024)", "https://www.legislation.gov.uk/uksi/2019/855/schedule/3A/data.pdf"],
+      ["SI 2019/855 Schedule 3A Part 1 interpretation", "https://www.legislation.gov.uk/uksi/2019/855/schedule/3A/part/1/data.pdf"]
+     ],
+     "vf": "V"
+    },
+    {
+     "n": "US: licence requirement with a policy of denial for luxury goods, including chapter 97 art, to Russia and Belarus and to listed oligarchs worldwide",
+     "cite": "15 CFR 746.10(a)(1), (a)(2), (b), (c) and Supplement No. 5 to Part 746 (Export Administration Regulations), added by BIS final rule 87 FR 14785 (16 March 2022), RIN 0694-AI78; Executive Order 14068 of 11 March 2022",
+     "authority": "Bureau of Industry and Security, US Department of Commerce; SDN listings by OFAC, US Treasury",
+     "threshold": "No per-unit dollar threshold for the chapter 97 entries (9701 paintings and drawings, 9702 prints, 9703 sculpture, 9704 stamps, 9705 collections, 9706 antiques); the US$1,000 per-unit wholesale qualifier applies to apparel entries only",
+     "date": "Effective 11 March 2022",
+     "what_it_does": "A licence is required to export, reexport or transfer in-country any Supplement No. 5 luxury good subject to the EAR to or within Russia or Belarus, regardless of end user (746.10(a)(1)), and worldwide to any Russian or Belarusian oligarch or malign actor on the SDN list under the [RUSSIA-EO14024], [UKRAINE-EO13660/13661/13662/13685], [BELARUS] and [BELARUS-EO14038] programmes, regardless of location (746.10(a)(2)). Applications are reviewed under a policy of denial (746.10(b)). Only License Exception BAG and a limited vessel-stores provision overcome (a)(1); none overcomes (a)(2). A sale inside the US to a non-listed person is not an export.",
+     "case": "No BIS enforcement action on an art export to Russia was opened in this session.",
+     "src": [
+      ["BIS final rule, 87 FR 14785, 16 March 2022 (Federal Register text, Justia mirror)", "https://docs.regulations.justia.com/entries/2022-03-16/2022-05604.pdf"]
+     ],
+     "vf": "V"
+    },
+    {
+     "n": "Russia: Bank of Russia cash foreign-currency measures, extended to 9 March 2027",
+     "cite": "Bank of Russia decision of 1 September 2026 extending the restrictions on cash foreign currency withdrawals for six months",
+     "authority": "Bank of Russia",
+     "threshold": "Individuals with foreign-currency accounts or deposits opened before 9 March 2022 may withdraw cash up to the balance at 00:00 Moscow time on 9 March 2022, capped at US$10,000 or the euro equivalent, once; the remainder is paid in roubles. Non-resident legal entities may not withdraw cash in US dollars, euros, pounds sterling or yen; resident legal entities may withdraw those four currencies only for business-travel expenses within legal limits",
+     "date": "1 September 2026; measures run to 9 March 2027",
+     "what_it_does": "The measures limit cash in Western currencies inside Russia. The Bank states the reason as the sanctions that bar Russian financial institutions from buying Western cash. Transfers without an account and through e-wallets are paid out in roubles. The ban on bank fees for cash foreign-currency withdrawals by individuals is extended for the same period. The monthly limits on transfers abroad by individuals were not stated in the pages opened.",
+     "case": "None.",
+     "src": [
+      ["Bank of Russia, 1 September 2026 (English)", "https://www.cbr.ru/eng/press/event/?id=32815"],
+      ["Bank of Russia, 1 September 2026 (Russian)", "https://cbr.ru/press/event?id=32812"]
+     ],
+     "vf": "V"
+    },
+    {
+     "n": "Hong Kong house terms: registration, identity, payer rule, no cash (Christie's Hong Kong)",
+     "cite": "Christie's Hong Kong Conditions of Sale, 7 May 2026: B1 (registration), B3 (refusal and cancellation after identity and anti-money-laundering checks), D1 (buyer's premium), E1 (seller warranties), E3 (buyer warranties on funds), F1 (payment), J1 (cancellation), Appendix A (NFT lots)",
+     "authority": "Christie's Hong Kong Limited; Hong Kong has no sales tax or import duty on art stated in the terms opened",
+     "threshold": "Registration at least 48 hours before the auction for new bidders and for bidders who have bought nothing at any Christie's saleroom in two years; credit-card payments capped at HK$1,000,000 per sale (no cap for China UnionPay); no cash accepted",
+     "date": "7 May 2026",
+     "what_it_does": "Individuals supply a photo ID (passport, national ID card or driving licence) and, where the ID does not show it, proof of current address. Companies supply a certificate of incorporation, photo ID of the authorised bidder, a signed letter of authorisation and proof of directors and beneficial owners. Trusts, partnerships and offshore companies must contact the house in advance. Christie's may ask for a financial reference or a deposit. Payment is due by the end of the seventh calendar day after the auction, in the currency on the invoice, by wire, card, banker's draft or Hong Kong dollar cheque; 'We will only accept payment from the registered bidder.' The buyer warrants that the funds are not connected with criminal activity, including tax evasion, and that the buyer is not under investigation for, charged with or convicted of money laundering or terrorism (E3(a)); an agent warrants that the ultimate buyer is not on a sanctions list (E3(b)(iv)). Christie's may refuse registration and cancel a sale after failed identity and AML checks (B3) or where the sale would be unlawful (J1). Buyer's premium: 27% to HK$10m, 22% to HK$60m, 15% above. The seller warrants ownership or the right to sell and freedom from third-party claims (E1); the opened text carries no seller undertaking on sanctions or source of funds.",
+     "case": "None.",
+     "src": [
+      ["Christie's Hong Kong Conditions of Sale, 7 May 2026", "https://www.christies.com.cn/pdf/Live/ConditionsOfSale-HongKong-English_7MAY26.pdf"]
+     ],
+     "vf": "V"
+    },
+    {
+     "n": "UAE: the 2025 AML law and its executive regulations",
+     "cite": "Federal Decree-Law No. 10 of 2025 on anti-money laundering, combating the financing of terrorism and proliferation financing (repealing the 2018 law); Cabinet Decision No. 134 of 2025 (Executive Regulations), Official Gazette No. 811, 15 November 2025, in force 14 December 2025",
+     "authority": "UAE Cabinet; supervisors by sector (the Ministry of Economy supervises DNFBPs in the sources opened only by reference)",
+     "threshold": "Customer due diligence triggers reported by the law firm: AED 55,000 for financial institutions; AED 3,500 for virtual-asset service providers and occasional wire transfers; AED 11,000 for gaming onboard vessels. Whether art dealers or auction houses are designated non-financial businesses was not confirmed in the pages opened",
+     "date": "Law 2025; regulations in force 14 December 2025",
+     "what_it_does": "The new law and regulations reset the UAE framework; the DNFBP definition was extended to gaming and betting operators. The legal-adviser note does not list dealers in works of art among the DNFBPs. A buyer in Dubai therefore meets AML identification at the bank that moves the money and at any house that applies its own group terms, and the terminal should treat the Dubai art-dealer AML duty as unconfirmed.",
+     "case": "None.",
+     "src": [
+      ["CMS, Operationalising the new UAE AML law: a deep dive into the new 2025 Executive Regulations, 15 December 2025", "https://cms.law/en/are/legal-updates/operationalising-the-new-uae-aml-law-a-deep-dive-into-the-new-2025-executive-regulations"],
+      ["Crowe UAE, Revised AML/CFT guidelines for DNFBPs, 30 October 2025", "https://www.crowe.com/ae/news/revised-aml-cft-guidelines-for-dnfbps-2025"]
+     ],
+     "vf": "S"
+    }
+   ],
+   "cases": [],
+   "lawful": [
+    {
+     "who": "the buyer (a natural person, not designated, resident outside Russia)",
+     "course": "Confirm non-designated status against the EU, UK and US lists and keep the screening record. Register with the Hong Kong house at least 48 hours before the sale with a passport and proof of address outside Russia. Pay by wire from an account in the buyer's own name in the invoice currency within seven calendar days; the house takes no cash and no third-party payment. Ship to storage outside Russia. The EU and UK bans attach to export to Russia, use in Russia and (UK) a person connected with Russia; the US licence rule attaches to export to Russia and to listed persons. None attaches to a non-designated buyer resident elsewhere whose work stays outside Russia.",
+     "src": [
+      ["Christie's Hong Kong Conditions of Sale, 7 May 2026", "https://www.christies.com.cn/pdf/Live/ConditionsOfSale-HongKong-English_7MAY26.pdf"],
+      ["Regulation 833/2014 Article 3h", "https://gesetze.legal/eu/vo_eu_2014_833/3h"],
+      ["SI 2019/855 Part 5 Chapter 4B", "https://www.legislation.gov.uk/uksi/2019/855/part/5/chapter/4B/data.pdf"],
+      ["BIS final rule, 87 FR 14785", "https://docs.regulations.justia.com/entries/2022-03-16/2022-05604.pdf"]
+     ],
+     "vf": "V"
+    },
+    {
+     "who": "the house or dealer (EU, UK, US)",
+     "course": "Before a sale to a Russian national, record the buyer's residence and the destination of the work. In the EU, refuse any sale, supply or transfer to a person in Russia or for use in Russia and any related financing or brokering (Article 3h). In the UK, refuse export to Russia, supply or delivery to Russia, and making available to a person connected with Russia or for use in Russia (regulation 46B); the defence requires that the house did not know and had no reasonable cause to suspect. In the US, treat any shipment of a chapter 97 work to Russia or Belarus, or to a listed person anywhere, as requiring a BIS licence reviewed under a policy of denial. Keep the shipping instruction, the end-use statement and the screening printout on the file.",
+     "src": [
+      ["Regulation 833/2014 Article 3h", "https://gesetze.legal/eu/vo_eu_2014_833/3h"],
+      ["SI 2019/855 Part 5 Chapter 4B", "https://www.legislation.gov.uk/uksi/2019/855/part/5/chapter/4B/data.pdf"],
+      ["BIS final rule, 87 FR 14785", "https://docs.regulations.justia.com/entries/2022-03-16/2022-05604.pdf"]
+     ],
+     "vf": "V"
+    },
+    {
+     "who": "the buyer who wants bonded storage in China",
+     "course": "Use the Shanghai International Artworks Bonded Service Center in the Waigaoqiao free trade zone, where cultural relics and artworks entering and leaving the bonded area rose from RMB 35bn in 2013 to over RMB 100bn a year by 2023 and the zone offers customs clearance, display, trade, agency, tax exemption, delivery and settlement services; or the Tianzhu free trade zone in Beijing, where the December 2023 measures support bonded exhibition and trading, allow senior accredited enterprises to hold bonded exhibitions without guarantees, and let the Beijing cultural-relics entry-and-exit office extend the stay of relics in special customs areas with National Cultural Heritage Administration authorisation. Declare the work on entry; keep it in bond; sell from bond or re-export.",
+     "src": [
+      ["Shanghai Pudong government / China Daily, Shanghai leads the way in artwork trade thanks to pilot FTZ's efficiency, 1 August 2024", "https://english.pudong.gov.cn/chinashftz/2024-08/01/c_1010954.htm"],
+      ["Beijing Municipal Commerce Bureau, Measures for establishing an international cultural relic and artwork trade exhibition hub in Beijing, 19 December 2023", "https://english.beijing.gov.cn/government/policytoolkittwo/INV_Policy_Text/202407/t20240703_3736182.html"]
+     ],
+     "vf": "V"
+    },
+    {
+     "who": "the seller (exit)",
+     "course": "Consign to a Hong Kong house. Warrant ownership or the right to sell and freedom from third-party claims (E1). Expect the buyer to pay in the invoice currency within seven days and the house to settle the net proceeds after its charges; the currency of the seller's settlement was not stated in the terms opened. Keep the original purchase invoice, the storage records and the screening file: the house may cancel a sale it reasonably believes would be unlawful (J1).",
+     "src": [
+      ["Christie's Hong Kong Conditions of Sale, 7 May 2026", "https://www.christies.com.cn/pdf/Live/ConditionsOfSale-HongKong-English_7MAY26.pdf"]
+     ],
+     "vf": "V"
+    }
+   ],
+   "src": [
+    ["Regulation 833/2014 Article 3h", "https://gesetze.legal/eu/vo_eu_2014_833/3h"],
+    ["Council Regulation (EU) 2022/428", "https://eur-lex.europa.eu/eli/reg/2022/428/oj/eng"],
+    ["SI 2019/855 Part 5 Chapter 4B", "https://www.legislation.gov.uk/uksi/2019/855/part/5/chapter/4B/data.pdf"],
+    ["SI 2019/855 Schedule 3A", "https://www.legislation.gov.uk/uksi/2019/855/schedule/3A/data.pdf"],
+    ["BIS final rule, 87 FR 14785", "https://docs.regulations.justia.com/entries/2022-03-16/2022-05604.pdf"],
+    ["Bank of Russia, 1 September 2026", "https://www.cbr.ru/eng/press/event/?id=32815"],
+    ["Christie's Hong Kong Conditions of Sale, 7 May 2026", "https://www.christies.com.cn/pdf/Live/ConditionsOfSale-HongKong-English_7MAY26.pdf"],
+    ["CMS, UAE AML executive regulations, 15 December 2025", "https://cms.law/en/are/legal-updates/operationalising-the-new-uae-aml-law-a-deep-dive-into-the-new-2025-executive-regulations"],
+    ["Shanghai FTZ artwork trade, 1 August 2024", "https://english.pudong.gov.cn/chinashftz/2024-08/01/c_1010954.htm"],
+    ["Beijing measures, 19 December 2023", "https://english.beijing.gov.cn/government/policytoolkittwo/INV_Policy_Text/202407/t20240703_3736182.html"]
+   ],
+   "vf": "V",
+   "note": "Sotheby's and Phillips Hong Kong terms not opened; Christie's stands for the Hong Kong house terms. UK regulation 21 (person connected with Russia) not opened. The Commission's luxury-goods FAQ (26 July 2023) redirected and could not be opened. Dubai and Singapore house terms not opened. Cases to be added: see 'sanctions-screening-in-practice'."
+  },
+  {
+   "id": "art-as-collateral",
+   "n": "Art as collateral: who lends, on what terms, and how the lender's interest is perfected",
+   "summary": "Art-secured lending is a documented market. The Art Newspaper put it at US$24bn to US$28.2bn in 2021 and credited the US lead to the Uniform Commercial Code, which records liens against assets. Sotheby's Financial Services publishes loans from US$1m to US$250m, equity loans of 12 to 36 months, consignor advances and acquisition financing, closing in about six weeks, with in-residence collateral in certain locations and more than US$13bn originated since inception. In April 2024 it securitised 89 loans backed by more than 2,800 works worth about US$1.4bn in a US$700m note issue. Specialist lenders typically lend about 50% of appraised value; Borro lends from about US$10,000 at 3% to 4% a month. The legal wall is UCC Article 9: the law of the debtor's location governs perfection of a non-possessory interest; the law of the place where the collateral sits governs a possessory interest. The case that shows what catches is Inigo Philbrick, sentenced to 84 months in May 2022 for selling more than 100% of works and pledging them without disclosing other interests; a lender's default notice on a US$14m loan in October 2019 and civil suits started the unwinding.",
+   "walls": [
+    {
+     "n": "US: which law governs perfection and priority of a security interest in art",
+     "cite": "Uniform Commercial Code § 9-301(1), (2), (3) (law governing perfection and priority of security interests)",
+     "authority": "State enactments of UCC Article 9; filing offices of the states (Secretary of State) ",
+     "threshold": "None",
+     "date": "Revised Article 9 (2001 text as enacted by the states; LII text)",
+     "what_it_does": "'While a debtor is located in a jurisdiction, the local law of that jurisdiction governs perfection', the effect of perfection or non-perfection and priority of a security interest in collateral (9-301(1)). 'While collateral is located in a jurisdiction, the local law of that jurisdiction governs' perfection, effect and priority of a possessory security interest in that collateral (9-301(2)). For goods and other tangible collateral, the law of the place where they are located governs the effect and priority of a non-possessory interest (9-301(3)). A lender on a work held in a foreign free port therefore looks to the debtor's home law for a filing and to the free port's law for a possessory pledge. Sections 9-310 (filing) and 9-313 (possession) were not opened.",
+     "case": "Philbrick (below): undisclosed prior interests defeated lenders who relied on the borrower's representations rather than on a search and on possession.",
+     "src": [
+      ["UCC § 9-301, Legal Information Institute, Cornell", "https://www.law.cornell.edu/ucc/9/9-301"]
+     ],
+     "vf": "V"
+    },
+    {
+     "n": "Sotheby's Financial Services: published lending terms",
+     "cite": "Sotheby's Financial Services, 'Financing' page (house's own terms); Sotheby's Financial Services California, Inc. is a licensed California Finance Lender",
+     "authority": "Sotheby's Financial Services (New York, London, Singapore, Hong Kong teams)",
+     "threshold": "Loans from US$1 million up to US$250 million; equity loans of 12 to 36 months; the page states no loan-to-value ratio (one illustration shows US$25m against a US$50m work)",
+     "date": "Page as opened 23 November 2026",
+     "what_it_does": "Three products: an equity loan, a consignor advance, and acquisition financing. 'We aim to close loans within six weeks of initial consultation depending on collateral and location.' 'Keep your collection on display with an option for in-residence collateral in certain locations.' 'We have originated more than $13 billion in loans since our inception.' Rates and the interest basis are not published; 'Rates, terms, and programs are subject to change without notice.' Loans 'may not be available in all locations'.",
+     "case": "None.",
+     "src": [
+      ["Sotheby's Financial Services, Financing", "https://www.sothebys.com/financing"]
+     ],
+     "vf": "V"
+    },
+    {
+     "n": "The market and the other lenders, as the press reports them",
+     "cite": "The Art Newspaper, 8 March 2023 and 23 May 2024",
+     "authority": "Reporting; figures attributed to the lenders and to a Morningstar DBRS report",
+     "threshold": "Most specialist lenders lend about 50% of appraised value with minimums of US$1m or US$2m; Borro lends from about US$10,000 at 3% to 4% a month on a non-recourse, short-term basis; Sotheby's offered buyers an immediate loan of 50% of hammer on purchases over US$2m (2023)",
+     "date": "8 March 2023; 23 May 2024",
+     "what_it_does": "The sector was worth US$24bn to US$28.2bn in 2021. Bank of America's national art credit executive, Deborah Larrison, reported growth of about 10% a year over 13 years (2023). Yieldstreet bought Athena Art Finance in 2019; Athena had funded over US$500m (2023) and about US$750m since 2015 (2024). The Fine Art Group's chief executive of art finance, Freya Stewart, said banks had less appetite for credit (2023). Sotheby's loan book stood at about US$1.6bn at 31 December 2023 and the ArtFi Master Trust Series 2024-1 notes repay US$700m principal by 22 March 2027 and interest by 22 December 2031, sold only to qualified institutional buyers. Citi, JPMorgan, UBS, Deutsche Bank, TPC Art Finance and Gurr Johns terms were not found in the pages opened.",
+     "case": "None.",
+     "src": [
+      ["The Art Newspaper, Art loans spike as specialist lenders multiply, 8 March 2023", "https://www.theartnewspaper.com/2023/03/08/art-loans-spike-as-specialist-lenders-multiply"],
+      ["The Art Newspaper, Gray Market: Sotheby's $700m art-backed debt security explained, 23 May 2024", "https://www.theartnewspaper.com/2024/05/23/gray-market-sothebys-700m-art-backed-debt-security-explained"]
+     ],
+     "vf": "S"
+    }
+   ],
+   "cases": [
+    {
+     "n": "United States v. Inigo Philbrick (SDNY): sentencing of 23 May 2022",
+     "what": "The US Attorney for the Southern District of New York announced on 23 May 2022 that former art dealer Inigo Philbrick was sentenced to 84 months in prison and two years of supervised release and ordered to forfeit US$86,672,790. From about 2016 to 2019 he 'knowingly misrepresented the ownership of certain artworks', sold more than 100% of the ownership of works without the co-owners' knowledge, used works as loan collateral without disclosing third-party interests, and gave 'fraudulent contracts and records to investors', including a contract listing a stolen identity as the seller. Works named: Basquiat's 'Humidity' (1982), an untitled Christopher Wool (2010) and an untitled Rudolf Stingel (2012). He obtained over US$86m in loans and sale proceeds. The scheme came to light in autumn 2019; in mid-October 2019 a lender notified him of default on a loan of about US$14m; by November 2019 investors had filed civil suits in several jurisdictions; he was arrested in Vanuatu on 11 June 2020.",
+     "outcome": "Guilty plea; 84 months; forfeiture of US$86,672,790. What caught it: the lender's default notice and the civil suits, which exposed the undisclosed interests.",
+     "src": [
+      ["US Attorney SDNY, Former art dealer sentenced to 7 years for $86 million fraud scheme, 23 May 2022", "https://www.justice.gov/usao-sdny/pr/former-art-dealer-sentenced-7-years-86-million-fraud-scheme"]
+     ],
+     "vf": "V"
+    },
+    {
+     "n": "Sotheby's ArtFi Master Trust, Series 2024-1: the first public art-loan securitisation",
+     "what": "The Art Newspaper (23 May 2024, citing the Morningstar DBRS report and the FT) describes US$700m of asset-backed notes announced in April 2024, backed by 89 art equity loans and consignor advances secured on more than 2,800 works worth about US$1.4bn; SFS loans average about 50% of appraised value; principal due by 22 March 2027, interest by 22 December 2031; sold to qualified institutional buyers controlling at least US$100m in securities.",
+     "outcome": "Completed issue; shows that the loan book and its collateral are now audited, rated and reported.",
+     "src": [
+      ["The Art Newspaper, 23 May 2024", "https://www.theartnewspaper.com/2024/05/23/gray-market-sothebys-700m-art-backed-debt-security-explained"]
+     ],
+     "vf": "S"
+    }
+   ],
+   "lawful": [
+    {
+     "who": "the borrower (collector)",
+     "course": "Choose the lender by product: a house lender for an equity loan of 12 to 36 months from US$1m, a consignor advance against a coming sale, or acquisition financing; a bank art desk for a revolving line within a private-banking relationship; a specialist for speed. Supply provenance, the purchase invoice, a current appraisal, the insurance certificate and the location of the work. Expect about 50% of appraised value, closing in about six weeks at a house lender, and a choice between warehouse custody and in-residence collateral where offered. Disclose every prior interest in writing; the Philbrick sentence shows what an undisclosed interest costs.",
+     "src": [
+      ["Sotheby's Financial Services, Financing", "https://www.sothebys.com/financing"],
+      ["The Art Newspaper, 8 March 2023", "https://www.theartnewspaper.com/2023/03/08/art-loans-spike-as-specialist-lenders-multiply"],
+      ["US Attorney SDNY, 23 May 2022", "https://www.justice.gov/usao-sdny/pr/former-art-dealer-sentenced-7-years-86-million-fraud-scheme"]
+     ],
+     "vf": "V"
+    },
+    {
+     "who": "the lender (US law)",
+     "course": "Search the UCC records in the state of the debtor's location before funding, file a financing statement there, and where the work sits in a warehouse or free port take possession through a bailee's acknowledgement so that the possessory interest is perfected under the law of the place where the collateral is (9-301(2)). Record the lien on the insurance policy as loss payee. For a foreign borrower or foreign storage, obtain local advice on the law of the collateral's location: the US filing perfects against the debtor, not against a pledge taken by possession abroad.",
+     "src": [
+      ["UCC § 9-301", "https://www.law.cornell.edu/ucc/9/9-301"]
+     ],
+     "vf": "V"
+    },
+    {
+     "who": "the adviser",
+     "course": "Before any loan, obtain an owner's title warranty, check the provenance chain against the sale records, ask the house for its lien search and ask the borrower for a schedule of every co-owner and every pledge; keep the responses on file. A loan that funds a purchase is documented as acquisition financing with the work delivered to the lender's custody or to a bailee who acknowledges the lender's interest.",
+     "src": [
+      ["Sotheby's Financial Services, Financing", "https://www.sothebys.com/financing"],
+      ["US Attorney SDNY, 23 May 2022", "https://www.justice.gov/usao-sdny/pr/former-art-dealer-sentenced-7-years-86-million-fraud-scheme"]
+     ],
+     "vf": "V"
+    }
+   ],
+   "src": [
+    ["UCC § 9-301", "https://www.law.cornell.edu/ucc/9/9-301"],
+    ["Sotheby's Financial Services, Financing", "https://www.sothebys.com/financing"],
+    ["The Art Newspaper, 8 March 2023", "https://www.theartnewspaper.com/2023/03/08/art-loans-spike-as-specialist-lenders-multiply"],
+    ["The Art Newspaper, 23 May 2024", "https://www.theartnewspaper.com/2024/05/23/gray-market-sothebys-700m-art-backed-debt-security-explained"],
+    ["US Attorney SDNY, 23 May 2022", "https://www.justice.gov/usao-sdny/pr/former-art-dealer-sentenced-7-years-86-million-fraud-scheme"]
+   ],
+   "vf": "V",
+   "note": "UCC §§ 9-310 and 9-313 not opened; Christie's, Bank of America, Citi, JPMorgan, UBS, Deutsche Bank, Athena, TPC and Gurr Johns pages not opened in this pass. No published rates found except Borro's."
+  },
+  {
+   "id": "barter-and-exchange",
+   "n": "Barter and exchange: art for property, goods or other art, and the tax event at the swap",
+   "summary": "An exchange of art for another asset is two supplies and, in the US and UK, a disposal at value. Since 1 January 2018 US like-kind exchange treatment under section 1031 is limited to real property; the IRS states that exchanges of personal or intangible property such as artwork and collectibles no longer qualify, with a transition for exchanges where one leg closed on or before 31 December 2017. Gain is computed and reported on Form 8824. In the UK, VAT Act 1994 section 19(3) values a supply for non-monetary consideration as 'such amount in money as, with the addition of the VAT chargeable, is equivalent to the consideration'; HMRC's valuation manual sets out barter and part-exchange valuation. The record shows how the old rule was used: the New York Times reported (5 October 2023) a 23 November 2016 transaction in which Leon Black sold a Giacometti bronze for US$25m to a trust controlled by Jeffrey Epstein and bought a Cézanne watercolour for US$30m through Chicago Deferred Exchange Co. as a 1031 exchange; a law professor quoted said it 'most likely met the technical requirements' and Black's spokesman called it legal. The lawful course today is two documented sales with a cash balance, VAT on each leg and gain recognised.",
+   "walls": [
+    {
+     "n": "US: like-kind exchange treatment limited to real property; art excluded",
+     "cite": "Internal Revenue Code section 1031(a)(1) as amended by the Tax Cuts and Jobs Act 2017; IRS news release IR-2018-227",
+     "authority": "Internal Revenue Service",
+     "threshold": "None; applies to any exchange of personal or intangible property",
+     "date": "Effective 1 January 2018; transition for property disposed of, or replacement property received, on or before 31 December 2017",
+     "what_it_does": "'Like-kind exchange tax treatment is now generally limited to exchanges of real property.' Exchanges of personal or intangible property 'such as machinery, equipment, vehicles, artwork, collectibles' and patents do not qualify for non-recognition. Form 8824 computes the gain that must be reported and is filed with the return for the year of the exchange.",
+     "case": "Black–Epstein 1031 exchange of 2016 (below), closed by the 2017 Act for later years.",
+     "src": [
+      ["IRS, IR-2018-227, Like-kind exchanges now limited to real property, 19 November 2018", "https://www.irs.gov/newsroom/like-kind-exchanges-now-limited-to-real-property"]
+     ],
+     "vf": "V"
+    },
+    {
+     "n": "UK: VAT on a supply for non-monetary consideration",
+     "cite": "Value Added Tax Act 1994, section 19(3); HMRC VAT Valuation Manual VATVAL05200 (non-monetary consideration: the law), VATVAL05900 and VATVAL06000 (barter valuation), VATVAL06110 (part exchange)",
+     "authority": "HM Revenue & Customs",
+     "threshold": "Applies to any taxable supply by a VAT-registered person for consideration not wholly in money",
+     "date": "VATVAL05200 last updated 15 June 2021",
+     "what_it_does": "'If the supply is for a consideration not consisting or not wholly consisting of money, its value shall be taken to be such amount in money as, with the addition of the VAT chargeable, is equivalent to the consideration.' A dealer who takes a work in part exchange makes a supply and receives a supply; each is valued and, where taxable, invoiced with VAT or dealt with under the margin scheme. The EU Principal VAT Directive Article 73 and the CJEU case law on subjective value were not opened.",
+     "case": "None opened.",
+     "src": [
+      ["HMRC, VATVAL05200 Non-monetary consideration: the law", "https://www.gov.uk/hmrc-internal-manuals/vat-valuation/vatval05200"]
+     ],
+     "vf": "V"
+    }
+   ],
+   "cases": [
+    {
+     "n": "The Giacometti-for-Cézanne 1031 exchange of 23 November 2016, as the New York Times reported it",
+     "what": "The New York Times (Matthew Goldstein, 5 October 2023, carried by ArtDaily) reported that on 23 November 2016 Leon Black, co-founder of Apollo Global Management, sold Alberto Giacometti's bronze 'Figure Moyenne II' for US$25m to the Haze Trust, controlled by Jeffrey Epstein, and that a Black-linked company bought Paul Cézanne's watercolour 'Portrait de Vallier de Profil' for US$30m with the proceeds; Chicago Deferred Exchange Co. acted as intermediary and set the transaction up as a section 1031 exchange, which then let collectors defer capital gains tax when proceeds rolled into like-kind property. A related deal moved Georges Braque's 'Le Guéridon' for US$5m. The Times reported that the Senate Finance Committee under Senator Ron Wyden was examining Black's payments of US$158m to Epstein for services from 2013 to 2017. Professor Victoria Haneman (Creighton University) was quoted that the transactions 'most likely met the technical requirements of the federal tax code' and 'certainly raise an eyebrow about whether tax avoidance was the main driver'. Black's spokesman Whit Clay said the transactions 'were completely legal and appropriate'. New York State opened an audit of Chicago Deferred's sales tax collection in 2017.",
+     "outcome": "No charge and no finding of wrongdoing reported in respect of the exchange; the 1031 route for art was closed by statute from 1 January 2018.",
+     "src": [
+      ["New York Times via ArtDaily, A Giacometti for a Cezanne: Jeffrey Epstein's role in a pricey art deal, 5 October 2023", "https://artdaily.com/news/162988/images/close.gif"],
+      ["IRS, IR-2018-227", "https://www.irs.gov/newsroom/like-kind-exchanges-now-limited-to-real-property"]
+     ],
+     "vf": "S"
+    }
+   ],
+   "lawful": [
+    {
+     "who": "the two owners exchanging art for a property or another work",
+     "course": "Paper the swap as two sales with two invoices at agreed values and a cash balancing payment, each party warranting title to what it gives. Obtain an independent appraisal of each side so that the values hold against the tax authority. In the US, report the disposal of the art as a sale at the agreed value; section 1031 does not apply. In the UK, a VAT-registered party values its supply under section 19(3) and charges VAT or applies the margin scheme; the private party has no VAT but has a capital gains disposal at market value.",
+     "src": [
+      ["IRS, IR-2018-227", "https://www.irs.gov/newsroom/like-kind-exchanges-now-limited-to-real-property"],
+      ["HMRC, VATVAL05200", "https://www.gov.uk/hmrc-internal-manuals/vat-valuation/vatval05200"]
+     ],
+     "vf": "V"
+    },
+    {
+     "who": "the dealer taking a work in part exchange",
+     "course": "Issue an invoice for the work supplied at its full price and a purchase invoice for the work taken in, with the cash difference; value the part-exchange work at the amount credited to the customer; account for VAT on the supply at the section 19(3) value. Run the customer identification and source-of-funds file as for a cash sale of the same value, since the AML threshold is measured by the value of the transaction, not the cash.",
+     "src": [
+      ["HMRC, VATVAL05200", "https://www.gov.uk/hmrc-internal-manuals/vat-valuation/vatval05200"],
+      ["Directive (EU) 2018/843 Article 1 (art market obliged entities, EUR 10,000)", "https://www.legislation.gov.uk/eudr/2018/843/article/1"]
+     ],
+     "vf": "V"
+    },
+    {
+     "who": "the US collector who wants to roll a gain",
+     "course": "The like-kind route is closed for art. The lawful alternatives are a sale with the gain recognised, a sale through a charitable remainder structure or a donation under the ordinary rules (not researched here), or holding. Any intermediary who offers a 'reverse' or 'deferred' exchange for art after 2017 is offering a structure the statute no longer recognises.",
+     "src": [
+      ["IRS, IR-2018-227", "https://www.irs.gov/newsroom/like-kind-exchanges-now-limited-to-real-property"]
+     ],
+     "vf": "V"
+    }
+   ],
+   "src": [
+    ["IRS, IR-2018-227", "https://www.irs.gov/newsroom/like-kind-exchanges-now-limited-to-real-property"],
+    ["HMRC, VATVAL05200", "https://www.gov.uk/hmrc-internal-manuals/vat-valuation/vatval05200"],
+    ["New York Times via ArtDaily, 5 October 2023", "https://artdaily.com/news/162988/images/close.gif"]
+   ],
+   "vf": "V",
+   "note": "EU VAT Directive Article 73 and CJEU case law not opened. No platform that brokers art-for-property swaps was found in the pages opened. Art-for-yacht or art-for-commodity examples not found."
+  },
+  {
+   "id": "structures",
+   "n": "Holding art through companies, trusts and foundations: what a structure gives and what the registers now reach",
+   "summary": "A company or trust gives succession planning, a single contracting party for loans and insurance, and privacy from the public. It does not give privacy from the house, the lender or the authorities. Since 5AMLD, EU member states must hold beneficial-ownership registers for companies and for trusts (Directive 2015/849 Articles 30 and 31 as amended); the Court of Justice struck down general public access on 22 November 2022 (Joined Cases C-37/20 and C-601/20), leaving access for competent authorities, obliged entities and those with a legitimate interest. In the US, FinCEN's interim final rule of 26 March 2025 removed domestic entities from Corporate Transparency Act reporting; only foreign-formed entities registered to do business in a state now report, and they need not report US-person owners. Switzerland treats storage of cultural property in a customs warehouse as an import and requires a declaration; the 2016 Customs Act changes require freeport inventories to record owners. The house still asks for 'proof of directors and beneficial owners' before a company may bid. The record is the Modigliani 'Seated Man with a Cane': a Panamanian company the Panama Papers linked to the Nahmad family held it; a New York court ordered its return to the Stettiner estate in 2026.",
+   "walls": [
+    {
+     "n": "EU: beneficial-ownership registers for companies and trusts, and the limit on public access",
+     "cite": "Directive (EU) 2015/849 Articles 30 and 31 as amended by Directive (EU) 2018/843 Article 1 points (15) and (16); CJEU Grand Chamber, Joined Cases C-37/20 (Luxembourg Business Registers) and C-601/20 (Sovim), 22 November 2022, press release No 188/22",
+     "authority": "National registers of the member states; Court of Justice of the European Union",
+     "threshold": "All corporate and legal entities and all express trusts and similar arrangements",
+     "date": "Directive of 30 May 2018; registers by 10 January 2020; judgment 22 November 2022",
+     "what_it_does": "Article 30(5) made beneficial-ownership information accessible to competent authorities and FIUs without restriction, to obliged entities for customer due diligence, and to 'any member of the general public', at least the owner's name and month and year of birth. Article 31 requires trustees to hold information on the settlor, trustees, protector, beneficiaries and any other controller, with access for persons showing a legitimate interest. The Court held the general-public limb invalid: it seriously interfered with Articles 7 and 8 of the Charter, was not limited to what is strictly necessary, and was not proportionate; the optional safeguards did not protect against abuse. Luxembourg and the Netherlands had to restrict access at once. Access by authorities, obliged entities and legitimate-interest applicants was not in issue.",
+     "case": "Modigliani / International Art Center (below).",
+     "src": [
+      ["Directive (EU) 2018/843 Article 1 (legislation.gov.uk copy of the EU text)", "https://www.legislation.gov.uk/eudr/2018/843/article/1"],
+      ["CJEU press release No 188/22, 22 November 2022", "https://curia.europa.eu/jcms/upload/docs/application/pdf/2022-11/cp220188fr.pdf"],
+      ["eucrim, CJEU: no unrestricted access to data of beneficial owners", "https://eucrim.eu/news/cjeu-no-unrestricted-access-to-data-of-beneficial-owners/"]
+     ],
+     "vf": "V"
+    },
+    {
+     "n": "US: Corporate Transparency Act reporting narrowed to foreign-formed entities",
+     "cite": "FinCEN interim final rule, Beneficial Ownership Information Reporting Requirement Revision and Deadline Extension, 90 FR 13688 (26 March 2025), FR Doc. 2025-05199; 31 CFR 1010.380(c)(1)(ii), (c)(2)(xxiv), (d)(4); 31 U.S.C. 5336(a)(11)(B)(xxiv) and 5318(a)(7)",
+     "authority": "Financial Crimes Enforcement Network, US Treasury",
+     "threshold": "A reporting company is now only an entity formed under foreign law and registered to do business in a US state or tribal jurisdiction; entities created by a filing with a US state office are exempt",
+     "date": "Effective 26 March 2025; foreign reporting companies registered before that date were to file by 25 April 2025; later registrants within 30 days of notice of registration; FinCEN stated it intended a final rule in 2025",
+     "what_it_does": "A Delaware LLC that holds art no longer files beneficial-ownership information with FinCEN. A foreign company registered in a state files, but need not report US persons as beneficial owners (1010.380(d)(4)). The exemption does not reach the house's or the bank's own customer due diligence, which continues to ask for directors and beneficial owners.",
+     "case": "None.",
+     "src": [
+      ["Federal Register, 90 FR 13688, 26 March 2025 (govinfo)", "https://www.govinfo.gov/content/pkg/FR-2025-03-26/html/2025-05199.htm"]
+     ],
+     "vf": "V"
+    },
+    {
+     "n": "Switzerland: cultural property in customs warehouses and free ports",
+     "cite": "Cultural Property Transfer Act (CPTA, SR 444.1) Article 19 and Article 16(3); Cultural Property Transfer Ordinance (CPTO, SR 444.11) Articles 24 and 26; Customs Act amendments in force 1 January 2016 (inventory of goods and owners; six-month limit for goods declared for export)",
+     "authority": "Federal Office for Customs and Border Security (FOCBS); Federal Office of Culture (FOC)",
+     "threshold": "Any cultural property under tariff headings 9701 to 9706",
+     "date": "FOCBS leaflet as at 23 June 2026; Customs Act changes 1 January 2016",
+     "what_it_does": "Storing cultural property in a customs warehouse or bonded warehouse is treated as an import (Art. 19 CPTA, Art. 26 CPTO): the declarant notifies the FOCBS in writing on form 11.95 in duplicate. Import, transit and export must be declared with object type, place of manufacture or discovery, date and dimensions; declarations are kept for 30 years (Art. 16(3) CPTA). Temporary export of Federal Register items needs an FOC licence; permanent export of them is prohibited. Artnet reported the 2016 Customs Act changes: freeport managers must record goods and their owners in an inventory; goods intended for export may be stored for up to six months, extendable by customs; exporters must name the buyer, who must be domiciled abroad.",
+     "case": "Bouvier affair: see 'free-ports-and-bonded' (to be added).",
+     "src": [
+      ["FOCBS, Cultural property transfer leaflet, 23 June 2026", "https://www.bazg.admin.ch/dam/en/sd-web/deAMSqgjreID/kulturguetertransfer_e.pdf"],
+      ["Artnet News, Switzerland tightens freeport regulations (2015)", "https://news.artnet.com/market/switzerland-freeport-regulations-367361?amp=1"]
+     ],
+     "vf": "V"
+    },
+    {
+     "n": "The house's own demand on a company bidder",
+     "cite": "Christie's Hong Kong Conditions of Sale, 7 May 2026, B1(a) and B1(b)",
+     "authority": "Christie's",
+     "threshold": "Any company, trust, partnership or offshore structure that bids",
+     "date": "7 May 2026",
+     "what_it_does": "A company supplies its certificate of incorporation or equivalent showing name and registered address, photo ID of the authorised bidder, a signed letter of authorisation from a legal representative, and 'proof of directors and beneficial owners'. Trusts, partnerships and offshore companies must contact the house in advance. The house may refuse registration and cancel a sale after failed identity and AML checks.",
+     "case": "None.",
+     "src": [
+      ["Christie's Hong Kong Conditions of Sale, 7 May 2026", "https://www.christies.com.cn/pdf/Live/ConditionsOfSale-HongKong-English_7MAY26.pdf"]
+     ],
+     "vf": "V"
+    }
+   ],
+   "cases": [
+    {
+     "n": "Modigliani, 'Seated Man with a Cane' (1918): International Art Center S.A. and the Stettiner estate (New York Supreme Court, 2026)",
+     "what": "ICIJ reported on 6 April 2026 that New York Supreme Court Justice Joel M. Cohen ordered the painting returned to the estate of Oscar Stettiner, a Paris dealer who fled in 1939 and was interned in 1943; a Nazi-appointed administrator sold the work without his consent; a French court ordered its return in 1946 but it had been sold on. The holder was International Art Center S.A., a Panamanian company set up by Mossack Fonseca which, ICIJ states, Panama Papers records showed was 'controlled by the Nahmad family' for more than 20 years; David Nahmad's holding company bought the painting at auction in 1996. The claim was brought by grandson Philippe Maestracci with Mondex and later by the estate's administrators. The Nahmads' lawyers denied that the family possessed the painting, pointed to International Art Center as owner, and argued provenance inconsistencies; the court rejected those arguments.",
+     "outcome": "Restitution ordered; status of any appeal not stated in the page opened. What caught it: the Panama Papers leak linked the company to its controllers; the court looked through the company.",
+     "src": [
+      ["ICIJ, Judge orders Nazi-looted Modigliani linked to Panama Papers be returned to heirs, 6 April 2026", "https://www.icij.org/investigations/panama-papers/judge-orders-nazi-looted-modigliani-linked-to-panama-papers-be-returned-to-heirs/"]
+     ],
+     "vf": "S"
+    }
+   ],
+   "lawful": [
+    {
+     "who": "the collector forming a holding company",
+     "course": "Form the company where the register rules are known: a Delaware LLC files no beneficial-ownership report with FinCEN since 26 March 2025; an EU company is on a national register open to authorities, obliged entities and legitimate-interest applicants; a foreign company registered in a US state files with FinCEN within 30 days. Give the house the certificate of incorporation, the authorised bidder's ID, the letter of authorisation and proof of directors and beneficial owners before bidding. Hold the purchase invoice, the insurance and the storage contract in the company's name so that a later lender or buyer can trace title.",
+     "src": [
+      ["Federal Register, 90 FR 13688", "https://www.govinfo.gov/content/pkg/FR-2025-03-26/html/2025-05199.htm"],
+      ["Directive (EU) 2018/843 Article 1", "https://www.legislation.gov.uk/eudr/2018/843/article/1"],
+      ["Christie's Hong Kong Conditions of Sale, 7 May 2026", "https://www.christies.com.cn/pdf/Live/ConditionsOfSale-HongKong-English_7MAY26.pdf"]
+     ],
+     "vf": "V"
+    },
+    {
+     "who": "the trustee holding art in Switzerland",
+     "course": "On placing a work in a Swiss customs warehouse or free port, file form 11.95 with the FOCBS; the storage counts as an import of cultural property. Ensure the warehouse inventory records the trust as owner. Keep declarations for 30 years. Before any export, check the Federal and cantonal registers and the bilateral agreements for licence requirements.",
+     "src": [
+      ["FOCBS, Cultural property transfer leaflet, 23 June 2026", "https://www.bazg.admin.ch/dam/en/sd-web/deAMSqgjreID/kulturguetertransfer_e.pdf"]
+     ],
+     "vf": "V"
+    },
+    {
+     "who": "the house or adviser facing a company or trust",
+     "course": "Identify the beneficial owners behind the structure and verify them; ask for the trust deed or the register extract; record the ownership and control chain; where a register entry is unavailable because public access was closed after the 2022 judgment, obtain the information from the entity itself as an obliged entity entitled to it. Refuse where the chain cannot be established.",
+     "src": [
+      ["eucrim, CJEU judgment of 22 November 2022", "https://eucrim.eu/news/cjeu-no-unrestricted-access-to-data-of-beneficial-owners/"],
+      ["Christie's Hong Kong Conditions of Sale, 7 May 2026", "https://www.christies.com.cn/pdf/Live/ConditionsOfSale-HongKong-English_7MAY26.pdf"]
+     ],
+     "vf": "V"
+    }
+   ],
+   "src": [
+    ["Directive (EU) 2018/843 Article 1", "https://www.legislation.gov.uk/eudr/2018/843/article/1"],
+    ["CJEU press release No 188/22", "https://curia.europa.eu/jcms/upload/docs/application/pdf/2022-11/cp220188fr.pdf"],
+    ["eucrim, CJEU judgment of 22 November 2022", "https://eucrim.eu/news/cjeu-no-unrestricted-access-to-data-of-beneficial-owners/"],
+    ["Federal Register, 90 FR 13688", "https://www.govinfo.gov/content/pkg/FR-2025-03-26/html/2025-05199.htm"],
+    ["FOCBS, Cultural property transfer leaflet", "https://www.bazg.admin.ch/dam/en/sd-web/deAMSqgjreID/kulturguetertransfer_e.pdf"],
+    ["Artnet News, Switzerland tightens freeport regulations", "https://news.artnet.com/market/switzerland-freeport-regulations-367361?amp=1"],
+    ["ICIJ, 6 April 2026", "https://www.icij.org/investigations/panama-papers/judge-orders-nazi-looted-modigliani-linked-to-panama-papers-be-returned-to-heirs/"]
+   ],
+   "vf": "V",
+   "note": "UK PSC register (Companies Act 2006 Part 21A), Jersey and Guernsey trust laws, the Liechtenstein foundation (PGR), the Singapore VCC Act and the DIFC Foundations Law not opened; Pandora Papers / Latchford not opened. The Swiss 2016 rule is sourced on Artnet (S) and the CPTA leaflet (V)."
+  },
+  {
+   "id": "digital-rails",
+   "n": "Digital rails: crypto payment at the houses, fractional and tokenised ownership, and the designated rouble-stablecoin network",
+   "summary": "Crypto payment at the houses is a published, narrow channel. Sotheby's accepts Bitcoin, Ether and USD Coin only for lots marked 'Cryptocurrency Payments', through a Coinbase Commerce link, with the invoice in dollars converted at the time of payment; the payment must come from a wallet in the buyer's name at one of five named custodians, self-hosted wallets are refused, partial payments from several wallets are refused, a government ID must be on file, and the buyer pays network fees. Christie's Hong Kong gives crypto payers of NFT lots 24 hours from invoice. Fractional ownership runs through securities law: Masterworks issues Class A shares of single-artwork Delaware LLCs under Regulation A Tier 2, with title in a Cayman segregated portfolio, a 1.5% management fee paid in shares, a 20% profit share and an indefinite holding period, with resale on a third-party ATS. Artex's Art Share 002 S.A., holding Francis Bacon's 'Three Studies for Portrait of George Dyer' (1963), announced in June 2025 that its 2024 audited report would be late under the ARTEX Global Market rules. The A7/A7A5 rouble-stablecoin network is designated (sources to follow in this file); it is not a rail.",
+   "walls": [
+    {
+     "n": "Sotheby's: cryptocurrency payment terms",
+     "cite": "Sotheby's, Bidder's Guide: NFTs and Cryptocurrency (cryptocurrency FAQ), published 4 May 2021, modified 15 November 2021",
+     "authority": "Sotheby's",
+     "threshold": "Only lots marked 'Cryptocurrency Payments'; payment within ten business days of invoice, 9:00 to 12:00 Eastern, Monday to Friday",
+     "date": "4 May 2021; modified 15 November 2021",
+     "what_it_does": "Accepted: Bitcoin, Ether, USD Coin. Processor: a Coinbase Commerce payment link. 'The amount due will be the cryptocurrency equivalent at the time payment is made of the amount invoiced.' Payment must come from an account or wallet in the buyer's name at Coinbase Custody Trust, Coinbase Inc. (including Pro and Prime), Fidelity Digital Assets Services, Gemini Trust Company or Paxos Trust Company; 'Payments from self-hosted wallets will not be accepted'; other exchanges and partial payments from several wallets are refused, and the buyer then pays in dollars. A government photo ID must be on file before the link is sent; NFT buyers complete a declaration with a billing address. The buyer pays blockchain network fees. Consignor proceeds in crypto are not addressed.",
+     "case": "None.",
+     "src": [
+      ["Sotheby's, Cryptocurrency FAQ", "https://www.sothebys.com/en/buy-sell/cryptocurrency-faq"]
+     ],
+     "vf": "V"
+    },
+    {
+     "n": "Christie's Hong Kong: NFT lots paid in cryptocurrency",
+     "cite": "Christie's Hong Kong Conditions of Sale, 7 May 2026, Appendix A, paragraph FF1",
+     "authority": "Christie's Hong Kong Limited",
+     "threshold": "Payment deadline 24 hours after the invoice for NFT lots paid in cryptocurrency, against seven calendar days for other lots",
+     "date": "7 May 2026",
+     "what_it_does": "The general rule that only the registered bidder may pay and that no cash is accepted applies; the appendix shortens the deadline for crypto settlement of NFT lots.",
+     "case": "None.",
+     "src": [
+      ["Christie's Hong Kong Conditions of Sale, 7 May 2026", "https://www.christies.com.cn/pdf/Live/ConditionsOfSale-HongKong-English_7MAY26.pdf"]
+     ],
+     "vf": "V"
+    },
+    {
+     "n": "US: fractional art as a Regulation A security (Masterworks)",
+     "cite": "Securities Act of 1933, Regulation A Tier 2; Masterworks 202, LLC, Form 1-K annual report for FY2025 (signed 30 April 2026)",
+     "authority": "US Securities and Exchange Commission",
+     "threshold": "Offering of up to 178,350 Class A shares at US$20.00 (up to US$3,567,000) against a Banksy of 2004 bought for US$3,213,131",
+     "date": "LLC formed 17 October 2022; final closing 28 March 2023; annual report signed 30 April 2026",
+     "what_it_does": "A Delaware LLC holds one work through the 202 segregated portfolio of Masterworks Cayman SPC. Masterworks Administrative Services LLC takes a 1.5% annual management fee in preferred shares exchangeable into Class A shares; Class B shares take 20% of proceeds above US$20 per Class A share. The company plans to hold the work 'for an indefinite period'. Shares may trade on an alternative trading system run by a third-party broker-dealer; trading is thin and some investors are ineligible. The administrator pays storage, insurance, display and transport; the company holds authenticity and title insurance that may exclude certain losses and may be below fair value.",
+     "case": "None.",
+     "src": [
+      ["Masterworks 202, LLC, Form 1-K FY2025, SEC EDGAR", "https://www.sec.gov/Archives/edgar/data/0001955063/000149315226020352/partii.htm"]
+     ],
+     "vf": "V"
+    },
+    {
+     "n": "Artex: a listed single-artwork company under the ARTEX Global Market rules",
+     "cite": "Art Share 002 S.A. (Luxembourg securitisation undertaking), ticker BAC1EU, announcement of 27 June 2025 under ARTEX Global Market rules requiring audited results within six months of year end",
+     "authority": "ARTEX Global Market; auditor Group Audit Luxembourg",
+     "threshold": "Sole asset: Francis Bacon, 'Three Studies for Portrait of George Dyer', 1963",
+     "date": "27 June 2025",
+     "what_it_does": "The company announced that its audited report for the year to 31 December 2024 would not be published by 30 June 2025; the audit was expected to finish in July 2025 with publication after a general meeting. Directors named in the announcement: Ursula Schmidt, Edouard de Burlet, Ronan Le Bouc. No suspension, wind-down or delisting is stated.",
+     "case": "None.",
+     "src": [
+      ["Art Share 002 announcement via Benzinga/EIN Presswire, 27 June 2025", "https://www.benzinga.com/content/46133977/art-share-002-artx-bac1eu-announces-delay-in-annual-report-publication"]
+     ],
+     "vf": "S"
+    }
+   ],
+   "cases": [],
+   "lawful": [
+    {
+     "who": "the buyer paying in crypto at Sotheby's",
+     "course": "Check that the lot is marked 'Cryptocurrency Payments'. Put a government photo ID on file. Hold the Bitcoin, Ether or USD Coin in an account in the buyer's own name at one of the five named custodians; a self-hosted wallet is refused. Pay the dollar invoice through the Coinbase Commerce link in one payment within ten business days in the stated window; pay the network fee. Keep the exchange's transaction record for the source-of-funds file.",
+     "src": [
+      ["Sotheby's, Cryptocurrency FAQ", "https://www.sothebys.com/en/buy-sell/cryptocurrency-faq"]
+     ],
+     "vf": "V"
+    },
+    {
+     "who": "the investor in fractional art",
+     "course": "Buy only a security offered under a qualified Regulation A offering circular or a listed company under exchange rules; read the Form 1-K for the fee (1.5% a year in shares), the profit share (20%), the holding period (indefinite) and the custody and insurance terms; expect thin secondary trading on an ATS.",
+     "src": [
+      ["Masterworks 202, LLC, Form 1-K FY2025", "https://www.sec.gov/Archives/edgar/data/0001955063/000149315226020352/partii.htm"],
+      ["Art Share 002 announcement, 27 June 2025", "https://www.benzinga.com/content/46133977/art-share-002-artx-bac1eu-announces-delay-in-annual-report-publication"]
+     ],
+     "vf": "V"
+    }
+   ],
+   "src": [
+    ["Sotheby's, Cryptocurrency FAQ", "https://www.sothebys.com/en/buy-sell/cryptocurrency-faq"],
+    ["Christie's Hong Kong Conditions of Sale, 7 May 2026", "https://www.christies.com.cn/pdf/Live/ConditionsOfSale-HongKong-English_7MAY26.pdf"],
+    ["Masterworks 202, LLC, Form 1-K FY2025", "https://www.sec.gov/Archives/edgar/data/0001955063/000149315226020352/partii.htm"],
+    ["Art Share 002 announcement, 27 June 2025", "https://www.benzinga.com/content/46133977/art-share-002-artx-bac1eu-announces-delay-in-annual-report-publication"]
+   ],
+   "vf": "V",
+   "note": "A7/A7A5 designations, MiCA, the Travel Rule, Freeport, Particle and Arkive to be added. Sotheby's FAQ dates from 2021; the current policy page was not found."
+  },
+  {
+   "id": "free-ports-and-bonded",
+   "n": "Free ports and bonded stores: where art sits outside the customs territory, and what duties follow it inside",
+   "summary": "A free port or bonded warehouse suspends import duty and VAT while the work stays inside; it does not suspend identification. In the EU, 5AMLD made 'persons storing, trading or acting as intermediaries in the trade of works of art when this is carried out by free ports' obliged entities for transactions of EUR 10,000 or more, alongside galleries and auction houses. In Switzerland, storing cultural property in a customs warehouse is an import under the Cultural Property Transfer Act, declared on form 11.95, and the 2016 Customs Act changes require inventories naming owners and limit export storage to six months. Le Freeport Singapore, built in 2010 for about US$70m, was sold in September 2022 by Yves Bouvier to Jihan Wu for a reported US$28.4m after losses of US$13.1m and debt of US$14.2m in 2018. Shanghai's Waigaoqiao bonded art centre moved over RMB 100bn of relics and art a year by 2023; Beijing's Tianzhu zone supports bonded exhibition and trading under December 2023 measures. The courses are to store in bond with the owner on the inventory, to lend against a work in bond with the warehouse acknowledging the lender, and to sell from bond so that the buyer imports or re-exports.",
+   "walls": [
+    {
+     "n": "EU: free ports as AML obliged entities for art",
+     "cite": "Directive (EU) 2015/849 Article 2(1)(3)(i) and (j), inserted by Directive (EU) 2018/843 Article 1(1)(c)",
+     "authority": "National AML supervisors of the member states",
+     "threshold": "Transactions or linked transactions of EUR 10,000 or more",
+     "date": "Directive of 30 May 2018; transposition by 10 January 2020",
+     "what_it_does": "Obliged entities include 'persons trading or acting as intermediaries in the trade of works of art, including when this is carried out by art galleries and auction houses' and 'persons storing, trading or acting as intermediaries in the trade of works of art when this is carried out by free ports', in each case 'where the value of the transaction or a series of linked transactions amounts to EUR 10 000 or more'. The free port operator must identify its customer and the beneficial owner, keep records and report suspicion.",
+     "case": "None opened.",
+     "src": [
+      ["Directive (EU) 2018/843 Article 1", "https://www.legislation.gov.uk/eudr/2018/843/article/1"]
+     ],
+     "vf": "V"
+    },
+    {
+     "n": "Switzerland: cultural property entering a customs warehouse is an import",
+     "cite": "CPTA (SR 444.1) Article 19, Article 16(3); CPTO (SR 444.11) Articles 24 and 26; Customs Act changes in force 1 January 2016",
+     "authority": "FOCBS; FOC",
+     "threshold": "Tariff headings 9701 to 9706",
+     "date": "Leaflet as at 23 June 2026",
+     "what_it_does": "Storage in a customs or bonded warehouse is treated as an import; the declarant notifies the FOCBS on form 11.95. Declarations are kept 30 years. Inventories must record goods and owners; export storage is limited to six months, extendable; the exporter must name a buyer domiciled abroad (Artnet, on the 2016 changes).",
+     "case": "None opened.",
+     "src": [
+      ["FOCBS, Cultural property transfer leaflet, 23 June 2026", "https://www.bazg.admin.ch/dam/en/sd-web/deAMSqgjreID/kulturguetertransfer_e.pdf"],
+      ["Artnet News, Switzerland tightens freeport regulations", "https://news.artnet.com/market/switzerland-freeport-regulations-367361?amp=1"]
+     ],
+     "vf": "V"
+    },
+    {
+     "n": "China: bonded art zones in Shanghai and Beijing",
+     "cite": "Shanghai Pilot Free Trade Zone (Waigaoqiao) bonded area; Beijing Municipal Commerce Bureau measures of 19 December 2023 for the Tianzhu free trade zone",
+     "authority": "Shanghai Customs and the FTZ administration; Beijing Municipal Commerce Bureau; National Cultural Heritage Administration",
+     "threshold": "None stated",
+     "date": "Shanghai figures to 2023; Beijing measures 19 December 2023",
+     "what_it_does": "Shanghai: the Shanghai International Artworks Bonded Service Center offers customs clearance, entry, display, trade, agency, tax exemption, delivery and settlement; annual flows rose from RMB 35bn (2013) to over RMB 100bn (2023). Beijing: bonded exhibition and trading deposit models, cross-region bonded exhibitions, exhibitions without guarantees for senior accredited enterprises, extensions of stay for relics in special customs areas, a one-time model for temporary entry and re-exit, and a cross-departmental approval service for relics, endangered species and fossils.",
+     "case": "None.",
+     "src": [
+      ["Shanghai FTZ artwork trade, 1 August 2024", "https://english.pudong.gov.cn/chinashftz/2024-08/01/c_1010954.htm"],
+      ["Beijing measures, 19 December 2023", "https://english.beijing.gov.cn/government/policytoolkittwo/INV_Policy_Text/202407/t20240703_3736182.html"]
+     ],
+     "vf": "V"
+    }
+   ],
+   "cases": [
+    {
+     "n": "Le Freeport Singapore: built 2010, sold 2022",
+     "what": "The Art Newspaper (20 September 2022) reported that Yves Bouvier sold the Singapore freeport, built in 2010 at an estimated US$70m to emulate Swiss security and tax techniques for Chinese collectors, to Chinese crypto billionaire Jihan Wu for a reported US$28.4m; Singapore filings showed losses of US$13.1m and debt of US$14.2m in 2018.",
+     "outcome": "Change of ownership at a loss; the facility continues under new ownership (operator after sale not stated in the page opened).",
+     "src": [
+      ["The Art Newspaper, 20 September 2022", "https://www.theartnewspaper.com/2022/09/20/swiss-art-dealer-yves-bouvier-sells-singapore-freeport-to-chinese-crypto-billionaire-jihan-wu-for-reported-284m"]
+     ],
+     "vf": "S"
+    }
+   ],
+   "lawful": [
+    {
+     "who": "the owner storing in a Swiss free port",
+     "course": "Declare the work on entry with form 11.95 and the full description; ensure the warehouse inventory names the owner; keep the declarations 30 years; if the work is declared for export, move it within six months or obtain an extension; name the foreign buyer on export.",
+     "src": [
+      ["FOCBS, Cultural property transfer leaflet, 23 June 2026", "https://www.bazg.admin.ch/dam/en/sd-web/deAMSqgjreID/kulturguetertransfer_e.pdf"],
+      ["Artnet News, Switzerland tightens freeport regulations", "https://news.artnet.com/market/switzerland-freeport-regulations-367361?amp=1"]
+     ],
+     "vf": "V"
+    },
+    {
+     "who": "the owner storing in an EU free port (Luxembourg)",
+     "course": "Expect the operator to identify the owner and the beneficial owner at EUR 10,000 and to keep records; supply the same file as to a house. Sell from bond to a buyer who imports (paying the import VAT of the destination) or re-exports; the sale inside the free port is a transaction the operator must record.",
+     "src": [
+      ["Directive (EU) 2018/843 Article 1", "https://www.legislation.gov.uk/eudr/2018/843/article/1"]
+     ],
+     "vf": "V"
+    },
+    {
+     "who": "the lender taking a work in bond",
+     "course": "Take a possessory interest through the warehouse: a written acknowledgement by the operator that it holds the work to the lender's order, perfected under the law of the place where the work sits (UCC 9-301(2) for a US lender); file in the debtor's home jurisdiction as well.",
+     "src": [
+      ["UCC § 9-301", "https://www.law.cornell.edu/ucc/9/9-301"]
+     ],
+     "vf": "V"
+    }
+   ],
+   "src": [
+    ["Directive (EU) 2018/843 Article 1", "https://www.legislation.gov.uk/eudr/2018/843/article/1"],
+    ["FOCBS, Cultural property transfer leaflet", "https://www.bazg.admin.ch/dam/en/sd-web/deAMSqgjreID/kulturguetertransfer_e.pdf"],
+    ["Artnet News, Switzerland tightens freeport regulations", "https://news.artnet.com/market/switzerland-freeport-regulations-367361?amp=1"],
+    ["The Art Newspaper, 20 September 2022", "https://www.theartnewspaper.com/2022/09/20/swiss-art-dealer-yves-bouvier-sells-singapore-freeport-to-chinese-crypto-billionaire-jihan-wu-for-reported-284m"],
+    ["Shanghai FTZ artwork trade, 1 August 2024", "https://english.pudong.gov.cn/chinashftz/2024-08/01/c_1010954.htm"],
+    ["Beijing measures, 19 December 2023", "https://english.beijing.gov.cn/government/policytoolkittwo/INV_Policy_Text/202407/t20240703_3736182.html"]
+   ],
+   "vf": "V",
+   "note": "Geneva Freeport ownership and figures, Luxembourg Freeport, Delaware Freeport, Hong Kong bonded warehouses, Dubai, the European Parliament report and the Bouvier affair not yet opened."
+  },
+  {
+   "id": "sanctions-screening-in-practice",
+   "n": "Sanctions screening in practice: what the house, the dealer and the adviser must do, and the record of what caught the evaders",
+   "summary": "The US has no Bank Secrecy Act duty on art dealers yet. OFAC's advisory of 30 October 2020 states that the informational-materials exemption 'does not categorically exempt all dealings in artwork', that sanctions apply where artwork 'functions primarily as an investment asset or medium of exchange', that civil penalties rest on strict liability, and that particular caution is due above US$100,000. Treasury's 2022 study under the Anti-Money Laundering Act found the art-collateralised lenders the most vulnerable participants and set out options from information sharing to full AML/CFT duties. The UK regulates: an art market participant trading at EUR 10,000 or more, or a freeport storing art of that value, must register with HMRC; from 14 May 2025 art market participants are 'relevant firms' that must report to OFSI as soon as practicable, with civil penalties up to £1m or 50% of the breach and criminal penalties up to seven years. The record: the Senate PSI report of 29 July 2020 traced over US$18m of 2014 purchases to Rotenberg-linked shell companies through an adviser the houses treated as principal; the 2023 Ahmad indictment alleges art and diamonds moved through US galleries after his 2019 designation; the A7/A7A5 rouble-stablecoin network was designated by OFAC (14 August 2025), the UK (20 August 2025) and the EU (effective 25 November 2025).",
+   "walls": [
+    {
+     "n": "US: OFAC advisory on high-value artwork",
+     "cite": "OFAC, Advisory and Guidance on Potential Sanctions Risks Arising from Dealings in High-Value Artwork, 30 October 2020; IEEPA and the Berman Amendment (informational materials); Executive Order 13224",
+     "authority": "Office of Foreign Assets Control, US Treasury",
+     "threshold": "No formal definition; 'particular caution when dealing with artwork with an estimated market value of more than $100,000' (footnote 2)",
+     "date": "30 October 2020",
+     "what_it_does": "The informational-materials exemption 'does not categorically exempt all dealings in artwork from OFAC regulation and enforcement'; OFAC applies IEEPA- and TWEA-based sanctions to artwork transactions involving a blocked person's interest 'to the extent the artwork functions primarily as an investment asset or medium of exchange', and does not read the exemption to let blocked persons exchange cash, gold or cryptocurrency for artwork or the reverse. Galleries, museums, private collectors, auction companies, agents and brokers should assess their risk, apply risk-based due diligence, implement a compliance programme on the five components of the OFAC Framework, and seek guidance or a licence before any US person transacts with a blocked person. 'OFAC may impose civil penalties for sanctions violations based on strict liability.'",
+     "case": "Rotenberg purchases (below); Ahmad indictment (below).",
+     "src": [
+      ["OFAC, Advisory on high-value artwork, 30 October 2020", "https://ofac.treasury.gov/media/49091/download"]
+     ],
+     "vf": "V"
+    },
+    {
+     "n": "US: the Treasury study under the Anti-Money Laundering Act of 2020",
+     "cite": "US Treasury, Study of the Facilitation of Money Laundering and Terror Finance Through the Trade in Works of Art, released 4 February 2022, mandated by the Anti-Money Laundering Act of 2020",
+     "authority": "US Department of the Treasury",
+     "threshold": "None; the study found higher risk in entities with larger annual sales and regular high-value transactions, lower risk in small galleries, online marketplaces, museums and non-profits",
+     "date": "4 February 2022",
+     "what_it_does": "Some evidence of money-laundering risk; 'limited evidence of terrorist financing risk'. The most vulnerable participants are businesses offering financial services such as art-collateralised loans without comprehensive AML/CFT obligations. Features that attract laundering: high values, portability, a culture of privacy, intermediaries (shell companies, art advisers), art as investment. Options: private-sector information sharing; updated guidance and training for law enforcement and customs; FinCEN recordkeeping authorities; applying AML/CFT requirements (suspicious activity reporting, know-your-customer) to certain art market participants or requiring their own programmes. No rule had been issued in the pages opened.",
+     "case": "None.",
+     "src": [
+      ["US Treasury, press release jy0588, 4 February 2022", "https://home.treasury.gov/news/press-releases/jy0588"]
+     ],
+     "vf": "V"
+    },
+    {
+     "n": "UK: registration and supervision of art market participants",
+     "cite": "Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer) Regulations 2017 as amended from 10 January 2020 (art market participants); HMRC guidance 'Money laundering supervision for art market participants'",
+     "authority": "HM Revenue & Customs (supervisor)",
+     "threshold": "A transaction or linked transactions of EUR 10,000 or more; a freeport operator storing works of art worth EUR 10,000 or more for a person or linked persons",
+     "date": "Guidance last updated 6 August 2024",
+     "what_it_does": "A company or sole practitioner that 'by way of business' trades in or acts as an intermediary in buying or selling works of art at the threshold, or operates a freeport storing such works, is an art market participant and must register with HMRC and pay the fee. 'Work of art' takes the VAT Act 1994 section 21 definition. Further guidance covers customer due diligence and reporting suspicious activity to the NCA (not opened).",
+     "case": "None opened.",
+     "src": [
+      ["HMRC, Money laundering supervision for art market participants", "https://www.gov.uk/guidance/money-laundering-supervision-for-art-market-participants"]
+     ],
+     "vf": "V"
+    },
+    {
+     "n": "UK: financial sanctions duties of art market participants and high value dealers",
+     "cite": "OFSI, Financial sanctions guidance for high value dealers and art market participants, updated 12 May 2026 (first published 14 November 2024); Sanctions and Anti-Money Laundering Act 2018 regime",
+     "authority": "Office of Financial Sanctions Implementation, HM Treasury",
+     "threshold": "Relevant-firm reporting duties for art market participants and high value dealers from 14 May 2025; ownership and control test: more than 50% of shares or voting rights, the right to appoint or remove a majority of the board, or the ability to ensure the entity's affairs follow the person's wishes",
+     "date": "14 May 2025 (reporting); guidance updated 12 May 2026",
+     "what_it_does": "A relevant firm must inform OFSI 'as soon as practicable' where it knows or has reasonable cause to suspect that a person is a designated person or has breached the regulations, where the information came in the course of business, and must state the nature and amount of any funds or economic resources it holds for a designated customer. On discovery the firm must immediately stop dealing, freeze the assets and inform OFSI. An entity controlled by a designated person is frozen though not itself designated. Civil monetary penalties up to £1m or 50% of the breach, whichever is higher; criminal penalties up to seven years on indictment; failure to report is an offence (up to six months summarily). The storage section lists offering storage to designated persons and transferring items to third-party facilities as risk examples.",
+     "case": "None opened.",
+     "src": [
+      ["OFSI, Financial sanctions guidance for high value dealers and art market participants, updated 12 May 2026", "https://www.gov.uk/government/publications/financial-sanctions-guidance-for-high-value-dealers-and-art-market-participants/financial-sanctions-guidance-for-high-value-dealers-art-market-participants"]
+     ],
+     "vf": "V"
+    }
+   ],
+   "cases": [
+    {
+     "n": "Senate PSI staff report, 29 July 2020: 'The Art Industry and U.S. Policies that Undermine Sanctions' (the Rotenberg purchases)",
+     "what": "The report, as the Subcommittee's release states it: Executive Order 13661 was signed on 16 March 2014; Arkady and Boris Rotenberg were sanctioned on 20 March 2014. Gregory Baltser, a Moscow-based art adviser, bought over US$18m of art from May to November 2014 with funds traced to Rotenberg-linked shell companies; a US$7.5m private sale of Magritte's 'La Poitrine' was paid by Advantage Alliance with Highland Ventures taking title, the funds traced to Senton Holdings, which one financial institution determined Arkady Rotenberg owned. Before the sanctions Highland Business paid Steamort, which paid the house; after them Highland Ventures paid Steamort, Steamort paid BALTZER, and BALTZER paid the house. Rotenberg-linked companies moved at least US$91m through the US financial system after March 2014. Sotheby's, Christie's, Phillips and Bonhams had voluntary AML policies but did not ask Baltser for whom he was buying and treated the agent as the principal purchaser. The report recommended extending the Bank Secrecy Act to high-value art, collecting beneficial ownership, sanctioning family members, closing the announcement gap, lowering the ownership threshold, and OFAC guidance on agents and on the artworks exception.",
+     "outcome": "A staff report with findings and recommendations; no charge against a house is recorded in the release. What followed: OFAC's advisory of 30 October 2020 and the Anti-Money Laundering Act study of 2022; the Corporate Transparency Act (later narrowed, see 'structures').",
+     "src": [
+      ["Senate PSI, Portman and Carper release on the bipartisan report, 29 July 2020", "https://www.hsgac.senate.gov/?p=107557"]
+     ],
+     "vf": "V"
+    },
+    {
+     "n": "United States v. Nazem Ahmad and eight others (EDNY), indictment unsealed 18 April 2023",
+     "what": "The Department of Justice states that OFAC designated Nazem Ahmad, a Lebanese resident and dual Belgian-Lebanese citizen, and 11 associated businesses on 13 December 2019 under IEEPA and the Global Terrorism Sanctions Regulations, describing him as a major Hezbollah financial donor. The nine-count indictment charges conspiracy to defraud the United States and foreign governments, evading US sanctions and customs laws, and money laundering. As alleged: about 482 diamond submissions of about 1,546 carats went to a US grading company after the designation; artwork obtained from the United States after the designation was valued at over US$450,000 and a further US$780,000 came from US persons outside the United States, including a Chicago-based gallery and a New York-based artist; about US$160m moved through the US financial system; at least US$6m went to Lebanon; a network of entities disguised his control. Co-defendants named include his son Firas Michael Ahmad and daughter Hind Nazem Ahmad. One defendant was arrested in the UK; the others were believed to be abroad. 'An indictment is merely an allegation'; all defendants are presumed innocent.",
+     "outcome": "Charges pending as the release states (page updated 6 February 2025); seizure warrants obtained for assets including artwork. What caught it: the post-designation flows through US grading, galleries and banks.",
+     "src": [
+      ["US Department of Justice, 18 April 2023", "https://www.justice.gov/opa/pr/ofac-designated-hezbollah-financier-and-eight-associates-charged-multiple-crimes-arising-out"]
+     ],
+     "vf": "V"
+    },
+    {
+     "n": "The A7 / A7A5 rouble-stablecoin network: a designated network (OFAC 14 August 2025; UK 20 August 2025; EU effective 25 November 2025)",
+     "what": "OFAC (14 August 2025) re-designated Garantex Europe OU and designated its successor Grinex; A7 Limited Liability Company, a Russian cross-border settlement firm, with subsidiaries A71 and A7 Agent; Old Vector, the Kyrgyz issuer of the A7A5 'ruble-backed digital asset'; InDeFi Bank and Exved; and Sergey Mendeleev (Garantex co-founder), Aleksandr Mira Serda (co-owner and chief commercial officer) and Pavel Karavatsky (co-owner and regional director), under EO 13694 as amended and EO 14024. The release states that A7 and its subsidiaries are owned by sanctioned Moldovan oligarch Ilan Shor and sanctioned Promsvyazbank, and that Garantex users who lost funds in the March 2025 law-enforcement action were given A7A5. The UK (FCDO, 20 August 2025) designated Grinex LLC, CJSC Tengricoin, Old Vector LLC, Capital Bank of Central Asia and its director Kantemir Chalbayev, Leonid Shumakov, Zhanyshbek Uulu Nazarbek and Altair Holding SA, stating that A7A5 moved US$9.3bn on a dedicated exchange in four months. The EU measure announced on 23 October 2025 prohibits EU persons from any direct or indirect transaction involving A7A5 and bars crypto-asset services to Russia-based persons, effective 25 November 2025 (Elliptic, 24 November 2025; the regulation number was not stated in the page opened).",
+     "outcome": "All property of the designated persons in US jurisdiction is blocked; US persons may not deal with them; entities 50% or more owned are blocked; UK asset freeze; EU transaction ban. The network is a designated network. Any payment for art through it is a sanctions breach in the US, the UK and the EU.",
+     "src": [
+      ["US Treasury, Treasury Sanctions Cryptocurrency Exchange and Network Enabling Sanctions Evasion and Cyber Criminals, 14 August 2025", "https://home.treasury.gov/news/press-releases/sb0225"],
+      ["FCDO, UK targets sanctions circumvention and crypto networks exploited by Russia, 20 August 2025", "https://www.gov.uk/government/news/uk-targets-sanctions-circumvention-and-crypto-networks-exploited-by-russia"],
+      ["Elliptic, EU sanctions against A7A5 and Payeer come into effect, 24 November 2025", "https://www.elliptic.co/blog/eu-sanctions-against-a7a5-and-payeer-come-into-effect"]
+     ],
+     "vf": "V"
+    },
+    {
+     "n": "Rybolovlev v. Sotheby's (SDNY, Judge Jesse Furman): jury verdict for Sotheby's, 30 January 2024",
+     "what": "The Art Newspaper reported that a Manhattan jury found for Sotheby's on all counts in the claim by Dmitry Rybolovlev's trusts, which sought at least US$190m over private sales of Leonardo's 'Salvator Mundi', Klimt's 'Wasserschlangen II', Magritte's 'Le Domaine d'Arnheim' and Modigliani's 'Tête', alleging the house helped Yves Bouvier overcharge. Sotheby's said the verdict 'totally vindicates Sotheby's of any alleged misconduct'. Daniel Kornstein, for the trusts, said the verdict 'only highlights the need for reforms, which must be made outside the courtroom'. Separately, on 7 December 2023 Geneva prosecutor Yves Bertossa closed the Swiss case after both parties agreed on 20 November and withdrew all complaints, the magistrate finding that the hearings 'did not provide any evidence to raise sufficient suspicion'; an earlier Monaco procedure had been annulled as 'partial and disloyal' to the defendant. Rybolovlev had accused Bouvier of overcharging him by EUR 1.1bn on EUR 2bn of 38 works bought 2003–2014; Bouvier denied wrongdoing and said he acted as a dealer free to set his margins.",
+     "outcome": "Sotheby's not liable; Swiss criminal case closed with complaints withdrawn; Monaco procedure annulled; global settlement under a non-disclosure agreement. The dispute turned on whether the intermediary was agent or principal: the lawful course is a written mandate stating which.",
+     "src": [
+      ["The Art Newspaper, Rybolovlev–Sotheby's fraud lawsuit verdict, 30 January 2024", "https://www.theartnewspaper.com/2024/01/30/rybolovlev-sothebys-fraud-lawsuit-verdict"],
+      ["The Art Newspaper, Dmitry Rybolovlev and Yves Bouvier settle nine-year feud, 8 December 2023", "https://www.theartnewspaper.com/2023/12/08/dmitry-rybolovlev-and-yves-bouvier-settle-nine-year-feud"]
+     ],
+     "vf": "S"
+    }
+   ],
+   "lawful": [
+    {
+     "who": "the US house, gallery or adviser",
+     "course": "Screen the buyer, the seller, the agent and the undisclosed principal against the SDN list and apply the 50% rule to any company; above US$100,000 run the full risk-based file; where an agent bids, ask for whom and record the answer, since the Senate report found the houses treated the agent as principal. If a blocked person's interest appears, stop and seek an OFAC licence or guidance; do not rely on the informational-materials exemption. Keep the screening printout; liability is strict.",
+     "src": [
+      ["OFAC advisory, 30 October 2020", "https://ofac.treasury.gov/media/49091/download"],
+      ["Senate PSI release, 29 July 2020", "https://www.hsgac.senate.gov/?p=107557"]
+     ],
+     "vf": "V"
+    },
+    {
+     "who": "the UK art market participant",
+     "course": "Register with HMRC before trading at EUR 10,000 or more (including a freeport operator storing art of that value). Run customer due diligence on the buyer and the beneficial owner. From 14 May 2025 report to OFSI as soon as practicable any knowledge or reasonable cause to suspect a designated person, with the nature and amount of any funds or economic resources held; on discovery stop dealing, freeze and report. Treat an entity controlled by a designated person as frozen. Refuse storage for a designated person and record transfers to third-party facilities.",
+     "src": [
+      ["HMRC, Money laundering supervision for art market participants", "https://www.gov.uk/guidance/money-laundering-supervision-for-art-market-participants"],
+      ["OFSI guidance, updated 12 May 2026", "https://www.gov.uk/government/publications/financial-sanctions-guidance-for-high-value-dealers-and-art-market-participants/financial-sanctions-guidance-for-high-value-dealers-art-market-participants"]
+     ],
+     "vf": "V"
+    },
+    {
+     "who": "the collector who uses an intermediary",
+     "course": "Sign a written mandate that states whether the intermediary acts as agent (with a disclosed fee) or as principal (free to set a margin), and who holds title between purchase and delivery; require invoices from the ultimate seller where the intermediary is an agent. The Bouvier–Rybolovlev record shows a nine-year dispute, a Monaco annulment, a Geneva closure and a New York verdict for the house, all turning on that question.",
+     "src": [
+      ["The Art Newspaper, 8 December 2023", "https://www.theartnewspaper.com/2023/12/08/dmitry-rybolovlev-and-yves-bouvier-settle-nine-year-feud"],
+      ["The Art Newspaper, 30 January 2024", "https://www.theartnewspaper.com/2024/01/30/rybolovlev-sothebys-fraud-lawsuit-verdict"]
+     ],
+     "vf": "S"
+    },
+    {
+     "who": "the payer anywhere",
+     "course": "Pay for art only by bank wire from an account in the buyer's own name or, where the house allows it, in Bitcoin, Ether or USD Coin from a named custodian. Never through a rouble stablecoin or an exchange in the A7/A7A5 network, which is designated in the US, the UK and the EU; a house or dealer that receives such a payment has received blocked property.",
+     "src": [
+      ["US Treasury, 14 August 2025", "https://home.treasury.gov/news/press-releases/sb0225"],
+      ["FCDO, 20 August 2025", "https://www.gov.uk/government/news/uk-targets-sanctions-circumvention-and-crypto-networks-exploited-by-russia"],
+      ["Sotheby's, Cryptocurrency FAQ", "https://www.sothebys.com/en/buy-sell/cryptocurrency-faq"]
+     ],
+     "vf": "V"
+    }
+   ],
+   "src": [
+    ["OFAC advisory, 30 October 2020", "https://ofac.treasury.gov/media/49091/download"],
+    ["US Treasury, jy0588, 4 February 2022", "https://home.treasury.gov/news/press-releases/jy0588"],
+    ["HMRC, Money laundering supervision for art market participants", "https://www.gov.uk/guidance/money-laundering-supervision-for-art-market-participants"],
+    ["OFSI guidance, updated 12 May 2026", "https://www.gov.uk/government/publications/financial-sanctions-guidance-for-high-value-dealers-and-art-market-participants/financial-sanctions-guidance-for-high-value-dealers-art-market-participants"],
+    ["Senate PSI release, 29 July 2020", "https://www.hsgac.senate.gov/?p=107557"],
+    ["US Department of Justice, 18 April 2023", "https://www.justice.gov/opa/pr/ofac-designated-hezbollah-financier-and-eight-associates-charged-multiple-crimes-arising-out"],
+    ["US Treasury, 14 August 2025", "https://home.treasury.gov/news/press-releases/sb0225"],
+    ["FCDO, 20 August 2025", "https://www.gov.uk/government/news/uk-targets-sanctions-circumvention-and-crypto-networks-exploited-by-russia"],
+    ["Elliptic, 24 November 2025", "https://www.elliptic.co/blog/eu-sanctions-against-a7a5-and-payeer-come-into-effect"],
+    ["The Art Newspaper, 8 December 2023", "https://www.theartnewspaper.com/2023/12/08/dmitry-rybolovlev-and-yves-bouvier-settle-nine-year-feud"],
+    ["The Art Newspaper, 30 January 2024", "https://www.theartnewspaper.com/2024/01/30/rybolovlev-sothebys-fraud-lawsuit-verdict"]
+   ],
+   "vf": "V",
+   "note": "The full Senate PSI report PDF was not opened; the Subcommittee's release stands for it. The EU regulation implementing the A7A5 transaction ban is cited through Elliptic; its number is unconfirmed. The OFAC 50% rule text was not in the advisory extract; it is stated from the Treasury release of 14 August 2025 (entities 50% or more owned by blocked persons are blocked)."
+  }
+ ],
+ "players": [
+  {
+   "id": "sothebys-financial-services",
+   "n": "Sotheby's Financial Services",
+   "kind": "art lender (house)",
+   "hq": {"city": "New York", "country": "United States"},
+   "offices": ["London", "Singapore", "Hong Kong"],
+   "scale": "Loans from US$1m to US$250m; more than US$13bn originated since inception; loan book about US$1.6bn at 31 December 2023; US$700m ArtFi Master Trust 2024-1 securitisation backed by 89 loans and more than 2,800 works worth about US$1.4bn",
+   "edge": "The only house lender with a rated securitisation; in-residence collateral in certain locations; closes in about six weeks",
+   "src": [
+    ["Sotheby's Financial Services, Financing", "https://www.sothebys.com/financing"],
+    ["The Art Newspaper, 23 May 2024", "https://www.theartnewspaper.com/2024/05/23/gray-market-sothebys-700m-art-backed-debt-security-explained"]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "athena-art-finance",
+   "n": "Athena Art Finance (Yieldstreet)",
+   "kind": "specialist art lender",
+   "hq": {"city": "New York", "country": "United States"},
+   "offices": [],
+   "scale": "Bought by Yieldstreet in 2019; about US$750m of art-backed loans written since 2015 (2024); Yieldstreet has offered eight art debt portfolios with a US$10,000 minimum",
+   "edge": "Retail-funded art debt",
+   "src": [
+    ["The Art Newspaper, 23 May 2024", "https://www.theartnewspaper.com/2024/05/23/gray-market-sothebys-700m-art-backed-debt-security-explained"],
+    ["The Art Newspaper, 8 March 2023", "https://www.theartnewspaper.com/2023/03/08/art-loans-spike-as-specialist-lenders-multiply"]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "borro",
+   "n": "Borro",
+   "kind": "pawn-style art lender",
+   "hq": {"city": "New York", "country": "United States"},
+   "offices": [],
+   "scale": "Minimum loan about US$10,000; rates 3% to 4% a month; non-recourse, short-term",
+   "edge": "Speed and small tickets; the only published rate found",
+   "src": [
+    ["The Art Newspaper, 8 March 2023", "https://www.theartnewspaper.com/2023/03/08/art-loans-spike-as-specialist-lenders-multiply"]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "bank-of-america-art-services",
+   "n": "Bank of America Private Bank, art credit",
+   "kind": "bank art lender",
+   "hq": {"city": "Charlotte", "country": "United States"},
+   "offices": [],
+   "scale": "Named as a leading art lender; growth of about 10% a year over 13 years reported by its national art credit executive Deborah Larrison (March 2023)",
+   "edge": "Bank balance sheet within a private-banking relationship",
+   "src": [
+    ["The Art Newspaper, 8 March 2023", "https://www.theartnewspaper.com/2023/03/08/art-loans-spike-as-specialist-lenders-multiply"]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "fine-art-group",
+   "n": "The Fine Art Group",
+   "kind": "adviser and art lender",
+   "hq": {"city": "London", "country": "United Kingdom"},
+   "offices": [],
+   "scale": "Chief executive of art finance Freya Stewart (March 2023) said the firm was negotiating eight to nine significant loans",
+   "edge": "Advisory, valuation and lending in one firm",
+   "src": [
+    ["The Art Newspaper, 8 March 2023", "https://www.theartnewspaper.com/2023/03/08/art-loans-spike-as-specialist-lenders-multiply"]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "le-freeport-singapore",
+   "n": "Le Freeport Singapore",
+   "kind": "free port",
+   "hq": {"city": "Singapore", "country": "Singapore"},
+   "offices": [],
+   "scale": "Built 2010 at an estimated US$70m; sold September 2022 by Yves Bouvier to Jihan Wu for a reported US$28.4m; 2018 losses US$13.1m and debt US$14.2m",
+   "edge": "Asia's purpose-built art free port",
+   "src": [
+    ["The Art Newspaper, 20 September 2022", "https://www.theartnewspaper.com/2022/09/20/swiss-art-dealer-yves-bouvier-sells-singapore-freeport-to-chinese-crypto-billionaire-jihan-wu-for-reported-284m"]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "shanghai-artworks-bonded-centre",
+   "n": "Shanghai International Artworks Bonded Service Center (Waigaoqiao FTZ)",
+   "kind": "bonded warehouse",
+   "hq": {"city": "Shanghai", "country": "China"},
+   "offices": [],
+   "scale": "Annual flows of relics and art through the bonded area over RMB 100bn by 2023, from RMB 35bn in 2013",
+   "edge": "Described as the world's largest artwork bonded warehouse; clearance, display, trade, settlement in one zone",
+   "src": [
+    ["Shanghai FTZ artwork trade, 1 August 2024", "https://english.pudong.gov.cn/chinashftz/2024-08/01/c_1010954.htm"]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "masterworks",
+   "n": "Masterworks",
+   "kind": "fractional art issuer (Regulation A)",
+   "hq": {"city": "New York", "country": "United States"},
+   "offices": [],
+   "scale": "Single-artwork Delaware LLCs; 1.5% annual fee in shares; 20% profit share; about US$110m of equity contributions to Masterworks in October 2021",
+   "edge": "The largest SEC-qualified fractional art programme",
+   "src": [
+    ["Masterworks 202, LLC, Form 1-K FY2025", "https://www.sec.gov/Archives/edgar/data/0001955063/000149315226020352/partii.htm"]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "artex-global-market",
+   "n": "ARTEX Global Market / Art Share 002 S.A.",
+   "kind": "art securities market and issuer",
+   "hq": {"city": "Luxembourg", "country": "Luxembourg"},
+   "offices": [],
+   "scale": "Art Share 002 S.A. holds Francis Bacon's 'Three Studies for Portrait of George Dyer' (1963) as sole asset; ticker BAC1EU; 2024 audited report delayed past 30 June 2025",
+   "edge": "Exchange-style listing of single works",
+   "src": [
+    ["Art Share 002 announcement, 27 June 2025", "https://www.benzinga.com/content/46133977/art-share-002-artx-bac1eu-announces-delay-in-annual-report-publication"]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "chicago-deferred-exchange",
+   "n": "Chicago Deferred Exchange Co.",
+   "kind": "qualified intermediary (1031)",
+   "hq": {"city": "Chicago", "country": "United States"},
+   "offices": [],
+   "scale": "Intermediary in the 2016 Giacometti–Cézanne 1031 exchange reported by the New York Times; said 'Mr. Epstein was not our client'",
+   "edge": "Shows the intermediary role that art exchanges used before 2018",
+   "src": [
+    ["New York Times via ArtDaily, 5 October 2023", "https://artdaily.com/news/162988/images/close.gif"]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "coinbase-commerce",
+   "n": "Coinbase Commerce (and the four other Sotheby's-approved custodians)",
+   "kind": "crypto payment processor and custodians",
+   "hq": {"city": "San Francisco", "country": "United States"},
+   "offices": [],
+   "scale": "Sotheby's accepts crypto only through a Coinbase Commerce link from wallets at Coinbase Custody Trust, Coinbase Inc., Fidelity Digital Assets Services, Gemini Trust Company or Paxos Trust Company",
+   "edge": "The named rails for crypto settlement at a major house",
+   "src": [
+    ["Sotheby's, Cryptocurrency FAQ", "https://www.sothebys.com/en/buy-sell/cryptocurrency-faq"]
+   ],
+   "vf": "V"
+  }
+ ],
+ "unconfirmed": [
+  "UK Russia Regulations regulation 21: 'person connected with Russia' means an individual ordinarily resident or located in Russia, or a body incorporated or domiciled in Russia (from memory; not opened).",
+  "Bank of Russia limits on transfers abroad by individuals (US$1m a month to accounts abroad; US$10,000 a month through money-transfer systems) (from memory; the 1 September 2026 releases opened cover cash only).",
+  "Whether dealers in works of art are designated non-financial businesses under UAE Cabinet Decision 134 of 2025 (not found in the pages opened).",
+  "Christie's Hong Kong high-value lot pre-registration deposit (from memory; not in the 7 May 2026 terms opened).",
+  "Sotheby's Hong Kong and Phillips Hong Kong conditions of business (not opened).",
+  "Geneva Freeport ownership by the Canton of Geneva (about 86%) and the number of works stored (from memory).",
+  "UCC §§ 9-310 and 9-313 text (not opened).",
+  "The 2023 Commission FAQ on luxury goods (26 July 2023) could not be opened because of a redirect."
+ ]
+}

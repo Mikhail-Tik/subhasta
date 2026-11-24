@@ -482,6 +482,7 @@ russia = {k: EA['russia'].get(k) for k in ('state', 'law', 'src', 'vf') if EA.ge
 # ======================= v30 (23 Nov 2026): the South joins the Net; the official customs corridors (HS 97) =======================
 V30 = root / 'data' / 'research' / 'v30'
 SO = json.load(open(V30 / 'south.json', encoding='utf-8')) if (V30 / 'south.json').exists() else {}
+HELD_BACK = []    # (what, why): records held back from the page for want of a source or a place (the people rules); listed at the end
 TD = json.load(open(V30 / 'trade.json', encoding='utf-8')) if (V30 / 'trade.json').exists() else {}
 n_south_new = 0
 for p in SO.get('players', []):
@@ -516,7 +517,10 @@ TRADE_LL = {'US': ['New York', 40.71, -74.01], 'GB': ['London', 51.51, -0.13], '
             'LB': ['Beirut', 33.89, 35.5], 'GR': ['Athens', 37.98, 23.73], 'HU': ['Budapest', 47.5, 19.04], 'NO': ['Oslo', 59.91, 10.75], 'FI': ['Helsinki', 60.17, 24.94],
             'MY': ['Kuala Lumpur', 3.14, 101.69], 'PK': ['Karachi', 24.86, 67.01], 'BD': ['Dhaka', 23.81, 90.41], 'LK': ['Colombo', 6.93, 79.85], 'CL': ['Santiago', -33.45, -70.67],
             'PE': ['Lima', -12.05, -77.04], 'GH': ['Accra', 5.6, -0.19], 'ET': ['Addis Ababa', 9.02, 38.75], 'TZ': ['Dar es Salaam', -6.79, 39.28], 'UG': ['Kampala', 0.35, 32.58],
-            'MO': ['Macau', 22.2, 113.55], 'LI': ['Vaduz', 47.14, 9.52], 'PA': ['Panama City', 8.98, -79.52], 'UY': ['Montevideo', -34.9, -56.16], 'JE': ['Jersey', 49.21, -2.13]}
+            'MO': ['Macau', 22.2, 113.55], 'LI': ['Vaduz', 47.14, 9.52], 'PA': ['Panama City', 8.98, -79.52], 'UY': ['Montevideo', -34.9, -56.16], 'JE': ['Jersey', 49.21, -2.13],
+            'KZ': ['Almaty', 43.24, 76.95], 'AM': ['Yerevan', 40.18, 44.51], 'GE': ['Tbilisi', 41.72, 44.83], 'RS': ['Belgrade', 44.79, 20.45], 'UZ': ['Tashkent', 41.3, 69.24],
+            'AZ': ['Baku', 40.41, 49.87], 'BY': ['Minsk', 53.9, 27.57], 'UA': ['Kyiv', 50.45, 30.52], 'CY': ['Limassol', 34.68, 33.04], 'EE': ['Tallinn', 59.44, 24.75],
+            'LV': ['Riga', 56.95, 24.11], 'LT': ['Vilnius', 54.69, 25.28], 'KG': ['Bishkek', 42.87, 74.59], 'MN': ['Ulaanbaatar', 47.92, 106.92], 'IR': ['Tehran', 35.69, 51.39]}
 trade = {}
 if TD:
     tflows, held = [], 0
@@ -527,6 +531,29 @@ if TD:
     totals = [{'c': t['c'], 'name': t.get('name') or (TRADE_LL.get(t['c']) or [t['c']])[0], 'city': (TRADE_LL.get(t['c']) or [''])[0], 'exp': t.get('exp'), 'imp': t.get('imp'), 'hs': t.get('hs', '97'), 'year': t.get('year'), 'src': t.get('src') or [], 'vf': t.get('vf', 'S'), 'note': t.get('note', '')} for t in TD.get('totals', []) if t.get('c') and t.get('src')]
     trade = {'asof': TD.get('asof'), 'year': TD.get('year'), 'unit': TD.get('unit', 'US$ m'), 'hs': TD.get('hs', '97'), 'note': TD.get('note', ''), 'flows': sorted(tflows, key=lambda f: -f['v']), 'totals': totals, 'caveats': TD.get('caveats', []), 'unconfirmed': TD.get('unconfirmed', [])}
     if held: HELD_BACK.append((f'{held} trade corridors', 'no coordinates for the economy, or no value or source'))
+# v32: the Eurasian corridors (RU, TR, AE, HK, CN, KZ, AM, GE, RS …) from the partner side, chapter level only (HS 97), one row per corridor and year
+V32 = root / 'data' / 'research' / 'v32'
+EU = json.load(open(V32 / 'eurasia-trade.json', encoding='utf-8')) if (V32 / 'eurasia-trade.json').exists() else {}
+if trade and EU:
+    seen = {(f['from'], f['to'], f.get('year')) for f in trade['flows']}
+    added, held2 = 0, 0
+    for f in EU.get('flows', []):
+        if str(f.get('hs', '')) != '97': continue
+        a, b = TRADE_LL.get(f.get('from')), TRADE_LL.get(f.get('to'))
+        key = (f.get('from'), f.get('to'), f.get('year'))
+        if not a or not b or not f.get('v') or not f.get('src'): held2 += 1; continue
+        if key in seen: continue
+        seen.add(key); added += 1
+        trade['flows'].append({'from': f['from'], 'to': f['to'], 'a': [a[0], a[1], a[2]], 'b': [b[0], b[1], b[2]], 'hs': '97', 'year': f.get('year'), 'v': f['v'], 'src': f['src'], 'vf': f.get('vf', 'S'), 'note': f.get('note', ''), 'reporter': f.get('reporter', '')})
+    trade['flows'].sort(key=lambda f: -f['v'])
+    trade['caveats'] = list(trade.get('caveats', [])) + [c for c in EU.get('caveats', []) if c]
+    trade['unconfirmed'] = list(trade.get('unconfirmed', [])) + [u for u in EU.get('unconfirmed', []) if u]
+    have_tot = {t['c'] for t in trade['totals']}
+    for t in EU.get('totals', []):
+        if t.get('c') and t['c'] not in have_tot and (t.get('exp') or t.get('imp')):
+            trade['totals'].append({'c': t['c'], 'name': t.get('name') or (TRADE_LL.get(t['c']) or [t['c']])[0], 'city': (TRADE_LL.get(t['c']) or [''])[0], 'exp': t.get('exp'), 'imp': t.get('imp'), 'hs': t.get('hs', '97'), 'year': t.get('year'), 'src': t.get('src') or [], 'vf': t.get('vf', 'S'), 'note': t.get('note', '')})
+    trade['eurasia'] = {'asof': EU.get('asof'), 'status': EU.get('status', ''), 'added': added}
+    if held2: HELD_BACK.append((f'{held2} Eurasian corridors', 'no coordinates for the economy, or no value or source'))
 # the vaults: free ports, bonded stores and storage, with their people and their published contact lines
 vaults = []
 for v in VA.get('vaults', []):
@@ -567,7 +594,7 @@ def clean_people_line(x):   # the people rules of the v27 brief: nothing is adde
 # the collectors join the Net as kind 'collector' (a collector the Net already has is extended)
 n_coll_new = 0
 LINKS_HELD = []   # (collector, kind, what): the unsourced links held back from the page
-HELD_BACK = []    # (what, why): records held back from the page for want of a source (the people rules)
+HELD_BACK = HELD_BACK if 'HELD_BACK' in globals() else []    # (what, why): records held back from the page for want of a source (the people rules)
 # the cities the globe knows (src/data_places.js CITY_LL), so a collector whose base names no city can sit where the record says the collection is
 _pl = (root / 'src' / 'data_places.js').read_text(encoding='utf-8')
 _m = re.search(r'const CITY_LL=(\{.*?\});', _pl, re.S)
@@ -694,6 +721,109 @@ def clean_file(f):
 walls = {'asof': WA.get('asof') or asof}
 if WA.get('kandinsky'): walls['kandinsky'] = clean_file(WA['kandinsky'])
 walls['files'] = [x for x in [clean_file(f) for f in (WA.get('files') or [])] if x and x.get('id')]
+def v32_players():
+    global CAP, KIND_MAP, kind_of, first_sentence, add_player, wire, markets
+    # v32: the players the two research files name — Moscow's houses and fairs, the lenders, the free ports, the digital rails — join the Net;
+    # the kinds are read into the Net's own vocabulary; a player without a source stays out
+    CAP = json.load(open(V32 / 'capital.json', encoding='utf-8')) if (V32 / 'capital.json').exists() else {}
+    KIND_MAP = [('free port', 'freeport'), ('freeport', 'freeport'), ('bonded', 'storage'), ('storage', 'storage'), ('lender', 'lender'), ('adviser', 'advisor'), ('advisor', 'advisor'),
+                ('fractional', 'fund'), ('securities', 'fund'), ('fund', 'fund'), ('intermediary', 'law'), ('law', 'law'), ('crypto', 'payments'), ('payment', 'payments'),
+                ('aggregator', 'data'), ('platform', 'data'), ('data', 'data'), ('fair', 'fair'), ('auction', 'house'), ('house', 'house'), ('insur', 'insurer'), ('shipp', 'shipper'), ('gallery', 'dealer'), ('dealer', 'dealer')]
+    def kind_of(k, fallback='dealer'):
+        k = (k or '').lower()
+        for a, b in KIND_MAP:
+            if a in k: return b
+        return fallback
+    def first_sentence(t, n=220):
+        t = unmem(clean_people_line(str(t or '')))
+        return (t.split('. ')[0]).strip()[:n]
+    n_v32_new = 0
+    def add_player(row, tag):
+        global n_v32_new
+        if not row.get('id') or not row.get('n') or not row.get('src'): return
+        row = {k: v for k, v in row.items() if v not in (None, '', [], {})}
+        row[tag] = True
+        if row['id'] in have:
+            cur = have[row['id']]
+            for k, v in row.items():
+                if k in ('offices', 'people', 'represents', 'src') and isinstance(v, list): cur[k] = (cur.get(k) or []) + [x for x in v if x not in (cur.get(k) or [])]
+                elif k not in cur or cur.get(k) in (None, '', [], {}): cur[k] = v
+        else:
+            players.append(row); have[row['id']] = row; n_v32_new += 1
+    for h in (EU.get('houses') or []):
+        city = (h.get('city') or 'Moscow').split('/')[0].split('(')[0].strip() or 'Moscow'
+        kind = 'fair' if h.get('id') == 'fairs' else kind_of(h.get('n', '') + ' ' + h.get('scale', ''), 'house')
+        add_player({'id': h.get('id'), 'n': unmem(h.get('n')), 'kind': kind, 'hq': {'city': city, 'country': 'Russia'}, 'scale': unmem(clean_people_line(h.get('scale'))), 'edge': first_sentence(h.get('scale')), 'src': h.get('src'), 'vf': h.get('vf', 'S')}, 'east')
+    for p_ in (CAP.get('players') or []):
+        hq = p_.get('hq') if isinstance(p_.get('hq'), dict) else {'city': p_.get('city') or ''}
+        add_player({'id': p_.get('id'), 'n': unmem(p_.get('n')), 'kind': kind_of(p_.get('kind'), 'lender'), 'hq': {'city': hq.get('city') or '', 'country': hq.get('country') or ''}, 'offices': [o if isinstance(o, str) else (o.get('city') or '') for o in (p_.get('offices') or [])],
+                    'scale': unmem(clean_people_line(p_.get('scale'))), 'edge': first_sentence(p_.get('edge') or p_.get('scale')), 'people': p_.get('people') or [], 'owner': unmem(p_.get('owner')) if isinstance(p_.get('owner'), str) else None, 'src': p_.get('src'), 'vf': p_.get('vf', 'S'), 'note': unmem(p_.get('note')) if isinstance(p_.get('note'), str) else None}, 'capital')
+    # the collectibles beyond painting (data/research/v32/collectibles.json): 14 categories as NET_CATEGORIES; their players, collectors,
+    # markets and wire join the Net. A city the globe does not know is added to CITY_LL from the research's own coordinates.
+    global COL, categories, new_cities
+    COL = json.load(open(V32 / 'collectibles.json', encoding='utf-8')) if (V32 / 'collectibles.json').exists() else {}
+    categories, new_cities = [], {}
+    known = set(CITY_KEYS)
+    def city_key(raw, lat=None, lon=None):
+        raw = (raw or '').strip()
+        if not raw or raw.lower().startswith('united states'): return None
+        base = raw.split('/')[0].split('(')[0].strip()
+        inner = raw[raw.find('(') + 1:raw.find(')')].strip() if '(' in raw and ')' in raw else ''
+        if base in known: return base
+        if inner in known: return inner
+        if base and lat is not None and lon is not None:
+            new_cities[base] = [round(float(lon), 2), round(float(lat), 2)]; known.add(base); return base
+        return city_in(raw)
+    for c in (COL.get('categories') or []):
+        if not c.get('id') or not c.get('n'): continue
+        categories.append({k: (unmem(clean_people_line(c.get(k))) if isinstance(c.get(k), str) and k in ('size', 'record', 'note') else c.get(k)) for k in ('id', 'n', 'size', 'record', 'hubs', 'players', 'walls', 'note', 'src', 'vf') if c.get(k) not in (None, '', [], {})})
+    for p_ in (COL.get('players') or []):
+        hq = p_.get('hq') if isinstance(p_.get('hq'), dict) else {}
+        ck = city_key(hq.get('city'), hq.get('lat'), hq.get('lon'))
+        if not ck: HELD_BACK.append((p_.get('n') or p_.get('id'), 'collectibles player without a city')); continue
+        add_player({'id': p_.get('id'), 'n': unmem(p_.get('n')), 'kind': kind_of(p_.get('kind'), 'dealer'), 'hq': {'city': ck, 'country': hq.get('country') or ''}, 'offices': [o if isinstance(o, str) else (o.get('city') or '') for o in (p_.get('offices') or [])],
+                    'people': p_.get('people') or [], 'represents': p_.get('represents') or [], 'owner': unmem(p_.get('owner')) if isinstance(p_.get('owner'), str) else None, 'scale': unmem(clean_people_line(p_.get('scale'))), 'edge': first_sentence(p_.get('edge') or p_.get('scale')),
+                    'src': p_.get('src'), 'vf': p_.get('vf', 'S'), 'note': unmem(p_.get('note')) if isinstance(p_.get('note'), str) else None, 'cat': p_.get('cat') or p_.get('category') or ''}, 'collectible')
+    for co in (COL.get('collectors') or []):
+        if not co.get('n') or not co.get('src'): continue
+        ck = city_key(co.get('city'))
+        if not ck: HELD_BACK.append((co['n'], 'collectibles collector without a city')); continue
+        add_player({'id': 'col-' + slug_of(co['n'])[:40], 'n': unmem(co['n']), 'kind': 'collector', 'hq': {'city': ck}, 'scale': unmem(clean_people_line(co.get('what'))), 'edge': first_sentence(co.get('what')), 'src': co.get('src'), 'vf': co.get('vf', 'S'), 'note': unmem(clean_people_line(co.get('note'))) if co.get('note') else None}, 'collectible')
+    for m in (COL.get('markets') or []):
+        ck = city_key(m.get('city'), m.get('lat'), m.get('lon'))
+        if not ck or not m.get('role') or not m.get('src'): continue
+        text = unmem(clean_people_line(m['role']))
+        cur = next((x for x in markets if x['city'] == ck), None)
+        if cur: cur['beyond'] = text; cur['beyond_src'] = m.get('src'); cur['beyond_vf'] = m.get('vf', 'S'); cur['rooms'] = m.get('rooms') or cur.get('rooms')
+        else: markets.append({'city': ck, 'role': text, 'src': m.get('src'), 'vf': m.get('vf', 'S'), 'rooms': m.get('rooms') or [], 'beyond_only': True}); have_m.add(ck)
+    for w in (COL.get('wire') or []):
+        if not w.get('d') or not w.get('t') or not w.get('src'): continue
+        ck = city_key(w.get('city')) or (w.get('city') or '')
+        wire.append({'d': w['d'], 'city': ck, 't': unmem(clean_people_line(w['t'])), 'src': w['src'], 'vf': w.get('vf', 'S'), 'cat': w.get('cat') or ''})
+    wire.sort(key=lambda w: w['d'], reverse=True)
+    if new_cities:
+        global _pl
+        m_ = re.search(r'const CITY_LL=(\{.*?\});', _pl, re.S)
+        C = json.loads(m_.group(1)); C.update(new_cities)
+        _pl = _pl[:m_.start(1)] + json.dumps(C, ensure_ascii=False, separators=(',', ':')) + _pl[m_.end(1):]
+        (root / 'src' / 'data_places.js').write_text(_pl, encoding='utf-8')
+        CITY_KEYS[:] = sorted(C.keys(), key=len, reverse=True)
+    if EU.get('moscow') and EU['moscow'].get('dossier'):
+        russia['corridors'] = unmem(clean_people_line(EU['moscow']['dossier'])); russia['corridors_src'] = EU['moscow'].get('src') or []; russia['corridors_vf'] = EU['moscow'].get('vf', 'S'); russia['corridors_asof'] = EU.get('asof')
+n_v32_new = 0
+v32_players()
+# v32: the capital-mobility files (collateral, barter, structures, digital rails, free ports, weak currency) and the Russian corridors file join the Walls
+have_files = {f['id'] for f in walls['files']}
+for f in (CAP.get('files') or []):
+    cf = clean_file(f)
+    if cf and cf.get('id') and cf['id'] not in have_files:
+        cf['v32'] = True; walls['files'].append(cf); have_files.add(cf['id'])
+if EU and EU.get('walls'):
+    rf = clean_file({'id': 'russia-corridors', 'n': 'Russia’s art corridors since 2022: the walls on every side, and what the partners’ customs books show',
+                     'summary': (EU.get('moscow') or {}).get('dossier') or '', 'walls': EU.get('walls') or [], 'cases': EU.get('routes') or [], 'lawful': [],
+                     'src': (EU.get('moscow') or {}).get('src') or [], 'vf': (EU.get('moscow') or {}).get('vf', 'S'), 'asof': EU.get('asof')})
+    if rf and 'russia-corridors' not in have_files: rf['v32'] = True; walls['files'].append(rf)
+walls['unconfirmed'] = list(walls.get('unconfirmed') or []) + [u for u in (CAP.get('unconfirmed') or []) if isinstance(u, str)] + [u for u in (EU.get('unconfirmed') or []) if isinstance(u, str)]
 sources = {'asof': SO.get('asof') or asof, 'sources': [{kk: unmem(s.get(kk)) if isinstance(s.get(kk), str) else s.get(kk) for kk in ('id', 'n', 'kind', 'who', 'cadence', 'good_for', 'price', 'record', 'how_to_read', 'url', 'src', 'vf') if s.get(kk) not in (None, '')} for s in (SO.get('sources') or []) if isinstance(s, dict) and s.get('n')], 'next': [n for n in (SO.get('next') or []) if isinstance(n, dict) and n.get('what')]}
 for s_ in sources['sources']:
     if not s_.get('id'): s_['id'] = slug_of(s_['n'])[:40]
@@ -735,8 +865,8 @@ head_n += """   v26 adds: NET_WIRE (what happened in the East, 2025–26, by dat
    NET_TRADE: the official customs corridors of works of art (HS 97) — flows from economy to economy with the trade city of each,
    the totals by economy, the caveats, as read on mirrors of UN Comtrade and in the Art Basel & UBS report (flag S). */
 """
-(root / 'src' / 'data_net.js').write_text(head_n + f"const NET_ASOF='{asof}';\n" + js('NET_PLAYERS', players) + js('NET_MARKETS', markets) + js('LOT_FIN', lot_fin) + js('NET_FLOWS', flows) + js('NET_YEARS', years) + js('NET_NEW_LOTS', new_lots) + js('TRANSFORM', transform) + js('NET_WIRE', wire) + js('NET_RUSSIA', russia) + js('VAULTS', vaults) + js('VAULT_CITIES', vault_cities) + js('DEAL', deal) + js('NET_TRADE', trade) + js('PITCH', pitch) + js('OPEN_FEEDS', feeds) + js('HOLD_VEHICLES', vehicles) + js('TIDES', tides) + js('CURRENTS', currents) + js('WHISPERS', whispers) + js('PLAYBOOKS', playbooks) + js('CASES', worked) + js('WALLS', walls) + js('SOURCES', sources) + js('HOUSE_VALUE', value) + js('TECH_EDGE', tech), encoding='utf-8')
-print(f"wrote src/data_net.js: {len(players)} players ({n_east_new} from the East, {n_south_new} from the South; {len(trade.get('flows', []))} customs corridors), {len(markets)} markets, {len(lot_fin)} lots with their money ({len(new_lots)} new), {len(flows)} flows, {len(transform.get('stages', []))} transformation stages; {len(wire)} wire lines; {len(vaults)} vaults in {len(vault_cities)} cities; deal: {len(deal.get('terms', []))} terms, {len(deal.get('cases', []))} cases, {len(deal.get('people', []))} people; pitch: {len(pitch.get('roles', []))} roles, {len(pitch.get('tools', []))} tools, {len(pitch.get('functions', []))} functions; feeds: {len(feeds['apis'])} APIs, {len(feeds['datasets'])} datasets; v27: {n_coll_new} collectors new, {len(tides.get('tides', []))} tides, {len(tides.get('temperatures', []))} temperatures, {len(currents.get('cases', []))} cases, {len(whispers.get('whispers', []))} whispers, {len(playbooks.get('playbooks', []))} playbooks; v28: {len(cases)} worked cases, {len(walls.get('files', []))} files beside the Kandinsky ({'present' if walls.get('kandinsky') else 'absent'}), {len(sources['sources'])} sources, {len(value.get('gaps', []))} gaps, {len(tech.get('attempts', []))} attempts")
+(root / 'src' / 'data_net.js').write_text(head_n + f"const NET_ASOF='{asof}';\n" + js('NET_PLAYERS', players) + js('NET_MARKETS', markets) + js('LOT_FIN', lot_fin) + js('NET_FLOWS', flows) + js('NET_YEARS', years) + js('NET_NEW_LOTS', new_lots) + js('TRANSFORM', transform) + js('NET_WIRE', wire) + js('NET_CATEGORIES', categories) + js('NET_RUSSIA', russia) + js('VAULTS', vaults) + js('VAULT_CITIES', vault_cities) + js('DEAL', deal) + js('NET_TRADE', trade) + js('PITCH', pitch) + js('OPEN_FEEDS', feeds) + js('HOLD_VEHICLES', vehicles) + js('TIDES', tides) + js('CURRENTS', currents) + js('WHISPERS', whispers) + js('PLAYBOOKS', playbooks) + js('CASES', worked) + js('WALLS', walls) + js('SOURCES', sources) + js('HOUSE_VALUE', value) + js('TECH_EDGE', tech), encoding='utf-8')
+print(f"wrote src/data_net.js: {len(players)} players ({n_east_new} from the East, {n_south_new} from the South, {n_v32_new} from v32; {len(trade.get('flows', []))} customs corridors), {len(markets)} markets, {len(lot_fin)} lots with their money ({len(new_lots)} new), {len(flows)} flows, {len(transform.get('stages', []))} transformation stages; {len(wire)} wire lines; {len(vaults)} vaults in {len(vault_cities)} cities; deal: {len(deal.get('terms', []))} terms, {len(deal.get('cases', []))} cases, {len(deal.get('people', []))} people; pitch: {len(pitch.get('roles', []))} roles, {len(pitch.get('tools', []))} tools, {len(pitch.get('functions', []))} functions; feeds: {len(feeds['apis'])} APIs, {len(feeds['datasets'])} datasets; v27: {n_coll_new} collectors new, {len(tides.get('tides', []))} tides, {len(tides.get('temperatures', []))} temperatures, {len(currents.get('cases', []))} cases, {len(whispers.get('whispers', []))} whispers, {len(playbooks.get('playbooks', []))} playbooks; v28: {len(cases)} worked cases, {len(walls.get('files', []))} files beside the Kandinsky ({'present' if walls.get('kandinsky') else 'absent'}), {len(sources['sources'])} sources, {len(value.get('gaps', []))} gaps, {len(tech.get('attempts', []))} attempts")
 for what, why in HELD_BACK: print(f'  held back from the page: {what} — {why}')
 if LINKS_HELD:
     import collections as _c

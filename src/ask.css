@@ -50,7 +50,7 @@ body.navtight .navmore,body.navtight .navmore.on{display:flex;position:static;fl
 .tdask p{font-family:var(--read);font-size:16px;line-height:1.55;color:#d9d2c2;margin:0 0 20px;max-width:58ch}
 .tdaskbar{display:flex;gap:8px;max-width:680px}
 .tdaskbar input{font-family:var(--read);font-size:17px;padding:14px 16px;background:rgba(246,241,230,.97);color:#16201b;border:1px solid rgba(246,241,230,.6);border-radius:999px}
-.tdaskbar input::placeholder{color:#6d6a61}
+.tdaskbar input::placeholder{color:var(--ink3)}
 .tdaskbar .btn{padding:0 24px;font-size:15px;background:var(--live);border-color:var(--live);color:var(--onlive);border-radius:999px;font-weight:600}
 .tdex{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px;max-width:720px}
 .tdask .askq{background:rgba(8,10,14,.55);color:#e9e2d2;border-color:rgba(226,196,126,.45)}

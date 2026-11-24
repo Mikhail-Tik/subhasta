@@ -6,11 +6,15 @@
 .wd{--wdx:max(24px,calc(50vw - 660px));position:relative;overflow:hidden;background:
   radial-gradient(1100px 760px at 64% 48%,color-mix(in srgb,var(--paper2) 55%,var(--ground)) 0%,var(--ground) 62%)}
 .wd-stage{position:relative;width:100%;min-height:360px}
-.wd-cv{display:block;cursor:grab;touch-action:none;outline-offset:-4px}
+.wd-cvs{position:relative;display:block}.wd-pl{position:absolute;inset:0;display:block;pointer-events:none}
+.wd-cv{position:relative;display:block;cursor:grab;touch-action:none;outline-offset:-4px}
 .wd-cv:focus-visible{outline:2px solid var(--live)}
 .wd-nocanvas{height:60vh;min-height:360px}
 /* the lead */
 .wd-lead{position:absolute;left:var(--wdx);top:min(7vh,64px);width:min(460px,37vw);z-index:2;pointer-events:none}
+/* v32: when the globe is close its limb passes under the panel; a paper backdrop keeps the lead, the controls and the legend legible, fading to the globe */
+.wd-stage::before{content:"";position:absolute;left:0;top:0;bottom:0;width:calc(var(--wdx) + min(460px,37vw) + 56px);z-index:1;pointer-events:none;background:linear-gradient(90deg,var(--ground) 0,var(--ground) 74%,transparent);opacity:0;transition:opacity .45s var(--ease,ease)}
+.wd.wd-zoomed .wd-stage::before{opacity:1}
 .wd-lead>*{pointer-events:auto}
 .wd-eye{color:var(--live)}
 .wd-h1{font-family:var(--display);font-weight:400;font-size:clamp(34px,4.1vw,60px);}
@@ -110,8 +114,8 @@
   #v-world{margin-top:-28px}
   .wd{background:var(--ground)}
   .wd-stage{display:flex;flex-direction:column;height:auto!important}
-  .wd-lead{order:-1}.wd-cv,.wd-nocanvas{order:0}.wd-rail{order:1}.wd-foot{order:2}
-  .wd-lead,.wd-foot{position:static;width:auto;padding:22px 16px 0}
+  .wd-lead{order:-1}.wd-cvs,.wd-nocanvas{order:0}.wd-rail{order:1}.wd-foot{order:2}
+  .wd-lead,.wd-foot{position:static;width:auto;padding:22px 16px 0}.wd-stage::before{display:none}
   .wd-foot{padding:8px 16px 12px}
   .wd[data-mode="then"] .wd-foot{bottom:auto}
   .wd-h1{font-size:34px}
@@ -165,13 +169,15 @@
 .wd-more p{font-size:13px;margin-top:4px}
 .wd-cityk{background:none;border:0;padding:0;font:inherit;color:var(--ink);cursor:pointer;text-decoration:underline;text-decoration-color:var(--rule2)}
 .wd-cityk:hover{text-decoration-color:var(--ink)}
-.wd-ev.player b,.wd-ev.lot b{display:block}
+.wd-ev.player b,.wd-ev.lot b,.wd-ev.cat b{display:block}
+.wd-ev.cat,.wd-ev.player{grid-template-columns:minmax(120px,42%) minmax(0,1fr)}.wd-ev.cat span,.wd-ev.player span{color:var(--ink2);font-size:12.5px;line-height:1.4;min-width:0}.wd-ev.cat b,.wd-ev.player b{min-width:0;overflow-wrap:anywhere}
+.wd-cities{display:flex;flex-wrap:wrap;gap:6px}.wd-cities .tag{font-size:12px;color:var(--ink2);border:1px solid var(--rule);border-radius:999px;padding:2px 9px}
 .wd-person{font-size:13px;line-height:1.4;margin:0 0 6px}
 .wd-person .faint{font-size:12px}
 .wd-acts{display:flex;flex-wrap:wrap;gap:6px}
 /* the seven years and the markets: cards from the Net's controls */
-.wd-legend .wd-years,.wd-legend .wd-markets{border:1px solid var(--gilt);border-radius:12px;padding:2px 9px;font-size:11.5px;color:var(--gilt);background:transparent;cursor:pointer;margin-left:2px}
-.wd-legend .wd-years:hover,.wd-legend .wd-markets:hover{background:var(--gilt);color:var(--ongilt)}
+.wd-legend .wd-years,.wd-legend .wd-markets,.wd-legend .wd-cats{border:1px solid var(--gilt);border-radius:12px;padding:2px 9px;font-size:11.5px;color:var(--gilt);background:transparent;cursor:pointer;margin-left:2px}
+.wd-legend .wd-years:hover,.wd-legend .wd-markets:hover,.wd-legend .wd-cats:hover{background:var(--gilt);color:var(--ongilt)}
 .wd-year b,.wd-market b{display:inline-block;font-size:14px;margin-right:6px}
 .wd-year p,.wd-market p{font-size:13px;line-height:1.45;margin:4px 0}
 .wd-year p .label{display:inline;margin-right:4px}
@@ -202,3 +208,6 @@
 /* v29.1: the corridors in the Net's card */
 .wd-cor{margin:0 0 14px}.wd-cor h4{margin:0 0 4px;font-family:var(--ui);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--gilt)}.wd-cor p{margin:0 0 8px;font-size:12px;line-height:1.45}.wd-cort{width:100%;border-collapse:collapse;font-size:12px;font-family:var(--ui)}.wd-cort th{text-align:left;font-weight:600;color:var(--ink2);padding:3px 6px 3px 0;border-bottom:1px solid var(--rule)}.wd-cort td{padding:3px 6px 3px 0;border-bottom:1px solid var(--rule)}.wd-cort td:nth-child(n+2){text-align:right;white-space:nowrap}.wd-cort tr.in td:first-child{border-left:3px solid var(--gilt);padding-left:6px}.wd-cort tr.out td:first-child{border-left:3px solid var(--lapis,#4c6fa5);padding-left:6px}
 .wd-legend i.trade{background:var(--claret,#8a2a2a);height:2px;width:14px;border-radius:0;display:inline-block;vertical-align:middle;margin-right:6px}.wd-cort tr.tr td:first-child{border-left:3px solid var(--claret,#8a2a2a);padding-left:6px}
+/* v31.1: the city dossier — the players folded by kind; a second label inside a section; the sources under the market paragraph */
+.wd-kind{margin:0 0 6px}.wd-kind summary{cursor:pointer;font-family:var(--read);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);padding:6px 0;list-style:none}.wd-kind summary::-webkit-details-marker{display:none}.wd-kind summary::before{content:"+ ";color:var(--ink3)}.wd-kind[open] summary::before{content:"− "}
+.wd-sec .label.sub{display:block;margin-top:10px}.wd-src a{color:inherit}.wd-mk p{font-family:var(--read);font-size:15px;line-height:1.5}

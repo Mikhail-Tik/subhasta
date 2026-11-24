@@ -1,0 +1,80 @@
+{
+ "flows": [
+  {
+   "from": "US",
+   "to": "GB",
+   "hs": "97",
+   "year": 2025,
+   "v": 2360,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), US exports to UK, 2025",
+     "https://tradingeconomics.com/united-states/exports/united-kingdom/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter US. Paintings $1.79bn, sculpture $251m, antiques $182m, prints $74m, collections $69m."
+  },
+  {
+   "from": "GB",
+   "to": "US",
+   "hs": "97",
+   "year": 2025,
+   "v": 1440,
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), UK exports to US, 2025",
+     "https://tradingeconomics.com/united-kingdom/exports/united-states/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S",
+   "note": "Reporter GB. Paintings $661m, sculpture $250m, collections $239m, antiques $209m, prints $84m."
+  }
+ ],
+ "totals": [
+  {
+   "c": "US",
+   "name": "United States",
+   "exp": 10300,
+   "imp": 8800,
+   "hs": "97",
+   "year": 2024,
+   "src": [
+    [
+     "Art Basel & UBS Art Market Report 2025, p.25 (USITC data)",
+     "https://theartmarket.artbasel.com/download/The-Art-Basel-and-UBS-Art-Market-Report-2025.pdf"
+    ],
+    [
+     "Art Basel & UBS Art Market Report 2026, ch.1 (US imports 2025)",
+     "https://theartmarket.artbasel.com/global-sales"
+    ]
+   ],
+   "vf": "S",
+   "note": "2024: imports fell 15% to $8.8bn, exports fell 7% to $10.3bn; France, the UK and Germany took 56% of imports and 41% of exports; China 13% of exports (4th destination). 2025 (2026 report): imports $9.9bn, +13%; exports down 1% in value (no dollar figure given)."
+  }
+ ],
+ "caveats": [
+  {
+   "t": "Customs figures are values declared at the border by the reporting economy, not sales. Mirror rows disagree: the UK declares US$1.44bn of HS 97 exports to the US for 2025 while the US declares US$1.63bn of imports from the UK; Switzerland declares US$813m of exports to the US while the US records US$188m of imports from Switzerland; Hong Kong declares US$464m of exports to the UK while the UK records US$8.3m of imports from Hong Kong. Goods in transit, consignment moves, valuation rules and declaration points explain the gaps; the globe should show which side reported each arrow.",
+   "src": [
+    [
+     "Trading Economics (UN Comtrade), UK exports to US, 2025",
+     "https://tradingeconomics.com/united-kingdom/exports/united-states/works-art-collectors-pieces-antiques"
+    ],
+    [
+     "Trading Economics (UN Comtrade), US imports from UK, 2025",
+     "https://tradingeconomics.com/united-states/imports/united-kingdom/works-art-collectors-pieces-antiques"
+    ],
+    [
+     "Trading Economics (UN Comtrade), US imports from Switzerland, 2025",
+     "https://tradingeconomics.com/united-states/imports/switzerland/works-art-collectors-pieces-antiques"
+    ],
+    [
+     "Trading Economics (UN Comtrade), UK imports from Hong Kong, 2025",
+     "https://tradingeconomics.com/united-kingdom/imports/hong-kong/works-art-collectors-pieces-antiques"
+    ]
+   ],
+   "vf": "S"
+  }
+ ]
+}

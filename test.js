@@ -142,7 +142,13 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
    q('.wd-legend .wd-years').click();assert(!q('.wd-card').hidden&&qa('.wd-card .wd-year').length===7&&qa('.wd-card [data-wyear]').length>=5,'the seven years card lists each year with its sales');
    q('.wd-card [data-wyear="2022"]').click();assert(w.__WORLD.net().playing&&q('.wd-card').hidden,'a year replays on its own');w.__WORLD.replay(false);
    q('.wd-legend .wd-markets').click();assert(qa('.wd-card .wd-market').length===G('NET_MARKETS.length')&&qa('.wd-card .wd-market [data-wcity]').length>=10,'the markets card opens every market, most with a city on the net');
-   w.__WORLD.netCity('Paris');assert(/Paris on the net/.test(q('.wd-ck').textContent)&&qa('.wd-card .wd-ev.player').length>=5,'Paris lists its players, read from addresses in parentheses');
+   w.__WORLD.netCity('Paris');assert(q('.wd-ch').textContent==='Paris'&&/players/.test(q('.wd-ck').textContent)&&qa('.wd-card .wd-ev.player').length>=5&&qa('.wd-card details.wd-kind').length>=2&&q('.wd-card .wd-mk'),'Paris opens as a dossier: the market, its players folded by kind');
+   /* v32: Moscow has its arcs and its corridors story; the collectibles beyond painting; the landmarks */
+   assert(G('NET_TRADE.flows').filter(f=>f.from==='RU'||f.to==='RU').length>=5,'the Eurasian corridors give Moscow its arcs');
+   w.__WORLD.netCity('Moscow');assert(q('.wd-ch').textContent==='Moscow'&&[...qa('.wd-card .wd-sec .label')].some(l=>/customs corridors/.test(l.textContent))&&[...qa('.wd-card details.wd-more summary')].some(x=>/corridors since 2022/.test(x.textContent)),'Moscow’s dossier lists its corridors and the corridors story');
+   assert(w.__WORLD.cats()>=12,'the categories beyond painting are on the Net');w.__WORLD.category('watches');assert(/Watches/.test(q('.wd-ch').textContent)&&qa('.wd-card .wd-ev.player').length>=2&&qa('.wd-card [data-wcity]').length>=1,'a category opens with its players and its rooms');
+   w.__WORLD.netCity('Tokyo');assert(qa('.wd-card [data-cat]').length>=1&&[...qa('.wd-card .wd-sec .label')].some(l=>/Beyond painting/.test(l.textContent)),'a city lists the categories traded there');
+   const LM=G('LANDMARKS');assert(Object.keys(LM).length>=12&&Object.keys(LM).every(c=>G('CITY_LL')[c]&&LM[c].p.length>=3),'every landmark stands on a known city');
    w.__WORLD.player('gagosian');assert(w.__WORLD.net().sel==='gagosian'&&/8 other offices|other offices/.test(q('.wd-ch').textContent),'a player card opens with its offices');q('.wd-x').click();
    w.__WORLD.mode('now');assert(q('#wdNet').hidden,'leaving the Net hides its controls');
    w.__S.go('hammer');assert(q('#v-hammer .forwhom')&&qa('#v-hammer .forwhom span').length===3&&/Collector/.test(q('#v-hammer .forwhom').textContent),'every section says what it is worth, to whom');
@@ -280,15 +286,18 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
   assert(qa('#v-floor .status .chip').some(c=>c.textContent.includes(G('MARKET.verified'))),'Today’s chips carry MARKET.verified');
   assert(q('#v-floor .srlead h3').textContent===G('HERO.h'),'the sale room’s lead is HERO.h');
   const views=['floor','ask','movements','pulse','atlas','houses','people','hammer','ledger','salon','undertow','desk','lexicon'];
-  for(const v of views){q(`#nav button[data-v="${v}"]`).click();const el=q('#v-'+v);log.push(`${v}: on=${el.classList.contains('on')} ${(el.innerHTML.length/1024).toFixed(0)}KB`);}
+  for(const v of views){const nb=q(`#nav button[data-v="${v}"]`);if(nb)nb.click();else w.__S.go(v);const el=q('#v-'+v);log.push(`${v}: on=${el.classList.contains('on')} ${(el.innerHTML.length/1024).toFixed(0)}KB`);}
+  /* v32: the spreads — the Market shows its five chapters as one page with a chapter strip; Who’s who its three */
+  q('#navMore button[data-v="market"]').click();assert(['pulse','signals','season','horizon','whispers'].every(v=>q('#v-'+v).classList.contains('on')),'the Market spread shows its five chapters');assert(qa('#v-pulse .spread-nav button').length===5&&q('#v-whispers .readon')&&!q('#v-pulse .readon'),'the Market has one chapter strip and reads on once, after the last chapter');assert(w.location.hash==='#market','the Market’s address');
+  w.__S.go('houses');assert(q('#v-houses').classList.contains('on')&&q('#v-people').classList.contains('on')&&q('#v-collectors').classList.contains('on')&&w.location.hash==='#houses','a chapter’s address opens its spread');
   w.location.hash='#signals';w.dispatchEvent(new w.Event('hashchange'));log.push('signals via hash: on='+q('#v-signals').classList.contains('on'));
   log.push('guide: '+!!q('.guide')+' buttons='+qa('.guide [data-g]').length);const gb=q('.guide [data-g="close"]');if(gb)gb.click();log.push('guide closed: '+(w.localStorage.getItem('subhasta.seen')));
   log.push('board cells: '+qa('#board .fl').length+' first line: '+qa('#board .line')[0].textContent.trim().slice(0,40));
   log.push('tiles: '+qa('#treemap .tile').length);
-  q('#nav button[data-v="houses"]').click();log.push('orgs: '+qa('#hdir .org').length);qa('#hdir .org')[0].click();log.push('detail: '+q('#v-detail').classList.contains('on')+' h1='+q('#v-detail h1').textContent+' timeline='+qa('#v-detail .tl').length+' lots='+qa('#v-detail .lot').length+' hash='+w.location.hash);
+  w.__S.go('houses');log.push('orgs: '+qa('#hdir .org').length);qa('#hdir .org')[0].click();log.push('detail: '+q('#v-detail').classList.contains('on')+' h1='+q('#v-detail h1').textContent+' timeline='+qa('#v-detail .tl').length+' lots='+qa('#v-detail .lot').length+' hash='+w.location.hash);
   qa('#v-detail .lot')[0].click();log.push('lot: '+q('#v-detail h1').textContent+' chain='+qa('#v-detail .ch').length+' hash='+w.location.hash);
   w.location.hash='#lot-basquiat-untitled';w.dispatchEvent(new w.Event('hashchange'));log.push('basquiat price path svg: '+qa('#v-detail .chart svg').length+' '+(q('#v-detail .chart')?q('#v-detail .chart').previousElementSibling.textContent.trim().slice(0,80):''));
-  q('#nav button[data-v="people"]').click();log.push('people: '+qa('#plist .person').length);qa('#plist .person')[0].click();log.push('person: '+q('#v-detail h1').textContent+' hash='+w.location.hash+' peers='+qa('#v-detail .person').length);
+  w.__S.go('people');log.push('people: '+qa('#plist .person').length);qa('#plist .person')[0].click();log.push('person: '+q('#v-detail h1').textContent+' hash='+w.location.hash+' peers='+qa('#v-detail .person').length);
   q('#nav button[data-v="floor"]').click();q('#v-floor .srlead [data-up]').click();log.push('upcoming drawer: '+q('#dTitle').textContent+' chain='+qa('#dBody .ch').length);q('#dClose').click();
   w.location.hash='#lot-pollock-number-7a';w.dispatchEvent(new w.Event('hashchange'));qa('#v-detail [data-artist]')[0].click();log.push('artist: '+q('#v-detail h1').textContent+' provs='+qa('#v-detail .prov').length+' hash='+w.location.hash);
   q('#nav button[data-v="hammer"]').click();log.push('rows: '+qa('#rtbl tbody tr').length+' artists index rows: '+qa('#v-hammer table')[1].querySelectorAll('tbody tr').length);const sel=q('#rera');sel.value='2026';sel.dispatchEvent(new w.Event('change'));log.push('2026 rows: '+qa('#rtbl tbody tr').length);
@@ -325,7 +334,7 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
   w.location.hash='#lot-klimt-dame-mit-f-cher';w.dispatchEvent(new w.Event('hashchange'));q('#v-detail [data-flowlot]').click();log.push('flow for lot: '+q('#fhv').textContent+' venue='+q('#fvenue').value+' on='+q('#v-undertow').classList.contains('on')+' buyer='+qa('#fkpi .kpi .v')[0].textContent);
   q('#nav button[data-v="floor"]').click();log.push('learned: '+qa('#v-floor .learn').length);qa('#v-floor .learn')[0].click();log.push('learned drawer: '+q('#dTitle').textContent);q('#dClose').click();
   q('#reelClose').click();
-  q('#nav button[data-v="pulse"]').click();log.push('pulse: vitals='+qa('#v-pulse .vt').length+' charts='+qa('#v-pulse .chart svg').length+' symptoms='+qa('#v-pulse .sym').length+' longview='+qa('#longview .lv').length+' records='+qa('#v-pulse table tbody tr').length+' dispatches='+qa('#v-pulse .wire').length+' foryou cols='+qa('#v-pulse .fyc').length);
+  w.__S.go('pulse');log.push('pulse: vitals='+qa('#v-pulse .vt').length+' charts='+qa('#v-pulse .chart svg').length+' symptoms='+qa('#v-pulse .sym').length+' longview='+qa('#longview .lv').length+' records='+qa('#v-pulse table tbody tr').length+' dispatches='+qa('#v-pulse .wire').length+' foryou cols='+qa('#v-pulse .fyc').length);
   qa('#v-pulse .vt')[0].click();log.push('vital drawer: '+q('#dTitle').textContent+' svg='+qa('#dBody svg').length);q('#dClose').click();
   qa('#v-pulse .sym')[0].click();log.push('symptom drawer: '+q('#dTitle').textContent+' hash='+w.location.hash+' ev='+qa('#dBody .ev').length);q('#dClose').click();
   qa('#eras .tag')[2].click();log.push('era bubble: '+qa('#longview .lv').length);
@@ -353,7 +362,7 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
   q('#clJur').value='us';q('#clYear').value='1917';
   log.push('institutions: '+qa('#v-atlas .instc').length+' facts='+qa('#v-atlas .if').length);qa('#v-atlas .instc')[0].click();log.push('inst drawer: '+q('#dTitle').textContent+' hash='+w.location.hash);q('#dClose').click();
   w.location.hash='#inst-malba';w.dispatchEvent(new w.Event('hashchange'));log.push('deep inst: '+q('#dTitle').textContent);q('#dClose').click();
-  q('#nav button[data-v="pulse"]').click();log.push('reports: '+qa('#v-pulse .rep').length+' csv btn='+!!q('#csvPulse'));
+  w.__S.go('pulse');log.push('reports: '+qa('#v-pulse .rep').length+' csv btn='+!!q('#csvPulse'));
   q('#palBtn').click();pq.value='Lima';pq.dispatchEvent(new w.Event('input'));log.push('palette Lima: '+qa('#palres .ri[data-i]').length+' '+qa('#palres .ri[data-i] .k').map(x=>x.textContent).join(','));q('#pal').click();
   w.location.hash='#reel-2';w.dispatchEvent(new w.Event('hashchange'));log.push('reel 2: '+(q('#reelStage .rc.on')||{}).className+' chain='+qa('#reelStage .rc.on .rch').length+' total cards='+qa('#reelStage .rc').length+' maps='+qa('#reelStage .miniworld').length);q('#reelClose').click();
   /* #reel-N clamps: 0 opens the first card, an overshoot the last; the Reel rewrites the hash to the card it shows */
@@ -365,7 +374,7 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
   w.location.hash='#lot-basquiat-untitled';w.dispatchEvent(new w.Event('hashchange'));w.__S.openAtlas('nahmad');assert(w.location.hash==='#under-nahmad'&&q('#drawer').classList.contains('on'),'drawer over a dossier sets its hash');q('#dClose').click();assert(w.location.hash==='#lot-basquiat-untitled'&&q('#v-detail').classList.contains('on'),`closing the drawer over a dossier restores the dossier hash (got ${w.location.hash})`);
   log.push('drawer close restores: view hash and dossier hash');
   /* searches are apostrophe- and diacritic-insensitive */
-  q('#nav button[data-v="houses"]').click();const hq=q('#hq');hq.value="sotheby's";hq.dispatchEvent(new w.Event('input'));assert(qa('#hdir .org').some(o=>o.textContent.includes('Sotheby’s')),'directory search matches Sotheby’s typed with a straight apostrophe');hq.value='cezanne';hq.dispatchEvent(new w.Event('input'));log.push('directory cezanne: '+qa('#hdir .org').length);hq.value='';hq.dispatchEvent(new w.Event('input'));
+  w.__S.go('houses');const hq=q('#hq');hq.value="sotheby's";hq.dispatchEvent(new w.Event('input'));assert(qa('#hdir .org').some(o=>o.textContent.includes('Sotheby’s')),'directory search matches Sotheby’s typed with a straight apostrophe');hq.value='cezanne';hq.dispatchEvent(new w.Event('input'));log.push('directory cezanne: '+qa('#hdir .org').length);hq.value='';hq.dispatchEvent(new w.Event('input'));
   q('#nav button[data-v="hammer"]').click();const rq=q('#rq');rq.value='cezanne';rq.dispatchEvent(new w.Event('input'));assert(qa('#rtbl tbody tr.clk').length>0,'results search matches Cézanne typed without the accent');log.push('hammer cezanne rows: '+qa('#rtbl tbody tr.clk').length);rq.value='';rq.dispatchEvent(new w.Event('input'));
   q('#palBtn').click();pq.value="christie's";pq.dispatchEvent(new w.Event('input'));assert(qa('#palres .ri[data-i]').length>0&&q('#palres').getAttribute('role')==='listbox'&&q('#palq').getAttribute('aria-activedescendant')===qa('#palres .ri[data-i]')[0].id,'palette matches Christie’s with a straight apostrophe and marks the active option');q('#pal').click();
   /* the globe (jsdom has no canvas: the panel renders, the sphere is omitted) — modes, the journeys list, the momentum list */
@@ -375,7 +384,7 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
   q('#globe-sect .gl-modes [data-gmode="momentum"]').click();assert(qa('#globe-sect .gl-content [data-hub]').length>0,'momentum lists rising and cooling hubs');
   log.push('globe: modes '+gm.join(',')+'; journeys '+jr.length+'; '+q('#globe-sect .gl-read').textContent.slice(0,60));
   /* currency weather on the Pulse */
-  q('#nav button[data-v="pulse"]').click();const fxc=qa('#fxweather .vt.fx');assert(fxc.length===4,'currency weather has four cards (got '+fxc.length+')');assert(/Geneva buyer/.test((q('#fxweather .fx-read')||{}).textContent||''),'currency weather prices a New York lot for a Geneva buyer');
+  w.__S.go('pulse');const fxc=qa('#fxweather .vt.fx');assert(fxc.length===4,'currency weather has four cards (got '+fxc.length+')');assert(/Geneva buyer/.test((q('#fxweather .fx-read')||{}).textContent||''),'currency weather prices a New York lot for a Geneva buyer');
   log.push('fx: '+fxc.map(c=>c.querySelector('.v').textContent).join(' '));
   /* the Circle: offer, tiers, invitation, brief */
   q('#nav button[data-v="circle"]').click();assert(q('#v-circle').classList.contains('on'),'Circle view shows');const tiers=qa('#v-circle .ci-tier');assert(tiers.length===G('CIRCLE.tiers.length'),'one card per tier ('+tiers.length+')');
@@ -397,7 +406,7 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
   w.__clip='';q('#rCopy').click();assert(/^Hammer, Subhasta/.test(w.__clip)&&w.__clip.includes('London'),'copy the line names the filter');
   rcy.value='all';rcy.dispatchEvent(new w.Event('change'));q('#rsort').value='price';q('#rsort').dispatchEvent(new w.Event('change'));
   /* Houses: two to four side by side, the big three's shares, the directory as CSV, an empty state */
-  q('#nav button[data-v="houses"]').click();q('#hcmpBtn').click();assert(!q('#hcmp').hidden&&q('#hcmpBtn').getAttribute('aria-expanded')==='true','Compare houses opens the panel');
+  w.__S.go('houses');q('#hcmpBtn').click();assert(!q('#hcmp').hidden&&q('#hcmpBtn').getAttribute('aria-expanded')==='true','Compare houses opens the panel');
   assert(qa('#hcmp .hctbl thead th').length===4&&qa('#hcmp [data-hc][aria-pressed="true"]').length===3,'the big three side by side by default');
   const b3=(qa('#hcmp .hctbl tr.sum')[1].textContent.match(/[\d.]+%/g)||[]).map(parseFloat);assert(b3.length===3&&Math.abs(b3.reduce((a,b)=>a+b,0)-100)<0.3,'the big three’s shares add up to 100% ('+b3.join(', ')+')');
   q('#hcmp [data-hc="bonhams"]').click();assert(qa('#hcmp .hctbl thead th').length===5&&qa('#hcmp [data-hc][disabled]').length===qa('#hcmp [data-hc]').length-4,'a fourth house joins; four at most');
@@ -413,7 +422,7 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
   assert(palK(G('JOURNEYS[0].t')).includes('Journey')&&palK('brief').includes('Brief'),'palette: the journeys and the Brief');
   palK(G('JOURNEYS[1].t'));const ji=qa('#palres .ri[data-i] .k').findIndex(x=>x.textContent==='Journey');qa('#palres .ri[data-i]')[ji].click();assert(q('#v-undertow').classList.contains('on')&&d.activeElement.id==='journey-'+G('JOURNEYS[1].id'),'a journey picked in the palette opens the Undertow at its card');
   /* Pulse: the figure with its source, the data behind the charts, a source on every tile */
-  q('#nav button[data-v="pulse"]').click();assert(qa('#v-pulse details.dtab').length>=6&&q('#v-pulse details.dtab').querySelectorAll('tbody tr').length===G('SERIES.global.length'),'Pulse: a data table behind each chart; global sales has one row per year');
+  w.__S.go('pulse');assert(qa('#v-pulse details.dtab').length>=6&&q('#v-pulse details.dtab').querySelectorAll('tbody tr').length===G('SERIES.global.length'),'Pulse: a data table behind each chart; global sales has one row per year');
   assert(qa('#v-pulse .vt .vsrc').length===G('VITALS.filter(v=>v.src&&v.src.length).length'),'every vital tile shows its source');
   qa('#v-pulse .vt')[0].click();const vc0=q('#dBody .btn.copy');assert(vc0&&vc0.dataset.v.includes(G('MARKET.verified'))&&/https?:\/\//.test(vc0.dataset.v)&&vc0.dataset.v.startsWith(G('VITALS[0].l')),'vital drawer: copy the figure with its source address and the verification date');q('#dClose').click();
   /* Floor: as-of dates on the tiles and the board; the evidence drawer's copy */

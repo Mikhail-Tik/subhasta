@@ -7,7 +7,7 @@
    catalogue layout — running heads, lot-style rows, dossier pages — with fewer rules and more air. */
 :root{
   --ground:#0b0d11; --ground2:#10131a; --paper:#12151b; --paper2:#181c24; --rule:#242a34; --rule2:#343c49;
-  --ink:#ece7dc; --ink2:#aaa49a; --ink3:#948f85; /* ink3 clears AA (5.3:1) on --paper2 for 11–13px text */
+  --ink:#ece7dc; --ink2:#b5afa5; --ink3:#9f998f; /* v31.2: ink2 8.2:1 and ink3 6.3:1 on --paper2, raised after a reader found the small text faint */
   --gilt:#d4b36a; --gilt2:#ead8a6; --ongilt:#1d1808;
   --live:#ff4d2e; --live2:#ff8a70; --onlive:#0b0d11; /* the red dot: 5.9:1 on the ground */
   --claret:#d27a88; --lapis:#8fb0f0; --verd:#8fcab0;
@@ -23,8 +23,8 @@
 @media (prefers-color-scheme: light){
   :root:not([data-theme="dark"]){
     --ground:#f4f1ea; --ground2:#ece8df; --paper:#fbf9f4; --paper2:#f2eee6; --rule:#dcd6c9; --rule2:#c4bcab;
-    --ink:#15181d; --ink2:#5a5e66; --ink3:#6d6a61;
-    --gilt:#876513; --gilt2:#6a4e0b; --ongilt:#fff7dc;
+    --ink:#15181d; --ink2:#484c54; --ink3:#5c5951;
+    --gilt:#7a5b10; --gilt2:#5e450a; --ongilt:#fff7dc;
     --live:#c8321a; --live2:#e8603f; --onlive:#ffffff;
     --claret:#a33349; --lapis:#2f5fc4; --verd:#2c7666;
     --c1:#9A6E10; --c2:#B03A55; --c3:#3366CC; --cx:#9a9586;
@@ -35,8 +35,8 @@
 /* light tokens: ink3 −11% L, gilt −1.5% L, verd −1% L so small text (12–14px) clears AA on --ground and --paper; hue and saturation unchanged */
 :root[data-theme="light"]{
   --ground:#f4f1ea; --ground2:#ece8df; --paper:#fbf9f4; --paper2:#f2eee6; --rule:#dcd6c9; --rule2:#c4bcab;
-  --ink:#15181d; --ink2:#5a5e66; --ink3:#6d6a61;
-  --gilt:#876513; --gilt2:#6a4e0b; --ongilt:#fff7dc;
+  --ink:#15181d; --ink2:#484c54; --ink3:#5c5951;
+  --gilt:#7a5b10; --gilt2:#5e450a; --ongilt:#fff7dc;
   --live:#c8321a; --live2:#e8603f; --onlive:#ffffff;
   --claret:#a33349; --lapis:#2f5fc4; --verd:#2c7666;
   --c1:#9A6E10; --c2:#B03A55; --c3:#3366CC; --cx:#9a9586;
