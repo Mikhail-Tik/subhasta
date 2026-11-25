@@ -52,7 +52,7 @@ root = pathlib.Path(__file__).resolve().parent
 src = root / 'src'
 read = lambda p: p.read_text(encoding='utf-8')
 
-DATA_ORDER = ['data_houses', 'data_market', 'data_more', 'data_people', 'data_reel', 'data_under', 'data_pulse', 'data_atlas', 'data_world', 'data_flows', 'data_globe', 'data_circle', 'data_bench', 'data_movements', 'data_live', 'data_places', 'data_nav', 'data_season', 'data_net', 'data_eye', 'data_school', 'data_landmarks', 'data_regions', 'data_history', 'data_objects']
+DATA_ORDER = ['data_houses', 'data_market', 'data_more', 'data_people', 'data_reel', 'data_under', 'data_pulse', 'data_atlas', 'data_world', 'data_flows', 'data_globe', 'data_circle', 'data_bench', 'data_movements', 'data_live', 'data_places', 'data_nav', 'data_season', 'data_net', 'data_eye', 'data_school', 'data_landmarks', 'data_regions', 'data_history', 'data_objects', 'data_russia']
 page = read(src / 'page.html')
 css = read(src / 'style.css') + '\n' + read(src / 'globe.css') + '\n' + read(src / 'circle.css') + '\n' + read(src / 'lab.css') + '\n' + read(src / 'ask.css') + '\n' + read(src / 'world.css') + '\n' + read(src / 'library.css') + '\n' + read(src / 'nav.css') + '\n' + read(src / 'polish.css')
 data = {n: read(src / f'{n}.js') for n in DATA_ORDER}
@@ -63,7 +63,7 @@ data['data_reel'] = data['data_reel'].replace('/*__IMGMETA__*/{}', imeta_js)
 nga = json.load(open(root / 'data' / 'nga_subset.json', encoding='utf-8'))
 nga_js = json.dumps(nga, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
 app = read(src / 'app.js')
-for ph, f in (('/*__UNDER__*/', 'under.js'), ('/*__PULSE__*/', 'pulse.js'), ('/*__ATLAS__*/', 'atlas.js'), ('/*__CLINIC__*/', 'clinic.js'), ('/*__GLOBE__*/', 'globe.js'), ('/*__CIRCLE__*/', 'circle.js'), ('/*__LAB__*/', 'lab.js'), ('/*__LABPROV__*/', 'lab_prov.js'), ('/*__LABHANDS__*/', 'lab_hands.js'), ('/*__TODAY__*/', 'today.js'), ('/*__MOVE__*/', 'move.js'), ('/*__ASK__*/', 'ask.js'), ('/*__WORLD__*/', 'world.js'), ('/*__LIBRARY__*/', 'library.js'), ('/*__COMPARE__*/', 'compare.js'), ('/*__NAV__*/', 'nav.js'), ('/*__SEASON__*/', 'season.js'), ('/*__DEAL__*/', 'deal.js'), ('/*__OCEAN__*/', 'ocean.js'), ('/*__BRIEF__*/', 'brief.js'), ('/*__EYE__*/', 'eye.js'), ('/*__SCHOOL__*/', 'school.js')):
+for ph, f in (('/*__UNDER__*/', 'under.js'), ('/*__PULSE__*/', 'pulse.js'), ('/*__ATLAS__*/', 'atlas.js'), ('/*__CLINIC__*/', 'clinic.js'), ('/*__GLOBE__*/', 'globe.js'), ('/*__CIRCLE__*/', 'circle.js'), ('/*__LAB__*/', 'lab.js'), ('/*__LABPROV__*/', 'lab_prov.js'), ('/*__LABHANDS__*/', 'lab_hands.js'), ('/*__TODAY__*/', 'today.js'), ('/*__MOVE__*/', 'move.js'), ('/*__ASK__*/', 'ask.js'), ('/*__I18N__*/', 'i18n.js'), ('/*__RELIEF__*/', 'relief.js'), ('/*__WORLD__*/', 'world.js'), ('/*__RUSSIA__*/', 'russia.js'), ('/*__LIBRARY__*/', 'library.js'), ('/*__COMPARE__*/', 'compare.js'), ('/*__NAV__*/', 'nav.js'), ('/*__SEASON__*/', 'season.js'), ('/*__DEAL__*/', 'deal.js'), ('/*__OCEAN__*/', 'ocean.js'), ('/*__BRIEF__*/', 'brief.js'), ('/*__EYE__*/', 'eye.js'), ('/*__SCHOOL__*/', 'school.js')):
     assert app.count(ph) == 1, f'app.js must carry exactly one {ph}'
     app = app.replace(ph, read(src / f))
 reel = read(src / 'reel.js')
@@ -136,6 +136,14 @@ if left:
 # maps each sheet to its asset URL per artifact ({"main": {"img/eye/a000.jpg": "/_blob/…", …}, "share": {…}}); the artifact copies get
 # the mapped URLs, the website and the preview keep the relative paths. A sheet without a mapping keeps its path (and will not show there).
 ASSETS = json.loads((root / 'data' / 'eye_assets.json').read_text(encoding='utf-8')) if (root / 'data' / 'eye_assets.json').exists() else {}
+RELIEF_MAP = json.loads((root / 'data' / 'relief_assets.json').read_text(encoding='utf-8')) if (root / 'data' / 'relief_assets.json').exists() else {}
+# v35: warn when the Russian pack changed after its upload (the artifacts would read the old one)
+_shaf, _ruf = root / 'data' / 'i18n_assets.sha', root / 'docs' / 'i18n' / 'ru.json'
+if _shaf.exists() and _ruf.exists():
+    import hashlib
+    if hashlib.sha256(_ruf.read_bytes()).hexdigest()[:16] != _shaf.read_text().strip():
+        print('WARNING: docs/i18n/ru.json changed since its upload: upload it again to both artifacts and update data/i18n_assets.json and data/i18n_assets.sha')
+I18N_MAP = json.loads((root / 'data' / 'i18n_assets.json').read_text(encoding='utf-8')) if (root / 'data' / 'i18n_assets.json').exists() else {}
 def with_assets(text, key):
     m = ASSETS.get(key) or {}
     if not m:
@@ -154,6 +162,17 @@ def with_assets(text, key):
             raise SystemExit('HIST_ASSETS not found for the asset mapping')
     # v34: the pictures of HIST_PICS (docs/img/v34/<key>.jpg on the website) are assets in the artifacts (data/pic_assets.json: {key: {"img/v34/x.jpg": "/_blob/<id>"}});
     # a picture without a mapping keeps its path and does not show there
+    # v35: the map's pictures (docs/img/relief/<style>-<4k|8k>.jpg) and the Russian texts (docs/i18n/ru.json) are assets in the artifacts
+    rm = RELIEF_MAP.get(key) or {}
+    if rm:
+        text2, n3 = re.subn(r'const RELIEF_ASSETS=\{\};', 'const RELIEF_ASSETS=' + json.dumps(rm, separators=(',', ':')) + ';', text2, count=1)
+        if n3 != 1:
+            raise SystemExit('RELIEF_ASSETS not found for the asset mapping')
+    im = I18N_MAP.get(key) or {}
+    if im:
+        text2, n4 = re.subn(r'const I18N_ASSETS=\{\};', 'const I18N_ASSETS=' + json.dumps(im, separators=(',', ':')) + ';', text2, count=1)
+        if n4 != 1:
+            raise SystemExit('I18N_ASSETS not found for the asset mapping')
     pm = PIC_ASSETS.get(key) or {}
     if pm:
         text2 = re.sub(r'"src":"(img/v34/[^"]+)"', lambda mt: '"src":"' + pm.get(mt.group(1), mt.group(1)) + '"', text2)

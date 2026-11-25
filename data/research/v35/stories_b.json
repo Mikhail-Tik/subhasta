@@ -1,0 +1,5574 @@
+{
+ "asof": "2026-11-25",
+ "stories": [
+  {
+   "id": "nevsky-1240-1242",
+   "n": {
+    "en": "Alexander Nevsky: the Neva and the ice, 1240–1242",
+    "ru": "Александр Невский: Нева и лёд, 1240–1242"
+   },
+   "years": [
+    1236,
+    1942
+   ],
+   "lede": {
+    "en": "Two summers and a spring on the north-western edge of Rus: a young prince of Novgorod beats a Swedish landing on the Neva in July 1240 and a crusader army on the ice of Lake Peipus in April 1242, then rides to the Horde. What the Novgorod chronicle recorded, and how later centuries made the battles grow.",
+    "ru": "Два лета и одна весна на северо-западной окраине Руси: молодой новгородский князь в июле 1240 года отбивает шведский десант на Неве, в апреле 1242-го разбивает войско крестоносцев на льду Чудского озера, а потом едет в Орду. Что записал новгородский летописец — и как последующие века делали эти битвы всё больше."
+   },
+   "steps": [
+    {
+     "y": 1236,
+     "ll": [
+      58.5215,
+      31.2755
+     ],
+     "z": 5,
+     "h": {
+      "en": "Novgorod chooses a prince",
+      "ru": "Новгород выбирает князя"
+     },
+     "t": {
+      "en": "Novgorod was a republic that chose its own princes. In 1236 it chose Alexander, son of Prince Yaroslav, born in Pereslavl-Zalessky in 1221. He would serve the city in 1236–1240, 1241–1256 and 1258–1259. In December 1240 the Mongols would sack Kiev; Novgorod’s wars in these years were with its western neighbours.",
+      "ru": "Новгород был республикой и сам выбирал себе князей. В 1236 году выбор пал на Александра, сына князя Ярослава, родившегося в Переславле-Залесском в 1221 году. Он княжил в городе в 1236–1240, 1241–1256 и 1258–1259 годах. В декабре 1240 года монголы возьмут Киев, а Новгороду в эти годы приходится воевать с западными соседями."
+     },
+     "wiki": {
+      "en": "Alexander Nevsky"
+     },
+     "people": [
+      "alexander-nevsky"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Alexander Nevsky",
+       "https://en.wikipedia.org/wiki/Alexander_Nevsky"
+      ],
+      [
+       "Wikipedia (en): 1240",
+       "https://en.wikipedia.org/wiki/1240"
+      ]
+     ]
+    },
+    {
+     "y": 1240,
+     "date": "1240-07-22",
+     "date_os": "1240-07-15",
+     "ll": [
+      59.8,
+      30.59
+     ],
+     "z": 5,
+     "h": {
+      "en": "The Neva, 15 July 1240",
+      "ru": "Нева, 15 июля 1240 года"
+     },
+     "t": {
+      "en": "A Swedish force, with Norwegians, Finns and Tavastians, lands where the Izhora flows into the Neva. Alexander, with the men of Novgorod and Ladoga, “did not delay at all”. The Novgorod chronicle names the fallen: “twenty men in all with the men of Ladoga, or less, God knows.” Swedish sources say nothing of the battle; some historians now see an ordinary border fight. A 15th-century chronicler first calls Alexander “Nevsky”, “of the Neva”.",
+      "ru": "Шведское войско вместе с норвежцами, финнами и тавастами высаживается там, где Ижора впадает в Неву. Александр с новгородцами и ладожанами нападает без промедления. Новгородская летопись поимённо называет павших — всего около двадцати человек вместе с ладожанами, а может быть, и меньше. Шведские источники о битве молчат; часть историков видит в ней обычную пограничную стычку. Прозвище «Невский» впервые появляется у летописца XV века."
+     },
+     "wiki": {
+      "en": "Battle of the Neva"
+     },
+     "people": [
+      "alexander-nevsky"
+     ],
+     "quote": {
+      "ru": "Не в силѣ Бог, но в правде.",
+      "en": "God is not in strength, but in truth.",
+      "tr": "compiler",
+      "who": {
+       "en": "Alexander to his men, in the Life of Alexander Nevsky",
+       "ru": "Александр — дружине, в «Житии Александра Невского»"
+      },
+      "when": {
+       "en": "before the battle on the Neva",
+       "ru": "перед битвой на Неве"
+      },
+      "src": [
+       [
+        "Изборник (1969): «Первое трехсотлетие», azbyka.ru",
+        "https://azbyka.ru/otechnik/prochee/izbornik-sbornik-proizvedenij-literatury-drevnej-rusi/1_3"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Wikipedia (en): Battle of the Neva",
+       "https://en.wikipedia.org/wiki/Battle_of_the_Neva"
+      ],
+      [
+       "R. Michell, N. Forbes (trans.), The Chronicle of Novgorod 1016–1471, London 1914 (PDF, Univ. of Washington)",
+       "https://faculty.washington.edu/dwaugh/rus/texts/MF1914.pdf"
+      ],
+      [
+       "Изборник (1969): «Первое трехсотлетие», azbyka.ru",
+       "https://azbyka.ru/otechnik/prochee/izbornik-sbornik-proizvedenij-literatury-drevnej-rusi/1_3"
+      ]
+     ]
+    },
+    {
+     "y": 1240,
+     "ll": [
+      57.8221,
+      28.3286
+     ],
+     "z": 5,
+     "h": {
+      "en": "Izborsk and Pskov fall",
+      "ru": "Падение Изборска и Пскова"
+     },
+     "t": {
+      "en": "In September 1240 the Livonian Order and the Bishopric of Dorpat, with the Russian prince Yaroslav Vladimirovich, take Izborsk and force Pskov to surrender. That winter the Order, the Bishopric of Ösel–Wiek and the Chud march into Votia, the land of the Vod people.",
+      "ru": "В сентябре 1240 года Ливонский орден и Дерптское епископство вместе с русским князем Ярославом Владимировичем берут Изборск и вынуждают Псков сдаться. Той же зимой орден, Эзель-Викское епископство и чудь вторгаются в Водскую землю."
+     },
+     "wiki": {
+      "en": "Pskov"
+     },
+     "route": [
+      [
+       57.709,
+       27.86
+      ],
+      [
+       57.8221,
+       28.3286
+      ]
+     ],
+     "src": [
+      [
+       "Wikipedia (en): 1240",
+       "https://en.wikipedia.org/wiki/1240"
+      ]
+     ]
+    },
+    {
+     "y": 1241,
+     "ll": [
+      56.7375,
+      38.8544
+     ],
+     "z": 4,
+     "h": {
+      "en": "Exile and recall",
+      "ru": "Изгнание и возвращение"
+     },
+     "t": {
+      "en": "Victory did not make Alexander safe at home. In the winter after the Neva he quarrels with Novgorod’s nobles and merchants, who fear his growing influence, and leaves for Pereslavl-Zalessky, the town where he was born. In the spring of 1241, with the Order in Votia, he comes back and raises an army.",
+      "ru": "Победа не сделала Александра неуязвимым дома. Зимой после Невской битвы он ссорится с новгородской знатью и купцами, опасающимися его растущего влияния, и уезжает в Переславль-Залесский, где родился. Весной 1241 года, когда орден уже в Водской земле, он возвращается и собирает войско."
+     },
+     "wiki": {
+      "en": "Pereslavl-Zalessky"
+     },
+     "route": [
+      [
+       58.5215,
+       31.2755
+      ],
+      [
+       56.7375,
+       38.8544
+      ]
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Alexander Nevsky",
+       "https://en.wikipedia.org/wiki/Alexander_Nevsky"
+      ],
+      [
+       "Wikipedia (en): 1240",
+       "https://en.wikipedia.org/wiki/1240"
+      ]
+     ]
+    },
+    {
+     "y": 1241,
+     "ll": [
+      59.7083,
+      29.0333
+     ],
+     "z": 5,
+     "h": {
+      "en": "Koporye, and Pskov retaken",
+      "ru": "Копорье и освобождение Пскова"
+     },
+     "t": {
+      "en": "Alexander’s first blow falls on Koporye, held by the crusaders in Votia. He takes it and executes the Votians who had helped the invaders. Then he turns south-west and takes Pskov back from the Order; the German Livonian Rhymed Chronicle tells of his march to free the town.",
+      "ru": "Первый удар Александр наносит по Копорью, занятому крестоносцами в Водской земле. Он берёт крепость и казнит водь, помогавшую захватчикам. Затем поворачивает на юго-запад и отбивает у ордена Псков; немецкая «Ливонская рифмованная хроника» рассказывает о его походе на выручку города."
+     },
+     "wiki": {
+      "en": "Koporye"
+     },
+     "route": [
+      [
+       56.7375,
+       38.8544
+      ],
+      [
+       58.5215,
+       31.2755
+      ],
+      [
+       59.7083,
+       29.0333
+      ],
+      [
+       57.8221,
+       28.3286
+      ]
+     ],
+     "people": [
+      "alexander-nevsky"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Alexander Nevsky",
+       "https://en.wikipedia.org/wiki/Alexander_Nevsky"
+      ]
+     ]
+    },
+    {
+     "y": 1242,
+     "date": "1242-04-12",
+     "date_os": "1242-04-05",
+     "ll": [
+      58.24,
+      27.5
+     ],
+     "z": 5,
+     "h": {
+      "en": "The ice of Lake Peipus, 5 April 1242",
+      "ru": "Лёд Чудского озера, 5 апреля 1242 года"
+     },
+     "t": {
+      "en": "The chronicle is brief. Alexander draws up his men “by Lake Chud at Uzmen by the Raven’s rock”; the Germans and the Chud ride at them “driving themselves like a wedge through their army”. After a great slaughter the Chud flee, and the Novgorodians pursue them on the ice “seven versts short of the Subol shore”. The chronicler counts 400 Germans dead and 50 taken to Novgorod. The Livonian Rhymed Chronicle says twenty brothers of the Order fell and six were captured.",
+      "ru": "Летопись говорит коротко: Александр ставит полк на Чудском озере, на Узмени, у Вороньего камня; немцы и чудь клином проламываются сквозь строй. После великой сечи чудь бежит, и новгородцы гонят её по льду семь вёрст, до Суболичского берега. Летописец насчитывает 400 убитых немцев и 50 пленных, приведённых в Новгород. «Ливонская рифмованная хроника» пишет о двадцати павших и шести пленённых братьях ордена."
+     },
+     "wiki": {
+      "en": "Battle on the Ice",
+      "ru": "Ледовое побоище"
+     },
+     "people": [
+      "alexander-nevsky"
+     ],
+     "src": [
+      [
+       "R. Michell, N. Forbes (trans.), The Chronicle of Novgorod 1016–1471, London 1914 (PDF, Univ. of Washington)",
+       "https://faculty.washington.edu/dwaugh/rus/texts/MF1914.pdf"
+      ],
+      [
+       "Wikipedia (en): Battle on the Ice",
+       "https://en.wikipedia.org/wiki/Battle_on_the_Ice"
+      ],
+      [
+       "Знание.Вики: Ледовое побоище",
+       "https://znanierussia.ru/articles/%D0%9B%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE%D0%B5_%D0%BF%D0%BE%D0%B1%D0%BE%D0%B8%D1%89%D0%B5"
+      ]
+     ]
+    },
+    {
+     "y": 1242,
+     "ll": [
+      58.5215,
+      31.2755
+     ],
+     "z": 5,
+     "h": {
+      "en": "Peace, and the size of a battle",
+      "ru": "Мир — и масштаб битвы"
+     },
+     "t": {
+      "en": "The same year the Germans send to Novgorod for peace: they give up the land of the Vod, Luga, Pskov and Latgale, and the two sides exchange prisoners. How big was the battle? Modern estimates range from a few hundred men on each side to several thousand. John Fennell argued it was smaller and less important than later told; the Suzdalian chronicle gives it only a few lines.",
+      "ru": "В том же году немцы присылают в Новгород просить мира: они отказываются от Водской земли, Луги, Пскова и Латгалии, стороны обмениваются пленными. Насколько велика была битва? Современные оценки — от нескольких сотен до нескольких тысяч воинов с каждой стороны. Историк Джон Феннел считал её меньше и незначительнее, чем рассказывали потом; суздальская летопись упоминает о ней лишь кратко."
+     },
+     "wiki": {
+      "en": "Novgorod First Chronicle"
+     },
+     "src": [
+      [
+       "Wikipedia (en): Battle on the Ice",
+       "https://en.wikipedia.org/wiki/Battle_on_the_Ice"
+      ],
+      [
+       "R. Michell, N. Forbes (trans.), The Chronicle of Novgorod 1016–1471, London 1914 (PDF, Univ. of Washington)",
+       "https://faculty.washington.edu/dwaugh/rus/texts/MF1914.pdf"
+      ]
+     ]
+    },
+    {
+     "y": 1450,
+     "ll": [
+      56.129,
+      40.407
+     ],
+     "z": 5,
+     "h": {
+      "en": "The Life: a lake that seemed to move",
+      "ru": "Житие: «яко и езеру… двигнутися»"
+     },
+     "t": {
+      "en": "A Life of Alexander was written after his death. It is the first text to place the fighting on the frozen lake itself, with the dead lying on the ice and a noise as if the lake moved. It does not say that the ice broke. Its date is disputed: Donald Ostrowski places the version that merged the chronicle accounts in the mid-15th century.",
+      "ru": "После смерти Александра было составлено его Житие. Это первый текст, где бой идёт на самом замёрзшем озере, убитые лежат на льду, а грохот такой, будто озеро сдвинулось. О том, что лёд проломился, Житие не говорит. Датировка спорна: Дональд Островский относит версию, соединившую летописные рассказы, к середине XV века."
+     },
+     "wiki": {
+      "en": "Alexander Nevsky"
+     },
+     "quote": {
+      "ru": "яко и езеру померзъшю двигнутися… и не бѣ видѣти леду: покры бо ся кровию",
+      "en": "so that the frozen lake seemed to move… and the ice could not be seen, for it was covered with blood",
+      "tr": "compiler",
+      "who": {
+       "en": "Life of Alexander Nevsky, on the Battle on the Ice",
+       "ru": "«Житие Александра Невского» о Ледовом побоище"
+      },
+      "when": {
+       "en": "text of the Izbornik (1969)",
+       "ru": "текст «Изборника» (1969)"
+      },
+      "src": [
+       [
+        "Изборник (1969): «Первое трехсотлетие», azbyka.ru",
+        "https://azbyka.ru/otechnik/prochee/izbornik-sbornik-proizvedenij-literatury-drevnej-rusi/1_3"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Wikipedia (en): Battle on the Ice",
+       "https://en.wikipedia.org/wiki/Battle_on_the_Ice"
+      ],
+      [
+       "Изборник (1969): «Первое трехсотлетие», azbyka.ru",
+       "https://azbyka.ru/otechnik/prochee/izbornik-sbornik-proizvedenij-literatury-drevnej-rusi/1_3"
+      ]
+     ]
+    },
+    {
+     "y": 1248,
+     "ll": [
+      47.17,
+      47.42
+     ],
+     "z": 4,
+     "h": {
+      "en": "To the Horde",
+      "ru": "В Орду"
+     },
+     "t": {
+      "en": "Around 1248 Alexander and his brother Andrey travel to the khan. Their father Yaroslav had been summoned to Karakorum and died in 1246. Alexander becomes Grand Prince of Kiev in 1249 and of Vladimir in 1252. In 1259 he leads an army to Novgorod and makes the city pay tribute to the Golden Horde.",
+      "ru": "Около 1248 года Александр с братом Андреем едет к хану. Их отца Ярослава вызывали в Каракорум, и в 1246 году он умер. В 1249 году Александр становится великим князем Киевским, в 1252-м — Владимирским. В 1259 году он приводит войско в Новгород и заставляет город платить дань Золотой Орде."
+     },
+     "wiki": {
+      "en": "Sarai (city)"
+     },
+     "route": [
+      [
+       56.129,
+       40.407
+      ],
+      [
+       47.17,
+       47.42
+      ]
+     ],
+     "people": [
+      "alexander-nevsky"
+     ],
+     "quote": {
+      "ru": "И видѣв его царь Батый, и подивися, и рече велможам своим: «Воистинну ми сказасте, яко нѣсть подобна сему князя».",
+      "en": "And Tsar Batu saw him, and marvelled, and said to his nobles: “Truly you told me that there is no prince like this one.”",
+      "tr": "compiler",
+      "who": {
+       "en": "Life of Alexander Nevsky",
+       "ru": "«Житие Александра Невского»"
+      },
+      "when": {
+       "en": "Alexander before Batu",
+       "ru": "Александр у Батыя"
+      },
+      "src": [
+       [
+        "Изборник (1969): «Первое трехсотлетие», azbyka.ru",
+        "https://azbyka.ru/otechnik/prochee/izbornik-sbornik-proizvedenij-literatury-drevnej-rusi/1_3"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Wikipedia (en): Alexander Nevsky",
+       "https://en.wikipedia.org/wiki/Alexander_Nevsky"
+      ],
+      [
+       "Изборник (1969): «Первое трехсотлетие», azbyka.ru",
+       "https://azbyka.ru/otechnik/prochee/izbornik-sbornik-proizvedenij-literatury-drevnej-rusi/1_3"
+      ]
+     ]
+    },
+    {
+     "y": 1263,
+     "date": "1263-11-21",
+     "date_os": "1263-11-14",
+     "ll": [
+      56.6447,
+      43.4731
+     ],
+     "z": 5,
+     "h": {
+      "en": "Death at Gorodets",
+      "ru": "Смерть в Городце"
+     },
+     "t": {
+      "en": "In 1263 Alexander visits Berke, khan of the Golden Horde. On 14 November 1263 he dies at Gorodets on the Volga. On 23 November he is buried in the Monastery of the Nativity in Vladimir.",
+      "ru": "В 1263 году Александр бывает у Берке, хана Золотой Орды. 14 ноября 1263 года он умирает в Городце на Волге; 23 ноября его хоронят во владимирском Рождественском монастыре."
+     },
+     "wiki": {
+      "en": "Gorodets, Nizhny Novgorod Oblast"
+     },
+     "route": [
+      [
+       47.17,
+       47.42
+      ],
+      [
+       56.6447,
+       43.4731
+      ],
+      [
+       56.129,
+       40.407
+      ]
+     ],
+     "people": [
+      "alexander-nevsky"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Alexander Nevsky",
+       "https://en.wikipedia.org/wiki/Alexander_Nevsky"
+      ]
+     ]
+    },
+    {
+     "y": 1547,
+     "ll": [
+      55.752,
+      37.6175
+     ],
+     "z": 5,
+     "h": {
+      "en": "A saint, 1547",
+      "ru": "Святой, 1547"
+     },
+     "t": {
+      "en": "In 1547, the year Ivan IV is crowned tsar, Metropolitan Macarius of Moscow proclaims Alexander a saint. By then the Neva fight had grown: a 16th-century version, a modern account notes, expanded it to “biblical proportions”.",
+      "ru": "В 1547 году — в год венчания Ивана IV на царство — митрополит Московский Макарий причисляет Александра к лику святых. Невская битва к тому времени разрослась: в версии XVI века, как отмечает современный обзор, она приобрела «библейские масштабы»."
+     },
+     "wiki": {
+      "en": "Alexander Nevsky"
+     },
+     "people": [
+      "alexander-nevsky",
+      "ivan-iv"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Alexander Nevsky",
+       "https://en.wikipedia.org/wiki/Alexander_Nevsky"
+      ],
+      [
+       "Wikipedia (en): Battle of the Neva",
+       "https://en.wikipedia.org/wiki/Battle_of_the_Neva"
+      ],
+      [
+       "Wikipedia (en): Ivan the Terrible",
+       "https://en.wikipedia.org/wiki/Ivan_the_Terrible"
+      ]
+     ]
+    },
+    {
+     "y": 1724,
+     "date": "1724-09-10",
+     "date_os": "1724-08-30",
+     "ll": [
+      59.9208,
+      30.3885
+     ],
+     "z": 5,
+     "h": {
+      "en": "To the city on the Neva, 1724",
+      "ru": "В город на Неве, 1724"
+     },
+     "t": {
+      "en": "Peter the Great’s new capital stands on the same river. The relics of Alexander leave Vladimir on 11 August 1723 and are installed in the Annunciation Church of the Alexander Nevsky Lavra on 30 August 1724. On 21 May 1725 an imperial Order of St Alexander Nevsky is founded.",
+      "ru": "Новая столица Петра Великого стоит на той же реке. Мощи Александра увозят из Владимира 11 августа 1723 года и 30 августа 1724-го ставят в Благовещенской церкви Александро-Невской лавры. 21 мая 1725 года учреждён императорский орден Святого Александра Невского."
+     },
+     "wiki": {
+      "en": "Alexander Nevsky Lavra"
+     },
+     "route": [
+      [
+       56.129,
+       40.407
+      ],
+      [
+       59.9208,
+       30.3885
+      ]
+     ],
+     "people": [
+      "alexander-nevsky",
+      "peter-i"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Alexander Nevsky",
+       "https://en.wikipedia.org/wiki/Alexander_Nevsky"
+      ]
+     ]
+    },
+    {
+     "y": 1938,
+     "ll": [
+      55.7558,
+      37.6173
+     ],
+     "z": 4,
+     "h": {
+      "en": "Ice on screen: 1938 and after",
+      "ru": "Лёд на экране: 1938 и после"
+     },
+     "t": {
+      "en": "Sergei Eisenstein’s film Alexander Nevsky (1938) fixed the picture most people know: knights breaking through the ice and drowning. Ostrowski finds that scene first in the film, not in any medieval text. In 1942 the Soviet Union founds an Order of Alexander Nevsky. Russia keeps 18 April as a day of military glory: 5 April plus the 13 days between the calendars in the 20th century; in the 13th century the gap was 7 days, which gives 12 April.",
+      "ru": "Фильм Сергея Эйзенштейна «Александр Невский» (1938) закрепил картину, знакомую всем: рыцари проваливаются под лёд и тонут. По Островскому, эта сцена впервые появляется именно в фильме, а не в средневековых текстах. В 1942 году в СССР учреждён орден Александра Невского. День воинской славы отмечают 18 апреля: это 5 апреля плюс 13 дней — разница календарей в XX веке; в XIII веке она составляла 7 дней, то есть 12 апреля."
+     },
+     "wiki": {
+      "en": "Alexander Nevsky (film)"
+     },
+     "src": [
+      [
+       "Wikipedia (en): Battle on the Ice",
+       "https://en.wikipedia.org/wiki/Battle_on_the_Ice"
+      ],
+      [
+       "Знание.Вики: Ледовое побоище",
+       "https://znanierussia.ru/articles/%D0%9B%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE%D0%B5_%D0%BF%D0%BE%D0%B1%D0%BE%D0%B8%D1%89%D0%B5"
+      ],
+      [
+       "Wikipedia (en): Alexander Nevsky",
+       "https://en.wikipedia.org/wiki/Alexander_Nevsky"
+      ]
+     ]
+    }
+   ],
+   "synchrony": [
+    {
+     "y": 1240,
+     "place": {
+      "en": "Kiev (Kyiv)",
+      "ru": "Киев"
+     },
+     "ll": [
+      50.4501,
+      30.5234
+     ],
+     "t": {
+      "en": "On 6 December the Mongols under Batu break into Kiev; most of its people are killed.",
+      "ru": "6 декабря монголы Батыя врываются в Киев; бо́льшая часть жителей погибает."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1240",
+       "https://en.wikipedia.org/wiki/1240"
+      ]
+     ]
+    },
+    {
+     "y": 1240,
+     "place": {
+      "en": "Acre",
+      "ru": "Акра"
+     },
+     "ll": [
+      32.9281,
+      35.0818
+     ],
+     "t": {
+      "en": "On 10 October Richard of Cornwall arrives at Acre on pilgrimage to Jerusalem.",
+      "ru": "10 октября Ричард Корнуоллский прибывает в Акру — паломником в Иерусалим."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1240",
+       "https://en.wikipedia.org/wiki/1240"
+      ]
+     ]
+    },
+    {
+     "y": 1240,
+     "place": {
+      "en": "Paris",
+      "ru": "Париж"
+     },
+     "ll": [
+      48.8566,
+      2.3522
+     ],
+     "t": {
+      "en": "On 12 June the Disputation of Paris begins: four rabbis defend the Talmud against charges of blasphemy.",
+      "ru": "12 июня начинается Парижский диспут: четыре раввина защищают Талмуд от обвинения в богохульстве."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1240",
+       "https://en.wikipedia.org/wiki/1240"
+      ]
+     ]
+    },
+    {
+     "y": 1240,
+     "place": {
+      "en": "Egypt",
+      "ru": "Египет"
+     },
+     "ll": [
+      30.0444,
+      31.2357
+     ],
+     "t": {
+      "en": "As-Salih Ayyub becomes ruler of Egypt and begins buying Kipchak slaves as the core of an elite army.",
+      "ru": "Ас-Салих Айюб становится правителем Египта и начинает скупать рабов-кипчаков для ядра отборного войска."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1240",
+       "https://en.wikipedia.org/wiki/1240"
+      ]
+     ]
+    },
+    {
+     "y": 1246,
+     "place": {
+      "en": "Karakorum",
+      "ru": "Каракорум"
+     },
+     "ll": [
+      47.1975,
+      102.8238
+     ],
+     "t": {
+      "en": "Alexander’s father Yaroslav, summoned to the Mongol capital, dies in 1246.",
+      "ru": "Отец Александра Ярослав, вызванный в монгольскую столицу, умирает в 1246 году."
+     },
+     "src": [
+      [
+       "Wikipedia (en): Alexander Nevsky",
+       "https://en.wikipedia.org/wiki/Alexander_Nevsky"
+      ]
+     ]
+    }
+   ],
+   "src": [
+    [
+     "Wikipedia (en): Alexander Nevsky",
+     "https://en.wikipedia.org/wiki/Alexander_Nevsky"
+    ],
+    [
+     "Wikipedia (en): Battle of the Neva",
+     "https://en.wikipedia.org/wiki/Battle_of_the_Neva"
+    ],
+    [
+     "Wikipedia (en): Battle on the Ice",
+     "https://en.wikipedia.org/wiki/Battle_on_the_Ice"
+    ],
+    [
+     "Wikipedia (en): Novgorod First Chronicle",
+     "https://en.wikipedia.org/wiki/Novgorod_First_Chronicle"
+    ],
+    [
+     "R. Michell, N. Forbes (trans.), The Chronicle of Novgorod 1016–1471, London 1914 (PDF, Univ. of Washington)",
+     "https://faculty.washington.edu/dwaugh/rus/texts/MF1914.pdf"
+    ],
+    [
+     "Изборник (1969): «Первое трехсотлетие», azbyka.ru",
+     "https://azbyka.ru/otechnik/prochee/izbornik-sbornik-proizvedenij-literatury-drevnej-rusi/1_3"
+    ],
+    [
+     "Wikipedia (en): 1240",
+     "https://en.wikipedia.org/wiki/1240"
+    ],
+    [
+     "Знание.Вики: Ледовое побоище",
+     "https://znanierussia.ru/articles/%D0%9B%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE%D0%B5_%D0%BF%D0%BE%D0%B1%D0%BE%D0%B8%D1%89%D0%B5"
+    ]
+   ]
+  },
+  {
+   "id": "ivan-the-terrible",
+   "n": {
+    "en": "Ivan the Terrible",
+    "ru": "Иван Грозный"
+   },
+   "years": [
+    1547,
+    1895
+   ],
+   "lede": {
+    "en": "The first crowned tsar: Kazan and Astrakhan taken, St Basil’s raised on Red Square, the oprichnina and the sack of Novgorod, Moscow burned by the Crimeans and saved at Molodi, a son struck down at Aleksandrova Sloboda, Cossacks beyond the Urals — and the paintings by Repin and Surikov through which the reign is still seen.",
+    "ru": "Первый венчанный царь: взятие Казани и Астрахани, собор Василия Блаженного на Красной площади, опричнина и разгром Новгорода, сожжённая крымцами Москва и победа при Молодях, сын, убитый в Александровой слободе, казаки за Уралом — и картины Репина и Сурикова, через которые царствование видят до сих пор."
+   },
+   "steps": [
+    {
+     "y": 1547,
+     "date": "1547-01-26",
+     "date_os": "1547-01-16",
+     "ll": [
+      55.7506,
+      37.6168
+     ],
+     "z": 6,
+     "h": {
+      "en": "Crowned tsar, 16 January 1547",
+      "ru": "Венчание на царство, 16 января 1547 года"
+     },
+     "t": {
+      "en": "Ivan, born at Kolomenskoye near Moscow on 25 August 1530, is crowned tsar in the Cathedral of the Dormition in the Moscow Kremlin on 16 January 1547.",
+      "ru": "Иван, родившийся в Коломенском под Москвой 25 августа 1530 года, 16 января 1547 года венчается на царство в Успенском соборе Московского Кремля."
+     },
+     "wiki": {
+      "en": "Ivan the Terrible"
+     },
+     "people": [
+      "ivan-iv"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Ivan the Terrible",
+       "https://en.wikipedia.org/wiki/Ivan_the_Terrible"
+      ]
+     ]
+    },
+    {
+     "y": 1552,
+     "date": "1552-10-12",
+     "date_os": "1552-10-02",
+     "ll": [
+      55.799,
+      49.1064
+     ],
+     "z": 5,
+     "h": {
+      "en": "Kazan, 1552",
+      "ru": "Казань, 1552"
+     },
+     "t": {
+      "en": "The siege of Kazan, capital of a Tatar khanate on the middle Volga, begins on 30 August 1552; on 2 October the city falls. Russian troops then conquer the Astrakhan Khanate on the lower Volga in campaigns of 1554 and 1556, and a new Astrakhan fortress is built in 1558.",
+      "ru": "Осада Казани, столицы татарского ханства на средней Волге, начинается 30 августа 1552 года; 2 октября город взят. Затем в походах 1554 и 1556 годов русские войска покоряют Астраханское ханство в низовьях Волги; в 1558 году строится новая астраханская крепость."
+     },
+     "wiki": {
+      "en": "Kazan Kremlin"
+     },
+     "route": [
+      [
+       55.752,
+       37.6175
+      ],
+      [
+       55.799,
+       49.1064
+      ]
+     ],
+     "people": [
+      "ivan-iv"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Ivan the Terrible",
+       "https://en.wikipedia.org/wiki/Ivan_the_Terrible"
+      ]
+     ]
+    },
+    {
+     "y": 1561,
+     "date": "1561-07-22",
+     "date_os": "1561-07-12",
+     "ll": [
+      55.7525,
+      37.6231
+     ],
+     "z": 6,
+     "h": {
+      "en": "St Basil’s on Red Square",
+      "ru": "Собор Василия Блаженного"
+     },
+     "t": {
+      "en": "To commemorate Kazan and Astrakhan Ivan orders a cathedral on Red Square: the Intercession of the Most Holy Theotokos on the Moat, known as St Basil’s. It is built in 1555–1561 and consecrated on 12 July 1561, nine chapels, the central one dedicated to the Intercession. The builders are named as Ivan Barma and Postnik Yakovlev. The legend that Ivan had the architect blinded is probably a myth: the same master later worked on the walls of the Kazan Kremlin.",
+      "ru": "В память о Казани и Астрахани Иван велит поставить на Красной площади собор Покрова Пресвятой Богородицы, что на Рву, — храм Василия Блаженного. Его строят в 1555–1561 годах и освящают 12 июля 1561 года: девять церквей, центральная — Покровская. Строителями называют Ивана Барму и Постника Яковлева. Легенда о том, что царь велел ослепить зодчего, скорее всего вымысел: тот же мастер потом работал на стенах Казанского кремля."
+     },
+     "wiki": {
+      "en": "Saint Basil's Cathedral"
+     },
+     "src": [
+      [
+       "Wikipedia (en): Saint Basil's Cathedral",
+       "https://en.wikipedia.org/wiki/Saint_Basil's_Cathedral"
+      ]
+     ]
+    },
+    {
+     "y": 1564,
+     "ll": [
+      55.752,
+      37.6175
+     ],
+     "z": 5,
+     "h": {
+      "en": "Letters to a runaway prince",
+      "ru": "Переписка с беглым князем"
+     },
+     "t": {
+      "en": "In 1564 Prince Andrey Kurbsky, one of Ivan’s commanders, goes over to Lithuania and writes to the tsar: why has he slain “the strong in Israel”? Ivan answers in a long letter that opens with the Holy Trinity. The Library of Old Russian Literature prints their exchange in the original beside a modern translation.",
+      "ru": "В 1564 году князь Андрей Курбский, один из воевод Ивана, уходит в Литву и пишет царю: «Про что, царю, силных во Израили побил еси?» Иван отвечает пространным посланием, которое начинается с исповедания Святой Троицы. «Библиотека литературы Древней Руси» печатает их переписку в подлиннике рядом с современным переводом."
+     },
+     "wiki": {
+      "en": "Andrey Kurbsky"
+     },
+     "people": [
+      "ivan-iv"
+     ],
+     "quote": {
+      "ru": "Царю, от Бога препрославленому, паче же во православии пресвѣтлу явльшуся… Про что, царю, силных во Израили побил еси…",
+      "en": "To the tsar, glorified by God above all, who once shone most brightly in Orthodoxy… Why, O tsar, have you slain the strong in Israel…",
+      "tr": "compiler",
+      "who": {
+       "en": "Andrey Kurbsky, first letter to Ivan IV",
+       "ru": "Андрей Курбский, первое послание Ивану IV"
+      },
+      "when": {
+       "en": "1564",
+       "ru": "1564"
+      },
+      "src": [
+       [
+        "Библиотека литературы Древней Руси, т. 11: переписка Курбского с Иваном Грозным (azbyka.ru)",
+        "https://azbyka.ru/otechnik/istorija_tserkvi/biblioteka-literatury-drevnej-rusi-tom-11/1"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Библиотека литературы Древней Руси, т. 11: переписка Курбского с Иваном Грозным (azbyka.ru)",
+       "https://azbyka.ru/otechnik/istorija_tserkvi/biblioteka-literatury-drevnej-rusi-tom-11/1"
+      ],
+      [
+       "Wikipedia (en): Ivan the Terrible",
+       "https://en.wikipedia.org/wiki/Ivan_the_Terrible"
+      ]
+     ]
+    },
+    {
+     "y": 1565,
+     "date": "1564-12-13",
+     "date_os": "1564-12-03",
+     "ll": [
+      56.397,
+      38.715
+     ],
+     "z": 5,
+     "h": {
+      "en": "The oprichnina: Aleksandrova Sloboda",
+      "ru": "Опричнина: Александрова слобода"
+     },
+     "t": {
+      "en": "On 3 December 1564 Ivan leaves Moscow. On 3 January 1565 he writes from Aleksandrova Sloboda, a fortified residence north-east of the capital, and agrees to return only if he may punish traitors outside the law. The realm is split into the oprichnina, a separate territory of the tsar, and the zemshchina. His oprichniki, at first about a thousand and later six thousand, ride with a dog’s head and a broom at the saddle, to sniff out and sweep away treason.",
+      "ru": "3 декабря 1564 года Иван покидает Москву. 3 января 1565-го он пишет из Александровой слободы, укреплённой резиденции к северо-востоку от столицы, и соглашается вернуться, только если сможет карать изменников вне закона. Государство делится на опричнину — особую государеву территорию — и земщину. Опричники, сначала около тысячи, потом шесть тысяч, возят у седла собачью голову и метлу: вынюхивать и выметать измену."
+     },
+     "wiki": {
+      "en": "Oprichnina"
+     },
+     "route": [
+      [
+       55.752,
+       37.6175
+      ],
+      [
+       56.397,
+       38.715
+      ]
+     ],
+     "people": [
+      "ivan-iv"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Oprichnina",
+       "https://en.wikipedia.org/wiki/Oprichnina"
+      ]
+     ]
+    },
+    {
+     "y": 1570,
+     "date": "1570-01-12",
+     "date_os": "1570-01-02",
+     "ll": [
+      58.5198,
+      31.2815
+     ],
+     "z": 5,
+     "h": {
+      "en": "Novgorod, January 1570",
+      "ru": "Новгород, январь 1570"
+     },
+     "t": {
+      "en": "Ivan accuses Novgorod of plotting to give itself to the Polish–Lithuanian king; there is little evidence of it. His advance regiment reaches the city on 2 January 1570. On 8 January he meets Archbishop Pimen on the Volkhov bridge, refuses his blessing and has him arrested. For five weeks oprichniki torture and kill; women and children are thrown into the Volkhov. Estimates of the dead run from 2,000 to 15,000; Ruslan Skrynnikov, from 1,505 names in a monastery’s prayer lists, put them at 2,000–3,000.",
+      "ru": "Иван обвиняет Новгород в намерении отдаться польско-литовскому королю; доказательств этому почти нет. Передовой полк подходит к городу 2 января 1570 года. 8 января на волховском мосту царь встречает архиепископа Пимена, отказывается от его благословения и велит взять его под стражу. Пять недель опричники пытают и казнят; женщин и детей бросают в Волхов. Оценки погибших — от 2 до 15 тысяч; Руслан Скрынников по 1505 именам из синодиков Кирилло-Белозерского монастыря считал, что их было 2–3 тысячи."
+     },
+     "wiki": {
+      "en": "Massacre of Novgorod"
+     },
+     "route": [
+      [
+       56.397,
+       38.715
+      ],
+      [
+       56.3333,
+       36.7333
+      ],
+      [
+       56.8587,
+       35.9176
+      ],
+      [
+       58.5198,
+       31.2815
+      ]
+     ],
+     "people": [
+      "ivan-iv"
+     ],
+     "quote": {
+      "ru": "В лета 7078-го году, генваря во 2 день, благочестивый государь царь и великий князь Иван Васильевичь всеа Росии…",
+      "en": "In the year 7078, on the 2nd day of January, the pious sovereign Tsar and Grand Prince Ivan Vasilyevich of all Russia…",
+      "tr": "compiler",
+      "who": {
+       "en": "Tale of Ivan IV’s march on Novgorod in 1570",
+       "ru": "«Повесть о походе Ивана IV на Новгород в 1570 году»"
+      },
+      "when": {
+       "en": "the year 7078 from the Creation (1570)",
+       "ru": "7078 год от сотворения мира (1570)"
+      },
+      "src": [
+       [
+        "Изборник (1969): «Триста лет московской литературы», azbyka.ru",
+        "https://azbyka.ru/otechnik/prochee/izbornik-sbornik-proizvedenij-literatury-drevnej-rusi/2_3"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Wikipedia (en): Massacre of Novgorod",
+       "https://en.wikipedia.org/wiki/Massacre_of_Novgorod"
+      ],
+      [
+       "Wikipedia (en): Ivan the Terrible",
+       "https://en.wikipedia.org/wiki/Ivan_the_Terrible"
+      ],
+      [
+       "Изборник (1969): «Триста лет московской литературы», azbyka.ru",
+       "https://azbyka.ru/otechnik/prochee/izbornik-sbornik-proizvedenij-literatury-drevnej-rusi/2_3"
+      ]
+     ]
+    },
+    {
+     "y": 1571,
+     "ll": [
+      55.752,
+      37.6175
+     ],
+     "z": 5,
+     "h": {
+      "en": "Moscow burns, 1571",
+      "ru": "Москва в огне, 1571"
+     },
+     "t": {
+      "en": "In 1571 a Crimean and Ottoman army of about 40,000 men reaches Moscow and burns much of the city. The next summer the Crimean Tatars come again.",
+      "ru": "В 1571 году крымско-османское войско численностью около 40 тысяч человек подходит к Москве и выжигает бо́льшую часть города. На следующее лето крымские татары приходят снова."
+     },
+     "wiki": {
+      "en": "Moscow Kremlin"
+     },
+     "src": [
+      [
+       "Wikipedia (en): Ivan the Terrible",
+       "https://en.wikipedia.org/wiki/Ivan_the_Terrible"
+      ]
+     ]
+    },
+    {
+     "y": 1572,
+     "date": "1572-08-12",
+     "date_os": "1572-08-02",
+     "ll": [
+      55.27,
+      37.48
+     ],
+     "z": 5,
+     "h": {
+      "en": "Molodi, 1572",
+      "ru": "Молоди, 1572"
+     },
+     "t": {
+      "en": "On 2 August 1572, at Molodi south of Moscow, the Russian army defeats the Tatars who had burned the capital the year before. The same year the oprichnina as a separate state comes to an end: its territories and the zemshchina are joined again under a reformed Boyar Council.",
+      "ru": "2 августа 1572 года у Молодей к югу от Москвы русское войско разбивает татар, годом раньше сжёгших столицу. В том же году опричнина как особое государство упразднена: её земли и земщина снова объединены под началом преобразованной Боярской думы."
+     },
+     "wiki": {
+      "en": "Battle of Molodi"
+     },
+     "people": [
+      "ivan-iv"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Ivan the Terrible",
+       "https://en.wikipedia.org/wiki/Ivan_the_Terrible"
+      ],
+      [
+       "Wikipedia (en): Oprichnina",
+       "https://en.wikipedia.org/wiki/Oprichnina"
+      ]
+     ]
+    },
+    {
+     "y": 1581,
+     "date": "1581-11-29",
+     "date_os": "1581-11-19",
+     "ll": [
+      56.397,
+      38.715
+     ],
+     "z": 5,
+     "h": {
+      "en": "The tsarevich, November 1581",
+      "ru": "Царевич, ноябрь 1581"
+     },
+     "t": {
+      "en": "At Aleksandrova Sloboda Ivan rebukes his son’s wife, Yelena Sheremeteva, far advanced in pregnancy, for her unsuitable dress. In the quarrel he strikes his son, the tsarevich Ivan, born in 1554, on the head with his pointed staff. The tsarevich dies on 19 November 1581; Yelena miscarries within hours. Primary sources give no direct evidence, but historians generally believe the father killed the son. The heir is now Feodor, unready to rule.",
+      "ru": "В Александровой слободе Иван бранит невестку, Елену Шереметеву, на последних месяцах беременности, за неподобающее платье. В ссоре он бьёт сына, царевича Ивана (род. 1554), острым посохом по голове. 19 ноября 1581 года царевич умирает; Елена в тот же день теряет ребёнка. Прямых свидетельств первоисточники не дают, но историки в целом считают, что сына убил отец. Наследником становится Фёдор, к правлению не готовый."
+     },
+     "wiki": {
+      "en": "Tsarevich Ivan Ivanovich of Russia"
+     },
+     "people": [
+      "ivan-iv"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Tsarevich Ivan Ivanovich of Russia",
+       "https://en.wikipedia.org/wiki/Tsarevich_Ivan_Ivanovich_of_Russia"
+      ]
+     ]
+    },
+    {
+     "y": 1885,
+     "ll": [
+      55.7415,
+      37.6208
+     ],
+     "z": 6,
+     "h": {
+      "en": "Repin’s picture, 1885",
+      "ru": "Картина Репина, 1885"
+     },
+     "t": {
+      "en": "Three centuries later Ilya Repin paints Ivan the Terrible and His Son Ivan on 16 November 1581 (1883–1885), a picture he tied to the killing of Alexander II in 1881 and the executions that followed. Showing it was banned from 1 April to 11 July 1885; Pavel Tretyakov bought it. Attacked in 1913 and again in 2018, it returned to display on 16 December 2024. The painter Grigoriy Myasoyedov sat for the tsar, and the writer Vsevolod Garshin was one of the models for the son.",
+      "ru": "Через три века Илья Репин пишет «Иван Грозный и сын его Иван 16 ноября 1581 года» (1883–1885); сам он связывал картину с убийством Александра II в 1881 году и последовавшими казнями. С 1 апреля по 11 июля 1885 года показывать её запрещалось; её купил Павел Третьяков. Полотно повреждали в 1913 и в 2018 годах; в экспозицию оно вернулось 16 декабря 2024 года. Для царя позировал художник Григорий Мясоедов, для царевича — среди прочих писатель Всеволод Гаршин."
+     },
+     "pic": {
+      "file": "REPIN Ivan Terrible&Ivan.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:REPIN_Ivan_Terrible%26Ivan.jpg",
+      "author": "Ilya Repin",
+      "lic": "Public domain",
+      "year": 1885,
+      "cap": {
+       "en": "Ilya Repin, Ivan the Terrible and His Son Ivan on 16 November 1581, oil on canvas, 1885 (Tretyakov Gallery, inv. 743).",
+       "ru": "Илья Репин. «Иван Грозный и сын его Иван 16 ноября 1581 года». Холст, масло, 1885 (Третьяковская галерея, инв. 743)."
+      }
+     },
+     "src": [
+      [
+       "Wikipedia (en): Ivan the Terrible and His Son Ivan",
+       "https://en.wikipedia.org/wiki/Ivan_the_Terrible_and_His_Son_Ivan"
+      ],
+      [
+       "Commons file page (OsmAnd mirror): REPIN Ivan Terrible&Ivan.jpg",
+       "https://download.osmand.net/wiki/File:REPIN_Ivan_Terrible%26Ivan.jpg"
+      ]
+     ]
+    },
+    {
+     "y": 1582,
+     "ll": [
+      58.12,
+      68.4
+     ],
+     "z": 4,
+     "h": {
+      "en": "Yermak beyond the Urals",
+      "ru": "Ермак за Уралом"
+     },
+     "t": {
+      "en": "In 1580 the Cossack ataman Yermak sets out east with about 540 men. In 1582 his band fights its decisive battle with the army of Khan Kuchum of Sibir, by a river. Yermak is later killed and the survivors leave Siberia; a lasting Russian foothold comes only in 1586, when Tyumen is founded, two years after Ivan’s death.",
+      "ru": "В 1580 году казачий атаман Ермак с отрядом около 540 человек уходит на восток. В 1582 году его дружина даёт решающий бой войску сибирского хана Кучума на берегу реки. Позже Ермак гибнет, уцелевшие покидают Сибирь; прочно русские закрепляются там лишь в 1586 году, основав Тюмень, — через два года после смерти Ивана."
+     },
+     "wiki": {
+      "en": "Yermak Timofeyevich"
+     },
+     "src": [
+      [
+       "Wikipedia (en): Ivan the Terrible",
+       "https://en.wikipedia.org/wiki/Ivan_the_Terrible"
+      ],
+      [
+       "Russian Museum (rmgallery.ru): Yermak’s Conquest of Siberia",
+       "https://rmgallery.ru/en/670"
+      ]
+     ]
+    },
+    {
+     "y": 1895,
+     "ll": [
+      59.9386,
+      30.3323
+     ],
+     "z": 6,
+     "h": {
+      "en": "Surikov’s Yermak, 1895",
+      "ru": "«Покорение Сибири Ермаком» Сурикова, 1895"
+     },
+     "t": {
+      "en": "Vasily Surikov, a Siberian of Don Cossack descent, spends four years on Yermak’s Conquest of Siberia (1895, oil on canvas, 285 × 599 cm) and travels to the places it shows. It paints the climax of the battle of 1582: a wedge of Cossacks cuts into Kuchum’s ranks, which panic by the river bank. Repin called its effect unbelievably mighty. The picture is in the State Russian Museum, inventory Zh-4231.",
+      "ru": "Василий Суриков, сибиряк из донских казаков, четыре года пишет «Покорение Сибири Ермаком» (1895, холст, масло, 285 × 599 см) и ездит в места, где разворачивается действие. На картине — кульминация боя 1582 года: клин казаков врезается в ряды Кучума, и те в смятении теснятся у берега реки. Репин называл впечатление от неё невероятно могучим. Картина хранится в Государственном Русском музее, инв. Ж-4231."
+     },
+     "wiki": {
+      "en": "Vasily Surikov"
+     },
+     "src": [
+      [
+       "Russian Museum virtual branch: Yermak’s Conquest of Siberia, Ж-4231",
+       "https://rusmuseumvrm.ru/data/collections/painting/19_20/zh_4231/?lang=en"
+      ],
+      [
+       "Russian Museum (rmgallery.ru): Yermak’s Conquest of Siberia",
+       "https://rmgallery.ru/en/670"
+      ]
+     ]
+    },
+    {
+     "y": 1584,
+     "date": "1584-03-28",
+     "date_os": "1584-03-18",
+     "ll": [
+      55.75,
+      37.6183
+     ],
+     "z": 6,
+     "h": {
+      "en": "Death at the chessboard, 1584",
+      "ru": "Смерть за шахматами, 1584"
+     },
+     "t": {
+      "en": "On 18 March 1584 Ivan dies in Moscow of a stroke while playing chess with Bogdan Belsky. He is buried in the Cathedral of the Archangel, where his murdered son also lies. Feodor succeeds him, with Boris Godunov ruling in fact; after Feodor’s death Russia enters the Time of Troubles.",
+      "ru": "18 марта 1584 года Иван умирает в Москве от удара за шахматной доской, играя с Богданом Бельским. Его хоронят в Архангельском соборе, где лежит и убитый им сын. Царём становится Фёдор, а фактически правит Борис Годунов; после смерти Фёдора Россия вступает в Смуту."
+     },
+     "wiki": {
+      "en": "Ivan the Terrible"
+     },
+     "people": [
+      "ivan-iv"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Ivan the Terrible",
+       "https://en.wikipedia.org/wiki/Ivan_the_Terrible"
+      ],
+      [
+       "Wikipedia (en): Tsarevich Ivan Ivanovich of Russia",
+       "https://en.wikipedia.org/wiki/Tsarevich_Ivan_Ivanovich_of_Russia"
+      ]
+     ]
+    }
+   ],
+   "synchrony": [
+    {
+     "y": 1572,
+     "place": {
+      "en": "Sweden",
+      "ru": "Швеция"
+     },
+     "ll": [
+      59.3293,
+      18.0686
+     ],
+     "t": {
+      "en": "Ivan writes to King John III of Sweden in 1572 and again in 1573; both letters survive among his epistles.",
+      "ru": "Иван пишет шведскому королю Юхану III в 1572 и снова в 1573 году; оба послания сохранились среди его сочинений."
+     },
+     "src": [
+      [
+       "Библиотека литературы Древней Руси, т. 11: оглавление (azbyka.ru)",
+       "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-11/"
+      ]
+     ]
+    },
+    {
+     "y": 1579,
+     "place": {
+      "en": "Poland–Lithuania",
+      "ru": "Речь Посполитая"
+     },
+     "t": {
+      "en": "He writes to King Stefan Batory of Poland in 1579 and in 1581.",
+      "ru": "Он пишет польскому королю Стефану Баторию в 1579 и в 1581 году."
+     },
+     "src": [
+      [
+       "Библиотека литературы Древней Руси, т. 11: оглавление (azbyka.ru)",
+       "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-11/"
+      ]
+     ]
+    }
+   ],
+   "src": [
+    [
+     "Wikipedia (en): Ivan the Terrible",
+     "https://en.wikipedia.org/wiki/Ivan_the_Terrible"
+    ],
+    [
+     "Wikipedia (en): Saint Basil's Cathedral",
+     "https://en.wikipedia.org/wiki/Saint_Basil's_Cathedral"
+    ],
+    [
+     "Wikipedia (en): Oprichnina",
+     "https://en.wikipedia.org/wiki/Oprichnina"
+    ],
+    [
+     "Wikipedia (en): Massacre of Novgorod",
+     "https://en.wikipedia.org/wiki/Massacre_of_Novgorod"
+    ],
+    [
+     "Wikipedia (en): Tsarevich Ivan Ivanovich of Russia",
+     "https://en.wikipedia.org/wiki/Tsarevich_Ivan_Ivanovich_of_Russia"
+    ],
+    [
+     "Wikipedia (en): Ivan the Terrible and His Son Ivan",
+     "https://en.wikipedia.org/wiki/Ivan_the_Terrible_and_His_Son_Ivan"
+    ],
+    [
+     "Библиотека литературы Древней Руси, т. 11: переписка Курбского с Иваном Грозным (azbyka.ru)",
+     "https://azbyka.ru/otechnik/istorija_tserkvi/biblioteka-literatury-drevnej-rusi-tom-11/1"
+    ],
+    [
+     "Изборник (1969): «Триста лет московской литературы», azbyka.ru",
+     "https://azbyka.ru/otechnik/prochee/izbornik-sbornik-proizvedenij-literatury-drevnej-rusi/2_3"
+    ],
+    [
+     "Russian Museum virtual branch: Yermak’s Conquest of Siberia, Ж-4231",
+     "https://rusmuseumvrm.ru/data/collections/painting/19_20/zh_4231/?lang=en"
+    ]
+   ]
+  },
+  {
+   "id": "minin-pozharsky-1612",
+   "n": {
+    "en": "1612: Minin and Pozharsky",
+    "ru": "1612: Минин и Пожарский"
+   },
+   "years": [
+    1610,
+    1613
+   ],
+   "lede": {
+    "en": "A Polish garrison holds the Moscow Kremlin. A butcher of Nizhny Novgorod raises the money, a prince leads the men, and a militia marches by way of Yaroslavl to Moscow. In October 1612 the garrison surrenders; in February 1613 a council chooses a sixteen-year-old Romanov as tsar.",
+    "ru": "В Московском Кремле стоит польский гарнизон. Нижегородский мясник собирает деньги, князь ведёт войско, и ополчение через Ярославль идёт к Москве. В октябре 1612 года гарнизон сдаётся, а в феврале 1613-го собор избирает на царство шестнадцатилетнего Романова."
+   },
+   "steps": [
+    {
+     "y": 1610,
+     "ll": [
+      55.752,
+      37.6175
+     ],
+     "z": 5,
+     "h": {
+      "en": "A Polish garrison in the Kremlin",
+      "ru": "Польский гарнизон в Кремле"
+     },
+     "t": {
+      "en": "After the line of Ivan the Terrible dies out, pretenders, boyar factions and foreign armies fight over Moscow: the Time of Troubles. By the end of 1610 Catholic Poles hold the Kremlin, and anger against them grows.",
+      "ru": "Когда пресекается династия Ивана Грозного, за Москву борются самозванцы, боярские партии и иноземные войска — наступает Смута. К концу 1610 года Кремль занимают поляки-католики, и ненависть к ним растёт."
+     },
+     "wiki": {
+      "en": "Time of Troubles"
+     },
+     "src": [
+      [
+       "Wikipedia (en): Time of Troubles",
+       "https://en.wikipedia.org/wiki/Time_of_Troubles"
+      ],
+      [
+       "Wikipedia (en): Tsarevich Ivan Ivanovich of Russia",
+       "https://en.wikipedia.org/wiki/Tsarevich_Ivan_Ivanovich_of_Russia"
+      ]
+     ]
+    },
+    {
+     "y": 1611,
+     "ll": [
+      55.7558,
+      37.6173
+     ],
+     "z": 5,
+     "h": {
+      "en": "The first militia",
+      "ru": "Первое ополчение"
+     },
+     "t": {
+      "en": "In the spring of 1611 a national militia led by Prokopy Lyapunov, with Dmitry Trubetskoy and Ivan Zarutsky, comes to Moscow. On 22 July 1611 Lyapunov is killed, and the first attempt to free the capital fails.",
+      "ru": "Весной 1611 года к Москве подходит ополчение во главе с Прокопием Ляпуновым, вместе с Дмитрием Трубецким и Иваном Заруцким. 22 июля 1611 года Ляпунов убит, и первая попытка освободить столицу проваливается."
+     },
+     "wiki": {
+      "en": "Polish–Russian War (1609–1618)"
+     },
+     "src": [
+      [
+       "Wikipedia (en): Time of Troubles",
+       "https://en.wikipedia.org/wiki/Time_of_Troubles"
+      ]
+     ]
+    },
+    {
+     "y": 1611,
+     "ll": [
+      56.3287,
+      44.002
+     ],
+     "z": 5,
+     "h": {
+      "en": "Minin’s appeal, autumn 1611",
+      "ru": "Воззвание Минина, осень 1611"
+     },
+     "t": {
+      "en": "In the autumn of 1611 Kuzma Minin, a butcher of Nizhny Novgorod, makes a passionate appeal to the townsfolk to free Moscow. He collects a tax to pay for a second militia and persuades Prince Dmitry Pozharsky to lead it. Konstantin Makovsky painted the scene in Minin’s Appeal (1896).",
+      "ru": "Осенью 1611 года нижегородский мясник Кузьма Минин страстно призывает горожан освободить Москву. Он собирает деньги на второе ополчение и уговаривает возглавить его князя Дмитрия Пожарского. Эту сцену написал Константин Маковский — «Воззвание Минина к нижегородцам» (1896)."
+     },
+     "wiki": {
+      "en": "Kuzma Minin"
+     },
+     "src": [
+      [
+       "Wikipedia (en): Time of Troubles",
+       "https://en.wikipedia.org/wiki/Time_of_Troubles"
+      ],
+      [
+       "Harvard, Imperiia: The butcher who saved Russia — Minin’s Appeal",
+       "https://scalar.fas.harvard.edu/imperiia/the-butcher-who-saved-russia-minins-appeal"
+      ]
+     ]
+    },
+    {
+     "y": 1612,
+     "ll": [
+      55.752,
+      37.6175
+     ],
+     "z": 6,
+     "h": {
+      "en": "The patriarch’s letters",
+      "ru": "Грамоты патриарха"
+     },
+     "t": {
+      "en": "Patriarch Hermogenes, imprisoned by the Poles, writes letters urging resistance; one secret letter to Nizhny Novgorod warns of King Sigismund’s ambitions. In February 1612 Hermogenes dies of starvation.",
+      "ru": "Патриарх Гермоген, заточённый поляками, пишет грамоты с призывом к сопротивлению; тайное послание в Нижний Новгород предупреждает о замыслах короля Сигизмунда. В феврале 1612 года Гермоген умирает от голода."
+     },
+     "wiki": {
+      "en": "Patriarch Hermogenes"
+     },
+     "src": [
+      [
+       "Wikipedia (en): Time of Troubles",
+       "https://en.wikipedia.org/wiki/Time_of_Troubles"
+      ],
+      [
+       "Harvard, Imperiia: The butcher who saved Russia — Minin’s Appeal",
+       "https://scalar.fas.harvard.edu/imperiia/the-butcher-who-saved-russia-minins-appeal"
+      ]
+     ]
+    },
+    {
+     "y": 1612,
+     "ll": [
+      57.6261,
+      39.8845
+     ],
+     "z": 5,
+     "h": {
+      "en": "Yaroslavl, the militia’s capital",
+      "ru": "Ярославль — столица ополчения"
+     },
+     "t": {
+      "en": "The second militia moves up the Volga and takes Yaroslavl in March 1612. Until the summer the town is its headquarters and the seat of a provisional government.",
+      "ru": "Второе ополчение поднимается вверх по Волге и в марте 1612 года занимает Ярославль. До лета город служит ему ставкой и местом пребывания временного правительства."
+     },
+     "wiki": {
+      "en": "Yaroslavl"
+     },
+     "route": [
+      [
+       56.3287,
+       44.002
+      ],
+      [
+       57.6261,
+       39.8845
+      ]
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Time of Troubles",
+       "https://en.wikipedia.org/wiki/Time_of_Troubles"
+      ]
+     ]
+    },
+    {
+     "y": 1612,
+     "date": "1612-09-01",
+     "date_os": "1612-08-22",
+     "ll": [
+      55.74,
+      37.62
+     ],
+     "z": 5,
+     "h": {
+      "en": "Battle at the walls, August 1612",
+      "ru": "Бой под стенами, август 1612"
+     },
+     "t": {
+      "en": "In August 1612 Minin and Pozharsky reach Moscow. Hetman Chodkiewicz comes with about 9,000 men to relieve the Polish garrison. The battle opens on 22 August (1 September new style); after a Russian counter-attack on 24 August (3 September) Chodkiewicz withdraws.",
+      "ru": "В августе 1612 года Минин и Пожарский подходят к Москве. На выручку польскому гарнизону идёт гетман Ходкевич с войском около 9 тысяч человек. Бой начинается 22 августа (1 сентября по новому стилю); после контрудара русских 24 августа (3 сентября) Ходкевич отступает."
+     },
+     "wiki": {
+      "en": "Battle of Moscow (1612)"
+     },
+     "route": [
+      [
+       57.6261,
+       39.8845
+      ],
+      [
+       55.7558,
+       37.6173
+      ]
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Time of Troubles",
+       "https://en.wikipedia.org/wiki/Time_of_Troubles"
+      ]
+     ]
+    },
+    {
+     "y": 1612,
+     "date": "1612-11-06",
+     "date_os": "1612-10-27",
+     "ll": [
+      55.752,
+      37.6175
+     ],
+     "z": 6,
+     "h": {
+      "en": "The Kremlin surrenders",
+      "ru": "Кремль сдаётся"
+     },
+     "t": {
+      "en": "On 26 October Mstislavsky leads the Russian boyars out of the Kremlin, Ivan and Mikhail Romanov among them; on 27 October 1612 the Polish garrison surrenders unconditionally. Unity Day, held on 4 November to commemorate the garrison’s capitulation, was revived in 2005.",
+      "ru": "26 октября Мстиславский выводит из Кремля русских бояр, среди них Ивана и Михаила Романовых; 27 октября 1612 года польский гарнизон сдаётся без всяких условий. День народного единства, 4 ноября, в память об этой капитуляции снова отмечают с 2005 года."
+     },
+     "wiki": {
+      "en": "Unity Day (Russia)"
+     },
+     "src": [
+      [
+       "Wikipedia (en): Time of Troubles",
+       "https://en.wikipedia.org/wiki/Time_of_Troubles"
+      ]
+     ]
+    },
+    {
+     "y": 1613,
+     "date": "1613-03-03",
+     "date_os": "1613-02-21",
+     "ll": [
+      55.752,
+      37.6175
+     ],
+     "z": 5,
+     "h": {
+      "en": "A tsar elected",
+      "ru": "Избрание царя"
+     },
+     "t": {
+      "en": "On 21 February 1613 a Zemsky Sobor of about 700 delegates agrees on Mikhail Romanov, sixteen years old, as a compromise candidate. His father, Feodor Romanov, later Patriarch Filaret, is a prisoner of the Poles.",
+      "ru": "21 февраля 1613 года Земский собор — около 700 выборных — сходится на шестнадцатилетнем Михаиле Романове как на компромиссном кандидате. Его отец, Фёдор Романов, будущий патриарх Филарет, находится в польском плену."
+     },
+     "wiki": {
+      "en": "Zemsky Sobor"
+     },
+     "people": [
+      "michael-i"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Michael of Russia",
+       "https://en.wikipedia.org/wiki/Michael_of_Russia"
+      ],
+      [
+       "Wikipedia (en): Time of Troubles",
+       "https://en.wikipedia.org/wiki/Time_of_Troubles"
+      ]
+     ]
+    },
+    {
+     "y": 1613,
+     "date": "1613-03-24",
+     "date_os": "1613-03-14",
+     "ll": [
+      57.7756,
+      40.9001
+     ],
+     "z": 5,
+     "h": {
+      "en": "The Ipatiev Monastery, Kostroma",
+      "ru": "Ипатьевский монастырь, Кострома"
+     },
+     "t": {
+      "en": "The council’s envoys find Mikhail and his mother at the Ipatiev Monastery near Kostroma on 14 March (24 March new style). His mother at first protests that he is too young. The legend of the peasant Ivan Susanin grew from his election; Glinka made it an opera, A Life for the Tsar.",
+      "ru": "Посланцы собора находят Михаила с матерью в Ипатьевском монастыре под Костромой 14 марта (24 марта по новому стилю). Мать сначала возражает: сын слишком молод. Из этого избрания выросла легенда о крестьянине Иване Сусанине; Глинка сделал из неё оперу «Жизнь за царя»."
+     },
+     "wiki": {
+      "en": "Ivan Susanin"
+     },
+     "route": [
+      [
+       55.752,
+       37.6175
+      ],
+      [
+       57.7756,
+       40.9001
+      ]
+     ],
+     "people": [
+      "michael-i"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Michael of Russia",
+       "https://en.wikipedia.org/wiki/Michael_of_Russia"
+      ]
+     ]
+    },
+    {
+     "y": 1613,
+     "date": "1613-07-21",
+     "date_os": "1613-07-11",
+     "ll": [
+      55.7506,
+      37.6168
+     ],
+     "z": 6,
+     "h": {
+      "en": "Crowned, July 1613",
+      "ru": "Венчание, июль 1613"
+     },
+     "t": {
+      "en": "Mikhail waits several weeks at the Trinity monastery, about 120 km from Moscow, until rooms in the capital are ready. He is crowned on 11 July 1613 (21 July new style), the day before his seventeenth birthday. The Romanovs will reign until 1917.",
+      "ru": "Несколько недель Михаил ждёт в Троицком монастыре, примерно в 120 км от Москвы, пока в столице приготовят покои. 11 июля 1613 года (21 июля по новому стилю), накануне своего семнадцатилетия, он венчается на царство. Романовы будут править до 1917 года."
+     },
+     "wiki": {
+      "en": "Michael of Russia"
+     },
+     "route": [
+      [
+       57.7756,
+       40.9001
+      ],
+      [
+       56.3104,
+       38.13
+      ],
+      [
+       55.7506,
+       37.6168
+      ]
+     ],
+     "people": [
+      "michael-i"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Michael of Russia",
+       "https://en.wikipedia.org/wiki/Michael_of_Russia"
+      ],
+      [
+       "Wikipedia (en): Nicholas II",
+       "https://en.wikipedia.org/wiki/Nicholas_II"
+      ]
+     ]
+    }
+   ],
+   "synchrony": [
+    {
+     "y": 1612,
+     "place": {
+      "en": "Poland–Lithuania",
+      "ru": "Речь Посполитая"
+     },
+     "t": {
+      "en": "Mikhail’s father, Feodor Romanov (later Patriarch Filaret), is held in Polish captivity until the Truce of Deulino of 1618; from 1619 he is patriarch and, until his death in 1633, the effective ruler of Russia.",
+      "ru": "Отец Михаила, Фёдор Романов (будущий патриарх Филарет), остаётся в польском плену до Деулинского перемирия 1618 года; с 1619 года он патриарх и до смерти в 1633 году фактический правитель России."
+     },
+     "src": [
+      [
+       "Wikipedia (en): Michael of Russia",
+       "https://en.wikipedia.org/wiki/Michael_of_Russia"
+      ]
+     ]
+    }
+   ],
+   "src": [
+    [
+     "Wikipedia (en): Time of Troubles",
+     "https://en.wikipedia.org/wiki/Time_of_Troubles"
+    ],
+    [
+     "Wikipedia (en): Michael of Russia",
+     "https://en.wikipedia.org/wiki/Michael_of_Russia"
+    ],
+    [
+     "Harvard, Imperiia: The butcher who saved Russia — Minin’s Appeal",
+     "https://scalar.fas.harvard.edu/imperiia/the-butcher-who-saved-russia-minins-appeal"
+    ]
+   ]
+  },
+  {
+   "id": "peter-and-his-city",
+   "n": {
+    "en": "Peter and his city",
+    "ru": "Пётр и его город"
+   },
+   "years": [
+    1697,
+    1725
+   ],
+   "lede": {
+    "en": "A tsar who learned shipbuilding in Amsterdam and Deptford lays down a fortress on an island in the Neva in May 1703, makes the new town his capital in 1712 and fills it with an Admiralty, a garden of Venetian statues, a cabinet of curiosities and a building for twelve colleges. He dies there in February 1725.",
+    "ru": "Царь, учившийся корабельному делу в Амстердаме и Дептфорде, в мае 1703 года закладывает крепость на невском острове, в 1712 году делает новый город столицей и наполняет его Адмиралтейством, садом с венецианскими статуями, Кунсткамерой и зданием двенадцати коллегий. Там он и умирает в феврале 1725 года."
+   },
+   "steps": [
+    {
+     "y": 1697,
+     "ll": [
+      55.752,
+      37.6175
+     ],
+     "z": 4,
+     "h": {
+      "en": "The Grand Embassy sets out",
+      "ru": "Великое посольство"
+     },
+     "t": {
+      "en": "In March 1697 a Russian embassy sets out for western Europe on a journey of some eighteen months. Peter travels in it incognito as “Peter Mikhailov”. He comes back with foreign specialists, above all for the army and navy.",
+      "ru": "В марте 1697 года в Западную Европу отправляется русское посольство — путешествие продлится около полутора лет. Пётр едет в нём инкогнито, под именем «Пётр Михайлов». Из поездки он привезёт иностранных мастеров, прежде всего для армии и флота."
+     },
+     "wiki": {
+      "en": "Grand Embassy of Peter the Great"
+     },
+     "people": [
+      "peter-i"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Grand Embassy of Peter the Great",
+       "https://en.wikipedia.org/wiki/Grand_Embassy_of_Peter_the_Great"
+      ],
+      [
+       "Wikipedia (en): Peter the Great",
+       "https://en.wikipedia.org/wiki/Peter_the_Great"
+      ]
+     ]
+    },
+    {
+     "y": 1697,
+     "ll": [
+      52.373,
+      4.892
+     ],
+     "z": 5,
+     "h": {
+      "en": "A shipwright in Holland",
+      "ru": "Корабельный плотник в Голландии"
+     },
+     "t": {
+      "en": "Peter reaches Zaandam on 18 August 1697 and from 1 September works incognito as a shipbuilder in Amsterdam. In the autumn he meets William III, King of England and Stadtholder of the Dutch Republic, at Utrecht.",
+      "ru": "18 августа 1697 года Пётр приезжает в Заандам, а с 1 сентября инкогнито работает корабельным плотником в Амстердаме. Осенью в Утрехте он встречается с Вильгельмом III — королём Англии и штатгальтером Нидерландов."
+     },
+     "wiki": {
+      "en": "Peter the Great"
+     },
+     "route": [
+      [
+       55.752,
+       37.6175
+      ],
+      [
+       52.4387,
+       4.8133
+      ],
+      [
+       52.373,
+       4.892
+      ]
+     ],
+     "people": [
+      "peter-i"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Peter the Great",
+       "https://en.wikipedia.org/wiki/Peter_the_Great"
+      ],
+      [
+       "Wikipedia (en): Grand Embassy of Peter the Great",
+       "https://en.wikipedia.org/wiki/Grand_Embassy_of_Peter_the_Great"
+      ]
+     ]
+    },
+    {
+     "y": 1698,
+     "ll": [
+      51.481,
+      -0.027
+     ],
+     "z": 5,
+     "h": {
+      "en": "Deptford, 1698",
+      "ru": "Дептфорд, 1698"
+     },
+     "t": {
+      "en": "On 18 January 1698 Peter sails from Hellevoetsluis for England, where he stays until 21 April. From 9 February he lodges at Sayes Court, next to the dockyard at Deptford on the Thames. Reports of how many Britons entered Russian service range from 60 to 500.",
+      "ru": "18 января 1698 года Пётр отплывает из Хеллевутслёйса в Англию и остаётся там до 21 апреля. С 9 февраля он живёт в Сейс-Корте, рядом с верфью в Дептфорде на Темзе. Сколько британцев поступило на русскую службу, источники говорят по-разному — от 60 до 500."
+     },
+     "wiki": {
+      "en": "Grand Embassy of Peter the Great"
+     },
+     "route": [
+      [
+       52.373,
+       4.892
+      ],
+      [
+       51.8222,
+       4.1333
+      ],
+      [
+       51.481,
+       -0.027
+      ]
+     ],
+     "people": [
+      "peter-i"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Grand Embassy of Peter the Great",
+       "https://en.wikipedia.org/wiki/Grand_Embassy_of_Peter_the_Great"
+      ]
+     ]
+    },
+    {
+     "y": 1698,
+     "ll": [
+      48.2082,
+      16.3738
+     ],
+     "z": 4,
+     "h": {
+      "en": "Vienna, and the call home",
+      "ru": "Вена и срочное возвращение"
+     },
+     "t": {
+      "en": "The embassy goes on to Vienna to negotiate. A visit to Venice is planned, but news of a Streltsy revolt in Moscow in June 1698 sends Peter hurrying home; he is back in early September.",
+      "ru": "Посольство едет в Вену на переговоры. Задуман и визит в Венецию, но известие о стрелецком бунте в Москве в июне 1698 года заставляет Петра спешить домой; в начале сентября он уже в России."
+     },
+     "wiki": {
+      "en": "Peter the Great"
+     },
+     "route": [
+      [
+       51.481,
+       -0.027
+      ],
+      [
+       48.2082,
+       16.3738
+      ],
+      [
+       55.752,
+       37.6175
+      ]
+     ],
+     "people": [
+      "peter-i"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Grand Embassy of Peter the Great",
+       "https://en.wikipedia.org/wiki/Grand_Embassy_of_Peter_the_Great"
+      ],
+      [
+       "Wikipedia (en): Peter the Great",
+       "https://en.wikipedia.org/wiki/Peter_the_Great"
+      ]
+     ]
+    },
+    {
+     "y": 1703,
+     "date": "1703-05-27",
+     "date_os": "1703-05-16",
+     "ll": [
+      59.95,
+      30.3167
+     ],
+     "z": 5,
+     "h": {
+      "en": "Hare Island, 16 May 1703",
+      "ru": "Заячий остров, 16 мая 1703"
+     },
+     "t": {
+      "en": "The war with Sweden opened at Narva in 1700. On 16 May 1703 (27 May new style) Peter lays down a fortress on Zayachy, Hare, Island in the Neva: the Peter and Paul Fortress, the beginning of Saint Petersburg. The stone fortress is built to Domenico Trezzini’s design in 1706–1740. The city is raised by peasants conscripted from all over Russia, in some years with Swedish prisoners under Alexander Menshikov; tens of thousands die building it.",
+      "ru": "Война со Швецией началась под Нарвой в 1700 году. 16 мая 1703 года (27 мая по новому стилю) Пётр закладывает крепость на Заячьем острове в Неве — Петропавловскую; с неё начинается Санкт-Петербург. Каменную крепость строят по проекту Доменико Трезини в 1706–1740 годах. Город возводят крестьяне, согнанные со всей России, в иные годы и пленные шведы под надзором Александра Меншикова; на стройке гибнут десятки тысяч людей."
+     },
+     "wiki": {
+      "en": "Peter and Paul Fortress"
+     },
+     "people": [
+      "peter-i"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Saint Petersburg",
+       "https://en.wikipedia.org/wiki/Saint_Petersburg"
+      ],
+      [
+       "Wikipedia (en): Peter and Paul Fortress",
+       "https://en.wikipedia.org/wiki/Peter_and_Paul_Fortress"
+      ],
+      [
+       "Wikipedia (en): Peter the Great",
+       "https://en.wikipedia.org/wiki/Peter_the_Great"
+      ]
+     ]
+    },
+    {
+     "y": 1704,
+     "ll": [
+      59.9375,
+      30.3086
+     ],
+     "z": 6,
+     "h": {
+      "en": "The Admiralty",
+      "ru": "Адмиралтейство"
+     },
+     "t": {
+      "en": "In 1704, across the river from the fortress, work begins on a fortified shipyard, the Admiralty. A century later Andreyan Zakharov rebuilds it in the Empire style (1806–1823). Its gilded spire, topped by a weather-vane in the shape of a small sailing warship, is the point where Nevsky Prospect, Gorokhovaya Street and Voznesensky Avenue meet.",
+      "ru": "В 1704 году на другом берегу, напротив крепости, начинают строить укреплённую верфь — Адмиралтейство. Через сто лет Андреян Захаров перестраивает его в стиле ампир (1806–1823). Его золочёный шпиль с флюгером-корабликом — точка, где сходятся Невский проспект, Гороховая улица и Вознесенский проспект."
+     },
+     "wiki": {
+      "en": "Admiralty, Saint Petersburg"
+     },
+     "src": [
+      [
+       "Wikipedia (en): Admiralty, Saint Petersburg",
+       "https://en.wikipedia.org/wiki/Admiralty,_Saint_Petersburg"
+      ]
+     ]
+    },
+    {
+     "y": 1704,
+     "ll": [
+      59.9447,
+      30.3365
+     ],
+     "z": 6,
+     "h": {
+      "en": "The Summer Garden",
+      "ru": "Летний сад"
+     },
+     "t": {
+      "en": "Also in 1704 Peter lays out the Summer Garden, by tradition to his own design, helped by the Dutch physician Nicolaas Bidloo. The gardener Jan Roosen plants it from 1712, and the French architect Jean-Baptiste Le Blond, arriving in 1716, gives it a formal French manner. Its walks are lined with about a hundred allegorical marble statues by Venetian sculptors, bought through Sava Vladislavich.",
+      "ru": "Тогда же, в 1704 году, Пётр разбивает Летний сад — по преданию, по собственному плану, с помощью голландского врача Николааса Бидлоо. С 1712 года сад засаживает садовник Ян Роозен, а приехавший в 1716 году французский архитектор Жан-Батист Леблон придаёт ему регулярный французский облик. Аллеи украшает около сотни аллегорических мраморных статуй венецианских мастеров, купленных через Савву Владиславича."
+     },
+     "wiki": {
+      "en": "Summer Garden"
+     },
+     "people": [
+      "peter-i"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Summer Garden",
+       "https://en.wikipedia.org/wiki/Summer_Garden"
+      ]
+     ]
+    },
+    {
+     "y": 1709,
+     "date": "1709-07-08",
+     "date_os": "1709-06-27",
+     "ll": [
+      49.5883,
+      34.5514
+     ],
+     "z": 4,
+     "h": {
+      "en": "Poltava, 27 June 1709",
+      "ru": "Полтава, 27 июня 1709"
+     },
+     "t": {
+      "en": "On 27 June 1709 Peter’s army defeats the Swedish army of Charles XII at Poltava, in what is now Ukraine.",
+      "ru": "27 июня 1709 года под Полтавой армия Петра разбивает шведскую армию Карла XII."
+     },
+     "wiki": {
+      "en": "Battle of Poltava"
+     },
+     "people": [
+      "peter-i"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Peter the Great",
+       "https://en.wikipedia.org/wiki/Peter_the_Great"
+      ]
+     ]
+    },
+    {
+     "y": 1712,
+     "ll": [
+      59.9502,
+      30.3165
+     ],
+     "z": 6,
+     "h": {
+      "en": "The capital moves, 1712",
+      "ru": "Перенос столицы, 1712"
+     },
+     "t": {
+      "en": "In 1712 Saint Petersburg becomes the capital of Russia, which it remains until 1918, apart from a short spell back in Moscow from 1728. The same year the stone Peter and Paul Cathedral is begun inside the fortress (1712–1733), with a bell-tower of 122.5 metres and a gilded angel on top.",
+      "ru": "В 1712 году Санкт-Петербург становится столицей России и остаётся ею до 1918 года, если не считать короткого возвращения двора в Москву с 1728 года. В том же году в крепости начинают строить каменный Петропавловский собор (1712–1733) с колокольней высотой 122,5 метра и золочёным ангелом наверху."
+     },
+     "wiki": {
+      "en": "Saint Petersburg"
+     },
+     "src": [
+      [
+       "Wikipedia (en): Saint Petersburg",
+       "https://en.wikipedia.org/wiki/Saint_Petersburg"
+      ],
+      [
+       "Wikipedia (en): Peter and Paul Fortress",
+       "https://en.wikipedia.org/wiki/Peter_and_Paul_Fortress"
+      ]
+     ]
+    },
+    {
+     "y": 1714,
+     "ll": [
+      59.9415,
+      30.3046
+     ],
+     "z": 6,
+     "h": {
+      "en": "The Kunstkamera",
+      "ru": "Кунсткамера"
+     },
+     "t": {
+      "en": "In 1714 Peter’s collection of curiosities is first shown to the public in the Summer Palace, the date the museum counts as its founding. He buys the cabinet of Albertus Seba in 1716 and Frederik Ruysch’s collection in 1717. The turreted building by Georg Johann Mattarnovy is begun in 1719, and the collection moves in in 1727. Today it is the Peter the Great Museum of Anthropology and Ethnography, with nearly two million items.",
+      "ru": "В 1714 году собрание редкостей Петра впервые показывают публике в Летнем дворце — эту дату музей считает днём основания. В 1716 году царь покупает кабинет Альберта Себы, в 1717-м — коллекцию Фредерика Рюйша. Здание с башней по проекту Георга Иоганна Маттарнови заложено в 1719 году, коллекция переезжает туда в 1727-м. Сегодня это Музей антропологии и этнографии имени Петра Великого — почти два миллиона предметов."
+     },
+     "wiki": {
+      "en": "Kunstkamera"
+     },
+     "people": [
+      "peter-i"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Kunstkamera",
+       "https://en.wikipedia.org/wiki/Kunstkamera"
+      ]
+     ]
+    },
+    {
+     "y": 1722,
+     "date": "1722-02-04",
+     "date_os": "1722-01-24",
+     "ll": [
+      59.9417,
+      30.2994
+     ],
+     "z": 6,
+     "h": {
+      "en": "Twelve colleges and fourteen ranks",
+      "ru": "Двенадцать коллегий и четырнадцать классов"
+     },
+     "t": {
+      "en": "From 1717 Peter sets up colleges to run the state. In 1722 a single building is begun for twelve branches of government — the Senate, the Synod and the colleges — to the designs of Domenico Trezzini and Theodor Schwertfeger; finished in 1744, it now houses Saint Petersburg State University. On 24 January 1722 Peter signs the Table of Ranks: 14 classes and 263 posts, military, civil and court. Reaching the 8th class at first made a man a hereditary noble.",
+      "ru": "С 1717 года Пётр учреждает коллегии. В 1722 году для двенадцати ведомств — Сената, Синода и коллегий — начинают строить единое здание по проекту Доменико Трезини и Теодора Швертфегера; законченное в 1744 году, оно занято теперь Санкт-Петербургским университетом. 24 января 1722 года Пётр подписывает Табель о рангах: 14 классов и 263 должности — военные, статские и придворные. Достигший восьмого класса поначалу получал потомственное дворянство."
+     },
+     "wiki": {
+      "en": "Table of Ranks"
+     },
+     "people": [
+      "peter-i"
+     ],
+     "quote": {
+      "ru": "Табель о рангах всех чинов, воинских, статских, и придворных",
+      "en": "Table of ranks of all ranks, military, civil and court",
+      "tr": "compiler",
+      "who": {
+       "en": "Peter I, title of the law",
+       "ru": "Пётр I, заглавие закона"
+      },
+      "when": {
+       "en": "24 January (4 February) 1722",
+       "ru": "24 января (4 февраля) 1722 года"
+      },
+      "src": [
+       [
+        "Presidential Library: “Table of Ranks” signed by Peter the Great",
+        "https://prlib.ru/en/news/707565"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Wikipedia (en): Twelve Collegia",
+       "https://en.wikipedia.org/wiki/Twelve_Collegia"
+      ],
+      [
+       "Wikipedia (en): Table of Ranks",
+       "https://en.wikipedia.org/wiki/Table_of_Ranks"
+      ],
+      [
+       "Presidential Library: “Table of Ranks” signed by Peter the Great",
+       "https://prlib.ru/en/news/707565"
+      ],
+      [
+       "Wikipedia (en): Peter the Great",
+       "https://en.wikipedia.org/wiki/Peter_the_Great"
+      ]
+     ]
+    },
+    {
+     "y": 1724,
+     "date": "1724-09-10",
+     "date_os": "1724-08-30",
+     "ll": [
+      59.9208,
+      30.3885
+     ],
+     "z": 6,
+     "h": {
+      "en": "A saint for the new capital",
+      "ru": "Святой для новой столицы"
+     },
+     "t": {
+      "en": "On 2 November 1721 (new style) Peter is proclaimed Emperor. The relics of Alexander Nevsky, victor on the Neva in 1240, leave Vladimir in August 1723 and on 30 August 1724 are installed in the Annunciation Church of the Alexander Nevsky Lavra in Petersburg.",
+      "ru": "2 ноября 1721 года (по новому стилю) Пётр провозглашён императором. Мощи Александра Невского, победителя на Неве в 1240 году, в августе 1723 года увозят из Владимира и 30 августа 1724-го ставят в Благовещенской церкви Александро-Невской лавры в Петербурге."
+     },
+     "wiki": {
+      "en": "Alexander Nevsky Lavra"
+     },
+     "people": [
+      "peter-i",
+      "alexander-nevsky"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Peter the Great",
+       "https://en.wikipedia.org/wiki/Peter_the_Great"
+      ],
+      [
+       "Wikipedia (en): Alexander Nevsky",
+       "https://en.wikipedia.org/wiki/Alexander_Nevsky"
+      ]
+     ]
+    },
+    {
+     "y": 1725,
+     "date": "1725-02-08",
+     "date_os": "1725-01-28",
+     "ll": [
+      59.9424,
+      30.3175
+     ],
+     "z": 6,
+     "h": {
+      "en": "Death in the Winter Palace, 1725",
+      "ru": "Смерть в Зимнем дворце, 1725"
+     },
+     "t": {
+      "en": "Peter dies on 28 January 1725 (8 February new style) in his Winter Palace — the second on the site, built by Mattarnovy in 1721 in place of Trezzini’s modest palace of 1711–12. In twenty-two years the camp on the Neva has become the capital of an empire.",
+      "ru": "Пётр умирает 28 января 1725 года (8 февраля по новому стилю) в своём Зимнем дворце — втором на этом месте, построенном Маттарнови в 1721 году вместо скромного дворца Трезини 1711–1712 годов. За двадцать два года лагерь на Неве стал столицей империи."
+     },
+     "wiki": {
+      "en": "Winter Palace"
+     },
+     "people": [
+      "peter-i"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Peter the Great",
+       "https://en.wikipedia.org/wiki/Peter_the_Great"
+      ],
+      [
+       "Wikipedia (en): Winter Palace",
+       "https://en.wikipedia.org/wiki/Winter_Palace"
+      ]
+     ]
+    }
+   ],
+   "src": [
+    [
+     "Wikipedia (en): Peter the Great",
+     "https://en.wikipedia.org/wiki/Peter_the_Great"
+    ],
+    [
+     "Wikipedia (en): Grand Embassy of Peter the Great",
+     "https://en.wikipedia.org/wiki/Grand_Embassy_of_Peter_the_Great"
+    ],
+    [
+     "Wikipedia (en): Saint Petersburg",
+     "https://en.wikipedia.org/wiki/Saint_Petersburg"
+    ],
+    [
+     "Wikipedia (en): Peter and Paul Fortress",
+     "https://en.wikipedia.org/wiki/Peter_and_Paul_Fortress"
+    ],
+    [
+     "Wikipedia (en): Admiralty, Saint Petersburg",
+     "https://en.wikipedia.org/wiki/Admiralty,_Saint_Petersburg"
+    ],
+    [
+     "Wikipedia (en): Summer Garden",
+     "https://en.wikipedia.org/wiki/Summer_Garden"
+    ],
+    [
+     "Wikipedia (en): Kunstkamera",
+     "https://en.wikipedia.org/wiki/Kunstkamera"
+    ],
+    [
+     "Wikipedia (en): Twelve Collegia",
+     "https://en.wikipedia.org/wiki/Twelve_Collegia"
+    ],
+    [
+     "Wikipedia (en): Table of Ranks",
+     "https://en.wikipedia.org/wiki/Table_of_Ranks"
+    ],
+    [
+     "Presidential Library: “Table of Ranks” signed by Peter the Great",
+     "https://prlib.ru/en/news/707565"
+    ],
+    [
+     "Wikipedia (en): Winter Palace",
+     "https://en.wikipedia.org/wiki/Winter_Palace"
+    ]
+   ]
+  },
+  {
+   "id": "revolution-1905",
+   "n": {
+    "en": "1905",
+    "ru": "1905 год"
+   },
+   "years": [
+    1905,
+    1907
+   ],
+   "lede": {
+    "en": "A Sunday march to the Winter Palace ends in gunfire; strikes, a mutiny in the fleet and councils of workers follow; in October the tsar grants civil freedoms and a legislative Duma; in December Moscow’s Presnya is crushed. Nine steps from Bloody Sunday to the Third of June.",
+    "ru": "Воскресное шествие к Зимнему дворцу кончается расстрелом; за ним — стачки, мятеж на флоте и советы рабочих; в октябре царь дарует гражданские свободы и законодательную Думу; в декабре подавлена московская Пресня. Девять шагов — от Кровавого воскресенья до Третьего июня."
+   },
+   "steps": [
+    {
+     "y": 1905,
+     "ll": [
+      59.874,
+      30.258
+     ],
+     "z": 6,
+     "h": {
+      "en": "A strike at the Putilov works",
+      "ru": "Стачка на Путиловском заводе"
+     },
+     "t": {
+      "en": "The legal Assembly of Russian Factory Workers of St Petersburg, led by the priest Georgy Gapon and active since 1904, takes up a stoppage at the Putilov works and drafts a petition to the tsar. Socialist Revolutionaries and Social Democrats shape its final text, which asks for a Constituent Assembly, political freedoms, the end of indirect taxes and the separation of church and state.",
+      "ru": "Легальное «Собрание русских фабрично-заводских рабочих Санкт-Петербурга», которым с 1904 года руководит священник Георгий Гапон, поддерживает забастовку на Путиловском заводе и составляет петицию царю. При участии эсеров и социал-демократов в окончательный текст входят требования Учредительного собрания, политических свобод, отмены косвенных налогов и отделения церкви от государства."
+     },
+     "wiki": {
+      "en": "Georgy Gapon"
+     },
+     "src": [
+      [
+       "Presidential Library: “Bloody Sunday” — beginning of the First Russian revolution",
+       "https://prlib.ru/en/node/618968"
+      ]
+     ]
+    },
+    {
+     "y": 1905,
+     "date": "1905-01-22",
+     "date_os": "1905-01-09",
+     "ll": [
+      59.939,
+      30.3158
+     ],
+     "z": 5,
+     "h": {
+      "en": "Bloody Sunday, 9 January 1905",
+      "ru": "Кровавое воскресенье, 9 января 1905"
+     },
+     "t": {
+      "en": "On Sunday 9 January (22 January) about 140,000 workers, carrying icons and portraits of the tsar, march from all parts of the city towards the Winter Palace, where the imperial family no longer lives. Troops bar the way and open fire. The official toll is 92 dead and several hundred wounded; other estimates reach about 4,600 killed and wounded. Faith in the tsar is shaken, and the First Russian Revolution begins.",
+      "ru": "В воскресенье 9 (22) января около 140 тысяч рабочих с иконами и портретами царя идут из разных концов города к Зимнему дворцу, где царская семья уже не живёт. Войска преграждают путь и открывают огонь. По официальным данным — 92 убитых и несколько сотен раненых; по другим оценкам, убитых и раненых около 4600. Вера в царя подорвана: начинается первая русская революция."
+     },
+     "wiki": {
+      "en": "Bloody Sunday (1905)"
+     },
+     "people": [
+      "nicholas-ii"
+     ],
+     "quote": {
+      "ru": "Государь! Мы, рабочие и жители города С.-Петербурга разных сословий, наши жены, и дети, и беспомощные старцы-родители, пришли к тебе, государь, искать правды и защиты.",
+      "en": "Sovereign! We, workers and inhabitants of the city of St Petersburg, of various estates, our wives, our children and our helpless old parents, have come to you, Sovereign, to seek justice and protection.",
+      "tr": "compiler",
+      "who": {
+       "en": "Petition of the workers and residents of St Petersburg",
+       "ru": "Петиция рабочих и жителей Санкт-Петербурга"
+      },
+      "when": {
+       "en": "9 January 1905",
+       "ru": "9 января 1905 года"
+      },
+      "src": [
+       [
+        "A. Kimball, Univ. of Oregon: Petition prepared for presentation to Nicholas II (trans. D. Field)",
+        "https://pages.uoregon.edu/kimball/1905ja-Gapon.ptn.htm"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Wikipedia (en): Nicholas II",
+       "https://en.wikipedia.org/wiki/Nicholas_II"
+      ],
+      [
+       "Кругосвет: Революция 1905–1907 в России",
+       "https://www.krugosvet.ru/enc/istoriya/REVOLYUTSIYA_1905–1907_V_ROSSII.html"
+      ],
+      [
+       "Presidential Library: “Bloody Sunday” — beginning of the First Russian revolution",
+       "https://prlib.ru/en/node/618968"
+      ],
+      [
+       "Wikipedia (en): Winter Palace",
+       "https://en.wikipedia.org/wiki/Winter_Palace"
+      ],
+      [
+       "A. Kimball, Univ. of Oregon: Petition prepared for presentation to Nicholas II (trans. D. Field)",
+       "https://pages.uoregon.edu/kimball/1905ja-Gapon.ptn.htm"
+      ]
+     ]
+    },
+    {
+     "y": 1905,
+     "ll": [
+      56.9972,
+      40.9714
+     ],
+     "z": 5,
+     "h": {
+      "en": "Ivanovo-Voznesensk: a council of workers",
+      "ru": "Иваново-Вознесенск: совет рабочих"
+     },
+     "t": {
+      "en": "In May 1905 the workers of Ivanovo-Voznesensk elect their own organ of power, a Soviet of Workers’ Deputies. Such councils soon appear in other towns.",
+      "ru": "В мае 1905 года в Иваново-Вознесенске рабочие избирают свой орган власти — Совет рабочих депутатов. Вскоре такие советы появляются и в других городах."
+     },
+     "wiki": {
+      "en": "1905 Russian Revolution"
+     },
+     "src": [
+      [
+       "Кругосвет: Революция 1905–1907 в России",
+       "https://www.krugosvet.ru/enc/istoriya/REVOLYUTSIYA_1905–1907_V_ROSSII.html"
+      ]
+     ]
+    },
+    {
+     "y": 1905,
+     "ll": [
+      46.4825,
+      30.7233
+     ],
+     "z": 5,
+     "h": {
+      "en": "Tsushima and the Potemkin",
+      "ru": "Цусима и «Потёмкин»"
+     },
+     "t": {
+      "en": "In late May 1905 the Baltic Fleet, after a voyage of nine months, is nearly annihilated by the Japanese at Tsushima, and Nicholas II sues for peace. That summer the crew of the Black Sea battleship Knyaz Potemkin-Tavrichesky rises in mutiny: unrest has reached the fleet.",
+      "ru": "В конце мая 1905 года Балтийский флот после девятимесячного похода почти полностью уничтожен японцами при Цусиме, и Николай II просит мира. Летом поднимает мятеж команда черноморского броненосца «Князь Потёмкин-Таврический»: брожение дошло до флота."
+     },
+     "wiki": {
+      "en": "Russian battleship Potemkin"
+     },
+     "people": [
+      "nicholas-ii"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Nicholas II",
+       "https://en.wikipedia.org/wiki/Nicholas_II"
+      ],
+      [
+       "Кругосвет: Революция 1905–1907 в России",
+       "https://www.krugosvet.ru/enc/istoriya/REVOLYUTSIYA_1905–1907_V_ROSSII.html"
+      ]
+     ]
+    },
+    {
+     "y": 1905,
+     "date": "1905-10-20",
+     "date_os": "1905-10-07",
+     "ll": [
+      55.7558,
+      37.6173
+     ],
+     "z": 4,
+     "h": {
+      "en": "The October general strike",
+      "ru": "Всероссийская октябрьская стачка"
+     },
+     "t": {
+      "en": "On 7 October 1905 Moscow’s railwaymen stop work. The strike spreads to 120 towns in 66 provinces, with about two million taking part.",
+      "ru": "7 октября 1905 года бастуют московские железнодорожники. Стачка охватывает 120 городов в 66 губерниях; в ней участвуют около двух миллионов человек."
+     },
+     "wiki": {
+      "en": "1905 Russian Revolution"
+     },
+     "src": [
+      [
+       "Кругосвет: Революция 1905–1907 в России",
+       "https://www.krugosvet.ru/enc/istoriya/REVOLYUTSIYA_1905–1907_V_ROSSII.html"
+      ]
+     ]
+    },
+    {
+     "y": 1905,
+     "date": "1905-10-30",
+     "date_os": "1905-10-17",
+     "ll": [
+      59.885,
+      29.9086
+     ],
+     "z": 5,
+     "h": {
+      "en": "The October Manifesto",
+      "ru": "Манифест 17 октября"
+     },
+     "t": {
+      "en": "On 17 October 1905, at Peterhof, Nicholas II signs the manifesto “On the Improvement of the State Order”. It grants the population “the unshakeable foundations of civil freedom” — inviolability of the person and freedom of conscience, speech, assembly and association — and a Duma with legislative power.",
+      "ru": "17 октября 1905 года в Петергофе Николай II подписывает манифест «Об усовершенствовании государственного порядка». Он дарует населению «незыблемые основы гражданской свободы» — неприкосновенность личности, свободу совести, слова, собраний и союзов — и законодательную Думу."
+     },
+     "wiki": {
+      "en": "October Manifesto"
+     },
+     "people": [
+      "nicholas-ii"
+     ],
+     "quote": {
+      "ru": "Даровать населению незыблемые основы гражданской свободы на началах действительной неприкосновенности личности, свободы совести, слова, собраний и союзов.",
+      "en": "To grant the population the unshakeable foundations of civil freedom on the basis of real inviolability of the person, freedom of conscience, speech, assembly and association.",
+      "tr": "compiler",
+      "who": {
+       "en": "Nicholas II, Manifesto of 17 October 1905, point 1",
+       "ru": "Николай II, Манифест 17 октября 1905 года, пункт 1"
+      },
+      "when": {
+       "en": "17 October 1905",
+       "ru": "17 октября 1905 года"
+      },
+      "src": [
+       [
+        "Pravo.by: Высочайший манифест от 17 октября 1905 года «Об усовершенствовании государственного порядка»",
+        "https://pravo.by/pravovaya-informatsiya/pomniki-gistoryi-prava-belarusi/kanstytutsyynae-prava-belarusi/akty-rasiyskay-imperyi/ob-usovershenstvovanii-gosudarstvennogo-poryadka-vysochayshiy-manifest-ot-17-oktyabrya-1905-goda/"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Pravo.by: Высочайший манифест от 17 октября 1905 года «Об усовершенствовании государственного порядка»",
+       "https://pravo.by/pravovaya-informatsiya/pomniki-gistoryi-prava-belarusi/kanstytutsyynae-prava-belarusi/akty-rasiyskay-imperyi/ob-usovershenstvovanii-gosudarstvennogo-poryadka-vysochayshiy-manifest-ot-17-oktyabrya-1905-goda/"
+      ],
+      [
+       "Кругосвет: Революция 1905–1907 в России",
+       "https://www.krugosvet.ru/enc/istoriya/REVOLYUTSIYA_1905–1907_V_ROSSII.html"
+      ]
+     ]
+    },
+    {
+     "y": 1905,
+     "date": "1905-12-22",
+     "date_os": "1905-12-09",
+     "ll": [
+      55.7614,
+      37.5634
+     ],
+     "z": 5,
+     "h": {
+      "en": "Barricades on the Presnya",
+      "ru": "Баррикады на Пресне"
+     },
+     "t": {
+      "en": "When the leaders of the St Petersburg Soviet are arrested, a new general strike is called for 9 December. In Moscow it turns into an armed rising of some 6,000 fighters of the workers’ militias. Troops sent on 15 December corner it in the Presnya district; by 18 December it is crushed, with about 500 dead and more than a thousand wounded.",
+      "ru": "После ареста руководителей Петербургского совета на 9 декабря объявлена новая всеобщая стачка. В Москве она перерастает в вооружённое восстание, в котором участвуют около 6 тысяч дружинников. Присланные 15 декабря войска запирают его на Пресне; к 18 декабря восстание подавлено: около 500 убитых и более тысячи раненых."
+     },
+     "wiki": {
+      "en": "1905 Russian Revolution"
+     },
+     "src": [
+      [
+       "Кругосвет: Революция 1905–1907 в России",
+       "https://www.krugosvet.ru/enc/istoriya/REVOLYUTSIYA_1905–1907_V_ROSSII.html"
+      ]
+     ]
+    },
+    {
+     "y": 1906,
+     "date": "1906-05-10",
+     "date_os": "1906-04-27",
+     "ll": [
+      59.9478,
+      30.3772
+     ],
+     "z": 6,
+     "h": {
+      "en": "The First Duma",
+      "ru": "Первая Дума"
+     },
+     "t": {
+      "en": "On 27 April 1906 the First State Duma opens; it meets in the Tauride Palace. Its 524 members, with a Kadet majority, answer the tsar with an address demanding universal suffrage, radical land reform and the release of political prisoners.",
+      "ru": "27 апреля 1906 года открывается I Государственная дума; она заседает в Таврическом дворце. Её 524 депутата, большинство которых — кадеты, отвечают царю адресом с требованием всеобщего избирательного права, радикальной земельной реформы и освобождения политических заключённых."
+     },
+     "wiki": {
+      "en": "State Duma (Russian Empire)"
+     },
+     "people": [
+      "nicholas-ii"
+     ],
+     "src": [
+      [
+       "Кругосвет: Революция 1905–1907 в России",
+       "https://www.krugosvet.ru/enc/istoriya/REVOLYUTSIYA_1905–1907_V_ROSSII.html"
+      ],
+      [
+       "Wikipedia (en): Nicholas II",
+       "https://en.wikipedia.org/wiki/Nicholas_II"
+      ]
+     ]
+    },
+    {
+     "y": 1907,
+     "date": "1907-06-16",
+     "date_os": "1907-06-03",
+     "ll": [
+      59.9478,
+      30.3772
+     ],
+     "z": 5,
+     "h": {
+      "en": "The Third of June, 1907",
+      "ru": "Третье июня 1907 года"
+     },
+     "t": {
+      "en": "On 3 June 1907, on the advice of Pyotr Stolypin, the tsar dissolves the Second Duma. This “Third of June coup” is taken as the end of the revolution of 1905–1907.",
+      "ru": "3 июня 1907 года по представлению Петра Столыпина царь распускает II Государственную думу. Этот «третьеиюньский переворот» считают концом революции 1905–1907 годов."
+     },
+     "wiki": {
+      "en": "1905 Russian Revolution"
+     },
+     "people": [
+      "nicholas-ii"
+     ],
+     "src": [
+      [
+       "Кругосвет: Революция 1905–1907 в России",
+       "https://www.krugosvet.ru/enc/istoriya/REVOLYUTSIYA_1905–1907_V_ROSSII.html"
+      ]
+     ]
+    }
+   ],
+   "src": [
+    [
+     "Wikipedia (en): Nicholas II",
+     "https://en.wikipedia.org/wiki/Nicholas_II"
+    ],
+    [
+     "Кругосвет: Революция 1905–1907 в России",
+     "https://www.krugosvet.ru/enc/istoriya/REVOLYUTSIYA_1905–1907_V_ROSSII.html"
+    ],
+    [
+     "Presidential Library: “Bloody Sunday” — beginning of the First Russian revolution",
+     "https://prlib.ru/en/node/618968"
+    ],
+    [
+     "Wikipedia (en): Winter Palace",
+     "https://en.wikipedia.org/wiki/Winter_Palace"
+    ],
+    [
+     "Pravo.by: Высочайший манифест от 17 октября 1905 года «Об усовершенствовании государственного порядка»",
+     "https://pravo.by/pravovaya-informatsiya/pomniki-gistoryi-prava-belarusi/kanstytutsyynae-prava-belarusi/akty-rasiyskay-imperyi/ob-usovershenstvovanii-gosudarstvennogo-poryadka-vysochayshiy-manifest-ot-17-oktyabrya-1905-goda/"
+    ],
+    [
+     "A. Kimball, Univ. of Oregon: Petition prepared for presentation to Nicholas II (trans. D. Field)",
+     "https://pages.uoregon.edu/kimball/1905ja-Gapon.ptn.htm"
+    ]
+   ]
+  },
+  {
+   "id": "revolution-1917",
+   "n": {
+    "en": "1917",
+    "ru": "1917 год"
+   },
+   "years": [
+    1917,
+    1928
+   ],
+   "lede": {
+    "en": "From bread riots on Women’s Day to the Decree on Peace: in eight months Petrograd ends three centuries of Romanov rule, gives soldiers their committees, welcomes Lenin back, puts down the July Days and, in the night of 25–26 October, sees the Provisional Government arrested in the Winter Palace.",
+    "ru": "От хлебных бунтов в Женский день до Декрета о мире: за восемь месяцев Петроград кончает с трёхвековым правлением Романовых, даёт солдатам их комитеты, встречает Ленина, подавляет Июльские дни, а в ночь на 26 октября видит арест Временного правительства в Зимнем дворце."
+   },
+   "steps": [
+    {
+     "y": 1917,
+     "date": "1917-03-08",
+     "date_os": "1917-02-23",
+     "ll": [
+      59.9343,
+      30.3351
+     ],
+     "z": 5,
+     "h": {
+      "en": "Women’s Day, 23 February",
+      "ru": "Женский день, 23 февраля"
+     },
+     "t": {
+      "en": "On 23 February 1917 (8 March new style), International Women’s Day, bread riots and protests begin in Petrograd. The workers of the Putilov plant have been on strike since 18 February (3 March), the first big protest of the month.",
+      "ru": "23 февраля 1917 года (8 марта по новому стилю), в Международный женский день, в Петрограде начинаются хлебные бунты и демонстрации. Рабочие Путиловского завода бастуют с 18 февраля (3 марта) — это первый крупный протест месяца."
+     },
+     "wiki": {
+      "en": "February Revolution"
+     },
+     "src": [
+      [
+       "Wikipedia (en): February Revolution",
+       "https://en.wikipedia.org/wiki/February_Revolution"
+      ]
+     ]
+    },
+    {
+     "y": 1917,
+     "date": "1917-03-12",
+     "date_os": "1917-02-27",
+     "ll": [
+      59.9478,
+      30.3772
+     ],
+     "z": 6,
+     "h": {
+      "en": "The garrison changes sides, 27 February",
+      "ru": "Гарнизон переходит к восставшим, 27 февраля"
+     },
+     "t": {
+      "en": "On 27 February (12 March) the Volynsky Regiment mutinies, and the mutiny spreads through the garrison. The same day two authorities appear in the Tauride Palace: the Petrograd Soviet of Workers’ and Soldiers’ Deputies and the Provisional Committee of the State Duma. Over 1,300 people are killed in the February days; one count gives 1,443 in Petrograd.",
+      "ru": "27 февраля (12 марта) восстаёт Волынский полк, за ним другие части гарнизона. В тот же день в Таврическом дворце возникают две власти: Петроградский совет рабочих и солдатских депутатов и Временный комитет Государственной думы. В февральские дни погибли более 1300 человек; по одному из подсчётов, 1443 — в Петрограде."
+     },
+     "wiki": {
+      "en": "Petrograd Soviet"
+     },
+     "src": [
+      [
+       "Wikipedia (en): February Revolution",
+       "https://en.wikipedia.org/wiki/February_Revolution"
+      ]
+     ]
+    },
+    {
+     "y": 1917,
+     "date": "1917-03-14",
+     "date_os": "1917-03-01",
+     "ll": [
+      59.9478,
+      30.3772
+     ],
+     "z": 6,
+     "h": {
+      "en": "Order No. 1, 1 March",
+      "ru": "Приказ № 1, 1 марта"
+     },
+     "t": {
+      "en": "On 1 March (14 March) the Soviet issues Order No. 1 to the soldiers of the Petrograd garrison and the fleet. Every company, battalion, battery and ship is to elect a committee of the lower ranks, and orders of the Duma’s military commission are to be obeyed only when they do not contradict those of the Soviet. Trotsky later called it the one worthy document of the February revolution.",
+      "ru": "1 (14) марта Совет издаёт Приказ № 1 по Петроградскому гарнизону и флоту. Во всех ротах, батальонах, батареях и на кораблях выбираются комитеты нижних чинов, а приказы военной комиссии Думы исполняются, лишь если не противоречат приказам и постановлениям Совета. Троцкий потом назвал его единственным достойным документом Февральской революции."
+     },
+     "wiki": {
+      "en": "February Revolution"
+     },
+     "quote": {
+      "ru": "Во всех ротах, батальонах, полках, парках, батареях, эскадронах и отдельных службах разного рода военных управлений и на судах военного флота немедленно выбрать комитеты из выборных представителей от нижних чинов вышеуказанных воинских частей.",
+      "en": "In all companies, battalions, regiments, depots, batteries, squadrons and separate services of every kind of military administration, and on the ships of the navy, committees of elected representatives of the lower ranks of those units are to be chosen at once.",
+      "tr": "compiler",
+      "who": {
+       "en": "Petrograd Soviet, Order No. 1, point 1",
+       "ru": "Петроградский совет, Приказ № 1, пункт 1"
+      },
+      "when": {
+       "en": "1 (14) March 1917",
+       "ru": "1 (14) марта 1917 года"
+      },
+      "src": [
+       [
+        "WSWS, «Из архива русской революции»: Приказ № 1 (1 марта 1917)",
+        "https://www.wsws.org/ru/articles/2017/03/15/prik-m15.html"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "WSWS, «Из архива русской революции»: Приказ № 1 (1 марта 1917)",
+       "https://www.wsws.org/ru/articles/2017/03/15/prik-m15.html"
+      ],
+      [
+       "Wikipedia (en): February Revolution",
+       "https://en.wikipedia.org/wiki/February_Revolution"
+      ]
+     ]
+    },
+    {
+     "y": 1917,
+     "date": "1917-03-15",
+     "date_os": "1917-03-02",
+     "ll": [
+      57.8114,
+      28.35
+     ],
+     "z": 5,
+     "h": {
+      "en": "Abdication at Pskov, 2 March",
+      "ru": "Отречение в Пскове, 2 марта"
+     },
+     "t": {
+      "en": "On 2 March (15 March) 1917, at Pskov, Nicholas II abdicates for himself and his son Alexei in favour of his brother, Grand Duke Michael. The next day Michael declines the throne unless a Constituent Assembly so decides. Three centuries of Romanov rule are over.",
+      "ru": "2 (15) марта 1917 года в Пскове Николай II отрекается за себя и за сына Алексея в пользу брата, великого князя Михаила Александровича. На следующий день Михаил отказывается принять престол, пока не выскажется Учредительное собрание. Трёхвековое правление Романовых окончено."
+     },
+     "wiki": {
+      "en": "Abdication of Nicholas II"
+     },
+     "people": [
+      "nicholas-ii"
+     ],
+     "quote": {
+      "ru": "В дни великой борьбы с внешним врагом, стремящимся почти три года поработить нашу родину, Господу Богу угодно было ниспослать России новое тяжкое испытание.",
+      "en": "In the midst of the great struggle against a foreign foe, who has been striving for three years to enslave our country, it has pleased God to lay on Russia a new and painful trial.",
+      "tr": "F. A. Golder (ed.), Documents of Russian History 1914–1917, New York 1927",
+      "who": {
+       "en": "Nicholas II, abdication manifesto",
+       "ru": "Николай II, манифест об отречении"
+      },
+      "when": {
+       "en": "Pskov, 2 March 1917, 3 p.m.",
+       "ru": "Псков, 2 марта 1917 года, 15 часов"
+      },
+      "src": [
+       [
+        "Seventeen Moments in Soviet History (MSU): Abdication Manifesto (Golder 1927)",
+        "https://soviethistory.msu.edu/1917/february-revolution/february-revolution-texts/abdication-manifesto/"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Wikipedia (en): Abdication of Nicholas II",
+       "https://en.wikipedia.org/wiki/Abdication_of_Nicholas_II"
+      ],
+      [
+       "Seventeen Moments in Soviet History (MSU): Abdication Manifesto (Golder 1927)",
+       "https://soviethistory.msu.edu/1917/february-revolution/february-revolution-texts/abdication-manifesto/"
+      ],
+      [
+       "Wikipedia (en): February Revolution",
+       "https://en.wikipedia.org/wiki/February_Revolution"
+      ],
+      [
+       "Wikipedia (en): Nicholas II",
+       "https://en.wikipedia.org/wiki/Nicholas_II"
+      ]
+     ]
+    },
+    {
+     "y": 1917,
+     "date": "1917-04-16",
+     "date_os": "1917-04-03",
+     "ll": [
+      59.9557,
+      30.3561
+     ],
+     "z": 6,
+     "h": {
+      "en": "Lenin at the Finland Station, 3 April",
+      "ru": "Ленин на Финляндском вокзале, 3 апреля"
+     },
+     "t": {
+      "en": "On 3 April (16 April) Lenin arrives back in Petrograd and, on his arrival, puts forward his April Theses.",
+      "ru": "3 (16) апреля Ленин возвращается в Петроград и сразу по приезде выдвигает свои «Апрельские тезисы»."
+     },
+     "wiki": {
+      "en": "April Theses"
+     },
+     "people": [
+      "lenin"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): October Revolution",
+       "https://en.wikipedia.org/wiki/October_Revolution"
+      ]
+     ]
+    },
+    {
+     "y": 1917,
+     "date": "1917-07-16",
+     "date_os": "1917-07-03",
+     "ll": [
+      59.9339,
+      30.3333
+     ],
+     "z": 5,
+     "h": {
+      "en": "The July Days",
+      "ru": "Июльские дни"
+     },
+     "t": {
+      "en": "On the evening of 3 July (16 July) the First Machine Gun Regiment leads armed soldiers and workers into the streets; on 5 July the Bolsheviks call the demonstrations off. The crackdown brings many arrests and possibly several hundred deaths. The government uses charges of German spying against Lenin and on 7 July orders his arrest; he hides and escapes to Finland, while Trotsky, Kamenev and Lunacharsky are jailed. On 8 July (21 July) Kerensky becomes prime minister.",
+      "ru": "Вечером 3 (16) июля Первый пулемётный полк выводит на улицы вооружённых солдат и рабочих; 5 июля большевики отменяют демонстрации. Подавление оборачивается множеством арестов и, возможно, сотнями погибших. Правительство обвиняет Ленина в шпионаже в пользу Германии и 7 июля приказывает его арестовать; он скрывается и бежит в Финляндию, а Троцкий, Каменев и Луначарский оказываются в тюрьме. 8 (21) июля премьер-министром становится Керенский."
+     },
+     "wiki": {
+      "en": "July Days"
+     },
+     "people": [
+      "lenin",
+      "kerensky"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): July Days",
+       "https://en.wikipedia.org/wiki/July_Days"
+      ]
+     ]
+    },
+    {
+     "y": 1917,
+     "date": "1917-09-09",
+     "date_os": "1917-08-27",
+     "ll": [
+      59.9386,
+      30.3141
+     ],
+     "z": 4,
+     "h": {
+      "en": "The Kornilov affair",
+      "ru": "Корниловское выступление"
+     },
+     "t": {
+      "en": "On 27 August (9 September) General Kornilov pushes troops towards Petrograd. Kerensky releases the jailed Bolshevik leaders during the crisis.",
+      "ru": "27 августа (9 сентября) генерал Корнилов двигает войска на Петроград. В дни этого кризиса Керенский освобождает из тюрьмы большевистских вождей."
+     },
+     "wiki": {
+      "en": "Kornilov Affair"
+     },
+     "people": [
+      "kerensky"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): October Revolution",
+       "https://en.wikipedia.org/wiki/October_Revolution"
+      ],
+      [
+       "Wikipedia (en): July Days",
+       "https://en.wikipedia.org/wiki/July_Days"
+      ]
+     ]
+    },
+    {
+     "y": 1917,
+     "date": "1917-11-06",
+     "date_os": "1917-10-24",
+     "ll": [
+      59.9463,
+      30.3957
+     ],
+     "z": 6,
+     "h": {
+      "en": "Smolny, 24–25 October",
+      "ru": "Смольный, 24–25 октября"
+     },
+     "t": {
+      "en": "At 9 a.m. on 24 October (6 November) the Military Revolutionary Committee issues its statement; in the night of 24–25 October it directs the rising from its headquarters at Smolny and marks out the remaining targets. On 25 October the Second All-Russian Congress of Soviets opens there.",
+      "ru": "В 9 утра 24 октября (6 ноября) Военно-революционный комитет выпускает своё обращение; в ночь на 25 октября он руководит восстанием из Смольного и намечает последние цели. 25 октября там же открывается II Всероссийский съезд Советов."
+     },
+     "wiki": {
+      "en": "Military Revolutionary Committee"
+     },
+     "src": [
+      [
+       "Wikipedia (en): October Revolution",
+       "https://en.wikipedia.org/wiki/October_Revolution"
+      ]
+     ]
+    },
+    {
+     "y": 1917,
+     "date": "1917-11-08",
+     "date_os": "1917-10-26",
+     "ll": [
+      59.9398,
+      30.3146
+     ],
+     "z": 6,
+     "h": {
+      "en": "The Winter Palace, night of 25–26 October",
+      "ru": "Зимний дворец, ночь на 26 октября"
+     },
+     "t": {
+      "en": "At 9.45 p.m. on 25 October the cruiser Aurora fires a blank shot. The palace, seat of Kerensky’s government, is held by a few Cossacks and cadets and, reportedly, 137 women of the Women’s Battalion. Red Guards get in through an unlocked back door. By about 2 a.m. on 26 October (8 November) the Bolsheviks hold the building; the ministers are arrested in the Small Dining Room and taken to the Peter and Paul Fortress.",
+      "ru": "В 21:45 25 октября крейсер «Аврора» даёт холостой выстрел. Дворец, где заседает правительство Керенского, обороняют немногие казаки, юнкера и, по сообщениям, 137 женщин из женского батальона. Красногвардейцы проникают внутрь через незапертую заднюю дверь. Около 2 часов ночи 26 октября (8 ноября) здание в руках большевиков; министров арестовывают в Малой столовой и отправляют в Петропавловскую крепость."
+     },
+     "wiki": {
+      "en": "Winter Palace"
+     },
+     "people": [
+      "kerensky"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): October Revolution",
+       "https://en.wikipedia.org/wiki/October_Revolution"
+      ],
+      [
+       "Wikipedia (en): Winter Palace",
+       "https://en.wikipedia.org/wiki/Winter_Palace"
+      ]
+     ]
+    },
+    {
+     "y": 1917,
+     "date": "1917-11-08",
+     "date_os": "1917-10-26",
+     "ll": [
+      59.9463,
+      30.3957
+     ],
+     "z": 6,
+     "h": {
+      "en": "The Decree on Peace and the Decree on Land",
+      "ru": "Декрет о мире и Декрет о земле"
+     },
+     "t": {
+      "en": "The Congress elects a new cabinet, the Council of People’s Commissars (Sovnarkom), and adopts decrees written by Lenin. The Decree on Peace, passed unanimously, proposes to all warring peoples an immediate peace without annexations and indemnities. The Decree on Land abolishes landlord ownership without compensation and makes a peasant mandate published in August a provisional law.",
+      "ru": "Съезд избирает новое правительство — Совет народных комиссаров (Совнарком) — и принимает декреты, написанные Лениным. Декрет о мире, принятый единогласно, предлагает всем воюющим народам немедленный мир без аннексий и контрибуций. Декрет о земле отменяет помещичью собственность без всякого выкупа и объявляет временным законом крестьянский наказ, опубликованный ещё в августе."
+     },
+     "wiki": {
+      "en": "Decree on Peace"
+     },
+     "people": [
+      "lenin"
+     ],
+     "quote": {
+      "ru": "Рабочее и крестьянское правительство, созданное революцией 24-25 октября и опирающееся на Советы рабочих, солдатских и крестьянских депутатов, предлагает всем воюющим народам и их правительствам начать немедленно переговоры о справедливом демократическом мире.",
+      "en": "The Workers’ and Peasants’ Government, created by the revolution of 24–25 October and resting on the Soviets of Workers’, Soldiers’ and Peasants’ Deputies, proposes to all warring peoples and their governments to begin at once negotiations for a just, democratic peace.",
+      "tr": "compiler",
+      "who": {
+       "en": "Second All-Russian Congress of Soviets, Decree on Peace",
+       "ru": "II Всероссийский съезд Советов, Декрет о мире"
+      },
+      "when": {
+       "en": "26 October (8 November) 1917",
+       "ru": "26 октября (8 ноября) 1917 года"
+      },
+      "src": [
+       [
+        "WSWS, «Документы русской революции»: Декрет о мире",
+        "https://www.wsws.org/ru/articles/2017/11/23/peac-n23.html"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Wikipedia (en): October Revolution",
+       "https://en.wikipedia.org/wiki/October_Revolution"
+      ],
+      [
+       "WSWS, «Документы русской революции»: Декрет о мире",
+       "https://www.wsws.org/ru/articles/2017/11/23/peac-n23.html"
+      ],
+      [
+       "Seventeen Moments in Soviet History (MSU): Decree on the Land",
+       "https://soviethistory.msu.edu/1917/peasant-revolution/peasant-revolution-texts/decree-on-the-land/"
+      ]
+     ]
+    },
+    {
+     "y": 1920,
+     "ll": [
+      59.939,
+      30.3158
+     ],
+     "z": 5,
+     "h": {
+      "en": "The storming that became a legend",
+      "ru": "Штурм, ставший легендой"
+     },
+     "t": {
+      "en": "The capture of the palace soon grew in memory. On the third anniversary, in 1920, thousands of participants re-enacted the “storming” before 100,000 spectators. Sergei Eisenstein’s film October (1928), commissioned by Nikolai Podvoisky, dramatised it again; its floodlights suggest the influence of the 1920 show.",
+      "ru": "Взятие дворца быстро обросло легендой. В третью годовщину, в 1920 году, «штурм» разыграли тысячи участников перед 100 тысячами зрителей. Фильм Сергея Эйзенштейна «Октябрь» (1928), заказанный Николаем Подвойским, снова драматизировал событие; свет его прожекторов, судя по всему, восходит к представлению 1920 года."
+     },
+     "wiki": {
+      "en": "October Revolution"
+     },
+     "src": [
+      [
+       "Wikipedia (en): Winter Palace",
+       "https://en.wikipedia.org/wiki/Winter_Palace"
+      ]
+     ]
+    }
+   ],
+   "src": [
+    [
+     "Wikipedia (en): February Revolution",
+     "https://en.wikipedia.org/wiki/February_Revolution"
+    ],
+    [
+     "WSWS, «Из архива русской революции»: Приказ № 1 (1 марта 1917)",
+     "https://www.wsws.org/ru/articles/2017/03/15/prik-m15.html"
+    ],
+    [
+     "Wikipedia (en): Abdication of Nicholas II",
+     "https://en.wikipedia.org/wiki/Abdication_of_Nicholas_II"
+    ],
+    [
+     "Seventeen Moments in Soviet History (MSU): Abdication Manifesto (Golder 1927)",
+     "https://soviethistory.msu.edu/1917/february-revolution/february-revolution-texts/abdication-manifesto/"
+    ],
+    [
+     "Wikipedia (en): October Revolution",
+     "https://en.wikipedia.org/wiki/October_Revolution"
+    ],
+    [
+     "Wikipedia (en): July Days",
+     "https://en.wikipedia.org/wiki/July_Days"
+    ],
+    [
+     "Wikipedia (en): Winter Palace",
+     "https://en.wikipedia.org/wiki/Winter_Palace"
+    ],
+    [
+     "WSWS, «Документы русской революции»: Декрет о мире",
+     "https://www.wsws.org/ru/articles/2017/11/23/peac-n23.html"
+    ],
+    [
+     "Seventeen Moments in Soviet History (MSU): Decree on the Land",
+     "https://soviethistory.msu.edu/1917/peasant-revolution/peasant-revolution-texts/decree-on-the-land/"
+    ]
+   ]
+  },
+  {
+   "id": "nikitin-1466-1475",
+   "n": {
+    "en": "Afanasy Nikitin’s Journey Beyond Three Seas",
+    "ru": "«Хожение за три моря» Афанасия Никитина"
+   },
+   "years": [
+    1466,
+    1475
+   ],
+   "lede": {
+    "en": "A merchant of Tver goes down the Volga with a southbound caravan, is robbed twice, crosses the Caspian and Persia, sails from Hormuz to India and spends almost three years there, then comes home by Muscat, Trebizond and Kaffa, and dies near Smolensk. The traditional dates are 1466–1472; L. S. Semyonov’s chronology, used here, gives 1468–1475.",
+    "ru": "Тверской купец спускается по Волге с караваном, дважды оказывается ограблен, пересекает Каспий и Персию, из Ормуза плывёт в Индию и живёт там почти три года, а домой возвращается через Маскат, Трапезунд и Кафу и умирает под Смоленском. Традиционная датировка — 1466–1472 годы; здесь принята хронология Л. С. Семёнова: 1468–1475."
+   },
+   "steps": [
+    {
+     "y": 1468,
+     "ll": [
+      56.8587,
+      35.9176
+     ],
+     "z": 5,
+     "h": {
+      "en": "Tver: setting out",
+      "ru": "Тверь: начало пути"
+     },
+     "t": {
+      "en": "Afanasy Nikitin, a merchant of Tver, sets out down the Volga. Izmail Sreznevsky (1856) dated the departure to 1466; Leonid Semyonov argued for 1468, a chronology accepted by the Academy of Sciences’ Literaturnye Pamyatniki series. The text itself gives no dates. It opens with a prayer.",
+      "ru": "Тверской купец Афанасий Никитин отправляется вниз по Волге. Измаил Срезневский (1856) относил начало пути к 1466 году, Леонид Семёнов — к 1468-му; его хронологию приняла академическая серия «Литературные памятники». В самом тексте дат нет. Он открывается молитвой."
+     },
+     "wiki": {
+      "en": "Afanasy Nikitin",
+      "ru": "Афанасий Никитин"
+     },
+     "people": [
+      "nikitin"
+     ],
+     "quote": {
+      "ru": "За молитву святыхъ отець наших, Господи Исусе Христе, Сыне Божий, помилуй мя, раба своего грѣшнаго Афонасъя Микитина сына",
+      "en": "By the prayers of our holy fathers, Lord Jesus Christ, Son of God, have mercy on me, Thy sinful servant Afanasy, son of Mikita",
+      "tr": "compiler",
+      "who": {
+       "en": "Afanasy Nikitin, opening of the Journey",
+       "ru": "Афанасий Никитин, начало «Хожения»"
+      },
+      "when": {
+       "en": "Journey Beyond Three Seas",
+       "ru": "«Хожение за три моря»"
+      },
+      "src": [
+       [
+        "Библиотека литературы Древней Руси, т. 7: Хожение за три моря Афанасия Никитина (azbyka.ru)",
+        "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-7/11"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Wikipedia (en): Afanasy Nikitin",
+       "https://en.wikipedia.org/wiki/Afanasy_Nikitin"
+      ],
+      [
+       "Библиотека литературы Древней Руси, т. 7: Хожение за три моря Афанасия Никитина (azbyka.ru)",
+       "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-7/11"
+      ]
+     ]
+    },
+    {
+     "y": 1468,
+     "ll": [
+      56.3269,
+      44.0059
+     ],
+     "z": 5,
+     "h": {
+      "en": "Down the Volga",
+      "ru": "Вниз по Волге"
+     },
+     "t": {
+      "en": "He sails past the Makaryev monastery, Uglich, Kostroma and Plyos to Nizhny Novgorod. There he joins the caravan of Hasan Beg, heading south.",
+      "ru": "Он плывёт мимо Макарьева монастыря, Углича, Костромы и Плёса до Нижнего Новгорода. Там он присоединяется к каравану Хасан-бека, идущему на юг."
+     },
+     "wiki": {
+      "en": "Nizhny Novgorod"
+     },
+     "route": [
+      [
+       56.8587,
+       35.9176
+      ],
+      [
+       57.242,
+       37.853
+      ],
+      [
+       57.5281,
+       38.3311
+      ],
+      [
+       57.7677,
+       40.9264
+      ],
+      [
+       57.46,
+       41.51
+      ],
+      [
+       56.3269,
+       44.0059
+      ]
+     ],
+     "people": [
+      "nikitin"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Afanasy Nikitin",
+       "https://en.wikipedia.org/wiki/Afanasy_Nikitin"
+      ]
+     ]
+    },
+    {
+     "y": 1468,
+     "ll": [
+      46.3497,
+      48.0408
+     ],
+     "z": 5,
+     "h": {
+      "en": "Robbed near Astrakhan",
+      "ru": "Ограблен под Астраханью"
+     },
+     "t": {
+      "en": "Near Astrakhan, at the mouth of the Volga, the travellers are robbed by Nogais.",
+      "ru": "Под Астраханью, в низовьях Волги, путников грабят ногайцы."
+     },
+     "wiki": {
+      "en": "Astrakhan"
+     },
+     "route": [
+      [
+       56.3269,
+       44.0059
+      ],
+      [
+       55.7887,
+       49.1221
+      ],
+      [
+       46.3497,
+       48.0408
+      ]
+     ],
+     "people": [
+      "nikitin"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Afanasy Nikitin",
+       "https://en.wikipedia.org/wiki/Afanasy_Nikitin"
+      ]
+     ]
+    },
+    {
+     "y": 1468,
+     "ll": [
+      40.6303,
+      48.6414
+     ],
+     "z": 5,
+     "h": {
+      "en": "Robbed again; Shemakha",
+      "ru": "Снова ограблен; Шемаха"
+     },
+     "t": {
+      "en": "On the Caspian coast Kaitags rob them again. The merchants weep and part: those who still own something in Rus go back to Rus. Nikitin goes to Shemakha to ask help of the Shirvanshah.",
+      "ru": "На каспийском берегу их снова грабят — теперь кайтаки. Купцы плачут и расходятся: у кого что-то осталось на Руси, те уходят на Русь. Никитин едет в Шемаху просить помощи у ширваншаха."
+     },
+     "wiki": {
+      "en": "Shamakhi"
+     },
+     "route": [
+      [
+       46.3497,
+       48.0408
+      ],
+      [
+       42.97,
+       47.5
+      ],
+      [
+       42.0578,
+       48.2889
+      ],
+      [
+       40.6303,
+       48.6414
+      ]
+     ],
+     "people": [
+      "nikitin"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Afanasy Nikitin",
+       "https://en.wikipedia.org/wiki/Afanasy_Nikitin"
+      ]
+     ]
+    },
+    {
+     "y": 1469,
+     "ll": [
+      40.3777,
+      49.892
+     ],
+     "z": 5,
+     "h": {
+      "en": "Derbent and Baku",
+      "ru": "Дербент и Баку"
+     },
+     "t": {
+      "en": "From Shemakha he goes to Derbent and then to Baku, the last stop before he crosses the Caspian into Persia.",
+      "ru": "Из Шемахи он едет в Дербент, потом в Баку — последнюю остановку перед переправой через Каспий в Персию."
+     },
+     "wiki": {
+      "en": "Derbent"
+     },
+     "route": [
+      [
+       40.6303,
+       48.6414
+      ],
+      [
+       42.0578,
+       48.2889
+      ],
+      [
+       40.3777,
+       49.892
+      ]
+     ],
+     "people": [
+      "nikitin"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Afanasy Nikitin",
+       "https://en.wikipedia.org/wiki/Afanasy_Nikitin"
+      ]
+     ]
+    },
+    {
+     "y": 1469,
+     "ll": [
+      36.5633,
+      53.0601
+     ],
+     "z": 5,
+     "h": {
+      "en": "Across the Caspian: Chapakur and Sari",
+      "ru": "Через Каспий: Чапакур и Сари"
+     },
+     "t": {
+      "en": "He crosses the Caspian to Chapakur on the Mazandaran shore and stays there about six months, then goes on by Sari and Amol.",
+      "ru": "Он переплывает Каспий до Чапакура на мазендеранском берегу и живёт там около полугода, потом идёт через Сари и Амоль."
+     },
+     "wiki": {
+      "en": "Sari, Iran"
+     },
+     "route": [
+      [
+       40.3777,
+       49.892
+      ],
+      [
+       36.7,
+       52.8
+      ],
+      [
+       36.5633,
+       53.0601
+      ]
+     ],
+     "people": [
+      "nikitin"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Afanasy Nikitin",
+       "https://en.wikipedia.org/wiki/Afanasy_Nikitin"
+      ]
+     ]
+    },
+    {
+     "y": 1471,
+     "ll": [
+      27.064,
+      56.458
+     ],
+     "z": 5,
+     "h": {
+      "en": "Hormuz",
+      "ru": "Ормуз"
+     },
+     "t": {
+      "en": "From Amol he travels south through Kashan and Yazd to Hormuz, the island at the mouth of the Persian Gulf. In the spring of 1471 he sails for India.",
+      "ru": "Из Амоля он идёт на юг через Кашан и Йезд к Ормузу — острову у входа в Персидский залив. Весной 1471 года он отплывает в Индию."
+     },
+     "wiki": {
+      "en": "Hormuz, Iran"
+     },
+     "route": [
+      [
+       36.5633,
+       53.0601
+      ],
+      [
+       36.4696,
+       52.3507
+      ],
+      [
+       33.985,
+       51.41
+      ],
+      [
+       31.8974,
+       54.3569
+      ],
+      [
+       27.064,
+       56.458
+      ]
+     ],
+     "people": [
+      "nikitin"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Afanasy Nikitin",
+       "https://en.wikipedia.org/wiki/Afanasy_Nikitin"
+      ],
+      [
+       "Wikipedia (en): Hormuz, Iran",
+       "https://en.wikipedia.org/wiki/Hormuz,_Iran"
+      ]
+     ]
+    },
+    {
+     "y": 1471,
+     "ll": [
+      18.548,
+      72.928
+     ],
+     "z": 5,
+     "h": {
+      "en": "Landfall at Chaul",
+      "ru": "Чаул"
+     },
+     "t": {
+      "en": "About six weeks after leaving Hormuz he lands at Chaul on the western coast of India and goes inland.",
+      "ru": "Примерно через шесть недель после отплытия из Ормуза он высаживается в Чауле на западном берегу Индии и уходит вглубь страны."
+     },
+     "wiki": {
+      "en": "Chaul"
+     },
+     "route": [
+      [
+       27.064,
+       56.458
+      ],
+      [
+       23.5,
+       61.0
+      ],
+      [
+       20.5,
+       68.5
+      ],
+      [
+       18.548,
+       72.928
+      ]
+     ],
+     "people": [
+      "nikitin"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Afanasy Nikitin",
+       "https://en.wikipedia.org/wiki/Afanasy_Nikitin"
+      ]
+     ]
+    },
+    {
+     "y": 1471,
+     "ll": [
+      19.2,
+      73.88
+     ],
+     "z": 5,
+     "h": {
+      "en": "Junnar in the rains",
+      "ru": "Джуннар в сезон дождей"
+     },
+     "t": {
+      "en": "He spends the rainy season at Junnar, in the hills of the Western Ghats, and notes what he sees of the weather, the people and their customs.",
+      "ru": "В Джуннаре, в горах Западных Гат, он пережидает сезон дождей и записывает, что видит: погоду, людей, их обычаи."
+     },
+     "wiki": {
+      "en": "Junnar"
+     },
+     "route": [
+      [
+       18.548,
+       72.928
+      ],
+      [
+       19.2,
+       73.88
+      ]
+     ],
+     "people": [
+      "nikitin"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Afanasy Nikitin",
+       "https://en.wikipedia.org/wiki/Afanasy_Nikitin"
+      ]
+     ]
+    },
+    {
+     "y": 1472,
+     "ll": [
+      17.9133,
+      77.5301
+     ],
+     "z": 5,
+     "h": {
+      "en": "Bidar, the Bahmani capital",
+      "ru": "Бидар, столица Бахманидов"
+     },
+     "t": {
+      "en": "He reaches Bidar, which he calls Bindar, capital of the Bahmani Sultanate, and spends his third year in India there. The country people, he writes, are very poor, while the nobles are rich and live in luxury.",
+      "ru": "Он приходит в Бидар, столицу Бахманидского султаната, и проводит там третий год в Индии. Сельский люд, пишет он, очень беден, а бояре богаты и живут в роскоши."
+     },
+     "wiki": {
+      "en": "Bidar"
+     },
+     "route": [
+      [
+       19.2,
+       73.88
+      ],
+      [
+       17.9133,
+       77.5301
+      ]
+     ],
+     "people": [
+      "nikitin"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Afanasy Nikitin",
+       "https://en.wikipedia.org/wiki/Afanasy_Nikitin"
+      ]
+     ]
+    },
+    {
+     "y": 1473,
+     "ll": [
+      16.0733,
+      78.868
+     ],
+     "z": 5,
+     "h": {
+      "en": "Parvat, “the Jerusalem of the Hindus”",
+      "ru": "Парват, «Иерусалим индусов»"
+     },
+     "t": {
+      "en": "He visits Parvat, a great Hindu shrine he calls their Jerusalem. He observes both the Bahmani Sultanate and the Vijayanagara Empire, and notes what the ports trade in, from Dabhol and Calicut to Ceylon, Pegu and China.",
+      "ru": "Он посещает Парват — великое индуистское святилище, которое называет их Иерусалимом. Он наблюдает и Бахманидский султанат, и империю Виджаянагара и записывает, чем торгуют гавани — от Дабула и Каликута до Цейлона, Пегу и Китая."
+     },
+     "wiki": {
+      "en": "Bahmani Sultanate"
+     },
+     "route": [
+      [
+       17.9133,
+       77.5301
+      ],
+      [
+       16.0733,
+       78.868
+      ]
+     ],
+     "people": [
+      "nikitin"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Afanasy Nikitin",
+       "https://en.wikipedia.org/wiki/Afanasy_Nikitin"
+      ]
+     ]
+    },
+    {
+     "y": 1474,
+     "ll": [
+      41.0027,
+      39.7168
+     ],
+     "z": 5,
+     "h": {
+      "en": "Homeward: Muscat and Trebizond",
+      "ru": "Домой: Маскат и Трапезунд"
+     },
+     "t": {
+      "en": "After almost three years in India he leaves by sea. His way home leads by Muscat and then to Trebizond on the Black Sea.",
+      "ru": "Почти через три года он покидает Индию морем. Путь домой ведёт через Маскат, а затем к Трапезунду на Чёрном море."
+     },
+     "wiki": {
+      "en": "Trabzon"
+     },
+     "route": [
+      [
+       16.0733,
+       78.868
+      ],
+      [
+       17.588,
+       73.18
+      ],
+      [
+       21.0,
+       64.0
+      ],
+      [
+       23.588,
+       58.3829
+      ],
+      [
+       41.0027,
+       39.7168
+      ]
+     ],
+     "people": [
+      "nikitin"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Afanasy Nikitin",
+       "https://en.wikipedia.org/wiki/Afanasy_Nikitin"
+      ]
+     ]
+    },
+    {
+     "y": 1474,
+     "ll": [
+      45.0319,
+      35.3824
+     ],
+     "z": 5,
+     "h": {
+      "en": "Across the Black Sea to Kaffa",
+      "ru": "Через Чёрное море в Кафу"
+     },
+     "t": {
+      "en": "In November 1474 he sails from Trebizond to Kaffa, now Feodosia, in the Crimea. In his notes, slipping into Turkic and Persian words, he prays for the Russian land.",
+      "ru": "В ноябре 1474 года он отплывает из Трапезунда в Кафу, нынешнюю Феодосию в Крыму. В записках, переходя на тюркские и персидские слова, он молится за Русскую землю."
+     },
+     "wiki": {
+      "en": "Feodosia"
+     },
+     "route": [
+      [
+       41.0027,
+       39.7168
+      ],
+      [
+       45.0319,
+       35.3824
+      ]
+     ],
+     "people": [
+      "nikitin"
+     ],
+     "quote": {
+      "ru": "А Русь еръ тангрыд сакласын; олло сакла, худо сакла!",
+      "en": "And may God preserve the Rus land; God preserve it, God preserve it!",
+      "tr": "compiler",
+      "who": {
+       "en": "Afanasy Nikitin",
+       "ru": "Афанасий Никитин"
+      },
+      "when": {
+       "en": "near the end of the Journey",
+       "ru": "ближе к концу «Хожения»"
+      },
+      "src": [
+       [
+        "Библиотека литературы Древней Руси, т. 7: Хожение за три моря Афанасия Никитина (azbyka.ru)",
+        "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-7/11"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Wikipedia (en): Afanasy Nikitin",
+       "https://en.wikipedia.org/wiki/Afanasy_Nikitin"
+      ],
+      [
+       "Библиотека литературы Древней Руси, т. 7: Хожение за три моря Афанасия Никитина (azbyka.ru)",
+       "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-7/11"
+      ]
+     ]
+    },
+    {
+     "y": 1475,
+     "ll": [
+      54.7818,
+      32.0401
+     ],
+     "z": 5,
+     "h": {
+      "en": "Death near Smolensk",
+      "ru": "Смерть под Смоленском"
+     },
+     "t": {
+      "en": "In the spring of 1475, on his way home to Tver, Nikitin dies near Smolensk, then in the Grand Duchy of Lithuania. Merchants bring his notebooks to Vasily Mamyrev, secretary to Ivan III, in Moscow, and the text is copied into the Sofia Second and Lvov chronicles. Its title names three seas: the Caspian, or Sea of Derbent, the Indian and the Black.",
+      "ru": "Весной 1475 года, по дороге домой в Тверь, Никитин умирает под Смоленском, тогда в пределах Великого княжества Литовского. Купцы привозят его тетради в Москву, к дьяку Ивана III Василию Мамыреву; текст переписывают в Софийскую вторую и Львовскую летописи. В заглавии названы три моря: Дербентское, то есть Каспийское, Индийское и Чёрное."
+     },
+     "wiki": {
+      "en": "A Journey Beyond the Three Seas"
+     },
+     "route": [
+      [
+       45.0319,
+       35.3824
+      ],
+      [
+       54.7818,
+       32.0401
+      ]
+     ],
+     "people": [
+      "nikitin",
+      "ivan-iii"
+     ],
+     "quote": {
+      "ru": "Се написах свое грѣшное хожение за три моря: 1-е море Дербеньское, дориа Хвалитьскаа…",
+      "en": "Here I have written down my sinful journey beyond three seas: the first sea, of Derbent, the Khvalis Sea…",
+      "tr": "compiler",
+      "who": {
+       "en": "Afanasy Nikitin",
+       "ru": "Афанасий Никитин"
+      },
+      "when": {
+       "en": "Journey Beyond Three Seas",
+       "ru": "«Хожение за три моря»"
+      },
+      "src": [
+       [
+        "Библиотека литературы Древней Руси, т. 7: Хожение за три моря Афанасия Никитина (azbyka.ru)",
+        "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-7/11"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Wikipedia (en): Afanasy Nikitin",
+       "https://en.wikipedia.org/wiki/Afanasy_Nikitin"
+      ],
+      [
+       "Wikipedia (en): A Journey Beyond the Three Seas",
+       "https://en.wikipedia.org/wiki/A_Journey_Beyond_the_Three_Seas"
+      ],
+      [
+       "Библиотека литературы Древней Руси, т. 7: Хожение за три моря Афанасия Никитина (azbyka.ru)",
+       "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-7/11"
+      ]
+     ]
+    }
+   ],
+   "src": [
+    [
+     "Wikipedia (en): Afanasy Nikitin",
+     "https://en.wikipedia.org/wiki/Afanasy_Nikitin"
+    ],
+    [
+     "Wikipedia (en): A Journey Beyond the Three Seas",
+     "https://en.wikipedia.org/wiki/A_Journey_Beyond_the_Three_Seas"
+    ],
+    [
+     "Библиотека литературы Древней Руси, т. 7: Хожение за три моря Афанасия Никитина (azbyka.ru)",
+     "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-7/11"
+    ]
+   ]
+  },
+  {
+   "id": "radishchev-1790",
+   "n": {
+    "en": "Radishchev’s Journey from St Petersburg to Moscow, 1790",
+    "ru": "«Путешествие из Петербурга в Москву» Радищева, 1790"
+   },
+   "years": [
+    1790,
+    1802
+   ],
+   "lede": {
+    "en": "A traveller’s chapters named after the post stations of the road from the capital to Moscow — Sofia, Tosna, Lyubani … Chornaya Gryaz — each a scene of serfdom, censorship or the abuse of power. Printed in 1790 on the author’s own press, the book cost Radishchev a death sentence, commuted to exile in Siberia.",
+    "ru": "Главы, названные по почтовым станциям дороги из столицы в Москву, — София, Тосна, Любани… Чёрная Грязь, — и в каждой сцена крепостного права, цензуры или произвола. Напечатанная в 1790 году в домашней типографии автора, книга стоила Радищеву смертного приговора, заменённого сибирской ссылкой."
+   },
+   "steps": [
+    {
+     "y": 1790,
+     "ll": [
+      59.9343,
+      30.3351
+     ],
+     "z": 5,
+     "h": {
+      "en": "Departure",
+      "ru": "Выезд"
+     },
+     "t": {
+      "en": "The book appears in St Petersburg in 1790 without the author’s name, 453 pages printed in his own printing house. Its chapters follow the post road to Moscow station by station. The Library of Congress copy, now digitised, came from the collection of G. V. Yudin.",
+      "ru": "Книга выходит в Петербурге в 1790 году без имени автора: 453 страницы, отпечатанные в его собственной типографии. Главы идут по почтовому тракту на Москву — от станции к станции. Оцифрованный экземпляр Библиотеки Конгресса происходит из собрания Г. В. Юдина."
+     },
+     "wiki": {
+      "en": "Journey from St. Petersburg to Moscow"
+     },
+     "people": [
+      "radishchev"
+     ],
+     "src": [
+      [
+       "Library of Congress: Puteshestvie iz Peterburga v Moskvu, St Petersburg 1790 (Yudin Collection)",
+       "https://www.loc.gov/item/10013879"
+      ],
+      [
+       "Аргументы и факты: о «Путешествии из Петербурга в Москву»",
+       "https://aif.ru/culture/book/1207430"
+      ]
+     ]
+    },
+    {
+     "y": 1790,
+     "ll": [
+      59.35,
+      31.25
+     ],
+     "z": 5,
+     "h": {
+      "en": "Sofia, Tosna, Lyubani: the ploughman",
+      "ru": "София, Тосна, Любани: пахарь"
+     },
+     "t": {
+      "en": "The first station, Sofia, is today part of the town of Pushkin; then come Tosna and Lyubani. Near Lyubani the traveller meets a peasant ploughing on a Sunday: six days of the week, he explains, belong to his master.",
+      "ru": "Первая станция, София, ныне часть города Пушкина; дальше Тосна и Любани. Под Любанью путешественник встречает крестьянина, пашущего в воскресенье: шесть дней в неделю, объясняет тот, он работает на барина."
+     },
+     "wiki": {
+      "en": "Pushkin, Saint Petersburg"
+     },
+     "route": [
+      [
+       59.9343,
+       30.3351
+      ],
+      [
+       59.72,
+       30.41
+      ],
+      [
+       59.54,
+       30.877
+      ],
+      [
+       59.35,
+       31.25
+      ]
+     ],
+     "people": [
+      "radishchev"
+     ],
+     "src": [
+      [
+       "TechInsider: Сколько стоит повторить «Путешествие из Петербурга в Москву»",
+       "https://www.techinsider.ru/popmem/1703673-serezno-skolko-stoit-povtorit-znamenitoe-puteshestvie-iz-peterburga-v-moskvu/"
+      ],
+      [
+       "Library of Congress: Puteshestvie iz Peterburga v Moskvu, St Petersburg 1790 (Yudin Collection)",
+       "https://www.loc.gov/item/10013879"
+      ]
+     ]
+    },
+    {
+     "y": 1790,
+     "ll": [
+      58.9,
+      31.55
+     ],
+     "z": 5,
+     "h": {
+      "en": "Chudovo and Spasskaya Polest: the dream of a ruler",
+      "ru": "Чудово и Спасская Полесть: сон о государе"
+     },
+     "t": {
+      "en": "At Chudovo a friend tells of a boat caught in a storm off Peterhof while the official who could send help would not be woken. At Spasskaya Polest the traveller dreams that he is a ruler surrounded by flatterers, until a wandering woman, Truth, clears his sight.",
+      "ru": "В Чудове приятель рассказывает, как лодку застигла буря у Петергофа, а начальник, который мог послать помощь, не велел себя будить. В Спасской Полести путешественнику снится, что он — государь, окружённый льстецами, пока странница Прямовзора не снимает с его глаз бельма."
+     },
+     "wiki": {
+      "en": "Chudovo"
+     },
+     "route": [
+      [
+       59.35,
+       31.25
+      ],
+      [
+       59.125,
+       31.667
+      ],
+      [
+       58.9,
+       31.55
+      ]
+     ],
+     "people": [
+      "radishchev"
+     ],
+     "src": [
+      [
+       "TechInsider: Сколько стоит повторить «Путешествие из Петербурга в Москву»",
+       "https://www.techinsider.ru/popmem/1703673-serezno-skolko-stoit-povtorit-znamenitoe-puteshestvie-iz-peterburga-v-moskvu/"
+      ],
+      [
+       "Library of Congress: Puteshestvie iz Peterburga v Moskvu, St Petersburg 1790 (Yudin Collection)",
+       "https://www.loc.gov/item/10013879"
+      ]
+     ]
+    },
+    {
+     "y": 1790,
+     "ll": [
+      58.5213,
+      31.271
+     ],
+     "z": 5,
+     "h": {
+      "en": "Podberezye and Novgorod: a lost freedom",
+      "ru": "Подберезье и Новгород: утраченная вольность"
+     },
+     "t": {
+      "en": "Past Podberezye the road enters Novgorod. The traveller recalls the city’s ancient self-rule, taken from it by force under Ivan III, and asks by what right.",
+      "ru": "За Подберезьем дорога входит в Новгород. Путешественник вспоминает древнюю вольность города, отнятую силой при Иване III, и спрашивает, по какому праву."
+     },
+     "wiki": {
+      "en": "Veliky Novgorod"
+     },
+     "route": [
+      [
+       58.9,
+       31.55
+      ],
+      [
+       58.68,
+       31.37
+      ],
+      [
+       58.5213,
+       31.271
+      ]
+     ],
+     "people": [
+      "radishchev"
+     ],
+     "src": [
+      [
+       "TechInsider: Сколько стоит повторить «Путешествие из Петербурга в Москву»",
+       "https://www.techinsider.ru/popmem/1703673-serezno-skolko-stoit-povtorit-znamenitoe-puteshestvie-iz-peterburga-v-moskvu/"
+      ],
+      [
+       "Library of Congress: Puteshestvie iz Peterburga v Moskvu, St Petersburg 1790 (Yudin Collection)",
+       "https://www.loc.gov/item/10013879"
+      ]
+     ]
+    },
+    {
+     "y": 1790,
+     "ll": [
+      58.34,
+      32.1
+     ],
+     "z": 5,
+     "h": {
+      "en": "Bronnitsy and Zaitsovo: the assessor",
+      "ru": "Бронницы и Зайцово: асессор"
+     },
+     "t": {
+      "en": "Through Bronnitsy to Zaitsovo, where an old acquaintance tells how serfs killed a cruel master, a retired assessor, and his sons, and why he, the judge who tried to spare them, gave up his post.",
+      "ru": "Через Бронницы — в Зайцово, где старый знакомый рассказывает, как крестьяне убили жестокого барина, отставного асессора, и его сыновей, и почему он, судья, пытавшийся их спасти, оставил службу."
+     },
+     "wiki": {
+      "en": "Journey from St. Petersburg to Moscow"
+     },
+     "route": [
+      [
+       58.5213,
+       31.271
+      ],
+      [
+       58.43,
+       31.6
+      ],
+      [
+       58.34,
+       32.1
+      ]
+     ],
+     "people": [
+      "radishchev"
+     ],
+     "src": [
+      [
+       "TechInsider: Сколько стоит повторить «Путешествие из Петербурга в Москву»",
+       "https://www.techinsider.ru/popmem/1703673-serezno-skolko-stoit-povtorit-znamenitoe-puteshestvie-iz-peterburga-v-moskvu/"
+      ],
+      [
+       "Library of Congress: Puteshestvie iz Peterburga v Moskvu, St Petersburg 1790 (Yudin Collection)",
+       "https://www.loc.gov/item/10013879"
+      ]
+     ]
+    },
+    {
+     "y": 1790,
+     "ll": [
+      58.25,
+      32.525
+     ],
+     "z": 5,
+     "h": {
+      "en": "Kresttsy: a father’s farewell",
+      "ru": "Крестьцы: прощание отца"
+     },
+     "t": {
+      "en": "At Kresttsy a nobleman parts from his sons as they go into the service and tells them to keep their honour above rank.",
+      "ru": "В Крестьцах дворянин провожает сыновей на службу и наставляет их ставить честь выше чинов."
+     },
+     "wiki": {
+      "en": "Kresttsy"
+     },
+     "route": [
+      [
+       58.34,
+       32.1
+      ],
+      [
+       58.25,
+       32.525
+      ]
+     ],
+     "people": [
+      "radishchev"
+     ],
+     "src": [
+      [
+       "TechInsider: Сколько стоит повторить «Путешествие из Петербурга в Москву»",
+       "https://www.techinsider.ru/popmem/1703673-serezno-skolko-stoit-povtorit-znamenitoe-puteshestvie-iz-peterburga-v-moskvu/"
+      ],
+      [
+       "Library of Congress: Puteshestvie iz Peterburga v Moskvu, St Petersburg 1790 (Yudin Collection)",
+       "https://www.loc.gov/item/10013879"
+      ]
+     ]
+    },
+    {
+     "y": 1790,
+     "ll": [
+      57.87,
+      33.6
+     ],
+     "z": 5,
+     "h": {
+      "en": "Valdai and Edrovo: Anyuta",
+      "ru": "Валдай и Едрово: Анюта"
+     },
+     "t": {
+      "en": "After Yazhelbitsy and Valdai, famous for its easy girls, comes Edrovo, where the traveller talks with a peasant girl, Anyuta, and sets her health and dignity against the ladies of the capital.",
+      "ru": "После Яжелбиц и Валдая, славного доступными девицами, — Едрово, где путешественник беседует с крестьянской девушкой Анютой и противопоставляет её здоровье и достоинство столичным барыням."
+     },
+     "wiki": {
+      "en": "Valday"
+     },
+     "route": [
+      [
+       58.25,
+       32.525
+      ],
+      [
+       58.06,
+       33.0
+      ],
+      [
+       57.98,
+       33.25
+      ],
+      [
+       57.87,
+       33.6
+      ]
+     ],
+     "people": [
+      "radishchev"
+     ],
+     "src": [
+      [
+       "TechInsider: Сколько стоит повторить «Путешествие из Петербурга в Москву»",
+       "https://www.techinsider.ru/popmem/1703673-serezno-skolko-stoit-povtorit-znamenitoe-puteshestvie-iz-peterburga-v-moskvu/"
+      ],
+      [
+       "Library of Congress: Puteshestvie iz Peterburga v Moskvu, St Petersburg 1790 (Yudin Collection)",
+       "https://www.loc.gov/item/10013879"
+      ]
+     ]
+    },
+    {
+     "y": 1790,
+     "ll": [
+      57.67,
+      34.12
+     ],
+     "z": 5,
+     "h": {
+      "en": "Khotilov: a project for the future",
+      "ru": "Хотилов: проект в будущем"
+     },
+     "t": {
+      "en": "At Khotilov the traveller finds papers left behind by another traveller: a “project for the future” for the gradual abolition of serfdom.",
+      "ru": "В Хотилове путешественник находит бумаги, забытые другим проезжим, — «проект в будущем» о постепенной отмене крепостного права."
+     },
+     "wiki": {
+      "en": "Journey from St. Petersburg to Moscow"
+     },
+     "route": [
+      [
+       57.87,
+       33.6
+      ],
+      [
+       57.67,
+       34.12
+      ]
+     ],
+     "people": [
+      "radishchev"
+     ],
+     "src": [
+      [
+       "TechInsider: Сколько стоит повторить «Путешествие из Петербурга в Москву»",
+       "https://www.techinsider.ru/popmem/1703673-serezno-skolko-stoit-povtorit-znamenitoe-puteshestvie-iz-peterburga-v-moskvu/"
+      ],
+      [
+       "Library of Congress: Puteshestvie iz Peterburga v Moskvu, St Petersburg 1790 (Yudin Collection)",
+       "https://www.loc.gov/item/10013879"
+      ]
+     ]
+    },
+    {
+     "y": 1790,
+     "ll": [
+      57.041,
+      34.96
+     ],
+     "z": 5,
+     "h": {
+      "en": "Vyshny Volochok to Torzhok: on censorship",
+      "ru": "От Вышнего Волочка до Торжка: о цензуре"
+     },
+     "t": {
+      "en": "Past Vyshny Volochok, with its canal, and Vydropusk, the traveller meets at Torzhok a man who argues for the freedom of the press, and the chapter gives a short history of censorship.",
+      "ru": "Мимо Вышнего Волочка с его каналом и Выдропуска — в Торжок, где путешественник встречает человека, ратующего за свободу печати, и глава излагает краткую историю цензуры."
+     },
+     "wiki": {
+      "en": "Torzhok"
+     },
+     "route": [
+      [
+       57.67,
+       34.12
+      ],
+      [
+       57.588,
+       34.565
+      ],
+      [
+       57.31,
+       34.73
+      ],
+      [
+       57.041,
+       34.96
+      ]
+     ],
+     "people": [
+      "radishchev"
+     ],
+     "src": [
+      [
+       "TechInsider: Сколько стоит повторить «Путешествие из Петербурга в Москву»",
+       "https://www.techinsider.ru/popmem/1703673-serezno-skolko-stoit-povtorit-znamenitoe-puteshestvie-iz-peterburga-v-moskvu/"
+      ],
+      [
+       "Library of Congress: Puteshestvie iz Peterburga v Moskvu, St Petersburg 1790 (Yudin Collection)",
+       "https://www.loc.gov/item/10013879"
+      ]
+     ]
+    },
+    {
+     "y": 1790,
+     "ll": [
+      56.8587,
+      35.9176
+     ],
+     "z": 5,
+     "h": {
+      "en": "Mednoye and Tver: the ode “Liberty”",
+      "ru": "Медное и Тверь: ода «Вольность»"
+     },
+     "t": {
+      "en": "After Mednoye, with its account of serfs sold at auction, the traveller dines at Tver with a poet who reads him his ode “Liberty”.",
+      "ru": "После Медного, где речь идёт о продаже крепостных с молотка, путешественник обедает в Твери с поэтом, который читает ему свою оду «Вольность»."
+     },
+     "wiki": {
+      "en": "Tver"
+     },
+     "route": [
+      [
+       57.041,
+       34.96
+      ],
+      [
+       56.93,
+       35.45
+      ],
+      [
+       56.8587,
+       35.9176
+      ]
+     ],
+     "people": [
+      "radishchev"
+     ],
+     "src": [
+      [
+       "TechInsider: Сколько стоит повторить «Путешествие из Петербурга в Москву»",
+       "https://www.techinsider.ru/popmem/1703673-serezno-skolko-stoit-povtorit-znamenitoe-puteshestvie-iz-peterburga-v-moskvu/"
+      ],
+      [
+       "Library of Congress: Puteshestvie iz Peterburga v Moskvu, St Petersburg 1790 (Yudin Collection)",
+       "https://www.loc.gov/item/10013879"
+      ]
+     ]
+    },
+    {
+     "y": 1790,
+     "ll": [
+      56.11,
+      37.08
+     ],
+     "z": 5,
+     "h": {
+      "en": "Peshki: a peasant’s hut",
+      "ru": "Пешки: крестьянская изба"
+     },
+     "t": {
+      "en": "Through Gorodnya, where recruits are taken from their families, Zavidovo and Klin, where a blind old man sings of Alexis the Man of God, to Peshki. The traveller stops in a poor hut to drink coffee with sugar; the peasant woman asks for a piece for her child and tells him why sugar is “lordly” food. Her bread is mostly husks, and the children die.",
+      "ru": "Через Городню, где рекрутов отрывают от семей, Завидово и Клин, где слепой старик поёт об Алексее, человеке Божием, — в Пешки. Путешественник пьёт кофе с сахаром в бедной избе; крестьянка просит кусочек для ребёнка и объясняет, почему сахар — «боярское» кушанье. Хлеб у неё почти из одной мякины, дети умирают."
+     },
+     "wiki": {
+      "en": "Klin"
+     },
+     "route": [
+      [
+       56.8587,
+       35.9176
+      ],
+      [
+       56.73,
+       36.27
+      ],
+      [
+       56.53,
+       36.52
+      ],
+      [
+       56.3333,
+       36.7333
+      ],
+      [
+       56.11,
+       37.08
+      ]
+     ],
+     "people": [
+      "radishchev"
+     ],
+     "quote": {
+      "ru": "Потому и боярское, что нам купить его не на что, а бояре его употребляют для того, что не сами достают деньги.",
+      "en": "It is lordly just because we have nothing to buy it with, and the lords use it because they do not earn the money themselves.",
+      "tr": "compiler",
+      "who": {
+       "en": "A peasant woman at Peshki, in Radishchev’s Journey",
+       "ru": "Крестьянка в Пешках, «Путешествие» Радищева"
+      },
+      "when": {
+       "en": "1790",
+       "ru": "1790"
+      },
+      "src": [
+       [
+        "Аргументы и факты: о «Путешествии из Петербурга в Москву»",
+        "https://aif.ru/culture/book/1207430"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Аргументы и факты: о «Путешествии из Петербурга в Москву»",
+       "https://aif.ru/culture/book/1207430"
+      ],
+      [
+       "TechInsider: Сколько стоит повторить «Путешествие из Петербурга в Москву»",
+       "https://www.techinsider.ru/popmem/1703673-serezno-skolko-stoit-povtorit-znamenitoe-puteshestvie-iz-peterburga-v-moskvu/"
+      ],
+      [
+       "Library of Congress: Puteshestvie iz Peterburga v Moskvu, St Petersburg 1790 (Yudin Collection)",
+       "https://www.loc.gov/item/10013879"
+      ]
+     ]
+    },
+    {
+     "y": 1790,
+     "ll": [
+      55.7558,
+      37.6173
+     ],
+     "z": 5,
+     "h": {
+      "en": "Chornaya Gryaz, and a Discourse on Lomonosov",
+      "ru": "Чёрная Грязь и «Слово о Ломоносове»"
+     },
+     "t": {
+      "en": "At Chornaya Gryaz, the last station, the traveller sees serfs married by force though they do not love each other. The book ends at the gates of Moscow with a Discourse on Lomonosov.",
+      "ru": "На последней станции, Чёрной Грязи, путешественник видит, как крепостных венчают насильно, без любви. Книга кончается у ворот Москвы «Словом о Ломоносове»."
+     },
+     "wiki": {
+      "en": "Journey from St. Petersburg to Moscow"
+     },
+     "route": [
+      [
+       56.11,
+       37.08
+      ],
+      [
+       56.02,
+       37.27
+      ],
+      [
+       55.7558,
+       37.6173
+      ]
+     ],
+     "people": [
+      "radishchev"
+     ],
+     "src": [
+      [
+       "TechInsider: Сколько стоит повторить «Путешествие из Петербурга в Москву»",
+       "https://www.techinsider.ru/popmem/1703673-serezno-skolko-stoit-povtorit-znamenitoe-puteshestvie-iz-peterburga-v-moskvu/"
+      ],
+      [
+       "Library of Congress: Puteshestvie iz Peterburga v Moskvu, St Petersburg 1790 (Yudin Collection)",
+       "https://www.loc.gov/item/10013879"
+      ]
+     ]
+    },
+    {
+     "y": 1790,
+     "date": "1790-07-24",
+     "date_os": "1790-07-13",
+     "ll": [
+      59.95,
+      30.3167
+     ],
+     "z": 6,
+     "h": {
+      "en": "Arrest, 1790",
+      "ru": "Арест, 1790"
+     },
+     "t": {
+      "en": "Catherine II saw in the book the dangerous poison of the French Revolution and called its author “a rebel worse than Pugachev”. Radishchev was arrested at the end of June 1790 and spent about a month in the Peter and Paul Fortress. On 13 July the book was declared pernicious and withdrawn; nearly all copies were destroyed. A death sentence was commuted to ten years in the Ilimsk fort in Siberia.",
+      "ru": "Екатерина II увидела в книге опасную заразу Французской революции и назвала автора «бунтовщиком хуже Пугачёва». Радищева арестовали в конце июня 1790 года; около месяца он провёл в Петропавловской крепости. 13 июля книгу объявили «зловредной» и изъяли, почти весь тираж уничтожили. Смертный приговор заменили десятью годами в Илимском остроге."
+     },
+     "wiki": {
+      "en": "Peter and Paul Fortress"
+     },
+     "people": [
+      "radishchev",
+      "catherine-ii"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Catherine the Great",
+       "https://en.wikipedia.org/wiki/Catherine_the_Great"
+      ],
+      [
+       "Аргументы и факты: о «Путешествии из Петербурга в Москву»",
+       "https://aif.ru/culture/book/1207430"
+      ]
+     ]
+    },
+    {
+     "y": 1796,
+     "ll": [
+      56.77,
+      103.88
+     ],
+     "z": 4,
+     "h": {
+      "en": "Ilimsk, and after",
+      "ru": "Илимск и после"
+     },
+     "t": {
+      "en": "Released early after Paul I came to the throne in 1796, Radishchev was given full freedom by Alexander I in 1801. He died in 1802. His book stayed banned for more than a century.",
+      "ru": "Освобождённый досрочно после воцарения Павла I в 1796 году, Радищев получил полную свободу при Александре I в 1801-м. Он умер в 1802 году. Книга оставалась под запретом больше века."
+     },
+     "wiki": {
+      "en": "Alexander Radishchev"
+     },
+     "route": [
+      [
+       59.95,
+       30.3167
+      ],
+      [
+       56.77,
+       103.88
+      ]
+     ],
+     "people": [
+      "radishchev",
+      "paul-i",
+      "alexander-i"
+     ],
+     "src": [
+      [
+       "Аргументы и факты: о «Путешествии из Петербурга в Москву»",
+       "https://aif.ru/culture/book/1207430"
+      ],
+      [
+       "Library of Congress: Puteshestvie iz Peterburga v Moskvu, St Petersburg 1790 (Yudin Collection)",
+       "https://www.loc.gov/item/10013879"
+      ],
+      [
+       "TechInsider: Сколько стоит повторить «Путешествие из Петербурга в Москву»",
+       "https://www.techinsider.ru/popmem/1703673-serezno-skolko-stoit-povtorit-znamenitoe-puteshestvie-iz-peterburga-v-moskvu/"
+      ]
+     ]
+    }
+   ],
+   "synchrony": [
+    {
+     "y": 1791,
+     "place": {
+      "en": "Warsaw",
+      "ru": "Варшава"
+     },
+     "ll": [
+      52.2297,
+      21.0122
+     ],
+     "t": {
+      "en": "Fearing Poland–Lithuania’s May Constitution and its democratic movements, Catherine gives up her plan to intervene in France and intervenes in Poland instead.",
+      "ru": "Опасаясь польской Конституции 3 мая и демократических движений в Речи Посполитой, Екатерина отказывается от вмешательства во Францию и вмешивается в Польшу."
+     },
+     "src": [
+      [
+       "Wikipedia (en): Catherine the Great",
+       "https://en.wikipedia.org/wiki/Catherine_the_Great"
+      ]
+     ]
+    }
+   ],
+   "src": [
+    [
+     "Library of Congress: Puteshestvie iz Peterburga v Moskvu, St Petersburg 1790 (Yudin Collection)",
+     "https://www.loc.gov/item/10013879"
+    ],
+    [
+     "TechInsider: Сколько стоит повторить «Путешествие из Петербурга в Москву»",
+     "https://www.techinsider.ru/popmem/1703673-serezno-skolko-stoit-povtorit-znamenitoe-puteshestvie-iz-peterburga-v-moskvu/"
+    ],
+    [
+     "Аргументы и факты: о «Путешествии из Петербурга в Москву»",
+     "https://aif.ru/culture/book/1207430"
+    ],
+    [
+     "Wikipedia (en): Catherine the Great",
+     "https://en.wikipedia.org/wiki/Catherine_the_Great"
+    ],
+    [
+     "Wikiwand (en): Journey from St. Petersburg to Moscow",
+     "https://www.wikiwand.com/en/Journey_from_St._Petersburg_to_Moscow"
+    ]
+   ]
+  },
+  {
+   "id": "karamzin-1789-1790",
+   "n": {
+    "en": "Karamzin’s Letters of a Russian Traveller, 1789–1790",
+    "ru": "«Письма русского путешественника» Карамзина, 1789–1790"
+   },
+   "years": [
+    1789,
+    1791
+   ],
+   "lede": {
+    "en": "Eighteen months in dated letters: from Tver by Riga and Königsberg to Berlin, Dresden and Leipzig, Weimar, Frankfurt and Strasbourg, the Swiss Alps, a winter in Geneva, three months in revolutionary Paris and a stay in London. Modelled on Sterne’s Sentimental Journey, the letters appeared in Karamzin’s Moscow Journal in 1791–92.",
+    "ru": "Полтора года в датированных письмах: из Твери через Ригу и Кёнигсберг в Берлин, Дрезден и Лейпциг, Веймар, Франкфурт и Страсбург, швейцарские Альпы, зима в Женеве, три месяца в революционном Париже и Лондон. Написанные по образцу «Сентиментального путешествия» Стерна, письма печатались в карамзинском «Московском журнале» в 1791–1792 годах."
+   },
+   "steps": [
+    {
+     "y": 1789,
+     "date": "1789-05-29",
+     "date_os": "1789-05-18",
+     "ll": [
+      56.8587,
+      35.9176
+     ],
+     "z": 5,
+     "h": {
+      "en": "Tver, 18 May 1789",
+      "ru": "Тверь, 18 мая 1789"
+     },
+     "t": {
+      "en": "The first letter is dated Tver, 18 May 1789. Nikolay Karamzin, 22 years old, has just parted from his friends. “To see Paris and London had always been his dream,” Fyodor Buslaev would write of him.",
+      "ru": "Первое письмо помечено: «Тверь, 18 мая 1789». Двадцатидвухлетний Николай Карамзин только что простился с друзьями. «Видеть Париж и Лондон — всегда было его мечтою», — напишет о нём Фёдор Буслаев."
+     },
+     "wiki": {
+      "en": "Nikolay Karamzin"
+     },
+     "route": [
+      [
+       55.7558,
+       37.6173
+      ],
+      [
+       56.8587,
+       35.9176
+      ]
+     ],
+     "people": [
+      "karamzin"
+     ],
+     "quote": {
+      "ru": "Расстался я с вами, милые, расстался! Сердце мое привязано к вам всеми нежнейшими своими чувствами,…",
+      "en": "I have parted from you, my dears, I have parted! My heart is bound to you by all its tenderest feelings…",
+      "tr": "compiler",
+      "who": {
+       "en": "Karamzin, first letter",
+       "ru": "Карамзин, первое письмо"
+      },
+      "when": {
+       "en": "Tver, 18 May 1789",
+       "ru": "Тверь, 18 мая 1789"
+      },
+      "src": [
+       [
+        "Н. М. Карамзин, «Письма русского путешественника» (Литрес, онлайн-текст, АСТ 2018)",
+        "https://litres.com/book/nikolay-karamzin/pisma-russkogo-puteshestvennika-176615/read/"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Н. М. Карамзин, «Письма русского путешественника» (Литрес, онлайн-текст, АСТ 2018)",
+       "https://litres.com/book/nikolay-karamzin/pisma-russkogo-puteshestvennika-176615/read/"
+      ],
+      [
+       "Wikipedia (en): Nikolay Karamzin",
+       "https://en.wikipedia.org/wiki/Nikolay_Karamzin"
+      ],
+      [
+       "Ф. И. Буслаев, «Письма русского путешественника» (1866), azbyka.ru",
+       "https://azbyka.ru/otechnik/Fedor_Buslaev/pisma-russkogo-puteshestvennika"
+      ]
+     ]
+    },
+    {
+     "y": 1789,
+     "date": "1789-06-11",
+     "date_os": "1789-05-31",
+     "ll": [
+      56.9496,
+      24.1052
+     ],
+     "z": 5,
+     "h": {
+      "en": "By St Petersburg and Riga",
+      "ru": "Через Петербург и Ригу"
+     },
+     "t": {
+      "en": "His second letter is dated St Petersburg, 26 May, the third Riga, 31 May 1789. On 1 June he writes from a tavern in Courland, and at Palanga he gives his letter two dates, “3/14 June”; after that his letters carry the European dates.",
+      "ru": "Второе письмо помечено «С.-Петербург, 26 мая», третье — «Рига, 31 мая 1789». 1 июня он пишет из курляндской корчмы, а в Паланге ставит двойную дату — «3/14 июня»; дальше письма датированы по европейскому календарю."
+     },
+     "wiki": {
+      "en": "Riga"
+     },
+     "route": [
+      [
+       56.8587,
+       35.9176
+      ],
+      [
+       59.9386,
+       30.3141
+      ],
+      [
+       56.9496,
+       24.1052
+      ]
+     ],
+     "people": [
+      "karamzin"
+     ],
+     "src": [
+      [
+       "Н. М. Карамзин, «Письма русского путешественника» (Литрес, онлайн-текст, АСТ 2018)",
+       "https://litres.com/book/nikolay-karamzin/pisma-russkogo-puteshestvennika-176615/read/"
+      ]
+     ]
+    },
+    {
+     "y": 1789,
+     "date": "1789-06-19",
+     "ll": [
+      54.7065,
+      20.511
+     ],
+     "z": 5,
+     "h": {
+      "en": "Königsberg: a call on Kant",
+      "ru": "Кёнигсберг: у Канта"
+     },
+     "t": {
+      "en": "From Palanga by Memel (15 June) and a tavern beyond Tilsit to Königsberg. In the letter dated 19 June 1789 he writes that “yesterday after dinner” he called on Kant. They talked of the future life, and the young Russian marvelled at the philosopher’s knowledge of history and geography.",
+      "ru": "Из Паланги через Мемель (15 июня) и корчму за Тильзитом — в Кёнигсберг. В письме от 19 июня 1789 года он рассказывает, что «вчерась же после обеда» был у Канта. Они говорили о будущей жизни, и молодой русский дивился обширным историческим и географическим познаниям философа."
+     },
+     "wiki": {
+      "en": "Immanuel Kant"
+     },
+     "route": [
+      [
+       56.9496,
+       24.1052
+      ],
+      [
+       55.9175,
+       21.0686
+      ],
+      [
+       55.7033,
+       21.1443
+      ],
+      [
+       55.0833,
+       21.8833
+      ],
+      [
+       54.7065,
+       20.511
+      ]
+     ],
+     "people": [
+      "karamzin"
+     ],
+     "quote": {
+      "ru": "Вчерась же после обеда был я у славного Канта, глубокомысленного, тонкого метафизика,…",
+      "en": "Yesterday after dinner I called on the celebrated Kant, the profound, subtle metaphysician…",
+      "tr": "compiler",
+      "who": {
+       "en": "Karamzin",
+       "ru": "Карамзин"
+      },
+      "when": {
+       "en": "Königsberg, 19 June 1789",
+       "ru": "Кёнигсберг, 19 июня 1789"
+      },
+      "src": [
+       [
+        "Н. М. Карамзин, «Письма русского путешественника» (Литрес, онлайн-текст, АСТ 2018)",
+        "https://litres.com/book/nikolay-karamzin/pisma-russkogo-puteshestvennika-176615/read/"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Н. М. Карамзин, «Письма русского путешественника» (Литрес, онлайн-текст, АСТ 2018)",
+       "https://litres.com/book/nikolay-karamzin/pisma-russkogo-puteshestvennika-176615/read/"
+      ],
+      [
+       "Ф. И. Буслаев, «Письма русского путешественника» (1866), azbyka.ru",
+       "https://azbyka.ru/otechnik/Fedor_Buslaev/pisma-russkogo-puteshestvennika"
+      ]
+     ]
+    },
+    {
+     "y": 1789,
+     "date": "1789-06-30",
+     "ll": [
+      52.52,
+      13.405
+     ],
+     "z": 5,
+     "h": {
+      "en": "Berlin",
+      "ru": "Берлин"
+     },
+     "t": {
+      "en": "Through Marienburg, Danzig (22 June), Stolp and Stargard to Berlin, where his letters run from 30 June to 8 July 1789.",
+      "ru": "Через Мариенбург, Данциг (22 июня), Штольп и Штаргард — в Берлин; берлинские письма датированы с 30 июня по 8 июля 1789 года."
+     },
+     "wiki": {
+      "en": "Berlin"
+     },
+     "route": [
+      [
+       54.7065,
+       20.511
+      ],
+      [
+       54.0359,
+       19.0266
+      ],
+      [
+       54.352,
+       18.6466
+      ],
+      [
+       54.4641,
+       17.0287
+      ],
+      [
+       53.3364,
+       15.0498
+      ],
+      [
+       52.52,
+       13.405
+      ]
+     ],
+     "people": [
+      "karamzin"
+     ],
+     "src": [
+      [
+       "Н. М. Карамзин, «Письма русского путешественника» (Литрес, онлайн-текст, АСТ 2018)",
+       "https://litres.com/book/nikolay-karamzin/pisma-russkogo-puteshestvennika-176615/read/"
+      ]
+     ]
+    },
+    {
+     "y": 1789,
+     "date": "1789-07-14",
+     "ll": [
+      51.3397,
+      12.3731
+     ],
+     "z": 5,
+     "h": {
+      "en": "Dresden, Meissen, Leipzig",
+      "ru": "Дрезден, Мейсен, Лейпциг"
+     },
+     "t": {
+      "en": "On 12 July he is in Dresden; on 13 July, at Meissen, he takes out of his notebook a letter from “good Lavater”; from 14 July he writes from Leipzig.",
+      "ru": "12 июля он в Дрездене; 13-го, в Мейсене, достаёт из записной книжки письмо «доброго Лафатера»; с 14 июля пишет из Лейпцига."
+     },
+     "wiki": {
+      "en": "Leipzig"
+     },
+     "route": [
+      [
+       52.52,
+       13.405
+      ],
+      [
+       51.0504,
+       13.7373
+      ],
+      [
+       51.1636,
+       13.4775
+      ],
+      [
+       51.3397,
+       12.3731
+      ]
+     ],
+     "people": [
+      "karamzin"
+     ],
+     "src": [
+      [
+       "Н. М. Карамзин, «Письма русского путешественника» (Литрес, онлайн-текст, АСТ 2018)",
+       "https://litres.com/book/nikolay-karamzin/pisma-russkogo-puteshestvennika-176615/read/"
+      ]
+     ]
+    },
+    {
+     "y": 1789,
+     "date": "1789-07-21",
+     "ll": [
+      50.9795,
+      11.3235
+     ],
+     "z": 5,
+     "h": {
+      "en": "Weimar: Wieland and Herder",
+      "ru": "Веймар: Виланд и Гердер"
+     },
+     "t": {
+      "en": "In Weimar (20–22 July) he calls on Wieland — “The wish to see you brought me to Weimar,” he tells him — and Herder receives him “with the same gentle kindness as yesterday”. Goethe he misses: he has left early for Jena.",
+      "ru": "В Веймаре (20–22 июля) он приходит к Виланду — «Желание видеть вас привело меня в Веймар», — и Гердер принимает его «с такою же кроткою ласкою, как и вчера». Гёте он не застаёт: тот рано уехал в Йену."
+     },
+     "wiki": {
+      "en": "Weimar"
+     },
+     "route": [
+      [
+       51.3397,
+       12.3731
+      ],
+      [
+       50.9795,
+       11.3235
+      ]
+     ],
+     "people": [
+      "karamzin"
+     ],
+     "src": [
+      [
+       "Н. М. Карамзин, «Письма русского путешественника» (Литрес, онлайн-текст, АСТ 2018)",
+       "https://litres.com/book/nikolay-karamzin/pisma-russkogo-puteshestvennika-176615/read/"
+      ]
+     ]
+    },
+    {
+     "y": 1789,
+     "date": "1789-08-06",
+     "ll": [
+      48.5734,
+      7.7521
+     ],
+     "z": 5,
+     "h": {
+      "en": "Frankfurt to Strasbourg",
+      "ru": "От Франкфурта до Страсбурга"
+     },
+     "t": {
+      "en": "By Erfurt and Gotha to Frankfurt (28–31 July), then by Mainz and Mannheim to Strasbourg (6 August). In Alsace the Revolution is everyone’s talk: “Postmasters, postilions, peasant women talk about the revolution.”",
+      "ru": "Через Эрфурт и Готу во Франкфурт (28–31 июля), затем через Майнц и Мангейм в Страсбург (6 августа). В Эльзасе все говорят о революции: «Почтмейстеры, постиллионы, бабы говорят о революции»."
+     },
+     "wiki": {
+      "en": "Strasbourg"
+     },
+     "route": [
+      [
+       50.9795,
+       11.3235
+      ],
+      [
+       50.9848,
+       11.0299
+      ],
+      [
+       50.9489,
+       10.7183
+      ],
+      [
+       50.1109,
+       8.6821
+      ],
+      [
+       49.9929,
+       8.2473
+      ],
+      [
+       49.4875,
+       8.466
+      ],
+      [
+       48.5734,
+       7.7521
+      ]
+     ],
+     "people": [
+      "karamzin"
+     ],
+     "src": [
+      [
+       "Н. М. Карамзин, «Письма русского путешественника» (Литрес, онлайн-текст, АСТ 2018)",
+       "https://litres.com/book/nikolay-karamzin/pisma-russkogo-puteshestvennika-176615/read/"
+      ]
+     ]
+    },
+    {
+     "y": 1789,
+     "date": "1789-08-26",
+     "ll": [
+      47.3769,
+      8.5417
+     ],
+     "z": 5,
+     "h": {
+      "en": "Basel and Zurich",
+      "ru": "Базель и Цюрих"
+     },
+     "t": {
+      "en": "On 9 August he writes from Basel, where he hears of Necker’s return to “stormy Paris”. Then by Rheinfelden and Brugg to Zurich, the city of Lavater, where he stays until late August, with a trip to Eglisau.",
+      "ru": "9 августа он пишет из Базеля и слышит о возвращении Неккера «в бурный Париж». Затем через Рейнфельден и Брук — в Цюрих, город Лафатера, где остаётся до конца августа, съездив в Эглизау."
+     },
+     "wiki": {
+      "en": "Johann Kaspar Lavater"
+     },
+     "route": [
+      [
+       48.5734,
+       7.7521
+      ],
+      [
+       47.5596,
+       7.5886
+      ],
+      [
+       47.5541,
+       7.7944
+      ],
+      [
+       47.4808,
+       8.2083
+      ],
+      [
+       47.3769,
+       8.5417
+      ]
+     ],
+     "people": [
+      "karamzin"
+     ],
+     "src": [
+      [
+       "Н. М. Карамзин, «Письма русского путешественника» (Литрес, онлайн-текст, АСТ 2018)",
+       "https://litres.com/book/nikolay-karamzin/pisma-russkogo-puteshestvennika-176615/read/"
+      ]
+     ]
+    },
+    {
+     "y": 1789,
+     "date": "1789-09-10",
+     "ll": [
+      46.6242,
+      8.0414
+     ],
+     "z": 5,
+     "h": {
+      "en": "Into the Alps",
+      "ru": "В Альпы"
+     },
+     "t": {
+      "en": "From Bern (28 August) he travels into the Bernese Oberland: Thun and its lake, Lauterbrunnen, shepherds’ huts high in the Alps, Grindelwald, the Scheidegg and the Hasli valley, Lake Brienz. He is back in Bern on 10 September 1789.",
+      "ru": "Из Берна (28 августа) он отправляется в Бернское нагорье: Тун и Тунское озеро, Лаутербруннен, пастушьи хижины высоко в Альпах, Гриндельвальд, Шейдек и долина Хасли, Бриенцское озеро. 10 сентября 1789 года он снова в Берне."
+     },
+     "wiki": {
+      "en": "Grindelwald"
+     },
+     "route": [
+      [
+       47.3769,
+       8.5417
+      ],
+      [
+       47.4733,
+       8.3059
+      ],
+      [
+       47.3925,
+       8.0442
+      ],
+      [
+       46.948,
+       7.4474
+      ],
+      [
+       46.758,
+       7.628
+      ],
+      [
+       46.685,
+       7.85
+      ],
+      [
+       46.5935,
+       7.9091
+      ],
+      [
+       46.6242,
+       8.0414
+      ],
+      [
+       46.727,
+       8.187
+      ],
+      [
+       46.754,
+       8.038
+      ],
+      [
+       46.758,
+       7.628
+      ],
+      [
+       46.948,
+       7.4474
+      ]
+     ],
+     "people": [
+      "karamzin"
+     ],
+     "src": [
+      [
+       "Н. М. Карамзин, «Письма русского путешественника» (Литрес, онлайн-текст, АСТ 2018)",
+       "https://litres.com/book/nikolay-karamzin/pisma-russkogo-puteshestvennika-176615/read/"
+      ]
+     ]
+    },
+    {
+     "y": 1789,
+     "date": "1789-10-02",
+     "ll": [
+      46.2044,
+      6.1432
+     ],
+     "z": 5,
+     "h": {
+      "en": "A winter in Geneva",
+      "ru": "Зима в Женеве"
+     },
+     "t": {
+      "en": "By Lausanne he comes to Geneva, where his letters run from 2 October 1789 into the spring: a trip into the Jura on 8 November, letters of December and January, a mountain village in the Pays de Gex on 4 March 1790.",
+      "ru": "Через Лозанну он приезжает в Женеву; женевские письма идут со 2 октября 1789 года до весны: поездка в горы Юра 8 ноября, письма декабря и января, горная деревенька в Pays de Gex 4 марта 1790 года."
+     },
+     "wiki": {
+      "en": "Geneva"
+     },
+     "route": [
+      [
+       46.948,
+       7.4474
+      ],
+      [
+       46.5197,
+       6.6323
+      ],
+      [
+       46.2044,
+       6.1432
+      ]
+     ],
+     "people": [
+      "karamzin"
+     ],
+     "src": [
+      [
+       "Н. М. Карамзин, «Письма русского путешественника» (Литрес, онлайн-текст, АСТ 2018)",
+       "https://litres.com/book/nikolay-karamzin/pisma-russkogo-puteshestvennika-176615/read/"
+      ]
+     ]
+    },
+    {
+     "y": 1790,
+     "ll": [
+      48.8566,
+      2.3522
+     ],
+     "z": 5,
+     "h": {
+      "en": "Three months in Paris",
+      "ru": "Три месяца в Париже"
+     },
+     "t": {
+      "en": "From Lyon he goes on to Paris, where, as Buslaev put it, he was fated to spend three months, in the time of the Revolution. He takes his leave of the city with regret and gratitude.",
+      "ru": "Из Лиона он едет в Париж, где ему, по словам Буслаева, «суждено было провести три месяца» — во время революции. С городом он прощается с сожалением и благодарностью."
+     },
+     "wiki": {
+      "en": "Paris"
+     },
+     "route": [
+      [
+       46.2044,
+       6.1432
+      ],
+      [
+       45.764,
+       4.8357
+      ],
+      [
+       48.8566,
+       2.3522
+      ]
+     ],
+     "people": [
+      "karamzin"
+     ],
+     "quote": {
+      "ru": "Я оставил тебя, любезный Париж, оставил с сожалением и благодарностью!",
+      "en": "I have left you, dear Paris, left you with regret and gratitude!",
+      "tr": "compiler",
+      "who": {
+       "en": "Karamzin, quoted by Fyodor Buslaev (1866)",
+       "ru": "Карамзин, цит. по Ф. И. Буслаеву (1866)"
+      },
+      "when": {
+       "en": "1790",
+       "ru": "1790"
+      },
+      "src": [
+       [
+        "Ф. И. Буслаев, «Письма русского путешественника» (1866), azbyka.ru",
+        "https://azbyka.ru/otechnik/Fedor_Buslaev/pisma-russkogo-puteshestvennika"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Ф. И. Буслаев, «Письма русского путешественника» (1866), azbyka.ru",
+       "https://azbyka.ru/otechnik/Fedor_Buslaev/pisma-russkogo-puteshestvennika"
+      ]
+     ]
+    },
+    {
+     "y": 1790,
+     "ll": [
+      51.5074,
+      -0.1278
+     ],
+     "z": 5,
+     "h": {
+      "en": "London",
+      "ru": "Лондон"
+     },
+     "t": {
+      "en": "In London he studies English and looks at paintings. After about eighteen months abroad he returns to Russia.",
+      "ru": "В Лондоне он учит английский язык и смотрит картины. После примерно полутора лет за границей он возвращается в Россию."
+     },
+     "wiki": {
+      "en": "London"
+     },
+     "route": [
+      [
+       48.8566,
+       2.3522
+      ],
+      [
+       51.5074,
+       -0.1278
+      ]
+     ],
+     "people": [
+      "karamzin"
+     ],
+     "src": [
+      [
+       "Ф. И. Буслаев, «Письма русского путешественника» (1866), azbyka.ru",
+       "https://azbyka.ru/otechnik/Fedor_Buslaev/pisma-russkogo-puteshestvennika"
+      ]
+     ]
+    },
+    {
+     "y": 1791,
+     "ll": [
+      55.7558,
+      37.6173
+     ],
+     "z": 5,
+     "h": {
+      "en": "The Moscow Journal",
+      "ru": "«Московский журнал»"
+     },
+     "t": {
+      "en": "Back in Moscow Karamzin edits the Moscow Journal and prints the Letters there in 1791–92; his Poor Liza appears in the same journal in 1792. The Letters are collected in six volumes in 1797–1801.",
+      "ru": "Вернувшись в Москву, Карамзин издаёт «Московский журнал» и печатает в нём «Письма» (1791–1792); там же в 1792 году появляется его «Бедная Лиза». Отдельным изданием «Письма» выходят в шести томах в 1797–1801 годах."
+     },
+     "wiki": {
+      "en": "Nikolay Karamzin"
+     },
+     "people": [
+      "karamzin"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Nikolay Karamzin",
+       "https://en.wikipedia.org/wiki/Nikolay_Karamzin"
+      ]
+     ]
+    }
+   ],
+   "src": [
+    [
+     "Н. М. Карамзин, «Письма русского путешественника» (Литрес, онлайн-текст, АСТ 2018)",
+     "https://litres.com/book/nikolay-karamzin/pisma-russkogo-puteshestvennika-176615/read/"
+    ],
+    [
+     "Ф. И. Буслаев, «Письма русского путешественника» (1866), azbyka.ru",
+     "https://azbyka.ru/otechnik/Fedor_Buslaev/pisma-russkogo-puteshestvennika"
+    ],
+    [
+     "Wikipedia (en): Nikolay Karamzin",
+     "https://en.wikipedia.org/wiki/Nikolay_Karamzin"
+    ]
+   ]
+  },
+  {
+   "id": "pushkin-arzrum-1829",
+   "n": {
+    "en": "Pushkin’s Journey to Arzrum, 1829",
+    "ru": "«Путешествие в Арзрум» Пушкина, 1829"
+   },
+   "years": [
+    1829,
+    1836
+   ],
+   "lede": {
+    "en": "In May 1829 Pushkin, permitted to go no further than Tiflis, rides south to the Caucasus, where the Russian army is fighting the Turks, meets the body of Griboyedov on a mountain pass and reaches Arzrum with the troops. The tsar is angered; the travel sketch appears in full only in 1836.",
+    "ru": "В мае 1829 года Пушкин, которому разрешено ехать не дальше Тифлиса, отправляется на Кавказ, где русская армия воюет с турками, встречает на горном перевале тело Грибоедова и вместе с войсками попадает в Арзрум. Царь разгневан; путевые записки полностью выходят только в 1836 году."
+   },
+   "steps": [
+    {
+     "y": 1829,
+     "ll": [
+      55.7558,
+      37.6173
+     ],
+     "z": 4,
+     "h": {
+      "en": "Moscow, May 1829",
+      "ru": "Москва, май 1829"
+     },
+     "t": {
+      "en": "In early May 1829 Pushkin sets out with a road pass for Tiflis, without waiting for permission to go abroad. The Russo-Turkish war of 1828–29 is being fought in the Caucasus, and friends of his are serving in the army there.",
+      "ru": "В начале мая 1829 года Пушкин с подорожной до Тифлиса выезжает на юг, не дожидаясь разрешения на заграничную поездку. На Кавказе идёт русско-турецкая война 1828–1829 годов, и в армии служат его друзья."
+     },
+     "wiki": {
+      "en": "A Journey to Arzrum"
+     },
+     "people": [
+      "pushkin"
+     ],
+     "src": [
+      [
+       "Газета.Ru: встреча Пушкина с телом Грибоедова (2019)",
+       "https://www.gazeta.press/culture/2019/06/23/a_12436873.shtml"
+      ],
+      [
+       "Wikipedia (en): Alexander Pushkin",
+       "https://en.wikipedia.org/wiki/Alexander_Pushkin"
+      ]
+     ]
+    },
+    {
+     "y": 1829,
+     "ll": [
+      52.6236,
+      38.5017
+     ],
+     "z": 5,
+     "h": {
+      "en": "Mud as far as Yelets",
+      "ru": "Грязь до Ельца"
+     },
+     "t": {
+      "en": "On the road south the spring mud is the first trial of the journey.",
+      "ru": "По дороге на юг первым испытанием становится весенняя грязь."
+     },
+     "wiki": {
+      "en": "Yelets"
+     },
+     "route": [
+      [
+       55.7558,
+       37.6173
+      ],
+      [
+       52.6236,
+       38.5017
+      ]
+     ],
+     "people": [
+      "pushkin"
+     ],
+     "quote": {
+      "ru": "До Ельца дороги ужасны. Несколько раз коляска моя вязла в грязи, достойной грязи одесской…",
+      "en": "As far as Yelets the roads are terrible. Several times my carriage stuck in mud worthy of the mud of Odessa…",
+      "tr": "compiler",
+      "who": {
+       "en": "Pushkin, A Journey to Arzrum, chapter 1",
+       "ru": "Пушкин, «Путешествие в Арзрум», глава 1"
+      },
+      "when": {
+       "en": "May 1829",
+       "ru": "май 1829"
+      },
+      "src": [
+       [
+        "М. Н. Дарвин, «К вопросу о сюжете лирического путевого цикла», Вестник РГГУ, 2020",
+        "https://history.rsuh.ru/jour/article/download/815/769"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "М. Н. Дарвин, «К вопросу о сюжете лирического путевого цикла», Вестник РГГУ, 2020",
+       "https://history.rsuh.ru/jour/article/download/815/769"
+      ]
+     ]
+    },
+    {
+     "y": 1829,
+     "ll": [
+      42.74,
+      44.62
+     ],
+     "z": 5,
+     "h": {
+      "en": "Over the Caucasus",
+      "ru": "Через Кавказ"
+     },
+     "t": {
+      "en": "From the North Caucasus the road to Tiflis climbs over the main range by the Darial gorge, under the snows of Kazbek. Pushkin has permission to travel only as far as Tiflis.",
+      "ru": "С Северного Кавказа дорога на Тифлис поднимается через Главный хребет Дарьяльским ущельем, под снегами Казбека. Разрешение у Пушкина — только до Тифлиса."
+     },
+     "wiki": {
+      "en": "Georgian Military Road"
+     },
+     "route": [
+      [
+       52.6236,
+       38.5017
+      ],
+      [
+       43.0205,
+       44.6819
+      ],
+      [
+       42.74,
+       44.62
+      ]
+     ],
+     "people": [
+      "pushkin"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): A Journey to Arzrum",
+       "https://en.wikipedia.org/wiki/A_Journey_to_Arzrum"
+      ]
+     ]
+    },
+    {
+     "y": 1829,
+     "ll": [
+      41.6938,
+      44.8015
+     ],
+     "z": 5,
+     "h": {
+      "en": "Tiflis",
+      "ru": "Тифлис"
+     },
+     "t": {
+      "en": "Tiflis is as far as his permission goes. He goes on regardless, towards the army operating in Turkish Armenia.",
+      "ru": "Разрешение действует только до Тифлиса. Пушкин едет дальше — к армии, действующей в турецкой Армении."
+     },
+     "wiki": {
+      "en": "Tbilisi"
+     },
+     "route": [
+      [
+       42.74,
+       44.62
+      ],
+      [
+       41.6938,
+       44.8015
+      ]
+     ],
+     "people": [
+      "pushkin"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): A Journey to Arzrum",
+       "https://en.wikipedia.org/wiki/A_Journey_to_Arzrum"
+      ]
+     ]
+    },
+    {
+     "y": 1829,
+     "date": "1829-06-23",
+     "date_os": "1829-06-11",
+     "ll": [
+      40.91,
+      44.43
+     ],
+     "z": 6,
+     "h": {
+      "en": "The pass near Gergery, 11 June",
+      "ru": "Перевал у Гергер, 11 июня"
+     },
+     "t": {
+      "en": "On 11 June 1829 (23 June new style), on the Bezobdal pass near the fort of Gergery in Armenia, Pushkin meets travellers coming from the south. “What are you carrying?” “Griboyed.” It was the body of the murdered Griboyedov, being taken to Tiflis. The pass now bears Pushkin’s name. Some historians doubt the meeting: 11 June is also the date on which the two men first met, in 1817.",
+      "ru": "11 июня 1829 года (23 июня по новому стилю) на Безобдальском перевале у крепости Гергеры в Армении Пушкину встречаются путники с юга. «Что вы везете?» — «Грибоеда». Это было тело убитого Грибоедова, которое препровождали в Тифлис. Теперь перевал называется Пушкинским. Некоторые историки сомневаются в этой встрече: 11 июня — ещё и дата знакомства Пушкина с Грибоедовым в 1817 году."
+     },
+     "wiki": {
+      "en": "Alexander Griboyedov"
+     },
+     "route": [
+      [
+       41.6938,
+       44.8015
+      ],
+      [
+       40.91,
+       44.43
+      ]
+     ],
+     "people": [
+      "pushkin",
+      "griboyedov"
+     ],
+     "quote": {
+      "ru": "«Что вы везете?» — «Грибоеда». Это было тело убитого Грибоедова, которое препровождали в Тифлис.",
+      "en": "“What are you carrying?” “Griboyed.” It was the body of the murdered Griboyedov, which was being taken to Tiflis.",
+      "tr": "compiler",
+      "who": {
+       "en": "Pushkin, A Journey to Arzrum",
+       "ru": "Пушкин, «Путешествие в Арзрум»"
+      },
+      "when": {
+       "en": "11 June 1829",
+       "ru": "11 июня 1829"
+      },
+      "src": [
+       [
+        "Газета.Ru: встреча Пушкина с телом Грибоедова (2019)",
+        "https://www.gazeta.press/culture/2019/06/23/a_12436873.shtml"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Газета.Ru: встреча Пушкина с телом Грибоедова (2019)",
+       "https://www.gazeta.press/culture/2019/06/23/a_12436873.shtml"
+      ]
+     ]
+    },
+    {
+     "y": 1829,
+     "ll": [
+      40.6013,
+      43.0975
+     ],
+     "z": 5,
+     "h": {
+      "en": "Into Turkey",
+      "ru": "За границу"
+     },
+     "t": {
+      "en": "Crossing the frontier into Turkish territory, Pushkin rides on to the Russian army, where his friends are serving. It is a crossing he has no permission to make.",
+      "ru": "Перейдя границу, Пушкин едет в действующую армию, где служат его друзья. На этот переход у него разрешения нет."
+     },
+     "wiki": {
+      "en": "Kars"
+     },
+     "route": [
+      [
+       40.91,
+       44.43
+      ],
+      [
+       40.7942,
+       43.8453
+      ],
+      [
+       40.6013,
+       43.0975
+      ]
+     ],
+     "people": [
+      "pushkin"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Alexander Pushkin",
+       "https://en.wikipedia.org/wiki/Alexander_Pushkin"
+      ],
+      [
+       "Wikipedia (en): A Journey to Arzrum",
+       "https://en.wikipedia.org/wiki/A_Journey_to_Arzrum"
+      ]
+     ]
+    },
+    {
+     "y": 1829,
+     "ll": [
+      39.9043,
+      41.2679
+     ],
+     "z": 5,
+     "h": {
+      "en": "Arzrum",
+      "ru": "Арзрум"
+     },
+     "t": {
+      "en": "During the campaign of 1829 he reaches Arzrum, modern Erzurum in eastern Turkey: the furthest point of the journey and the title of the book.",
+      "ru": "Во время похода 1829 года он добирается до Арзрума — нынешнего Эрзурума на востоке Турции. Это самая дальняя точка пути, давшая книге название."
+     },
+     "wiki": {
+      "en": "Erzurum"
+     },
+     "route": [
+      [
+       40.6013,
+       43.0975
+      ],
+      [
+       39.9043,
+       41.2679
+      ]
+     ],
+     "people": [
+      "pushkin"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): A Journey to Arzrum",
+       "https://en.wikipedia.org/wiki/A_Journey_to_Arzrum"
+      ],
+      [
+       "Wikipedia (en): Alexander Pushkin",
+       "https://en.wikipedia.org/wiki/Alexander_Pushkin"
+      ]
+     ]
+    },
+    {
+     "y": 1830,
+     "ll": [
+      59.9386,
+      30.3141
+     ],
+     "z": 4,
+     "h": {
+      "en": "The tsar’s displeasure",
+      "ru": "Гнев царя"
+     },
+     "t": {
+      "en": "Nicholas I is angered by the unauthorised crossing into Turkey and threatens to confine Pushkin to his estate once again. At the end of 1829 Pushkin asks to travel abroad; on 17 January 1830 the tsar refuses.",
+      "ru": "Николай I разгневан самовольным переходом турецкой границы и грозит снова запереть Пушкина в имении. В конце 1829 года поэт просит позволения поехать за границу; 17 января 1830 года царь отказывает."
+     },
+     "wiki": {
+      "en": "Alexander Pushkin"
+     },
+     "people": [
+      "pushkin",
+      "nicholas-i"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): A Journey to Arzrum",
+       "https://en.wikipedia.org/wiki/A_Journey_to_Arzrum"
+      ],
+      [
+       "Wikipedia (en): Alexander Pushkin",
+       "https://en.wikipedia.org/wiki/Alexander_Pushkin"
+      ]
+     ]
+    },
+    {
+     "y": 1836,
+     "ll": [
+      59.9386,
+      30.3141
+     ],
+     "z": 5,
+     "h": {
+      "en": "In print, 1836",
+      "ru": "В печати, 1836"
+     },
+     "t": {
+      "en": "Written in 1829, published in part in 1830 and reworked in 1835, A Journey to Arzrum during the Campaign of 1829 appears in full in 1836 in Sovremennik, the journal Pushkin founded that year. Readers who expected a romantic Caucasus received it coolly.",
+      "ru": "Написанное в 1829 году, частично напечатанное в 1830-м и переработанное в 1835-м, «Путешествие в Арзрум во время похода 1829 года» целиком выходит в 1836 году в «Современнике» — журнале, который Пушкин основал в том же году. Читатели, ждавшие романтического Кавказа, приняли его холодно."
+     },
+     "wiki": {
+      "en": "Sovremennik"
+     },
+     "people": [
+      "pushkin"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): A Journey to Arzrum",
+       "https://en.wikipedia.org/wiki/A_Journey_to_Arzrum"
+      ],
+      [
+       "Wikipedia (en): Alexander Pushkin",
+       "https://en.wikipedia.org/wiki/Alexander_Pushkin"
+      ]
+     ]
+    }
+   ],
+   "src": [
+    [
+     "Wikipedia (en): A Journey to Arzrum",
+     "https://en.wikipedia.org/wiki/A_Journey_to_Arzrum"
+    ],
+    [
+     "Wikipedia (en): Alexander Pushkin",
+     "https://en.wikipedia.org/wiki/Alexander_Pushkin"
+    ],
+    [
+     "Газета.Ru: встреча Пушкина с телом Грибоедова (2019)",
+     "https://www.gazeta.press/culture/2019/06/23/a_12436873.shtml"
+    ],
+    [
+     "М. Н. Дарвин, «К вопросу о сюжете лирического путевого цикла», Вестник РГГУ, 2020",
+     "https://history.rsuh.ru/jour/article/download/815/769"
+    ]
+   ]
+  }
+ ],
+ "notes": {
+  "en": "Searches: 30 of the first allowance used; this file is written from pages opened with them. Pictures: one pic (Repin’s ‘REPIN Ivan Terrible&Ivan.jpg’), checked on the OsmAnd mirror of its Commons file page (PD-Art, Repin died 1930); commons.wikimedia.org itself could not be opened, so `page` is the canonical Commons address of that file name. Every other step uses a `wiki` title for its lead picture. Russian Wikipedia and Russian Wikisource could not be opened (the search engine returned no ru.wikipedia pages; every ru.wikisource page failed at the site), so `wiki.ru` is given only for two titles seen on mirrors (Ледовое побоище, Афанасий Никитин). Wiki titles fetched and confirmed: Alexander Nevsky, Battle of the Neva, Battle on the Ice, Novgorod First Chronicle, Ivan the Terrible, Saint Basil's Cathedral, Oprichnina, Massacre of Novgorod, Tsarevich Ivan Ivanovich of Russia, Ivan the Terrible and His Son Ivan, Time of Troubles, Michael of Russia, Peter the Great, Grand Embassy of Peter the Great, Saint Petersburg, Peter and Paul Fortress, Admiralty, Saint Petersburg, Summer Garden, Kunstkamera, Twelve Collegia, Table of Ranks, Winter Palace, Nicholas II, February Revolution, October Revolution, July Days, Abdication of Nicholas II, Afanasy Nikitin, A Journey Beyond the Three Seas, Hormuz, Iran, Nikolay Karamzin, Alexander Pushkin, A Journey to Arzrum, Catherine the Great. Seen as link targets but not opened: Pskov, Pereslavl-Zalessky, Koporye, Sarai (city), Gorodets, Nizhny Novgorod Oblast, Alexander Nevsky Lavra, Alexander Nevsky (film), Andrey Kurbsky, Yermak Timofeyevich, Battle of Molodi, Kuzma Minin, Patriarch Hermogenes, Polish–Russian War (1609–1618), Yaroslavl, Battle of Moscow (1612), Unity Day (Russia), Zemsky Sobor, Ivan Susanin, Battle of Poltava, Georgy Gapon, Bloody Sunday (1905), 1905 Russian Revolution, Russian battleship Potemkin, October Manifesto, State Duma (Russian Empire), Petrograd Soviet, April Theses, Kornilov Affair, Military Revolutionary Committee, Decree on Peace, Nizhny Novgorod, Derbent, Chaul, Junnar, Bidar, Bahmani Sultanate, Trabzon, Feodosia, Tver, Alexander Radishchev, Journey from St. Petersburg to Moscow, Erzurum, Sovremennik. Primary-topic titles not seen (check before display): Kazan Kremlin, Moscow Kremlin, Vasily Surikov, Astrakhan, Shamakhi, Sari, Iran, Muscat, Pushkin, Saint Petersburg, Chudovo, Veliky Novgorod, Kresttsy, Valday, Torzhok, Klin, Riga, Immanuel Kant, Berlin, Leipzig, Weimar, Strasbourg, Johann Kaspar Lavater, Grindelwald, Geneva, Paris, London, Yelets, Georgian Military Road, Tbilisi, Kars, Alexander Griboyedov. Coordinates: the Wikipedia text the fetch tool returns carries no coordinates, so every `ll` and route point is a standard point for the named place (city centre, monastery, palace), not read from a page. Approximate (±10 km) for the small Radishchev stations (Spasskaya Polest, Podberezye, Bronnitsy, Zaitsovo, Yazhelbitsy, Edrovo, Khotilov, Vydropusk, Mednoye, Gorodnya, Zavidovo, Peshki, Chornaya Gryaz), for Chapakur, Sarai, Qashliq, Ilimsk, the Lake Peipus battle site (disputed) and the Bezobdal (Pushkin) pass; Parvat is placed at Srisailam, its usual identification. Dates: `date` is Gregorian, computed from the Julian `date_os` the sources give (proleptic before 1582: +7 days in the 13th century, +10 in the 16th and 17th, +11 in the 18th, +12 in the 19th, +13 from 1900). Karamzin’s letters after Palanga (3/14 June 1789) are dated new style in the text itself, so those steps carry `date` only. Several sources do not say which calendar they use; Russian events are taken as old style, and the Battle of Moscow’s 1–3 September 1612 as new style. Thin or not checked in an opened page: St Petersburg’s population in 1725 (no figure found; not given); the Finland Station as the place of Lenin’s arrival and the April Theses’ content (only the arrival date and that he issued the Theses were read); Potemkin details (only ‘a mutiny in spring–summer 1905’ was read, so no date, Odessa or Constanța claims are made; the point is placed at Odessa); the Radishchev chapter themes, which summarise the book as standardly read (the station list, the 1790 edition and the Peshki passage were read; the Library of Congress scan was not read page by page); Pushkin’s itinerary between Yelets and the Bezobdal pass and the date of his entry into Arzrum (not found; the step says only ‘during the campaign of 1829’). Peter the Great’s article gives 29 June 1703 (Julian) for the founding; the Saint Petersburg and Peter and Paul Fortress articles give 16 (27) May 1703, used here. Quotations: Old Russian, Russian and English public-domain texts as read on the cited pages; the reading tool quotes at most about 125 characters at a time, so longer quotations are joined fragments marked ‘…’. English renderings marked tr: compiler are the compiler’s literal translations; the abdication manifesto’s English is Golder (1927). Two Russian wordings were not read on a Russian page and are given as the standard text, checked against the English translation on the cited page: Gapon’s petition (Daniel Field’s English, University of Oregon) and the abdication manifesto (Golder). people ids follow rulers_b.json (michael-i, peter-i, catherine-ii, paul-i, alexander-i, nicholas-i, nicholas-ii, kerensky, lenin) and stories_a.json (pushkin); alexander-nevsky, ivan-iii, ivan-iv and the author ids nikitin, radishchev, karamzin, griboyedov are proposed and should be mapped to the rulers and literature files.",
+  "ru": "Поиски: использованы все 30 из первой квоты. Иллюстрация одна — «REPIN Ivan Terrible&Ivan.jpg», лицензия проверена по зеркалу страницы файла Commons (OsmAnd); остальные шаги используют заглавные иллюстрации статей Википедии. Русская Википедия и Викитека из этой сессии не открывались. Координаты — стандартные точки мест, не считанные со страниц; для мелких станций Радищева, Чапакура, Сарая, Искера, Илимска, места Ледового побоища и Безобдальского перевала — приблизительные. Даты: date — по григорианскому календарю, вычислены из date_os. Не найдено: население Петербурга в 1725 году; подробности о «Потёмкине»; маршрут Пушкина между Ельцом и перевалом и дата вступления в Арзрум. Английские переводы цитат — дословные переводы составителя (tr: compiler)."
+ }
+}

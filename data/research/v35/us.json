@@ -1,0 +1,5425 @@
+{
+ "asof": "2026-11-25",
+ "declaration": {
+  "id": "us-declaration-1776",
+  "n": {
+   "en": "United States Declaration of Independence",
+   "ru": "Декларация независимости США"
+  },
+  "kind": "declaration",
+  "wiki": {
+   "en": "United States Declaration of Independence"
+  },
+  "place": {
+   "en": "Pennsylvania State House (now Independence Hall), Philadelphia",
+   "ru": "здание Законодательного собрания Пенсильвании (ныне Индепенденс-холл), Филадельфия"
+  },
+  "ll": [
+   39.94889,
+   -75.15
+  ],
+  "events": [
+   {
+    "y": 1776,
+    "date": "1776-06-07",
+    "n": {
+     "en": "Lee’s resolution",
+     "ru": "Резолюция Ли"
+    },
+    "t": {
+     "en": "Richard Henry Lee of Virginia moves that the colonies are, and of right ought to be, free and independent states.",
+     "ru": "Виргинец Ричард Генри Ли вносит резолюцию о том, что колонии являются и по праву должны быть свободными и независимыми штатами."
+    },
+    "src": [
+     [
+      "Wikipedia: Lee Resolution",
+      "https://en.wikipedia.org/wiki/Lee_Resolution"
+     ]
+    ]
+   },
+   {
+    "y": 1776,
+    "date": "1776-06-11",
+    "n": {
+     "en": "The Committee of Five",
+     "ru": "Комитет пяти"
+    },
+    "t": {
+     "en": "Congress names John Adams, Benjamin Franklin, Thomas Jefferson, Robert R. Livingston and Roger Sherman to prepare a declaration; the writing is left to Jefferson, who drafts it between 11 and 28 June.",
+     "ru": "Конгресс поручает Джону Адамсу, Бенджамину Франклину, Томасу Джефферсону, Роберту Ливингстону и Роджеру Шерману подготовить декларацию; писать её доверено Джефферсону, и он работает над проектом с 11 по 28 июня."
+    },
+    "src": [
+     [
+      "Wikipedia: United States Declaration of Independence",
+      "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence"
+     ],
+     [
+      "National Archives: Milestone Documents, Declaration of Independence (1776)",
+      "https://www.archives.gov/milestone-documents/declaration-of-independence"
+     ]
+    ]
+   },
+   {
+    "y": 1776,
+    "date": "1776-06-28",
+    "n": {
+     "en": "The draft presented",
+     "ru": "Проект представлен"
+    },
+    "t": {
+     "en": "The committee presents Jefferson’s draft to Congress. This is the scene of Trumbull’s painting.",
+     "ru": "Комитет представляет конгрессу проект Джефферсона. Именно эту сцену изобразил Трамбулл."
+    },
+    "src": [
+     [
+      "Wikipedia: United States Declaration of Independence",
+      "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence"
+     ],
+     [
+      "Wikipedia: Declaration of Independence (painting)",
+      "https://en.wikipedia.org/wiki/Declaration_of_Independence_(painting)"
+     ]
+    ]
+   },
+   {
+    "y": 1776,
+    "date": "1776-07-02",
+    "n": {
+     "en": "The vote for independence",
+     "ru": "Голосование за независимость"
+    },
+    "t": {
+     "en": "Congress adopts the independence clause of Lee’s resolution: twelve colonies vote for it and New York abstains, its delegates lacking instructions. New York’s provincial congress joins on 9 July.",
+     "ru": "Конгресс принимает пункт резолюции Ли о независимости: двенадцать колоний — «за», Нью-Йорк воздерживается, потому что у его делегатов нет инструкций. Провинциальный конгресс Нью-Йорка присоединяется 9 июля."
+    },
+    "src": [
+     [
+      "Wikipedia: United States Declaration of Independence",
+      "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence"
+     ],
+     [
+      "National Archives: Milestone Documents, Declaration of Independence (1776)",
+      "https://www.archives.gov/milestone-documents/declaration-of-independence"
+     ],
+     [
+      "Wikipedia: Lee Resolution",
+      "https://en.wikipedia.org/wiki/Lee_Resolution"
+     ]
+    ]
+   },
+   {
+    "y": 1776,
+    "date": "1776-07-04",
+    "n": {
+     "en": "The Declaration adopted",
+     "ru": "Декларация принята"
+    },
+    "t": {
+     "en": "After debating and editing the draft, Congress adopts the Declaration in the afternoon of 4 July.",
+     "ru": "Обсудив и отредактировав проект, конгресс днём 4 июля принимает Декларацию."
+    },
+    "src": [
+     [
+      "National Archives: Milestone Documents, Declaration of Independence (1776)",
+      "https://www.archives.gov/milestone-documents/declaration-of-independence"
+     ],
+     [
+      "Wikipedia: United States Declaration of Independence",
+      "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence"
+     ]
+    ]
+   },
+   {
+    "y": 1776,
+    "date": "1776-08-02",
+    "n": {
+     "en": "The parchment signed",
+     "ru": "Подписание пергамента"
+    },
+    "t": {
+     "en": "The engrossed copy, probably written out by the clerk Timothy Matlack, is signed by most delegates; John Hancock signs first.",
+     "ru": "Беловой экземпляр на пергаменте, переписанный, вероятно, клерком Тимоти Мэтлоком, подписывает большинство делегатов; первым расписывается Джон Хэнкок."
+    },
+    "src": [
+     [
+      "National Archives: Milestone Documents, Declaration of Independence (1776)",
+      "https://www.archives.gov/milestone-documents/declaration-of-independence"
+     ],
+     [
+      "Wikipedia: Signing of the United States Declaration of Independence",
+      "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
+     ],
+     [
+      "Wikipedia: United States Declaration of Independence",
+      "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence"
+     ]
+    ]
+   },
+   {
+    "y": 1776,
+    "n": {
+     "en": "Later signatures",
+     "ru": "Поздние подписи"
+    },
+    "t": {
+     "en": "Lewis Morris, Oliver Wolcott, Thomas McKean and perhaps Elbridge Gerry sign after 2 August; Richard Henry Lee and George Wythe probably in September and October; Matthew Thornton, seated only in November, signs at the end.",
+     "ru": "Льюис Моррис, Оливер Уолкотт, Томас Маккин и, возможно, Элбридж Джерри подписывают после 2 августа; Ричард Генри Ли и Джордж Уит — вероятно, в сентябре и октябре; Мэтью Торнтон, занявший место в конгрессе лишь в ноябре, расписывается в самом конце."
+    },
+    "src": [
+     [
+      "Wikipedia: Signing of the United States Declaration of Independence",
+      "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
+     ]
+    ]
+   }
+  ],
+  "committee": [
+   {
+    "n": {
+     "en": "John Adams",
+     "ru": "Джон Адамс"
+    },
+    "state": {
+     "en": "Massachusetts",
+     "ru": "Массачусетс"
+    },
+    "wiki": {
+     "en": "John Adams"
+    }
+   },
+   {
+    "n": {
+     "en": "Benjamin Franklin",
+     "ru": "Бенджамин Франклин"
+    },
+    "state": {
+     "en": "Pennsylvania",
+     "ru": "Пенсильвания"
+    },
+    "wiki": {
+     "en": "Benjamin Franklin"
+    }
+   },
+   {
+    "n": {
+     "en": "Thomas Jefferson",
+     "ru": "Томас Джефферсон"
+    },
+    "state": {
+     "en": "Virginia",
+     "ru": "Виргиния"
+    },
+    "wiki": {
+     "en": "Thomas Jefferson"
+    },
+    "role": {
+     "en": "wrote the draft",
+     "ru": "автор проекта"
+    }
+   },
+   {
+    "n": {
+     "en": "Robert R. Livingston",
+     "ru": "Роберт Ливингстон"
+    },
+    "state": {
+     "en": "New York",
+     "ru": "Нью-Йорк"
+    },
+    "wiki": {
+     "en": "Robert R. Livingston"
+    },
+    "role": {
+     "en": "recalled by New York; did not sign",
+     "ru": "отозван Нью-Йорком; не подписал"
+    }
+   },
+   {
+    "n": {
+     "en": "Roger Sherman",
+     "ru": "Роджер Шерман"
+    },
+    "state": {
+     "en": "Connecticut",
+     "ru": "Коннектикут"
+    },
+    "wiki": {
+     "en": "Roger Sherman"
+    }
+   }
+  ],
+  "committee_src": [
+   [
+    "Wikipedia: United States Declaration of Independence",
+    "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence"
+   ],
+   [
+    "National Archives: Milestone Documents, Declaration of Independence (1776)",
+    "https://www.archives.gov/milestone-documents/declaration-of-independence"
+   ],
+   [
+    "Wikipedia: Memorial to the 56 Signers of the Declaration of Independence",
+    "https://en.wikipedia.org/wiki/Memorial_to_the_56_Signers_of_the_Declaration_of_Independence"
+   ]
+  ],
+  "engrossed_by": {
+   "n": {
+    "en": "Timothy Matlack (probably)",
+    "ru": "Тимоти Мэтлок (вероятно)"
+   },
+   "wiki": {
+    "en": "Timothy Matlack"
+   },
+   "src": [
+    [
+     "Wikipedia: United States Declaration of Independence",
+     "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence"
+    ],
+    [
+     "Wikipedia: Signing of the United States Declaration of Independence",
+     "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
+    ]
+   ]
+  },
+  "text_url": "https://www.archives.gov/founding-docs/declaration-transcript",
+  "text_src": [
+   [
+    "National Archives: Declaration of Independence: A Transcription",
+    "https://www.archives.gov/founding-docs/declaration-transcript"
+   ]
+  ],
+  "excerpt": {
+   "en": "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.—That to secure these rights, Governments are instituted among Men, deriving their just powers from the consent of the governed …",
+   "ru": "Мы считаем самоочевидными истины: все люди сотворены равными, и Создатель наделил их определёнными неотчуждаемыми правами, среди которых — жизнь, свобода и стремление к счастью. Чтобы обеспечить эти права, люди учреждают правительства, справедливая власть которых происходит из согласия управляемых…"
+  },
+  "excerpt_note": {
+   "en": "English: the National Archives transcription of the parchment (public domain; its “--” shown as a dash). Russian: a working translation by the research team.",
+   "ru": "Английский текст — транскрипция Национального архива США (общественное достояние). Русский — рабочий перевод исследовательской группы."
+  },
+  "now": {
+   "place": {
+    "en": "Rotunda of the National Archives Museum, Washington",
+    "ru": "ротонда Музея Национального архива, Вашингтон"
+   },
+   "ll": [
+    38.8929,
+    -77.023
+   ],
+   "src": [
+    [
+     "National Archives: Milestone Documents, Declaration of Independence (1776)",
+     "https://www.archives.gov/milestone-documents/declaration-of-independence"
+    ]
+   ]
+  },
+  "not_here": {
+   "en": "The Declaration was voted, adopted and signed in the Pennsylvania State House in Philadelphia, not at the White House, which was begun only in 1792. Trumbull’s painting shows the presentation of the draft on 28 June, not the signing.",
+   "ru": "Декларацию одобрили, приняли и подписали в здании Законодательного собрания Пенсильвании в Филадельфии, а не в Белом доме, который заложили лишь в 1792 году. Картина Трамбулла изображает представление проекта 28 июня, а не подписание."
+  },
+  "painting": {
+   "n": {
+    "en": "Declaration of Independence, by John Trumbull",
+    "ru": "«Декларация независимости», картина Джона Трамбулла"
+   },
+   "wiki": {
+    "en": "Declaration of Independence (painting)"
+   },
+   "made": [
+    1817,
+    1818
+   ],
+   "size": {
+    "en": "oil on canvas, 3.7 × 5.5 m (12 × 18 ft)",
+    "ru": "холст, масло; 3,7 × 5,5 м"
+   },
+   "placed": {
+    "y": 1826,
+    "place": {
+     "en": "Rotunda of the United States Capitol",
+     "ru": "ротонда Капитолия США"
+    },
+    "ll": [
+     38.88972,
+     -77.00889
+    ]
+   },
+   "t": {
+    "en": "Commissioned in 1817 and finished in 1818, it shows the Committee of Five presenting its draft on 28 June 1776; it is often mistaken for the signing. It shows 42 of the 56 signers and several men who did not sign; its key lists 47 figures. A much smaller version is at the Yale University Art Gallery.",
+    "ru": "Заказана в 1817 году и закончена в 1818-м. Комитет пяти представляет проект 28 июня 1776 года; картину часто принимают за сцену подписания. На ней 42 из 56 подписавших и несколько делегатов, которые не подписывали; ключ к картине называет 47 фигур. Гораздо меньший вариант хранится в Художественной галерее Йельского университета."
+   },
+   "src": [
+    [
+     "Wikipedia: Declaration of Independence (painting)",
+     "https://en.wikipedia.org/wiki/Declaration_of_Independence_(painting)"
+    ]
+   ]
+  },
+  "pic": {
+   "file": "Declaration of Independence (1819), by John Trumbull.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Declaration_of_Independence_(1819),_by_John_Trumbull.jpg",
+   "author": "John Trumbull",
+   "lic": "Public domain",
+   "year": 1818,
+   "cap": {
+    "en": "John Trumbull, Declaration of Independence (1818), Capitol Rotunda: the Committee of Five presents its draft to Congress, 28 June 1776.",
+    "ru": "Джон Трамбулл. «Декларация независимости» (1818), ротонда Капитолия: Комитет пяти представляет конгрессу проект, 28 июня 1776 года."
+   },
+   "checked": false,
+   "note": "File name seen as the title of a Commons search result; the file page could not be fetched here (namespace URLs failed), so the licence was not read on the page. The work is an 1818 oil painting by John Trumbull, who died in 1843, so a faithful reproduction should be public domain. Re-check the file page before display. The file name says 1819; the painting’s article gives 1818."
+  },
+  "t": {
+   "en": "The founding text of the United States. Congress voted for independence on 2 July 1776 and on 4 July adopted the Declaration, drafted by Thomas Jefferson for the Committee of Five, in the Pennsylvania State House in Philadelphia. The parchment copy was signed from 2 August; 56 delegates signed it in all.",
+   "ru": "Основополагающий текст Соединённых Штатов. Конгресс проголосовал за независимость 2 июля 1776 года, а 4 июля в здании Законодательного собрания Пенсильвании в Филадельфии принял Декларацию, написанную Томасом Джефферсоном для Комитета пяти. Пергамент подписывали с 2 августа; всего подписей 56."
+  },
+  "src": [
+   [
+    "Wikipedia: United States Declaration of Independence",
+    "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence"
+   ],
+   [
+    "Wikipedia: Signing of the United States Declaration of Independence",
+    "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
+   ],
+   [
+    "National Archives: Milestone Documents, Declaration of Independence (1776)",
+    "https://www.archives.gov/milestone-documents/declaration-of-independence"
+   ],
+   [
+    "National Archives: Declaration of Independence: A Transcription",
+    "https://www.archives.gov/founding-docs/declaration-transcript"
+   ],
+   [
+    "Wikipedia: Lee Resolution",
+    "https://en.wikipedia.org/wiki/Lee_Resolution"
+   ],
+   [
+    "Wikipedia: Independence Hall",
+    "https://en.wikipedia.org/wiki/Independence_Hall"
+   ]
+  ],
+  "vf": "V"
+ },
+ "signers": [
+  {
+   "n": {
+    "en": "Josiah Bartlett",
+    "ru": "Джосайя Бартлетт"
+   },
+   "state": {
+    "en": "New Hampshire",
+    "ru": "Нью-Гэмпшир"
+   },
+   "born": {
+    "y": 1729,
+    "place": {
+     "en": "Massachusetts",
+     "ru": "Массачусетс"
+    }
+   },
+   "died": {
+    "y": 1795
+   },
+   "wiki": {
+    "en": "Josiah Bartlett"
+   },
+   "wv": "U",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "William Whipple",
+    "ru": "Уильям Уиппл"
+   },
+   "state": {
+    "en": "New Hampshire",
+    "ru": "Нью-Гэмпшир"
+   },
+   "born": {
+    "y": 1730,
+    "place": {
+     "en": "Kittery (now in Maine)",
+     "ru": "Киттери (ныне штат Мэн)"
+    }
+   },
+   "died": {
+    "y": 1785
+   },
+   "wiki": {
+    "en": "William Whipple"
+   },
+   "wv": "V",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Matthew Thornton",
+    "ru": "Мэтью Торнтон"
+   },
+   "state": {
+    "en": "New Hampshire",
+    "ru": "Нью-Гэмпшир"
+   },
+   "born": {
+    "y": 1714,
+    "approx": true,
+    "place": {
+     "en": "Ireland",
+     "ru": "Ирландия"
+    }
+   },
+   "died": {
+    "y": 1803
+   },
+   "wiki": {
+    "en": "Matthew Thornton"
+   },
+   "wv": "V",
+   "note": {
+    "en": "Took his seat only in November 1776; with no room left beside the other New Hampshire names, he signed at the end.",
+    "ru": "Занял место в конгрессе лишь в ноябре 1776 года; рядом с подписями других делегатов Нью-Гэмпшира места не осталось, и он расписался в самом конце."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: Signing of the United States Declaration of Independence",
+     "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Samuel Adams",
+    "ru": "Сэмюэл Адамс"
+   },
+   "state": {
+    "en": "Massachusetts",
+    "ru": "Массачусетс"
+   },
+   "born": {
+    "y": 1722,
+    "place": {
+     "en": "Boston",
+     "ru": "Бостон"
+    }
+   },
+   "died": {
+    "y": 1803,
+    "place": {
+     "en": "Boston",
+     "ru": "Бостон"
+    }
+   },
+   "wiki": {
+    "en": "Samuel Adams"
+   },
+   "wv": "V",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "John Adams",
+    "ru": "Джон Адамс"
+   },
+   "state": {
+    "en": "Massachusetts",
+    "ru": "Массачусетс"
+   },
+   "born": {
+    "y": 1735,
+    "place": {
+     "en": "Massachusetts",
+     "ru": "Массачусетс"
+    }
+   },
+   "died": {
+    "y": 1826,
+    "date": "1826-07-04"
+   },
+   "wiki": {
+    "en": "John Adams"
+   },
+   "wv": "V",
+   "note": {
+    "en": "Member of the Committee of Five. Died on 4 July 1826, the fiftieth anniversary, on the same day as Jefferson.",
+    "ru": "Член Комитета пяти. Умер 4 июля 1826 года, в пятидесятую годовщину Декларации, в один день с Джефферсоном."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: United States Declaration of Independence",
+     "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "John Hancock",
+    "ru": "Джон Хэнкок"
+   },
+   "state": {
+    "en": "Massachusetts",
+    "ru": "Массачусетс"
+   },
+   "born": {
+    "y": 1737,
+    "place": {
+     "en": "Braintree, Massachusetts",
+     "ru": "Брейнтри (Массачусетс)"
+    }
+   },
+   "died": {
+    "y": 1793,
+    "place": {
+     "en": "Boston",
+     "ru": "Бостон"
+    }
+   },
+   "wiki": {
+    "en": "John Hancock"
+   },
+   "wv": "V",
+   "note": {
+    "en": "President of Congress; signed the parchment first.",
+    "ru": "Президент конгресса; подписал пергамент первым."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "National Archives: Milestone Documents, Declaration of Independence (1776)",
+     "https://www.archives.gov/milestone-documents/declaration-of-independence"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Robert Treat Paine",
+    "ru": "Роберт Трит Пейн"
+   },
+   "state": {
+    "en": "Massachusetts",
+    "ru": "Массачусетс"
+   },
+   "born": {
+    "y": 1731,
+    "place": {
+     "en": "Boston",
+     "ru": "Бостон"
+    }
+   },
+   "died": {
+    "y": 1814,
+    "place": {
+     "en": "Boston",
+     "ru": "Бостон"
+    }
+   },
+   "wiki": {
+    "en": "Robert Treat Paine"
+   },
+   "wv": "U",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Elbridge Gerry",
+    "ru": "Элбридж Джерри"
+   },
+   "state": {
+    "en": "Massachusetts",
+    "ru": "Массачусетс"
+   },
+   "born": {
+    "y": 1744,
+    "place": {
+     "en": "Marblehead, Massachusetts",
+     "ru": "Марблхед (Массачусетс)"
+    }
+   },
+   "died": {
+    "y": 1814
+   },
+   "wiki": {
+    "en": "Elbridge Gerry"
+   },
+   "wv": "V",
+   "note": {
+    "en": "Possibly signed after 2 August 1776.",
+    "ru": "Возможно, подписал после 2 августа 1776 года."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: Signing of the United States Declaration of Independence",
+     "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Stephen Hopkins",
+    "ru": "Стивен Хопкинс"
+   },
+   "state": {
+    "en": "Rhode Island",
+    "ru": "Род-Айленд"
+   },
+   "born": {
+    "y": 1707,
+    "place": {
+     "en": "Scituate, Rhode Island",
+     "ru": "Ситуэйт (Род-Айленд)"
+    }
+   },
+   "died": {
+    "y": 1785,
+    "place": {
+     "en": "Providence, Rhode Island",
+     "ru": "Провиденс (Род-Айленд)"
+    }
+   },
+   "wiki": {
+    "en": "Stephen Hopkins (politician)"
+   },
+   "wv": "V",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "William Ellery",
+    "ru": "Уильям Эллери"
+   },
+   "state": {
+    "en": "Rhode Island",
+    "ru": "Род-Айленд"
+   },
+   "born": {
+    "y": 1727,
+    "place": {
+     "en": "Newport, Rhode Island",
+     "ru": "Ньюпорт (Род-Айленд)"
+    }
+   },
+   "died": {
+    "y": 1820,
+    "place": {
+     "en": "Newport, Rhode Island",
+     "ru": "Ньюпорт (Род-Айленд)"
+    }
+   },
+   "wiki": {
+    "en": "William Ellery"
+   },
+   "wv": "U",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Roger Sherman",
+    "ru": "Роджер Шерман"
+   },
+   "state": {
+    "en": "Connecticut",
+    "ru": "Коннектикут"
+   },
+   "born": {
+    "y": 1721,
+    "place": {
+     "en": "Newton, Massachusetts",
+     "ru": "Ньютон (Массачусетс)"
+    }
+   },
+   "died": {
+    "y": 1793
+   },
+   "wiki": {
+    "en": "Roger Sherman"
+   },
+   "wv": "V",
+   "note": {
+    "en": "Member of the Committee of Five.",
+    "ru": "Член Комитета пяти."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: United States Declaration of Independence",
+     "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Samuel Huntington",
+    "ru": "Сэмюэл Хантингтон"
+   },
+   "state": {
+    "en": "Connecticut",
+    "ru": "Коннектикут"
+   },
+   "born": {
+    "y": 1731,
+    "place": {
+     "en": "Windham, Connecticut",
+     "ru": "Уиндем (Коннектикут)"
+    }
+   },
+   "died": {
+    "y": 1796
+   },
+   "wiki": {
+    "en": "Samuel Huntington (Connecticut politician)"
+   },
+   "wv": "V",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "William Williams",
+    "ru": "Уильям Уильямс"
+   },
+   "state": {
+    "en": "Connecticut",
+    "ru": "Коннектикут"
+   },
+   "born": {
+    "y": 1731,
+    "place": {
+     "en": "Lebanon, Connecticut",
+     "ru": "Лебанон (Коннектикут)"
+    }
+   },
+   "died": {
+    "y": 1811
+   },
+   "wiki": {
+    "en": "William Williams (Connecticut politician)"
+   },
+   "wv": "V",
+   "note": {
+    "en": "Joined Congress after 4 July 1776; signed on 2 August.",
+    "ru": "Вошёл в конгресс после 4 июля 1776 года; подписал 2 августа."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: Signing of the United States Declaration of Independence",
+     "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Oliver Wolcott",
+    "ru": "Оливер Уолкотт"
+   },
+   "state": {
+    "en": "Connecticut",
+    "ru": "Коннектикут"
+   },
+   "born": {
+    "y": 1726,
+    "place": {
+     "en": "Windsor, Connecticut",
+     "ru": "Уинсор (Коннектикут)"
+    }
+   },
+   "died": {
+    "y": 1797
+   },
+   "wiki": {
+    "en": "Oliver Wolcott"
+   },
+   "wv": "U",
+   "note": {
+    "en": "Signed after 2 August 1776.",
+    "ru": "Подписал после 2 августа 1776 года."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: Signing of the United States Declaration of Independence",
+     "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "William Floyd",
+    "ru": "Уильям Флойд"
+   },
+   "state": {
+    "en": "New York",
+    "ru": "Нью-Йорк"
+   },
+   "born": {
+    "y": 1734,
+    "place": {
+     "en": "Long Island, New York",
+     "ru": "Лонг-Айленд (Нью-Йорк)"
+    }
+   },
+   "died": {
+    "y": 1821
+   },
+   "wiki": {
+    "en": "William Floyd"
+   },
+   "wv": "U",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Philip Livingston",
+    "ru": "Филип Ливингстон"
+   },
+   "state": {
+    "en": "New York",
+    "ru": "Нью-Йорк"
+   },
+   "born": {
+    "y": 1716,
+    "place": {
+     "en": "Albany, New York",
+     "ru": "Олбани (Нью-Йорк)"
+    }
+   },
+   "died": {
+    "y": 1778
+   },
+   "wiki": {
+    "en": "Philip Livingston"
+   },
+   "wv": "U",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Francis Lewis",
+    "ru": "Фрэнсис Льюис"
+   },
+   "state": {
+    "en": "New York",
+    "ru": "Нью-Йорк"
+   },
+   "born": {
+    "y": 1713,
+    "place": {
+     "en": "Wales",
+     "ru": "Уэльс"
+    }
+   },
+   "died": {
+    "y": 1802,
+    "place": {
+     "en": "New York City",
+     "ru": "Нью-Йорк"
+    }
+   },
+   "wiki": {
+    "en": "Francis Lewis"
+   },
+   "wv": "U",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Lewis Morris",
+    "ru": "Льюис Моррис"
+   },
+   "state": {
+    "en": "New York",
+    "ru": "Нью-Йорк"
+   },
+   "born": {
+    "y": 1726,
+    "place": {
+     "en": "Morrisania, New York",
+     "ru": "Моррисания (Нью-Йорк)"
+    }
+   },
+   "died": {
+    "y": 1798,
+    "date": "1798-01-22",
+    "place": {
+     "en": "Morrisania, New York",
+     "ru": "Моррисания (Нью-Йорк)"
+    }
+   },
+   "wiki": {
+    "en": "Lewis Morris"
+   },
+   "wv": "V",
+   "note": {
+    "en": "Signed after 2 August 1776.",
+    "ru": "Подписал после 2 августа 1776 года."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: Signing of the United States Declaration of Independence",
+     "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
+    ],
+    [
+     "Wikipedia: Lewis Morris",
+     "https://en.wikipedia.org/wiki/Lewis_Morris"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "n": {
+    "en": "Richard Stockton",
+    "ru": "Ричард Стоктон"
+   },
+   "state": {
+    "en": "New Jersey",
+    "ru": "Нью-Джерси"
+   },
+   "born": {
+    "y": 1730,
+    "place": {
+     "en": "near Princeton, New Jersey",
+     "ru": "близ Принстона (Нью-Джерси)"
+    }
+   },
+   "died": {
+    "y": 1781
+   },
+   "wiki": {
+    "en": "Richard Stockton (Continental Congressman)"
+   },
+   "wv": "V",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "John Witherspoon",
+    "ru": "Джон Уизерспун"
+   },
+   "state": {
+    "en": "New Jersey",
+    "ru": "Нью-Джерси"
+   },
+   "born": {
+    "y": 1723,
+    "place": {
+     "en": "near Edinburgh, Scotland",
+     "ru": "близ Эдинбурга (Шотландия)"
+    }
+   },
+   "died": {
+    "y": 1794,
+    "place": {
+     "en": "his farm near Princeton, New Jersey",
+     "ru": "его ферма близ Принстона (Нью-Джерси)"
+    }
+   },
+   "wiki": {
+    "en": "John Witherspoon"
+   },
+   "wv": "U",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Francis Hopkinson",
+    "ru": "Фрэнсис Хопкинсон"
+   },
+   "state": {
+    "en": "New Jersey",
+    "ru": "Нью-Джерси"
+   },
+   "born": {
+    "y": 1737
+   },
+   "died": {
+    "y": 1791,
+    "place": {
+     "en": "Philadelphia",
+     "ru": "Филадельфия"
+    }
+   },
+   "wiki": {
+    "en": "Francis Hopkinson"
+   },
+   "wv": "U",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "John Hart",
+    "ru": "Джон Харт"
+   },
+   "state": {
+    "en": "New Jersey",
+    "ru": "Нью-Джерси"
+   },
+   "born": {
+    "y": 1711,
+    "approx": true,
+    "place": {
+     "en": "Stonington, Connecticut",
+     "ru": "Стонингтон (Коннектикут)"
+    }
+   },
+   "died": {
+    "y": 1779
+   },
+   "wiki": {
+    "en": "John Hart (New Jersey politician)"
+   },
+   "wv": "V",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Abraham Clark",
+    "ru": "Абрахам Кларк"
+   },
+   "state": {
+    "en": "New Jersey",
+    "ru": "Нью-Джерси"
+   },
+   "born": {
+    "y": 1726,
+    "place": {
+     "en": "New Jersey",
+     "ru": "Нью-Джерси"
+    }
+   },
+   "died": {
+    "y": 1794
+   },
+   "wiki": {
+    "en": "Abraham Clark"
+   },
+   "wv": "U",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Robert Morris",
+    "ru": "Роберт Моррис"
+   },
+   "state": {
+    "en": "Pennsylvania",
+    "ru": "Пенсильвания"
+   },
+   "born": {
+    "y": 1734,
+    "place": {
+     "en": "England",
+     "ru": "Англия"
+    }
+   },
+   "died": {
+    "y": 1806
+   },
+   "wiki": {
+    "en": "Robert Morris (financier)"
+   },
+   "wv": "V",
+   "note": {
+    "en": "Abstained in the vote on independence, but signed.",
+    "ru": "При голосовании о независимости воздержался, но подписал."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: Signing of the United States Declaration of Independence",
+     "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Benjamin Rush",
+    "ru": "Бенджамин Раш"
+   },
+   "state": {
+    "en": "Pennsylvania",
+    "ru": "Пенсильвания"
+   },
+   "born": {
+    "y": 1745,
+    "place": {
+     "en": "Pennsylvania",
+     "ru": "Пенсильвания"
+    }
+   },
+   "died": {
+    "y": 1813
+   },
+   "wiki": {
+    "en": "Benjamin Rush"
+   },
+   "wv": "V",
+   "note": {
+    "en": "Joined Congress after 4 July 1776; signed on 2 August.",
+    "ru": "Вошёл в конгресс после 4 июля 1776 года; подписал 2 августа."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: Signing of the United States Declaration of Independence",
+     "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Benjamin Franklin",
+    "ru": "Бенджамин Франклин"
+   },
+   "state": {
+    "en": "Pennsylvania",
+    "ru": "Пенсильвания"
+   },
+   "born": {
+    "y": 1706,
+    "place": {
+     "en": "Boston",
+     "ru": "Бостон"
+    }
+   },
+   "died": {
+    "y": 1790
+   },
+   "wiki": {
+    "en": "Benjamin Franklin"
+   },
+   "wv": "V",
+   "note": {
+    "en": "Member of the Committee of Five; at 70 the oldest signer.",
+    "ru": "Член Комитета пяти; в 70 лет — самый старший из подписавших."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: Signing of the United States Declaration of Independence",
+     "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
+    ],
+    [
+     "Wikipedia: United States Declaration of Independence",
+     "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "John Morton",
+    "ru": "Джон Мортон"
+   },
+   "state": {
+    "en": "Pennsylvania",
+    "ru": "Пенсильвания"
+   },
+   "born": {
+    "y": 1725,
+    "approx": true,
+    "place": {
+     "en": "Ridley, Chester County (now Delaware County), Pennsylvania",
+     "ru": "Ридли, округ Честер (ныне округ Делавэр), Пенсильвания"
+    },
+    "note": {
+     "en": "1724 or 1725",
+     "ru": "1724 или 1725"
+    }
+   },
+   "died": {
+    "y": 1777,
+    "date": "1777-04-01"
+   },
+   "wiki": {
+    "en": "John Morton (American politician)"
+   },
+   "wv": "V",
+   "note": {
+    "en": "His vote swung Pennsylvania for independence.",
+    "ru": "Его голос склонил Пенсильванию к независимости."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: John Morton (American politician)",
+     "https://en.wikipedia.org/wiki/John_Morton_(American_politician)"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "n": {
+    "en": "George Clymer",
+    "ru": "Джордж Клаймер"
+   },
+   "state": {
+    "en": "Pennsylvania",
+    "ru": "Пенсильвания"
+   },
+   "born": {
+    "y": 1739,
+    "place": {
+     "en": "Philadelphia",
+     "ru": "Филадельфия"
+    }
+   },
+   "died": {
+    "y": 1813
+   },
+   "wiki": {
+    "en": "George Clymer"
+   },
+   "wv": "V",
+   "note": {
+    "en": "Joined Congress after 4 July 1776; signed on 2 August.",
+    "ru": "Вошёл в конгресс после 4 июля 1776 года; подписал 2 августа."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: Signing of the United States Declaration of Independence",
+     "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "James Smith",
+    "ru": "Джеймс Смит"
+   },
+   "state": {
+    "en": "Pennsylvania",
+    "ru": "Пенсильвания"
+   },
+   "born": {
+    "y": 1719,
+    "approx": true,
+    "place": {
+     "en": "northern Ireland",
+     "ru": "север Ирландии"
+    }
+   },
+   "died": {
+    "y": 1806
+   },
+   "wiki": {
+    "en": "James Smith (Pennsylvania politician)"
+   },
+   "wv": "V",
+   "note": {
+    "en": "Joined Congress after 4 July 1776; signed on 2 August.",
+    "ru": "Вошёл в конгресс после 4 июля 1776 года; подписал 2 августа."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: Signing of the United States Declaration of Independence",
+     "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "George Taylor",
+    "ru": "Джордж Тейлор"
+   },
+   "state": {
+    "en": "Pennsylvania",
+    "ru": "Пенсильвания"
+   },
+   "born": {
+    "y": 1716,
+    "place": {
+     "en": "northern Ireland",
+     "ru": "север Ирландии"
+    }
+   },
+   "died": {
+    "y": 1781
+   },
+   "wiki": {
+    "en": "George Taylor (Pennsylvania politician)"
+   },
+   "wv": "V",
+   "note": {
+    "en": "Joined Congress after 4 July 1776; signed on 2 August.",
+    "ru": "Вошёл в конгресс после 4 июля 1776 года; подписал 2 августа."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: Signing of the United States Declaration of Independence",
+     "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "James Wilson",
+    "ru": "Джеймс Уилсон"
+   },
+   "state": {
+    "en": "Pennsylvania",
+    "ru": "Пенсильвания"
+   },
+   "born": {
+    "y": 1742,
+    "place": {
+     "en": "Scotland",
+     "ru": "Шотландия"
+    }
+   },
+   "died": {
+    "y": 1798
+   },
+   "wiki": {
+    "en": "James Wilson (Founding Father)"
+   },
+   "wv": "V",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "George Ross",
+    "ru": "Джордж Росс"
+   },
+   "state": {
+    "en": "Pennsylvania",
+    "ru": "Пенсильвания"
+   },
+   "born": {
+    "y": 1730,
+    "place": {
+     "en": "New Castle, Delaware",
+     "ru": "Нью-Касл (Делавэр)"
+    }
+   },
+   "died": {
+    "y": 1779
+   },
+   "wiki": {
+    "en": "George Ross (American politician)"
+   },
+   "wv": "V",
+   "note": {
+    "en": "Joined Congress after 4 July 1776; signed on 2 August.",
+    "ru": "Вошёл в конгресс после 4 июля 1776 года; подписал 2 августа."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: Signing of the United States Declaration of Independence",
+     "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Caesar Rodney",
+    "ru": "Цезарь Родни"
+   },
+   "state": {
+    "en": "Delaware",
+    "ru": "Делавэр"
+   },
+   "born": {
+    "y": 1728,
+    "place": {
+     "en": "near Dover, Delaware",
+     "ru": "близ Довера (Делавэр)"
+    }
+   },
+   "died": {
+    "y": 1784,
+    "place": {
+     "en": "Dover, Delaware",
+     "ru": "Довер (Делавэр)"
+    }
+   },
+   "wiki": {
+    "en": "Caesar Rodney"
+   },
+   "wv": "V",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "George Read",
+    "ru": "Джордж Рид"
+   },
+   "state": {
+    "en": "Delaware",
+    "ru": "Делавэр"
+   },
+   "born": {
+    "y": 1733,
+    "place": {
+     "en": "Maryland",
+     "ru": "Мэриленд"
+    }
+   },
+   "died": {
+    "y": 1798,
+    "place": {
+     "en": "New Castle, Delaware",
+     "ru": "Нью-Касл (Делавэр)"
+    }
+   },
+   "wiki": {
+    "en": "George Read (American politician, born 1733)"
+   },
+   "wv": "V",
+   "note": {
+    "en": "Voted against independence on 2 July, but signed.",
+    "ru": "2 июля голосовал против независимости, но подписал."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: Signing of the United States Declaration of Independence",
+     "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Thomas McKean",
+    "ru": "Томас Маккин"
+   },
+   "state": {
+    "en": "Delaware",
+    "ru": "Делавэр"
+   },
+   "born": {
+    "y": 1734,
+    "place": {
+     "en": "Pennsylvania",
+     "ru": "Пенсильвания"
+    }
+   },
+   "died": {
+    "y": 1817,
+    "place": {
+     "en": "Philadelphia",
+     "ru": "Филадельфия"
+    }
+   },
+   "wiki": {
+    "en": "Thomas McKean"
+   },
+   "wv": "V",
+   "note": {
+    "en": "Signed after 2 August 1776.",
+    "ru": "Подписал после 2 августа 1776 года."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: Signing of the United States Declaration of Independence",
+     "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Samuel Chase",
+    "ru": "Сэмюэл Чейз"
+   },
+   "state": {
+    "en": "Maryland",
+    "ru": "Мэриленд"
+   },
+   "born": {
+    "y": 1741,
+    "place": {
+     "en": "Maryland",
+     "ru": "Мэриленд"
+    }
+   },
+   "died": {
+    "y": 1811,
+    "place": {
+     "en": "Baltimore",
+     "ru": "Балтимор"
+    }
+   },
+   "wiki": {
+    "en": "Samuel Chase"
+   },
+   "wv": "V",
+   "note": {
+    "en": "Away on business in early July; signed on 2 August.",
+    "ru": "В начале июля был в отъезде по делам; подписал 2 августа."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: Signing of the United States Declaration of Independence",
+     "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "William Paca",
+    "ru": "Уильям Пака"
+   },
+   "state": {
+    "en": "Maryland",
+    "ru": "Мэриленд"
+   },
+   "born": {
+    "y": 1740,
+    "place": {
+     "en": "Maryland",
+     "ru": "Мэриленд"
+    }
+   },
+   "died": {
+    "y": 1799
+   },
+   "wiki": {
+    "en": "William Paca"
+   },
+   "wv": "U",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Thomas Stone",
+    "ru": "Томас Стоун"
+   },
+   "state": {
+    "en": "Maryland",
+    "ru": "Мэриленд"
+   },
+   "born": {
+    "y": 1743,
+    "place": {
+     "en": "Charles County, Maryland",
+     "ru": "округ Чарльз (Мэриленд)"
+    }
+   },
+   "died": {
+    "y": 1787,
+    "date": "1787-10-05",
+    "place": {
+     "en": "Alexandria, Virginia",
+     "ru": "Александрия (Виргиния)"
+    }
+   },
+   "wiki": {
+    "en": "Thomas Stone"
+   },
+   "wv": "V",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: Thomas Stone",
+     "https://en.wikipedia.org/wiki/Thomas_Stone"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "n": {
+    "en": "Charles Carroll of Carrollton",
+    "ru": "Чарльз Кэрролл из Кэрроллтона"
+   },
+   "state": {
+    "en": "Maryland",
+    "ru": "Мэриленд"
+   },
+   "born": {
+    "y": 1737,
+    "place": {
+     "en": "Annapolis, Maryland",
+     "ru": "Аннаполис (Мэриленд)"
+    }
+   },
+   "died": {
+    "y": 1832
+   },
+   "wiki": {
+    "en": "Charles Carroll of Carrollton"
+   },
+   "wv": "V",
+   "note": {
+    "en": "Joined Congress after 4 July 1776; signed on 2 August.",
+    "ru": "Вошёл в конгресс после 4 июля 1776 года; подписал 2 августа."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: Signing of the United States Declaration of Independence",
+     "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "George Wythe",
+    "ru": "Джордж Уит"
+   },
+   "state": {
+    "en": "Virginia",
+    "ru": "Виргиния"
+   },
+   "born": {
+    "y": 1726,
+    "place": {
+     "en": "Elizabeth City County, Virginia",
+     "ru": "округ Элизабет-Сити (Виргиния)"
+    }
+   },
+   "died": {
+    "y": 1806
+   },
+   "wiki": {
+    "en": "George Wythe"
+   },
+   "wv": "V",
+   "note": {
+    "en": "In Virginia in July and August; signed probably in October 1776.",
+    "ru": "В июле и августе был в Виргинии; подписал, вероятно, в октябре 1776 года."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: Signing of the United States Declaration of Independence",
+     "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Richard Henry Lee",
+    "ru": "Ричард Генри Ли"
+   },
+   "state": {
+    "en": "Virginia",
+    "ru": "Виргиния"
+   },
+   "born": {
+    "y": 1732,
+    "place": {
+     "en": "Stratford Hall, Westmoreland County, Virginia",
+     "ru": "усадьба Стратфорд-холл, округ Уэстморленд (Виргиния)"
+    }
+   },
+   "died": {
+    "y": 1794
+   },
+   "wiki": {
+    "en": "Richard Henry Lee"
+   },
+   "wv": "V",
+   "note": {
+    "en": "Moved the resolution of independence on 7 June 1776; in Virginia in July and August, he signed probably in September.",
+    "ru": "7 июня 1776 года внёс резолюцию о независимости; в июле и августе был в Виргинии и подписал, вероятно, в сентябре."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: Lee Resolution",
+     "https://en.wikipedia.org/wiki/Lee_Resolution"
+    ],
+    [
+     "Wikipedia: Signing of the United States Declaration of Independence",
+     "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Thomas Jefferson",
+    "ru": "Томас Джефферсон"
+   },
+   "state": {
+    "en": "Virginia",
+    "ru": "Виргиния"
+   },
+   "born": {
+    "y": 1743,
+    "place": {
+     "en": "Goochland (now Albemarle) County, Virginia",
+     "ru": "округ Гучленд (ныне Албемарл), Виргиния"
+    }
+   },
+   "died": {
+    "y": 1826,
+    "date": "1826-07-04"
+   },
+   "wiki": {
+    "en": "Thomas Jefferson"
+   },
+   "wv": "V",
+   "note": {
+    "en": "Wrote the draft for the Committee of Five. Died on 4 July 1826, the same day as John Adams.",
+    "ru": "Написал проект для Комитета пяти. Умер 4 июля 1826 года, в один день с Джоном Адамсом."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: United States Declaration of Independence",
+     "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Benjamin Harrison V",
+    "ru": "Бенджамин Гаррисон V"
+   },
+   "state": {
+    "en": "Virginia",
+    "ru": "Виргиния"
+   },
+   "born": {
+    "y": 1726,
+    "place": {
+     "en": "Charles City County, Virginia",
+     "ru": "округ Чарльз-Сити (Виргиния)"
+    }
+   },
+   "died": {
+    "y": 1791
+   },
+   "wiki": {
+    "en": "Benjamin Harrison V"
+   },
+   "wv": "V",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Thomas Nelson Jr.",
+    "ru": "Томас Нельсон-младший"
+   },
+   "state": {
+    "en": "Virginia",
+    "ru": "Виргиния"
+   },
+   "born": {
+    "y": 1738,
+    "place": {
+     "en": "Yorktown, Virginia",
+     "ru": "Йорктаун (Виргиния)"
+    }
+   },
+   "died": {
+    "y": 1789
+   },
+   "wiki": {
+    "en": "Thomas Nelson Jr."
+   },
+   "wv": "U",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Francis Lightfoot Lee",
+    "ru": "Фрэнсис Лайтфут Ли"
+   },
+   "state": {
+    "en": "Virginia",
+    "ru": "Виргиния"
+   },
+   "born": {
+    "y": 1734,
+    "place": {
+     "en": "Stratford Hall, Westmoreland County, Virginia",
+     "ru": "усадьба Стратфорд-холл, округ Уэстморленд (Виргиния)"
+    }
+   },
+   "died": {
+    "y": 1797
+   },
+   "wiki": {
+    "en": "Francis Lightfoot Lee"
+   },
+   "wv": "U",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Carter Braxton",
+    "ru": "Картер Брэкстон"
+   },
+   "state": {
+    "en": "Virginia",
+    "ru": "Виргиния"
+   },
+   "born": {
+    "y": 1736
+   },
+   "died": {
+    "y": 1797
+   },
+   "wiki": {
+    "en": "Carter Braxton"
+   },
+   "wv": "U",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "William Hooper",
+    "ru": "Уильям Хупер"
+   },
+   "state": {
+    "en": "North Carolina",
+    "ru": "Северная Каролина"
+   },
+   "born": {
+    "y": 1742,
+    "place": {
+     "en": "Boston",
+     "ru": "Бостон"
+    }
+   },
+   "died": {
+    "y": 1790
+   },
+   "wiki": {
+    "en": "William Hooper"
+   },
+   "wv": "V",
+   "note": {
+    "en": "Away on business in early July; signed on 2 August.",
+    "ru": "В начале июля был в отъезде по делам; подписал 2 августа."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: Signing of the United States Declaration of Independence",
+     "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Joseph Hewes",
+    "ru": "Джозеф Хьюз"
+   },
+   "state": {
+    "en": "North Carolina",
+    "ru": "Северная Каролина"
+   },
+   "born": {
+    "y": 1730,
+    "place": {
+     "en": "Princeton, New Jersey",
+     "ru": "Принстон (Нью-Джерси)"
+    }
+   },
+   "died": {
+    "y": 1779,
+    "date": "1779-11-10",
+    "place": {
+     "en": "Philadelphia",
+     "ru": "Филадельфия"
+    }
+   },
+   "wiki": {
+    "en": "Joseph Hewes"
+   },
+   "wv": "V",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: Joseph Hewes",
+     "https://en.wikipedia.org/wiki/Joseph_Hewes"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "n": {
+    "en": "John Penn",
+    "ru": "Джон Пенн"
+   },
+   "state": {
+    "en": "North Carolina",
+    "ru": "Северная Каролина"
+   },
+   "born": {
+    "y": 1741,
+    "place": {
+     "en": "Caroline County, Virginia",
+     "ru": "округ Кэролайн (Виргиния)"
+    }
+   },
+   "died": {
+    "y": 1788,
+    "date": "1788-09-14",
+    "place": {
+     "en": "Granville County, North Carolina",
+     "ru": "округ Гранвилл (Северная Каролина)"
+    }
+   },
+   "wiki": {
+    "en": "John Penn (North Carolina politician)"
+   },
+   "wv": "V",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: John Penn (North Carolina politician)",
+     "https://en.wikipedia.org/wiki/John_Penn_(North_Carolina_politician)"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "n": {
+    "en": "Edward Rutledge",
+    "ru": "Эдвард Ратледж"
+   },
+   "state": {
+    "en": "South Carolina",
+    "ru": "Южная Каролина"
+   },
+   "born": {
+    "y": 1749,
+    "place": {
+     "en": "Charleston (then Charlestown), South Carolina",
+     "ru": "Чарлстон (тогда Чарлзтаун), Южная Каролина"
+    }
+   },
+   "died": {
+    "y": 1800
+   },
+   "wiki": {
+    "en": "Edward Rutledge"
+   },
+   "wv": "V",
+   "note": {
+    "en": "At 26 the youngest signer.",
+    "ru": "В 26 лет — самый молодой из подписавших."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ],
+    [
+     "Wikipedia: Signing of the United States Declaration of Independence",
+     "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Thomas Heyward Jr.",
+    "ru": "Томас Хейуорд-младший"
+   },
+   "state": {
+    "en": "South Carolina",
+    "ru": "Южная Каролина"
+   },
+   "born": {
+    "y": 1746,
+    "place": {
+     "en": "St Helena’s Parish (now Jasper County), South Carolina",
+     "ru": "приход Святой Елены (ныне округ Джаспер), Южная Каролина"
+    }
+   },
+   "died": {
+    "y": 1809
+   },
+   "wiki": {
+    "en": "Thomas Heyward Jr."
+   },
+   "wv": "U",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Thomas Lynch Jr.",
+    "ru": "Томас Линч-младший"
+   },
+   "state": {
+    "en": "South Carolina",
+    "ru": "Южная Каролина"
+   },
+   "born": {
+    "y": 1749,
+    "place": {
+     "en": "Prince George’s Parish, Winyah (now Georgetown County), South Carolina",
+     "ru": "приход Принс-Джордж, Уинья (ныне округ Джорджтаун), Южная Каролина"
+    }
+   },
+   "died": {
+    "y": 1779,
+    "place": {
+     "en": "at sea",
+     "ru": "в море"
+    }
+   },
+   "wiki": {
+    "en": "Thomas Lynch Jr."
+   },
+   "wv": "U",
+   "note": {
+    "en": "Presumed lost at sea when his ship sank in 1779.",
+    "ru": "Считается погибшим в море: в 1779 году его корабль затонул."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Arthur Middleton",
+    "ru": "Артур Миддлтон"
+   },
+   "state": {
+    "en": "South Carolina",
+    "ru": "Южная Каролина"
+   },
+   "born": {
+    "y": 1742,
+    "place": {
+     "en": "near Charleston, South Carolina",
+     "ru": "близ Чарлстона (Южная Каролина)"
+    }
+   },
+   "died": {
+    "y": 1787
+   },
+   "wiki": {
+    "en": "Arthur Middleton"
+   },
+   "wv": "U",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "Button Gwinnett",
+    "ru": "Баттон Гвиннетт"
+   },
+   "state": {
+    "en": "Georgia",
+    "ru": "Джорджия"
+   },
+   "born": {
+    "y": 1735,
+    "approx": true,
+    "place": {
+     "en": "Gloucestershire, England",
+     "ru": "Глостершир (Англия)"
+    }
+   },
+   "died": {
+    "y": 1777,
+    "note": {
+     "en": "year derived from the source’s “about age 42”",
+     "ru": "год выведен из указания источника «около 42 лет»"
+    }
+   },
+   "wiki": {
+    "en": "Button Gwinnett"
+   },
+   "wv": "U",
+   "note": {
+    "en": "Died of wounds from a duel, aged about 42.",
+    "ru": "Умер от ран, полученных на дуэли, около 42 лет от роду."
+   },
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "U"
+  },
+  {
+   "n": {
+    "en": "Lyman Hall",
+    "ru": "Лайман Холл"
+   },
+   "state": {
+    "en": "Georgia",
+    "ru": "Джорджия"
+   },
+   "born": {
+    "y": 1724,
+    "place": {
+     "en": "Connecticut",
+     "ru": "Коннектикут"
+    }
+   },
+   "died": {
+    "y": 1790
+   },
+   "wiki": {
+    "en": "Lyman Hall"
+   },
+   "wv": "U",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "n": {
+    "en": "George Walton",
+    "ru": "Джордж Уолтон"
+   },
+   "state": {
+    "en": "Georgia",
+    "ru": "Джорджия"
+   },
+   "born": {
+    "y": 1749,
+    "approx": true,
+    "place": {
+     "en": "Virginia",
+     "ru": "Виргиния"
+    },
+    "note": {
+     "en": "1749 or 1750",
+     "ru": "1749 или 1750"
+    }
+   },
+   "died": {
+    "y": 1804
+   },
+   "wiki": {
+    "en": "George Walton"
+   },
+   "wv": "U",
+   "src": [
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ],
+    [
+     "National Archives: Declaration of Independence: A Transcription",
+     "https://www.archives.gov/founding-docs/declaration-transcript"
+    ]
+   ],
+   "vf": "S"
+  }
+ ],
+ "places": [
+  {
+   "id": "carpenters-hall",
+   "n": {
+    "en": "Carpenters’ Hall, Philadelphia",
+    "ru": "Карпентерс-холл, Филадельфия"
+   },
+   "ll": [
+    39.94806,
+    -75.14694
+   ],
+   "events": [
+    {
+     "y": 1774,
+     "date": "1774-09-05",
+     "t": {
+      "en": "The First Continental Congress opens; it sits here until 26 October.",
+      "ru": "Открывается Первый Континентальный конгресс; он заседает здесь до 26 октября."
+     }
+    },
+    {
+     "y": 1774,
+     "date": "1774-10-20",
+     "t": {
+      "en": "Congress signs the Continental Association, a boycott of British trade from 1 December 1774.",
+      "ru": "Конгресс подписывает «Континентальную ассоциацию» — бойкот британской торговли с 1 декабря 1774 года."
+     }
+    }
+   ],
+   "wiki": {
+    "en": "Carpenters' Hall"
+   },
+   "t": {
+    "en": "Here, from 5 September to 26 October 1774, the First Continental Congress met: delegates from twelve colonies, under Peyton Randolph and then Henry Middleton. Georgia did not attend.",
+    "ru": "Здесь с 5 сентября по 26 октября 1774 года заседал Первый Континентальный конгресс — делегаты двенадцати колоний под председательством Пейтона Рандольфа, а затем Генри Миддлтона. Джорджия не участвовала."
+   },
+   "src": [
+    [
+     "Wikipedia: First Continental Congress",
+     "https://en.wikipedia.org/wiki/First_Continental_Congress"
+    ],
+    [
+     "Wikipedia: Independence National Historical Park",
+     "https://en.wikipedia.org/wiki/Independence_National_Historical_Park"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "independence-hall",
+   "n": {
+    "en": "Independence Hall (Pennsylvania State House), Philadelphia",
+    "ru": "Индепенденс-холл (здание Законодательного собрания Пенсильвании), Филадельфия"
+   },
+   "ll": [
+    39.94889,
+    -75.15
+   ],
+   "built": [
+    1732,
+    1753
+   ],
+   "arch": {
+    "en": "Edmund Woolley and Andrew Hamilton",
+    "ru": "Эдмунд Вулли и Эндрю Гамильтон"
+   },
+   "events": [
+    {
+     "y": 1775,
+     "date": "1775-05-10",
+     "t": {
+      "en": "The Second Continental Congress assembles here.",
+      "ru": "Здесь собирается Второй Континентальный конгресс."
+     }
+    },
+    {
+     "y": 1776,
+     "date": "1776-07-02",
+     "t": {
+      "en": "Congress votes for independence.",
+      "ru": "Конгресс голосует за независимость."
+     }
+    },
+    {
+     "y": 1776,
+     "date": "1776-07-04",
+     "t": {
+      "en": "The Declaration of Independence is adopted.",
+      "ru": "Принята Декларация независимости."
+     }
+    },
+    {
+     "y": 1776,
+     "date": "1776-08-02",
+     "t": {
+      "en": "The engrossed Declaration is signed by most delegates.",
+      "ru": "Большинство делегатов подписывает пергамент Декларации."
+     }
+    },
+    {
+     "y": 1787,
+     "date": "1787-05-25",
+     "t": {
+      "en": "The Constitutional Convention meets here from 25 May to 17 September.",
+      "ru": "С 25 мая по 17 сентября здесь заседает Конституционный конвент."
+     }
+    },
+    {
+     "y": 1979,
+     "t": {
+      "en": "Designated a World Heritage Site.",
+      "ru": "Включён в список Всемирного наследия."
+     }
+    }
+   ],
+   "wiki": {
+    "en": "Independence Hall"
+   },
+   "t": {
+    "en": "Built 1732–1753 as the State House of the colony of Pennsylvania. From 1775 to 1783 the principal meeting place of the Second Continental Congress: independence was voted here on 2 July 1776, the Declaration adopted on 4 July and signed from 2 August, and the Constitution written in 1787.",
+    "ru": "Построен в 1732–1753 годах как здание Законодательного собрания колонии Пенсильвания. В 1775–1783 годах — главное место заседаний Второго Континентального конгресса: здесь 2 июля 1776 года проголосовали за независимость, 4 июля приняли Декларацию, с 2 августа подписывали её, а в 1787 году написали Конституцию."
+   },
+   "src": [
+    [
+     "Wikipedia: Independence Hall",
+     "https://en.wikipedia.org/wiki/Independence_Hall"
+    ],
+    [
+     "Wikipedia: Independence National Historical Park",
+     "https://en.wikipedia.org/wiki/Independence_National_Historical_Park"
+    ],
+    [
+     "National Archives: Milestone Documents, Declaration of Independence (1776)",
+     "https://www.archives.gov/milestone-documents/declaration-of-independence"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "lexington-concord",
+   "n": {
+    "en": "Lexington and Concord, Massachusetts",
+    "ru": "Лексингтон и Конкорд, Массачусетс"
+   },
+   "ll": [
+    42.4497,
+    -71.231
+   ],
+   "events": [
+    {
+     "y": 1775,
+     "date": "1775-04-19",
+     "t": {
+      "en": "British regulars and Massachusetts militias clash: the War of Independence begins.",
+      "ru": "Британские регулярные войска сталкиваются с массачусетским ополчением — начинается Война за независимость."
+     }
+    }
+   ],
+   "wiki": {
+    "en": "Battles of Lexington and Concord"
+   },
+   "t": {
+    "en": "The first battles of the War of Independence were fought at Lexington and Concord on 19 April 1775. The point is Lexington Common.",
+    "ru": "Первые сражения Войны за независимость произошли у Лексингтона и Конкорда 19 апреля 1775 года. Точка — лексингтонский луг (Battle Green)."
+   },
+   "src": [
+    [
+     "Wikipedia: Timeline of the American Revolution",
+     "https://en.wikipedia.org/wiki/Timeline_of_the_American_Revolution"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "york-pennsylvania",
+   "n": {
+    "en": "York, Pennsylvania",
+    "ru": "Йорк, Пенсильвания"
+   },
+   "ll": [
+    39.9626,
+    -76.7277
+   ],
+   "events": [
+    {
+     "y": 1777,
+     "date": "1777-09-30",
+     "t": {
+      "en": "Congress begins sitting in the York court house; it stays until 27 June 1778.",
+      "ru": "Конгресс начинает заседать в здании суда в Йорке и остаётся здесь до 27 июня 1778 года."
+     }
+    },
+    {
+     "y": 1777,
+     "date": "1777-11-15",
+     "t": {
+      "en": "Congress approves the Articles of Confederation and sends them to the states.",
+      "ru": "Конгресс одобряет Статьи Конфедерации и направляет их штатам."
+     }
+    }
+   ],
+   "wiki": {
+    "en": "York, Pennsylvania"
+   },
+   "t": {
+    "en": "Driven from Philadelphia, Congress sat in the York court house from 30 September 1777 to 27 June 1778 and approved the Articles of Confederation here in November 1777.",
+    "ru": "Покинув Филадельфию, конгресс заседал в здании суда в Йорке с 30 сентября 1777 по 27 июня 1778 года и в ноябре 1777 года одобрил здесь Статьи Конфедерации."
+   },
+   "src": [
+    [
+     "Wikipedia: Continental Congress",
+     "https://en.wikipedia.org/wiki/Continental_Congress"
+    ],
+    [
+     "Wikipedia: Independence Hall",
+     "https://en.wikipedia.org/wiki/Independence_Hall"
+    ],
+    [
+     "Wikipedia: Timeline of the American Revolution",
+     "https://en.wikipedia.org/wiki/Timeline_of_the_American_Revolution"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "yorktown",
+   "n": {
+    "en": "Yorktown, Virginia",
+    "ru": "Йорктаун, Виргиния"
+   },
+   "ll": [
+    37.2388,
+    -76.5097
+   ],
+   "events": [
+    {
+     "y": 1781,
+     "date": "1781-10-19",
+     "t": {
+      "en": "The British army surrenders; the land war in North America ends.",
+      "ru": "Британская армия капитулирует; сухопутная война в Северной Америке окончена."
+     }
+    }
+   ],
+   "wiki": {
+    "en": "Siege of Yorktown"
+   },
+   "t": {
+    "en": "On 19 October 1781 the British army surrendered at Yorktown, which ended the land war in North America.",
+    "ru": "19 октября 1781 года британская армия капитулировала при Йорктауне; сухопутная война в Северной Америке на этом закончилась."
+   },
+   "src": [
+    [
+     "Wikipedia: Timeline of the American Revolution",
+     "https://en.wikipedia.org/wiki/Timeline_of_the_American_Revolution"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "maryland-state-house",
+   "n": {
+    "en": "Maryland State House, Annapolis",
+    "ru": "Капитолий штата Мэриленд, Аннаполис"
+   },
+   "ll": [
+    38.97861,
+    -76.49111
+   ],
+   "events": [
+    {
+     "y": 1783,
+     "date": "1783-11-26",
+     "t": {
+      "en": "Congress begins meeting here (until 19 August 1784).",
+      "ru": "Здесь начинает заседать конгресс (до 19 августа 1784 года)."
+     }
+    },
+    {
+     "y": 1783,
+     "date": "1783-12-23",
+     "t": {
+      "en": "George Washington resigns his commission as commander-in-chief.",
+      "ru": "Джордж Вашингтон слагает с себя полномочия главнокомандующего."
+     }
+    },
+    {
+     "y": 1784,
+     "date": "1784-01-14",
+     "t": {
+      "en": "Congress ratifies the Treaty of Paris.",
+      "ru": "Конгресс ратифицирует Парижский мирный договор."
+     }
+    }
+   ],
+   "wiki": {
+    "en": "Maryland State House"
+   },
+   "t": {
+    "en": "Congress met in the State House at Annapolis from 26 November 1783 to 19 August 1784. Here Washington resigned his commission on 23 December 1783 and Congress ratified the Treaty of Paris on 14 January 1784. Trumbull painted the resignation in 1824; the picture hangs in the Capitol Rotunda.",
+    "ru": "Конгресс заседал в Капитолии Аннаполиса с 26 ноября 1783 по 19 августа 1784 года. Здесь 23 декабря 1783 года Вашингтон сложил полномочия главнокомандующего, а 14 января 1784 года конгресс ратифицировал Парижский мир. Сцену отставки Трамбулл написал в 1824 году; картина висит в ротонде Капитолия."
+   },
+   "src": [
+    [
+     "Wikipedia: Continental Congress",
+     "https://en.wikipedia.org/wiki/Continental_Congress"
+    ],
+    [
+     "Wikipedia: General George Washington Resigning His Commission",
+     "https://en.wikipedia.org/wiki/General_George_Washington_Resigning_his_Commission"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "federal-hall",
+   "n": {
+    "en": "Federal Hall, New York",
+    "ru": "Федерал-холл, Нью-Йорк"
+   },
+   "ll": [
+    40.70722,
+    -74.01028
+   ],
+   "events": [
+    {
+     "y": 1789,
+     "date": "1789-03-04",
+     "t": {
+      "en": "The First Congress under the Constitution convenes; it has a quorum in April.",
+      "ru": "Собирается Первый конгресс по Конституции; кворум набирается в апреле."
+     }
+    },
+    {
+     "y": 1789,
+     "date": "1789-04-30",
+     "t": {
+      "en": "George Washington is inaugurated as the first President.",
+      "ru": "Джордж Вашингтон вступает в должность первого президента."
+     }
+    },
+    {
+     "y": 1789,
+     "date": "1789-09-25",
+     "t": {
+      "en": "Congress approves twelve proposed amendments and sends them to the states.",
+      "ru": "Конгресс одобряет двенадцать поправок к Конституции и направляет их штатам."
+     }
+    }
+   ],
+   "wiki": {
+    "en": "Federal Hall"
+   },
+   "t": {
+    "en": "New York’s Federal Hall housed the First Congress from 4 March 1789. Washington took the oath as the first President here on 30 April 1789.",
+    "ru": "В нью-йоркском Федерал-холле с 4 марта 1789 года заседал Первый конгресс. Здесь 30 апреля 1789 года Вашингтон принёс присягу как первый президент."
+   },
+   "src": [
+    [
+     "Wikipedia: 1st United States Congress",
+     "https://en.wikipedia.org/wiki/1st_United_States_Congress"
+    ],
+    [
+     "Wikipedia: Timeline of the American Revolution",
+     "https://en.wikipedia.org/wiki/Timeline_of_the_American_Revolution"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "congress-hall",
+   "n": {
+    "en": "Congress Hall, Philadelphia",
+    "ru": "Конгресс-холл, Филадельфия"
+   },
+   "ll": [
+    39.9491,
+    -75.1507
+   ],
+   "built": [
+    1787,
+    1789
+   ],
+   "events": [
+    {
+     "y": 1790,
+     "date": "1790-12-06",
+     "t": {
+      "en": "Congress begins meeting here; it stays until 14 May 1800.",
+      "ru": "Здесь начинает заседать конгресс — до 14 мая 1800 года."
+     }
+    },
+    {
+     "y": 1793,
+     "t": {
+      "en": "Washington’s second inauguration, in the House chamber.",
+      "ru": "Вторая инаугурация Вашингтона — в зале Палаты представителей."
+     }
+    },
+    {
+     "y": 1796,
+     "t": {
+      "en": "The Jay Treaty with Britain is ratified here.",
+      "ru": "Здесь ратифицирован договор Джея с Великобританией."
+     }
+    },
+    {
+     "y": 1797,
+     "t": {
+      "en": "John Adams is inaugurated here.",
+      "ru": "Здесь проходит инаугурация Джона Адамса."
+     }
+    }
+   ],
+   "wiki": {
+    "en": "Congress Hall"
+   },
+   "t": {
+    "en": "Built 1787–1789 as the Philadelphia County Courthouse, it was the seat of Congress from 6 December 1790 to 14 May 1800: the House on the first floor, the Senate on the second.",
+    "ru": "Построен в 1787–1789 годах как здание суда округа Филадельфия; с 6 декабря 1790 по 14 мая 1800 года здесь заседал конгресс: Палата представителей — на первом этаже, Сенат — на втором."
+   },
+   "src": [
+    [
+     "Wikipedia: Congress Hall",
+     "https://en.wikipedia.org/wiki/Congress_Hall"
+    ],
+    [
+     "Wikipedia: Independence National Historical Park",
+     "https://en.wikipedia.org/wiki/Independence_National_Historical_Park"
+    ],
+    [
+     "Wikipedia: 1st United States Congress",
+     "https://en.wikipedia.org/wiki/1st_United_States_Congress"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "white-house",
+   "n": {
+    "en": "White House (President’s House), Washington",
+    "ru": "Белый дом (Дом президента), Вашингтон"
+   },
+   "ll": [
+    38.89778,
+    -77.03639
+   ],
+   "built": [
+    1792,
+    1800
+   ],
+   "arch": {
+    "en": "James Hoban",
+    "ru": "Джеймс Хобан"
+   },
+   "events": [
+    {
+     "y": 1790,
+     "date": "1790-07-16",
+     "t": {
+      "en": "The Residence Act fixes a permanent capital on the Potomac.",
+      "ru": "Закон о местопребывании правительства определяет постоянную столицу на Потомаке."
+     }
+    },
+    {
+     "y": 1792,
+     "date": "1792-10-13",
+     "t": {
+      "en": "The cornerstone is laid at noon.",
+      "ru": "В полдень заложен первый камень."
+     }
+    },
+    {
+     "y": 1800,
+     "date": "1800-11-01",
+     "t": {
+      "en": "John Adams becomes the first President to live here.",
+      "ru": "Джон Адамс становится первым президентом, поселившимся здесь."
+     }
+    },
+    {
+     "y": 1814,
+     "date": "1814-08-24",
+     "t": {
+      "en": "British troops burn the house during the War of 1812.",
+      "ru": "Британские войска сжигают дом во время англо-американской войны."
+     }
+    }
+   ],
+   "not_here": {
+    "en": "The Declaration of Independence was signed in Philadelphia in 1776, sixteen years before this house was begun. It was never signed at the White House.",
+    "ru": "Декларацию независимости подписали в Филадельфии в 1776 году — за шестнадцать лет до закладки этого дома. В Белом доме её никогда не подписывали."
+   },
+   "wiki": {
+    "en": "White House"
+   },
+   "t": {
+    "en": "James Hoban’s design won a competition of nine proposals. The cornerstone was laid on 13 October 1792, and John Adams moved in on 1 November 1800. First called the President’s House or President’s Palace, it took the formal name White House in 1901.",
+    "ru": "Проект Джеймса Хобана победил в конкурсе из девяти предложений. Первый камень заложили 13 октября 1792 года, а 1 ноября 1800 года сюда въехал Джон Адамс. Сначала здание называли Домом президента или Президентским дворцом; официальное имя «Белый дом» оно получило в 1901 году."
+   },
+   "src": [
+    [
+     "Wikipedia: White House",
+     "https://en.wikipedia.org/wiki/White_House"
+    ],
+    [
+     "Wikipedia: Timeline of Washington, D.C.",
+     "https://en.wikipedia.org/wiki/Timeline_of_Washington,_D.C."
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "us-capitol",
+   "n": {
+    "en": "United States Capitol, Washington",
+    "ru": "Капитолий США, Вашингтон"
+   },
+   "ll": [
+    38.88972,
+    -77.00889
+   ],
+   "arch": {
+    "en": "William Thornton (original design)",
+    "ru": "Уильям Торнтон (первоначальный проект)"
+   },
+   "events": [
+    {
+     "y": 1793,
+     "date": "1793-09-18",
+     "t": {
+      "en": "George Washington lays the cornerstone.",
+      "ru": "Джордж Вашингтон закладывает первый камень."
+     }
+    },
+    {
+     "y": 1800,
+     "date": "1800-11-17",
+     "t": {
+      "en": "Congress meets here for the first time; only the Senate wing is finished.",
+      "ru": "Конгресс впервые собирается здесь; готово только сенатское крыло."
+     }
+    },
+    {
+     "y": 1814,
+     "date": "1814-08-24",
+     "t": {
+      "en": "Partly burned by the British.",
+      "ru": "Частично сожжён британцами."
+     }
+    },
+    {
+     "y": 1826,
+     "t": {
+      "en": "Trumbull’s Declaration of Independence is placed in the Rotunda.",
+      "ru": "В ротонде помещена «Декларация независимости» Трамбулла."
+     }
+    }
+   ],
+   "wiki": {
+    "en": "United States Capitol"
+   },
+   "t": {
+    "en": "William Thornton’s design was approved in April 1793, and Washington laid the cornerstone on 18 September 1793. Congress first met here on 17 November 1800; the House wing was not finished until 1811. The Rotunda holds Trumbull’s Declaration of Independence and his General George Washington Resigning His Commission.",
+    "ru": "Проект Уильяма Торнтона утвердили в апреле 1793 года, а 18 сентября 1793 года Вашингтон заложил первый камень. Конгресс впервые собрался здесь 17 ноября 1800 года; крыло Палаты представителей достроили лишь в 1811 году. В ротонде висят «Декларация независимости» Трамбулла и его же «Генерал Джордж Вашингтон слагает полномочия»."
+   },
+   "src": [
+    [
+     "Wikipedia: United States Capitol",
+     "https://en.wikipedia.org/wiki/United_States_Capitol"
+    ],
+    [
+     "Wikipedia: Declaration of Independence (painting)",
+     "https://en.wikipedia.org/wiki/Declaration_of_Independence_(painting)"
+    ],
+    [
+     "Wikipedia: General George Washington Resigning His Commission",
+     "https://en.wikipedia.org/wiki/General_George_Washington_Resigning_his_Commission"
+    ]
+   ],
+   "vf": "V"
+  }
+ ],
+ "story": {
+  "id": "us-founding",
+  "n": {
+   "en": "The founding of the United States, 1774–1800",
+   "ru": "Основание Соединённых Штатов, 1774–1800"
+  },
+  "years": [
+   1774,
+   1800
+  ],
+  "lede": {
+   "en": "Twelve steps from a congress in a Philadelphia hall to a capital on the Potomac: how thirteen colonies declared independence, won a war and built a federal republic.",
+   "ru": "Двенадцать шагов — от конгресса в филадельфийском зале до столицы на Потомаке: как тринадцать колоний провозгласили независимость, выиграли войну и построили федеративную республику."
+  },
+  "steps": [
+   {
+    "y": 1774,
+    "date": "1774-09-05",
+    "ll": [
+     39.94806,
+     -75.14694
+    ],
+    "z": 5,
+    "h": {
+     "en": "Carpenters’ Hall: the First Continental Congress",
+     "ru": "Карпентерс-холл: Первый Континентальный конгресс"
+    },
+    "t": {
+     "en": "From 5 September to 26 October 1774 delegates from twelve of the Thirteen Colonies meet at Carpenters’ Hall in Philadelphia; Georgia does not attend. Peyton Randolph of Virginia presides until 22 October, then Henry Middleton of South Carolina. On 20 October Congress signs the Continental Association, a boycott of British trade, and petitions the King to repeal the Intolerable Acts. It agrees to meet again the next year if its grievances are not redressed.",
+     "ru": "С 5 сентября по 26 октября 1774 года в Карпентерс-холле в Филадельфии заседают делегаты двенадцати из тринадцати колоний; Джорджия не участвует. До 22 октября председательствует виргинец Пейтон Рандольф, затем — Генри Миддлтон из Южной Каролины. 20 октября конгресс подписывает «Континентальную ассоциацию» — бойкот британской торговли — и просит короля отменить «Невыносимые законы». Делегаты договариваются собраться снова через год, если их жалобы не будут удовлетворены."
+    },
+    "wiki": {
+     "en": "First Continental Congress"
+    },
+    "src": [
+     [
+      "Wikipedia: First Continental Congress",
+      "https://en.wikipedia.org/wiki/First_Continental_Congress"
+     ],
+     [
+      "Wikipedia: Independence National Historical Park",
+      "https://en.wikipedia.org/wiki/Independence_National_Historical_Park"
+     ]
+    ]
+   },
+   {
+    "y": 1775,
+    "date": "1775-04-19",
+    "ll": [
+     42.4497,
+     -71.231
+    ],
+    "z": 5,
+    "h": {
+     "en": "Lexington and Concord: the first shots",
+     "ru": "Лексингтон и Конкорд: первые выстрелы"
+    },
+    "t": {
+     "en": "On 19 April 1775 British regulars marching out of Boston clash with Massachusetts militias at Lexington and Concord. These skirmishes open the War of Independence. On 17 June the Battle of Bunker Hill is fought at Boston.",
+     "ru": "19 апреля 1775 года британские регулярные войска, выступившие из Бостона, сталкиваются с массачусетским ополчением у Лексингтона и Конкорда. С этих стычек начинается Война за независимость. 17 июня под Бостоном происходит сражение при Банкер-Хилле."
+    },
+    "route": [
+     [
+      42.3601,
+      -71.0589
+     ],
+     [
+      42.4497,
+      -71.231
+     ],
+     [
+      42.4604,
+      -71.3489
+     ]
+    ],
+    "wiki": {
+     "en": "Battles of Lexington and Concord"
+    },
+    "src": [
+     [
+      "Wikipedia: Timeline of the American Revolution",
+      "https://en.wikipedia.org/wiki/Timeline_of_the_American_Revolution"
+     ]
+    ]
+   },
+   {
+    "y": 1775,
+    "date": "1775-05-10",
+    "ll": [
+     39.94889,
+     -75.15
+    ],
+    "z": 6,
+    "h": {
+     "en": "The Second Continental Congress",
+     "ru": "Второй Континентальный конгресс"
+    },
+    "t": {
+     "en": "On 10 May 1775 the Second Continental Congress assembles in the Pennsylvania State House, today’s Independence Hall. In June it creates the Continental Army and chooses George Washington of Virginia to command it. Until 1783 the State House is the main meeting place of Congress.",
+     "ru": "10 мая 1775 года в здании Законодательного собрания Пенсильвании — нынешнем Индепенденс-холле — собирается Второй Континентальный конгресс. В июне он создаёт Континентальную армию и ставит во главе её виргинца Джорджа Вашингтона. До 1783 года это здание остаётся главным местом заседаний конгресса."
+    },
+    "wiki": {
+     "en": "Independence Hall"
+    },
+    "src": [
+     [
+      "Wikipedia: Timeline of the American Revolution",
+      "https://en.wikipedia.org/wiki/Timeline_of_the_American_Revolution"
+     ],
+     [
+      "Wikipedia: Independence National Historical Park",
+      "https://en.wikipedia.org/wiki/Independence_National_Historical_Park"
+     ],
+     [
+      "Wikipedia: Independence Hall",
+      "https://en.wikipedia.org/wiki/Independence_Hall"
+     ]
+    ]
+   },
+   {
+    "y": 1776,
+    "date": "1776-07-02",
+    "ll": [
+     39.94889,
+     -75.15
+    ],
+    "z": 6,
+    "h": {
+     "en": "2 July: the vote for independence",
+     "ru": "2 июля: голосование за независимость"
+    },
+    "t": {
+     "en": "On 7 June Richard Henry Lee of Virginia moved that the colonies are, and of right ought to be, free and independent states. On 2 July Congress adopts that clause: twelve colonies vote for it, and New York abstains because its delegates have no instructions; New York’s provincial congress joins on 9 July. The next day John Adams writes to Abigail that 2 July will be “the most memorable epoch in the history of America”.",
+     "ru": "7 июня виргинец Ричард Генри Ли предложил объявить, что колонии являются и по праву должны быть свободными и независимыми штатами. 2 июля конгресс принимает этот пункт: двенадцать колоний — «за», Нью-Йорк воздерживается, потому что у его делегатов нет инструкций; провинциальный конгресс Нью-Йорка присоединяется 9 июля. Назавтра Джон Адамс пишет жене Абигейл, что 2 июля станет «самой памятной датой в истории Америки»."
+    },
+    "quote": {
+     "en": "Resolved, That these United Colonies are, and of right ought to be, free and independent States, that they are absolved from all allegiance to the British Crown, and that all political connection between them and the State of Great Britain is, and ought to be, totally dissolved.",
+     "ru": "Постановили: эти Соединённые Колонии являются и по праву должны быть свободными и независимыми Штатами; они освобождаются от всякой верности британской короне, и всякая политическая связь между ними и государством Великобритания является и должна быть полностью расторгнута.",
+     "who": {
+      "en": "Lee Resolution, adopted by Congress",
+      "ru": "Резолюция Ли, принятая конгрессом"
+     },
+     "when": "1776-07-02",
+     "src": [
+      [
+       "Wikipedia: Lee Resolution",
+       "https://en.wikipedia.org/wiki/Lee_Resolution"
+      ]
+     ]
+    },
+    "wiki": {
+     "en": "Lee Resolution"
+    },
+    "src": [
+     [
+      "Wikipedia: Lee Resolution",
+      "https://en.wikipedia.org/wiki/Lee_Resolution"
+     ],
+     [
+      "Wikipedia: United States Declaration of Independence",
+      "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence"
+     ],
+     [
+      "National Archives: Milestone Documents, Declaration of Independence (1776)",
+      "https://www.archives.gov/milestone-documents/declaration-of-independence"
+     ]
+    ]
+   },
+   {
+    "y": 1776,
+    "date": "1776-07-04",
+    "ll": [
+     39.94889,
+     -75.15
+    ],
+    "z": 6,
+    "h": {
+     "en": "4 July: the Declaration adopted",
+     "ru": "4 июля: Декларация принята"
+    },
+    "t": {
+     "en": "On 11 June Congress had named a Committee of Five: John Adams, Benjamin Franklin, Thomas Jefferson, Robert R. Livingston and Roger Sherman. Jefferson wrote the draft, and on 28 June the committee presented it. That is the scene of Trumbull’s painting, often mistaken for the signing. After debating and editing the text, Congress adopts the Declaration in the afternoon of 4 July.",
+     "ru": "Ещё 11 июня конгресс создал Комитет пяти: Джон Адамс, Бенджамин Франклин, Томас Джефферсон, Роберт Ливингстон и Роджер Шерман. Проект написал Джефферсон, и 28 июня комитет представил его конгрессу. Эту сцену изобразил Трамбулл, и её часто принимают за подписание. Обсудив и отредактировав текст, конгресс днём 4 июля принимает Декларацию."
+    },
+    "quote": {
+     "en": "We hold these truths to be self-evident, that all men are created equal …",
+     "ru": "Мы считаем самоочевидными истины: все люди сотворены равными…",
+     "who": {
+      "en": "Declaration of Independence",
+      "ru": "Декларация независимости"
+     },
+     "when": "1776-07-04",
+     "src": [
+      [
+       "National Archives: Declaration of Independence: A Transcription",
+       "https://www.archives.gov/founding-docs/declaration-transcript"
+      ]
+     ]
+    },
+    "wiki": {
+     "en": "Declaration of Independence (painting)"
+    },
+    "src": [
+     [
+      "Wikipedia: United States Declaration of Independence",
+      "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence"
+     ],
+     [
+      "National Archives: Milestone Documents, Declaration of Independence (1776)",
+      "https://www.archives.gov/milestone-documents/declaration-of-independence"
+     ],
+     [
+      "Wikipedia: Declaration of Independence (painting)",
+      "https://en.wikipedia.org/wiki/Declaration_of_Independence_(painting)"
+     ]
+    ]
+   },
+   {
+    "y": 1776,
+    "date": "1776-08-02",
+    "ll": [
+     39.94889,
+     -75.15
+    ],
+    "z": 6,
+    "h": {
+     "en": "2 August: signing the parchment",
+     "ru": "2 августа: подписание пергамента"
+    },
+    "t": {
+     "en": "The engrossed parchment, probably written out by the clerk Timothy Matlack, is signed by most delegates on 2 August 1776, John Hancock first. Some sign later: Lewis Morris, Oliver Wolcott, Thomas McKean and perhaps Elbridge Gerry; Richard Henry Lee and George Wythe probably in September and October. Matthew Thornton takes his seat only in November and signs at the very end. Fifty-six men sign in all.",
+     "ru": "Беловой пергамент, переписанный, вероятно, клерком Тимоти Мэтлоком, большинство делегатов подписывает 2 августа 1776 года; первым — Джон Хэнкок. Некоторые расписываются позже: Льюис Моррис, Оливер Уолкотт, Томас Маккин и, возможно, Элбридж Джерри; Ричард Генри Ли и Джордж Уит — вероятно, в сентябре и октябре. Мэтью Торнтон занимает место в конгрессе лишь в ноябре и ставит подпись в самом конце. Всего подписей — пятьдесят шесть."
+    },
+    "wiki": {
+     "en": "Signing of the United States Declaration of Independence"
+    },
+    "src": [
+     [
+      "Wikipedia: Signing of the United States Declaration of Independence",
+      "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
+     ],
+     [
+      "National Archives: Milestone Documents, Declaration of Independence (1776)",
+      "https://www.archives.gov/milestone-documents/declaration-of-independence"
+     ],
+     [
+      "Wikipedia: United States Declaration of Independence",
+      "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence"
+     ]
+    ]
+   },
+   {
+    "y": 1777,
+    "date": "1777-11-15",
+    "ll": [
+     39.9626,
+     -76.7277
+    ],
+    "z": 4,
+    "h": {
+     "en": "Congress on the move; France joins",
+     "ru": "Конгресс в пути; Франция вступает в союз"
+    },
+    "t": {
+     "en": "With the British threatening Philadelphia, Congress moves: to Baltimore (20 December 1776 – 27 February 1777), for one day to Lancaster (27 September 1777), then to York (30 September 1777 – 27 June 1778). At York it approves the Articles of Confederation on 15 November 1777. A British army surrenders at Saratoga in October 1777, and on 6 February 1778 France signs a Treaty of Alliance with the United States.",
+     "ru": "Когда британцы угрожают Филадельфии, конгресс переезжает: в Балтимор (20 декабря 1776 — 27 февраля 1777), на один день в Ланкастер (27 сентября 1777), затем в Йорк (30 сентября 1777 — 27 июня 1778). В Йорке 15 ноября 1777 года он одобряет Статьи Конфедерации. В октябре 1777 года британская армия капитулирует при Саратоге, а 6 февраля 1778 года Франция заключает с Соединёнными Штатами союзный договор."
+    },
+    "route": [
+     [
+      39.94889,
+      -75.15
+     ],
+     [
+      39.2904,
+      -76.6122
+     ],
+     [
+      39.94889,
+      -75.15
+     ],
+     [
+      40.0379,
+      -76.3055
+     ],
+     [
+      39.9626,
+      -76.7277
+     ]
+    ],
+    "wiki": {
+     "en": "Articles of Confederation"
+    },
+    "src": [
+     [
+      "Wikipedia: Continental Congress",
+      "https://en.wikipedia.org/wiki/Continental_Congress"
+     ],
+     [
+      "Wikipedia: Independence Hall",
+      "https://en.wikipedia.org/wiki/Independence_Hall"
+     ],
+     [
+      "Wikipedia: Timeline of the American Revolution",
+      "https://en.wikipedia.org/wiki/Timeline_of_the_American_Revolution"
+     ]
+    ]
+   },
+   {
+    "y": 1781,
+    "date": "1781-10-19",
+    "ll": [
+     37.2388,
+     -76.5097
+    ],
+    "z": 5,
+    "h": {
+     "en": "Yorktown",
+     "ru": "Йорктаун"
+    },
+    "t": {
+     "en": "On 1 March 1781 the Articles of Confederation are ratified. On 19 October 1781 the British army surrenders at Yorktown, Virginia, and the land war in North America is over.",
+     "ru": "1 марта 1781 года Статьи Конфедерации ратифицированы. 19 октября 1781 года британская армия капитулирует при Йорктауне в Виргинии — сухопутная война в Северной Америке окончена."
+    },
+    "wiki": {
+     "en": "Siege of Yorktown"
+    },
+    "src": [
+     [
+      "Wikipedia: Timeline of the American Revolution",
+      "https://en.wikipedia.org/wiki/Timeline_of_the_American_Revolution"
+     ]
+    ]
+   },
+   {
+    "y": 1783,
+    "date": "1783-09-03",
+    "ll": [
+     48.8566,
+     2.3522
+    ],
+    "z": 3,
+    "h": {
+     "en": "The Peace of Paris",
+     "ru": "Парижский мир"
+    },
+    "t": {
+     "en": "On 3 September 1783 American and British representatives sign the Treaty of Paris. Congress, now sitting in the Maryland State House at Annapolis, ratifies it on 14 January 1784, and the ratifications are exchanged in Paris on 12 May 1784. At Annapolis, on 23 December 1783, Washington resigns his commission and returns to Mount Vernon: a scene Trumbull painted in 1824.",
+     "ru": "3 сентября 1783 года американские и британские представители подписывают Парижский мирный договор. Конгресс, заседающий теперь в Капитолии штата Мэриленд в Аннаполисе, ратифицирует его 14 января 1784 года, а 12 мая 1784 года в Париже обмениваются ратификационными грамотами. 23 декабря 1783 года в Аннаполисе Вашингтон слагает полномочия главнокомандующего и возвращается в Маунт-Вернон; эту сцену Трамбулл напишет в 1824 году."
+    },
+    "route": [
+     [
+      48.8566,
+      2.3522
+     ],
+     [
+      38.97861,
+      -76.49111
+     ]
+    ],
+    "wiki": {
+     "en": "Treaty of Paris (1783)"
+    },
+    "src": [
+     [
+      "Wikipedia: Timeline of the American Revolution",
+      "https://en.wikipedia.org/wiki/Timeline_of_the_American_Revolution"
+     ],
+     [
+      "Wikipedia: Continental Congress",
+      "https://en.wikipedia.org/wiki/Continental_Congress"
+     ],
+     [
+      "Wikipedia: General George Washington Resigning His Commission",
+      "https://en.wikipedia.org/wiki/General_George_Washington_Resigning_his_Commission"
+     ]
+    ]
+   },
+   {
+    "y": 1787,
+    "date": "1787-09-17",
+    "ll": [
+     39.94889,
+     -75.15
+    ],
+    "z": 6,
+    "h": {
+     "en": "The Constitution",
+     "ru": "Конституция"
+    },
+    "t": {
+     "en": "From 25 May to 17 September 1787 the Constitutional Convention meets in the Pennsylvania State House, where independence had been declared eleven years before, and writes the Constitution of the United States.",
+     "ru": "С 25 мая по 17 сентября 1787 года в том же здании Законодательного собрания Пенсильвании, где одиннадцатью годами раньше провозгласили независимость, заседает Конституционный конвент; он пишет Конституцию Соединённых Штатов."
+    },
+    "wiki": {
+     "en": "Constitutional Convention (United States)"
+    },
+    "src": [
+     [
+      "Wikipedia: Independence Hall",
+      "https://en.wikipedia.org/wiki/Independence_Hall"
+     ],
+     [
+      "Wikipedia: Timeline of the American Revolution",
+      "https://en.wikipedia.org/wiki/Timeline_of_the_American_Revolution"
+     ],
+     [
+      "Wikipedia: Independence National Historical Park",
+      "https://en.wikipedia.org/wiki/Independence_National_Historical_Park"
+     ]
+    ]
+   },
+   {
+    "y": 1789,
+    "date": "1789-04-30",
+    "ll": [
+     40.70722,
+     -74.01028
+    ],
+    "z": 5,
+    "h": {
+     "en": "Washington’s inauguration in New York",
+     "ru": "Инаугурация Вашингтона в Нью-Йорке"
+    },
+    "t": {
+     "en": "New York is the first capital under the Constitution. The First Congress convenes at Federal Hall on 4 March 1789 and has a quorum by 6 April. On 30 April George Washington is inaugurated there as the first President of the United States. On 25 September Congress approves twelve proposed amendments and sends them to the states.",
+     "ru": "Первой столицей по новой Конституции становится Нью-Йорк. 4 марта 1789 года в Федерал-холле собирается Первый конгресс; к 6 апреля набирается кворум. 30 апреля здесь же Джордж Вашингтон приносит присягу как первый президент Соединённых Штатов. 25 сентября конгресс одобряет двенадцать поправок к Конституции и направляет их штатам."
+    },
+    "wiki": {
+     "en": "Federal Hall"
+    },
+    "src": [
+     [
+      "Wikipedia: 1st United States Congress",
+      "https://en.wikipedia.org/wiki/1st_United_States_Congress"
+     ],
+     [
+      "Wikipedia: Timeline of the American Revolution",
+      "https://en.wikipedia.org/wiki/Timeline_of_the_American_Revolution"
+     ]
+    ]
+   },
+   {
+    "y": 1800,
+    "date": "1800-11-01",
+    "ll": [
+     38.89778,
+     -77.03639
+    ],
+    "z": 4,
+    "h": {
+     "en": "A capital on the Potomac",
+     "ru": "Столица на Потомаке"
+    },
+    "t": {
+     "en": "The Residence Act of 16 July 1790 places a permanent capital on the Potomac and makes Philadelphia the seat of government for ten years; Congress meets in Congress Hall from 6 December 1790 to 14 May 1800. The White House cornerstone is laid at noon on 13 October 1792, the Capitol’s on 18 September 1793. John Adams moves into the President’s House on 1 November 1800, and Congress first meets in the unfinished Capitol on 17 November.",
+     "ru": "Закон о местопребывании правительства от 16 июля 1790 года определяет постоянную столицу на Потомаке, а Филадельфию — временной на десять лет; с 6 декабря 1790 по 14 мая 1800 года конгресс заседает в Конгресс-холле. Первый камень Белого дома закладывают в полдень 13 октября 1792 года, Капитолия — 18 сентября 1793-го. 1 ноября 1800 года Джон Адамс въезжает в Дом президента, а 17 ноября конгресс впервые собирается в недостроенном Капитолии."
+    },
+    "route": [
+     [
+      39.9491,
+      -75.1507
+     ],
+     [
+      38.89778,
+      -77.03639
+     ]
+    ],
+    "quote": {
+     "en": "I pray Heaven to bestow the best of blessings on this House, and all that shall hereafter inhabit it.",
+     "ru": "Молю Небо ниспослать лучшие благословения этому Дому и всем, кто впредь будет в нём жить.",
+     "who": {
+      "en": "John Adams, letter to Abigail Adams",
+      "ru": "Джон Адамс, письмо Абигейл Адамс"
+     },
+     "when": "1800-11-02",
+     "src": [
+      [
+       "Wikipedia: White House",
+       "https://en.wikipedia.org/wiki/White_House"
+      ]
+     ]
+    },
+    "wiki": {
+     "en": "White House"
+    },
+    "src": [
+     [
+      "Wikipedia: Timeline of Washington, D.C.",
+      "https://en.wikipedia.org/wiki/Timeline_of_Washington,_D.C."
+     ],
+     [
+      "Wikipedia: 1st United States Congress",
+      "https://en.wikipedia.org/wiki/1st_United_States_Congress"
+     ],
+     [
+      "Wikipedia: Congress Hall",
+      "https://en.wikipedia.org/wiki/Congress_Hall"
+     ],
+     [
+      "Wikipedia: White House",
+      "https://en.wikipedia.org/wiki/White_House"
+     ],
+     [
+      "Wikipedia: United States Capitol",
+      "https://en.wikipedia.org/wiki/United_States_Capitol"
+     ]
+    ]
+   }
+  ],
+  "synchrony": [
+   {
+    "y": 1774,
+    "place": {
+     "en": "Küçük Kaynarca (now Kaynardzha, Bulgaria)",
+     "ru": "Кючук-Кайнарджи (ныне Кайнарджа, Болгария)"
+    },
+    "t": {
+     "en": "In July 1774, weeks before the First Continental Congress meets, Russia and the Ottoman Empire make peace at Küçük Kaynarca. The Crimean Khanate becomes independent of the Ottomans, and Russia gains Crimean ports.",
+     "ru": "В июле 1774 года, за несколько недель до открытия Первого Континентального конгресса, Россия и Османская империя заключают Кючук-Кайнарджийский мир. Крымское ханство становится независимым от Порты, а Россия получает крымские порты."
+    },
+    "src": [
+     [
+      "Wikipedia: Timeline of Russian history",
+      "https://en.wikipedia.org/wiki/Timeline_of_Russian_history"
+     ]
+    ]
+   },
+   {
+    "y": 1774,
+    "place": {
+     "en": "Trans-Volga steppe",
+     "ru": "Заволжская степь"
+    },
+    "t": {
+     "en": "On 14 September 1774 (Old Style), while the delegates sit in Carpenters’ Hall, Yemelyan Pugachev’s own officers hand him over to the government.",
+     "ru": "14 сентября 1774 года (по старому стилю), когда делегаты заседают в Карпентерс-холле, собственные сподвижники выдают Емельяна Пугачёва властям."
+    },
+    "src": [
+     [
+      "Wikipedia: Timeline of Russian history",
+      "https://en.wikipedia.org/wiki/Timeline_of_Russian_history"
+     ]
+    ]
+   },
+   {
+    "y": 1783,
+    "place": {
+     "en": "Crimea (Bakhchysarai)",
+     "ru": "Крым (Бахчисарай)"
+    },
+    "ll": [
+     44.7517,
+     33.8753
+    ],
+    "t": {
+     "en": "On 8 April 1783 (Old Style), in the year of the Treaty of Paris, the Crimean Khanate is incorporated into the Russian Empire. In July the Treaty of Georgievsk makes Kartli-Kakheti a Russian protectorate.",
+     "ru": "8 апреля 1783 года (по старому стилю) — в год Парижского мира — Крымское ханство включено в состав Российской империи. В июле по Георгиевскому трактату Картли-Кахетинское царство становится протекторатом России."
+    },
+    "src": [
+     [
+      "Wikipedia: Timeline of Russian history",
+      "https://en.wikipedia.org/wiki/Timeline_of_Russian_history"
+     ]
+    ]
+   },
+   {
+    "y": 1795,
+    "place": {
+     "en": "Warsaw",
+     "ru": "Варшава"
+    },
+    "ll": [
+     52.2297,
+     21.0122
+    ],
+    "t": {
+     "en": "In 1795 the third partition divides what is left of Poland; Congress is sitting in Philadelphia.",
+     "ru": "В 1795 году третий раздел делит остатки Польши; американский конгресс в это время заседает в Филадельфии."
+    },
+    "src": [
+     [
+      "Wikipedia: Timeline of Russian history",
+      "https://en.wikipedia.org/wiki/Timeline_of_Russian_history"
+     ],
+     [
+      "Wikipedia: Congress Hall",
+      "https://en.wikipedia.org/wiki/Congress_Hall"
+     ]
+    ]
+   },
+   {
+    "y": 1796,
+    "place": {
+     "en": "Saint Petersburg",
+     "ru": "Санкт-Петербург"
+    },
+    "ll": [
+     59.9399,
+     30.3146
+    ],
+    "t": {
+     "en": "Catherine II dies on 6 November 1796 (Old Style), and her son Paul I takes the throne. In Philadelphia, Washington is in the last months of his second term.",
+     "ru": "6 ноября 1796 года (по старому стилю) умирает Екатерина II, на престол вступает её сын Павел I. В Филадельфии Вашингтон доживает последние месяцы своего второго президентского срока."
+    },
+    "src": [
+     [
+      "Wikipedia: Timeline of Russian history",
+      "https://en.wikipedia.org/wiki/Timeline_of_Russian_history"
+     ],
+     [
+      "Wikipedia: Congress Hall",
+      "https://en.wikipedia.org/wiki/Congress_Hall"
+     ]
+    ]
+   }
+  ],
+  "src": [
+   [
+    "Wikipedia: First Continental Congress",
+    "https://en.wikipedia.org/wiki/First_Continental_Congress"
+   ],
+   [
+    "Wikipedia: Timeline of the American Revolution",
+    "https://en.wikipedia.org/wiki/Timeline_of_the_American_Revolution"
+   ],
+   [
+    "Wikipedia: United States Declaration of Independence",
+    "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence"
+   ],
+   [
+    "Wikipedia: Signing of the United States Declaration of Independence",
+    "https://en.wikipedia.org/wiki/Signing_of_the_United_States_Declaration_of_Independence"
+   ],
+   [
+    "National Archives: Milestone Documents, Declaration of Independence (1776)",
+    "https://www.archives.gov/milestone-documents/declaration-of-independence"
+   ],
+   [
+    "Wikipedia: Continental Congress",
+    "https://en.wikipedia.org/wiki/Continental_Congress"
+   ],
+   [
+    "Wikipedia: 1st United States Congress",
+    "https://en.wikipedia.org/wiki/1st_United_States_Congress"
+   ],
+   [
+    "Wikipedia: Timeline of Washington, D.C.",
+    "https://en.wikipedia.org/wiki/Timeline_of_Washington,_D.C."
+   ],
+   [
+    "Wikipedia: White House",
+    "https://en.wikipedia.org/wiki/White_House"
+   ],
+   [
+    "Wikipedia: United States Capitol",
+    "https://en.wikipedia.org/wiki/United_States_Capitol"
+   ]
+  ]
+ },
+ "synchrony": [
+  {
+   "y": 1240,
+   "place": {
+    "en": "Paris",
+    "ru": "Париж"
+   },
+   "ll": [
+    48.8556,
+    2.345
+   ],
+   "region": "europe",
+   "t": {
+    "en": "On 12 June the Disputation of Paris opens at the court of King Louis IX: rabbis are made to defend the Talmud.",
+    "ru": "12 июня при дворе короля Людовика IX открывается Парижский диспут: раввинов заставляют защищать Талмуд."
+   },
+   "src": [
+    [
+     "Wikipedia: 1240",
+     "https://en.wikipedia.org/wiki/1240"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1240,
+   "place": {
+    "en": "Nidaros (Trondheim), Norway",
+    "ru": "Нидарос (Тронхейм), Норвегия"
+   },
+   "ll": [
+    63.4305,
+    10.3951
+   ],
+   "region": "europe",
+   "t": {
+    "en": "On 24 May King Haakon IV defeats Duke Skule Bårdsson, who is killed at Elgeseter Priory in Nidaros.",
+    "ru": "24 мая король Хакон IV побеждает герцога Скуле Бордссона; тот гибнет у монастыря Эльгесетер в Нидаросе."
+   },
+   "src": [
+    [
+     "Wikipedia: 1240",
+     "https://en.wikipedia.org/wiki/1240"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1240,
+   "place": {
+    "en": "Cairo",
+    "ru": "Каир"
+   },
+   "ll": [
+    30.0287,
+    31.2599
+   ],
+   "region": "africa",
+   "t": {
+    "en": "In the summer As-Salih Ayyub deposes his half-brother Al-Adil II and becomes ruler of Egypt.",
+    "ru": "Летом ас-Салих Айюб свергает своего единокровного брата аль-Адиля II и становится правителем Египта."
+   },
+   "src": [
+    [
+     "Wikipedia: 1240",
+     "https://en.wikipedia.org/wiki/1240"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1240,
+   "place": {
+    "en": "Acre",
+    "ru": "Акра"
+   },
+   "ll": [
+    32.9206,
+    35.0686
+   ],
+   "region": "asia",
+   "t": {
+    "en": "On 10 October the English earl Richard of Cornwall lands at Acre on his way to Jerusalem.",
+    "ru": "10 октября английский граф Ричард Корнуоллский прибывает в Акру на пути в Иерусалим."
+   },
+   "src": [
+    [
+     "Wikipedia: 1240",
+     "https://en.wikipedia.org/wiki/1240"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1240,
+   "place": {
+    "en": "Damascus",
+    "ru": "Дамаск"
+   },
+   "ll": [
+    33.5138,
+    36.2765
+   ],
+   "region": "islamic",
+   "t": {
+    "en": "On 16 November the Andalusian mystic, philosopher and poet Ibn Arabi dies in Damascus.",
+    "ru": "16 ноября в Дамаске умирает андалусский мистик, философ и поэт Ибн Араби."
+   },
+   "src": [
+    [
+     "Wikipedia: 1240",
+     "https://en.wikipedia.org/wiki/1240"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "y": 1380,
+   "place": {
+    "en": "Chioggia, Venetian lagoon",
+    "ru": "Кьоджа, Венецианская лагуна"
+   },
+   "ll": [
+    45.2183,
+    12.2786
+   ],
+   "region": "europe",
+   "t": {
+    "en": "On 24 June the Venetian navy defeats the Genoese at Chioggia, ends their blockade of Venice and captures 17 ships.",
+    "ru": "24 июня венецианский флот разбивает генуэзцев при Кьодже, снимает блокаду Венеции и захватывает 17 кораблей."
+   },
+   "src": [
+    [
+     "Wikipedia: 1380",
+     "https://en.wikipedia.org/wiki/AD_1380"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1380,
+   "place": {
+    "en": "Nanjing, Ming China",
+    "ru": "Нанкин, империя Мин"
+   },
+   "ll": [
+    32.0603,
+    118.7969
+   ],
+   "region": "asia",
+   "t": {
+    "en": "On 12 February the Hongwu Emperor has his grand chancellor Hu Weiyong executed for treason and begins a purge of more than 30,000 people.",
+    "ru": "12 февраля император Хунъу казнит великого канцлера Ху Вэйюна по обвинению в измене и начинает чистку, жертвами которой станут более 30 тысяч человек."
+   },
+   "src": [
+    [
+     "Wikipedia: 1380",
+     "https://en.wikipedia.org/wiki/AD_1380"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "y": 1380,
+   "place": {
+    "en": "Reims",
+    "ru": "Реймс"
+   },
+   "ll": [
+    49.2535,
+    4.034
+   ],
+   "region": "europe",
+   "t": {
+    "en": "Charles V of France dies on 16 September; his twelve-year-old son is crowned Charles VI on 3 November.",
+    "ru": "16 сентября умирает король Франции Карл V; 3 ноября его двенадцатилетнего сына коронуют как Карла VI."
+   },
+   "src": [
+    [
+     "Wikipedia: 1380",
+     "https://en.wikipedia.org/wiki/AD_1380"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "y": 1380,
+   "place": {
+    "en": "Tawi-Tawi, Philippines",
+    "ru": "Тави-Тави, Филиппины"
+   },
+   "ll": [
+    4.9,
+    119.83
+   ],
+   "region": "islamic",
+   "t": {
+    "en": "On 7 November Sheikh Karimul Makhdum founds a mosque on Tawi-Tawi and brings Islam to the Philippine islands.",
+    "ru": "7 ноября шейх Каримуль Махдум основывает мечеть на Тави-Тави и приносит ислам на Филиппинские острова."
+   },
+   "src": [
+    [
+     "Wikipedia: 1380",
+     "https://en.wikipedia.org/wiki/AD_1380"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1380,
+   "place": {
+    "en": "Rome",
+    "ru": "Рим"
+   },
+   "ll": [
+    41.8986,
+    12.4769
+   ],
+   "region": "europe",
+   "t": {
+    "en": "On 29 April Catherine of Siena, mystic and theologian, dies in Rome.",
+    "ru": "29 апреля в Риме умирает Екатерина Сиенская, мистик и богослов."
+   },
+   "src": [
+    [
+     "Wikipedia: 1380",
+     "https://en.wikipedia.org/wiki/AD_1380"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "y": 1480,
+   "place": {
+    "en": "Rhodes",
+    "ru": "Родос"
+   },
+   "ll": [
+    36.444,
+    28.227
+   ],
+   "region": "islamic",
+   "t": {
+    "en": "On 23 May an Ottoman army lands on Rhodes; by the end of July Mehmed II’s siege of the Knights’ city has failed.",
+    "ru": "23 мая османская армия высаживается на Родосе; к концу июля осада Мехмедом II города рыцарей-иоаннитов терпит неудачу."
+   },
+   "src": [
+    [
+     "Wikipedia: 1480",
+     "https://en.wikipedia.org/wiki/AD_1480"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1480,
+   "place": {
+    "en": "Otranto, Apulia",
+    "ru": "Отранто, Апулия"
+   },
+   "ll": [
+    40.1439,
+    18.4912
+   ],
+   "region": "europe",
+   "t": {
+    "en": "Ottoman troops land near Otranto on 28 July and take the town on 12 August; on 14 August Gedik Ahmed Pasha’s men kill 813 people who refuse to convert: the Martyrs of Otranto.",
+    "ru": "28 июля османы высаживаются у Отранто и 12 августа берут город, а 14 августа воины Гедика Ахмед-паши убивают 813 жителей, отказавшихся принять ислам, — мучеников Отранто."
+   },
+   "src": [
+    [
+     "Wikipedia: 1480",
+     "https://en.wikipedia.org/wiki/AD_1480"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1480,
+   "place": {
+    "en": "Seville",
+    "ru": "Севилья"
+   },
+   "ll": [
+    37.3891,
+    -5.9845
+   ],
+   "region": "europe",
+   "t": {
+    "en": "On 27 September Ferdinand and Isabella appoint the first two inquisitors: the Spanish Inquisition begins, with its first tribunal in Seville.",
+    "ru": "27 сентября Фердинанд и Изабелла назначают первых двух инквизиторов — начинается испанская инквизиция; первый трибунал заседает в Севилье."
+   },
+   "src": [
+    [
+     "Wikipedia: 1480",
+     "https://en.wikipedia.org/wiki/AD_1480"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "y": 1480,
+   "place": {
+    "en": "Alexandria",
+    "ru": "Александрия"
+   },
+   "ll": [
+    31.214,
+    29.8856
+   ],
+   "region": "africa",
+   "t": {
+    "en": "The last remains of the Pharos lighthouse vanish as the Mamluk sultan Qaitbay builds his citadel on its site.",
+    "ru": "Исчезают последние остатки Александрийского маяка: мамлюкский султан Кайт-бей строит на его месте крепость."
+   },
+   "src": [
+    [
+     "Wikipedia: 1480",
+     "https://en.wikipedia.org/wiki/AD_1480"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1480,
+   "place": {
+    "en": "Beijing",
+    "ru": "Пекин"
+   },
+   "ll": [
+    39.9163,
+    116.3972
+   ],
+   "region": "asia",
+   "t": {
+    "en": "On 7 December the Ming emperor Xianzong hears that Đại Việt has overrun Lan Xang and plans to invade Lan Na; China sends agents to watch Đại Việt.",
+    "ru": "7 декабря минскому императору Сяньцзуну докладывают, что Дайвьет покорил Лансанг и готовит вторжение в Ланна; Китай посылает лазутчиков следить за Дайвьетом."
+   },
+   "src": [
+    [
+     "Wikipedia: 1480",
+     "https://en.wikipedia.org/wiki/AD_1480"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1547,
+   "place": {
+    "en": "London",
+    "ru": "Лондон"
+   },
+   "ll": [
+    51.5045,
+    -0.1263
+   ],
+   "region": "europe",
+   "t": {
+    "en": "Henry VIII dies on 28 January, the month of Ivan IV’s coronation in Moscow; his nine-year-old son becomes Edward VI.",
+    "ru": "28 января — в месяц венчания Ивана IV на царство — умирает Генрих VIII; королём становится его девятилетний сын Эдуард VI."
+   },
+   "src": [
+    [
+     "Wikipedia: 1547",
+     "https://en.wikipedia.org/wiki/1547"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1547,
+   "place": {
+    "en": "Mühlberg, Saxony",
+    "ru": "Мюльберг, Саксония"
+   },
+   "ll": [
+    51.4333,
+    13.2167
+   ],
+   "region": "europe",
+   "t": {
+    "en": "On 24 April Emperor Charles V defeats the Protestant Schmalkaldic League at Mühlberg and captures John Frederick I, Elector of Saxony.",
+    "ru": "24 апреля император Карл V разбивает протестантский Шмалькальденский союз при Мюльберге и берёт в плен саксонского курфюрста Иоганна Фридриха I."
+   },
+   "src": [
+    [
+     "Wikipedia: 1547",
+     "https://en.wikipedia.org/wiki/1547"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1547,
+   "place": {
+    "en": "Aden",
+    "ru": "Аден"
+   },
+   "ll": [
+    12.7855,
+    45.0187
+   ],
+   "region": "islamic",
+   "t": {
+    "en": "On 15 November an Ottoman fleet of 60 ships under Piri Reis reaches Aden; the city falls by 26 February 1548.",
+    "ru": "15 ноября к Адену подходит османский флот из 60 кораблей под командованием Пири-реиса; к 26 февраля 1548 года город взят."
+   },
+   "src": [
+    [
+     "Wikipedia: 1547",
+     "https://en.wikipedia.org/wiki/1547"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1547,
+   "place": {
+    "en": "Perlis River, Malay Peninsula",
+    "ru": "река Перлис, Малаккский полуостров"
+   },
+   "ll": [
+    6.4,
+    100.13
+   ],
+   "region": "asia",
+   "t": {
+    "en": "On 6 December the Portuguese navy defeats the fleet of the Aceh Sultanate on the Perlis River, sinking or taking 45 of its 60 ships.",
+    "ru": "6 декабря португальский флот разбивает флот султаната Аче на реке Перлис, потопив или захватив 45 из 60 кораблей."
+   },
+   "src": [
+    [
+     "Wikipedia: 1547",
+     "https://en.wikipedia.org/wiki/1547"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1547,
+   "place": {
+    "en": "Castilleja de la Cuesta, near Seville",
+    "ru": "Кастильеха-де-ла-Куэста близ Севильи"
+   },
+   "ll": [
+    37.3858,
+    -6.0547
+   ],
+   "region": "europe",
+   "t": {
+    "en": "Hernán Cortés, the conqueror of Mexico, dies on 2 December.",
+    "ru": "2 декабря умирает Эрнан Кортес, завоеватель Мексики."
+   },
+   "src": [
+    [
+     "Wikipedia: 1547",
+     "https://en.wikipedia.org/wiki/1547"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "y": 1613,
+   "place": {
+    "en": "London (Bankside)",
+    "ru": "Лондон (Бэнксайд)"
+   },
+   "ll": [
+    51.5065,
+    -0.094
+   ],
+   "region": "europe",
+   "t": {
+    "en": "On 29 June the Globe Theatre burns down during a performance of Shakespeare’s Henry VIII.",
+    "ru": "29 июня во время представления шекспировского «Генриха VIII» сгорает театр «Глобус»."
+   },
+   "src": [
+    [
+     "Wikipedia: 1613",
+     "https://en.wikipedia.org/wiki/1613"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1613,
+   "place": {
+    "en": "Henricus, Virginia",
+    "ru": "Хенрикус, Виргиния"
+   },
+   "ll": [
+    37.38,
+    -77.36
+   ],
+   "region": "americas",
+   "t": {
+    "en": "On 13 April Samuel Argall seizes Pocahontas to ransom her for English prisoners; she is held at Henricus.",
+    "ru": "13 апреля Сэмюэл Аргалл захватывает Покахонтас, чтобы обменять её на английских пленных; её держат в Хенрикусе."
+   },
+   "src": [
+    [
+     "Wikipedia: 1613",
+     "https://en.wikipedia.org/wiki/1613"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1613,
+   "place": {
+    "en": "Tsukinoura (Ishinomaki), Japan",
+    "ru": "Цукиноура (Исиномаки), Япония"
+   },
+   "ll": [
+    38.37,
+    141.46
+   ],
+   "region": "asia",
+   "t": {
+    "en": "On 28 October Hasekura Tsunenaga sails in the Date Maru on an embassy to the Pope by way of Acapulco in New Spain; on 26 December the ship sights Cape Mendocino in California.",
+    "ru": "28 октября Хасэкура Цунэнага отплывает на «Датэ-мару» с посольством к папе римскому через Акапулько в Новой Испании; 26 декабря корабль видит мыс Мендосино в Калифорнии."
+   },
+   "src": [
+    [
+     "Wikipedia: 1613",
+     "https://en.wikipedia.org/wiki/1613"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "y": 1613,
+   "place": {
+    "en": "Kuwait",
+    "ru": "Эль-Кувейт"
+   },
+   "ll": [
+    29.3759,
+    47.9774
+   ],
+   "region": "islamic",
+   "t": {
+    "en": "Kuwait City is founded, by the traditional date.",
+    "ru": "По традиционной датировке основан город Эль-Кувейт."
+   },
+   "src": [
+    [
+     "Wikipedia: 1613",
+     "https://en.wikipedia.org/wiki/1613"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "y": 1613,
+   "place": {
+    "en": "Syriam (Thanlyin), Burma",
+    "ru": "Сириам (Танлйин), Бирма"
+   },
+   "ll": [
+    16.7667,
+    96.25
+   ],
+   "region": "asia",
+   "t": {
+    "en": "On 9 April the troops of King Anaukpetlun break into Portuguese-held Syriam; its governor Filipe de Brito e Nicote is executed.",
+    "ru": "9 апреля войска короля Анаукпетлуна врываются в удерживаемый португальцами Сириам; его губернатора Филипе де Бриту-и-Никоте казнят."
+   },
+   "src": [
+    [
+     "Wikipedia: 1613",
+     "https://en.wikipedia.org/wiki/1613"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1703,
+   "place": {
+    "en": "Edo (Tokyo)",
+    "ru": "Эдо (Токио)"
+   },
+   "ll": [
+    35.6852,
+    139.7528
+   ],
+   "region": "asia",
+   "t": {
+    "en": "On 20 March (by the Japanese calendar, the 4th day of the 2nd month) the shogun orders forty-six of the 47 rōnin, who had killed Kira Yoshinaka to avenge their lord, to commit seppuku.",
+    "ru": "20 марта (4-й день 2-го месяца по японскому календарю) сёгун приказывает сорока шести из 47 ронинов, убивших Киру Ёсинаку ради мести за своего господина, совершить сэппуку."
+   },
+   "src": [
+    [
+     "Wikipedia: 1703",
+     "https://en.wikipedia.org/wiki/AD_1703"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1703,
+   "place": {
+    "en": "Edirne",
+    "ru": "Эдирне"
+   },
+   "ll": [
+    41.6771,
+    26.5557
+   ],
+   "region": "islamic",
+   "t": {
+    "en": "On 23 August the revolt known as the Edirne event dethrones Sultan Mustafa II; his brother Ahmed III takes the throne.",
+    "ru": "23 августа мятеж, известный как Эдирнский инцидент, свергает султана Мустафу II; на престол восходит его брат Ахмед III."
+   },
+   "src": [
+    [
+     "Wikipedia: 1703",
+     "https://en.wikipedia.org/wiki/AD_1703"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1703,
+   "place": {
+    "en": "Kingdom of Hungary (Munkács)",
+    "ru": "Венгерское королевство (Мукачево)"
+   },
+   "ll": [
+    48.4392,
+    22.7178
+   ],
+   "region": "europe",
+   "t": {
+    "en": "On 15 June Hungarians rise under Prince Francis II Rákóczi: Rákóczi’s War of Independence against the Habsburgs begins.",
+    "ru": "15 июня венгры поднимаются под началом князя Ференца II Ракоци — начинается война за независимость против Габсбургов."
+   },
+   "src": [
+    [
+     "Wikipedia: 1703",
+     "https://en.wikipedia.org/wiki/AD_1703"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "y": 1703,
+   "place": {
+    "en": "Eddystone Rocks, English Channel",
+    "ru": "скалы Эддистон, Ла-Манш"
+   },
+   "ll": [
+    50.1806,
+    -4.265
+   ],
+   "region": "europe",
+   "t": {
+    "en": "The Great Storm of 7–10 December (26–29 November Old Style) kills at least 8,000 people, mostly at sea, and destroys the Eddystone Lighthouse.",
+    "ru": "Великий шторм 7–10 декабря (26–29 ноября по старому стилю) уносит не менее 8000 жизней, в основном на море, и сносит Эддистонский маяк."
+   },
+   "src": [
+    [
+     "Wikipedia: 1703",
+     "https://en.wikipedia.org/wiki/AD_1703"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1703,
+   "place": {
+    "en": "Fort Louis de la Mobile (Old Mobile), Alabama",
+    "ru": "форт Луи-де-ла-Мобиль (Старый Мобил), Алабама"
+   },
+   "ll": [
+    30.886,
+    -88.016
+   ],
+   "region": "americas",
+   "t": {
+    "en": "In February soldiers at Fort Louis de la Mobile celebrate Mardi Gras, the start of Mobile’s carnival tradition.",
+    "ru": "В феврале солдаты форта Луи-де-ла-Мобиль празднуют Марди Гра — так начинается карнавальная традиция Мобила."
+   },
+   "src": [
+    [
+     "Wikipedia: 1703",
+     "https://en.wikipedia.org/wiki/AD_1703"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1725,
+   "place": {
+    "en": "Venice",
+    "ru": "Венеция"
+   },
+   "ll": [
+    45.4408,
+    12.3155
+   ],
+   "region": "europe",
+   "t": {
+    "en": "Giacomo Casanova is born in Venice.",
+    "ru": "В Венеции рождается Джакомо Казанова."
+   },
+   "src": [
+    [
+     "Wikipedia: List of years in literature",
+     "https://en.wikipedia.org/wiki/List_of_years_in_literature"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "y": 1725,
+   "place": {
+    "en": "Beijing",
+    "ru": "Пекин"
+   },
+   "ll": [
+    39.9163,
+    116.3972
+   ],
+   "region": "asia",
+   "t": {
+    "en": "The vast encyclopaedia compiled by Chen Menglei and Jiang Tingxi, the Gujin Tushu Jicheng, is completed.",
+    "ru": "Завершена огромная энциклопедия «Гуцзинь тушу цзичэн», составленная Чэнь Мэнлэем и Цзян Тинси."
+   },
+   "src": [
+    [
+     "Wikipedia: List of years in literature",
+     "https://en.wikipedia.org/wiki/List_of_years_in_literature"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "y": 1725,
+   "place": {
+    "en": "London",
+    "ru": "Лондон"
+   },
+   "ll": [
+    51.5155,
+    -0.0922
+   ],
+   "region": "europe",
+   "t": {
+    "en": "Benjamin Franklin, a nineteen-year-old printer in London, publishes A Dissertation on Liberty and Necessity, Pleasure and Pain.",
+    "ru": "Девятнадцатилетний печатник Бенджамин Франклин издаёт в Лондоне «Рассуждение о свободе и необходимости, удовольствии и боли»."
+   },
+   "src": [
+    [
+     "Wikipedia: List of years in literature",
+     "https://en.wikipedia.org/wiki/List_of_years_in_literature"
+    ],
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "y": 1725,
+   "place": {
+    "en": "Ridley, Pennsylvania",
+    "ru": "Ридли, Пенсильвания"
+   },
+   "ll": [
+    39.8806,
+    -75.3069
+   ],
+   "region": "americas",
+   "t": {
+    "en": "John Morton is born at Ridley, Pennsylvania, in 1724 or 1725. In 1776 his vote will swing Pennsylvania for independence.",
+    "ru": "В Ридли (Пенсильвания) в 1724 или 1725 году рождается Джон Мортон. В 1776 году его голос склонит Пенсильванию к независимости."
+   },
+   "src": [
+    [
+     "Wikipedia: John Morton (American politician)",
+     "https://en.wikipedia.org/wiki/John_Morton_(American_politician)"
+    ],
+    [
+     "DAR Americana Collection: Signers of the Declaration of Independence",
+     "https://www.dar.org/node/479"
+    ]
+   ],
+   "vf": "U"
+  },
+  {
+   "y": 1762,
+   "place": {
+    "en": "Havana",
+    "ru": "Гавана"
+   },
+   "ll": [
+    23.1366,
+    -82.359
+   ],
+   "region": "americas",
+   "t": {
+    "en": "On 13 August, after a siege, Spain surrenders Havana to a British expedition.",
+    "ru": "13 августа после осады Испания сдаёт Гавану британской экспедиции."
+   },
+   "src": [
+    [
+     "Wikipedia: 1762",
+     "https://en.wikipedia.org/wiki/1762"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1762,
+   "place": {
+    "en": "Manila",
+    "ru": "Манила"
+   },
+   "ll": [
+    14.5906,
+    120.975
+   ],
+   "region": "asia",
+   "t": {
+    "en": "Between 24 September and 6 October British East India Company troops take Spanish Manila.",
+    "ru": "С 24 сентября по 6 октября войска британской Ост-Индской компании берут испанскую Манилу."
+   },
+   "src": [
+    [
+     "Wikipedia: 1762",
+     "https://en.wikipedia.org/wiki/1762"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1762,
+   "place": {
+    "en": "Punjab (near Malerkotla)",
+    "ru": "Пенджаб (близ Малеркотлы)"
+   },
+   "ll": [
+    30.5309,
+    75.879
+   ],
+   "region": "asia",
+   "t": {
+    "en": "On 5 February the forces of Ahmad Shah Abdali kill some 30,000 Sikhs in Punjab: the “Great Holocaust”, Vadda Ghallughara.",
+    "ru": "5 февраля войска Ахмад-шаха Абдали убивают в Пенджабе около 30 тысяч сикхов — «Великая резня» (Вадда Гхаллугхара)."
+   },
+   "src": [
+    [
+     "Wikipedia: 1762",
+     "https://en.wikipedia.org/wiki/1762"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "y": 1762,
+   "place": {
+    "en": "Vienna",
+    "ru": "Вена"
+   },
+   "ll": [
+    48.2085,
+    16.3667
+   ],
+   "region": "europe",
+   "t": {
+    "en": "On 5 October Gluck’s opera Orfeo ed Euridice is first performed, in Vienna.",
+    "ru": "5 октября в Вене впервые исполняется опера Глюка «Орфей и Эвридика»."
+   },
+   "src": [
+    [
+     "Wikipedia: 1762",
+     "https://en.wikipedia.org/wiki/1762"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "y": 1762,
+   "place": {
+    "en": "Fontainebleau",
+    "ru": "Фонтенбло"
+   },
+   "ll": [
+    48.4021,
+    2.7002
+   ],
+   "region": "europe",
+   "t": {
+    "en": "In November, by the secret Treaty of Fontainebleau, Louis XV cedes Louisiana to Charles III of Spain.",
+    "ru": "В ноябре по секретному договору в Фонтенбло Людовик XV уступает Луизиану испанскому королю Карлу III."
+   },
+   "src": [
+    [
+     "Wikipedia: 1762",
+     "https://en.wikipedia.org/wiki/1762"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1812,
+   "place": {
+    "en": "Cádiz",
+    "ru": "Кадис"
+   },
+   "ll": [
+    36.5298,
+    -6.2926
+   ],
+   "region": "europe",
+   "t": {
+    "en": "On 19 March the Cortes of Cádiz adopt the first modern Spanish constitution.",
+    "ru": "19 марта кортесы в Кадисе принимают первую современную конституцию Испании."
+   },
+   "src": [
+    [
+     "Wikipedia: 1812",
+     "https://en.wikipedia.org/wiki/1812"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1812,
+   "place": {
+    "en": "Washington",
+    "ru": "Вашингтон"
+   },
+   "ll": [
+    38.8899,
+    -77.0091
+   ],
+   "region": "americas",
+   "t": {
+    "en": "On 18 June the United States declares war on the United Kingdom: the War of 1812 begins.",
+    "ru": "18 июня Соединённые Штаты объявляют войну Великобритании — начинается англо-американская война 1812 года."
+   },
+   "src": [
+    [
+     "Wikipedia: 1812",
+     "https://en.wikipedia.org/wiki/1812"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1812,
+   "place": {
+    "en": "Yogyakarta, Java",
+    "ru": "Джокьякарта, Ява"
+   },
+   "ll": [
+    -7.8053,
+    110.3644
+   ],
+   "region": "asia",
+   "t": {
+    "en": "On 20 June British troops under Robert Rollo Gillespie storm and sack the royal palace of Yogyakarta.",
+    "ru": "20 июня британские войска Роберта Ролло Гиллеспи штурмуют и грабят султанский дворец в Джокьякарте."
+   },
+   "src": [
+    [
+     "Wikipedia: 1812",
+     "https://en.wikipedia.org/wiki/1812"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1812,
+   "place": {
+    "en": "Shela, Lamu Island (Kenya)",
+    "ru": "Шела, остров Ламу (Кения)"
+   },
+   "ll": [
+    -2.297,
+    40.917
+   ],
+   "region": "africa",
+   "t": {
+    "en": "About this year the people of Lamu defeat forces from other towns of the Kenyan coast at the Battle of Shela.",
+    "ru": "Около этого года жители Ламу разбивают в битве при Шеле войска других городов кенийского побережья."
+   },
+   "src": [
+    [
+     "Wikipedia: 1812",
+     "https://en.wikipedia.org/wiki/1812"
+    ]
+   ],
+   "vf": "U"
+  },
+  {
+   "y": 1812,
+   "place": {
+    "en": "Kassel, Germany (the brothers’ home)",
+    "ru": "Кассель, Германия (где жили братья)"
+   },
+   "ll": [
+    51.3127,
+    9.4797
+   ],
+   "region": "europe",
+   "t": {
+    "en": "On 20 December the first volume of the Grimm brothers’ Children’s and Household Tales is published.",
+    "ru": "20 декабря выходит первый том «Детских и домашних сказок» братьев Гримм."
+   },
+   "src": [
+    [
+     "Wikipedia: 1812",
+     "https://en.wikipedia.org/wiki/1812"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "y": 1825,
+   "place": {
+    "en": "Stockton-on-Tees, England",
+    "ru": "Стоктон-он-Тис, Англия"
+   },
+   "ll": [
+    54.5705,
+    -1.3184
+   ],
+   "region": "europe",
+   "t": {
+    "en": "On 27 September the Stockton and Darlington Railway opens in England: the world’s first modern railway.",
+    "ru": "27 сентября в Англии открывается железная дорога Стоктон — Дарлингтон, первая современная железная дорога в мире."
+   },
+   "src": [
+    [
+     "Wikipedia: 1825",
+     "https://en.wikipedia.org/wiki/1825"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1825,
+   "place": {
+    "en": "Buffalo, New York",
+    "ru": "Буффало, Нью-Йорк"
+   },
+   "ll": [
+    42.8864,
+    -78.8784
+   ],
+   "region": "americas",
+   "t": {
+    "en": "On 26 October the Erie Canal opens, linking Albany on the Hudson with Buffalo on Lake Erie.",
+    "ru": "26 октября открывается канал Эри, соединивший Олбани на Гудзоне с Буффало на озере Эри."
+   },
+   "src": [
+    [
+     "Wikipedia: 1825",
+     "https://en.wikipedia.org/wiki/1825"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1825,
+   "place": {
+    "en": "Chuquisaca (now Sucre), Bolivia",
+    "ru": "Чукисака (ныне Сукре), Боливия"
+   },
+   "ll": [
+    -19.0478,
+    -65.2596
+   ],
+   "region": "americas",
+   "t": {
+    "en": "On 6 August Bolivia becomes an independent republic, at Bolívar’s instigation.",
+    "ru": "6 августа по инициативе Боливара Боливия становится независимой республикой."
+   },
+   "src": [
+    [
+     "Wikipedia: 1825",
+     "https://en.wikipedia.org/wiki/1825"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "y": 1825,
+   "place": {
+    "en": "Tegalrejo, Java",
+    "ru": "Тегалреджо, Ява"
+   },
+   "ll": [
+    -7.7833,
+    110.35
+   ],
+   "region": "asia",
+   "t": {
+    "en": "On 20 July a skirmish at Tegalrejo between Dutch-led troops and Javanese rebels starts the Java War.",
+    "ru": "20 июля стычка при Тегалреджо между войсками голландцев и яванскими повстанцами начинает Яванскую войну."
+   },
+   "src": [
+    [
+     "Wikipedia: 1825",
+     "https://en.wikipedia.org/wiki/1825"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1825,
+   "place": {
+    "en": "Port-au-Prince, Haiti",
+    "ru": "Порт-о-Пренс, Гаити"
+   },
+   "ll": [
+    18.5392,
+    -72.3364
+   ],
+   "region": "americas",
+   "t": {
+    "en": "On 17 April Charles X of France recognises Haiti and demands 150 million gold francs in return.",
+    "ru": "17 апреля французский король Карл X признаёт Гаити, потребовав взамен 150 миллионов золотых франков."
+   },
+   "src": [
+    [
+     "Wikipedia: 1825",
+     "https://en.wikipedia.org/wiki/1825"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1861,
+   "place": {
+    "en": "Fort Sumter, Charleston, South Carolina",
+    "ru": "Форт-Самтер, Чарлстон, Южная Каролина"
+   },
+   "ll": [
+    32.7523,
+    -79.8747
+   ],
+   "region": "americas",
+   "t": {
+    "en": "On 12 April the American Civil War breaks out; in Britain the loss of cotton brings the Lancashire Cotton Famine.",
+    "ru": "12 апреля начинается Гражданская война в США; в Британии нехватка хлопка оборачивается «хлопковым голодом» в Ланкашире."
+   },
+   "src": [
+    [
+     "Wikipedia: 1861 in the United Kingdom",
+     "https://en.wikipedia.org/wiki/1861_in_the_United_Kingdom"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "y": 1861,
+   "place": {
+    "en": "Lagos",
+    "ru": "Лагос"
+   },
+   "ll": [
+    6.4549,
+    3.3947
+   ],
+   "region": "africa",
+   "t": {
+    "en": "In August Dosunmu, Oba of Lagos, cedes Lagos Island to Britain.",
+    "ru": "В августе правитель (оба) Лагоса Досунму уступает остров Лагос Британии."
+   },
+   "src": [
+    [
+     "Wikipedia: 1861 in the United Kingdom",
+     "https://en.wikipedia.org/wiki/1861_in_the_United_Kingdom"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1861,
+   "place": {
+    "en": "Manama, Bahrain",
+    "ru": "Манама, Бахрейн"
+   },
+   "ll": [
+    26.2235,
+    50.5876
+   ],
+   "region": "islamic",
+   "t": {
+    "en": "On 31 May Bahrain and Britain sign a Perpetual Truce of Peace and Friendship.",
+    "ru": "31 мая Бахрейн и Британия подписывают Вечное перемирие о мире и дружбе."
+   },
+   "src": [
+    [
+     "Wikipedia: 1861 in the United Kingdom",
+     "https://en.wikipedia.org/wiki/1861_in_the_United_Kingdom"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1861,
+   "place": {
+    "en": "London (Royal Institution)",
+    "ru": "Лондон (Королевский институт)"
+   },
+   "ll": [
+    51.5098,
+    -0.1424
+   ],
+   "region": "europe",
+   "t": {
+    "en": "On 17 May James Clerk Maxwell demonstrates three-colour photography at the Royal Institution in London.",
+    "ru": "17 мая Джеймс Клерк Максвелл демонстрирует в Королевском институте в Лондоне принцип трёхцветной фотографии."
+   },
+   "src": [
+    [
+     "Wikipedia: 1861 in the United Kingdom",
+     "https://en.wikipedia.org/wiki/1861_in_the_United_Kingdom"
+    ],
+    [
+     "Wikipedia: 1861 in science",
+     "https://en.wikipedia.org/wiki/1861_in_science"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1861,
+   "place": {
+    "en": "Windsor, New South Wales",
+    "ru": "Уинсор, Новый Южный Уэльс"
+   },
+   "ll": [
+    -33.6062,
+    150.8227
+   ],
+   "region": "oceania",
+   "t": {
+    "en": "On 13 May John Tebbutt in Australia first sees the Great Comet of 1861.",
+    "ru": "13 мая Джон Теббатт в Австралии первым замечает Большую комету 1861 года."
+   },
+   "src": [
+    [
+     "Wikipedia: 1861 in science",
+     "https://en.wikipedia.org/wiki/1861_in_science"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "y": 1905,
+   "place": {
+    "en": "Tangier, Morocco",
+    "ru": "Танжер, Марокко"
+   },
+   "ll": [
+    35.7595,
+    -5.834
+   ],
+   "region": "africa",
+   "t": {
+    "en": "On 31 March Kaiser Wilhelm II claims equality with France in Morocco: the First Moroccan (Tangier) Crisis begins.",
+    "ru": "31 марта кайзер Вильгельм II заявляет о равных с Францией правах Германии в Марокко — начинается Первый марокканский (Танжерский) кризис."
+   },
+   "src": [
+    [
+     "Wikipedia: 1905 in France",
+     "https://en.wikipedia.org/wiki/1905_in_France"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1905,
+   "place": {
+    "en": "Calcutta (Kolkata), Bengal",
+    "ru": "Калькутта, Бенгалия"
+   },
+   "ll": [
+    22.5726,
+    88.3639
+   ],
+   "region": "asia",
+   "t": {
+    "en": "On 16 October the British partition Bengal.",
+    "ru": "16 октября британские власти проводят раздел Бенгалии."
+   },
+   "src": [
+    [
+     "Wikipedia: 1905 in India",
+     "https://en.wikipedia.org/wiki/1905_in_India"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1905,
+   "place": {
+    "en": "Tokyo",
+    "ru": "Токио"
+   },
+   "ll": [
+    35.6762,
+    139.6503
+   ],
+   "region": "asia",
+   "t": {
+    "en": "On 20 August Sun Yat-sen, Song Jiaoren and others found the Tongmenghui, a secret revolutionary society, in Tokyo.",
+    "ru": "20 августа Сунь Ятсен, Сун Цзяожэнь и их соратники основывают в Токио тайное революционное общество Тунмэнхой."
+   },
+   "src": [
+    [
+     "Wikipedia: 1905 in China",
+     "https://en.wikipedia.org/wiki/1905_in_China"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1905,
+   "place": {
+    "en": "Paris",
+    "ru": "Париж"
+   },
+   "ll": [
+    48.8617,
+    2.3186
+   ],
+   "region": "europe",
+   "t": {
+    "en": "On 9 December France passes the law separating the Churches and the State.",
+    "ru": "9 декабря во Франции принят закон об отделении церквей от государства."
+   },
+   "src": [
+    [
+     "Wikipedia: 1905 in France",
+     "https://en.wikipedia.org/wiki/1905_in_France"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1905,
+   "place": {
+    "en": "Portsmouth, New Hampshire",
+    "ru": "Портсмут, Нью-Гэмпшир"
+   },
+   "ll": [
+    43.0718,
+    -70.7626
+   ],
+   "region": "americas",
+   "t": {
+    "en": "On 5 September Japan and Russia sign the Treaty of Portsmouth in New Hampshire, with Theodore Roosevelt as mediator.",
+    "ru": "5 сентября в Нью-Гэмпшире Япония и Россия при посредничестве Теодора Рузвельта подписывают Портсмутский мир."
+   },
+   "src": [
+    [
+     "Wikipedia: 1905 in the United States",
+     "https://en.wikipedia.org/wiki/1905_in_the_United_States"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1917,
+   "place": {
+    "en": "Washington",
+    "ru": "Вашингтон"
+   },
+   "ll": [
+    38.88972,
+    -77.00889
+   ],
+   "region": "americas",
+   "t": {
+    "en": "On 6 April Congress declares war on Germany and President Wilson signs the resolution: the United States enters the First World War.",
+    "ru": "6 апреля конгресс объявляет войну Германии, президент Вильсон подписывает резолюцию — США вступают в Первую мировую войну."
+   },
+   "src": [
+    [
+     "Wikipedia: 1917 in the United States",
+     "https://en.wikipedia.org/wiki/1917_in_the_United_States"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1917,
+   "place": {
+    "en": "Mexico City",
+    "ru": "Мехико"
+   },
+   "ll": [
+    19.4326,
+    -99.1332
+   ],
+   "region": "americas",
+   "t": {
+    "en": "On 1 March Washington publishes the Zimmermann Telegram, in which Germany offered Texas, Arizona and New Mexico to Mexico if it went to war with the United States.",
+    "ru": "1 марта Вашингтон публикует «телеграмму Циммермана»: Германия обещала Мексике Техас, Аризону и Нью-Мексико за войну против США."
+   },
+   "src": [
+    [
+     "Wikipedia: 1917 in the United States",
+     "https://en.wikipedia.org/wiki/1917_in_the_United_States"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1917,
+   "place": {
+    "en": "Charlotte Amalie, Virgin Islands",
+    "ru": "Шарлотта-Амалия, Виргинские острова"
+   },
+   "ll": [
+    18.3419,
+    -64.9307
+   ],
+   "region": "americas",
+   "t": {
+    "en": "On 31 March the United States takes possession of the Danish West Indies, bought for $25 million: they become the US Virgin Islands.",
+    "ru": "31 марта США вступают во владение Датской Вест-Индией, купленной за 25 миллионов долларов, — теперь это Американские Виргинские острова."
+   },
+   "src": [
+    [
+     "Wikipedia: 1917 in the United States",
+     "https://en.wikipedia.org/wiki/1917_in_the_United_States"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1917,
+   "place": {
+    "en": "San Juan, Puerto Rico",
+    "ru": "Сан-Хуан, Пуэрто-Рико"
+   },
+   "ll": [
+    18.4655,
+    -66.1057
+   ],
+   "region": "americas",
+   "t": {
+    "en": "On 2 March the Jones Act grants Puerto Ricans citizenship of the United States.",
+    "ru": "2 марта закон Джонса предоставляет пуэрториканцам гражданство США."
+   },
+   "src": [
+    [
+     "Wikipedia: 1917 in the United States",
+     "https://en.wikipedia.org/wiki/1917_in_the_United_States"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "y": 1917,
+   "place": {
+    "en": "English Channel",
+    "ru": "Ла-Манш"
+   },
+   "ll": [
+    50.25,
+    -1.0
+   ],
+   "region": "europe",
+   "t": {
+    "en": "On 19 April the army transport SS Mongolia fires the first American shots of the war, at a German U-boat in the English Channel.",
+    "ru": "19 апреля армейский транспорт «Монголия» производит первые американские выстрелы этой войны — по германской подводной лодке в Ла-Манше."
+   },
+   "src": [
+    [
+     "Wikipedia: 1917 in the United States",
+     "https://en.wikipedia.org/wiki/1917_in_the_United_States"
+    ]
+   ],
+   "vf": "V"
+  }
+ ],
+ "notes": [
+  "Searches: 14 of 14 used. WebFetch opened only URLs that had appeared in search results, so links inside opened pages could not be followed; the shell cannot reach Wikipedia (proxy 403).",
+  "Picture: the Trumbull file name was seen as the title of a Commons search result, but Commons and en.wikipedia File:/Category: pages failed to load in the fetch tool (url_not_found), so the licence was not read on the file page (pic.checked = false). Re-check it before display. No other pic objects are given; places and story steps use wiki titles for their lead pictures.",
+  "Signers: all 56 names and states checked against the National Archives transcription and the signatures list in the Wikipedia Declaration article. Years and birthplaces come from the DAR list (secondary, vf S). Full dates only where a Wikipedia biography was opened (Lewis Morris, John Penn, Joseph Hewes, Thomas Stone, John Morton), and death dates after 1752 only. Birth years before 1752 are as DAR gives them; the colonies used the Julian calendar until 1752, so a winter birth can shift by a year in New Style.",
+  "Signer wiki titles: wv V = the title was seen in a URL or link target (36 of 56). wv U = the primary-topic name, not seen (20): Josiah Bartlett, Robert Treat Paine, William Ellery, Oliver Wolcott, William Floyd, Philip Livingston, Francis Lewis, John Witherspoon, Francis Hopkinson, Abraham Clark, William Paca, Thomas Nelson Jr., Francis Lightfoot Lee, Carter Braxton, Thomas Heyward Jr., Thomas Lynch Jr., Arthur Middleton, Button Gwinnett, Lyman Hall, George Walton. Confirmed titles include several qualified ones: Samuel Huntington (Connecticut politician), John Penn (North Carolina politician), John Morton (American politician), John Hart (New Jersey politician), James Wilson (Founding Father). A few V titles are link targets and may be redirects.",
+  "Button Gwinnett’s death year (1777) is derived from DAR’s birth c. 1735 and “about age 42”; it was not read directly (vf U).",
+  "Coordinates read from opened pages: Independence Hall, Congress Hall, the White House, the Capitol (and the Independence NHP park centre). All other points (Carpenters’ Hall, Federal Hall, the Maryland State House, York, Yorktown, Lexington, Paris, the National Archives, and every synchrony point) are standard points for the named place and were not read from a page.",
+  "Story and place wiki titles not seen as URLs: Battles of Lexington and Concord, Siege of Yorktown, Treaty of Paris (1783), Constitutional Convention (United States), York, Pennsylvania, Maryland State House. Seen: First Continental Congress, Independence Hall, Lee Resolution, Declaration of Independence (painting), Signing of the United States Declaration of Independence, Articles of Confederation, Federal Hall, White House, Carpenters' Hall, Congress Hall, United States Capitol, Timothy Matlack, Robert R. Livingston.",
+  "Not checked in an opened page: that the 1789 Federal Hall was later demolished and that the present building on Wall Street is a later structure. Its wiki lead picture will probably show the later building.",
+  "Russian versions of English quotations (the excerpt, the Lee Resolution, Adams’s blessing on the White House, “We hold these truths”) are working translations by the research team; no public-domain Russian translation was opened.",
+  "Synchrony: 1725 is thin (4 items, none dated to the day). No year article for 1725 surfaced; the items come from the List of years in literature and John Morton’s biography. 1917 rests only on ‘1917 in the United States’, so its items are American or naval, with nothing from Asia, Africa or the Islamic world. 1861 and 1905 use country and science pages (‘1861 in the United Kingdom’, ‘1861 in science’, ‘1905 in France/India/China/the United States’), not the main year articles.",
+  "Synchrony vf S marks an item whose year-article fact is checked but whose place is supplied as where the event is known to have happened (e.g., Ibn Arabi in Damascus, Gluck in Vienna, the Grimms’ Kassel). Day dates in synchrony texts follow the sources as given. Before 1582 they are Julian, and English dates before 1752 may be Old Style unless marked, so no `date` fields are set in synchrony. The `region` codes are europe, americas, asia, africa, islamic and oceania.",
+  "Timeline of Russian history gives Old Style dates for the story synchrony; its 21 July date for Küçük Kaynarca may be New Style, so the story says only ‘July 1774’.",
+  "The Constitutional Convention dates differ: the Independence NHP article gives 14 May – 17 September 1787 (the scheduled opening), the Independence Hall article 25 May (the first session). The story uses 25 May.",
+  "Not used: the Founding Fathers article’s signatories table (misaligned in conversion: it marks 60 rows); White House America250 profile pages."
+ ]
+}

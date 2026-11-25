@@ -68,7 +68,7 @@ function glbPlateDraw(c,T,G,P,projInto,tint,opts){const R=G.R,zoom=G.zoom||1,o=[
   /* v31.2: segments off the canvas are culled before the path is built; at zoom most of the sphere lies outside the frame */
   const W=G.w||G.size||0,HH=G.h||G.size||0,cull=W>0&&HH>0,m=4;const off=(x0,y0,x1,y1)=>cull&&((x0<-m&&x1<-m)||(x0>W+m&&x1>W+m)||(y0<-m&&y1<-m)||(y0>HH+m&&y1>HH+m));
   const K=[];for(let i=0;i<36;i++)K.push([]);
-  for(const h of P.H){const pts=h.pts,n=pts.length/3,t=tint?h.t:0,w=h.w;let px=0,py=0,pd=-1;for(let k=0;k<n;k++){projInto(pts[k*3],pts[k*3+1],pts[k*3+2],o);if(k>0&&pd>0&&o[2]>0&&!off(px,py,o[0],o[1])){const d=(pd+o[2])/2,band=d>.72?2:d>.38?1:0;K[(t*2+w)*3+band].push(px,py,o[0],o[1]);}px=o[0];py=o[1];pd=o[2];}}
+  if(!(opts&&opts.noHatch))for(const h of P.H){const pts=h.pts,n=pts.length/3,t=tint?h.t:0,w=h.w;let px=0,py=0,pd=-1;for(let k=0;k<n;k++){projInto(pts[k*3],pts[k*3+1],pts[k*3+2],o);if(k>0&&pd>0&&o[2]>0&&!off(px,py,o[0],o[1])){const d=(pd+o[2])/2,band=d>.72?2:d>.38?1:0;K[(t*2+w)*3+band].push(px,py,o[0],o[1]);}px=o[0];py=o[1];pd=o[2];}}
   const bandA=[.3,.62,1],tierA=[.55,.6,.68,.78,.9,1],landA=T.light?.6:.52;c.lineCap='butt';
   for(let t=0;t<6;t++)for(let w=0;w<2;w++)for(let b=0;b<3;b++){const arr=K[(t*2+w)*3+b];if(!arr.length)continue;c.beginPath();for(let i=0;i<arr.length;i+=4){c.moveTo(arr[i],arr[i+1]);c.lineTo(arr[i+2],arr[i+3]);}c.lineWidth=hw*(w?1.5:1);c.strokeStyle=glbCss(tint?T.tier[t]:T.land,(tint?tierA[t]:landA)*bandA[b]*za);c.stroke();}
   if(opts&&opts.borders===false)return;   /* v34: Then draws the borders of its own year instead */

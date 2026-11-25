@@ -1,0 +1,2626 @@
+{
+ "asof": "2026-11-25",
+ "stories": [
+  {
+   "id": "napoleon-russia-1812",
+   "n": {
+    "en": "1812: Napoleon in Russia",
+    "ru": "1812: Наполеон в России"
+   },
+   "years": [
+    1812,
+    1813
+   ],
+   "lede": {
+    "en": "Napoleon’s Grande Armée crosses the Niemen in June 1812, fights at Smolensk and Borodino and enters a burning Moscow. Five weeks later it turns back; in December only its remnants recross the river. The march day by day, the Russian commanders, the partisans and the people of the war.",
+    "ru": "Великая армия Наполеона переходит Неман в июне 1812 года, сражается под Смоленском и при Бородине и входит в горящую Москву. Через пять недель она поворачивает назад, и в декабре за Неман уходят лишь её остатки. Поход день за днём, русские полководцы, партизаны и люди этой войны."
+   },
+   "steps": [
+    {
+     "y": 1812,
+     "date": "1812-06-24",
+     "date_os": "1812-06-12",
+     "ll": [
+      54.897,
+      23.886
+     ],
+     "z": 4,
+     "h": {
+      "en": "Across the Niemen",
+      "ru": "Переправа через Неман"
+     },
+     "t": {
+      "en": "On 24 June the invasion begins: the Grande Armée crosses the Niemen near Kovno (Kaunas). Historians put the first wave at 440,000–449,000 men and the whole force, with later reinforcements, at 600,000–685,000; the Russian first line counted about 198,000. These are estimates, and authors differ. Alexander I later wrote that “half a million foot and horse and about fifteen hundred guns” followed Napoleon.",
+      "ru": "24 июня начинается вторжение: Великая армия переходит Неман у Ковно (Каунаса). Историки оценивают первый эшелон в 440–449 тысяч человек, а всю армию вместе с подкреплениями — в 600–685 тысяч; в первой линии русских войск было около 198 тысяч. Это оценки, и у разных авторов они расходятся. Александр I писал потом, что за Наполеоном следовали «полмиллиона пеших и конных воинов и около полутора тысячи пушек»."
+     },
+     "wiki": {
+      "en": "Grande Armée"
+     },
+     "people": [
+      "alexander-i"
+     ],
+     "quote": {
+      "ru": "Полмиллиона пеших и конных воинов и около полутора тысячи пушек следовало за ним",
+      "en": "Half a million foot and horse and about fifteen hundred guns followed him",
+      "tr": "compiler",
+      "who": {
+       "en": "Alexander I",
+       "ru": "Александр I"
+      },
+      "when": {
+       "en": "Manifesto of 25 December 1812 (O.S.)",
+       "ru": "Манифест 25 декабря 1812 года"
+      },
+      "src": [
+       [
+        "Манифест 25 декабря 1812 года (РГИА), doc.histrf.ru",
+        "https://doc.histrf.ru/19/manifest-ob-izgnanii-napoleona/"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Wikipedia (en): French invasion of Russia",
+       "https://en.wikipedia.org/wiki/French_invasion_of_Russia"
+      ],
+      [
+       "Манифест 25 декабря 1812 года, doc.histrf.ru",
+       "https://doc.histrf.ru/19/manifest-ob-izgnanii-napoleona/"
+      ]
+     ],
+     "vf": "U"
+    },
+    {
+     "y": 1812,
+     "date": "1812-06-28",
+     "date_os": "1812-06-16",
+     "ll": [
+      54.687,
+      25.28
+     ],
+     "z": 5,
+     "h": {
+      "en": "Vilna without a battle",
+      "ru": "Вильна без боя"
+     },
+     "t": {
+      "en": "Napoleon reaches Vilna (Vilnius) on 28 June after only light skirmishing. In April Alexander I had come to the headquarters of the First Western Army here; at its formation it counted 159,800 men and 590 guns. Its commander, Barclay de Tolly, will not risk it on the frontier. He falls back east and leaves scorched earth behind.",
+      "ru": "28 июня, после лёгких стычек, Наполеон входит в Вильну (Вильнюс). В апреле сюда, в главную квартиру 1-й Западной армии, приезжал Александр I; при формировании армия насчитывала 159 800 человек и 590 орудий. Её командующий Барклай-де-Толли не хочет рисковать ею на границе. Он отступает на восток и оставляет за собой выжженную землю."
+     },
+     "pic": {
+      "file": "Rykonty. Рыконты (A. Adam, 3.07.1812).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Rykonty._%D0%A0%D1%8B%D0%BA%D0%BE%D0%BD%D1%82%D1%8B_(A._Adam,_3.07.1812).jpg",
+      "author": "Albrecht Adam",
+      "lic": "Public domain",
+      "year": 1812,
+      "cap": {
+       "en": "Albrecht Adam’s sketch at Rykonty in Lithuania, dated 3 July 1812 in the file’s title.",
+       "ru": "Набросок Альбрехта Адама в Рыконтах в Литве; в названии файла стоит дата 3 июля 1812 года."
+      }
+     },
+     "route": [
+      [
+       54.897,
+       23.886
+      ],
+      [
+       54.687,
+       25.28
+      ]
+     ],
+     "src": [
+      [
+       "Wikipedia (en): French invasion of Russia",
+       "https://en.wikipedia.org/wiki/French_invasion_of_Russia"
+      ],
+      [
+       "Wikipedia (en): First Western Army",
+       "https://en.wikipedia.org/wiki/First_Western_Army"
+      ],
+      [
+       "Wikipedia (en): Michael Andreas Barclay de Tolly",
+       "https://en.wikipedia.org/wiki/Michael_Andreas_Barclay_de_Tolly"
+      ]
+     ],
+     "vf": "S"
+    },
+    {
+     "y": 1812,
+     "date": [
+      "1812-07-25",
+      "1812-07-27"
+     ],
+     "date_os": [
+      "1812-07-13",
+      "1812-07-15"
+     ],
+     "ll": [
+      55.19,
+      30.205
+     ],
+     "z": 5,
+     "h": {
+      "en": "Ostrovno and Vitebsk",
+      "ru": "Островно и Витебск"
+     },
+     "t": {
+      "en": "Late in July the French win at Ostrovno on 25 July and before Vitebsk on 26–27 July. But the Russian army is not destroyed. It keeps retreating towards Smolensk, and the invaders follow it deeper into Russia.",
+      "ru": "В конце июля французы побеждают при Островно 25 июля и под Витебском 26–27 июля. Но русская армия не разбита. Она продолжает отступать к Смоленску, и захватчики идут за ней в глубь России."
+     },
+     "wiki": {
+      "en": "Battle of Ostrovno"
+     },
+     "route": [
+      [
+       54.687,
+       25.28
+      ],
+      [
+       55.19,
+       30.205
+      ]
+     ],
+     "src": [
+      [
+       "Wikipedia (en): List of battles of the French invasion of Russia",
+       "https://en.wikipedia.org/wiki/List_of_battles_of_the_French_invasion_of_Russia"
+      ]
+     ],
+     "vf": "S"
+    },
+    {
+     "y": 1812,
+     "date": "1812-08-02",
+     "date_os": "1812-07-21",
+     "ll": [
+      54.782,
+      32.045
+     ],
+     "z": 5,
+     "h": {
+      "en": "The armies unite",
+      "ru": "Соединение армий"
+     },
+     "t": {
+      "en": "At Smolensk the two Russian armies finally unite. On 2 August Prince Pyotr Bagration, commander of the Second Western Army, cedes overall command to Barclay de Tolly, and the generals hold a council of war.",
+      "ru": "Под Смоленском две русские армии наконец соединяются. 2 августа князь Пётр Багратион, командующий 2-й Западной армией, уступает общее командование Барклаю-де-Толли, и генералы собирают военный совет."
+     },
+     "wiki": {
+      "en": "Pyotr Bagration"
+     },
+     "route": [
+      [
+       55.19,
+       30.205
+      ],
+      [
+       54.782,
+       32.045
+      ]
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Pyotr Bagration",
+       "https://en.wikipedia.org/wiki/Pyotr_Bagration"
+      ],
+      [
+       "Wikipedia (en): French invasion of Russia",
+       "https://en.wikipedia.org/wiki/French_invasion_of_Russia"
+      ]
+     ],
+     "vf": "S"
+    },
+    {
+     "y": 1812,
+     "date": [
+      "1812-08-16",
+      "1812-08-18"
+     ],
+     "date_os": [
+      "1812-08-04",
+      "1812-08-06"
+     ],
+     "ll": [
+      54.767,
+      32.033
+     ],
+     "z": 5,
+     "h": {
+      "en": "Smolensk burns",
+      "ru": "Смоленск в огне"
+     },
+     "t": {
+      "en": "About 45,000 men of the Grande Armée attack some 30,000 Russians holding Smolensk. The bombardment sets the city alight: of 2,250 buildings 84 per cent are destroyed, and of 15,000 inhabitants only about 1,000 are left. Losses are disputed. Chandler, Mikaberidze and Bodart put the French at about 10,000; estimates for the Russians run from 6,000 to 14,000. The Russians withdraw east along the Moscow road.",
+      "ru": "Около 45 тысяч солдат Великой армии атакуют примерно 30 тысяч русских, обороняющих Смоленск. От обстрела город загорается: из 2250 зданий уничтожено 84 процента, из 15 тысяч жителей остаётся около тысячи. Потери спорны. Чандлер, Микаберидзе и Бодар оценивают французские примерно в 10 тысяч, оценки русских — от 6 до 14 тысяч. Русские отходят на восток по Московской дороге."
+     },
+     "pic": {
+      "file": "Smolensk by hess.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Smolensk_by_hess.jpg",
+      "author": "Peter von Hess",
+      "lic": "Public domain",
+      "cap": {
+       "en": "Peter von Hess, the battle for Smolensk, 1812.",
+       "ru": "Петер фон Гесс. Сражение за Смоленск, 1812 год."
+      }
+     },
+     "src": [
+      [
+       "Wikipedia (en): Battle of Smolensk (1812)",
+       "https://en.wikipedia.org/wiki/Battle_of_Smolensk_(1812)"
+      ],
+      [
+       "Wikipedia (en): Michael Andreas Barclay de Tolly",
+       "https://en.wikipedia.org/wiki/Michael_Andreas_Barclay_de_Tolly"
+      ]
+     ],
+     "vf": "U"
+    },
+    {
+     "y": 1812,
+     "date": "1812-08-20",
+     "date_os": "1812-08-08",
+     "ll": [
+      55.4267,
+      34.8211
+     ],
+     "z": 5,
+     "h": {
+      "en": "Kutuzov takes command",
+      "ru": "Кутузов принимает командование"
+     },
+     "t": {
+      "en": "On 20 August Alexander I replaces Barclay as commander-in-chief with the popular veteran Mikhail Kutuzov. Kutuzov reaches the army at Tsaryovo-Zaymishche on 29 August. He will give battle before Moscow, west of Mozhaysk, near the village of Borodino.",
+      "ru": "20 августа Александр I назначает главнокомандующим вместо Барклая популярного ветерана Михаила Кутузова. 29 августа Кутузов прибывает к армии в Царёво-Займище. Сражение он даст на подступах к Москве, западнее Можайска, у села Бородино."
+     },
+     "wiki": {
+      "en": "Mikhail Kutuzov"
+     },
+     "people": [
+      "alexander-i"
+     ],
+     "route": [
+      [
+       54.782,
+       32.045
+      ],
+      [
+       55.2,
+       34.25
+      ],
+      [
+       55.4267,
+       34.8211
+      ]
+     ],
+     "src": [
+      [
+       "Wikipedia (en): French invasion of Russia",
+       "https://en.wikipedia.org/wiki/French_invasion_of_Russia"
+      ],
+      [
+       "Wikipedia (en): Mikhail Kutuzov",
+       "https://en.wikipedia.org/wiki/Mikhail_Kutuzov"
+      ],
+      [
+       "Wikipedia (en): Tsaryovo-Zaymishche",
+       "https://en.wikipedia.org/wiki/Tsaryovo-Zaymishche"
+      ]
+     ],
+     "vf": "S"
+    },
+    {
+     "y": 1812,
+     "date": "1812-09-07",
+     "date_os": "1812-08-26",
+     "ll": [
+      55.52,
+      35.82
+     ],
+     "z": 5,
+     "h": {
+      "en": "Borodino",
+      "ru": "Бородино"
+     },
+     "t": {
+      "en": "The largest battle of the campaign. Napoleon brings 103,000–135,000 men and 587 guns; Kutuzov has 125,000–160,000, including 10,000 irregulars, and 637 guns. The French take Bagration’s flèches in the morning and the Raevsky redoubt in the afternoon. Bagration is hit in the leg and dies of gangrene on 24 September. In the night Kutuzov draws the army back beyond Mozhaysk. It is not destroyed.",
+      "ru": "Крупнейшее сражение кампании. У Наполеона 103–135 тысяч человек и 587 орудий, у Кутузова 125–160 тысяч, включая 10 тысяч иррегулярных войск, и 637 орудий. Утром французы берут Багратионовы флеши, днём — батарею Раевского. Багратион ранен в ногу и 24 сентября умирает от гангрены. Ночью Кутузов отводит армию за Можайск. Она не разбита."
+     },
+     "pic": {
+      "file": "Battle of Borodino on 26 August (7 September) 1812 (by Peter von Hess).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Battle_of_Borodino_on_26_August_(7_September)_1812_(by_Peter_von_Hess).jpg",
+      "author": "Peter von Hess",
+      "lic": "Public domain",
+      "cap": {
+       "en": "Peter von Hess, The Battle of Borodino on 26 August (7 September) 1812.",
+       "ru": "Петер фон Гесс. Бородинское сражение 26 августа (7 сентября) 1812 года."
+      }
+     },
+     "quote": {
+      "ru": "неприятель нигде не выиграл ни на шаг земли с превосходными своими силами",
+      "en": "the enemy nowhere gained a single step of ground, for all his superior forces",
+      "tr": "compiler",
+      "who": {
+       "en": "Mikhail Kutuzov",
+       "ru": "Михаил Кутузов"
+      },
+      "when": {
+       "en": "report to Alexander I, 27 August (8 September) 1812",
+       "ru": "рапорт Александру I, 27 августа 1812 года"
+      },
+      "src": [
+       [
+        "Рапорт М. И. Кутузова Александру I о сражении при Бородине, hrono.ru",
+        "https://www.hrono.ru/dokum/1800dok/18120827kut.html"
+       ]
+      ]
+     },
+     "route": [
+      [
+       55.4267,
+       34.8211
+      ],
+      [
+       55.52,
+       35.82
+      ]
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Battle of Borodino",
+       "https://en.wikipedia.org/wiki/Battle_of_Borodino"
+      ],
+      [
+       "Wikipedia (en): Pyotr Bagration",
+       "https://en.wikipedia.org/wiki/Pyotr_Bagration"
+      ],
+      [
+       "Рапорт Кутузова 27 августа 1812 г., hrono.ru",
+       "https://www.hrono.ru/dokum/1800dok/18120827kut.html"
+      ]
+     ],
+     "vf": "U"
+    },
+    {
+     "y": 1812,
+     "date": "1812-09-07",
+     "date_os": "1812-08-26",
+     "ll": [
+      55.52,
+      35.82
+     ],
+     "z": 5,
+     "h": {
+      "en": "Counting the dead",
+      "ru": "Счёт потерь"
+     },
+     "t": {
+      "en": "No one agrees on the cost. Modern ranges are 30,000–42,000 French and 40,000–53,000 Russians killed, wounded or missing. Napoleon reported 10,000; Ségur gave about 40,000. Kutuzov’s draft report claimed the enemy had lost 42 generals and over 40,000 men and put Russian losses at up to 25,000; elsewhere Kutuzov gives 39,312 for 5–7 September.",
+      "ru": "О цене сражения спорят до сих пор. Современные оценки — 30–42 тысячи французов и 40–53 тысячи русских убитыми, ранеными и пропавшими без вести. Наполеон сообщил о 10 тысячах, Сегюр — примерно о 40 тысячах. Черновое донесение Кутузова приписывало неприятелю потерю 42 генералов и более 40 тысяч рядовых, а свою оценивало «до 25 тыс. человек»; в другом подсчёте Кутузов называет 39 312 человек за 5–7 сентября."
+     },
+     "pic": {
+      "file": "Vereshchagin Napoleon near Borodino.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Vereshchagin_Napoleon_near_Borodino.jpg",
+      "author": "Vasily Vereshchagin",
+      "lic": "Public domain",
+      "cap": {
+       "en": "Vasily Vereshchagin, Napoleon near Borodino, from his 1812 series.",
+       "ru": "Василий Верещагин. Наполеон под Бородином. Из серии «1812 год»."
+      }
+     },
+     "quote": {
+      "ru": "Сей день пребудет вечным памятником мужества и отличной храбрости российских воинов",
+      "en": "This day will remain an eternal monument to the courage and outstanding bravery of the Russian soldiers",
+      "tr": "compiler",
+      "who": {
+       "en": "Mikhail Kutuzov",
+       "ru": "Михаил Кутузов"
+      },
+      "when": {
+       "en": "draft report on Borodino, August 1812",
+       "ru": "черновое донесение о Бородинском сражении, август 1812 года"
+      },
+      "src": [
+       [
+        "Донесение М. И. Кутузова Александру I о сражении при Бородине, hrono.ru",
+        "https://www.hrono.ru/dokum/1800dok/181208kutuz.html"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Wikipedia (en): Battle of Borodino",
+       "https://en.wikipedia.org/wiki/Battle_of_Borodino"
+      ],
+      [
+       "Донесение Кутузова о Бородинском сражении (док. № 131), hrono.ru",
+       "https://www.hrono.ru/dokum/1800dok/181208kutuz.html"
+      ]
+     ],
+     "vf": "U"
+    },
+    {
+     "y": 1812,
+     "date": "1812-09-07",
+     "date_os": "1812-08-26",
+     "ll": [
+      55.52,
+      35.82
+     ],
+     "z": 5,
+     "h": {
+      "en": "The cavalry maiden",
+      "ru": "Кавалерист-девица"
+     },
+     "t": {
+      "en": "In the Russian cavalry rides Nadezhda Durova, who enlisted as a nobleman named Alexander Sokolov. Alexander I, hearing rumours of an “Amazon”, had received her, awarded her the Cross of St George and given her the surname Alexandrov. She fights at Smolensk and at Borodino, where a cannonball wounds her in the leg; she stays on full duty for several days. Pushkin later urged her to publish her notes, which came out in 1836.",
+      "ru": "В русской кавалерии служит Надежда Дурова, поступившая на службу под именем дворянина Александра Соколова. Александр I, до которого дошли слухи об «амазонке», принял её, наградил Георгиевским крестом и дал фамилию Александров. Она сражается под Смоленском и при Бородине, где ядро ранит её в ногу; несколько дней она остаётся в строю. Позже Пушкин уговорил её издать записки — они вышли в 1836 году."
+     },
+     "wiki": {
+      "en": "Nadezhda Durova"
+     },
+     "people": [
+      "alexander-i",
+      "pushkin"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Nadezhda Durova",
+       "https://en.wikipedia.org/wiki/Nadezhda_Durova"
+      ],
+      [
+       "Wikipedia (en): Women in warfare and the military in the 19th century",
+       "https://en.wikipedia.org/wiki/Women_in_warfare_and_the_military_in_the_19th_century"
+      ]
+     ],
+     "vf": "S"
+    },
+    {
+     "y": 1812,
+     "date": "1812-09-10",
+     "date_os": "1812-08-29",
+     "ll": [
+      55.4267,
+      34.8211
+     ],
+     "z": 5,
+     "h": {
+      "en": "Davydov’s raids",
+      "ru": "Набеги Давыдова"
+     },
+     "t": {
+      "en": "Denis Davydov had suggested to Bagration striking at the French supply trains. He is given fifty hussars and eighty Cossacks instead of 150. From his base at Skugorevo he raids the Smolensk road; one raid near Tsaryovo-Zaymishche brings in 119 soldiers and two officers. He frees Russian prisoners and takes them on as volunteers. That autumn Vasilisa Kozhina also leads a partisan band against the French.",
+      "ru": "Денис Давыдов предложил Багратиону нападать на французские обозы. Он получает пятьдесят гусар и восемьдесят казаков вместо ста пятидесяти. Из Скугорева его партия совершает набеги на Смоленскую дорогу; один набег у Царёва-Займища приносит 119 пленных рядовых и двух офицеров. Освобождённых русских пленных он берёт в отряд. Той же осенью собственный партизанский отряд водит Василиса Кожина."
+     },
+     "wiki": {
+      "en": "Denis Davydov"
+     },
+     "quote": {
+      "ru": "Я надел мужичий кафтан, стал отпускать бороду",
+      "en": "I put on a peasant’s coat and began to let my beard grow",
+      "tr": "compiler",
+      "who": {
+       "en": "Denis Davydov",
+       "ru": "Денис Давыдов"
+      },
+      "when": {
+       "en": "Diary of Partisan Actions of 1812",
+       "ru": "«Дневник партизанских действий 1812 года»"
+      },
+      "src": [
+       [
+        "Д. В. Давыдов. Военные записки, гл. II, militera.lib.ru",
+        "https://militera.lib.ru/memo/russian/davydov_dv/05.html"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Д. В. Давыдов. Дневник партизанских действий 1812 года, militera.lib.ru",
+       "https://militera.lib.ru/memo/russian/davydov_dv/05.html"
+      ],
+      [
+       "Wikipedia (en): Attrition warfare against Napoleon",
+       "https://en.wikipedia.org/wiki/Attrition_warfare_against_Napoleon"
+      ],
+      [
+       "Wikipedia (en): Women in warfare and the military in the 19th century",
+       "https://en.wikipedia.org/wiki/Women_in_warfare_and_the_military_in_the_19th_century"
+      ]
+     ],
+     "vf": "V"
+    },
+    {
+     "y": 1812,
+     "date": "1812-09-13",
+     "date_os": "1812-09-01",
+     "ll": [
+      55.74,
+      37.519
+     ],
+     "z": 5,
+     "h": {
+      "en": "The council at Fili",
+      "ru": "Совет в Филях"
+     },
+     "t": {
+      "en": "On 13 September, in the peasant Mikhail Frolov’s hut at Fili, west of Moscow, Kutuzov hears his generals and decides to give up Moscow without a battle to save the army. He is quoted as saying the French army “will dissolve in Moscow like a sponge in the water”. The troops leave by the Ryazan road.",
+      "ru": "13 сентября в избе крестьянина Михаила Фролова в Филях, к западу от Москвы, Кутузов выслушивает генералов и решает оставить Москву без боя, чтобы сохранить армию. Ему приписывают слова о том, что французская армия растворится в Москве, как губка в воде. Войска уходят по Рязанской дороге."
+     },
+     "wiki": {
+      "en": "Council at Fili"
+     },
+     "route": [
+      [
+       55.52,
+       35.82
+      ],
+      [
+       55.5,
+       36.03
+      ],
+      [
+       55.74,
+       37.519
+      ]
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Council at Fili",
+       "https://en.wikipedia.org/wiki/Council_at_Fili"
+      ]
+     ],
+     "vf": "S"
+    },
+    {
+     "y": 1812,
+     "date": "1812-09-14",
+     "date_os": "1812-09-02",
+     "ll": [
+      55.752,
+      37.6175
+     ],
+     "z": 5,
+     "h": {
+      "en": "An empty city",
+      "ru": "Пустой город"
+     },
+     "t": {
+      "en": "Napoleon reaches Poklonnaya Hill at two in the afternoon and waits in vain for a deputation. A police count early in 1812 had found 270,184 inhabitants. Now perhaps 6,000–10,000 civilians remain, with 10,000–15,000 wounded and sick Russian soldiers; historians differ on the numbers. Napoleon enters the Kremlin by the Borovitsky Gate.",
+      "ru": "В два часа дня Наполеон выезжает на Поклонную гору и напрасно ждёт депутации. Полицейский подсчёт начала 1812 года насчитал в Москве 270 184 жителя. Теперь, по разным оценкам, в городе остаётся 6–10 тысяч горожан и 10–15 тысяч раненых и больных русских солдат. Наполеон въезжает в Кремль через Боровицкие ворота."
+     },
+     "pic": {
+      "file": "В покоренной Москве.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:%D0%92_%D0%BF%D0%BE%D0%BA%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5.jpg",
+      "author": "Vasily Vereshchagin",
+      "lic": "Public domain",
+      "cap": {
+       "en": "Vasily Vereshchagin, In Conquered Moscow, from his 1812 series.",
+       "ru": "Василий Верещагин. В покорённой Москве. Из серии «1812 год»."
+      }
+     },
+     "route": [
+      [
+       55.74,
+       37.519
+      ],
+      [
+       55.752,
+       37.6175
+      ]
+     ],
+     "src": [
+      [
+       "Wikipedia (en): French occupation of Moscow",
+       "https://en.wikipedia.org/wiki/French_occupation_of_Moscow"
+      ]
+     ],
+     "vf": "U"
+    },
+    {
+     "y": 1812,
+     "date": [
+      "1812-09-14",
+      "1812-09-18"
+     ],
+     "date_os": [
+      "1812-09-02",
+      "1812-09-06"
+     ],
+     "ll": [
+      55.755,
+      37.62
+     ],
+     "z": 5,
+     "h": {
+      "en": "Moscow burns",
+      "ru": "Московский пожар"
+     },
+     "t": {
+      "en": "Fires break out as the French enter. Fanned by strong winds from the night of 15–16 September, they rage until the 18th, and three quarters of Moscow is reduced to ashes. The French blamed the governor, Fyodor Rostopchin, who had the fire-fighting equipment removed or disabled. That is the most widely accepted explanation, but the cause is still argued over.",
+      "ru": "Пожары вспыхивают, едва французы входят в город. Раздуваемые сильным ветром с ночи на 16 сентября, они бушуют до 18-го, и три четверти Москвы обращаются в пепел. Французы винили генерал-губернатора Фёдора Ростопчина, по приказу которого пожарные трубы вывезли или испортили. Это самое распространённое объяснение, но о причинах пожара спорят до сих пор."
+     },
+     "pic": {
+      "file": "Napoleon in burning Moscow - Adam Albrecht (1841).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Napoleon_in_burning_Moscow_-_Adam_Albrecht_(1841).jpg",
+      "author": "Albrecht Adam",
+      "lic": "Public domain",
+      "year": 1841,
+      "cap": {
+       "en": "Albrecht Adam, Napoleon in Burning Moscow, 1841.",
+       "ru": "Альбрехт Адам. Наполеон в горящей Москве, 1841."
+      }
+     },
+     "src": [
+      [
+       "Wikipedia (en): French occupation of Moscow",
+       "https://en.wikipedia.org/wiki/French_occupation_of_Moscow"
+      ],
+      [
+       "Wikipedia (en): French invasion of Russia",
+       "https://en.wikipedia.org/wiki/French_invasion_of_Russia"
+      ]
+     ],
+     "vf": "S"
+    },
+    {
+     "y": 1812,
+     "date": [
+      "1812-09-16",
+      "1812-09-18"
+     ],
+     "date_os": [
+      "1812-09-04",
+      "1812-09-06"
+     ],
+     "ll": [
+      55.794,
+      37.553
+     ],
+     "z": 5,
+     "h": {
+      "en": "Through the fire",
+      "ru": "Сквозь пожар"
+     },
+     "t": {
+      "en": "Early on 16 September, with fire all around the Kremlin, Napoleon leaves for the Petrovsky Palace outside the city. He returns to the Kremlin on the 18th, when the fire dies down.",
+      "ru": "Ранним утром 16 сентября, когда огонь окружает Кремль, Наполеон перебирается в Петровский путевой дворец за городом. В Кремль он возвращается 18-го, когда пожар стихает."
+     },
+     "pic": {
+      "file": "Through the fire (Vereschagin).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Through_the_fire_(Vereschagin).jpg",
+      "author": "Vasily Vereshchagin",
+      "lic": "Public domain",
+      "cap": {
+       "en": "Vasily Vereshchagin, Through the Fire: Napoleon and the fire of Moscow, from his 1812 series.",
+       "ru": "Василий Верещагин. Сквозь пожар: Наполеон и московский пожар. Из серии «1812 год»."
+      }
+     },
+     "route": [
+      [
+       55.752,
+       37.6175
+      ],
+      [
+       55.794,
+       37.553
+      ]
+     ],
+     "src": [
+      [
+       "Wikipedia (en): French occupation of Moscow",
+       "https://en.wikipedia.org/wiki/French_occupation_of_Moscow"
+      ],
+      [
+       "Wikimedia Commons (mirror): Category 6. Through the fire (Vereschagin)",
+       "https://c.enwp.org/wiki/Category:6._Through_the_fire_(Vereschagin)"
+      ]
+     ],
+     "vf": "S"
+    },
+    {
+     "y": 1812,
+     "date": "1812-10-18",
+     "date_os": "1812-10-06",
+     "ll": [
+      55.1772,
+      37.0028
+     ],
+     "z": 5,
+     "h": {
+      "en": "Tarutino",
+      "ru": "Тарутино"
+     },
+     "t": {
+      "en": "Kutuzov leaves Moscow by the Ryazan road, turns west towards Podolsk and on 3 October camps at Tarutino. On 4 October General Lauriston arrives there with Napoleon’s last peace proposal; Kutuzov refuses to negotiate, and Napoleon never receives a reply. On 18 October Bennigsen attacks Murat’s vanguard: about 36,000 Russians are engaged against 20,000–26,000 French, who lose 2,000–4,500 men and 36–38 guns.",
+      "ru": "Кутузов уходит из Москвы по Рязанской дороге, поворачивает на запад, к Подольску, и 3 октября встаёт лагерем у Тарутина. 4 октября сюда приезжает генерал Лористон с последним мирным предложением Наполеона; Кутузов отказывается от переговоров, и ответа Наполеон так и не получает. 18 октября Беннигсен атакует авангард Мюрата: около 36 тысяч русских против 20–26 тысяч французов, которые теряют 2–4,5 тысячи человек и 36–38 орудий."
+     },
+     "pic": {
+      "file": "In Petrovsky palace (Waiting for peace) by V.Vereschagin.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:In_Petrovsky_palace_(Waiting_for_peace)_by_V.Vereschagin.jpg",
+      "author": "Vasily Vereshchagin",
+      "lic": "Public domain",
+      "cap": {
+       "en": "Vasily Vereshchagin, In the Petrovsky Palace (Waiting for Peace), from his 1812 series.",
+       "ru": "Василий Верещагин. В Петровском дворце (В ожидании мира). Из серии «1812 год»."
+      }
+     },
+     "route": [
+      [
+       55.752,
+       37.6175
+      ],
+      [
+       55.431,
+       37.545
+      ],
+      [
+       55.1772,
+       37.0028
+      ]
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Battle of Tarutino",
+       "https://en.wikipedia.org/wiki/Battle_of_Tarutino"
+      ],
+      [
+       "Wikipedia (en): Mikhail Kutuzov",
+       "https://en.wikipedia.org/wiki/Mikhail_Kutuzov"
+      ],
+      [
+       "Wikipedia (en): French occupation of Moscow",
+       "https://en.wikipedia.org/wiki/French_occupation_of_Moscow"
+      ],
+      [
+       "Wikipedia (en): Council at Fili",
+       "https://en.wikipedia.org/wiki/Council_at_Fili"
+      ]
+     ],
+     "vf": "U"
+    },
+    {
+     "y": 1812,
+     "date": "1812-10-19",
+     "date_os": "1812-10-07",
+     "ll": [
+      55.752,
+      37.6175
+     ],
+     "z": 5,
+     "h": {
+      "en": "Leaving Moscow",
+      "ru": "Уход из Москвы"
+     },
+     "t": {
+      "en": "After 36 days of occupation the French leave Moscow on 19 October; that night Napoleon camps at Troitskoye. Marshal Mortier is ordered to blow up the Kremlin with gunpowder laid under its walls. There is time only to damage it, and the Ivan the Great Bell Tower survives nearly unharmed.",
+      "ru": "После 36 дней оккупации французы 19 октября оставляют Москву; ночью Наполеон останавливается в Троицком. Маршалу Мортье приказано взорвать Кремль, заложив порох под стены. Времени хватает лишь на частичные разрушения, и колокольня Ивана Великого почти не пострадала."
+     },
+     "wiki": {
+      "en": "French occupation of Moscow"
+     },
+     "src": [
+      [
+       "Wikipedia (en): French occupation of Moscow",
+       "https://en.wikipedia.org/wiki/French_occupation_of_Moscow"
+      ]
+     ],
+     "vf": "S"
+    },
+    {
+     "y": 1812,
+     "date": "1812-10-24",
+     "date_os": "1812-10-12",
+     "ll": [
+      55.0217,
+      36.4583
+     ],
+     "z": 5,
+     "h": {
+      "en": "Maloyaroslavets",
+      "ru": "Малоярославец"
+     },
+     "t": {
+      "en": "Napoleon tries to march south-west. At Maloyaroslavets on 24 October about 24,000 men a side fight through the streets, and the town changes hands no fewer than eight times. The French hold it, losing 6,000–8,000 men to about 8,000 Russians, but Napoleon turns back north-west by way of Mozhaysk onto the devastated Smolensk road.",
+      "ru": "Наполеон пытается уйти на юго-запад. 24 октября у Малоярославца примерно по 24 тысячи человек с каждой стороны бьются на улицах; город не меньше восьми раз переходит из рук в руки. Французы удерживают его ценой 6–8 тысяч человек против примерно 8 тысяч у русских, но Наполеон поворачивает через Можайск на разорённую Смоленскую дорогу."
+     },
+     "wiki": {
+      "en": "Battle of Maloyaroslavets"
+     },
+     "route": [
+      [
+       55.752,
+       37.6175
+      ],
+      [
+       55.0217,
+       36.4583
+      ]
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Battle of Maloyaroslavets",
+       "https://en.wikipedia.org/wiki/Battle_of_Maloyaroslavets"
+      ]
+     ],
+     "vf": "U"
+    },
+    {
+     "y": 1812,
+     "date": "1812-11-03",
+     "date_os": "1812-10-22",
+     "ll": [
+      55.2,
+      34.25
+     ],
+     "z": 5,
+     "h": {
+      "en": "Vyazma",
+      "ru": "Вязьма"
+     },
+     "t": {
+      "en": "On the road west, at Vyazma, Mikhail Miloradovich with about 27,000 men and 80 guns attacks the corps of Davout, Ney and Eugène de Beauharnais. The morning is warm and sunny. Counts of French losses run from 6,000 to 7,000 killed, wounded or captured; the Russians lose 1,800–2,500.",
+      "ru": "На обратном пути, у Вязьмы, Михаил Милорадович с 27 тысячами человек и 80 орудиями атакует корпуса Даву, Нея и Евгения Богарне. Утро тёплое и солнечное. Французские потери оценивают в 6–7 тысяч убитыми, ранеными и пленными, русские — в 1,8–2,5 тысячи."
+     },
+     "wiki": {
+      "en": "Battle of Vyazma"
+     },
+     "route": [
+      [
+       55.0217,
+       36.4583
+      ],
+      [
+       55.5,
+       36.03
+      ],
+      [
+       55.52,
+       35.82
+      ],
+      [
+       55.2,
+       34.25
+      ]
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Battle of Vyazma",
+       "https://en.wikipedia.org/wiki/Battle_of_Vyazma"
+      ]
+     ],
+     "vf": "U"
+    },
+    {
+     "y": 1812,
+     "date": [
+      "1812-11-15",
+      "1812-11-18"
+     ],
+     "date_os": [
+      "1812-11-03",
+      "1812-11-06"
+     ],
+     "ll": [
+      54.56,
+      31.43
+     ],
+     "z": 5,
+     "h": {
+      "en": "Krasnoi",
+      "ru": "Красный"
+     },
+     "t": {
+      "en": "Beyond Smolensk, around Krasny, 50,000–60,000 Russian regulars and 20,000 Cossacks fall on 41,500 French combatants and 35,000 stragglers. The French lose 5,000–13,000 killed, wounded or drowned, 26,500 prisoners, almost all stragglers, and 228 guns. Ney’s rearguard, cut off, crosses the Dnieper on the ice at night, reduced to some 800–900 men.",
+      "ru": "За Смоленском, у Красного, 50–60 тысяч русских регулярных войск и 20 тысяч казаков обрушиваются на 41,5 тысячи французских строевых и 35 тысяч отставших. Французы теряют 5–13 тысяч убитыми, ранеными и утонувшими, 26,5 тысячи пленными, почти сплошь из отставших, и 228 орудий. Отрезанный арьергард Нея ночью переходит Днепр по льду; в нём остаётся 800–900 человек."
+     },
+     "wiki": {
+      "en": "Battle of Krasnoi"
+     },
+     "route": [
+      [
+       55.2,
+       34.25
+      ],
+      [
+       54.782,
+       32.045
+      ],
+      [
+       54.56,
+       31.43
+      ]
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Battle of Krasnoi",
+       "https://en.wikipedia.org/wiki/Battle_of_Krasnoi"
+      ]
+     ],
+     "vf": "U"
+    },
+    {
+     "y": 1812,
+     "date": [
+      "1812-11-26",
+      "1812-11-29"
+     ],
+     "date_os": [
+      "1812-11-14",
+      "1812-11-17"
+     ],
+     "ll": [
+      54.3247,
+      28.3544
+     ],
+     "z": 5,
+     "h": {
+      "en": "The Berezina",
+      "ru": "Березина"
+     },
+     "t": {
+      "en": "Near Studienka, north of Borisov, General Eblé’s pontonniers, who had disobeyed orders to destroy their equipment, build two bridges, one for infantry and one for artillery. The army has about 36,000 effectives and at least 40,000 stragglers; Chichagov and Wittgenstein attack with 61,500–64,000 men. On the 29th Eblé delays burning the bridges from seven until half past eight, and tens of thousands of stragglers are left on the east bank. Losses are put at 50,000–60,000, half of them non-combatants; Chandler says the true cost will never be known.",
+      "ru": "У Студёнки, севернее Борисова, понтонёры генерала Эбле, вопреки приказу сохранившие снаряжение, наводят два моста — для пехоты и для артиллерии. В армии около 36 тысяч строевых и не меньше 40 тысяч отставших; Чичагов и Витгенштейн атакуют силами 61,5–64 тысячи человек. 29-го Эбле оттягивает поджог мостов с семи до половины девятого утра, и десятки тысяч отставших остаются на восточном берегу. Потери оценивают в 50–60 тысяч, половина — нестроевые; по словам Чандлера, точной цены не узнать никогда."
+     },
+     "pic": {
+      "file": "Crossing the Berezina River on 17 (29) November 1812, (by Peter von Hess).jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Crossing_the_Berezina_River_on_17_(29)_November_1812,_(by_Peter_von_Hess).jpg",
+      "author": "Peter von Hess",
+      "lic": "Public domain",
+      "cap": {
+       "en": "Peter von Hess, Crossing the Berezina River on 17 (29) November 1812.",
+       "ru": "Петер фон Гесс. Переправа через Березину 17 (29) ноября 1812 года."
+      }
+     },
+     "route": [
+      [
+       54.56,
+       31.43
+      ],
+      [
+       54.508,
+       30.418
+      ],
+      [
+       54.228,
+       28.505
+      ],
+      [
+       54.3247,
+       28.3544
+      ]
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Battle of the Berezina",
+       "https://en.wikipedia.org/wiki/Battle_of_Berezina"
+      ]
+     ],
+     "vf": "U"
+    },
+    {
+     "y": 1812,
+     "date": "1812-12-05",
+     "date_os": "1812-11-23",
+     "ll": [
+      54.484,
+      26.398
+     ],
+     "z": 5,
+     "h": {
+      "en": "Napoleon leaves the army",
+      "ru": "Наполеон покидает армию"
+     },
+     "t": {
+      "en": "On 5 December, at Smorgonie (Smarhon), Napoleon leaves what remains of his army and sets off for Paris by sledge.",
+      "ru": "5 декабря в Сморгони Наполеон оставляет остатки армии и на санях уезжает в Париж."
+     },
+     "pic": {
+      "file": "Night Bivouac of Great Army.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Night_Bivouac_of_Great_Army.jpg",
+      "author": "Vasily Vereshchagin",
+      "lic": "Public domain",
+      "year": 1896,
+      "cap": {
+       "en": "Vasily Vereshchagin, Night Bivouac of the Great Army, 1896–1897.",
+       "ru": "Василий Верещагин. Ночной привал Великой армии, 1896–1897."
+      }
+     },
+     "route": [
+      [
+       54.3247,
+       28.3544
+      ],
+      [
+       54.31,
+       26.85
+      ],
+      [
+       54.484,
+       26.398
+      ]
+     ],
+     "src": [
+      [
+       "Wikipedia (en): French invasion of Russia",
+       "https://en.wikipedia.org/wiki/French_invasion_of_Russia"
+      ],
+      [
+       "Wikimedia Commons file page (OsmAnd mirror): Night Bivouac of Great Army.jpg",
+       "https://download.osmand.net/wiki/File:Night_Bivouac_of_Great_Army.jpg"
+      ]
+     ],
+     "vf": "S"
+    },
+    {
+     "y": 1812,
+     "date": "1812-12-14",
+     "date_os": "1812-12-02",
+     "ll": [
+      54.897,
+      23.886
+     ],
+     "z": 5,
+     "h": {
+      "en": "Back over the Niemen",
+      "ru": "Обратно за Неман"
+     },
+     "t": {
+      "en": "On 14 December the last invaders leave Russian territory at Kovno. Ney’s rearguard has barely a thousand men fit for action. How many came back is disputed: Charles Minard’s famous chart shows 10,000 recrossing out of 422,000, while Riehn counts fewer than 70,000 known survivors.",
+      "ru": "14 декабря последние захватчики покидают русскую землю у Ковно. В арьергарде Нея едва ли тысяча боеспособных. Сколько человек вернулось, спорят: на знаменитой диаграмме Шарля Минара обратно переходят 10 тысяч из 422 тысяч, а Рин насчитывает менее 70 тысяч известных выживших."
+     },
+     "wiki": {
+      "en": "French invasion of Russia"
+     },
+     "route": [
+      [
+       54.484,
+       26.398
+      ],
+      [
+       54.687,
+       25.28
+      ],
+      [
+       54.897,
+       23.886
+      ]
+     ],
+     "src": [
+      [
+       "Wikipedia (en): French invasion of Russia",
+       "https://en.wikipedia.org/wiki/French_invasion_of_Russia"
+      ]
+     ],
+     "vf": "U"
+    },
+    {
+     "y": 1813,
+     "date": "1813-01-02",
+     "date_os": "1812-12-21",
+     "ll": [
+      54.687,
+      25.28
+     ],
+     "z": 5,
+     "h": {
+      "en": "“Not a single enemy”",
+      "ru": "«Ни единого врага»"
+     },
+     "t": {
+      "en": "At Vilna Kutuzov, granted the title “of Smolensk” on 18 December, issues an order to the army: it stands on the frontier, and each soldier “is a saviour of the Fatherland”. On Christmas Day by the Russian calendar, 25 December, Alexander I’s manifesto, given at Vilna, declares that not one enemy remains on Russian soil. A second manifesto of the same day orders a church of Christ the Saviour to be built in Moscow.",
+      "ru": "В Вильне Кутузов, 6 (18) декабря получивший титул Смоленского, отдаёт приказ по армии: войска стоят на границе империи, и каждый солдат «есть спаситель Отечества». В Рождество, 25 декабря, Александр I в манифесте, данном в Вильне, объявляет, что на русской земле не осталось ни одного врага. Другим манифестом того же дня велено построить в Москве храм во имя Христа Спасителя."
+     },
+     "wiki": {
+      "en": "Alexander I of Russia"
+     },
+     "people": [
+      "alexander-i"
+     ],
+     "quote": {
+      "ru": "Храбрые и победоносные войска! Наконец вы на границах Империи, каждый из вас есть спаситель Отечества.",
+      "en": "Brave and victorious troops! At last you are on the borders of the Empire; each of you is a saviour of the Fatherland.",
+      "tr": "compiler",
+      "who": {
+       "en": "Mikhail Kutuzov",
+       "ru": "Михаил Кутузов"
+      },
+      "when": {
+       "en": "order to the army, Vilna, 21 December 1812 (O.S.)",
+       "ru": "приказ по армии, Вильна, 21 декабря 1812 года"
+      },
+      "src": [
+       [
+        "Приказ по армии 21 декабря 1812 г., hrono.ru",
+        "https://www.hrono.ru/libris/lib_r/18121221kut.html"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Приказ Кутузова по армии 21 декабря 1812 г., hrono.ru",
+       "https://www.hrono.ru/libris/lib_r/18121221kut.html"
+      ],
+      [
+       "Манифест 25 декабря 1812 года, doc.histrf.ru",
+       "https://doc.histrf.ru/19/manifest-ob-izgnanii-napoleona/"
+      ],
+      [
+       "Presidential Library: The Royal manifesto of Alexander I announcing the end of the Patriotic War",
+       "https://prlib.ru/en/history/618922"
+      ],
+      [
+       "Wikipedia (en): Mikhail Kutuzov",
+       "https://en.wikipedia.org/wiki/Mikhail_Kutuzov"
+      ]
+     ],
+     "vf": "V"
+    }
+   ],
+   "synchrony": [
+    {
+     "y": 1812,
+     "date": "1812-01-19",
+     "place": {
+      "en": "Ciudad Rodrigo, Spain",
+      "ru": "Сьюдад-Родриго, Испания"
+     },
+     "ll": [
+      40.6,
+      -6.533
+     ],
+     "t": {
+      "en": "Wellington’s Anglo-Portuguese army storms the French-held fortress of Ciudad Rodrigo.",
+      "ru": "Англо-португальская армия Веллингтона штурмом берёт удерживаемую французами крепость Сьюдад-Родриго."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1812",
+       "https://en.wikipedia.org/wiki/1812"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-03-19",
+     "place": {
+      "en": "Cádiz, Spain",
+      "ru": "Кадис, Испания"
+     },
+     "ll": [
+      36.527,
+      -6.288
+     ],
+     "t": {
+      "en": "The Cortes of Cádiz adopt the first modern Spanish constitution.",
+      "ru": "Кортесы в Кадисе принимают первую современную конституцию Испании."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1812",
+       "https://en.wikipedia.org/wiki/1812"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "place": {
+      "en": "Caracas, Venezuela",
+      "ru": "Каракас, Венесуэла"
+     },
+     "ll": [
+      10.506,
+      -66.915
+     ],
+     "t": {
+      "en": "An earthquake destroys Caracas, capital of Venezuela.",
+      "ru": "Землетрясение разрушает Каракас, столицу Венесуэлы."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1812",
+       "https://en.wikipedia.org/wiki/1812"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-05-11",
+     "place": {
+      "en": "London",
+      "ru": "Лондон"
+     },
+     "ll": [
+      51.4995,
+      -0.1248
+     ],
+     "t": {
+      "en": "Prime Minister Spencer Perceval is shot dead by John Bellingham in the lobby of the House of Commons.",
+      "ru": "Премьер-министра Спенсера Персиваля убивает Джон Беллингем в вестибюле Палаты общин."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1812",
+       "https://en.wikipedia.org/wiki/1812"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-05-28",
+     "date_os": "1812-05-16",
+     "place": {
+      "en": "Bucharest",
+      "ru": "Бухарест"
+     },
+     "ll": [
+      44.4268,
+      26.1025
+     ],
+     "t": {
+      "en": "Kutuzov signs the Treaty of Bucharest, ending the Russo-Turkish War; Bessarabia passes to Russia.",
+      "ru": "Кутузов подписывает Бухарестский мир, завершающий русско-турецкую войну; к России отходит Бессарабия."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1812",
+       "https://en.wikipedia.org/wiki/1812"
+      ],
+      [
+       "Wikipedia (en): 1812 in Russia",
+       "https://en.wikipedia.org/wiki/1812_in_Russia"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-06-18",
+     "place": {
+      "en": "Washington",
+      "ru": "Вашингтон"
+     },
+     "ll": [
+      38.8899,
+      -77.0091
+     ],
+     "t": {
+      "en": "Six days before the Niemen crossing, the United States declares war on Britain: the War of 1812 begins.",
+      "ru": "За шесть дней до переправы через Неман США объявляют войну Великобритании: начинается англо-американская война 1812 года."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1812",
+       "https://en.wikipedia.org/wiki/1812"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-07-22",
+     "place": {
+      "en": "Salamanca, Spain",
+      "ru": "Саламанка, Испания"
+     },
+     "ll": [
+      40.965,
+      -5.664
+     ],
+     "t": {
+      "en": "Wellington defeats the French near Salamanca; on 12 August his army enters Madrid.",
+      "ru": "Веллингтон разбивает французов под Саламанкой; 12 августа его армия входит в Мадрид."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1812",
+       "https://en.wikipedia.org/wiki/1812"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-08-16",
+     "place": {
+      "en": "Detroit",
+      "ru": "Детройт"
+     },
+     "ll": [
+      42.331,
+      -83.046
+     ],
+     "t": {
+      "en": "On the day the battle for Smolensk begins, General William Hull surrenders Fort Detroit to the British without a fight.",
+      "ru": "В тот день, когда начинается бой за Смоленск, генерал Уильям Халл без боя сдаёт британцам форт Детройт."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1812",
+       "https://en.wikipedia.org/wiki/1812"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-08-19",
+     "place": {
+      "en": "Off Nova Scotia",
+      "ru": "У берегов Новой Шотландии"
+     },
+     "t": {
+      "en": "The frigate USS Constitution defeats the British frigate Guerriere.",
+      "ru": "Американский фрегат «Конститьюшн» побеждает британский фрегат «Герьер»."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1812",
+       "https://en.wikipedia.org/wiki/1812"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-10-13",
+     "place": {
+      "en": "Queenston Heights, Upper Canada",
+      "ru": "Куинстон-Хайтс, Верхняя Канада"
+     },
+     "ll": [
+      43.16,
+      -79.05
+     ],
+     "t": {
+      "en": "British and native troops repulse an American invasion of Canada; Sir Isaac Brock is killed in the battle.",
+      "ru": "Британские войска и индейцы отбивают вторжение американцев в Канаду; в бою гибнет генерал Айзек Брок."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1812",
+       "https://en.wikipedia.org/wiki/1812"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-12-20",
+     "place": {
+      "en": "Germany",
+      "ru": "Германия"
+     },
+     "t": {
+      "en": "The first volume of the Grimms’ fairy tales is published.",
+      "ru": "Выходит первый том сказок братьев Гримм."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1812",
+       "https://en.wikipedia.org/wiki/1812"
+      ]
+     ]
+    }
+   ],
+   "src": [
+    [
+     "Wikipedia (en): French invasion of Russia",
+     "https://en.wikipedia.org/wiki/French_invasion_of_Russia"
+    ],
+    [
+     "Wikipedia (en): 1812 in Russia",
+     "https://en.wikipedia.org/wiki/1812_in_Russia"
+    ],
+    [
+     "Wikipedia (en): List of battles of the French invasion of Russia",
+     "https://en.wikipedia.org/wiki/List_of_battles_of_the_French_invasion_of_Russia"
+    ],
+    [
+     "Wikipedia (en): 1812",
+     "https://en.wikipedia.org/wiki/1812"
+    ]
+   ]
+  },
+  {
+   "id": "decembrists-1825",
+   "n": {
+    "en": "The Decembrists, 1825",
+    "ru": "Декабристы, 1825"
+   },
+   "years": [
+    1825,
+    1856
+   ],
+   "lede": {
+    "en": "When Alexander I dies far from his capital, a group of officers tries to stop the oath to Nicholas I and win a constitution. One winter day on Senate Square, a revolt in Ukraine, a trial, five gallows and thirty years of Siberia.",
+    "ru": "Когда Александр I умирает вдали от столицы, группа офицеров пытается сорвать присягу Николаю I и добиться конституции. Один зимний день на Сенатской площади, восстание на Украине, суд, пять виселиц и тридцать лет Сибири."
+   },
+   "steps": [
+    {
+     "y": 1825,
+     "date": "1825-12-01",
+     "date_os": "1825-11-19",
+     "ll": [
+      47.236,
+      38.897
+     ],
+     "z": 5,
+     "h": {
+      "en": "Death in Taganrog",
+      "ru": "Смерть в Таганроге"
+     },
+     "t": {
+      "en": "On 1 December Alexander I dies of typhus at his palace in Taganrog, on the Sea of Azov; he had caught it on a journey through southern Russia. He is buried in the Peter and Paul Cathedral in St Petersburg on 13 March 1826. A legend soon holds that he faked his death and lived on as the hermit Feodor Kuzmich.",
+      "ru": "1 декабря в Таганроге, на берегу Азовского моря, Александр I умирает от тифа, которым заразился в поездке по югу России. 13 марта 1826 года его хоронят в Петропавловском соборе Петербурга. Вскоре рождается легенда, будто император инсценировал свою смерть и жил потом отшельником Фёдором Кузьмичом."
+     },
+     "wiki": {
+      "en": "Alexander I of Russia"
+     },
+     "people": [
+      "alexander-i"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Alexander I of Russia",
+       "https://en.wikipedia.org/wiki/Alexander_I_of_Russia"
+      ]
+     ],
+     "vf": "S"
+    },
+    {
+     "y": 1825,
+     "date": "1825-12-09",
+     "date_os": "1825-11-27",
+     "ll": [
+      52.2297,
+      21.0122
+     ],
+     "z": 4,
+     "h": {
+      "en": "Two brothers, no tsar",
+      "ru": "Два брата — и ни одного царя"
+     },
+     "t": {
+      "en": "When the news reaches St Petersburg, troops and officials swear allegiance to Grand Duke Constantine on 9 December. But Constantine, in Warsaw, had privately renounced the throne two years before; Alexander had made it a condition of his marriage. For more than two weeks each brother wants the other to reign. Nicholas finally accepts, and his reign is counted from Alexander’s death; the oath to him is taken on 26 December.",
+      "ru": "Когда весть приходит в Петербург, войска и чиновники 27 ноября (9 декабря) присягают великому князю Константину. Но Константин, живущий в Варшаве, ещё за два года до того отрёкся от престола — таким было условие его брака. Больше двух недель каждый из братьев уступает трон другому. Наконец Николай соглашается; его царствование отсчитывают со дня смерти Александра, а присягу ему приносят 14 (26) декабря."
+     },
+     "wiki": {
+      "en": "Grand Duke Konstantin Pavlovich of Russia"
+     },
+     "people": [
+      "nicholas-i"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Decembrist revolt",
+       "https://en.wikipedia.org/wiki/Decembrist_revolt"
+      ],
+      [
+       "Википедия (ru): Восстание декабристов",
+       "https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B4%D0%B5%D0%BA%D0%B0%D0%B1%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%B2"
+      ],
+      [
+       "Wikipedia (en): Nicholas I of Russia",
+       "https://en.wikipedia.org/wiki/Nicholas_I_of_Russia"
+      ],
+      [
+       "Wikipedia (en): Alexander I of Russia",
+       "https://en.wikipedia.org/wiki/Alexander_I_of_Russia"
+      ]
+     ],
+     "vf": "S"
+    },
+    {
+     "y": 1825,
+     "date": "1825-12-25",
+     "date_os": "1825-12-13",
+     "ll": [
+      48.674,
+      28.85
+     ],
+     "z": 5,
+     "h": {
+      "en": "The south: Pestel arrested",
+      "ru": "Юг: арест Пестеля"
+     },
+     "t": {
+      "en": "On 25 December, the day before the rising in the capital, Pavel Pestel is arrested at Tulchin in Podolia. Seriously wounded at Borodino and given the Gold Sword for Bravery by Kutuzov, he had founded the Southern Society in 1821 and begun its programme, Russkaya Pravda (Russian Justice), the same year: immediate emancipation of the serfs with land, the end of class privileges and a centralised republic.",
+      "ru": "13 (25) декабря, накануне восстания в столице, в Тульчине на Подолье арестован Павел Пестель. Тяжело раненный при Бородине и награждённый Кутузовым золотой шпагой «За храбрость», он в 1821 году основал Южное общество и тогда же начал его программу — «Русскую правду»: немедленное освобождение крестьян с землёй, отмена сословных привилегий, централизованная республика."
+     },
+     "wiki": {
+      "en": "Pavel Pestel"
+     },
+     "quote": {
+      "ru": "Рабство должно быть решительно уничтожено",
+      "en": "Slavery must be decisively abolished",
+      "tr": "compiler",
+      "who": {
+       "en": "Pavel Pestel",
+       "ru": "Павел Пестель"
+      },
+      "when": {
+       "en": "Russkaya Pravda, chapter 3",
+       "ru": "«Русская правда», глава 3"
+      },
+      "src": [
+       [
+        "П. И. Пестель. Русская правда, constitution.garant.ru",
+        "https://constitution.garant.ru/history/act1600-1918/32000/"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Wikipedia (en): Pavel Pestel",
+       "https://en.wikipedia.org/wiki/Pavel_Pestel"
+      ],
+      [
+       "П. И. Пестель. Русская правда, constitution.garant.ru",
+       "https://constitution.garant.ru/history/act1600-1918/32000/"
+      ]
+     ],
+     "vf": "S"
+    },
+    {
+     "y": 1825,
+     "date": "1825-12-26",
+     "date_os": "1825-12-14",
+     "ll": [
+      59.9364,
+      30.3022
+     ],
+     "z": 6,
+     "h": {
+      "en": "Senate Square, morning",
+      "ru": "Сенатская площадь, утро"
+     },
+     "t": {
+      "en": "At about eleven, some 800 men of the Life Guards Moscow Regiment march onto Senate Square and form a square. Later the Guards Naval Crew and companies of the Life Grenadiers join them. The rebels are all assembled only more than two hours after the start: about 3,000 soldiers and 30 officers. They refuse to swear allegiance to Nicholas.",
+      "ru": "Около одиннадцати часов на Сенатскую площадь выходят около 800 солдат лейб-гвардии Московского полка и выстраиваются в каре. Позже к ним присоединяются Гвардейский экипаж и роты лейб-гренадер. Полностью восставшие собираются лишь спустя два с лишним часа: около 3000 солдат и 30 офицеров. Присягать Николаю они отказываются."
+     },
+     "pic": {
+      "file": "Kolman decembrists.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Kolman_decembrists.jpg",
+      "author": "Karl Kolman",
+      "lic": "Public domain",
+      "cap": {
+       "en": "Karl Kolman, the Decembrists on Senate Square, 14 (26) December 1825.",
+       "ru": "Карл Кольман. Декабристы на Сенатской площади 14 (26) декабря 1825 года."
+      }
+     },
+     "people": [
+      "nicholas-i"
+     ],
+     "src": [
+      [
+       "Википедия (ru): Восстание декабристов",
+       "https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B4%D0%B5%D0%BA%D0%B0%D0%B1%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%B2"
+      ],
+      [
+       "Wikipedia (en): Decembrist revolt",
+       "https://en.wikipedia.org/wiki/Decembrist_revolt"
+      ]
+     ],
+     "vf": "S"
+    },
+    {
+     "y": 1825,
+     "date": "1825-12-26",
+     "date_os": "1825-12-14",
+     "ll": [
+      59.9364,
+      30.3022
+     ],
+     "z": 6,
+     "h": {
+      "en": "Miloradovich falls",
+      "ru": "Гибель Милорадовича"
+     },
+     "t": {
+      "en": "Nicholas sends Count Mikhail Miloradovich, the general who beat the French at Vyazma in 1812, to talk the soldiers round. As he addresses them, Yevgeny Obolensky wounds him with a bayonet and Pyotr Kakhovsky shoots him in the back. He dies the same day in the barracks.",
+      "ru": "Николай посылает к солдатам графа Михаила Милорадовича — генерала, разбившего французов под Вязьмой в 1812 году. Во время его речи Евгений Оболенский ранит его штыком, а Пётр Каховский стреляет ему в спину. В тот же день Милорадович умирает в казармах."
+     },
+     "pic": {
+      "file": "Timm decembrists.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Timm_decembrists.jpg",
+      "author": "Vasily Timm",
+      "lic": "Public domain",
+      "cap": {
+       "en": "Vasily Timm, Senate Square on 14 (26) December 1825.",
+       "ru": "Василий Тимм. Сенатская площадь 14 (26) декабря 1825 года."
+      }
+     },
+     "src": [
+      [
+       "Wikipedia (en): Decembrist revolt",
+       "https://en.wikipedia.org/wiki/Decembrist_revolt"
+      ],
+      [
+       "Википедия (ru): Восстание декабристов",
+       "https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B4%D0%B5%D0%BA%D0%B0%D0%B1%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%B2"
+      ],
+      [
+       "Wikipedia (en): Battle of Vyazma",
+       "https://en.wikipedia.org/wiki/Battle_of_Vyazma"
+      ]
+     ],
+     "vf": "S"
+    },
+    {
+     "y": 1825,
+     "date": "1825-12-26",
+     "date_os": "1825-12-14",
+     "ll": [
+      59.9372,
+      30.306
+     ],
+     "z": 6,
+     "h": {
+      "en": "Grapeshot at dusk",
+      "ru": "Картечь в сумерках"
+     },
+     "t": {
+      "en": "Government troops surround the square: by Militsa Nechkina’s count about 9,000 infantry, 3,000 cavalry and 36 guns, with some 10,000 more in reserve. Late in the day Nicholas orders three guns to fire grapeshot; Sukhozanet’s guard artillery fires from the Admiralty Boulevard side. The rebels break. Some try to re-form on the frozen Neva and come under fire there too. Hundreds of bodies lie on the square and in the streets; the sources give no exact count.",
+      "ru": "Правительственные войска окружают каре: по подсчётам М. В. Нечкиной, около 9000 пехоты, 3000 кавалерии и 36 орудий, и ещё около 10 000 человек в резерве. К концу дня Николай приказывает трём орудиям стрелять картечью; гвардейская артиллерия И. О. Сухозанета бьёт со стороны Адмиралтейского бульвара. Восставшие бегут. Часть пытается построиться на льду Невы и попадает под огонь и там. На площади и улицах остаются сотни трупов; точного числа источники не дают."
+     },
+     "wiki": {
+      "en": "Senate Square (Saint Petersburg)"
+     },
+     "people": [
+      "nicholas-i"
+     ],
+     "src": [
+      [
+       "Википедия (ru): Восстание декабристов",
+       "https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B4%D0%B5%D0%BA%D0%B0%D0%B1%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%B2"
+      ],
+      [
+       "Wikipedia (en): Decembrist revolt",
+       "https://en.wikipedia.org/wiki/Decembrist_revolt"
+      ]
+     ],
+     "vf": "U"
+    },
+    {
+     "y": 1826,
+     "date": "1826-01-10",
+     "date_os": "1825-12-29",
+     "ll": [
+      50.183,
+      30.317
+     ],
+     "z": 5,
+     "h": {
+      "en": "The Chernigov Regiment rises",
+      "ru": "Восстание Черниговского полка"
+     },
+     "t": {
+      "en": "In the south, on 10 January, Sergey Muravyov-Apostol raises the Chernigov Regiment at Vasilkov (Vasylkiv), south-west of Kiev (Kyiv). Within five days the revolt is crushed.",
+      "ru": "На юге 29 декабря 1825 года (10 января 1826-го) Сергей Муравьёв-Апостол поднимает Черниговский полк в Василькове, к юго-западу от Киева. Через пять дней восстание подавлено."
+     },
+     "wiki": {
+      "en": "Sergey Muravyov-Apostol"
+     },
+     "src": [
+      [
+       "Wikipedia (en): Decembrist revolt",
+       "https://en.wikipedia.org/wiki/Decembrist_revolt"
+      ]
+     ],
+     "vf": "S"
+    },
+    {
+     "y": 1826,
+     "date": "1826-03-08",
+     "date_os": "1826-02-24",
+     "ll": [
+      59.95,
+      30.317
+     ],
+     "z": 5,
+     "h": {
+      "en": "Investigation and trial",
+      "ru": "Следствие и суд"
+     },
+     "t": {
+      "en": "A commission of inquiry is set up on 29 December 1825; 579 people are drawn into the case and 287 found guilty. Under arrest, Kakhovsky writes to the tsar about lawlessness, taxes and the poverty of the people. A Supreme Criminal Court created on 13 June 1826 tries 121 men: 61 of the Northern Society, 37 of the Southern and 23 United Slavs. It sentences five to quartering, 31 to beheading and the rest to hard labour, exile or the ranks; 178 soldiers run the gauntlet.",
+      "ru": "17 (29) декабря 1825 года учреждена следственная комиссия; к следствию привлечено 579 человек, виновными признаны 287. Под арестом Каховский пишет царю о беззаконии, налогах и бедности народа. Верховный уголовный суд, учреждённый 1 (13) июня 1826 года, судит 121 человека: 61 из Северного общества, 37 из Южного и 23 из Общества соединённых славян. Пятерых он приговаривает к четвертованию, 31 — к отсечению головы, остальных — к каторге, ссылке или разжалованию; 178 солдат прогнаны сквозь строй."
+     },
+     "wiki": {
+      "en": "Decembrist revolt",
+      "ru": "Восстание декабристов"
+     },
+     "quote": {
+      "ru": "Отсутствие закона и справедливости всегда и везде были причиной бедствий народов.",
+      "en": "The absence of law and justice has always and everywhere been the cause of the peoples’ misfortunes.",
+      "tr": "compiler",
+      "who": {
+       "en": "Pyotr Kakhovsky",
+       "ru": "Пётр Каховский"
+      },
+      "when": {
+       "en": "letter to Nicholas I, 24 February 1826 (O.S.)",
+       "ru": "письмо Николаю I, 24 февраля 1826 года"
+      },
+      "src": [
+       [
+        "Письма П. Г. Каховского к императору Николаю Павловичу, hrono.ru",
+        "https://hrono.ru/dokum/1800dok/1826kahov.html"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Википедия (ru): Восстание декабристов",
+       "https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B4%D0%B5%D0%BA%D0%B0%D0%B1%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%B2"
+      ],
+      [
+       "Wikipedia (en): Decembrist revolt",
+       "https://en.wikipedia.org/wiki/Decembrist_revolt"
+      ],
+      [
+       "Письма П. Г. Каховского, hrono.ru",
+       "https://hrono.ru/dokum/1800dok/1826kahov.html"
+      ]
+     ],
+     "vf": "U"
+    },
+    {
+     "y": 1826,
+     "date": "1826-07-25",
+     "date_os": "1826-07-13",
+     "ll": [
+      59.9537,
+      30.315
+     ],
+     "z": 6,
+     "h": {
+      "en": "Five on the Kronverk",
+      "ru": "Пятеро на кронверке"
+     },
+     "t": {
+      "en": "Nicholas commutes quartering to hanging. On the night of 24–25 July a gallows is put up by the light of bonfires on the eastern rampart of the Kronverk of the Peter and Paul Fortress. Hanged are Pavel Pestel, author of Russkaya Pravda; the poet Kondraty Ryleyev, head of the Northern Society; Sergey Muravyov-Apostol, leader of the Chernigov rising; Mikhail Bestuzhev-Ryumin; and Pyotr Kakhovsky, who shot Miloradovich. An obelisk was put up on the supposed site in 1975.",
+      "ru": "Николай заменяет четвертование повешением. В ночь на 13 (25) июля при свете костров на восточном валу кронверка Петропавловской крепости ставят виселицу. Казнены Павел Пестель, автор «Русской правды»; поэт Кондратий Рылеев, глава Северного общества; Сергей Муравьёв-Апостол, вожак восстания Черниговского полка; Михаил Бестужев-Рюмин и Пётр Каховский, стрелявший в Милорадовича. В 1975 году на предполагаемом месте казни поставлен обелиск."
+     },
+     "wiki": {
+      "en": "Peter and Paul Fortress"
+     },
+     "people": [
+      "nicholas-i"
+     ],
+     "src": [
+      [
+       "М. В. Нечкина. Декабристы: «Следствие и „суд“ над декабристами», hrono.ru",
+       "https://hrono.ru/libris/lib_n/nechk19.php"
+      ],
+      [
+       "Wikipedia (en): Kronverk",
+       "https://en.wikipedia.org/wiki/Kronverk"
+      ],
+      [
+       "Рылеев Кондратий Фёдорович, hrono.ru",
+       "https://www.hrono.ru/biograf/bio_r/ryleev.php"
+      ],
+      [
+       "Wikipedia (en): Decembrist revolt",
+       "https://en.wikipedia.org/wiki/Decembrist_revolt"
+      ]
+     ],
+     "vf": "V"
+    },
+    {
+     "y": 1826,
+     "date": "1826-07-25",
+     "date_os": "1826-07-13",
+     "ll": [
+      51.983,
+      116.583
+     ],
+     "z": 3,
+     "h": {
+      "en": "The road to Nerchinsk",
+      "ru": "Дорога в Нерчинск"
+     },
+     "t": {
+      "en": "The same day the first convicts set off for Siberia, bound for the mines of Nerchinsk beyond Lake Baikal. In all, more than 120 Decembrists are sent to hard labour or to settlement; the hard-labour terms in the sentence run from six years to life.",
+      "ru": "В тот же день первые осуждённые отправляются в Сибирь — на Нерчинские рудники за Байкалом. Всего свыше 120 декабристов сосланы на каторгу или на поселение; сроки каторги по приговору — от шести лет до пожизненной."
+     },
+     "wiki": {
+      "en": "Nerchinsk"
+     },
+     "route": [
+      [
+       59.95,
+       30.317
+      ],
+      [
+       55.752,
+       37.617
+      ],
+      [
+       55.796,
+       49.106
+      ],
+      [
+       56.838,
+       60.597
+      ],
+      [
+       54.985,
+       73.368
+      ],
+      [
+       56.484,
+       84.948
+      ],
+      [
+       56.015,
+       92.893
+      ],
+      [
+       52.287,
+       104.281
+      ],
+      [
+       52.033,
+       113.5
+      ],
+      [
+       51.983,
+       116.583
+      ]
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Decembrist revolt",
+       "https://en.wikipedia.org/wiki/Decembrist_revolt"
+      ],
+      [
+       "М. В. Нечкина. Декабристы, hrono.ru",
+       "https://hrono.ru/libris/lib_n/nechk19.php"
+      ]
+     ],
+     "vf": "S"
+    },
+    {
+     "y": 1826,
+     "ll": [
+      52.287,
+      104.281
+     ],
+     "z": 4,
+     "h": {
+      "en": "The wives",
+      "ru": "Жёны декабристов"
+     },
+     "t": {
+      "en": "The wives of many Decembrists, and some sisters and nieces, follow them into exile, giving up privilege and comfort. Princess Maria Volkonskaya follows her husband, Sergei Volkonsky, to Irkutsk and beyond. Led by her, the women write petition after petition, and by 1832 the convicts’ labour requirements are cancelled.",
+      "ru": "Жёны многих декабристов, а также некоторые сёстры и племянницы следуют за ними в ссылку, отказавшись от сословных привилегий и удобств. Княгиня Мария Волконская едет за мужем, Сергеем Волконским, в Иркутск и дальше. Во главе с ней женщины пишут прошение за прошением, и к 1832 году каторжные работы для осуждённых отменены."
+     },
+     "src": [
+      [
+       "Wikipedia (en): Decembrist revolt",
+       "https://en.wikipedia.org/wiki/Decembrist_revolt"
+      ]
+     ],
+     "vf": "S"
+    },
+    {
+     "y": 1827,
+     "ll": [
+      52.033,
+      113.5
+     ],
+     "z": 5,
+     "h": {
+      "en": "Chita and Pushkin’s message",
+      "ru": "Чита и послание Пушкина"
+     },
+     "t": {
+      "en": "The largest group of prisoners is held at Chita, east of Lake Baikal. In 1827 Alexander Pushkin, who had friends among them, writes his message to Siberia: keep your proud patience, the heavy chains will fall.",
+      "ru": "Самую большую группу заключённых держат в Чите, за Байкалом. В 1827 году Александр Пушкин, у которого среди них были друзья, пишет послание в Сибирь: храните гордое терпенье — оковы тяжкие падут."
+     },
+     "pic": {
+      "file": "Jakubovich by Bestuzhev.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Jakubovich_by_Bestuzhev.jpg",
+      "author": "Nikolai Bestuzhev",
+      "lic": "Public domain",
+      "cap": {
+       "en": "Nikolai Bestuzhev, portrait of the Decembrist Alexander Yakubovich.",
+       "ru": "Николай Бестужев. Портрет декабриста Александра Якубовича."
+      }
+     },
+     "people": [
+      "pushkin"
+     ],
+     "quote": {
+      "ru": "Во глубине сибирских руд / Храните гордое терпенье, / Не пропадет ваш скорбный труд / И дум высокое стремленье.",
+      "en": "Deep in the Siberian mines, keep your proud patience: your sorrowful toil and the lofty striving of your thoughts will not be lost.",
+      "tr": "compiler",
+      "who": {
+       "en": "Alexander Pushkin",
+       "ru": "Александр Пушкин"
+      },
+      "when": {
+       "en": "1827",
+       "ru": "1827"
+      },
+      "src": [
+       [
+        "А. С. Пушкин. «Во глубине сибирских руд…», ilibrary.ru",
+        "https://ilibrary.ru/text/612/p.1/index.html"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Wikipedia (en): Decembrist revolt",
+       "https://en.wikipedia.org/wiki/Decembrist_revolt"
+      ],
+      [
+       "А. С. Пушкин. «Во глубине сибирских руд…», ilibrary.ru",
+       "https://ilibrary.ru/text/612/p.1/index.html"
+      ]
+     ],
+     "vf": "S"
+    },
+    {
+     "y": 1830,
+     "ll": [
+      51.275,
+      108.844
+     ],
+     "z": 5,
+     "h": {
+      "en": "Petrovsky Zavod",
+      "ru": "Петровский Завод"
+     },
+     "t": {
+      "en": "Three years after Chita the prisoners are moved to Petrovsky Zavod. Most of them leave it between 1835 and 1837.",
+      "ru": "Через три года после Читы заключённых переводят в Петровский Завод. Большинство покидает его в 1835–1837 годах."
+     },
+     "wiki": {
+      "en": "Petrovsk-Zabaykalsky (town)"
+     },
+     "route": [
+      [
+       52.033,
+       113.5
+      ],
+      [
+       51.275,
+       108.844
+      ]
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Decembrist revolt",
+       "https://en.wikipedia.org/wiki/Decembrist_revolt"
+      ]
+     ],
+     "vf": "S"
+    },
+    {
+     "y": 1856,
+     "date": "1856-09-07",
+     "date_os": "1856-08-26",
+     "ll": [
+      55.751,
+      37.618
+     ],
+     "z": 5,
+     "h": {
+      "en": "Amnesty",
+      "ru": "Амнистия"
+     },
+     "t": {
+      "en": "Thirty years after Senate Square, on 7 September 1856, the day of Alexander II’s coronation, the surviving Decembrists are amnestied and their rights restored. The emancipation of the serfs that they had written into their programmes comes five years later.",
+      "ru": "Через тридцать лет после Сенатской площади, 26 августа (7 сентября) 1856 года, в день коронации Александра II, уцелевшие декабристы получают амнистию и восстановление в правах. Освобождение крестьян, записанное в их программах, придёт через пять лет."
+     },
+     "wiki": {
+      "en": "Alexander II of Russia"
+     },
+     "people": [
+      "alexander-ii"
+     ],
+     "src": [
+      [
+       "Wikipedia (en): Decembrist revolt",
+       "https://en.wikipedia.org/wiki/Decembrist_revolt"
+      ],
+      [
+       "Wikipedia (en): Alexander II of Russia",
+       "https://en.wikipedia.org/wiki/Alexander_II_of_Russia"
+      ]
+     ],
+     "vf": "S"
+    }
+   ],
+   "src": [
+    [
+     "Wikipedia (en): Decembrist revolt",
+     "https://en.wikipedia.org/wiki/Decembrist_revolt"
+    ],
+    [
+     "Википедия (ru): Восстание декабристов",
+     "https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B4%D0%B5%D0%BA%D0%B0%D0%B1%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%B2"
+    ],
+    [
+     "М. В. Нечкина. Декабристы, hrono.ru",
+     "https://hrono.ru/libris/lib_n/nechk19.php"
+    ]
+   ]
+  },
+  {
+   "id": "emancipation-1861",
+   "n": {
+    "en": "The Emancipation, 1861",
+    "ru": "Освобождение крестьян, 1861"
+   },
+   "years": [
+    1861,
+    1864
+   ],
+   "lede": {
+    "en": "On 3 March 1861 (19 February by the Russian calendar) Alexander II signs the manifesto that ends serfdom. Millions become free in law, but the land and its price shape village life for half a century. The same month Italy becomes a kingdom; two years later Lincoln frees the slaves of the Confederacy.",
+    "ru": "3 марта (19 февраля) 1861 года Александр II подписывает манифест об отмене крепостного права. Миллионы людей становятся свободными по закону, но земля и её цена на полвека определяют жизнь деревни. В том же месяце Италия становится королевством, а через два года Линкольн освобождает рабов Конфедерации."
+   },
+   "steps": [
+    {
+     "y": 1861,
+     "date": "1861-03-03",
+     "date_os": "1861-02-19",
+     "ll": [
+      59.9399,
+      30.3146
+     ],
+     "z": 6,
+     "h": {
+      "en": "The manifesto",
+      "ru": "Манифест"
+     },
+     "t": {
+      "en": "On 3 March (19 February by the Russian calendar), in St Petersburg, Alexander II signs the manifesto and the Regulations on peasants leaving serf dependence. Peasants gain personal freedom and civil rights; the land is declared the landowner’s property. For a transition period of two years they owe their old obligations.",
+      "ru": "3 марта (19 февраля) 1861 года в Петербурге Александр II подписывает манифест и «Положения о крестьянах, вышедших из крепостной зависимости». Крестьяне получают личную свободу и гражданские права, земля объявлена собственностью помещика. На два переходных года прежние повинности сохраняются."
+     },
+     "wiki": {
+      "en": "Emancipation reform of 1861"
+     },
+     "people": [
+      "alexander-ii"
+     ],
+     "quote": {
+      "ru": "В силу означенных новых положений, крепостные люди получат в свое время полные права свободных сельских обывателей.",
+      "en": "By virtue of these new statutes the serfs will in due course receive the full rights of free rural inhabitants.",
+      "tr": "compiler",
+      "who": {
+       "en": "Alexander II",
+       "ru": "Александр II"
+      },
+      "when": {
+       "en": "Manifesto of 19 February (3 March) 1861",
+       "ru": "Манифест 19 февраля 1861 года"
+      },
+      "src": [
+       [
+        "Манифест 19 февраля 1861 года, hist.msu.ru",
+        "https://www.hist.msu.ru/ER/Etext/feb1861.htm"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Presidential Library: Alexander II signed a Manifesto on serfdom abolishment",
+       "https://prlib.ru/en/node/619069"
+      ],
+      [
+       "Wikipedia (en): Emancipation reform of 1861",
+       "https://en.wikipedia.org/wiki/Emancipation_reform_of_1861"
+      ],
+      [
+       "Манифест 19 февраля 1861 года, hist.msu.ru",
+       "https://www.hist.msu.ru/ER/Etext/feb1861.htm"
+      ]
+     ],
+     "vf": "V"
+    },
+    {
+     "y": 1861,
+     "date": "1861-03-17",
+     "date_os": "1861-03-05",
+     "ll": [
+      55.752,
+      37.617
+     ],
+     "z": 5,
+     "h": {
+      "en": "Read in every church",
+      "ru": "Чтение в церквях"
+     },
+     "t": {
+      "en": "On 5 March by the Russian calendar, 17 March in the West, the manifesto is read out in churches across Russia during the liturgy. In many places peasants refuse to believe the text is genuine, and troops are called in to disperse crowds. The same day, in Turin, the Kingdom of Italy is proclaimed.",
+      "ru": "5 (17) марта 1861 года манифест читают во всех церквях России во время обедни. Во многих местах крестьяне не верят, что текст подлинный, и для разгона толп вызывают войска. В тот же день в Турине провозглашено Итальянское королевство."
+     },
+     "pic": {
+      "file": "Grigoriy Myasoyedov Reading of the 1861 Manifesto 1873.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Grigoriy_Myasoyedov_Reading_of_the_1861_Manifesto_1873.jpg",
+      "author": "Grigoriy Myasoyedov",
+      "lic": "Public domain",
+      "year": 1873,
+      "cap": {
+       "en": "Grigoriy Myasoyedov, The Reading of the 1861 Manifesto, 1873.",
+       "ru": "Григорий Мясоедов. Чтение Положения 19 февраля 1861 года, 1873."
+      }
+     },
+     "src": [
+      [
+       "Манифест 19 февраля 1861 года и исторический обзор, doc.histrf.ru",
+       "https://doc.histrf.ru/19/manifest-o-vsemilostiveyshem-darovanii-krepostnym-lyudyam-prav-sostoyaniya-svobodnykh-selskikh-obyva/"
+      ],
+      [
+       "Wikipedia (en): Emancipation reform of 1861",
+       "https://en.wikipedia.org/wiki/Emancipation_reform_of_1861"
+      ],
+      [
+       "Wikipedia (en): Proclamation of the Kingdom of Italy",
+       "https://en.wikipedia.org/wiki/Proclamation_of_the_Kingdom_of_Italy"
+      ]
+     ],
+     "vf": "V"
+    },
+    {
+     "y": 1861,
+     "ll": [
+      55.752,
+      37.617
+     ],
+     "z": 3,
+     "h": {
+      "en": "How many, and how much land",
+      "ru": "Сколько людей и сколько земли"
+     },
+     "t": {
+      "en": "How many were freed depends on the count. English-language histories give “more than 23 million people”; Russian figures speak of 10 million male ‘souls’ of former landlords’ serfs, who received 34 million desyatinas of land. Allotments were cut by about a fifth on average; much common land went to the landowners as ‘cut-off lands’, so woods, roads and rivers could often be used only for a fee. A peasant who could not pay could take a free quarter-size ‘pauper’s allotment’. State peasants were freed in 1866.",
+      "ru": "Сколько людей получило свободу — зависит от счёта. В англоязычных историях — «более 23 миллионов человек»; российские данные говорят о 10 миллионах душ мужского пола бывших помещичьих крестьян, получивших 34 миллиона десятин земли. Наделы урезаны в среднем примерно на пятую часть; значительная часть общинных угодий ушла помещикам как «отрезки», и пользоваться лесом, дорогами и реками часто можно было только за плату. Кто не мог платить, мог бесплатно взять надел в четверть полного — «нищенский». Государственные крестьяне освобождены в 1866 году."
+     },
+     "pic": {
+      "file": "Reading of the Manifest (Liberation of peasants) - Kustodiev, 1907.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Reading_of_the_Manifest_(Liberation_of_peasants)_-_Kustodiev,_1907.jpg",
+      "author": "Boris Kustodiev",
+      "lic": "Public domain",
+      "year": 1907,
+      "cap": {
+       "en": "Boris Kustodiev, The Reading of the Manifesto (The Liberation of the Peasants), 1907.",
+       "ru": "Борис Кустодиев. Чтение манифеста (Освобождение крестьян), 1907."
+      }
+     },
+     "src": [
+      [
+       "Wikipedia (en): Emancipation reform of 1861",
+       "https://en.wikipedia.org/wiki/Emancipation_reform_of_1861"
+      ],
+      [
+       "Исторический обзор к Манифесту 19 февраля 1861 года, doc.histrf.ru",
+       "https://doc.histrf.ru/19/manifest-o-vsemilostiveyshem-darovanii-krepostnym-lyudyam-prav-sostoyaniya-svobodnykh-selskikh-obyva/"
+      ],
+      [
+       "Presidential Library: Alexander II signed a Manifesto on serfdom abolishment",
+       "https://prlib.ru/en/node/619069"
+      ]
+     ],
+     "vf": "U"
+    },
+    {
+     "y": 1861,
+     "ll": [
+      59.939,
+      30.316
+     ],
+     "z": 4,
+     "h": {
+      "en": "The price of the land",
+      "ru": "Цена земли"
+     },
+     "t": {
+      "en": "Land had to be bought. Its price was the peasants’ quitrent capitalised at 6 per cent, that is, the yearly dues multiplied by 16⅔. The peasant paid 20–25 per cent to the landowner; the state advanced the other 75–80 per cent, which peasants repaid with 6 per cent interest over 49 years. Until redemption began they stayed ‘temporarily obligated’; an 1881 decree made redemption compulsory. Payments were cut by 13 per cent in 1883 and cancelled in 1907.",
+      "ru": "Землю нужно было выкупить. Её цена — оброк, капитализированный из 6 % годовых, то есть годовая сумма оброка, умноженная на 16⅔. 20–25 % крестьянин платил помещику, остальные 75–80 % авансировало государство, а крестьяне возвращали их с 6 % годовых в течение 49 лет. До начала выкупа они оставались «временнообязанными»; указ 1881 года сделал выкуп обязательным. В 1883 году платежи снижены на 13 %, в 1907-м — отменены."
+     },
+     "quote": {
+      "ru": "Вместе с тем им дается право выкупать усадебную их оседлость",
+      "en": "At the same time they are given the right to buy out their homesteads",
+      "tr": "compiler",
+      "who": {
+       "en": "Alexander II",
+       "ru": "Александр II"
+      },
+      "when": {
+       "en": "Manifesto of 19 February (3 March) 1861",
+       "ru": "Манифест 19 февраля 1861 года"
+      },
+      "src": [
+       [
+        "Манифест 19 февраля 1861 года, hist.msu.ru",
+        "https://www.hist.msu.ru/ER/Etext/feb1861.htm"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Исторический обзор к Манифесту 19 февраля 1861 года, doc.histrf.ru",
+       "https://doc.histrf.ru/19/manifest-o-vsemilostiveyshem-darovanii-krepostnym-lyudyam-prav-sostoyaniya-svobodnykh-selskikh-obyva/"
+      ],
+      [
+       "Wikipedia (en): Emancipation reform of 1861",
+       "https://en.wikipedia.org/wiki/Emancipation_reform_of_1861"
+      ],
+      [
+       "Манифест 19 февраля 1861 года, hist.msu.ru",
+       "https://www.hist.msu.ru/ER/Etext/feb1861.htm"
+      ]
+     ],
+     "vf": "V"
+    },
+    {
+     "y": 1861,
+     "date": "1861-04-24",
+     "date_os": "1861-04-12",
+     "ll": [
+      55.796,
+      49.106
+     ],
+     "z": 4,
+     "h": {
+      "en": "Bezdna",
+      "ru": "Бездна"
+     },
+     "t": {
+      "en": "On 24 April (12 April by the Russian calendar) peasant unrest at the village of Bezdna in Kazan Governorate is crushed. The official report counts 70 dead and 100 wounded. After an investigation five peasants are found guilty of ‘agitation’, not of revolt.",
+      "ru": "12 (24) апреля волнения крестьян в селе Бездна Казанской губернии подавлены. Официальный отчёт насчитал 70 убитых и 100 раненых. После следствия пятеро крестьян признаны виновными — в «подстрекательстве», а не в бунте."
+     },
+     "wiki": {
+      "en": "Bezdna Unrest"
+     },
+     "src": [
+      [
+       "Wikipedia (en): Emancipation reform of 1861",
+       "https://en.wikipedia.org/wiki/Emancipation_reform_of_1861"
+      ]
+     ],
+     "vf": "S"
+    },
+    {
+     "y": 1862,
+     "ll": [
+      55.752,
+      37.617
+     ],
+     "z": 5,
+     "h": {
+      "en": "“Young Russia”",
+      "ru": "«Молодая Россия»"
+     },
+     "t": {
+      "en": "In May 1862 a proclamation, Young Russia, circulates in St Petersburg, Moscow and other cities. Its author, Pyotr Zaichnevsky, accuses the tsar of taking land from the people with the help of bayonets and calls for a bloody revolution, a federal republic of village communes and equal rights for women.",
+      "ru": "В мае 1862 года в Петербурге, Москве и других городах расходится прокламация «Молодая Россия». Её автор Пётр Заичневский обвиняет царя в том, что тот, опираясь на штыки, отрезает у народа землю, и призывает к кровавой революции, федеративной республике сельских общин и равноправию женщин."
+     },
+     "quote": {
+      "ru": "Опираясь на сотни тысяч штыков, царь отрезывает у большей части народа (у казенных крестьян) землю,",
+      "en": "Leaning on hundreds of thousands of bayonets, the tsar cuts the land away from the greater part of the people (the state peasants),",
+      "tr": "compiler",
+      "who": {
+       "en": "Pyotr Zaichnevsky",
+       "ru": "Пётр Заичневский"
+      },
+      "when": {
+       "en": "Young Russia, May 1862",
+       "ru": "«Молодая Россия», май 1862 года"
+      },
+      "src": [
+       [
+        "«Молодая Россия», hist.msu.ru",
+        "https://www.hist.msu.ru/ER/Etext/molrus.htm"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "«Молодая Россия», hist.msu.ru",
+       "https://www.hist.msu.ru/ER/Etext/molrus.htm"
+      ]
+     ],
+     "vf": "V"
+    },
+    {
+     "y": 1863,
+     "date": "1863-01-01",
+     "ll": [
+      38.8977,
+      -77.0365
+     ],
+     "z": 5,
+     "h": {
+      "en": "Washington, 1 January 1863",
+      "ru": "Вашингтон, 1 января 1863 года"
+     },
+     "t": {
+      "en": "Across the Atlantic, Abraham Lincoln’s Emancipation Proclamation takes effect. The preliminary proclamation of 22 September 1862, issued five days after Antietam, had promised that slaves in the rebel states would be “then, thenceforward, and forever free”. It covers more than 3.5 million of the country’s 4 million enslaved people, though only 25,000–75,000 are freed at once. Slavery ends nationwide with the Thirteenth Amendment in December 1865.",
+      "ru": "По ту сторону Атлантики вступает в силу Прокламация об освобождении рабов Авраама Линкольна. Предварительная прокламация 22 сентября 1862 года, изданная через пять дней после сражения при Энтитеме, обещала, что рабы мятежных штатов станут свободны «отныне и навсегда». Она касается более 3,5 миллиона из 4 миллионов рабов страны, хотя сразу свободу получают лишь 25–75 тысяч. Рабство во всей стране отменит Тринадцатая поправка в декабре 1865 года."
+     },
+     "wiki": {
+      "en": "Emancipation Proclamation"
+     },
+     "src": [
+      [
+       "Wikipedia (en): Emancipation Proclamation",
+       "https://en.wikipedia.org/wiki/Emancipation_Proclamation"
+      ]
+     ],
+     "vf": "S"
+    },
+    {
+     "y": 1864,
+     "date": "1864-03-02",
+     "date_os": "1864-02-19",
+     "ll": [
+      52.2297,
+      21.0122
+     ],
+     "z": 5,
+     "h": {
+      "en": "The peasants of Poland",
+      "ru": "Крестьяне Царства Польского"
+     },
+     "t": {
+      "en": "After the uprising of 1863 in the western provinces, a decree signed in St Petersburg on 19 February 1864 by the Russian calendar, three years to the day after the manifesto, gives the peasants of the Kingdom of Poland the land they hold in full ownership, frees them from their old obligations to the landlords and makes them pay a land tax to the state.",
+      "ru": "После восстания 1863 года в западных губерниях указ, подписанный в Петербурге 19 февраля (2 марта) 1864 года — ровно через три года после манифеста, — передаёт крестьянам Царства Польского занятые ими земли в полную собственность, освобождает их от прежних повинностей помещикам и обязывает платить государству поземельный налог."
+     },
+     "quote": {
+      "ru": "поступают в полную собственность крестьян, теми землями владеющих.",
+      "en": "…pass into the full ownership of the peasants who hold those lands.",
+      "tr": "compiler",
+      "who": {
+       "en": "Alexander II",
+       "ru": "Александр II"
+      },
+      "when": {
+       "en": "Decree of 19 February (2 March) 1864",
+       "ru": "Указ 19 февраля 1864 года"
+      },
+      "src": [
+       [
+        "Указ об устройстве крестьян Царства Польского, hist.msu.ru",
+        "https://www.hist.msu.ru/ER/Etext/poland63.htm"
+       ]
+      ]
+     },
+     "people": [
+      "alexander-ii"
+     ],
+     "src": [
+      [
+       "Указ об устройстве крестьян Царства Польского, hist.msu.ru",
+       "https://www.hist.msu.ru/ER/Etext/poland63.htm"
+      ],
+      [
+       "Исторический обзор к Манифесту 19 февраля 1861 года, doc.histrf.ru",
+       "https://doc.histrf.ru/19/manifest-o-vsemilostiveyshem-darovanii-krepostnym-lyudyam-prav-sostoyaniya-svobodnykh-selskikh-obyva/"
+      ]
+     ],
+     "vf": "V"
+    }
+   ],
+   "synchrony": [
+    {
+     "y": 1861,
+     "date": "1861-02-08",
+     "place": {
+      "en": "United States",
+      "ru": "США"
+     },
+     "t": {
+      "en": "The Confederate States of America are formed by the first seven break-away states.",
+      "ru": "Первые семь отделившихся штатов образуют Конфедеративные Штаты Америки."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1861",
+       "https://en.wikipedia.org/wiki/1861"
+      ]
+     ]
+    },
+    {
+     "y": 1861,
+     "date": "1861-02-27",
+     "place": {
+      "en": "Warsaw",
+      "ru": "Варшава"
+     },
+     "ll": [
+      52.2297,
+      21.0122
+     ],
+     "t": {
+      "en": "Russian troops fire on a crowd in Warsaw protesting against Russian rule, killing five.",
+      "ru": "В Варшаве русские войска стреляют в толпу, протестующую против русского владычества; пятеро убиты."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1861",
+       "https://en.wikipedia.org/wiki/1861"
+      ]
+     ]
+    },
+    {
+     "y": 1861,
+     "date": "1861-03-04",
+     "place": {
+      "en": "Washington",
+      "ru": "Вашингтон"
+     },
+     "ll": [
+      38.8899,
+      -77.0091
+     ],
+     "t": {
+      "en": "The day after Alexander II signs the manifesto, Abraham Lincoln is sworn in as the 16th president of the United States.",
+      "ru": "На следующий день после подписания манифеста Авраам Линкольн приносит присягу как 16-й президент США."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1861",
+       "https://en.wikipedia.org/wiki/1861"
+      ]
+     ]
+    },
+    {
+     "y": 1861,
+     "date": "1861-03-17",
+     "place": {
+      "en": "Turin, Palazzo Carignano",
+      "ru": "Турин, палаццо Кариньяно"
+     },
+     "ll": [
+      45.0697,
+      7.6855
+     ],
+     "t": {
+      "en": "The Kingdom of Italy is proclaimed: by law no. 4761 Victor Emmanuel II takes for himself and his successors the title of King of Italy. Only the Triveneto and Lazio, with Rome, remain outside.",
+      "ru": "Провозглашено Итальянское королевство: законом № 4761 Виктор Эммануил II принимает для себя и своих преемников титул короля Италии. Вне королевства остаются лишь Венето с соседними землями и Лацио с Римом."
+     },
+     "src": [
+      [
+       "Wikipedia (en): Proclamation of the Kingdom of Italy",
+       "https://en.wikipedia.org/wiki/Proclamation_of_the_Kingdom_of_Italy"
+      ],
+      [
+       "Wikipedia (en): 1861",
+       "https://en.wikipedia.org/wiki/1861"
+      ]
+     ]
+    },
+    {
+     "y": 1861,
+     "date": "1861-04-12",
+     "place": {
+      "en": "Fort Sumter, South Carolina",
+      "ru": "Форт Самтер, Южная Каролина"
+     },
+     "ll": [
+      32.7523,
+      -79.8747
+     ],
+     "t": {
+      "en": "The American Civil War begins with the bombardment of Fort Sumter.",
+      "ru": "Обстрелом форта Самтер начинается Гражданская война в США."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1861",
+       "https://en.wikipedia.org/wiki/1861"
+      ]
+     ]
+    },
+    {
+     "y": 1861,
+     "date": "1861-06-06",
+     "place": {
+      "en": "Turin",
+      "ru": "Турин"
+     },
+     "ll": [
+      45.0703,
+      7.6869
+     ],
+     "t": {
+      "en": "Camillo Benso, Count of Cavour, Italy’s first prime minister, dies.",
+      "ru": "Умирает граф Камилло Бенсо ди Кавур, первый премьер-министр Италии."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1861",
+       "https://en.wikipedia.org/wiki/1861"
+      ]
+     ]
+    },
+    {
+     "y": 1861,
+     "date": "1861-06-15",
+     "place": {
+      "en": "Mexico City",
+      "ru": "Мехико"
+     },
+     "ll": [
+      19.4326,
+      -99.1332
+     ],
+     "t": {
+      "en": "Benito Juárez is formally elected President of Mexico and temporarily stops payments on the foreign debt.",
+      "ru": "Бенито Хуарес официально избран президентом Мексики и временно прекращает выплаты по внешнему долгу."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1861",
+       "https://en.wikipedia.org/wiki/1861"
+      ]
+     ]
+    },
+    {
+     "y": 1861,
+     "date": "1861-07-21",
+     "place": {
+      "en": "Manassas Junction, Virginia",
+      "ru": "Манассас, Виргиния"
+     },
+     "ll": [
+      38.8128,
+      -77.5214
+     ],
+     "t": {
+      "en": "The first major battle of the Civil War ends in a Confederate victory.",
+      "ru": "Первое крупное сражение Гражданской войны заканчивается победой конфедератов."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1861",
+       "https://en.wikipedia.org/wiki/1861"
+      ]
+     ]
+    },
+    {
+     "y": 1865,
+     "date": "1865-12-06",
+     "place": {
+      "en": "United States",
+      "ru": "США"
+     },
+     "t": {
+      "en": "Ratification of the Thirteenth Amendment is completed: slavery becomes unconstitutional throughout the United States.",
+      "ru": "Завершена ратификация Тринадцатой поправки: рабство запрещено по всей территории США."
+     },
+     "src": [
+      [
+       "Wikipedia (en): Emancipation Proclamation",
+       "https://en.wikipedia.org/wiki/Emancipation_Proclamation"
+      ]
+     ]
+    }
+   ],
+   "src": [
+    [
+     "Wikipedia (en): Emancipation reform of 1861",
+     "https://en.wikipedia.org/wiki/Emancipation_reform_of_1861"
+    ],
+    [
+     "Манифест 19 февраля 1861 года и исторический обзор, doc.histrf.ru",
+     "https://doc.histrf.ru/19/manifest-o-vsemilostiveyshem-darovanii-krepostnym-lyudyam-prav-sostoyaniya-svobodnykh-selskikh-obyva/"
+    ],
+    [
+     "Манифест 19 февраля 1861 года, hist.msu.ru",
+     "https://www.hist.msu.ru/ER/Etext/feb1861.htm"
+    ],
+    [
+     "Wikipedia (en): 1861",
+     "https://en.wikipedia.org/wiki/1861"
+    ]
+   ]
+  }
+ ],
+ "notes": {
+  "en": "Thin or open. (1) Pictures: commons.wikimedia.org pages could not be opened from this session (every fetch failed at the site), so exact file names and page URLs come from Commons search listings; ‘Public domain’ follows from the makers’ dates (all died by 1927; reproductions of two-dimensional works). Only ‘Night Bivouac of Great Army.jpg’ was checked on a mirror of its file page (licence: public domain, PD-Art). Re-check the other 14 file pages before display. (2) Roubaud’s Borodino panorama: five Commons files found (‘Battle of Borodino panorama - detail 01.jpg’, ‘… detail 03.jpg’, ‘… detail 04.jpg’, ‘… detail 05.jpg’, ‘Battle of Borodino panorama fragment 1.jpg’) but not used, because photographer and licence could not be read. (3) Viskovatov: Commons ‘Category:Historical description of the clothes and weapons of Russian troops’ exists, but its plates are named by number only (e.g. ‘17 2397 Book illustrations of Historical description of the clothes and weapons of Russian troops.jpg’), so no plate could be matched to an 1812 uniform, musket or cannon; no uniforms step. (4) Other files found and unused: ‘В Кремле - пожар.jpg’, ‘Return from Petrovsky palace by V.Vereschagin.jpg’, ‘Albrecht Adam Schlacht bei Borodino.jpg’, ‘Hess Berezina.jpg’, ‘Crossing the Berezina River, by Peter von Hess.jpg’, ‘Battle vyazma.jpg’, ‘Krasnoi.jpg’ (authors not shown in the listing), ‘Peterburg, Senate Square, 1825, dec. 14.jpg’, ‘Чтение Положения 1861 года.jpg’, ‘Emancipation of the serfs in 1861.jpg’. (5) Vasilisa Kozhina rests on one line in an English list article; no article on her was opened. Ekaterina Trubetskaya: no source opened, so she is not named. The ru article on the revolt does not name the monument beside which the rebels stood, so the Bronze Horseman is not stated. Pushkin’s ‘1827’ is the standard dating; the text page opened prints no year. (6) Disputed numbers are flagged vf ‘U’ on each step (extra key). The English Decembrist article gives both 121 tried and ‘fifteen out of 124’. (7) date_os where the source gave one style only is computed (Julian = Gregorian − 12 days in the nineteenth century). (8) Each route links the previous step to this one; the Siberian route on ‘The road to Nerchinsk’ is the approximate line of the main road (Moscow–Kazan–Yekaterinburg–Omsk–Tomsk–Krasnoyarsk–Irkutsk–Chita), not a documented itinerary. Other coordinates are town centres or the battlefield points given by the articles. (9) ‘people’ ids (alexander-i, nicholas-i, alexander-ii, pushkin) are assumed slugs; reconcile them with rulers.json and literature.json. (10) English renderings of Russian quotations are the compiler’s literal translations (tr: compiler); no public-domain English translation was opened. (11) No synchrony for the Decembrists: the year pages for 1825–1826 were not reachable within the search budget. Latin American independence appears only as the Caracas earthquake. Searches used: 30 of 30.",
+  "ru": "Слабые места. (1) Иллюстрации: страницы commons.wikimedia.org из этой сессии не открывались, поэтому точные имена файлов и адреса страниц взяты из выдачи поиска по Commons; статус «общественное достояние» следует из дат жизни авторов (все умерли не позже 1927 года). Лицензия проверена на зеркале страницы только у «Night Bivouac of Great Army.jpg»; остальные 14 файлов перед показом нужно проверить. (2) Панорама Рубо: найдено пять файлов, но не использованы — фотограф и лицензия неизвестны. (3) Висковатов: категория на Commons есть, но таблицы названы только номерами, сопоставить их с мундирами, ружьями и пушками 1812 года не удалось. (4) Кожина опирается на одну строку англоязычного списка; Е. И. Трубецкая не названа — источник не открыт; памятник, у которого стояло каре, в открытом тексте не назван; год «1827» у Пушкина — общепринятая датировка. (5) Спорные цифры помечены vf «U». (6) date_os, где источник давал один стиль, вычислен (разница 12 дней). (7) Сибирский маршрут — приблизительная линия Сибирского тракта. (8) Идентификаторы people — предполагаемые. (9) Английские переводы цитат — дословные переводы составителя. (10) Синхронии для декабристов нет. Использовано поисков: 30 из 30."
+ }
+}

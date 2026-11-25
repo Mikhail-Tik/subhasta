@@ -1,0 +1,593 @@
+{
+ "asof": "2026-11-25",
+ "sources": [
+  {
+   "id": "manifesto-1812-12-25",
+   "n": {
+    "en": "Manifesto on giving thanks to God for the deliverance of Russia from the enemy invasion",
+    "ru": "Манифест «О принесении Господу Богу благодарения за освобождение России от нашествия неприятельского»"
+   },
+   "kind": "manifesto",
+   "who": {
+    "en": "Alexander I",
+    "ru": "Александр I"
+   },
+   "y": 1813,
+   "date": "1813-01-06",
+   "date_os": "1812-12-25",
+   "place": {
+    "en": "Vilna (Vilnius)",
+    "ru": "Вильна (Вильнюс)"
+   },
+   "ll": [
+    54.687,
+    25.28
+   ],
+   "lang": "ru",
+   "text_url": "https://doc.histrf.ru/19/manifest-ob-izgnanii-napoleona/",
+   "excerpt": {
+    "ru": "Бог и весь свет тому свидетель, с какими желаниями и силами неприятель вступил в любезное Наше Отечество. … Полмиллиона пеших и конных воинов и около полутора тысячи пушек следовало за ним … уже нет ни единого врага на лице земли Нашей",
+    "en": "God and the whole world are witness with what designs and what forces the enemy entered Our beloved Fatherland. … Half a million foot and horse and about fifteen hundred guns followed him … there is now not a single enemy on the face of Our land",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "Alexander I’s Christmas manifesto, given at Vilna, announcing the expulsion of the Grande Armée; the full text is published from the Russian State Historical Archive (fond 1329). It was read at the General Assembly of the Senate on 30 December 1812.",
+    "ru": "Рождественский манифест Александра I, данный в Вильне, об изгнании Великой армии; полный текст опубликован по документу РГИА (ф. 1329). Зачитан в Общем собрании Сената 30 декабря 1812 года."
+   },
+   "tags": [
+    "napoleon-russia-1812",
+    "alexander-i"
+   ],
+   "src": [
+    [
+     "Исторические материалы (doc.histrf.ru): Манифест 25 декабря 1812 года",
+     "https://doc.histrf.ru/19/manifest-ob-izgnanii-napoleona/"
+    ],
+    [
+     "Presidential Library: The Royal manifesto of Alexander I announcing the end of the Patriotic War",
+     "https://prlib.ru/en/history/618922"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "kutuzov-report-borodino-1812-08-27",
+   "n": {
+    "en": "Kutuzov’s report to Alexander I on the Battle of Borodino",
+    "ru": "Рапорт М. И. Кутузова Александру I о сражении при Бородине"
+   },
+   "kind": "letter",
+   "who": {
+    "en": "Mikhail Kutuzov",
+    "ru": "Михаил Кутузов"
+   },
+   "y": 1812,
+   "date": "1812-09-08",
+   "date_os": "1812-08-27",
+   "place": {
+    "en": "Borodino position",
+    "ru": "Позиция при Бородине"
+   },
+   "ll": [
+    55.52,
+    35.82
+   ],
+   "lang": "ru",
+   "text_url": "https://www.hrono.ru/dokum/1800dok/18120827kut.html",
+   "excerpt": {
+    "ru": "неприятель нигде не выиграл ни на шаг земли с превосходными своими силами … Потеря с обеих сторон велика. … я взял намерение отступить 6 верст, что будет за Можайском",
+    "en": "the enemy nowhere gained a single step of ground, for all his superior forces … The losses on both sides are great. … I have resolved to fall back six versts, which will be beyond Mozhaysk",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "Kutuzov’s first report on Borodino, written the day after the battle. The edition’s notes say Alexander I edited it and struck out the passage on retreating beyond Mozhaysk. Published in ‘Borodino. Documents, letters, memoirs’ (Moscow, 1962), no. 89.",
+    "ru": "Первый рапорт Кутузова о Бородине, написанный на следующий день после сражения. По примечаниям издания, Александр I правил текст и вычеркнул слова об отступлении за Можайск. Опубликован: «Бородино. Документы, письма, воспоминания» (М., 1962), № 89."
+   },
+   "tags": [
+    "napoleon-russia-1812",
+    "alexander-i"
+   ],
+   "src": [
+    [
+     "ХРОНОС (hrono.ru): Рапорт М. И. Кутузова Александру I о сражении при Бородине",
+     "https://www.hrono.ru/dokum/1800dok/18120827kut.html"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "kutuzov-draft-report-borodino-1812",
+   "n": {
+    "en": "Kutuzov’s detailed report to Alexander I on the Battle of Borodino (draft)",
+    "ru": "Донесение М. И. Кутузова Александру I о сражении при Бородине (черновик)"
+   },
+   "kind": "letter",
+   "who": {
+    "en": "Mikhail Kutuzov",
+    "ru": "Михаил Кутузов"
+   },
+   "y": 1812,
+   "place": {
+    "en": "Borodino and Mozhaysk",
+    "ru": "Бородино и Можайск"
+   },
+   "ll": [
+    55.52,
+    35.82
+   ],
+   "lang": "ru",
+   "text_url": "https://www.hrono.ru/dokum/1800dok/181208kutuz.html",
+   "excerpt": {
+    "ru": "неприятель потерял убитыми и ранеными 42 генерала, множество штаб- и обер-офицеров и за 40 тыс. рядовых … с нашей стороны потеря состоит до 25 тыс. человек, в числе коих 13 генералов убитых и раненых … Сей день пребудет вечным памятником мужества и отличной храбрости российских воинов",
+    "en": "the enemy lost in killed and wounded 42 generals, a great many staff and junior officers and over 40,000 men … on our side the loss amounts to up to 25,000 men, among them 13 generals killed and wounded … This day will remain an eternal monument to the courage and outstanding bravery of the Russian soldiers",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "Unsigned draft in Kutuzov’s name, dated only ‘August 1812’: the rearguard fight at the Kolotsky monastery on 24 August (O.S.), the main battle, Bagration’s wound and the withdrawal to the heights by Mozhaysk. Its loss figures differ sharply from modern estimates.",
+    "ru": "Неподписанный черновик от имени Кутузова, датированный лишь «август 1812»: арьергардный бой у Колоцкого монастыря 24 августа, само сражение, ранение Багратиона и отход к Можайску. Цифры потерь резко расходятся с современными оценками."
+   },
+   "tags": [
+    "napoleon-russia-1812"
+   ],
+   "src": [
+    [
+     "ХРОНОС (hrono.ru): Донесение М. И. Кутузова Александру I о сражении при Бородине (док. № 131)",
+     "https://www.hrono.ru/dokum/1800dok/181208kutuz.html"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "kutuzov-order-vilna-1812-12-21",
+   "n": {
+    "en": "Kutuzov’s order to the army at Vilna",
+    "ru": "Приказ М. И. Кутузова по армии, Вильна"
+   },
+   "kind": "decree",
+   "who": {
+    "en": "Mikhail Kutuzov",
+    "ru": "Михаил Кутузов"
+   },
+   "y": 1813,
+   "date": "1813-01-02",
+   "date_os": "1812-12-21",
+   "place": {
+    "en": "Vilna (Vilnius)",
+    "ru": "Вильна (Вильнюс)"
+   },
+   "ll": [
+    54.687,
+    25.28
+   ],
+   "lang": "ru",
+   "text_url": "https://www.hrono.ru/libris/lib_r/18121221kut.html",
+   "excerpt": {
+    "ru": "Храбрые и победоносные войска! Наконец вы на границах Империи, каждый из вас есть спаситель Отечества. … Пройдем границы и потщимся довершить поражение неприятеля на собственных полях его.",
+    "en": "Brave and victorious troops! At last you are on the borders of the Empire; each of you is a saviour of the Fatherland. … Let us cross the frontier and strive to complete the enemy’s defeat on his own fields.",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "Kutuzov’s order of the day as the army reaches the frontier, announcing the end of the campaign in Russia and the war beyond it. Text as published in A. V. Shishov, ‘The Unknown Kutuzov’ (Moscow, 2002).",
+    "ru": "Приказ по армии на границе империи: кампания в России окончена, война продолжится за её пределами. Текст по изданию: А. В. Шишов. Неизвестный Кутузов (М., 2002)."
+   },
+   "tags": [
+    "napoleon-russia-1812"
+   ],
+   "src": [
+    [
+     "ХРОНОС (hrono.ru): Приказ по армии, 21 декабря 1812 г.",
+     "https://www.hrono.ru/libris/lib_r/18121221kut.html"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "davydov-diary-1812",
+   "n": {
+    "en": "Denis Davydov, Diary of Partisan Actions of 1812",
+    "ru": "Денис Давыдов. Дневник партизанских действий 1812 года"
+   },
+   "kind": "memoir",
+   "who": {
+    "en": "Denis Davydov",
+    "ru": "Денис Давыдов"
+   },
+   "y": 1812,
+   "place": {
+    "en": "Smolensk road between Vyazma and Mozhaysk",
+    "ru": "Смоленская дорога между Вязьмой и Можайском"
+   },
+   "ll": [
+    55.4267,
+    34.8211
+   ],
+   "lang": "ru",
+   "text_url": "https://militera.lib.ru/memo/russian/davydov_dv/05.html",
+   "excerpt": {
+    "ru": "Получа пятьдесят гусар и вместо ста пятидесяти — восемьдесят казаков … Я надел мужичий кафтан, стал отпускать бороду … Сей наезд доставил нам сто девятнадцать рядовых, двух офицеров",
+    "en": "Having received fifty hussars and, instead of a hundred and fifty, eighty Cossacks … I put on a peasant’s coat and began to let my beard grow … This raid brought us a hundred and nineteen men and two officers",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "Davydov’s own account of his partisan detachment from 29 August (O.S.) 1812: the base at Skugorevo, the raids on the Smolensk road, the peasants and the prisoners. Chapter II of his ‘Military Notes’.",
+    "ru": "Рассказ Давыдова о его партизанской партии с 29 августа 1812 года: стоянка в Скугореве, набеги на Смоленскую дорогу, крестьяне и пленные. Глава II его «Военных записок»."
+   },
+   "tags": [
+    "napoleon-russia-1812"
+   ],
+   "src": [
+    [
+     "Военная литература (militera.lib.ru): Д. В. Давыдов. Военные записки, гл. II",
+     "https://militera.lib.ru/memo/russian/davydov_dv/05.html"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "griois-borodino",
+   "n": {
+    "en": "Griois, memoir of the Battle of Borodino (Russian translation, 1912)",
+    "ru": "Гриуа. Бородино. Воспоминания (русский перевод 1912 года)"
+   },
+   "kind": "memoir",
+   "who": {
+    "en": "Griois, a French participant in the campaign",
+    "ru": "Гриуа, французский участник похода"
+   },
+   "y": 1812,
+   "place": {
+    "en": "Borodino",
+    "ru": "Бородино"
+   },
+   "ll": [
+    55.52,
+    35.82
+   ],
+   "lang": "ru",
+   "text_url": "https://www.hrono.ru/libris/lib_n/12n075.php",
+   "excerpt": {
+    "ru": "С обеих сторон огонь был ужасен. … Обширное пространство, на котором шла битва, было во всех направлениях изрыто ядрами.",
+    "en": "On both sides the fire was terrible. … The wide space where the battle was fought was ploughed up in every direction by cannonballs.",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "A Grande Armée participant’s view of Borodino, from the collection ‘The French in Russia. 1812, from the memoirs of foreign contemporaries’ (Moscow: Zadruga, 1912), spelling checked against the 2004 edition. Original in French; the 1912 translation is in the public domain in the United States.",
+    "ru": "Бородино глазами участника Великой армии — из сборника «Французы в России. 1812 г. По воспоминаниям современников-иностранцев» (М.: Задруга, 1912); орфография сверена с изданием 2004 года. Оригинал на французском."
+   },
+   "tags": [
+    "napoleon-russia-1812"
+   ],
+   "src": [
+    [
+     "ХРОНОС (hrono.ru): Гриуа. Бородино",
+     "https://www.hrono.ru/libris/lib_n/12n075.php"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "kakhovsky-letters-1826",
+   "n": {
+    "en": "Letters of Pyotr Kakhovsky to Emperor Nicholas I and Adjutant-General Levashov",
+    "ru": "Письма Петра Григорьевича Каховского к императору Николаю Павловичу и генерал-адъютанту Левашову"
+   },
+   "kind": "letter",
+   "who": {
+    "en": "Pyotr Kakhovsky",
+    "ru": "Пётр Каховский"
+   },
+   "y": 1826,
+   "date": [
+    "1826-03-08",
+    "1826-04-16"
+   ],
+   "date_os": [
+    "1826-02-24",
+    "1826-04-04"
+   ],
+   "place": {
+    "en": "St Petersburg",
+    "ru": "Санкт-Петербург"
+   },
+   "ll": [
+    59.939,
+    30.316
+   ],
+   "lang": "ru",
+   "text_url": "https://hrono.ru/dokum/1800dok/1826kahov.html",
+   "excerpt": {
+    "ru": "Отсутствие закона и справедливости всегда и везде были причиной бедствий народов.",
+    "en": "The absence of law and justice has always and everywhere been the cause of the peoples’ misfortunes.",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "Written under investigation, between 24 February and 4 April 1826 (O.S.): arbitrary governors, no law or justice, heavy taxes and monopolies explain 14 December. From A. K. Borozdin’s collection ‘From the letters and testimonies of the Decembrists’ (St Petersburg, 1906).",
+    "ru": "Написаны под следствием, с 24 февраля по 4 апреля 1826 года: произвол губернаторов, отсутствие закона и справедливости, тяжёлые налоги и монополии объясняют 14 декабря. По сборнику А. К. Бороздина «Из писем и показаний декабристов» (СПб., 1906)."
+   },
+   "tags": [
+    "decembrists-1825",
+    "nicholas-i"
+   ],
+   "src": [
+    [
+     "ХРОНОС (hrono.ru): Пётр Каховский — Николаю I",
+     "https://hrono.ru/dokum/1800dok/1826kahov.html"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "pestel-russkaya-pravda",
+   "n": {
+    "en": "Pavel Pestel, Russkaya Pravda (Russian Justice)",
+    "ru": "Павел Пестель. Русская правда"
+   },
+   "kind": "law",
+   "who": {
+    "en": "Pavel Pestel",
+    "ru": "Павел Пестель"
+   },
+   "y": 1821,
+   "place": {
+    "en": "Tulchin (Tulchyn)",
+    "ru": "Тульчин"
+   },
+   "ll": [
+    48.674,
+    28.85
+   ],
+   "lang": "ru",
+   "text_url": "https://constitution.garant.ru/history/act1600-1918/32000/",
+   "excerpt": {
+    "ru": "Рабство должно быть решительно уничтожено … Дворянство должно непременно на веки отречься от гнусного преимущества обладать другими Людьми. … Сам же Нижний Новгород назначается Столицею Российского Государства под названием Владимира.",
+    "en": "Slavery must be decisively abolished … The nobility must without fail renounce for ever the vile privilege of owning other people. … Nizhny Novgorod itself is appointed the Capital of the Russian State under the name of Vladimir.",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "The constitutional programme of the Southern Society, begun by Pestel in 1821: abolition of serfdom, equal laws across the state, a republic, a new capital at Nizhny Novgorod. Published from ‘The Decembrist Rising’, vol. 7, ed. M. V. Nechkina (Moscow, 1958).",
+    "ru": "Конституционная программа Южного общества, начатая Пестелем в 1821 году: уничтожение рабства, единые законы для всего государства, республика, новая столица в Нижнем Новгороде. Текст по изданию «Восстание декабристов», т. 7, под ред. М. В. Нечкиной (М., 1958)."
+   },
+   "tags": [
+    "decembrists-1825"
+   ],
+   "src": [
+    [
+     "Гарант: Русская правда П. И. Пестеля",
+     "https://constitution.garant.ru/history/act1600-1918/32000/"
+    ],
+    [
+     "Wikipedia (en): Pavel Pestel",
+     "https://en.wikipedia.org/wiki/Pavel_Pestel"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "muravyov-constitution",
+   "n": {
+    "en": "Nikita Muravyov’s draft constitution",
+    "ru": "Конституция Н. М. Муравьёва"
+   },
+   "kind": "law",
+   "who": {
+    "en": "Nikita Muravyov",
+    "ru": "Никита Муравьёв"
+   },
+   "y": 1826,
+   "date": "1826-01-25",
+   "date_os": "1826-01-13",
+   "place": {
+    "en": "St Petersburg",
+    "ru": "Санкт-Петербург"
+   },
+   "ll": [
+    59.939,
+    30.316
+   ],
+   "lang": "ru",
+   "text_url": "https://constitution.garant.ru/history/act1600-1918/5400/",
+   "excerpt": {
+    "ru": "Крепостное состояние и рабство отменяются. … Источник верховной власти есть народ",
+    "en": "Serfdom and slavery are abolished. … The source of supreme power is the people",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "The Northern Society’s constitutional project in several versions: the copies from S. P. Trubetskoy’s and I. I. Pushchin’s papers and the ‘Proposed constitutional statute’ dated 13 January 1826. The excerpt is from the Pushchin copy (ch. I, art. 2; ch. III, art. 13).",
+    "ru": "Конституционный проект Северного общества в нескольких редакциях: списки из бумаг С. П. Трубецкого и И. И. Пущина и «Предполагаемый конституционный устав» от 13 января 1826 года. Отрывок — из списка Пущина (гл. I, ст. 2; гл. III, ст. 13)."
+   },
+   "tags": [
+    "decembrists-1825"
+   ],
+   "src": [
+    [
+     "Гарант: Конституция Н. М. Муравьёва",
+     "https://constitution.garant.ru/history/act1600-1918/5400/"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "pushkin-siberia-1827",
+   "n": {
+    "en": "Alexander Pushkin, “Deep in the Siberian mines…”",
+    "ru": "Александр Пушкин. «Во глубине сибирских руд…»"
+   },
+   "kind": "poem",
+   "who": {
+    "en": "Alexander Pushkin",
+    "ru": "Александр Пушкин"
+   },
+   "y": 1827,
+   "lang": "ru",
+   "text_url": "https://ilibrary.ru/text/612/p.1/index.html",
+   "excerpt": {
+    "ru": "Во глубине сибирских руд / Храните гордое терпенье, / Не пропадет ваш скорбный труд / И дум высокое стремленье. … Оковы тяжкие падут, / Темницы рухнут — и свобода / Вас примет радостно у входа, / И братья меч вам отдадут.",
+    "en": "Deep in the Siberian mines, keep your proud patience: your sorrowful toil and the lofty striving of your thoughts will not be lost. … The heavy chains will fall, the prisons will crumble, and freedom will greet you joyfully at the gate, and your brothers will give you back the sword.",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "Pushkin’s message to his Decembrist friends in Siberian hard labour, sixteen lines in four stanzas.",
+    "ru": "Послание Пушкина друзьям-декабристам на сибирской каторге: шестнадцать строк, четыре строфы."
+   },
+   "tags": [
+    "decembrists-1825",
+    "pushkin"
+   ],
+   "src": [
+    [
+     "Интернет-библиотека Алексея Комарова (ilibrary.ru): «Во глубине сибирских руд...»",
+     "https://ilibrary.ru/text/612/p.1/index.html"
+    ],
+    [
+     "Wikipedia (en): Decembrist revolt",
+     "https://en.wikipedia.org/wiki/Decembrist_revolt"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "manifesto-1861-02-19",
+   "n": {
+    "en": "Manifesto of 19 February 1861 on the abolition of serfdom",
+    "ru": "Манифест 19 февраля 1861 года «О всемилостивейшем даровании крепостным людям прав состояния свободных сельских обывателей и об устройстве их быта»"
+   },
+   "kind": "manifesto",
+   "who": {
+    "en": "Alexander II",
+    "ru": "Александр II"
+   },
+   "y": 1861,
+   "date": "1861-03-03",
+   "date_os": "1861-02-19",
+   "place": {
+    "en": "St Petersburg",
+    "ru": "Санкт-Петербург"
+   },
+   "ll": [
+    59.9399,
+    30.3146
+   ],
+   "lang": "ru",
+   "text_url": "https://www.hist.msu.ru/ER/Etext/feb1861.htm",
+   "excerpt": {
+    "ru": "В силу означенных новых положений, крепостные люди получат в свое время полные права свободных сельских обывателей. … Вместе с тем им дается право выкупать усадебную их оседлость … Осени себя крестным знамением, православный народ, и призови с нами Божие благословение на твой свободный труд, залог твоего домашнего благополучия и блага общественного.",
+    "en": "By virtue of these new statutes the serfs will in due course receive the full rights of free rural inhabitants. … At the same time they are given the right to buy out their homesteads … Cross thyself, Orthodox people, and call down with us God’s blessing on thy free labour, the pledge of thy household’s well-being and of the public good.",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "The manifesto that ended serfdom, signed in St Petersburg and read in churches on 5 March (O.S.). Text from ‘Russian legislation of the 10th–20th centuries’, vol. 7 (Moscow, 1989); the archival original is RGIA, fond 1329, op. 1, d. 730-b.",
+    "ru": "Манифест об отмене крепостного права, подписанный в Петербурге и прочитанный в церквях 5 марта. Текст по изданию «Российское законодательство X–XX веков», т. 7 (М., 1989); подлинник — РГИА, ф. 1329, оп. 1, д. 730-б."
+   },
+   "tags": [
+    "emancipation-1861",
+    "alexander-ii"
+   ],
+   "src": [
+    [
+     "Исторический факультет МГУ (hist.msu.ru): Манифест 19 февраля 1861 года",
+     "https://www.hist.msu.ru/ER/Etext/feb1861.htm"
+    ],
+    [
+     "Исторические материалы (doc.histrf.ru): Манифест 19 февраля 1861 года",
+     "https://doc.histrf.ru/19/manifest-o-vsemilostiveyshem-darovanii-krepostnym-lyudyam-prav-sostoyaniya-svobodnykh-selskikh-obyva/"
+    ],
+    [
+     "Presidential Library: Alexander II signed a Manifesto on serfdom abolishment",
+     "https://prlib.ru/en/node/619069"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "molodaya-rossiya-1862",
+   "n": {
+    "en": "Young Russia (proclamation)",
+    "ru": "«Молодая Россия» (прокламация)"
+   },
+   "kind": "declaration",
+   "who": {
+    "en": "Pyotr Zaichnevsky",
+    "ru": "Пётр Заичневский"
+   },
+   "y": 1862,
+   "place": {
+    "en": "Moscow and St Petersburg",
+    "ru": "Москва и Петербург"
+   },
+   "ll": [
+    55.752,
+    37.617
+   ],
+   "lang": "ru",
+   "text_url": "https://www.hist.msu.ru/ER/Etext/molrus.htm",
+   "excerpt": {
+    "ru": "Опираясь на сотни тысяч штыков, царь отрезывает у большей части народа (у казенных крестьян) землю,",
+    "en": "Leaning on hundreds of thousands of bayonets, the tsar cuts the land away from the greater part of the people (the state peasants),",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "A radical answer to the reform, circulated in May 1862: bloody revolution, a federal republic of communes, periodic land redistribution, equal rights for women. From ‘Revolutionary radicalism in Russia: the nineteenth century’ (Moscow, 1997).",
+    "ru": "Радикальный ответ на реформу, распространявшийся в мае 1862 года: кровавая революция, федеративная республика общин, переделы земли, равноправие женщин. По изданию «Революционный радикализм в России: век девятнадцатый» (М., 1997)."
+   },
+   "tags": [
+    "emancipation-1861"
+   ],
+   "src": [
+    [
+     "Исторический факультет МГУ (hist.msu.ru): «Молодая Россия»",
+     "https://www.hist.msu.ru/ER/Etext/molrus.htm"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "decree-polish-peasants-1864",
+   "n": {
+    "en": "Decree on the settlement of the peasants of the Kingdom of Poland",
+    "ru": "Указ об устройстве крестьян Царства Польского"
+   },
+   "kind": "decree",
+   "who": {
+    "en": "Alexander II",
+    "ru": "Александр II"
+   },
+   "y": 1864,
+   "date": "1864-03-02",
+   "date_os": "1864-02-19",
+   "place": {
+    "en": "St Petersburg",
+    "ru": "Санкт-Петербург"
+   },
+   "ll": [
+    59.9399,
+    30.3146
+   ],
+   "lang": "ru",
+   "text_url": "https://www.hist.msu.ru/ER/Etext/poland63.htm",
+   "excerpt": {
+    "ru": "поступают в полную собственность крестьян, теми землями владеющих.",
+    "en": "…pass into the full ownership of the peasants who hold those lands.",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "Signed three years to the day after the 1861 manifesto: peasants in the Kingdom of Poland receive the land they hold in full ownership, are freed from obligations to the landlords and pay a land tax to the state. From ‘Russian legislation of the 10th–20th centuries’, vol. 7 (1989).",
+    "ru": "Подписан ровно через три года после манифеста 1861 года: крестьяне Царства Польского получают занятые ими земли в полную собственность, освобождаются от повинностей помещикам и платят государству поземельный налог. По изданию «Российское законодательство X–XX веков», т. 7 (1989)."
+   },
+   "tags": [
+    "emancipation-1861",
+    "alexander-ii"
+   ],
+   "src": [
+    [
+     "Исторический факультет МГУ (hist.msu.ru): Указ об устройстве крестьян Царства Польского",
+     "https://www.hist.msu.ru/ER/Etext/poland63.htm"
+    ]
+   ],
+   "vf": "V"
+  }
+ ],
+ "notes": {
+  "en": "13 primary sources, each opened in full on a library or archive site. Excerpts are verbatim, but the reading tool quotes at most about 125 characters at a time, so longer excerpts are joined fragments marked with ‘…’. English renderings are the compiler’s literal translations (tr: compiler). Missing from the brief: Ségur’s History (the Project Gutenberg text, ebook 18113, was found but its robots file was unreachable, so it was not opened); Caulaincourt (no full text found); Durova’s ‘The Cavalry Maiden’ and Fyodor Glinka’s ‘Letters of a Russian Officer’ (militera.lib.ru serves them over plain http only, which the tool cannot open; Lib.ru and museum.ru were unreachable); Alexander I’s manifesto of 6 (18) July 1812 on the militia (only a Presidential Library catalogue record without text, https://www.prlib.ru/en/node/465372); Nicholas I’s manifesto of 13 (25) July 1826 and A. E. Rozen’s Notes (the hrono.ru pages failed or came back empty). Russian Wikisource could not be opened from this session. Pestel’s ‘y’ is the year he began the text (1821).",
+  "ru": "13 первоисточников, каждый открыт полностью на сайте библиотеки или архива. Отрывки дословные; более длинные собраны из фрагментов, отмеченных «…». Английские переводы — дословные переводы составителя. Не найдены или не открылись: Сегюр (Project Gutenberg недоступен), Коленкур, «Кавалерист-девица» Дуровой и «Письма русского офицера» Ф. Глинки (militera.lib.ru отдаёт их только по http), манифест 6 июля 1812 года об ополчении (лишь каталожная запись Президентской библиотеки без текста), манифест Николая I от 13 июля 1826 года и «Записки» А. Е. Розена. Русская Викитека из этой сессии не открывалась."
+ }
+}

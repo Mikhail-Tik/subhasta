@@ -1,0 +1,1118 @@
+{
+ "asof": "2026-11-25",
+ "sources": [
+  {
+   "id": "primary-chronicle",
+   "n": {
+    "en": "The Tale of Bygone Years (Primary Chronicle)",
+    "ru": "Повесть временных лет"
+   },
+   "kind": "chronicle",
+   "who": {
+    "en": "A monk of the Kiev Caves Monastery (by tradition Nestor)",
+    "ru": "черноризец Печерского монастыря (по традиции — Нестор)"
+   },
+   "y": 1113,
+   "place": {
+    "en": "Kiev (Kyiv)",
+    "ru": "Киев"
+   },
+   "ll": [
+    50.4344,
+    30.5574
+   ],
+   "lang": "orv",
+   "text_url": "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-1/2",
+   "excerpt": {
+    "ru": "Повѣсть временных лѣт черноризца Федосьева манастыря Печерьскаго, откуду есть пошла Руская земля, и хто в ней почалъ пѣрвѣе княжити, и откуду Руская земля стала есть. … Земля наша велика и обилна, а наряда въ ней нѣтъ. Да поидете княжить и володѣть нами.",
+    "en": "The Tale of Bygone Years of a monk of Feodosy’s Caves Monastery: whence the Rus land began, who first ruled in it, and how the Rus land came to be. … Our land is great and rich, but there is no order in it. Come and reign and rule over us.",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "The earliest chronicle of Kievan Rus, compiled in the early 12th century. The Library of Old Russian Literature prints it from the Ipatiev copy, corrected from the Khlebnikov copy, with O. V. Tvorogov’s translation; the year 1113 is approximate.",
+    "ru": "Древнейшая летопись Киевской Руси, составленная в начале XII века. «Библиотека литературы Древней Руси» печатает её по Ипатьевскому списку с исправлениями по Хлебниковскому, перевод О. В. Творогова; год 1113 — приблизительный."
+   },
+   "tags": [
+    "rurik"
+   ],
+   "src": [
+    [
+     "Библиотека литературы Древней Руси, т. 1: Повесть временных лет (azbyka.ru)",
+     "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-1/2"
+    ]
+   ]
+  },
+  {
+   "id": "novgorod-first-chronicle",
+   "n": {
+    "en": "Novgorod First Chronicle",
+    "ru": "Новгородская первая летопись"
+   },
+   "kind": "chronicle",
+   "who": {
+    "en": "Chroniclers of Novgorod",
+    "ru": "новгородские летописцы"
+   },
+   "y": 1275,
+   "place": {
+    "en": "Novgorod",
+    "ru": "Новгород"
+   },
+   "ll": [
+    58.5215,
+    31.2755
+   ],
+   "lang": "orv",
+   "text_url": "https://faculty.washington.edu/dwaugh/rus/texts/MF1914.pdf",
+   "excerpt": {
+    "en": "Knyaz Olexander and all the men of Novgorod drew up their forces by Lake Chud at Uzmen by the Raven’s rock; and the Nemtsy and Chud men rode at them driving themselves like a wedge through their army; and there was a great slaughter of Nemtsy and Chud men. … And there fell of the Chud men a countless number; and of the Nemtsy 400, and fifty they took with their hands and brought to Novgorod.",
+    "tr": "Robert Michell and Nevill Forbes, The Chronicle of Novgorod 1016–1471 (London, 1914), p. 87"
+   },
+   "about": {
+    "en": "Novgorod’s chronicle. Its oldest copy, the Synod scroll (State Historical Museum), dates from the later 13th and mid-14th centuries; the older redaction begins in 1016, the younger runs from 854 to 1447. Opened in Michell and Forbes’s full English translation (1914).",
+    "ru": "Летопись Новгорода. Древнейший список, Синодальный, хранится в Историческом музее и написан во второй половине XIII века, с частями середины XIV; старший извод начинается с 1016 года, младший охватывает 854–1447 годы. Открыт полный английский перевод Митчелла и Форбса (1914)."
+   },
+   "tags": [
+    "nevsky-1240-1242",
+    "alexander-nevsky"
+   ],
+   "src": [
+    [
+     "Wikipedia (en): Novgorod First Chronicle",
+     "https://en.wikipedia.org/wiki/Novgorod_First_Chronicle"
+    ],
+    [
+     "R. Michell, N. Forbes (trans.), The Chronicle of Novgorod 1016–1471, London 1914 (PDF, Univ. of Washington)",
+     "https://faculty.washington.edu/dwaugh/rus/texts/MF1914.pdf"
+    ]
+   ]
+  },
+  {
+   "id": "igor-tale",
+   "n": {
+    "en": "The Tale of Igor’s Campaign",
+    "ru": "Слово о полку Игореве"
+   },
+   "kind": "poem",
+   "who": {
+    "en": "Anonymous",
+    "ru": "неизвестный автор"
+   },
+   "y": 1185,
+   "place": {
+    "en": "Novgorod-Seversky",
+    "ru": "Новгород-Северский"
+   },
+   "ll": [
+    52.0073,
+    33.2633
+   ],
+   "lang": "orv",
+   "text_url": "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-4/8",
+   "excerpt": {
+    "ru": "Не лѣпо ли ны бяшетъ, братие, начяти старыми словесы трудныхъ повѣстий о пълку Игоревѣ, Игоря Святъславлича? … О Руская земле! Уже за шеломянемъ еси!",
+    "en": "Would it not be fitting, brothers, to begin in the old words of grievous tales the story of the campaign of Igor, Igor Svyatoslavich? … O Rus land! You are already beyond the hill!",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "The poem on Prince Igor Svyatoslavich’s campaign of 1185. O. V. Tvorogov edits it for the Library of Old Russian Literature from the first edition of 1800, correcting misprints and word division.",
+    "ru": "Поэма о походе князя Игоря Святославича 1185 года. О. В. Творогов издаёт её в «Библиотеке литературы Древней Руси» по первому изданию 1800 года, исправляя опечатки и словоразделение."
+   },
+   "tags": [],
+   "src": [
+    [
+     "Библиотека литературы Древней Руси, т. 4: Слово о полку Игореве (azbyka.ru)",
+     "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-4/8"
+    ]
+   ]
+  },
+  {
+   "id": "life-of-alexander-nevsky",
+   "n": {
+    "en": "Life of Alexander Nevsky",
+    "ru": "Житие Александра Невского"
+   },
+   "kind": "chronicle",
+   "who": {
+    "en": "Anonymous",
+    "ru": "неизвестный автор"
+   },
+   "y": 1280,
+   "place": {
+    "en": "Vladimir",
+    "ru": "Владимир"
+   },
+   "ll": [
+    56.129,
+    40.407
+   ],
+   "lang": "orv",
+   "text_url": "https://azbyka.ru/otechnik/prochee/izbornik-sbornik-proizvedenij-literatury-drevnej-rusi/1_3",
+   "excerpt": {
+    "ru": "Не в силѣ Бог, но в правде. … яко и езеру померзъшю двигнутися… и не бѣ видѣти леду: покры бо ся кровию. … И видѣв его царь Батый, и подивися, и рече велможам своим: «Воистинну ми сказасте, яко нѣсть подобна сему князя».",
+    "en": "God is not in strength, but in truth. … so that the frozen lake seemed to move… and the ice could not be seen, for it was covered with blood. … And Tsar Batu saw him, and marvelled, and said to his nobles: “Truly you told me that there is no prince like this one.”",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "The Life of the prince, in the anthology Izbornik (1969) with the original. It is the first text to put the battle on the frozen lake, with the dead on the ice. Its date is disputed: Ostrowski puts the version that merged the chronicle accounts in the mid-15th century; 1280 is nominal.",
+    "ru": "Житие князя в «Изборнике» (1969) с древнерусским текстом. Это первый текст, где битва идёт на льду озера и убитые лежат на льду. Датировка спорна: Островский относит версию, соединившую летописные рассказы, к середине XV века; год 1280 условный."
+   },
+   "tags": [
+    "nevsky-1240-1242",
+    "alexander-nevsky"
+   ],
+   "src": [
+    [
+     "Изборник (1969): «Первое трехсотлетие», azbyka.ru",
+     "https://azbyka.ru/otechnik/prochee/izbornik-sbornik-proizvedenij-literatury-drevnej-rusi/1_3"
+    ],
+    [
+     "Wikipedia (en): Battle on the Ice",
+     "https://en.wikipedia.org/wiki/Battle_on_the_Ice"
+    ]
+   ]
+  },
+  {
+   "id": "lay-of-the-ruin",
+   "n": {
+    "en": "Lay of the Ruin of the Rus Land",
+    "ru": "Слово о погибели Русской земли"
+   },
+   "kind": "poem",
+   "who": {
+    "en": "Anonymous",
+    "ru": "неизвестный автор"
+   },
+   "y": 1246,
+   "lang": "orv",
+   "text_url": "https://azbyka.ru/otechnik/prochee/izbornik-sbornik-proizvedenij-literatury-drevnej-rusi/1_3",
+   "excerpt": {
+    "ru": "О свѣтло свѣтлая и украсно украшена земля Руськая! И многими красотами удивлена еси: озеры многими,…",
+    "en": "O brightly bright and beautifully adorned Rus land! You are made wonderful by many beauties: by many lakes…",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "A short lament for the beauty of the Rus land, known as a fragment; the Izbornik heads it “after the death of Grand Prince Yaroslav” (1246), the father of Alexander Nevsky.",
+    "ru": "Короткий плач о красоте Русской земли, известный как отрывок; в «Изборнике» он озаглавлен «после смерти великого князя Ярослава» (1246), отца Александра Невского."
+   },
+   "tags": [
+    "nevsky-1240-1242"
+   ],
+   "src": [
+    [
+     "Изборник (1969): «Первое трехсотлетие», azbyka.ru",
+     "https://azbyka.ru/otechnik/prochee/izbornik-sbornik-proizvedenij-literatury-drevnej-rusi/1_3"
+    ],
+    [
+     "Wikipedia (en): Alexander Nevsky",
+     "https://en.wikipedia.org/wiki/Alexander_Nevsky"
+    ]
+   ]
+  },
+  {
+   "id": "ryazan-tale",
+   "n": {
+    "en": "Tale of the Destruction of Ryazan by Batu",
+    "ru": "Повесть о разорении Рязани Батыем"
+   },
+   "kind": "chronicle",
+   "who": {
+    "en": "Anonymous",
+    "ru": "неизвестный автор"
+   },
+   "y": 1237,
+   "place": {
+    "en": "Ryazan",
+    "ru": "Рязань"
+   },
+   "lang": "orv",
+   "text_url": "https://azbyka.ru/otechnik/prochee/izbornik-sbornik-proizvedenij-literatury-drevnej-rusi/1_3",
+   "excerpt": {
+    "ru": "В лѣто 6745. В фторое на десят лѣто по принесении чюдотворнаго образа ис Корсуня…",
+    "en": "In the year 6745 [1237], in the twelfth year after the wonder-working icon was brought from Korsun…",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "The tale of Batu’s attack on Ryazan, dated in its first words to the year 6745 (1237), printed in the Izbornik with the original; the year is that of the events, not of the writing.",
+    "ru": "Повесть о нашествии Батыя на Рязань; первые её слова датируют события 6745 годом (1237). Напечатана в «Изборнике» с древнерусским текстом; год — год событий, а не написания."
+   },
+   "tags": [
+    "nevsky-1240-1242"
+   ],
+   "src": [
+    [
+     "Изборник (1969): «Первое трехсотлетие», azbyka.ru",
+     "https://azbyka.ru/otechnik/prochee/izbornik-sbornik-proizvedenij-literatury-drevnej-rusi/1_3"
+    ]
+   ]
+  },
+  {
+   "id": "zadonshchina",
+   "n": {
+    "en": "Zadonshchina",
+    "ru": "Задонщина"
+   },
+   "kind": "poem",
+   "who": {
+    "en": "Anonymous",
+    "ru": "неизвестный автор"
+   },
+   "y": 1380,
+   "place": {
+    "en": "Kulikovo Field",
+    "ru": "Куликово поле"
+   },
+   "ll": [
+    53.6667,
+    38.6667
+   ],
+   "lang": "orv",
+   "text_url": "https://azbyka.ru/otechnik/prochee/izbornik-sbornik-proizvedenij-literatury-drevnej-rusi/2_3",
+   "excerpt": {
+    "ru": "Снидемся, братия и друзи и сынове рускии, составим слово к слову … на полѣ Куликовѣ, на рѣчки Непрядвѣ",
+    "en": "Let us come together, brothers and friends and sons of Rus, let us put word to word … on the field of Kulikovo, on the little river Nepryadva",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "The poem on Grand Prince Dmitry Ivanovich’s victory on the field of Kulikovo by the Nepryadva in 1380, printed in the anthology Izbornik with the Old Russian original.",
+    "ru": "Поэма о победе великого князя Дмитрия Ивановича на Куликовом поле, на Непрядве, в 1380 году; в «Изборнике» — с древнерусским текстом."
+   },
+   "tags": [
+    "dmitry-donskoy"
+   ],
+   "src": [
+    [
+     "Изборник (1969): «Триста лет московской литературы», azbyka.ru",
+     "https://azbyka.ru/otechnik/prochee/izbornik-sbornik-proizvedenij-literatury-drevnej-rusi/2_3"
+    ]
+   ]
+  },
+  {
+   "id": "nikitin-journey",
+   "n": {
+    "en": "A Journey Beyond Three Seas",
+    "ru": "Хожение за три моря"
+   },
+   "kind": "travel",
+   "who": {
+    "en": "Afanasy Nikitin",
+    "ru": "Афанасий Никитин"
+   },
+   "y": 1475,
+   "place": {
+    "en": "Tver",
+    "ru": "Тверь"
+   },
+   "ll": [
+    56.8587,
+    35.9176
+   ],
+   "lang": "orv",
+   "text_url": "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-7/11",
+   "excerpt": {
+    "ru": "За молитву святыхъ отець наших, Господи Исусе Христе, Сыне Божий, помилуй мя, раба своего грѣшнаго Афонасъя Микитина сына. … Се написах свое грѣшное хожение за три моря: 1-е море Дербеньское, дориа Хвалитьскаа… А Русь еръ тангрыд сакласын; олло сакла, худо сакла!",
+    "en": "By the prayers of our holy fathers, Lord Jesus Christ, Son of God, have mercy on me, Thy sinful servant Afanasy, son of Mikita. … Here I have written down my sinful journey beyond three seas: the first sea, of Derbent, the Khvalis Sea… And may God preserve the Rus land; God preserve it, God preserve it!",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "The notes of a Tver merchant who reached India; in 1475 they came to Ivan III’s secretary Vasily Mamyrev and were copied into the chronicles. Text prepared by M. D. Kagan-Tarkovskaya and Ya. S. Lurie, translated by L. S. Semyonov.",
+    "ru": "Записки тверского купца, дошедшего до Индии; в 1475 году они попали к дьяку Ивана III Василию Мамыреву и были переписаны в летописи. Текст подготовили М. Д. Каган-Тарковская и Я. С. Лурье, перевод Л. С. Семёнова."
+   },
+   "tags": [
+    "nikitin-1466-1475",
+    "ivan-iii"
+   ],
+   "src": [
+    [
+     "Библиотека литературы Древней Руси, т. 7: Хожение за три моря Афанасия Никитина (azbyka.ru)",
+     "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-7/11"
+    ],
+    [
+     "Wikipedia (en): Afanasy Nikitin",
+     "https://en.wikipedia.org/wiki/Afanasy_Nikitin"
+    ],
+    [
+     "Wikipedia (en): A Journey Beyond the Three Seas",
+     "https://en.wikipedia.org/wiki/A_Journey_Beyond_the_Three_Seas"
+    ]
+   ]
+  },
+  {
+   "id": "kurbsky-first-letter",
+   "n": {
+    "en": "Kurbsky’s first letter to Ivan the Terrible",
+    "ru": "Первое послание Андрея Курбского Ивану Грозному"
+   },
+   "kind": "letter",
+   "who": {
+    "en": "Andrey Kurbsky",
+    "ru": "Андрей Курбский"
+   },
+   "y": 1564,
+   "place": {
+    "en": "Grand Duchy of Lithuania",
+    "ru": "Великое княжество Литовское"
+   },
+   "lang": "orv",
+   "text_url": "https://azbyka.ru/otechnik/istorija_tserkvi/biblioteka-literatury-drevnej-rusi-tom-11/1",
+   "excerpt": {
+    "ru": "Царю, от Бога препрославленому, паче же во православии пресвѣтлу явльшуся… Про что, царю, силных во Израили побил еси…",
+    "en": "To the tsar, glorified by God above all, who once shone most brightly in Orthodoxy… Why, O tsar, have you slain the strong in Israel…",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "The letter of the prince who had gone over to Lithuania, opening his exchange with the tsar. Text prepared by Yu. D. Rykov, translated by O. V. Tvorogov (Library of Old Russian Literature, vol. 11).",
+    "ru": "Послание князя, ушедшего в Литву, — начало его переписки с царём. Текст подготовил Ю. Д. Рыков, перевод О. В. Творогова («Библиотека литературы Древней Руси», т. 11)."
+   },
+   "tags": [
+    "ivan-the-terrible",
+    "ivan-iv"
+   ],
+   "src": [
+    [
+     "Библиотека литературы Древней Руси, т. 11: переписка Курбского с Иваном Грозным (azbyka.ru)",
+     "https://azbyka.ru/otechnik/istorija_tserkvi/biblioteka-literatury-drevnej-rusi-tom-11/1"
+    ],
+    [
+     "Библиотека литературы Древней Руси, т. 11: оглавление (azbyka.ru)",
+     "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-11/"
+    ]
+   ]
+  },
+  {
+   "id": "ivan-first-letter",
+   "n": {
+    "en": "Ivan the Terrible’s first letter to Kurbsky",
+    "ru": "Первое послание Ивана Грозного Курбскому"
+   },
+   "kind": "letter",
+   "who": {
+    "en": "Ivan IV",
+    "ru": "Иван IV"
+   },
+   "y": 1564,
+   "place": {
+    "en": "Moscow",
+    "ru": "Москва"
+   },
+   "ll": [
+    55.752,
+    37.6175
+   ],
+   "lang": "orv",
+   "text_url": "https://azbyka.ru/otechnik/istorija_tserkvi/biblioteka-literatury-drevnej-rusi-tom-11/1",
+   "excerpt": {
+    "ru": "Богъ нашъ Троица, иже прежде вѣкъ сый и нынѣ есть, Отецъ и Сынъ и Святый Духъ…",
+    "en": "Our God the Trinity, who was before the ages and is now, the Father and the Son and the Holy Spirit…",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "The tsar’s long reply to Kurbsky. Text prepared by E. I. Vaneeva and Ya. S. Lurie, translated by Lurie and O. V. Tvorogov (Library of Old Russian Literature, vol. 11); the Izbornik also prints it.",
+    "ru": "Пространный ответ царя Курбскому. Текст подготовили Е. И. Ванеева и Я. С. Лурье, перевод Лурье и О. В. Творогова («Библиотека литературы Древней Руси», т. 11); печатается и в «Изборнике»."
+   },
+   "tags": [
+    "ivan-the-terrible",
+    "ivan-iv"
+   ],
+   "src": [
+    [
+     "Библиотека литературы Древней Руси, т. 11: переписка Курбского с Иваном Грозным (azbyka.ru)",
+     "https://azbyka.ru/otechnik/istorija_tserkvi/biblioteka-literatury-drevnej-rusi-tom-11/1"
+    ],
+    [
+     "Изборник (1969): «Триста лет московской литературы», azbyka.ru",
+     "https://azbyka.ru/otechnik/prochee/izbornik-sbornik-proizvedenij-literatury-drevnej-rusi/2_3"
+    ]
+   ]
+  },
+  {
+   "id": "tale-of-novgorod-1570",
+   "n": {
+    "en": "Tale of Ivan IV’s march on Novgorod in 1570",
+    "ru": "Повесть о походе Ивана IV на Новгород в 1570 году"
+   },
+   "kind": "chronicle",
+   "who": {
+    "en": "Anonymous",
+    "ru": "неизвестный автор"
+   },
+   "y": 1570,
+   "place": {
+    "en": "Novgorod",
+    "ru": "Новгород"
+   },
+   "ll": [
+    58.5198,
+    31.2815
+   ],
+   "lang": "orv",
+   "text_url": "https://azbyka.ru/otechnik/prochee/izbornik-sbornik-proizvedenij-literatury-drevnej-rusi/2_3",
+   "excerpt": {
+    "ru": "В лета 7078-го году, генваря во 2 день, благочестивый государь царь и великий князь Иван Васильевичь всеа Росии…",
+    "en": "In the year 7078, on the 2nd day of January, the pious sovereign Tsar and Grand Prince Ivan Vasilyevich of all Russia…",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "An account of the oprichnina’s raid on Novgorod, printed in the anthology Izbornik with the original text. Its opening date, the 2nd of January 7078, is 2 January 1570.",
+    "ru": "Рассказ о походе опричного войска на Новгород, напечатанный в «Изборнике» с подлинным текстом. Дата в его начале — 2 января 7078 года, то есть 2 января 1570-го."
+   },
+   "tags": [
+    "ivan-the-terrible",
+    "ivan-iv"
+   ],
+   "src": [
+    [
+     "Изборник (1969): «Триста лет московской литературы», azbyka.ru",
+     "https://azbyka.ru/otechnik/prochee/izbornik-sbornik-proizvedenij-literatury-drevnej-rusi/2_3"
+    ],
+    [
+     "Wikipedia (en): Massacre of Novgorod",
+     "https://en.wikipedia.org/wiki/Massacre_of_Novgorod"
+    ]
+   ]
+  },
+  {
+   "id": "kurbsky-history",
+   "n": {
+    "en": "Kurbsky’s History of the Grand Prince of Moscow",
+    "ru": "Андрей Курбский. История о великом князе Московском"
+   },
+   "kind": "memoir",
+   "who": {
+    "en": "Andrey Kurbsky",
+    "ru": "Андрей Курбский"
+   },
+   "y": 1573,
+   "place": {
+    "en": "Grand Duchy of Lithuania",
+    "ru": "Великое княжество Литовское"
+   },
+   "lang": "orv",
+   "text_url": "https://azbyka.ru/otechnik/prochee/izbornik-sbornik-proizvedenij-literatury-drevnej-rusi/2_3",
+   "about": {
+    "en": "Kurbsky’s hostile account of Ivan’s reign, written in exile; the anthology Izbornik prints it in the original (excerpts), and the Library of Old Russian Literature, vol. 11, in full. The year 1573 is approximate.",
+    "ru": "Враждебный рассказ Курбского о царствовании Ивана, написанный в эмиграции; «Изборник» печатает его в подлиннике (в отрывках), «Библиотека литературы Древней Руси», т. 11, — полностью. Год 1573 — приблизительный."
+   },
+   "tags": [
+    "ivan-the-terrible",
+    "ivan-iv"
+   ],
+   "src": [
+    [
+     "Изборник (1969): «Триста лет московской литературы», azbyka.ru",
+     "https://azbyka.ru/otechnik/prochee/izbornik-sbornik-proizvedenij-literatury-drevnej-rusi/2_3"
+    ],
+    [
+     "Библиотека литературы Древней Руси, т. 11: оглавление (azbyka.ru)",
+     "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-11/"
+    ]
+   ]
+  },
+  {
+   "id": "domostroy",
+   "n": {
+    "en": "Domostroy",
+    "ru": "Домострой"
+   },
+   "kind": "letter",
+   "who": {
+    "en": "Attributed to the priest Sylvester",
+    "ru": "приписывается священнику Сильвестру"
+   },
+   "y": 1550,
+   "place": {
+    "en": "Moscow",
+    "ru": "Москва"
+   },
+   "ll": [
+    55.752,
+    37.6175
+   ],
+   "lang": "orv",
+   "text_url": "https://azbyka.ru/otechnik/Silvestr/domostroj/",
+   "about": {
+    "en": "The household book of Muscovy, framed as a father’s instruction to his son: on faith, family and running a house. The azbyka.ru text is a modernised rendering, so no excerpt is quoted; the year 1550 is approximate.",
+    "ru": "Книга о домашнем устройстве Московской Руси, построенная как наставление отца сыну: о вере, семье и хозяйстве. Текст на azbyka.ru — модернизированное переложение, поэтому отрывок не приводится; год 1550 — приблизительный."
+   },
+   "tags": [
+    "ivan-the-terrible",
+    "ivan-iv"
+   ],
+   "src": [
+    [
+     "Домострой, azbyka.ru",
+     "https://azbyka.ru/otechnik/Silvestr/domostroj/"
+    ]
+   ]
+  },
+  {
+   "id": "avvakum-life",
+   "n": {
+    "en": "The Life of Archpriest Avvakum, Written by Himself",
+    "ru": "Житие протопопа Аввакума, им самим написанное"
+   },
+   "kind": "memoir",
+   "who": {
+    "en": "Archpriest Avvakum",
+    "ru": "протопоп Аввакум"
+   },
+   "y": 1675,
+   "place": {
+    "en": "Pustozersk",
+    "ru": "Пустозерск"
+   },
+   "ll": [
+    67.53,
+    52.58
+   ],
+   "lang": "ru",
+   "text_url": "https://imwerden.de/pdf/robinson_zhizneopisaniya_avvakuma_i_epifaniya_1963__ocr.pdf",
+   "excerpt": {
+    "ru": "«Долго ли муки сея, протопоп, будет?» — «Марковна, до самыя смерти!» — «Добро, Петрович, ино еще побредем».",
+    "en": "“How long will this torment last, archpriest?” — “Markovna, until death itself!” — “So be it, Petrovich; then let us trudge on.”",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "The autobiography of the Old Believer leader, written in exile at Pustozersk; his last redaction survives in his own hand in the Pustozersk collection of 1674–1675. A. N. Robinson’s 1963 Academy book studies and quotes it; its OCR spelling differs slightly.",
+    "ru": "Автобиография вождя старообрядцев, написанная в пустозерской ссылке; последняя авторская редакция сохранилась в автографе Пустозерского сборника 1674–1675 годов. Книга А. Н. Робинсона (1963) исследует и цитирует её; в распознанном тексте есть мелкие расхождения."
+   },
+   "tags": [
+    "alexis"
+   ],
+   "src": [
+    [
+     "А. Н. Робинсон, Жизнеописания Аввакума и Епифания, М., 1963 (PDF, imwerden.de)",
+     "https://imwerden.de/pdf/robinson_zhizneopisaniya_avvakuma_i_epifaniya_1963__ocr.pdf"
+    ],
+    [
+     "Житие протопопа Аввакума (пер. Н. В. Понырко), azbyka.ru",
+     "https://azbyka.ru/otechnik/sekty/zhitie-protopopa-avvakuma-im-samim-napisannoe/"
+    ]
+   ]
+  },
+  {
+   "id": "table-of-ranks",
+   "n": {
+    "en": "Table of Ranks",
+    "ru": "Табель о рангах"
+   },
+   "kind": "law",
+   "who": {
+    "en": "Peter I",
+    "ru": "Пётр I"
+   },
+   "y": 1722,
+   "date": "1722-02-04",
+   "date_os": "1722-01-24",
+   "place": {
+    "en": "Russian Empire",
+    "ru": "Российская империя"
+   },
+   "lang": "ru",
+   "text_url": "https://prlib.ru/en/news/707565",
+   "excerpt": {
+    "ru": "Табель о рангах всех чинов, воинских, статских, и придворных",
+    "en": "Table of ranks of all ranks, military, civil and court",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "Peter’s law dividing state service into 14 classes and 263 posts, military, civil and court; at first the 8th class made a man a hereditary noble. Abolished on 11 November 1917. The Presidential Library has digitised a copy signed by Peter.",
+    "ru": "Закон Петра, разделивший службу на 14 классов и 263 должности — военные, статские и придворные; поначалу восьмой класс давал потомственное дворянство. Отменён 11 ноября 1917 года. Президентская библиотека оцифровала экземпляр с подписью Петра."
+   },
+   "tags": [
+    "peter-and-his-city",
+    "peter-i"
+   ],
+   "src": [
+    [
+     "Presidential Library: “Table of Ranks” signed by Peter the Great",
+     "https://prlib.ru/en/news/707565"
+    ],
+    [
+     "Wikipedia (en): Table of Ranks",
+     "https://en.wikipedia.org/wiki/Table_of_Ranks"
+    ]
+   ]
+  },
+  {
+   "id": "radishchev-journey",
+   "n": {
+    "en": "A Journey from St Petersburg to Moscow",
+    "ru": "Путешествие из Петербурга в Москву"
+   },
+   "kind": "travel",
+   "who": {
+    "en": "Alexander Radishchev",
+    "ru": "Александр Радищев"
+   },
+   "y": 1790,
+   "place": {
+    "en": "St Petersburg",
+    "ru": "Санкт-Петербург"
+   },
+   "ll": [
+    59.9386,
+    30.3141
+   ],
+   "lang": "ru",
+   "text_url": "https://www.loc.gov/item/10013879",
+   "excerpt": {
+    "ru": "Потому и боярское, что нам купить его не на что, а бояре его употребляют для того, что не сами достают деньги. … Ибо помещик в отношении крестьянина есть законодатель, судия, исполнитель своего решения… Жестокосердый помещик! Посмотри на детей крестьян, тебе подвластных.",
+    "en": "It is lordly just because we have nothing to buy it with, and the lords use it because they do not earn the money themselves. … For the landlord, towards the peasant, is lawgiver, judge and executor of his own sentence… Hard-hearted landlord! Look at the children of the peasants subject to you.",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "The first edition, St Petersburg 1790, printed on the author’s own press without his name ([4], 453, [1] pages); the Library of Congress copy, from G. V. Yudin’s collection, is digitised. The excerpt, from the chapter ‘Peshki’, is as quoted by Argumenty i Fakty.",
+    "ru": "Первое издание, Санкт-Петербург, 1790, отпечатанное в домашней типографии автора без его имени ([4], 453, [1] с.); экземпляр Библиотеки Конгресса из собрания Г. В. Юдина оцифрован. Отрывок из главы «Пешки» — по цитате в «Аргументах и фактах»."
+   },
+   "tags": [
+    "radishchev-1790",
+    "catherine-ii"
+   ],
+   "src": [
+    [
+     "Library of Congress: Puteshestvie iz Peterburga v Moskvu, St Petersburg 1790 (Yudin Collection)",
+     "https://www.loc.gov/item/10013879"
+    ],
+    [
+     "Аргументы и факты: о «Путешествии из Петербурга в Москву»",
+     "https://aif.ru/culture/book/1207430"
+    ],
+    [
+     "TechInsider: Сколько стоит повторить «Путешествие из Петербурга в Москву»",
+     "https://www.techinsider.ru/popmem/1703673-serezno-skolko-stoit-povtorit-znamenitoe-puteshestvie-iz-peterburga-v-moskvu/"
+    ]
+   ]
+  },
+  {
+   "id": "karamzin-letters",
+   "n": {
+    "en": "Letters of a Russian Traveller",
+    "ru": "Письма русского путешественника"
+   },
+   "kind": "travel",
+   "who": {
+    "en": "Nikolay Karamzin",
+    "ru": "Николай Карамзин"
+   },
+   "y": 1791,
+   "place": {
+    "en": "Moscow",
+    "ru": "Москва"
+   },
+   "ll": [
+    55.7558,
+    37.6173
+   ],
+   "lang": "ru",
+   "text_url": "https://litres.com/book/nikolay-karamzin/pisma-russkogo-puteshestvennika-176615/read/",
+   "excerpt": {
+    "ru": "Расстался я с вами, милые, расстался! Сердце мое привязано к вам всеми нежнейшими своими чувствами,… Вчерась же после обеда был я у славного Канта, глубокомысленного, тонкого метафизика,…",
+    "en": "I have parted from you, my dears, I have parted! My heart is bound to you by all its tenderest feelings… Yesterday after dinner I called on the celebrated Kant, the profound, subtle metaphysician…",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "Karamzin’s letters from his journey of 1789–1790, first printed in his Moscow Journal in 1791–92 and in six volumes in 1797–1801. The text was opened in the Litres online edition (AST, 2018), which runs to Geneva, March 1790.",
+    "ru": "Письма Карамзина из путешествия 1789–1790 годов, впервые напечатанные в его «Московском журнале» в 1791–1792 годах и в шести томах в 1797–1801-м. Текст открыт в онлайн-издании «Литрес» (АСТ, 2018), доходящем до Женевы, март 1790 года."
+   },
+   "tags": [
+    "karamzin-1789-1790"
+   ],
+   "src": [
+    [
+     "Н. М. Карамзин, «Письма русского путешественника» (Литрес, онлайн-текст, АСТ 2018)",
+     "https://litres.com/book/nikolay-karamzin/pisma-russkogo-puteshestvennika-176615/read/"
+    ],
+    [
+     "Wikipedia (en): Nikolay Karamzin",
+     "https://en.wikipedia.org/wiki/Nikolay_Karamzin"
+    ],
+    [
+     "Ф. И. Буслаев, «Письма русского путешественника» (1866), azbyka.ru",
+     "https://azbyka.ru/otechnik/Fedor_Buslaev/pisma-russkogo-puteshestvennika"
+    ]
+   ]
+  },
+  {
+   "id": "chaadaev-first-letter",
+   "n": {
+    "en": "First Philosophical Letter",
+    "ru": "Первое философическое письмо"
+   },
+   "kind": "letter",
+   "who": {
+    "en": "Pyotr Chaadaev",
+    "ru": "Пётр Чаадаев"
+   },
+   "y": 1836,
+   "place": {
+    "en": "Moscow",
+    "ru": "Москва"
+   },
+   "ll": [
+    55.7558,
+    37.6173
+   ],
+   "lang": "fr",
+   "text_url": "https://www.yabloko.ru/Themes/History/Chaadaev1.html",
+   "excerpt": {
+    "ru": "Да приидет Царствие Твое. (Евангелие от Матфея, VI, 10). … Некрополь, 1-го декабря 1829 г.",
+    "en": "Thy kingdom come. (Matthew 6:10) … Necropolis, 1 December 1829.",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "Dated “Necropolis”, that is Moscow, 1 December 1829, and printed in Russian in the journal Telescope in 1836: the journal was closed, its editor exiled and its author declared insane. The online text does not name its translation, so only the epigraph and date line are quoted.",
+    "ru": "Датировано «Некрополь», то есть Москва, 1 декабря 1829 года, и напечатано по-русски в «Телескопе» в 1836 году: журнал закрыли, редактора сослали, автора объявили сумасшедшим. Источник перевода в онлайн-тексте не назван, поэтому приводятся только эпиграф и дата."
+   },
+   "tags": [
+    "nicholas-i"
+   ],
+   "src": [
+    [
+     "П. Я. Чаадаев, Философические письма. Письмо первое (yabloko.ru)",
+     "https://www.yabloko.ru/Themes/History/Chaadaev1.html"
+    ],
+    [
+     "Presidential Library: Pyotr Chaadayev (1794–1856), collection",
+     "https://prlib.ru/en/collections/1269723"
+    ]
+   ]
+  },
+  {
+   "id": "herzen-past-and-thoughts",
+   "n": {
+    "en": "My Past and Thoughts",
+    "ru": "Былое и думы"
+   },
+   "kind": "memoir",
+   "who": {
+    "en": "Alexander Herzen",
+    "ru": "Александр Герцен"
+   },
+   "y": 1860,
+   "place": {
+    "en": "Bournemouth, England",
+    "ru": "Борнмут, Англия"
+   },
+   "ll": [
+    50.7192,
+    -1.8808
+   ],
+   "lang": "ru",
+   "text_url": "https://mybook.ru/author/aleksandr-ivanovich-gercen/byloe-i-dumy/read/",
+   "excerpt": {
+    "ru": "Н. П. Огареву. В этой книге больше всего говорится о двух личностях. Одной уже нет, – ты еще остался, а потому тебе, друг, по праву принадлежит она. … наше ребячье Грютли на Воробьевых горах",
+    "en": "To N. P. Ogaryov. This book speaks most of all of two people. One is no more; you are still here, and so, my friend, it belongs to you by right. … our boyish Grütli on the Sparrow Hills",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "Herzen’s memoirs. The preface to the full edition is dated Eagle’s Nest, Bournemouth, 1 July 1860, and the book is dedicated to Nikolay Ogaryov, the friend of the boyhood oath on the Sparrow Hills. J. D. Duff’s English translation (1923) is on Project Gutenberg.",
+    "ru": "Мемуары Герцена. Предисловие к полному изданию помечено: «Eagle’s Nest, Bournemouth, 1 июля 1860», книга посвящена Николаю Огарёву — другу юношеской клятвы на Воробьёвых горах. Английский перевод Дж. Д. Даффа (1923) есть в Project Gutenberg."
+   },
+   "tags": [
+    "nicholas-i"
+   ],
+   "src": [
+    [
+     "А. И. Герцен, «Былое и думы» (MyBook, онлайн-текст)",
+     "https://mybook.ru/author/aleksandr-ivanovich-gercen/byloe-i-dumy/read/"
+    ],
+    [
+     "Project Gutenberg: The Memoirs of Alexander Herzen, Parts I and II (trans. J. D. Duff, 1923)",
+     "https://gutenberg.org/ebooks/67882"
+    ]
+   ]
+  },
+  {
+   "id": "gapon-petition",
+   "n": {
+    "en": "Petition of the workers and residents of St Petersburg",
+    "ru": "Петиция рабочих и жителей Санкт-Петербурга"
+   },
+   "kind": "petition",
+   "who": {
+    "en": "Assembly of Russian Factory Workers, led by Georgy Gapon",
+    "ru": "«Собрание русских фабрично-заводских рабочих» во главе с Георгием Гапоном"
+   },
+   "y": 1905,
+   "date": "1905-01-22",
+   "date_os": "1905-01-09",
+   "place": {
+    "en": "St Petersburg",
+    "ru": "Санкт-Петербург"
+   },
+   "ll": [
+    59.939,
+    30.3158
+   ],
+   "lang": "ru",
+   "text_url": "https://pages.uoregon.edu/kimball/1905ja-Gapon.ptn.htm",
+   "excerpt": {
+    "ru": "Государь! Мы, рабочие и жители города С.-Петербурга разных сословий, наши жены, и дети, и беспомощные старцы-родители, пришли к тебе, государь, искать правды и защиты.",
+    "en": "Sovereign! We, workers and inhabitants of the city of St Petersburg, of various estates, our wives, our children and our helpless old parents, have come to you, Sovereign, to seek justice and protection.",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "The petition the marchers of 9 January 1905 meant to hand to Nicholas II; its demands included a Constituent Assembly and political freedoms. The full text opened is Daniel Field’s English translation; the Russian opening is the standard wording, checked against it.",
+    "ru": "Петиция, которую участники шествия 9 января 1905 года несли Николаю II; среди требований — Учредительное собрание и политические свободы. Открыт полный английский перевод Дэниела Филда; русское начало дано по общепринятому тексту и сверено с переводом."
+   },
+   "tags": [
+    "revolution-1905",
+    "nicholas-ii"
+   ],
+   "src": [
+    [
+     "A. Kimball, Univ. of Oregon: Petition prepared for presentation to Nicholas II (trans. D. Field)",
+     "https://pages.uoregon.edu/kimball/1905ja-Gapon.ptn.htm"
+    ],
+    [
+     "Presidential Library: “Bloody Sunday” — beginning of the First Russian revolution",
+     "https://prlib.ru/en/node/618968"
+    ]
+   ]
+  },
+  {
+   "id": "october-manifesto",
+   "n": {
+    "en": "Manifesto on the Improvement of the State Order (October Manifesto)",
+    "ru": "Манифест «Об усовершенствовании государственного порядка» (Манифест 17 октября)"
+   },
+   "kind": "manifesto",
+   "who": {
+    "en": "Nicholas II",
+    "ru": "Николай II"
+   },
+   "y": 1905,
+   "date": "1905-10-30",
+   "date_os": "1905-10-17",
+   "place": {
+    "en": "Peterhof",
+    "ru": "Петергоф"
+   },
+   "ll": [
+    59.885,
+    29.9086
+   ],
+   "lang": "ru",
+   "text_url": "https://pravo.by/pravovaya-informatsiya/pomniki-gistoryi-prava-belarusi/kanstytutsyynae-prava-belarusi/akty-rasiyskay-imperyi/ob-usovershenstvovanii-gosudarstvennogo-poryadka-vysochayshiy-manifest-ot-17-oktyabrya-1905-goda/",
+   "excerpt": {
+    "ru": "Смуты и волнения в столицах и во многих местностях империи нашей великой и тяжкой скорбью преисполняют сердце наше. Благо Российского государя неразрывно с благом народным и печаль народная его печаль. … Даровать населению незыблемые основы гражданской свободы на началах действительной неприкосновенности личности, свободы совести, слова, собраний и союзов.",
+    "en": "Unrest and disturbances in the capitals and in many places of our empire fill our heart with great and heavy sorrow. The good of the Russian sovereign is inseparable from the good of the people, and the people’s sorrow is his sorrow. … To grant the population the unshakeable foundations of civil freedom on the basis of real inviolability of the person, freedom of conscience, speech, assembly and association.",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "Signed at Peterhof “on the 17th day of October” 1905; it granted civil freedoms and promised a legislative Duma. The full text is on Belarus’s National Legal Internet Portal, from Gosudarstvennaya duma v Rossii v dokumentakh i materialakh (1967).",
+    "ru": "Подписан в Петергофе «в 17-й день октября» 1905 года; даровал гражданские свободы и обещал законодательную Думу. Полный текст — на Национальном правовом интернет-портале Беларуси, по изданию «Государственная дума в России в документах и материалах» (1967)."
+   },
+   "tags": [
+    "revolution-1905",
+    "nicholas-ii"
+   ],
+   "src": [
+    [
+     "Pravo.by: Высочайший манифест от 17 октября 1905 года «Об усовершенствовании государственного порядка»",
+     "https://pravo.by/pravovaya-informatsiya/pomniki-gistoryi-prava-belarusi/kanstytutsyynae-prava-belarusi/akty-rasiyskay-imperyi/ob-usovershenstvovanii-gosudarstvennogo-poryadka-vysochayshiy-manifest-ot-17-oktyabrya-1905-goda/"
+    ],
+    [
+     "Кругосвет: Революция 1905–1907 в России",
+     "https://www.krugosvet.ru/enc/istoriya/REVOLYUTSIYA_1905–1907_V_ROSSII.html"
+    ]
+   ]
+  },
+  {
+   "id": "order-no-1",
+   "n": {
+    "en": "Order No. 1 of the Petrograd Soviet",
+    "ru": "Приказ № 1 Петроградского совета"
+   },
+   "kind": "decree",
+   "who": {
+    "en": "Petrograd Soviet of Workers’ and Soldiers’ Deputies",
+    "ru": "Петроградский совет рабочих и солдатских депутатов"
+   },
+   "y": 1917,
+   "date": "1917-03-14",
+   "date_os": "1917-03-01",
+   "place": {
+    "en": "Petrograd (Tauride Palace)",
+    "ru": "Петроград (Таврический дворец)"
+   },
+   "ll": [
+    59.9478,
+    30.3772
+   ],
+   "lang": "ru",
+   "text_url": "https://www.wsws.org/ru/articles/2017/03/15/prik-m15.html",
+   "excerpt": {
+    "ru": "По гарнизону Петроградского округа всем солдатам гвардии, армии, артиллерии и флота для немедленного и точного исполнения, а рабочим Петрограда для сведения и руководства. … 4) Приказы военной комиссии Государственной думы следует исполнять, за исключением тех случаев, когда они противоречат приказам и постановлениям Совета рабочих и солдатских депутатов.",
+    "en": "To the garrison of the Petrograd district, to all soldiers of the guard, army, artillery and fleet, for immediate and exact execution, and to the workers of Petrograd for information and guidance. … 4) Orders of the military commission of the State Duma are to be carried out, except when they contradict the orders and resolutions of the Soviet of Workers’ and Soldiers’ Deputies.",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "Issued on 1 (14) March 1917; it put the garrison under elected soldiers’ committees and the authority of the Soviet. The full Russian text opened is reprinted in the World Socialist Web Site’s ‘From the archive of the Russian Revolution’.",
+    "ru": "Издан 1 (14) марта 1917 года; подчинил гарнизон выборным солдатским комитетам и власти Совета. Открытый полный русский текст перепечатан в рубрике «Из архива русской революции» на сайте WSWS."
+   },
+   "tags": [
+    "revolution-1917"
+   ],
+   "src": [
+    [
+     "WSWS, «Из архива русской революции»: Приказ № 1 (1 марта 1917)",
+     "https://www.wsws.org/ru/articles/2017/03/15/prik-m15.html"
+    ],
+    [
+     "Wikipedia (en): February Revolution",
+     "https://en.wikipedia.org/wiki/February_Revolution"
+    ]
+   ]
+  },
+  {
+   "id": "abdication-manifesto",
+   "n": {
+    "en": "Manifesto of the abdication of Nicholas II",
+    "ru": "Манифест об отречении Николая II"
+   },
+   "kind": "manifesto",
+   "who": {
+    "en": "Nicholas II",
+    "ru": "Николай II"
+   },
+   "y": 1917,
+   "date": "1917-03-15",
+   "date_os": "1917-03-02",
+   "place": {
+    "en": "Pskov",
+    "ru": "Псков"
+   },
+   "ll": [
+    57.8114,
+    28.35
+   ],
+   "lang": "ru",
+   "text_url": "https://soviethistory.msu.edu/1917/february-revolution/february-revolution-texts/abdication-manifesto/",
+   "excerpt": {
+    "ru": "В дни великой борьбы с внешним врагом, стремящимся почти три года поработить нашу родину, Господу Богу угодно было ниспослать России новое тяжкое испытание.",
+    "en": "In the midst of the great struggle against a foreign foe, who has been striving for three years to enslave our country, it has pleased God to lay on Russia a new and painful trial. … Not wishing to be separated from our beloved son, we hand down our inheritance to our brother, Grand Duke Michael Aleksandrovich, and give him our blessing on mounting the throne of the Russian Empire.",
+    "tr": "F. A. Golder (ed.), Documents of Russian History 1914–1917, New York 1927, pp. 297–298"
+   },
+   "about": {
+    "en": "Signed at Pskov at 3 p.m. on 2 March 1917: Nicholas gave up the throne for himself and his son in favour of his brother Michael, who declined it the next day. The English text is from Golder’s Documents of Russian History (1927); the Russian opening is the standard wording.",
+    "ru": "Подписан в Пскове в 15 часов 2 марта 1917 года: Николай отрёкся за себя и сына в пользу брата Михаила, который на следующий день отказался от престола. Английский текст — из сборника Голдера (1927); русское начало дано по общепринятому тексту."
+   },
+   "tags": [
+    "revolution-1917",
+    "nicholas-ii"
+   ],
+   "src": [
+    [
+     "Seventeen Moments in Soviet History (MSU): Abdication Manifesto (Golder 1927)",
+     "https://soviethistory.msu.edu/1917/february-revolution/february-revolution-texts/abdication-manifesto/"
+    ],
+    [
+     "Wikipedia (en): Abdication of Nicholas II",
+     "https://en.wikipedia.org/wiki/Abdication_of_Nicholas_II"
+    ]
+   ]
+  },
+  {
+   "id": "decree-on-peace",
+   "n": {
+    "en": "Decree on Peace",
+    "ru": "Декрет о мире"
+   },
+   "kind": "decree",
+   "who": {
+    "en": "Second All-Russian Congress of Soviets (text by Lenin)",
+    "ru": "II Всероссийский съезд Советов (текст Ленина)"
+   },
+   "y": 1917,
+   "date": "1917-11-08",
+   "date_os": "1917-10-26",
+   "place": {
+    "en": "Petrograd (Smolny)",
+    "ru": "Петроград (Смольный)"
+   },
+   "ll": [
+    59.9463,
+    30.3957
+   ],
+   "lang": "ru",
+   "text_url": "https://www.wsws.org/ru/articles/2017/11/23/peac-n23.html",
+   "excerpt": {
+    "ru": "Рабочее и крестьянское правительство, созданное революцией 24-25 октября и опирающееся на Советы рабочих, солдатских и крестьянских депутатов, предлагает всем воюющим народам и их правительствам начать немедленно переговоры о справедливом демократическом мире. … таким миром правительство считает немедленный мир без аннексий (т. е. без захвата чужих земель, без насильственного присоединения чужих народностей) и без контрибуций.",
+    "en": "The Workers’ and Peasants’ Government, created by the revolution of 24–25 October and resting on the Soviets of Workers’, Soldiers’ and Peasants’ Deputies, proposes to all warring peoples and their governments to begin at once negotiations for a just, democratic peace. … The government considers such a peace to be an immediate peace without annexations (that is, without seizure of foreign lands or forcible annexation of foreign peoples) and without indemnities.",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "Written and read by Lenin and adopted unanimously on 26 October (8 November) 1917; it proposed an immediate peace without annexations or indemnities and a three-month armistice, and rejected secret diplomacy.",
+    "ru": "Написан и прочитан Лениным, принят единогласно 26 октября (8 ноября) 1917 года; предлагал немедленный мир без аннексий и контрибуций и трёхмесячное перемирие, отвергал тайную дипломатию."
+   },
+   "tags": [
+    "revolution-1917",
+    "lenin"
+   ],
+   "src": [
+    [
+     "WSWS, «Документы русской революции»: Декрет о мире",
+     "https://www.wsws.org/ru/articles/2017/11/23/peac-n23.html"
+    ],
+    [
+     "Wikipedia (en): October Revolution",
+     "https://en.wikipedia.org/wiki/October_Revolution"
+    ]
+   ]
+  },
+  {
+   "id": "decree-on-land",
+   "n": {
+    "en": "Decree on Land",
+    "ru": "Декрет о земле"
+   },
+   "kind": "decree",
+   "who": {
+    "en": "Second All-Russian Congress of Soviets (text by Lenin)",
+    "ru": "II Всероссийский съезд Советов (текст Ленина)"
+   },
+   "y": 1917,
+   "date": "1917-11-08",
+   "date_os": "1917-10-26",
+   "place": {
+    "en": "Petrograd (Smolny)",
+    "ru": "Петроград (Смольный)"
+   },
+   "ll": [
+    59.9463,
+    30.3957
+   ],
+   "lang": "ru",
+   "text_url": "https://soviethistory.msu.edu/1917/peasant-revolution/peasant-revolution-texts/decree-on-the-land/",
+   "excerpt": {
+    "ru": "1) Помещичья собственность на землю отменяется немедленно без всякого выкупа.",
+    "en": "1) Landlord ownership of land is abolished at once, without any compensation.",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "Adopted by the Second Congress of Soviets on 26 October (8 November) 1917: landlord property abolished without compensation, and the Peasant Mandate published in August made a provisional law until the Constituent Assembly. The English text opened is from Lenin’s Selected Works (Moscow, 1952).",
+    "ru": "Принят II съездом Советов 26 октября (8 ноября) 1917 года: помещичья собственность отменена без выкупа, а опубликованный в августе крестьянский наказ объявлен временным законом до Учредительного собрания. Открыт английский текст по «Избранным произведениям» Ленина (М., 1952)."
+   },
+   "tags": [
+    "revolution-1917",
+    "lenin"
+   ],
+   "src": [
+    [
+     "Seventeen Moments in Soviet History (MSU): Decree on the Land",
+     "https://soviethistory.msu.edu/1917/peasant-revolution/peasant-revolution-texts/decree-on-the-land/"
+    ],
+    [
+     "Wikipedia (en): October Revolution",
+     "https://en.wikipedia.org/wiki/October_Revolution"
+    ]
+   ]
+  }
+ ],
+ "notes": {
+  "en": "25 primary sources, each with a text_url opened in this session. Russian Wikisource could not be opened (every page failed at the site) and links inside non-Wikipedia pages could not be followed, so the full texts come from libraries found by search: the Library of Old Russian Literature and the anthology Izbornik on azbyka.ru (original Old Russian beside modern translations; only the originals are quoted), the Library of Congress (1790 Radishchev), Belarus’s legal portal (October Manifesto), Michigan State’s Seventeen Moments (Golder’s 1927 translations), Michell & Forbes’s 1914 Novgorod Chronicle, WSWS reprints (Order No. 1, Decree on Peace), Litres and MyBook online texts (Karamzin, Herzen) and Robinson’s 1963 Avvakum study (imwerden.de). Weaker text_urls, to re-check: Table of Ranks (a Presidential Library page about its digitised copy, not the text); Domostroy (modernised rendering, so no excerpt); Chaadaev (translation not named, so only the epigraph and date line); Gapon’s petition and the abdication manifesto (full texts opened in English; their Russian openings are the standard wording, not read on a Russian page); Decree on Land (English, Lenin Selected Works 1952; Russian point 1 is the standard wording); Avvakum (quoted in a 1963 study, OCR spelling normalised: ‘Доло’ → ‘Долго’, ‘пробредем’ → ‘побредем’). Not found: Russkaya Pravda (Yushkov’s monograph on pravo.hse.ru quotes only fragments), Pushkin’s Journey to Arzrum as a full text (only quotations in articles), the Livonian Rhymed Chronicle, Nicholas II’s diary for 2 March 1917 (a Kommersant page has diary excerpts, but the entry was not quoted). Excerpts: verbatim, joined from fragments of at most about 125 characters marked ‘…’; old letters kept; the Primary Chronicle title is printed in capitals and given here in sentence case. English renderings marked tr: compiler are literal translations by the compiler. y for undated medieval texts is nominal and said so in `about`. tags use story ids from stories_b.json and ruler ids from rulers_b.json where they exist (peter-i, catherine-ii, nicholas-i, nicholas-ii, lenin, alexis); rurik, dmitry-donskoy, ivan-iii, ivan-iv and alexander-nevsky are proposed ids. lang ‘orv’ marks Old East Slavic and Middle Russian texts.",
+  "ru": "25 первоисточников, у каждого text_url открыт в этой сессии. Русская Викитека не открывалась, поэтому полные тексты взяты из «Библиотеки литературы Древней Руси» и «Изборника» на azbyka.ru (цитируются только древнерусские подлинники), Библиотеки Конгресса, правового портала Беларуси, сборника Голдера (1927), перевода Новгородской летописи 1914 года, перепечаток WSWS, онлайн-текстов «Литрес» и MyBook и книги Робинсона (1963). Слабые места: Табель о рангах (страница о цифровой копии), Домострой (переложение, без отрывка), Чаадаев (перевод не назван, приведены эпиграф и дата), русские начала петиции 9 января, манифеста об отречении и Декрета о земле даны по общепринятому тексту. Не найдены: Русская Правда, полный текст «Путешествия в Арзрум», Ливонская рифмованная хроника."
+ }
+}

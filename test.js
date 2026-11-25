@@ -176,6 +176,22 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
    w.location.hash='#lot-basquiat-untitled';w.dispatchEvent(new w.Event('hashchange'));{const ph=q('#v-detail [data-wiki-pic]');assert(ph&&ph.getAttribute('data-wiki-pic')==='Jean-Michel Basquiat'&&/the artist\. Not the lot/.test(ph.getAttribute('data-wp-cap')),'a lot in copyright stands beside the artist’s portrait, captioned as not the lot');}
    assert(!/undefined/.test(q('#v-detail').textContent),'the lot page prints no “undefined” (month-only dates read as the month)');
    assert(G('LOT_PICS')['dinosaur|jodi nanotyrannus skeleton']&&G('LOT_PICS')['dinosaur|jodi nanotyrannus skeleton'].what==='related','Jodi carries a related picture, marked as related');
+   /* v35: the map's styles, no states before the first states, two languages, Russia in depth */
+   assert(w.__RL.styles().join()==='engraving,relief,ink,satellite','four map styles: engraving, relief, ink, satellite');
+   assert(w.__RL.styleFor('then')==='relief'||w.__RL.dead(),'the historical globe opens in relief where WebGL can draw it');assert(w.__RL.styleFor('now')==='engraving','the market’s globe stays engraved');
+   w.location.hash='#world';w.dispatchEvent(new w.Event('hashchange'));w.__WORLD.mode('then');w.__WORLD.year(-43000);assert(w.__WORLD.hist().snap===null,'before 3000 BC no state is drawn: the map of the first states does not stand for the Ice Age');
+   w.__WORLD.year(1500);assert(w.__WORLD.hist().snap===1500,'from 3000 BC the borders of the year are drawn');
+   {const L=w.__L10N;L.load({v:1,ui:{'Play':'Пуск','Walk through time':'Пройти сквозь время'},data:{'ev.out-of-africa.n':'Выход из Африки'},pol:{'Egypt':'Египет'}});L.set('ru');
+    assert(G("HISTORY.events.find(e=>e.id==='out-of-africa').n")==='Выход из Африки','Russian sets the history’s own fields');assert(L.pol('Egypt')==='Египет','the names on the map come in Russian');
+    assert(w.document.documentElement.lang==='ru'&&L.text('Play')==='Пуск'&&L.text('Play 3')===null,'the interface strings match whole, their numbers written #');
+    L.set('en');assert(G("HISTORY.events.find(e=>e.id==='out-of-africa').n")==='Out of Africa'&&w.document.documentElement.lang==='en','back to English, the English returns');}
+   {const RU=G('RUSSIA');if(RU.rulers.length){const R=w.__RU;assert(RU.rulers.length>=30&&RU.rulers.every(r=>Array.isArray(r.reign)&&r.reign.length&&r.n&&(r.n.en||r.n.ru)),'the rulers of Rus’ and Russia, bilingual, each with a reign');
+     assert(R.at(1700)&&/peter/i.test(R.at(1700)),'the ruler of 1700 is Peter');w.__WORLD.mode('then');R.ruler(R.at(1700));assert(/Peter|Пётр/.test(q('.wd-card .wd-ch').textContent),'a ruler opens as a card');
+     assert(RU.rulers.every(r=>(r.places||[]).concat(r.capitals||[]).every(p=>!p.ll||(p.ll[0]>=-180&&p.ll[0]<=180&&p.ll[1]>=-90&&p.ll[1]<=90))),'every place is [lon, lat] on the globe');
+     if(RU.stories.length){const st=RU.stories[0];R.story(st.id,0);assert(/1\/\d+/.test(q('.wd-card .wd-ck').textContent),'a story opens at its first step');R.step(1);assert(R.state().step===1,'the next step follows');}
+     if(RU.works.length){R.work(RU.works[0].id);assert(q('.wd-card .wd-ch').textContent.length>1,'a work of the programme opens');}
+     if(RU.cities.length){R.city(RU.cities[0].id);assert(q('.wd-card .wd-ch').textContent.length>1,'a city opens');}
+     R.hub('rulers');assert(qa('.wd-card [data-ruler]').length>=RU.rulers.length,'the hub lists every ruler');}}
    w.__S.go('world');w.__WORLD.mode('now');
    w.__WORLD.player('gagosian');assert(w.__WORLD.net().sel==='gagosian'&&/8 other offices|other offices/.test(q('.wd-ch').textContent),'a player card opens with its offices');q('.wd-x').click();
    w.__WORLD.mode('now');assert(q('#wdNet').hidden,'leaving the Net hides its controls');

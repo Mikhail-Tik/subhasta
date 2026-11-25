@@ -93,6 +93,31 @@ const picCredit=p=>`${p.author?esc(p.author)+'; ':''}${esc(p.lic||'')}; <a href=
    the file lives on Wikimedia Commons (which hosts free files alone), with its author and licence read from Commons and checked again;
    the artifact's frame refuses these requests, so there the page links to the article */
 const WIKI_PIC=new Map();const WP_LIC=/public domain|\bpd\b|pd-|cc0|cc[- ]by(?:[- ]sa)?(?![- ]n)/i,WP_BAD=/non-?commercial|\bnc\b|\bnd\b|no-?deriv|fair use|all rights/i;
+/* v35: a Wikipedia summary in the reader's language — {title, enTitle, extract, url, lang}: the English article first (redirects followed;
+   with opts.search a search finds the article when the name has none of its own), then its Russian article through the language links
+   when Russian is on. The text is Wikipedia's (CC BY-SA), shown with its link. The website only. */
+/* v35: a Wikimedia Commons file shown only after its licence is read at view time (the Commons API's extmetadata: Public Domain, CC0,
+   CC BY or CC BY-SA, never non-commercial or no-derivatives), in batches of up to 40 files; a file that fails is removed. Placeholders:
+   an element with data-commons="<file name>" (a figure gets its picture and a credit line; any other element, an image inside). The website only. */
+function hydrateCommons(root){if(!root||inArtifact()||typeof fetch!=='function')return;const els=[...root.querySelectorAll('[data-commons]:not([data-cm-done])')];if(!els.length)return;
+  const by=new Map();for(const el of els){el.setAttribute('data-cm-done','1');const f=el.getAttribute('data-commons').replace(/_/g,' ');if(!by.has(f))by.set(f,[]);by.get(f).push(el);}
+  const strip=h=>String(h||'').replace(/<[^>]*>/g,'').replace(/\s+/g,' ').trim();const files=[...by.keys()];
+  for(let i=0;i<files.length;i+=40){const chunk=files.slice(i,i+40);const seen=new Set();
+    fetch(`https://commons.wikimedia.org/w/api.php?action=query&titles=${encodeURIComponent(chunk.map(f=>'File:'+f).join('|'))}&prop=imageinfo&iiprop=extmetadata|url&iiurlwidth=900&format=json&origin=*`).then(r=>r.ok?r.json():null).then(j=>{
+      const q=j&&j.query||{};const norm=new Map((q.normalized||[]).map(x=>[x.to,x.from]));
+      for(const pg of Object.values(q.pages||{})){const from=(norm.get(pg.title)||pg.title||'').replace(/^File:/,'');const key=[...by.keys()].find(k=>k===from||k.toLowerCase()===from.toLowerCase()||('File:'+k)===pg.title);if(!key)continue;seen.add(key);const list=by.get(key);const ii=pg.imageinfo&&pg.imageinfo[0];
+        const md=ii&&ii.extmetadata||{};const lic=strip(md.LicenseShortName&&md.LicenseShortName.value)||strip(md.UsageTerms&&md.UsageTerms.value);if(!ii||!ii.thumburl||!WP_LIC.test(lic)||WP_BAD.test(lic)){list.forEach(el=>el.remove());continue;}
+        const author=strip(md.Artist&&md.Artist.value).slice(0,120),page=ii.descriptionurl||`https://commons.wikimedia.org/wiki/File:${encodeURIComponent(key.replace(/ /g,'_'))}`;
+        for(const el of list){const cap=el.getAttribute('data-cm-cap')||'';if(el.tagName==='FIGURE'){el.innerHTML=`<a href="${esc(page)}" target="_blank" rel="noopener"><img src="${esc(ii.thumburl)}" alt="${esc(cap)}" loading="lazy" referrerpolicy="no-referrer"></a><figcaption>${cap?`<b>${esc(cap)}</b> `:''}${author?esc(author)+'; ':''}${esc(lic)}; <a href="${esc(page)}" target="_blank" rel="noopener">Wikimedia Commons ↗</a></figcaption>`;}
+          else{el.innerHTML=`<img src="${esc(ii.thumburl)}" alt="${esc(cap)}" loading="lazy" referrerpolicy="no-referrer">${cap?`<span>${esc(cap)}</span>`:''}`;if(el.tagName==='A'){el.href=page;el.title=`${cap}${author?' — '+author:''}; ${lic}`;}}el.classList.add('ready');}}
+      for(const f of chunk)if(!seen.has(f))(by.get(f)||[]).forEach(el=>el.remove());}).catch(()=>{});}}
+const WIKI_SUM=new Map();
+function wikiSummary(title,opts){if(!title||inArtifact()||typeof fetch!=='function')return Promise.resolve(null);const lang=typeof L10N==='object'&&L10N&&L10N.lang==='ru'?'ru':'en';const key=lang+'|'+title+'|'+!!(opts&&opts.search);if(WIKI_SUM.has(key))return WIKI_SUM.get(key);
+  const sum=(lg,t)=>fetch(`https://${lg}.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(String(t).replace(/ /g,'_'))}`).then(r=>r.ok?r.json():null).then(j=>j&&j.type!=='disambiguation'&&j.extract?{title:j.title,extract:j.extract,url:j.content_urls&&j.content_urls.desktop&&j.content_urls.desktop.page,lang:lg}:null).catch(()=>null);
+  const find=(lg,q)=>fetch(`https://${lg}.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(q)}&srlimit=1&format=json&origin=*`).then(r=>r.ok?r.json():null).then(j=>j&&j.query&&j.query.search&&j.query.search[0]?j.query.search[0].title:null).catch(()=>null);
+  const pr=(async()=>{let en=await sum('en',title);if(!en&&opts&&opts.search){const t=await find('en',typeof opts.search==='string'?opts.search:title);if(t)en=await sum('en',t);}if(en)en.enTitle=en.title;if(lang==='en'||typeof l10nWikiTitle!=='function')return en;
+    const r=await l10nWikiTitle(en?en.title:title);if(r&&r.lang==='ru'){const ru=await sum('ru',r.title);if(ru){ru.enTitle=en?en.title:title;return ru;}}return en;})();
+  WIKI_SUM.set(key,pr);return pr;}
 function wikiPic(title){if(!title||inArtifact()||typeof fetch!=='function')return Promise.resolve(null);if(WIKI_PIC.has(title))return WIKI_PIC.get(title);
   const strip=h=>String(h||'').replace(/<[^>]*>/g,'').replace(/\s+/g,' ').trim();
   const pr=fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title.replace(/ /g,'_'))}`).then(r=>r.ok?r.json():null).then(j=>{if(j&&j.type==='disambiguation')return null;const src=j&&((j.originalimage&&j.originalimage.source)||(j.thumbnail&&j.thumbnail.source));if(!src||!/^https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\//.test(src))return null;
@@ -804,7 +829,7 @@ function renderLexicon(){const el=$('#v-lexicon');el.innerHTML=`<div class="head
 /*__TODAY__*/
 /*__MOVE__*/
 /*__ASK__*/
-/*__WORLD__*/ /*__LIBRARY__*/ /*__COMPARE__*/ /*__NAV__*/ /*__SEASON__*/ /*__DEAL__*/ /*__OCEAN__*/ /*__BRIEF__*/ /*__EYE__*/ /*__SCHOOL__*/
+/*__I18N__*/ /*__RELIEF__*/ /*__WORLD__*/ /*__RUSSIA__*/ /*__LIBRARY__*/ /*__COMPARE__*/ /*__NAV__*/ /*__SEASON__*/ /*__DEAL__*/ /*__OCEAN__*/ /*__BRIEF__*/ /*__EYE__*/ /*__SCHOOL__*/
 
 /* ---------- PALETTE ---------- */
 let palIdx=[],palSel=0,palFns=[];
@@ -922,6 +947,7 @@ function fitNav(){const n=$('#nav'),t=$('.tools'),b=document.body;if(!n||!t)retu
   if(was!==b.classList.contains('navtight')&&!b.classList.contains('navtight'))n.classList.remove('open');}
 function start(){fixShell();initTheme();initPalette();initNav();fitNav();try{if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fitNav);}catch(e){}$('#dClose').addEventListener('click',closeDrawer);$('#scrim').addEventListener('click',closeDrawer);
   if(!rendered.desk)renderView('desk');if(!rendered.salon)renderView('salon');
+  try{if(typeof l10nInit==='function')l10nInit();}catch(e){}
   route();booted=true;document.body.classList.add('booted');forWhomWatch();initCaps();let rt;window.addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(()=>{fitNav();const t=$('#treemap');if(t&&current==='hammer')treemap(t);
     /* the hammer board is rebuilt when the window crosses one of its width steps, so the title and the cells fit again */
     const b=$('#board');if(b&&boardWidth()!==BOARD.L){const i=BOARD.i;b.outerHTML=boardBuild();boardInit();boardShow(Math.min(i,BOARD.items.length-1));}

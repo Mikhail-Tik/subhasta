@@ -800,3 +800,45 @@ lots between rebuilds; `tools/desk_files.py` writes `docs/live/*.json` and `docs
 `EYE_RAIL` (piecewise, to 2026), `eyeN` (5/10/15), `extra` rounds, `EYE_TIERS` with `EYE_MARGIN`, `eyeMvOf`/`eyeMvPool` (artists or date
 and place), `eyeViewRound`, and the history game (`eyePoolHistory`).
 
+
+## 27. v35: the educational atlas — map styles, two languages, Russia in depth (24–25 November 2026)
+
+**The map beneath the globe (`src/relief.js`).** `rlRender(style, view)` draws one full-screen quad in WebGL (2 where available, else 1):
+the fragment shader inverts the world's orthographic rotation for each pixel (`lon0`, `lat0`, `cx`, `cy`, `R`) and samples an
+equirectangular picture — `relief` (Natural Earth II land cover and shaded relief), `ink` (Natural Earth grey relief, tinted from the
+theme's ground to paper), `satellite` (NASA Blue Marble); gradients are picked across the date line (Tarini's trick) so no seam shows. The
+plate canvas (`drawPlate` in `world.js`) takes the result with `drawImage` after the sphere's fill; the engraving's hatching is skipped
+(`glbPlateDraw` `opts.noHatch`) and the borders, washes and labels adapt (`G.relStyle`: dark ink and a light halo over the relief).
+`rlHdPatch` composes up to 3 × 3 tiles of the 10m relief (`docs/img/relief/hd/<col>_<row>.jpg`, 16 × 8 tiles of 22.5°, 1024 px) under a close
+view (zoom ≥ 2.2) into a second texture the shader reads inside its bounds (website, WebGL 2). Styles per mode (`rlStyleFor`, remembered in
+this browser): Then opens in relief, the market's modes engraved; the control `.wd-mapctl`. `RELIEF_ASSETS` (build.py from
+`data/relief_assets.json`) points the artifacts at their uploaded pictures.
+
+**History before states, softer guesses.** `histSnapYear` returns null before the first snapshot (3000 BC): the Ice Age shows events and
+movements, not the map of the first states. A people drawn over more than 150 square degrees (`p.a`) is a faint wash without a border.
+
+**A card for any state in any year.** `openPolityAt(lon, lat)` finds the smallest polity of the year under the tap (`polHas`, ray casting in
+lon/lat shifted to the tap's meridian), then shows `wdFillWiki` (the English article by `wikiSummary`, with a search when the name has none;
+the Russian one through the language links when Russian is on; the lead picture licence-checked by `hydrateWikiPics`), the century's power
+line, the events, living people and cities of our data inside its borders, and for Rus' and Russia the ruler of the year (`ruRulerAt`).
+
+**Two languages (`src/i18n.js`).** `L10N.lang` ('en' | 'ru'), switched in the header (`#langBtn`), remembered in this browser. The Russian
+pack (`docs/i18n/ru.json`, an asset in the artifacts via `I18N_ASSETS`) has three parts: `data` — keys naming a field of a row
+(`ev.<id>.n`, `cent.<y>.life`, `mov.<id>.what` …; `l10nSlot`) set in place on HISTORY, WORLD_NOW, HIST_PICS, MOVE_TODAY, OBJECTS and
+MOVEMENTS while Russian is on (the English kept in `L10N.en` and restored); `pol` — the names on the historical map (`wdPol` as the globe
+draws); `ui` — interface texts matched whole with their numbers written # (`l10nText`), applied by a MutationObserver to text nodes and
+to placeholder, title and aria-label. The Then lede, its legend and the Russia layer are composed in both languages in code. Tools:
+`i18n_extract.py` (the data's texts) and `i18n_ui.py` (the interface fragments of the templates) write `data/i18n/src/`; translators write
+`data/i18n/ru/` under `data/i18n/GLOSSARY.md`; `gen_i18n.py` assembles the pack (drops a translation whose # count differs).
+
+**Russia in depth (`src/russia.js`, `RUSSIA` in `src/data_russia.js` from `tools/gen_russia.py` and `data/research/v35/`).** Bilingual rows
+({en, ru}; `ruT`), places as [lon, lat]. `ruAttach(api)` receives the world's handle (`openCard`, `flyTo`, `setYear`, `zoomTo`, `projInto`
+…); `ruDraw` draws on the Then globe the capital and ruler of the year (a gilt star), the ruler's places when close, the buildings of a city
+by the year they rose, a journey or a life drawn point by point as the camera follows (`ruPlayJourney`), a story's road and the ring at its
+place; `ruHits`/`ruClick` join the world's hit test. Cards: the hub (rulers by dynasty, stories, literature by school grade, primary
+sources by kind, cities, the United States), a ruler, a story step (`ruShowStep`: picture, text, a quotation from the record, people,
+"meanwhile in the world" from the synchrony rows; arrow keys step), a work (settings, characters and their prototypes, real people), an
+author (the life, drawable), a source (excerpt, full text), a city (population sparkline, buildings, old photographs). `G.ruCard` keeps such a
+card open while its story moves the year. The reigns run as a ribbon on the rail (`.wd-reigns`). Commons files in these cards are shown only
+after `hydrateCommons` reads their licence from the Commons API. The archive desk (a weekly scheduled task) appends rows from
+`data/research/v35/QUEUE.md`; `gen_russia.py` reads `rulers_*`, `stories_*` and `sources_*` by pattern.

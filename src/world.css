@@ -228,3 +228,54 @@
 .wd-fig{margin:0 0 10px}.wd-fig img{width:100%;height:auto;max-height:260px;object-fit:cover;border-radius:3px;display:block}.wd-fig figcaption{font-size:11.5px;margin-top:4px}
 .wd-ev.hist.t1 .tt b{font-weight:700}.wd-ev.hist.t3{opacity:.8}.wd-ev .tt .tag{margin-left:4px;font-size:10px;padding:0 5px}
 .wd-glyph.small{width:110px;height:110px;float:right;margin:0 0 6px 10px}
+/* v35: the map's style beside the zoom buttons — engraving, relief, ink, satellite */
+.wd-mapctl{position:absolute;right:16px;bottom:114px;z-index:3;display:flex;flex-direction:column;align-items:flex-end;gap:4px}
+.wd[data-mode="then"] .wd-mapctl{bottom:182px}
+.wd-mb{font:500 11px/1 var(--sans);letter-spacing:.04em;padding:6px 10px;border-radius:999px;border:1px solid var(--rule2);background:var(--paper);color:var(--ink2);cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.08);opacity:.86;transition:color .2s,border-color .2s,opacity .2s}
+.wd-mb:hover{opacity:1;color:var(--gilt)}
+.wd-mb.on{opacity:1;color:var(--gilt);border-color:var(--gilt)}
+.wd-mb:disabled{opacity:.35;cursor:default}
+@media (max-width:760px){.wd-mapctl{right:10px;bottom:auto;top:10px;flex-direction:row;flex-wrap:wrap;justify-content:flex-end;max-width:70%}.wd[data-mode="then"] .wd-mapctl{bottom:auto}.wd-mb{padding:6px 9px}}
+.wd-tk-s{opacity:.75}@media (max-width:1500px){.wd-tk-s{display:none}}   /* v35: 3k BC sits too close to 43k BC on most screens */
+/* v35: Russia in depth — the lead's buttons, the reigns along the rail, the layer's cards */
+.wd-deep{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 4px}
+.wd-deepb{font:500 12.5px/1 var(--ui);letter-spacing:.04em;padding:9px 14px;border-radius:999px;border:1px solid var(--gilt);background:transparent;color:var(--gilt);cursor:pointer;transition:background .2s,color .2s}
+.wd-deepb:hover{background:var(--gilt);color:var(--ongilt,#111)}
+.wd-deepb.ghost{border-color:var(--rule2);color:var(--ink2)}.wd-deepb.ghost:hover{border-color:var(--gilt);color:var(--gilt);background:transparent}
+.wd-reigns{position:absolute;left:0;right:0;top:-9px;height:6px;pointer-events:auto}
+.wd-reigns i{position:absolute;top:0;height:6px;background:hsla(var(--h),38%,52%,.55);border-right:1px solid var(--paper);cursor:pointer;transition:height .15s,top .15s,background .15s}
+.wd-reigns i:hover,.wd-reigns i.on{top:-3px;height:9px;background:hsla(var(--h),52%,50%,.95)}
+.ru-tabs,.ru-grades{display:flex;flex-wrap:wrap;gap:4px 12px;margin:2px 0 12px;border-bottom:1px solid var(--rule);padding-bottom:8px}
+.ru-chips{display:flex;flex-wrap:wrap;gap:6px}
+.ru-chip{font:inherit;font-size:13px;text-align:left;padding:6px 10px;border-radius:8px;border:1px solid var(--rule2);border-left:3px solid hsla(var(--h,40),45%,52%,.9);background:transparent;color:var(--ink);cursor:pointer;line-height:1.3}
+.ru-chip:hover{border-color:var(--gilt);border-left-color:var(--gilt)}.ru-chip.small{font-size:12px;padding:4px 8px}
+.ru-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:hsla(var(--h,40),45%,52%,.9);margin-right:6px;vertical-align:middle}
+.ru-row{display:block;width:100%;text-align:left;font:inherit;font-size:13.5px;padding:7px 0;border:0;border-bottom:1px solid var(--rule);background:transparent;color:var(--ink);cursor:pointer}
+.ru-row:hover b{color:var(--gilt)}
+.ru-story{display:grid;gap:3px;width:100%;text-align:left;font:inherit;padding:10px 0;border:0;border-bottom:1px solid var(--rule);background:transparent;color:var(--ink);cursor:pointer}
+.ru-story b{font-size:15px}.ru-story span{font-size:13px;color:var(--ink2)}.ru-story:hover b{color:var(--gilt)}
+.ru-t{line-height:1.55}
+.ru-facts p{margin:4px 0}
+.ru-go{font:inherit;padding:0;border:0;background:transparent;color:var(--ink);cursor:pointer;text-align:left;text-decoration:underline;text-decoration-color:var(--rule2);text-underline-offset:3px}
+.ru-go:hover{color:var(--gilt);text-decoration-color:var(--gilt)}
+.ru-ev{margin:6px 0}.ru-ev p{margin:2px 0 0 0;font-size:12.5px}
+.ru-pts{margin:4px 0;padding-left:18px}.ru-pts li{margin:3px 0}
+.ru-journey{display:block;font:inherit;font-size:13.5px;text-align:left;padding:8px 10px;margin:4px 0;border-radius:8px;border:1px solid var(--rule2);background:transparent;color:var(--ink);cursor:pointer;width:100%}
+.ru-journey:hover{border-color:var(--gilt);color:var(--gilt)}
+.ru-nav{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:16px 0 6px;flex-wrap:wrap}
+.ru-steps{display:flex;gap:5px;margin:0 0 10px;flex-wrap:wrap}
+.ru-sd{width:9px;height:9px;border-radius:50%;padding:0;border:1px solid var(--rule2);background:transparent;cursor:pointer}
+.ru-sd.on{background:var(--gilt);border-color:var(--gilt)}
+.ru-q{margin:12px 0;padding:10px 14px;border-left:2px solid var(--gilt);font-family:var(--display);font-size:15px;line-height:1.5;color:var(--ink)}
+.ru-q span{display:block}.ru-q .ru-qo{font-size:13.5px;color:var(--ink2);margin-top:6px;font-style:italic}
+.ru-q footer{margin-top:6px;font:12px var(--ui);color:var(--ink3)}
+.ru-gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(118px,1fr));gap:8px}
+.ru-gal a{display:block;text-decoration:none;color:var(--ink2);font-size:11px;line-height:1.3}
+.ru-gal img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block;margin-bottom:3px;background:var(--paper2)}
+.ru-spark{width:100%;max-width:340px;height:auto;color:var(--gilt)}.ru-spark text{fill:var(--ink3);font-family:var(--ui)}
+.ru-who{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.ru-por{width:54px;height:54px;margin:0;border-radius:50%;overflow:hidden;flex:0 0 auto}.ru-por img{width:100%;height:100%;object-fit:cover}.ru-por figcaption{display:none}
+.ru-fig img{max-height:320px;width:auto;max-width:100%;margin:0 auto;display:block}
+.wd-wiki .wd-wx{line-height:1.55}.wd-wpf img{max-height:260px;width:auto;max-width:100%;display:block;margin:0 auto}
+.ru-ph:not(.ready){display:none}
+.ru-gal .ru-ph span{display:block}
+.ru-prog{margin:8px 0;font-size:13px}.ru-prog summary{cursor:pointer;color:var(--ink2);margin-bottom:6px}.ru-prog p{margin:4px 0}
