@@ -141,6 +141,45 @@
      ]
     },
     {
+     "y": 1240,
+     "date": "1240-12-13",
+     "date_os": "1240-12-06",
+     "ll": [
+      50.4501,
+      30.5234
+     ],
+     "z": 5,
+     "h": {
+      "en": "Kiev falls, December 1240",
+      "ru": "Падение Киева, декабрь 1240"
+     },
+     "t": {
+      "en": "Far to the south the Mongols under Batu cross the frozen Dnieper and besiege Kiev. On 6 December 1240 they break into the city, and most of its people are killed. A 16th-century illuminated chronicle shows the siege: the Tatars shoot without pause, and many fall on both sides.",
+      "ru": "Далеко на юге монголы Батыя переходят по льду Днепр и осаждают Киев. 6 декабря 1240 года они врываются в город; бо́льшая часть жителей погибает. Миниатюра лицевой летописи XVI века изображает осаду: татары стреляют не переставая, и с обеих сторон падает множество людей."
+     },
+     "pic": {
+      "file": "Siege of Kiev (1240).png",
+      "page": "https://commons.wikimedia.org/wiki/File:Siege_of_Kiev_(1240).png",
+      "author": "Unknown Russian illuminator, 16th century",
+      "lic": "Public domain",
+      "year": 1550,
+      "cap": {
+       "en": "The Mongol siege of Kiev in 1240, a miniature from a 16th-century Russian chronicle; the year 1550 stands for “16th century”.",
+       "ru": "Осада Киева монголами в 1240 году: миниатюра русской летописи XVI века; год 1550 условно означает «XVI век»."
+      }
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1240",
+       "https://en.wikipedia.org/wiki/1240"
+      ],
+      [
+       "Commons file page (OsmAnd mirror): Siege of Kiev (1240).png",
+       "https://download.osmand.net/wiki/File:Siege_of_Kiev_(1240).png"
+      ]
+     ]
+    },
+    {
      "y": 1241,
      "ll": [
       56.7375,
@@ -562,27 +601,6 @@
     {
      "y": 1240,
      "place": {
-      "en": "Kiev (Kyiv)",
-      "ru": "Киев"
-     },
-     "ll": [
-      50.4501,
-      30.5234
-     ],
-     "t": {
-      "en": "On 6 December the Mongols under Batu break into Kiev; most of its people are killed.",
-      "ru": "6 декабря монголы Батыя врываются в Киев; бо́льшая часть жителей погибает."
-     },
-     "src": [
-      [
-       "Wikipedia (en): 1240",
-       "https://en.wikipedia.org/wiki/1240"
-      ]
-     ]
-    },
-    {
-     "y": 1240,
-     "place": {
       "en": "Acre",
       "ru": "Акра"
      },
@@ -697,6 +715,10 @@
     [
      "Знание.Вики: Ледовое побоище",
      "https://znanierussia.ru/articles/%D0%9B%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE%D0%B5_%D0%BF%D0%BE%D0%B1%D0%BE%D0%B8%D1%89%D0%B5"
+    ],
+    [
+     "Commons file page (OsmAnd mirror): Siege of Kiev (1240).png",
+     "https://download.osmand.net/wiki/File:Siege_of_Kiev_(1240).png"
     ]
    ]
   },
@@ -1106,6 +1128,8 @@
     },
     {
      "y": 1582,
+     "date": "1582-11-05",
+     "date_os": "1582-10-26",
      "ll": [
       58.12,
       68.4
@@ -1116,20 +1140,20 @@
       "ru": "Ермак за Уралом"
      },
      "t": {
-      "en": "In 1580 the Cossack ataman Yermak sets out east with about 540 men. In 1582 his band fights its decisive battle with the army of Khan Kuchum of Sibir, by a river. Yermak is later killed and the survivors leave Siberia; a lasting Russian foothold comes only in 1586, when Tyumen is founded, two years after Ivan’s death.",
-      "ru": "В 1580 году казачий атаман Ермак с отрядом около 540 человек уходит на восток. В 1582 году его дружина даёт решающий бой войску сибирского хана Кучума на берегу реки. Позже Ермак гибнет, уцелевшие покидают Сибирь; прочно русские закрепляются там лишь в 1586 году, основав Тюмень, — через два года после смерти Ивана."
+      "en": "In July 1581 the Cossack ataman Yermak sets out east with some 540 Cossacks, with a few Lithuanian and German mercenaries and prisoners of war. After assaults on the Tatar fort at Mount Chyuvash in October 1582, he enters Qashliq, capital of Kuchum Khan of Sibir, on 26 October 1582. On 6 August 1584, after Ivan’s death, Yermak is attacked and, Russian sources say, drowns in the Vagay. Tyumen is founded in 1586, Tobolsk in 1587.",
+      "ru": "В июле 1581 года казачий атаман Ермак уходит на восток с отрядом около 540 казаков, с ним несколько литовских и немецких наёмников и пленных. После приступов к татарской крепости на Чувашевом мысу в октябре 1582 года он 26 октября 1582-го входит в Кашлык, столицу сибирского хана Кучума. 6 августа 1584 года, уже после смерти Ивана, на Ермака нападают, и он, по русским источникам, тонет в Вагае. Тюмень основана в 1586 году, Тобольск — в 1587-м."
      },
      "wiki": {
       "en": "Yermak Timofeyevich"
      },
      "src": [
       [
-       "Wikipedia (en): Ivan the Terrible",
-       "https://en.wikipedia.org/wiki/Ivan_the_Terrible"
+       "Wikipedia (en): Russian conquest of Siberia",
+       "https://en.wikipedia.org/wiki/Russian_conquest_of_Siberia"
       ],
       [
-       "Russian Museum (rmgallery.ru): Yermak’s Conquest of Siberia",
-       "https://rmgallery.ru/en/670"
+       "Wikipedia (en): Ivan the Terrible",
+       "https://en.wikipedia.org/wiki/Ivan_the_Terrible"
       ]
      ]
     },
@@ -1149,7 +1173,7 @@
       "ru": "Василий Суриков, сибиряк из донских казаков, четыре года пишет «Покорение Сибири Ермаком» (1895, холст, масло, 285 × 599 см) и ездит в места, где разворачивается действие. На картине — кульминация боя 1582 года: клин казаков врезается в ряды Кучума, и те в смятении теснятся у берега реки. Репин называл впечатление от неё невероятно могучим. Картина хранится в Государственном Русском музее, инв. Ж-4231."
      },
      "wiki": {
-      "en": "Vasily Surikov"
+      "en": "Russian conquest of Siberia"
      },
      "src": [
       [
@@ -1159,6 +1183,10 @@
       [
        "Russian Museum (rmgallery.ru): Yermak’s Conquest of Siberia",
        "https://rmgallery.ru/en/670"
+      ],
+      [
+       "Wikipedia (en): Russian conquest of Siberia",
+       "https://en.wikipedia.org/wiki/Russian_conquest_of_Siberia"
       ]
      ]
     },
@@ -1235,6 +1263,86 @@
        "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-11/"
       ]
      ]
+    },
+    {
+     "y": 1572,
+     "place": {
+      "en": "Brielle, Netherlands",
+      "ru": "Брилле, Нидерланды"
+     },
+     "ll": [
+      51.902,
+      4.162
+     ],
+     "t": {
+      "en": "On 1 April the Sea Beggars capture the port of Brielle, an early blow of the Dutch revolt.",
+      "ru": "1 апреля «морские гёзы» захватывают порт Брилле — один из первых ударов Нидерландской революции."
+     },
+     "src": [
+      [
+       "Simple English Wikipedia: 1572 (Wikiwand)",
+       "https://www.wikiwand.com/simple/articles/1572"
+      ]
+     ]
+    },
+    {
+     "y": 1572,
+     "place": {
+      "en": "Paris",
+      "ru": "Париж"
+     },
+     "ll": [
+      48.8566,
+      2.3522
+     ],
+     "t": {
+      "en": "On 24 August, three weeks after Molodi, Catholics murder thousands of Protestants in the St Bartholomew’s Day massacre; Admiral Gaspard de Coligny is among the dead.",
+      "ru": "24 августа, через три недели после Молодей, католики убивают тысячи протестантов в Варфоломеевскую ночь; среди погибших — адмирал Гаспар де Колиньи."
+     },
+     "src": [
+      [
+       "Simple English Wikipedia: 1572 (Wikiwand)",
+       "https://www.wikiwand.com/simple/articles/1572"
+      ]
+     ]
+    },
+    {
+     "y": 1572,
+     "place": {
+      "en": "Vilcabamba, Peru",
+      "ru": "Вилькабамба, Перу"
+     },
+     "ll": [
+      -12.91,
+      -73.21
+     ],
+     "t": {
+      "en": "The Spanish conquer Vilcabamba, the last independent part of the Inca Empire.",
+      "ru": "Испанцы завоёвывают Вилькабамбу — последнюю независимую часть империи инков."
+     },
+     "src": [
+      [
+       "Simple English Wikipedia: 1572 (Wikiwand)",
+       "https://www.wikiwand.com/simple/articles/1572"
+      ]
+     ]
+    },
+    {
+     "y": 1572,
+     "place": {
+      "en": "Denmark",
+      "ru": "Дания"
+     },
+     "t": {
+      "en": "Tycho Brahe observes a new star in Cassiopeia, the supernova SN 1572.",
+      "ru": "Тихо Браге наблюдает новую звезду в Кассиопее — сверхновую SN 1572."
+     },
+     "src": [
+      [
+       "Simple English Wikipedia: 1572 (Wikiwand)",
+       "https://www.wikiwand.com/simple/articles/1572"
+      ]
+     ]
     }
    ],
    "src": [
@@ -1273,6 +1381,14 @@
     [
      "Russian Museum virtual branch: Yermak’s Conquest of Siberia, Ж-4231",
      "https://rusmuseumvrm.ru/data/collections/painting/19_20/zh_4231/?lang=en"
+    ],
+    [
+     "Wikipedia (en): Russian conquest of Siberia",
+     "https://en.wikipedia.org/wiki/Russian_conquest_of_Siberia"
+    ],
+    [
+     "Simple English Wikipedia: 1572 (Wikiwand)",
+     "https://www.wikiwand.com/simple/articles/1572"
     ]
    ]
   },
@@ -1642,6 +1758,86 @@
        "https://en.wikipedia.org/wiki/Michael_of_Russia"
       ]
      ]
+    },
+    {
+     "y": 1612,
+     "place": {
+      "en": "Mughal India",
+      "ru": "Империя Великих Моголов"
+     },
+     "t": {
+      "en": "On 10 May Shah Jahan, the future Mughal emperor, marries Mumtaz Mahal.",
+      "ru": "10 мая будущий могольский император Шах-Джахан женится на Мумтаз-Махал."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1612 (IPFS mirror of the October 2016 revision)",
+       "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/1612.html"
+      ]
+     ]
+    },
+    {
+     "y": 1612,
+     "place": {
+      "en": "Lancashire, England",
+      "ru": "Ланкашир, Англия"
+     },
+     "ll": [
+      54.0466,
+      -2.8007
+     ],
+     "t": {
+      "en": "On 20 August ten “Pendle witches” are hanged.",
+      "ru": "20 августа казнены десять «пендлских ведьм»."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1612 (IPFS mirror of the October 2016 revision)",
+       "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/1612.html"
+      ]
+     ]
+    },
+    {
+     "y": 1612,
+     "place": {
+      "en": "Swally, off Surat, India",
+      "ru": "Свалли близ Сурата, Индия"
+     },
+     "ll": [
+      21.1,
+      72.65
+     ],
+     "t": {
+      "en": "On 30 November the English East India Company defeats a Portuguese force at the Battle of Swally.",
+      "ru": "30 ноября английская Ост-Индская компания разбивает португальцев в сражении при Свалли."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1612 (IPFS mirror of the October 2016 revision)",
+       "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/1612.html"
+      ]
+     ]
+    },
+    {
+     "y": 1612,
+     "place": {
+      "en": "Jamestown, Virginia",
+      "ru": "Джеймстаун, Виргиния"
+     },
+     "ll": [
+      37.2091,
+      -76.7783
+     ],
+     "t": {
+      "en": "John Rolfe exports the first crop of improved tobacco, grown from seeds from Trinidad.",
+      "ru": "Джон Рольф вывозит первый урожай улучшенного табака, выращенного из семян с Тринидада."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1612 (IPFS mirror of the October 2016 revision)",
+       "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/1612.html"
+      ]
+     ]
     }
    ],
    "src": [
@@ -1656,6 +1852,10 @@
     [
      "Harvard, Imperiia: The butcher who saved Russia — Minin’s Appeal",
      "https://scalar.fas.harvard.edu/imperiia/the-butcher-who-saved-russia-minins-appeal"
+    ],
+    [
+     "Wikipedia (en): 1612 (IPFS mirror of the October 2016 revision)",
+     "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/1612.html"
     ]
    ]
   },
@@ -1764,11 +1964,11 @@
       "ru": "Дептфорд, 1698"
      },
      "t": {
-      "en": "On 18 January 1698 Peter sails from Hellevoetsluis for England, where he stays until 21 April. From 9 February he lodges at Sayes Court, next to the dockyard at Deptford on the Thames. Reports of how many Britons entered Russian service range from 60 to 500.",
-      "ru": "18 января 1698 года Пётр отплывает из Хеллевутслёйса в Англию и остаётся там до 21 апреля. С 9 февраля он живёт в Сейс-Корте, рядом с верфью в Дептфорде на Темзе. Сколько британцев поступило на русскую службу, источники говорят по-разному — от 60 до 500."
+      "en": "On 18 January 1698 Peter sails from Hellevoetsluis for England, where he stays until 21 April. From 9 February he lodges at Sayes Court, next to the dockyard at Deptford on the Thames. Reports of how many Britons entered Russian service range from 60 to 500. In 1857 Daniel Maclise painted the scene: Peter the Great at Deptford Dockyard, now at Royal Holloway in London.",
+      "ru": "18 января 1698 года Пётр отплывает из Хеллевутслёйса в Англию и остаётся там до 21 апреля. С 9 февраля он живёт в Сейс-Корте, рядом с верфью в Дептфорде на Темзе. Сколько британцев поступило на русскую службу, источники говорят по-разному — от 60 до 500. В 1857 году Дэниел Маклиз написал эту сцену — «Пётр Великий на верфи в Дептфорде» (собрание Ройал Холлоуэй, Лондон)."
      },
      "wiki": {
-      "en": "Grand Embassy of Peter the Great"
+      "en": "Peter the Great at Deptford Dockyard"
      },
      "route": [
       [
@@ -1791,6 +1991,10 @@
       [
        "Wikipedia (en): Grand Embassy of Peter the Great",
        "https://en.wikipedia.org/wiki/Grand_Embassy_of_Peter_the_Great"
+      ],
+      [
+       "Wikipedia (en): Peter the Great at Deptford Dockyard",
+       "https://en.wikipedia.org/wiki/Peter_the_Great_at_Deptford_Dockyard"
       ]
      ]
     },
@@ -2128,8 +2332,8 @@
       "ru": "Смерть в Зимнем дворце, 1725"
      },
      "t": {
-      "en": "Peter dies on 28 January 1725 (8 February new style) in his Winter Palace — the second on the site, built by Mattarnovy in 1721 in place of Trezzini’s modest palace of 1711–12. In twenty-two years the camp on the Neva has become the capital of an empire.",
-      "ru": "Пётр умирает 28 января 1725 года (8 февраля по новому стилю) в своём Зимнем дворце — втором на этом месте, построенном Маттарнови в 1721 году вместо скромного дворца Трезини 1711–1712 годов. За двадцать два года лагерь на Неве стал столицей империи."
+      "en": "Peter dies on 28 January 1725 (8 February new style) in his Winter Palace, the second on the site, built by Mattarnovy in 1721. Reference works put the city’s population then at about 40,000; one historian argues this is far too low, since some 29,200 soldiers alone were quartered there. In 1710–1720 Peter had ordered 4,000 merchants and nobles and up to 40,000 workers to move to the city.",
+      "ru": "Пётр умирает 28 января 1725 года (8 февраля по новому стилю) в своём Зимнем дворце — втором на этом месте, построенном Маттарнови в 1721 году. Население города тогда принято считать равным 40 тысячам; один историк полагает, что цифра сильно занижена: одних военных здесь стояло около 29,2 тысячи. В 1710–1720 годах Пётр велел переселить в Петербург 4 тысячи купцов и дворян и до 40 тысяч работных людей."
      },
      "wiki": {
       "en": "Winter Palace"
@@ -2145,6 +2349,58 @@
       [
        "Wikipedia (en): Winter Palace",
        "https://en.wikipedia.org/wiki/Winter_Palace"
+      ],
+      [
+       "Peter the Great portal (rhga.ru): «Как жил в Петровском Петербурге», book chapter (PDF)",
+       "https://peter-great.rhga.ru/upload/iblock/97b/Первое поколение петербуржцев сподвижники и невольники.pdf"
+      ],
+      [
+       "Encyclopaedia of St Petersburg: Peter the Great (1672–1725), Emperor",
+       "https://encspb.ru/object/2804020144?lc=en"
+      ]
+     ]
+    }
+   ],
+   "synchrony": [
+    {
+     "y": 1703,
+     "place": {
+      "en": "Edo (Tokyo), Japan",
+      "ru": "Эдо (Токио), Япония"
+     },
+     "ll": [
+      35.6762,
+      139.6503
+     ],
+     "t": {
+      "en": "On 20 March Ōishi Yoshio, leader of the forty-seven rōnin who at the end of January had avenged their lord by killing Kira Yoshinaka, commits seppuku with his companions.",
+      "ru": "20 марта Оиси Ёсио, предводитель сорока семи ронинов, в конце января отомстивших за своего господина убийством Киры Ёсинаки, вместе с товарищами совершает сэппуку."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1703 in Japan",
+       "https://en.wikipedia.org/wiki/1703_in_Japan"
+      ]
+     ]
+    },
+    {
+     "y": 1703,
+     "place": {
+      "en": "Kantō, Japan",
+      "ru": "Канто, Япония"
+     },
+     "ll": [
+      35.3,
+      139.6
+     ],
+     "t": {
+      "en": "On 31 December the Genroku earthquake strikes at about 2 a.m., killing about 2,300 people; a tsunami may have killed 10,000 more.",
+      "ru": "31 декабря около 2 часов ночи происходит землетрясение Гэнроку: около 2300 погибших; цунами, возможно, унесло ещё 10 тысяч жизней."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1703 in Japan",
+       "https://en.wikipedia.org/wiki/1703_in_Japan"
       ]
      ]
     }
@@ -2157,6 +2413,10 @@
     [
      "Wikipedia (en): Grand Embassy of Peter the Great",
      "https://en.wikipedia.org/wiki/Grand_Embassy_of_Peter_the_Great"
+    ],
+    [
+     "Wikipedia (en): Peter the Great at Deptford Dockyard",
+     "https://en.wikipedia.org/wiki/Peter_the_Great_at_Deptford_Dockyard"
     ],
     [
      "Wikipedia (en): Saint Petersburg",
@@ -2193,6 +2453,18 @@
     [
      "Wikipedia (en): Winter Palace",
      "https://en.wikipedia.org/wiki/Winter_Palace"
+    ],
+    [
+     "Peter the Great portal (rhga.ru): «Как жил в Петровском Петербурге», book chapter (PDF)",
+     "https://peter-great.rhga.ru/upload/iblock/97b/Первое поколение петербуржцев сподвижники и невольники.pdf"
+    ],
+    [
+     "Encyclopaedia of St Petersburg: Peter the Great (1672–1725), Emperor",
+     "https://encspb.ru/object/2804020144?lc=en"
+    ],
+    [
+     "Wikipedia (en): 1703 in Japan",
+     "https://en.wikipedia.org/wiki/1703_in_Japan"
     ]
    ]
   },
@@ -2328,29 +2600,28 @@
     },
     {
      "y": 1905,
+     "date": "1905-06-27",
+     "date_os": "1905-06-14",
      "ll": [
       46.4825,
       30.7233
      ],
      "z": 5,
      "h": {
-      "en": "Tsushima and the Potemkin",
-      "ru": "Цусима и «Потёмкин»"
+      "en": "The Potemkin, June 1905",
+      "ru": "«Потёмкин», июнь 1905"
      },
      "t": {
-      "en": "In late May 1905 the Baltic Fleet, after a voyage of nine months, is nearly annihilated by the Japanese at Tsushima, and Nicholas II sues for peace. That summer the crew of the Black Sea battleship Knyaz Potemkin-Tavrichesky rises in mutiny: unrest has reached the fleet.",
-      "ru": "В конце мая 1905 года Балтийский флот после девятимесячного похода почти полностью уничтожен японцами при Цусиме, и Николай II просит мира. Летом поднимает мятеж команда черноморского броненосца «Князь Потёмкин-Таврический»: брожение дошло до флота."
+      "en": "On 14 June 1905 the crew of the Black Sea battleship Potemkin mutinies at sea: the cooks had found maggots in the meat for the men’s borscht, and an officer shot the sailor who spoke for them. The ship reaches Odessa at 6 a.m. the next day; the dead sailor’s body lies near the harbour steps, and that night troops fire on the crowds. On 25 June the Potemkin surrenders to the Romanian authorities at Constanța. Eisenstein’s film of 1925 made the steps famous.",
+      "ru": "14 июня 1905 года в море поднимает мятеж команда черноморского броненосца «Потёмкин»: коки нашли червей в мясе для матросского борща, а офицер застрелил матроса, говорившего от имени команды. В 6 утра следующего дня корабль приходит в Одессу; тело убитого лежит у портовой лестницы, а ночью войска стреляют в толпу. 25 июня «Потёмкин» сдаётся румынским властям в Констанце. Лестницу прославил фильм Эйзенштейна 1925 года."
      },
      "wiki": {
       "en": "Russian battleship Potemkin"
      },
-     "people": [
-      "nicholas-ii"
-     ],
      "src": [
       [
-       "Wikipedia (en): Nicholas II",
-       "https://en.wikipedia.org/wiki/Nicholas_II"
+       "History Today: The Mutiny on the Potemkin",
+       "https://www.historytoday.com/archive/months-past/mutiny-potemkin"
       ],
       [
        "Кругосвет: Революция 1905–1907 в России",
@@ -2530,6 +2801,71 @@
      ]
     }
    ],
+   "synchrony": [
+    {
+     "y": 1905,
+     "place": {
+      "en": "Tsushima Strait",
+      "ru": "Цусимский пролив"
+     },
+     "ll": [
+      34.4,
+      129.6
+     ],
+     "t": {
+      "en": "In late May the Baltic Fleet, after a voyage of nine months, is nearly annihilated by the Japanese at Tsushima; Nicholas II sues for peace.",
+      "ru": "В конце мая Балтийский флот после девятимесячного похода почти полностью уничтожен японцами при Цусиме; Николай II просит мира."
+     },
+     "src": [
+      [
+       "Wikipedia (en): Nicholas II",
+       "https://en.wikipedia.org/wiki/Nicholas_II"
+      ]
+     ]
+    },
+    {
+     "y": 1905,
+     "place": {
+      "en": "Norway",
+      "ru": "Норвегия"
+     },
+     "ll": [
+      59.9139,
+      10.7522
+     ],
+     "t": {
+      "en": "On 7 June Norway becomes an independent country.",
+      "ru": "7 июня Норвегия становится независимым государством."
+     },
+     "src": [
+      [
+       "Simple English Wikipedia: 1905 (Wikiwand)",
+       "https://www.wikiwand.com/simple/articles/1905"
+      ]
+     ]
+    },
+    {
+     "y": 1905,
+     "place": {
+      "en": "Bern, Switzerland",
+      "ru": "Берн, Швейцария"
+     },
+     "ll": [
+      46.948,
+      7.4474
+     ],
+     "t": {
+      "en": "Albert Einstein publishes his special theory of relativity.",
+      "ru": "Альберт Эйнштейн публикует специальную теорию относительности."
+     },
+     "src": [
+      [
+       "Simple English Wikipedia: 1905 (Wikiwand)",
+       "https://www.wikiwand.com/simple/articles/1905"
+      ]
+     ]
+    }
+   ],
    "src": [
     [
      "Wikipedia (en): Nicholas II",
@@ -2554,6 +2890,14 @@
     [
      "A. Kimball, Univ. of Oregon: Petition prepared for presentation to Nicholas II (trans. D. Field)",
      "https://pages.uoregon.edu/kimball/1905ja-Gapon.ptn.htm"
+    ],
+    [
+     "History Today: The Mutiny on the Potemkin",
+     "https://www.historytoday.com/archive/months-past/mutiny-potemkin"
+    ],
+    [
+     "Simple English Wikipedia: 1905 (Wikiwand)",
+     "https://www.wikiwand.com/simple/articles/1905"
     ]
    ]
   },
@@ -2751,8 +3095,8 @@
       "ru": "Ленин на Финляндском вокзале, 3 апреля"
      },
      "t": {
-      "en": "On 3 April (16 April) Lenin arrives back in Petrograd and, on his arrival, puts forward his April Theses.",
-      "ru": "3 (16) апреля Ленин возвращается в Петроград и сразу по приезде выдвигает свои «Апрельские тезисы»."
+      "en": "Lenin, in exile in Switzerland, crosses Germany in the “sealed train” and goes on by Sweden and Finland. On 3 April (16 April) he arrives at the Finland Station in Petrograd to a tumultuous welcome. The next day he presents his April Theses at two meetings: no cooperation with the Provisional Government, and “all power to the soviets”.",
+      "ru": "Ленин, живший в эмиграции в Швейцарии, проезжает Германию в «пломбированном вагоне», затем Швецию и Финляндию. 3 (16) апреля его бурно встречают на Финляндском вокзале в Петрограде. На следующий день он излагает на двух собраниях свои «Апрельские тезисы»: никакой поддержки Временному правительству, «вся власть Советам»."
      },
      "wiki": {
       "en": "April Theses"
@@ -2762,8 +3106,16 @@
      ],
      "src": [
       [
+       "Wikiwand (en): April Theses",
+       "https://www.wikiwand.com/en/April_Theses"
+      ],
+      [
        "Wikipedia (en): October Revolution",
        "https://en.wikipedia.org/wiki/October_Revolution"
+      ],
+      [
+       "The Moscow Times: On This Day — Lenin Arrives at the Finland Station",
+       "https://www.themoscowtimes.com/all/65247?amp=1"
       ]
      ]
     },
@@ -2976,6 +3328,92 @@
      ]
     }
    ],
+   "synchrony": [
+    {
+     "y": 1917,
+     "place": {
+      "en": "London",
+      "ru": "Лондон"
+     },
+     "ll": [
+      51.5074,
+      -0.1278
+     ],
+     "t": {
+      "en": "On 2 November the Foreign Secretary, Arthur Balfour, issues the Balfour Declaration backing a Jewish national home in Palestine.",
+      "ru": "2 ноября министр иностранных дел Артур Бальфур издаёт декларацию в поддержку еврейского национального очага в Палестине."
+     },
+     "src": [
+      [
+       "Wikiwand (en): November 1917",
+       "https://www.wikiwand.com/en/November_1917"
+      ]
+     ]
+    },
+    {
+     "y": 1917,
+     "place": {
+      "en": "Passchendaele, Belgium",
+      "ru": "Пашендейл, Бельгия"
+     },
+     "ll": [
+      50.9,
+      3.02
+     ],
+     "t": {
+      "en": "On 6 November British and Canadian troops take the village of Passchendaele; the battle ends on 10 November after three months.",
+      "ru": "6 ноября британские и канадские войска берут деревню Пашендейл; 10 ноября, через три месяца, сражение заканчивается."
+     },
+     "src": [
+      [
+       "Wikiwand (en): November 1917",
+       "https://www.wikiwand.com/en/November_1917"
+      ]
+     ]
+    },
+    {
+     "y": 1917,
+     "place": {
+      "en": "Gaza, Palestine",
+      "ru": "Газа, Палестина"
+     },
+     "ll": [
+      31.5017,
+      34.4668
+     ],
+     "t": {
+      "en": "On 7 November, the day of the rising in Petrograd, the British 21st Corps occupies Gaza after the Ottoman garrison withdraws.",
+      "ru": "7 ноября, в день восстания в Петрограде, британский 21-й корпус занимает Газу, оставленную османским гарнизоном."
+     },
+     "src": [
+      [
+       "Wikiwand (en): November 1917",
+       "https://www.wikiwand.com/en/November_1917"
+      ]
+     ]
+    },
+    {
+     "y": 1917,
+     "place": {
+      "en": "New York",
+      "ru": "Нью-Йорк"
+     },
+     "ll": [
+      40.7128,
+      -74.006
+     ],
+     "t": {
+      "en": "On 7 November women win the right to vote in New York State.",
+      "ru": "7 ноября женщины штата Нью-Йорк получают избирательное право."
+     },
+     "src": [
+      [
+       "Wikiwand (en): November 1917",
+       "https://www.wikiwand.com/en/November_1917"
+      ]
+     ]
+    }
+   ],
    "src": [
     [
      "Wikipedia (en): February Revolution",
@@ -2998,6 +3436,10 @@
      "https://en.wikipedia.org/wiki/October_Revolution"
     ],
     [
+     "Wikiwand (en): April Theses",
+     "https://www.wikiwand.com/en/April_Theses"
+    ],
+    [
      "Wikipedia (en): July Days",
      "https://en.wikipedia.org/wiki/July_Days"
     ],
@@ -3012,6 +3454,10 @@
     [
      "Seventeen Moments in Soviet History (MSU): Decree on the Land",
      "https://soviethistory.msu.edu/1917/peasant-revolution/peasant-revolution-texts/decree-on-the-land/"
+    ],
+    [
+     "Wikiwand (en): November 1917",
+     "https://www.wikiwand.com/en/November_1917"
     ]
    ]
   },
@@ -3700,6 +4146,113 @@
      ]
     }
    ],
+   "synchrony": [
+    {
+     "y": 1471,
+     "place": {
+      "en": "Elmina, Gold Coast",
+      "ru": "Эльмина, Золотой Берег"
+     },
+     "ll": [
+      5.0847,
+      -1.3509
+     ],
+     "t": {
+      "en": "In January Portuguese navigators reach the gold-trading centre of Elmina on the Gold Coast.",
+      "ru": "В январе португальские мореплаватели достигают Эльмины — центра торговли золотом на Золотом Берегу."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1471 (Kiwix mirror, March 2026)",
+       "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/1471"
+      ]
+     ]
+    },
+    {
+     "y": 1471,
+     "place": {
+      "en": "Vijaya, Champa (Vietnam)",
+      "ru": "Виджая, Тямпа (Вьетнам)"
+     },
+     "ll": [
+      13.9,
+      109.1
+     ],
+     "t": {
+      "en": "On 22 March the army of Đại Việt takes Vijaya, the capital of Champa, and captures its king.",
+      "ru": "22 марта войско Дайвьета берёт Виджаю, столицу Тямпы, и пленяет её короля."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1471 (Kiwix mirror, March 2026)",
+       "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/1471"
+      ]
+     ]
+    },
+    {
+     "y": 1471,
+     "place": {
+      "en": "Tewkesbury, England",
+      "ru": "Тьюксбери, Англия"
+     },
+     "ll": [
+      51.9925,
+      -2.16
+     ],
+     "t": {
+      "en": "On 4 May Edward IV wins the Battle of Tewkesbury; on 21 May Henry VI is murdered in the Tower of London.",
+      "ru": "4 мая Эдуард IV побеждает при Тьюксбери; 21 мая в Тауэре убит Генрих VI."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1471 (Kiwix mirror, March 2026)",
+       "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/1471"
+      ]
+     ]
+    },
+    {
+     "y": 1471,
+     "place": {
+      "en": "The Shelon, near Novgorod",
+      "ru": "Река Шелонь под Новгородом"
+     },
+     "ll": [
+      58.12,
+      30.32
+     ],
+     "t": {
+      "en": "On 14 July Muscovy defeats the Republic of Novgorod on the Shelon.",
+      "ru": "14 июля Москва разбивает Новгородскую республику на Шелони."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1471 (Kiwix mirror, March 2026)",
+       "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/1471"
+      ]
+     ]
+    },
+    {
+     "y": 1471,
+     "place": {
+      "en": "Cusco",
+      "ru": "Куско"
+     },
+     "ll": [
+      -13.532,
+      -71.9675
+     ],
+     "t": {
+      "en": "The Inca emperor Pachacuti dies and is succeeded by his son Topa Inca Yupanqui.",
+      "ru": "Умирает инкский император Пачакутек; ему наследует сын Топа Инка Юпанки."
+     },
+     "src": [
+      [
+       "Wikipedia (en): 1471 (Kiwix mirror, March 2026)",
+       "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/1471"
+      ]
+     ]
+    }
+   ],
    "src": [
     [
      "Wikipedia (en): Afanasy Nikitin",
@@ -3712,6 +4265,10 @@
     [
      "Библиотека литературы Древней Руси, т. 7: Хожение за три моря Афанасия Никитина (azbyka.ru)",
      "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-7/11"
+    ],
+    [
+     "Wikipedia (en): 1471 (Kiwix mirror, March 2026)",
+     "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/1471"
     ]
    ]
   },
@@ -5008,6 +5565,7 @@
     },
     {
      "y": 1790,
+     "date": "1790-04-29",
      "ll": [
       48.8566,
       2.3522
@@ -5018,8 +5576,8 @@
       "ru": "Три месяца в Париже"
      },
      "t": {
-      "en": "From Lyon he goes on to Paris, where, as Buslaev put it, he was fated to spend three months, in the time of the Revolution. He takes his leave of the city with regret and gratitude.",
-      "ru": "Из Лиона он едет в Париж, где ему, по словам Буслаева, «суждено было провести три месяца» — во время революции. С городом он прощается с сожалением и благодарностью."
+      "en": "A letter is dated Lyon, 9 March 1790; from there he goes on to Paris, where, as Buslaev put it, he was fated to spend three months, in the time of the Revolution. In a letter dated Paris, 29 April 1790, he describes a melodrama about Peter the Great and reflects on Peter’s reforms. He takes his leave of the city with regret and gratitude.",
+      "ru": "Одно из писем помечено «Лион, 9 марта 1790»; оттуда он едет в Париж, где ему, по словам Буслаева, «суждено было провести три месяца» — во время революции. В письме «Париж, апреля 29, 1790» он рассказывает о мелодраме про Петра Великого и размышляет о петровских преобразованиях. С городом он прощается с сожалением и благодарностью."
      },
      "wiki": {
       "en": "Paris"
@@ -5064,6 +5622,10 @@
       [
        "Ф. И. Буслаев, «Письма русского путешественника» (1866), azbyka.ru",
        "https://azbyka.ru/otechnik/Fedor_Buslaev/pisma-russkogo-puteshestvennika"
+      ],
+      [
+       "Н. М. Карамзин, «Письма русского путешественника», фрагменты (Лион, Париж, 1790), rhga.ru",
+       "https://peter-great.rhga.ru/upload/iblock/4ab/Письма русского путешественника.pdf"
       ]
      ]
     },
@@ -5134,6 +5696,113 @@
      ]
     }
    ],
+   "synchrony": [
+    {
+     "y": 1789,
+     "place": {
+      "en": "New York",
+      "ru": "Нью-Йорк"
+     },
+     "ll": [
+      40.7074,
+      -74.0104
+     ],
+     "t": {
+      "en": "On 30 April George Washington is inaugurated as President at Federal Hall in New York.",
+      "ru": "30 апреля в Федерал-холле в Нью-Йорке Джордж Вашингтон вступает в должность президента."
+     },
+     "src": [
+      [
+       "Wikiwand (en): 1789",
+       "https://www.wikiwand.com/en/articles/1789"
+      ]
+     ]
+    },
+    {
+     "y": 1789,
+     "place": {
+      "en": "Pacific Ocean",
+      "ru": "Тихий океан"
+     },
+     "t": {
+      "en": "On 28 April Fletcher Christian leads a mutiny against Captain William Bligh aboard HMS Bounty.",
+      "ru": "28 апреля Флетчер Кристиан поднимает мятеж против капитана Уильяма Блая на «Баунти»."
+     },
+     "src": [
+      [
+       "Wikiwand (en): 1789",
+       "https://www.wikiwand.com/en/articles/1789"
+      ]
+     ]
+    },
+    {
+     "y": 1789,
+     "place": {
+      "en": "Paris",
+      "ru": "Париж"
+     },
+     "ll": [
+      48.8532,
+      2.3692
+     ],
+     "t": {
+      "en": "On 14 July Parisians storm the Bastille — the day Karamzin dates his first letter from Leipzig.",
+      "ru": "14 июля парижане штурмуют Бастилию — в тот самый день, которым Карамзин помечает своё первое лейпцигское письмо."
+     },
+     "src": [
+      [
+       "Wikiwand (en): 1789",
+       "https://www.wikiwand.com/en/articles/1789"
+      ],
+      [
+       "Н. М. Карамзин, «Письма русского путешественника» (Литрес, онлайн-текст, АСТ 2018)",
+       "https://litres.com/book/nikolay-karamzin/pisma-russkogo-puteshestvennika-176615/read/"
+      ]
+     ]
+    },
+    {
+     "y": 1789,
+     "place": {
+      "en": "Rymnik, Wallachia",
+      "ru": "Рымник, Валахия"
+     },
+     "ll": [
+      45.38,
+      27.05
+     ],
+     "t": {
+      "en": "On 22 September Alexander Suvorov defeats 100,000 Turks at the Battle of Rymnik.",
+      "ru": "22 сентября Александр Суворов разбивает 100-тысячную турецкую армию при Рымнике."
+     },
+     "src": [
+      [
+       "Wikiwand (en): 1789",
+       "https://www.wikiwand.com/en/articles/1789"
+      ]
+     ]
+    },
+    {
+     "y": 1789,
+     "place": {
+      "en": "Versailles",
+      "ru": "Версаль"
+     },
+     "ll": [
+      48.8049,
+      2.1204
+     ],
+     "t": {
+      "en": "On 5 October about 7,000 women march some 19 km from Paris to Versailles to demand action on the price of bread.",
+      "ru": "5 октября около 7 тысяч женщин проходят около 19 км от Парижа до Версаля, требуя мер против дороговизны хлеба."
+     },
+     "src": [
+      [
+       "Wikiwand (en): 1789",
+       "https://www.wikiwand.com/en/articles/1789"
+      ]
+     ]
+    }
+   ],
    "src": [
     [
      "Н. М. Карамзин, «Письма русского путешественника» (Литрес, онлайн-текст, АСТ 2018)",
@@ -5146,6 +5815,14 @@
     [
      "Wikipedia (en): Nikolay Karamzin",
      "https://en.wikipedia.org/wiki/Nikolay_Karamzin"
+    ],
+    [
+     "Н. М. Карамзин, «Письма русского путешественника», фрагменты (Лион, Париж, 1790), rhga.ru",
+     "https://peter-great.rhga.ru/upload/iblock/4ab/Письма русского путешественника.pdf"
+    ],
+    [
+     "Wikiwand (en): 1789",
+     "https://www.wikiwand.com/en/articles/1789"
     ]
    ]
   },
@@ -5265,8 +5942,8 @@
       "ru": "Через Кавказ"
      },
      "t": {
-      "en": "From the North Caucasus the road to Tiflis climbs over the main range by the Darial gorge, under the snows of Kazbek. Pushkin has permission to travel only as far as Tiflis.",
-      "ru": "С Северного Кавказа дорога на Тифлис поднимается через Главный хребет Дарьяльским ущельем, под снегами Казбека. Разрешение у Пушкина — только до Тифлиса."
+      "en": "He passes Pyatigorsk in May. From the North Caucasus the road to Tiflis climbs over the main range by the Darial gorge, under the snows of Kazbek. Pushkin has permission to travel only as far as Tiflis.",
+      "ru": "В мае он проезжает Пятигорск. С Северного Кавказа дорога на Тифлис поднимается через Главный хребет Дарьяльским ущельем, под снегами Казбека. Разрешение у Пушкина — только до Тифлиса."
      },
      "wiki": {
       "en": "Georgian Military Road"
@@ -5275,6 +5952,10 @@
       [
        52.6236,
        38.5017
+      ],
+      [
+       44.0486,
+       43.0594
       ],
       [
        43.0205,
@@ -5292,23 +5973,29 @@
       [
        "Wikipedia (en): A Journey to Arzrum",
        "https://en.wikipedia.org/wiki/A_Journey_to_Arzrum"
+      ],
+      [
+       "Вокруг света: Пушкин в Тифлисе и Пятигорске, 1829",
+       "https://www.vokrugsveta.ru/vs/article/8482/"
       ]
      ]
     },
     {
      "y": 1829,
+     "date": "1829-06-08",
+     "date_os": "1829-05-27",
      "ll": [
       41.6938,
       44.8015
      ],
      "z": 5,
      "h": {
-      "en": "Tiflis",
-      "ru": "Тифлис"
+      "en": "Tiflis, 27 May – 10 June",
+      "ru": "Тифлис, 27 мая — 10 июня"
      },
      "t": {
-      "en": "Tiflis is as far as his permission goes. He goes on regardless, towards the army operating in Turkish Armenia.",
-      "ru": "Разрешение действует только до Тифлиса. Пушкин едет дальше — к армии, действующей в турецкой Армении."
+      "en": "He reaches Tiflis on 27 May 1829, meaning to stop for a day, and stays two weeks, until 10 June; Vasily Sankovsky, publisher of the Tiflis Gazette, gives a dinner in his honour. Tiflis is as far as his permission goes, but he rides on towards the army in Turkish Armenia.",
+      "ru": "27 мая 1829 года он приезжает в Тифлис — «заехал на день, но задержался на две недели», до 10 июня; издатель «Тифлисских ведомостей» Василий Санковский устраивает в его честь обед. Разрешение действует только до Тифлиса, но Пушкин едет дальше — к армии в турецкой Армении."
      },
      "wiki": {
       "en": "Tbilisi"
@@ -5327,6 +6014,10 @@
       "pushkin"
      ],
      "src": [
+      [
+       "Вокруг света: Пушкин в Тифлисе и Пятигорске, 1829",
+       "https://www.vokrugsveta.ru/vs/article/8482/"
+      ],
       [
        "Wikipedia (en): A Journey to Arzrum",
        "https://en.wikipedia.org/wiki/A_Journey_to_Arzrum"
@@ -5395,18 +6086,20 @@
     },
     {
      "y": 1829,
+     "date": "1829-07-08",
+     "date_os": "1829-06-26",
      "ll": [
-      40.6013,
-      43.0975
+      40.3,
+      42.4
      ],
      "z": 5,
      "h": {
-      "en": "Into Turkey",
-      "ru": "За границу"
+      "en": "With the army, June 1829",
+      "ru": "В армии, июнь 1829"
      },
      "t": {
-      "en": "Crossing the frontier into Turkish territory, Pushkin rides on to the Russian army, where his friends are serving. It is a crossing he has no permission to make.",
-      "ru": "Перейдя границу, Пушкин едет в действующую армию, где служат его друзья. На этот переход у него разрешения нет."
+      "en": "Crossing the frontier without leave, he catches up with Paskevich’s army: “I arrived there on the very day of the crossing of the Saganlu.” On 26 June, witnesses said, he charged the enemy horsemen with a pike taken from a dead Don Cossack, until Major Semichev, assigned to him, pulled him out of the fight.",
+      "ru": "Перейдя границу без разрешения, он догоняет армию Паскевича: «Я прибыл туда в самый день перехода через Саган-лу». 26 июня, по свидетельствам, он бросился на неприятельских всадников с пикой, взятой у убитого донского казака, пока приставленный к нему майор Семичев не вывел его из боя."
      },
      "wiki": {
       "en": "Kars"
@@ -5423,15 +6116,38 @@
       [
        40.6013,
        43.0975
+      ],
+      [
+       40.3,
+       42.4
       ]
      ],
      "people": [
       "pushkin"
      ],
+     "quote": {
+      "ru": "Я прибыл туда в самый день перехода через Саган-лу",
+      "en": "I arrived there on the very day of the crossing of the Saganlu",
+      "tr": "compiler",
+      "who": {
+       "en": "Pushkin, on joining Paskevich’s army",
+       "ru": "Пушкин — о прибытии в армию Паскевича"
+      },
+      "when": {
+       "en": "June 1829",
+       "ru": "июнь 1829"
+      },
+      "src": [
+       [
+        "«В фокусе» (Mail.ru): «С пикой на неприятелей». Как Александр Пушкин Эрзерум брал",
+        "https://vfokuse.mail.ru/news/61680027-s-pikoy-na-nepriyateley-kak-aleksandr-pushkin-erzerum-bral/"
+       ]
+      ]
+     },
      "src": [
       [
-       "Wikipedia (en): Alexander Pushkin",
-       "https://en.wikipedia.org/wiki/Alexander_Pushkin"
+       "«В фокусе» (Mail.ru): «С пикой на неприятелей». Как Александр Пушкин Эрзерум брал",
+       "https://vfokuse.mail.ru/news/61680027-s-pikoy-na-nepriyateley-kak-aleksandr-pushkin-erzerum-bral/"
       ],
       [
        "Wikipedia (en): A Journey to Arzrum",
@@ -5451,16 +6167,16 @@
       "ru": "Арзрум"
      },
      "t": {
-      "en": "During the campaign of 1829 he reaches Arzrum, modern Erzurum in eastern Turkey: the furthest point of the journey and the title of the book.",
-      "ru": "Во время похода 1829 года он добирается до Арзрума — нынешнего Эрзурума на востоке Турции. Это самая дальняя точка пути, давшая книге название."
+      "en": "Paskevich forces Arzrum, modern Erzurum in eastern Turkey, to capitulate: the furthest point of Pushkin’s journey and the title of his book. After the campaign the general persuades the poet to go back to civilian life.",
+      "ru": "Паскевич принуждает Арзрум — нынешний Эрзурум на востоке Турции — к капитуляции: это самая дальняя точка пути Пушкина, давшая название книге. После кампании генерал уговаривает поэта вернуться к мирной жизни."
      },
      "wiki": {
       "en": "Erzurum"
      },
      "route": [
       [
-       40.6013,
-       43.0975
+       40.3,
+       42.4
       ],
       [
        39.9043,
@@ -5472,12 +6188,64 @@
      ],
      "src": [
       [
-       "Wikipedia (en): A Journey to Arzrum",
-       "https://en.wikipedia.org/wiki/A_Journey_to_Arzrum"
+       "«В фокусе» (Mail.ru): «С пикой на неприятелей». Как Александр Пушкин Эрзерум брал",
+       "https://vfokuse.mail.ru/news/61680027-s-pikoy-na-nepriyateley-kak-aleksandr-pushkin-erzerum-bral/"
       ],
       [
-       "Wikipedia (en): Alexander Pushkin",
-       "https://en.wikipedia.org/wiki/Alexander_Pushkin"
+       "Wikipedia (en): A Journey to Arzrum",
+       "https://en.wikipedia.org/wiki/A_Journey_to_Arzrum"
+      ]
+     ]
+    },
+    {
+     "y": 1829,
+     "date": "1829-08-13",
+     "date_os": "1829-08-01",
+     "ll": [
+      44.0486,
+      43.0594
+     ],
+     "z": 5,
+     "h": {
+      "en": "Back by Tiflis and Pyatigorsk",
+      "ru": "Назад через Тифлис и Пятигорск"
+     },
+     "t": {
+      "en": "On the way back he is in Tiflis again on 1–6 August, and in August at Pyatigorsk, which he finds much changed in the nine years since his first visit.",
+      "ru": "На обратном пути он снова в Тифлисе 1–6 августа, а в августе — в Пятигорске, который, по его словам, сильно изменился за девять лет, прошедших с первого приезда."
+     },
+     "wiki": {
+      "en": "A Journey to Arzrum"
+     },
+     "route": [
+      [
+       39.9043,
+       41.2679
+      ],
+      [
+       40.6013,
+       43.0975
+      ],
+      [
+       41.6938,
+       44.8015
+      ],
+      [
+       42.74,
+       44.62
+      ],
+      [
+       44.0486,
+       43.0594
+      ]
+     ],
+     "people": [
+      "pushkin"
+     ],
+     "src": [
+      [
+       "Вокруг света: Пушкин в Тифлисе и Пятигорске, 1829",
+       "https://www.vokrugsveta.ru/vs/article/8482/"
       ]
      ]
     },
@@ -5547,6 +6315,71 @@
      ]
     }
    ],
+   "synchrony": [
+    {
+     "y": 1829,
+     "place": {
+      "en": "Swan River Colony (Perth), Western Australia",
+      "ru": "Колония Суон-Ривер (Перт), Западная Австралия"
+     },
+     "ll": [
+      -31.9505,
+      115.8605
+     ],
+     "t": {
+      "en": "On 3 June the Swan River Colony is founded; on 12 August Helen Dance cuts down a tree to mark the founding of Perth.",
+      "ru": "3 июня основана колония Суон-Ривер; 12 августа Хелен Данс срубает дерево в знак основания Перта."
+     },
+     "src": [
+      [
+       "Wikipedia for Schools (SOS Children): 1829",
+       "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/1/1829.htm"
+      ]
+     ]
+    },
+    {
+     "y": 1829,
+     "place": {
+      "en": "Adrianople (Edirne)",
+      "ru": "Адрианополь (Эдирне)"
+     },
+     "ll": [
+      41.6771,
+      26.5557
+     ],
+     "t": {
+      "en": "In September the Treaty of Adrianople ends the Russo-Turkish war, giving Russia land at the mouth of the Danube and along the eastern Black Sea coast.",
+      "ru": "В сентябре Адрианопольский мир завершает русско-турецкую войну: России отходят земли в устье Дуная и на восточном берегу Чёрного моря."
+     },
+     "src": [
+      [
+       "Wikipedia for Schools (SOS Children): 1829",
+       "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/1/1829.htm"
+      ]
+     ]
+    },
+    {
+     "y": 1829,
+     "place": {
+      "en": "Rainhill, Lancashire",
+      "ru": "Рейнхилл, Ланкашир"
+     },
+     "ll": [
+      53.4175,
+      -2.765
+     ],
+     "t": {
+      "en": "On 8 October the locomotive Rocket wins the Rainhill Trials.",
+      "ru": "8 октября паровоз «Ракета» побеждает на состязаниях в Рейнхилле."
+     },
+     "src": [
+      [
+       "Wikipedia for Schools (SOS Children): 1829",
+       "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/1/1829.htm"
+      ]
+     ]
+    }
+   ],
    "src": [
     [
      "Wikipedia (en): A Journey to Arzrum",
@@ -5563,12 +6396,24 @@
     [
      "М. Н. Дарвин, «К вопросу о сюжете лирического путевого цикла», Вестник РГГУ, 2020",
      "https://history.rsuh.ru/jour/article/download/815/769"
+    ],
+    [
+     "Вокруг света: Пушкин в Тифлисе и Пятигорске, 1829",
+     "https://www.vokrugsveta.ru/vs/article/8482/"
+    ],
+    [
+     "«В фокусе» (Mail.ru): «С пикой на неприятелей». Как Александр Пушкин Эрзерум брал",
+     "https://vfokuse.mail.ru/news/61680027-s-pikoy-na-nepriyateley-kak-aleksandr-pushkin-erzerum-bral/"
+    ],
+    [
+     "Wikipedia for Schools (SOS Children): 1829",
+     "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/1/1829.htm"
     ]
    ]
   }
  ],
  "notes": {
-  "en": "Searches: 30 of the first allowance used; this file is written from pages opened with them. Pictures: one pic (Repin’s ‘REPIN Ivan Terrible&Ivan.jpg’), checked on the OsmAnd mirror of its Commons file page (PD-Art, Repin died 1930); commons.wikimedia.org itself could not be opened, so `page` is the canonical Commons address of that file name. Every other step uses a `wiki` title for its lead picture. Russian Wikipedia and Russian Wikisource could not be opened (the search engine returned no ru.wikipedia pages; every ru.wikisource page failed at the site), so `wiki.ru` is given only for two titles seen on mirrors (Ледовое побоище, Афанасий Никитин). Wiki titles fetched and confirmed: Alexander Nevsky, Battle of the Neva, Battle on the Ice, Novgorod First Chronicle, Ivan the Terrible, Saint Basil's Cathedral, Oprichnina, Massacre of Novgorod, Tsarevich Ivan Ivanovich of Russia, Ivan the Terrible and His Son Ivan, Time of Troubles, Michael of Russia, Peter the Great, Grand Embassy of Peter the Great, Saint Petersburg, Peter and Paul Fortress, Admiralty, Saint Petersburg, Summer Garden, Kunstkamera, Twelve Collegia, Table of Ranks, Winter Palace, Nicholas II, February Revolution, October Revolution, July Days, Abdication of Nicholas II, Afanasy Nikitin, A Journey Beyond the Three Seas, Hormuz, Iran, Nikolay Karamzin, Alexander Pushkin, A Journey to Arzrum, Catherine the Great. Seen as link targets but not opened: Pskov, Pereslavl-Zalessky, Koporye, Sarai (city), Gorodets, Nizhny Novgorod Oblast, Alexander Nevsky Lavra, Alexander Nevsky (film), Andrey Kurbsky, Yermak Timofeyevich, Battle of Molodi, Kuzma Minin, Patriarch Hermogenes, Polish–Russian War (1609–1618), Yaroslavl, Battle of Moscow (1612), Unity Day (Russia), Zemsky Sobor, Ivan Susanin, Battle of Poltava, Georgy Gapon, Bloody Sunday (1905), 1905 Russian Revolution, Russian battleship Potemkin, October Manifesto, State Duma (Russian Empire), Petrograd Soviet, April Theses, Kornilov Affair, Military Revolutionary Committee, Decree on Peace, Nizhny Novgorod, Derbent, Chaul, Junnar, Bidar, Bahmani Sultanate, Trabzon, Feodosia, Tver, Alexander Radishchev, Journey from St. Petersburg to Moscow, Erzurum, Sovremennik. Primary-topic titles not seen (check before display): Kazan Kremlin, Moscow Kremlin, Vasily Surikov, Astrakhan, Shamakhi, Sari, Iran, Muscat, Pushkin, Saint Petersburg, Chudovo, Veliky Novgorod, Kresttsy, Valday, Torzhok, Klin, Riga, Immanuel Kant, Berlin, Leipzig, Weimar, Strasbourg, Johann Kaspar Lavater, Grindelwald, Geneva, Paris, London, Yelets, Georgian Military Road, Tbilisi, Kars, Alexander Griboyedov. Coordinates: the Wikipedia text the fetch tool returns carries no coordinates, so every `ll` and route point is a standard point for the named place (city centre, monastery, palace), not read from a page. Approximate (±10 km) for the small Radishchev stations (Spasskaya Polest, Podberezye, Bronnitsy, Zaitsovo, Yazhelbitsy, Edrovo, Khotilov, Vydropusk, Mednoye, Gorodnya, Zavidovo, Peshki, Chornaya Gryaz), for Chapakur, Sarai, Qashliq, Ilimsk, the Lake Peipus battle site (disputed) and the Bezobdal (Pushkin) pass; Parvat is placed at Srisailam, its usual identification. Dates: `date` is Gregorian, computed from the Julian `date_os` the sources give (proleptic before 1582: +7 days in the 13th century, +10 in the 16th and 17th, +11 in the 18th, +12 in the 19th, +13 from 1900). Karamzin’s letters after Palanga (3/14 June 1789) are dated new style in the text itself, so those steps carry `date` only. Several sources do not say which calendar they use; Russian events are taken as old style, and the Battle of Moscow’s 1–3 September 1612 as new style. Thin or not checked in an opened page: St Petersburg’s population in 1725 (no figure found; not given); the Finland Station as the place of Lenin’s arrival and the April Theses’ content (only the arrival date and that he issued the Theses were read); Potemkin details (only ‘a mutiny in spring–summer 1905’ was read, so no date, Odessa or Constanța claims are made; the point is placed at Odessa); the Radishchev chapter themes, which summarise the book as standardly read (the station list, the 1790 edition and the Peshki passage were read; the Library of Congress scan was not read page by page); Pushkin’s itinerary between Yelets and the Bezobdal pass and the date of his entry into Arzrum (not found; the step says only ‘during the campaign of 1829’). Peter the Great’s article gives 29 June 1703 (Julian) for the founding; the Saint Petersburg and Peter and Paul Fortress articles give 16 (27) May 1703, used here. Quotations: Old Russian, Russian and English public-domain texts as read on the cited pages; the reading tool quotes at most about 125 characters at a time, so longer quotations are joined fragments marked ‘…’. English renderings marked tr: compiler are the compiler’s literal translations; the abdication manifesto’s English is Golder (1927). Two Russian wordings were not read on a Russian page and are given as the standard text, checked against the English translation on the cited page: Gapon’s petition (Daniel Field’s English, University of Oregon) and the abdication manifesto (Golder). people ids follow rulers_b.json (michael-i, peter-i, catherine-ii, paul-i, alexander-i, nicholas-i, nicholas-ii, kerensky, lenin) and stories_a.json (pushkin); alexander-nevsky, ivan-iii, ivan-iv and the author ids nikitin, radishchev, karamzin, griboyedov are proposed and should be mapped to the rulers and literature files.",
-  "ru": "Поиски: использованы все 30 из первой квоты. Иллюстрация одна — «REPIN Ivan Terrible&Ivan.jpg», лицензия проверена по зеркалу страницы файла Commons (OsmAnd); остальные шаги используют заглавные иллюстрации статей Википедии. Русская Википедия и Викитека из этой сессии не открывались. Координаты — стандартные точки мест, не считанные со страниц; для мелких станций Радищева, Чапакура, Сарая, Искера, Илимска, места Ледового побоища и Безобдальского перевала — приблизительные. Даты: date — по григорианскому календарю, вычислены из date_os. Не найдено: население Петербурга в 1725 году; подробности о «Потёмкине»; маршрут Пушкина между Ельцом и перевалом и дата вступления в Арзрум. Английские переводы цитат — дословные переводы составителя (tr: compiler)."
+  "en": "Searches: 30 in the first allowance and 19 of the 20 extra. Pictures: two pic objects, each checked on the OsmAnd mirror of its Commons file page (PD-Art): Repin’s ‘REPIN Ivan Terrible&Ivan.jpg’ and the 16th-century chronicle miniature ‘Siege of Kiev (1240).png’. commons.wikimedia.org itself could not be opened, so `page` is the canonical Commons address of each file name. Every other step uses a `wiki` title for its lead picture; ‘Peter the Great at Deptford Dockyard’ (Maclise, 1857) and ‘Russian conquest of Siberia’ (caption: Surikov’s painting) were chosen for their pictures. Searches for Commons files of Surikov’s Yermak and Makovsky’s Minin found no file page. Russian Wikipedia and Russian Wikisource could not be opened, so `wiki.ru` is given only for two titles seen on mirrors (Ледовое побоище, Афанасий Никитин). Wiki titles opened: Alexander Nevsky, Battle of the Neva, Battle on the Ice, Novgorod First Chronicle, Ivan the Terrible, Saint Basil's Cathedral, Oprichnina, Massacre of Novgorod, Tsarevich Ivan Ivanovich of Russia, Ivan the Terrible and His Son Ivan, Russian conquest of Siberia, Time of Troubles, Michael of Russia, Peter the Great, Grand Embassy of Peter the Great, Peter the Great at Deptford Dockyard, Saint Petersburg, Peter and Paul Fortress, Admiralty, Saint Petersburg, Summer Garden, Kunstkamera, Twelve Collegia, Table of Ranks, Winter Palace, Nicholas II, February Revolution, October Revolution, July Days, Abdication of Nicholas II, April Theses (Wikiwand), Afanasy Nikitin, A Journey Beyond the Three Seas, Hormuz, Iran, Nikolay Karamzin, Alexander Pushkin, A Journey to Arzrum, Catherine the Great, Journey from St. Petersburg to Moscow (Wikiwand). Seen as link targets or search results but not opened: Pskov, Pereslavl-Zalessky, Koporye, Sarai (city), Gorodets, Nizhny Novgorod Oblast, Alexander Nevsky Lavra, Alexander Nevsky (film), Andrey Kurbsky, Yermak Timofeyevich, Battle of Molodi, Kuzma Minin, Patriarch Hermogenes, Polish–Russian War (1609–1618), Yaroslavl, Battle of Moscow (1612), Unity Day (Russia), Zemsky Sobor, Ivan Susanin, Battle of Poltava, Georgy Gapon, Bloody Sunday (1905), 1905 Russian Revolution, Russian battleship Potemkin, October Manifesto, State Duma (Russian Empire), Petrograd Soviet, Kornilov Affair, Military Revolutionary Committee, Decree on Peace, Nizhny Novgorod, Derbent, Chaul, Junnar, Bidar, Bahmani Sultanate, Trabzon, Feodosia, Tver, Alexander Radishchev, Erzurum, Sovremennik. Primary-topic titles not seen (check before display): Kazan Kremlin, Moscow Kremlin, Vasily Surikov, Astrakhan, Shamakhi, Sari, Iran, Muscat, Pushkin, Saint Petersburg, Chudovo, Veliky Novgorod, Kresttsy, Valday, Torzhok, Klin, Riga, Immanuel Kant, Berlin, Leipzig, Weimar, Strasbourg, Johann Kaspar Lavater, Grindelwald, Geneva, Paris, London, Yelets, Georgian Military Road, Tbilisi, Kars, Alexander Griboyedov. Coordinates: the page text the fetch tool returns carries no coordinates, so every `ll`, route and synchrony point is a standard point for the named place (city centre, monastery, palace), not read from a page. Approximate (±10 km) for the small Radishchev stations (Spasskaya Polest, Podberezye, Bronnitsy, Zaitsovo, Yazhelbitsy, Edrovo, Khotilov, Vydropusk, Mednoye, Gorodnya, Zavidovo, Peshki, Chornaya Gryaz), Chapakur, Sarai, Qashliq, Ilimsk, the Lake Peipus site (disputed), the Bezobdal (Pushkin) pass and the Saganlu camp; Parvat is placed at Srisailam, its usual identification. Sea legs of routes use open-water waypoints. Dates: `date` is Gregorian, computed from the Julian `date_os` the sources give (proleptic before 1582: +7 days in the 13th century, +10 in the 16th–17th, +11 in the 18th, +12 in the 19th, +13 from 1900). Karamzin’s letters after Palanga (3/14 June 1789) are dated new style in the text, so those steps carry `date` only. Where a source does not say which calendar it uses, Russian events are taken as old style; the Battle of Moscow’s 1–3 September 1612 and Michael’s 24 March 1613 as new style. Synchrony texts give days as the year pages state them. Thin or not checked: the Radishchev chapter themes summarise the book as standardly read (the station list, the 1790 edition and the Peshki passage were read; the Library of Congress scan was not read page by page); Pushkin’s route between Yelets and Pyatigorsk and the date he entered Arzrum (not found); Kurbsky’s defection is stated from his letter’s context and the Ivan article, not a page on him; the 1725 population (about 40,000) is the reference-book figure as reported, with that author’s objection; the Peter the Great article gives 29 June 1703 (Julian) for the founding, but the Saint Petersburg and fortress articles give 16 (27) May 1703, used here; the Ivan article dates Yermak’s start to 1580, the conquest article to July 1581 (used). Quotations: as read on the cited pages; the reading tool quotes at most about 125 characters at a time, so longer quotations are joined fragments marked ‘…’. tr: compiler marks the compiler’s literal translations; the abdication manifesto’s English is Golder (1927). Two Russian wordings were not read on a Russian page and are the standard text checked against an English translation on the cited page: Gapon’s petition (Daniel Field, University of Oregon) and the abdication manifesto (Golder). people ids follow rulers_b.json (michael-i, peter-i, catherine-ii, paul-i, alexander-i, nicholas-i, nicholas-ii, kerensky, lenin) and stories_a.json (pushkin); alexander-nevsky, ivan-iii, ivan-iv and the author ids nikitin, radishchev, karamzin, griboyedov are proposed and should be mapped to the rulers and literature files.",
+  "ru": "Поиски: 30 из первой квоты и 19 из дополнительных 20. Иллюстрации: две, лицензия проверена по зеркалу страниц файлов Commons (OsmAnd) — картина Репина и миниатюра XVI века «Осада Киева (1240)»; остальные шаги используют заглавные иллюстрации статей Википедии. Русская Википедия и Викитека из этой сессии не открывались. Координаты — стандартные точки мест, не считанные со страниц; для мелких станций Радищева, Чапакура, Сарая, Кашлыка, Илимска, места Ледового побоища, Безобдальского перевала и лагеря у Саган-лу — приблизительные. Даты: date — по григорианскому календарю, вычислены из date_os. Не найдено: дата вступления Пушкина в Арзрум и его маршрут между Ельцом и Пятигорском. Английские переводы цитат — дословные переводы составителя (tr: compiler)."
  }
 }

@@ -43,6 +43,47 @@
    ]
   },
   {
+   "id": "russkaya-pravda",
+   "n": {
+    "en": "Russkaya Pravda (Expanded redaction)",
+    "ru": "Русская Правда (Пространная редакция)"
+   },
+   "kind": "law",
+   "who": {
+    "en": "Yaroslav the Wise and his successors",
+    "ru": "Ярослав Мудрый и его преемники"
+   },
+   "y": 1113,
+   "place": {
+    "en": "Kiev (Kyiv)",
+    "ru": "Киев"
+   },
+   "ll": [
+    50.4501,
+    30.5234
+   ],
+   "lang": "orv",
+   "text_url": "https://pravo.by/pravovaya-informatsiya/pomniki-gistoryi-prava-belarusi/kanstytutsyynae-prava-belarusi/akty-pershykh-belaruskikh-dzyarzha-knyastva-ix-1-ya-pal-xiii-st/iz-russkoy-pravdy-o-klassovykh-gruppirovkakh-feodalnogo-obshchestva-v-xi-xii-vv/",
+   "excerpt": {
+    "ru": "Аже убиеть мужь мужа, то мьстити брату брата, любо отцю, ли сыну, любо брату чадо, ли братню сынови… то положити за голову 80 гривен, аче будеть княжь мужь или тиуна княжа",
+    "en": "If a man kills a man, the brother shall avenge his brother, or the father, or the son, or the brother’s child, or the brother’s son… then 80 grivnas shall be paid for the head, if he is a prince’s man or a prince’s steward",
+    "tr": "compiler"
+   },
+   "about": {
+    "en": "The first written law of Rus. The Belarus legal portal prints selected articles of the Expanded redaction (Troitsky copy) — Yaroslav’s Court, the Pravda of Yaroslav’s sons, Vladimir Monomakh’s statute — from Pravda Russkaya, vol. 1 (1940). The year is nominal.",
+    "ru": "Первый писаный закон Руси. Правовой портал Беларуси печатает избранные статьи Пространной редакции (Троицкий список) — Суд Ярославль, Правду Ярославичей, Устав Владимира Мономаха — по изданию «Правда Русская», т. 1 (1940). Год условный."
+   },
+   "tags": [
+    "yaroslav-the-wise"
+   ],
+   "src": [
+    [
+     "Pravo.by: Из Русской правды (Пространная редакция; «Правда русская», т. 1, 1940)",
+     "https://pravo.by/pravovaya-informatsiya/pomniki-gistoryi-prava-belarusi/kanstytutsyynae-prava-belarusi/akty-pershykh-belaruskikh-dzyarzha-knyastva-ix-1-ya-pal-xiii-st/iz-russkoy-pravdy-o-klassovykh-gruppirovkakh-feodalnogo-obshchestva-v-xi-xii-vv/"
+    ]
+   ]
+  },
+  {
    "id": "novgorod-first-chronicle",
    "n": {
     "en": "Novgorod First Chronicle",
@@ -1112,7 +1153,7 @@
   }
  ],
  "notes": {
-  "en": "25 primary sources, each with a text_url opened in this session. Russian Wikisource could not be opened (every page failed at the site) and links inside non-Wikipedia pages could not be followed, so the full texts come from libraries found by search: the Library of Old Russian Literature and the anthology Izbornik on azbyka.ru (original Old Russian beside modern translations; only the originals are quoted), the Library of Congress (1790 Radishchev), Belarus’s legal portal (October Manifesto), Michigan State’s Seventeen Moments (Golder’s 1927 translations), Michell & Forbes’s 1914 Novgorod Chronicle, WSWS reprints (Order No. 1, Decree on Peace), Litres and MyBook online texts (Karamzin, Herzen) and Robinson’s 1963 Avvakum study (imwerden.de). Weaker text_urls, to re-check: Table of Ranks (a Presidential Library page about its digitised copy, not the text); Domostroy (modernised rendering, so no excerpt); Chaadaev (translation not named, so only the epigraph and date line); Gapon’s petition and the abdication manifesto (full texts opened in English; their Russian openings are the standard wording, not read on a Russian page); Decree on Land (English, Lenin Selected Works 1952; Russian point 1 is the standard wording); Avvakum (quoted in a 1963 study, OCR spelling normalised: ‘Доло’ → ‘Долго’, ‘пробредем’ → ‘побредем’). Not found: Russkaya Pravda (Yushkov’s monograph on pravo.hse.ru quotes only fragments), Pushkin’s Journey to Arzrum as a full text (only quotations in articles), the Livonian Rhymed Chronicle, Nicholas II’s diary for 2 March 1917 (a Kommersant page has diary excerpts, but the entry was not quoted). Excerpts: verbatim, joined from fragments of at most about 125 characters marked ‘…’; old letters kept; the Primary Chronicle title is printed in capitals and given here in sentence case. English renderings marked tr: compiler are literal translations by the compiler. y for undated medieval texts is nominal and said so in `about`. tags use story ids from stories_b.json and ruler ids from rulers_b.json where they exist (peter-i, catherine-ii, nicholas-i, nicholas-ii, lenin, alexis); rurik, dmitry-donskoy, ivan-iii, ivan-iv and alexander-nevsky are proposed ids. lang ‘orv’ marks Old East Slavic and Middle Russian texts.",
-  "ru": "25 первоисточников, у каждого text_url открыт в этой сессии. Русская Викитека не открывалась, поэтому полные тексты взяты из «Библиотеки литературы Древней Руси» и «Изборника» на azbyka.ru (цитируются только древнерусские подлинники), Библиотеки Конгресса, правового портала Беларуси, сборника Голдера (1927), перевода Новгородской летописи 1914 года, перепечаток WSWS, онлайн-текстов «Литрес» и MyBook и книги Робинсона (1963). Слабые места: Табель о рангах (страница о цифровой копии), Домострой (переложение, без отрывка), Чаадаев (перевод не назван, приведены эпиграф и дата), русские начала петиции 9 января, манифеста об отречении и Декрета о земле даны по общепринятому тексту. Не найдены: Русская Правда, полный текст «Путешествия в Арзрум», Ливонская рифмованная хроника."
+  "en": "26 primary sources, each with a text_url opened in this session. Russian Wikisource could not be opened (every page failed at the site) and links inside non-Wikipedia pages could not be followed, so the texts come from libraries found by search: the Library of Old Russian Literature and the anthology Izbornik on azbyka.ru (original beside modern translation; only the originals are quoted), Belarus’s National Legal Internet Portal (Russkaya Pravda, October Manifesto), the Library of Congress (Radishchev 1790), Michigan State’s Seventeen Moments (Golder’s 1927 translations), Michell & Forbes’s 1914 Novgorod Chronicle, WSWS reprints (Order No. 1, Decree on Peace), Litres and MyBook online texts (Karamzin, Herzen) and Robinson’s 1963 Avvakum study (imwerden.de). Weaker text_urls, to re-check: Russkaya Pravda (selected articles of the Expanded redaction, not the whole text); Table of Ranks (a Presidential Library page about its digitised copy, not the text); Domostroy (modernised rendering, so no excerpt); Chaadaev (translation not named, so only the epigraph and date line are quoted); Gapon’s petition and the abdication manifesto (full texts opened in English; their Russian openings are the standard wording, not read on a Russian page); Decree on Land (English, Lenin’s Selected Works 1952; Russian point 1 is the standard wording); Avvakum (quoted in a 1963 study; OCR spelling normalised: ‘Доло’ → ‘Долго’, ‘пробредем’ → ‘побредем’). Not found: Pushkin’s Journey to Arzrum as a full text (only quotations in articles), the Livonian Rhymed Chronicle, Nicholas II’s diary entry for 2 March 1917 (a Kommersant page has diary excerpts, but the entry was not quoted). Excerpts: verbatim, joined from fragments of at most about 125 characters marked ‘…’; old letters kept; the Primary Chronicle title is printed in capitals and given here in sentence case. tr: compiler marks literal translations by the compiler. y for undated medieval texts is nominal and said so in `about`. tags use story ids from stories_b.json and ruler ids from rulers_b.json where they exist (peter-i, catherine-ii, nicholas-i, nicholas-ii, lenin, alexis); rurik, yaroslav-the-wise, dmitry-donskoy, ivan-iii, ivan-iv and alexander-nevsky are proposed ids. lang ‘orv’ marks Old East Slavic and Middle Russian texts; Chaadaev’s letter is ‘fr’ (written in French).",
+  "ru": "26 первоисточников, у каждого text_url открыт в этой сессии. Русская Викитека не открывалась, поэтому тексты взяты из «Библиотеки литературы Древней Руси» и «Изборника» на azbyka.ru (цитируются только древнерусские подлинники), правового портала Беларуси (Русская Правда, Манифест 17 октября), Библиотеки Конгресса, сборника Голдера (1927), перевода Новгородской летописи 1914 года, перепечаток WSWS, онлайн-текстов «Литрес» и MyBook и книги Робинсона (1963). Слабые места: Русская Правда (избранные статьи), Табель о рангах (страница о цифровой копии), Домострой (переложение, без отрывка), Чаадаев (перевод не назван — приведены эпиграф и дата); русские начала петиции 9 января, манифеста об отречении и Декрета о земле даны по общепринятому тексту. Не найдены: полный текст «Путешествия в Арзрум», Ливонская рифмованная хроника."
  }
 }
