@@ -984,7 +984,7 @@ existing_lots = set()
 for f in ('data_market.js', 'data_net.js'):
     t = (root / 'src' / f).read_text(encoding='utf-8')
     for m in re.finditer(r'"artist":"([^"]*)","title":"([^"]*)"', t): existing_lots.add((typo(m.group(1)), typo(m.group(2))))
-ham_new, ham_unsold, ham_houses, ham_dup, ham_held = [], [], {}, 0, []
+ham_new, ham_unsold, ham_houses, ham_dup, ham_held = [], [], {'bukowskis': 'Bukowskis', 'fairwarning': 'Fair Warning'}, 0, []   # v34: houses of the hand-entered November lots (src/data_more.js)
 for l in HAM.get('lots', []):
     if not l.get('artist') or not l.get('title') or not l.get('date') or not l.get('house'): ham_held.append((l.get('title'), 'incomplete')); continue
     if not l.get('src'): ham_held.append((l.get('title'), 'no source')); continue

@@ -38,7 +38,8 @@ function glbPlate(names){const runs=typeof GLOBE_RUNS==='object'&&Array.isArray(
   /* v33: the close view — the first-level regions, the principal rivers and the largest lakes (data_regions.js, Natural Earth), decoded lazily */
   return {H,B,get R(){if(!this._R)this._R=glbDecodeAll(typeof NE_REGIONS==='object'&&Array.isArray(NE_REGIONS)?NE_REGIONS:[]);return this._R;},
     get V(){if(!this._V)this._V=(typeof NE_RIVERS==='object'&&Array.isArray(NE_RIVERS)?NE_RIVERS:[]).map(r=>({n:r.n,r:r.r,pts:glbDecode(r.p)}));return this._V;},
-    get L(){if(!this._L)this._L=glbDecodeAll(typeof NE_LAKES==='object'&&Array.isArray(NE_LAKES)?NE_LAKES:[]);return this._L;}};}
+    get L(){if(!this._L)this._L=glbDecodeAll(typeof NE_LAKES==='object'&&Array.isArray(NE_LAKES)?NE_LAKES:[]);return this._L;},
+    get LAND(){if(!this._LAND)this._LAND=glbDecodeAll(typeof NE_LAND==='object'&&Array.isArray(NE_LAND)?NE_LAND:[]);return this._LAND;}};}   /* v34: the land polygons, for the Then mask and the coast */
 /* a delta-encoded line in hundredths of a degree ([x0, y0, dx1, dy1, …]) → unit vectors, flat */
 function glbDecode(r){const n=r.length/2,pts=new Float32Array(n*3);let X=0,Y=0;for(let i=0,k=0;i<r.length;i+=2,k+=3){X=i?X+r[i]:r[i];Y=i?Y+r[i+1]:r[i+1];const v=glbVec(X/100,Y/100);pts[k]=v[0];pts[k+1]=v[1];pts[k+2]=v[2];}return pts;}
 function glbDecodeAll(list){return list.map(glbDecode);}
@@ -54,14 +55,15 @@ function glbPlacesDraw(c,T,G,projInto,opts){const zoom=G.zoom||1;if(zoom<2||type
     if(zoom>=2.6&&p.r<=nameR){const tw=c.measureText(p.n).width,x0=o[0]+rr+4*k,y0=o[1]-fs*.6,x1=x0+tw+2,y1=o[1]+fs*.6;if(taken.some(b=>!(x1<b[0]||x0>b[2]||y1<b[1]||y0>b[3])))continue;taken.push([x0,y0,x1,y1]);
       c.fillStyle=glbCss(T.light?T.paper:T.ground,.55);c.fillRect(x0-1.5,y0,tw+3,fs*1.2);c.fillStyle=glbCss(T.ink,(big?.92:.78)*a);c.fillText(p.n,x0,o[1]);}}}
 /* the close layers: drawn by both globes over the plate when the view is near enough; the regions from 2.2×, the water from 1.8× */
-function glbCloseDraw(c,T,G,P,projInto){const zoom=G.zoom||1,o=[0,0,0,0];if(zoom<1.8)return;const W=G.w||G.size||0,HH=G.h||G.size||0,cull=W>0&&HH>0,m=4;
+function glbCloseDraw(c,T,G,P,projInto,opts){const zoom=G.zoom||1,o=[0,0,0,0];if(zoom<1.8)return;const noReg=!!(opts&&opts.regions===false),coast=!!(opts&&opts.coast);const W=G.w||G.size||0,HH=G.h||G.size||0,cull=W>0&&HH>0,m=4;
   const off=(x0,y0,x1,y1)=>cull&&((x0<-m&&x1<-m)||(x0>W+m&&x1>W+m)||(y0<-m&&y1<-m)||(y0>HH+m&&y1>HH+m));const outp=(x,y)=>cull&&(x<-m||x>W+m||y<-m||y>HH+m);
   const trace=(list,lw,style,dash)=>{c.beginPath();for(const pts of list){const n=pts.length/3;let open=false,px=0,py=0,pf=false;for(let k=0;k<n;k++){projInto(pts[k*3],pts[k*3+1],pts[k*3+2],o);const f=o[2]>.015;
       if(f){if(open){c.lineTo(o[0],o[1]);if(off(px,py,o[0],o[1]))open=false;}else if(pf&&!off(px,py,o[0],o[1])){c.moveTo(px,py);c.lineTo(o[0],o[1]);open=true;}else if(!outp(o[0],o[1])){c.moveTo(o[0],o[1]);open=true;}}else open=false;px=o[0];py=o[1];pf=f;}}
     c.setLineDash(dash||[]);c.lineWidth=lw;c.strokeStyle=style;c.stroke();c.setLineDash([]);};
   const k=G.k||1;const wa=Math.min(1,(zoom-1.8)/1.2),ra=Math.min(1,Math.max(0,(zoom-2.2)/1.2));
   if(wa>0){trace(P.L,.8*k,glbCss(T.lapis||T.ink,(T.light?.38:.55)*wa));trace(P.V.filter(v=>v.r<=4||zoom>=3).map(v=>v.pts),.8*k*Math.min(1.5,Math.pow(zoom/3,.3)),glbCss(T.lapis||T.ink,(T.light?.34:.52)*wa));}
-  if(ra>0)trace(P.R,.7*k,glbCss(T.ink,(T.light?.30:.42)*ra),[3*k,2.4*k]);}
+  if(coast&&wa>0)trace(P.LAND,.6*k,glbCss(T.ink,(T.light?.5:.55)*wa));   /* v34: the coast in a fine line when the view is close (Then, where the hatching alone is too soft for the borders cut to it) */
+  if(ra>0&&!noReg)trace(P.R,.7*k,glbCss(T.ink,(T.light?.30:.42)*ra),[3*k,2.4*k]);}
 function glbPlateDraw(c,T,G,P,projInto,tint,opts){const R=G.R,zoom=G.zoom||1,o=[0,0,0,0];const hw=Math.max(.5,R*(opts&&opts.hatch||.0018)*Math.pow(zoom,-.4));const za=zoom<=3?Math.pow(zoom,-.2):Math.pow(3,-.2)*Math.pow(zoom/3,-.6);   /* v33: the hatching thins as the view comes close, so the regions and the water read */
   /* v31.2: segments off the canvas are culled before the path is built; at zoom most of the sphere lies outside the frame */
   const W=G.w||G.size||0,HH=G.h||G.size||0,cull=W>0&&HH>0,m=4;const off=(x0,y0,x1,y1)=>cull&&((x0<-m&&x1<-m)||(x0>W+m&&x1>W+m)||(y0<-m&&y1<-m)||(y0>HH+m&&y1>HH+m));
@@ -69,6 +71,7 @@ function glbPlateDraw(c,T,G,P,projInto,tint,opts){const R=G.R,zoom=G.zoom||1,o=[
   for(const h of P.H){const pts=h.pts,n=pts.length/3,t=tint?h.t:0,w=h.w;let px=0,py=0,pd=-1;for(let k=0;k<n;k++){projInto(pts[k*3],pts[k*3+1],pts[k*3+2],o);if(k>0&&pd>0&&o[2]>0&&!off(px,py,o[0],o[1])){const d=(pd+o[2])/2,band=d>.72?2:d>.38?1:0;K[(t*2+w)*3+band].push(px,py,o[0],o[1]);}px=o[0];py=o[1];pd=o[2];}}
   const bandA=[.3,.62,1],tierA=[.55,.6,.68,.78,.9,1],landA=T.light?.6:.52;c.lineCap='butt';
   for(let t=0;t<6;t++)for(let w=0;w<2;w++)for(let b=0;b<3;b++){const arr=K[(t*2+w)*3+b];if(!arr.length)continue;c.beginPath();for(let i=0;i<arr.length;i+=4){c.moveTo(arr[i],arr[i+1]);c.lineTo(arr[i+2],arr[i+3]);}c.lineWidth=hw*(w?1.5:1);c.strokeStyle=glbCss(tint?T.tier[t]:T.land,(tint?tierA[t]:landA)*bandA[b]*za);c.stroke();}
+  if(opts&&opts.borders===false)return;   /* v34: Then draws the borders of its own year instead */
   const outp=(x,y)=>cull&&(x<-m||x>W+m||y<-m||y>HH+m);
   c.beginPath();for(const pts of P.B){const n=pts.length/3;let open=false,px=0,py=0,pf=false;for(let k=0;k<n;k++){projInto(pts[k*3],pts[k*3+1],pts[k*3+2],o);const f=o[2]>.015;
     if(f){if(open){c.lineTo(o[0],o[1]);if(off(px,py,o[0],o[1]))open=false;}else if(pf&&!off(px,py,o[0],o[1])){c.moveTo(px,py);c.lineTo(o[0],o[1]);open=true;}else if(!outp(o[0],o[1])){c.moveTo(o[0],o[1]);open=true;}}else open=false;

@@ -195,3 +195,11 @@ input:focus-visible,select:focus-visible,textarea:focus-visible,button:focus-vis
 .view.in-spread.after{border-top:2px solid var(--ink);margin-top:56px;padding-top:30px}
 .view.in-spread.after .head h1{font-size:clamp(28px,3.4vw,40px)}.view.in-spread.after .forwhom{display:none}
 @media (max-width:760px){.view.in-spread.after{margin-top:40px;padding-top:22px}.spread-nav{gap:6px 16px}}
+/* v34: the lots' pictures — a thumbnail in the Hammer's lists, the Commons figure on the lot page, the link-out when the work is in copyright */
+.lthumb{float:left;width:46px;height:46px;object-fit:cover;margin:1px 12px 1px 0;border-radius:2px;background:var(--ground);border:1px solid var(--rule)}
+.lots .lot .lthumb{width:40px;height:40px}
+.figure.lotpic img{width:100%;height:auto;max-height:520px;object-fit:contain;background:var(--ground);display:block}
+.pic-out{font-family:var(--ui);font-size:13px;color:var(--ink2);border:1px dashed var(--rule2);padding:10px 12px;margin:0 0 4px;border-radius:3px}
+.figure.lotpic.wp:not(.ready){display:none}
+span.lthumb-w{display:inline-block;background:var(--ground)}
+.wd-fig.lotpic img{max-height:260px;object-fit:cover}

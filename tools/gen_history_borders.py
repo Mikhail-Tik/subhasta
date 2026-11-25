@@ -16,15 +16,23 @@ out unless --keep-unnamed is given. Prints a table of year, polities and size at
 import json, math, sys, pathlib
 root = pathlib.Path(__file__).resolve().parent.parent
 args = [a for a in sys.argv[1:] if not a.startswith('--')]
-if not args: sys.exit('usage: python3 tools/gen_history_borders.py <historical-basemaps geojson dir> [--keep-unnamed]')
+if not args: sys.exit('usage: python3 tools/gen_history_borders.py <historical-basemaps geojson dir> [--keep-unnamed] [--fine]')
 src = pathlib.Path(args[0])
 keep_unnamed = '--keep-unnamed' in sys.argv
-out_dir = root / 'data' / 'hist'
+fine = '--fine' in sys.argv   # v34: the close set — data/hist/fine/<year>.json at 0.1°, fetched one year at a time when the view is near
+out_dir = root / 'data' / 'hist' / ('fine' if fine else '')
+# v34: the basemap's spellings that the atlas corrects (typos and the forms English atlases use); applied to NAME before anything else
+FIX = {'Zhoa': 'Zhou', 'Plateau fichers and hunter gatherers': 'Plateau fishers and hunter-gatherers', 'Irlanda': 'Ireland', 'Britany': 'Brittany',
+       'Tlinoit': 'Tlingit', 'Cimerians': 'Cimmerians', 'Silia': 'Silla', 'Makkura': 'Makuria', 'Mamluke Sultanate': 'Mamluk Sultanate',
+       'Castille': 'Castile', 'Rajastan': 'Rajasthan', 'Ainus': 'Ainu', 'Chinchoros': 'Chinchorro', 'Turcik tribes': 'Turkic tribes',
+       'Dakapeng culture': 'Dapenkeng culture', 'Hunters-gatherers': 'Hunter-gatherers', 'Nan Chao': 'Nanzhao', 'Chen-La': 'Chenla',
+       'Sinic': 'Sinic states', 'Slavonic tribes': 'Slavic tribes', 'Tiahuanaco Empire': 'Tiwanaku Empire', 'Huari Empire': 'Wari Empire',
+       'Axum': 'Aksum', 'Coqs': 'Coos', 'Ests': 'Estonians', 'Sámi': 'Saami', 'Mi\'kma\'ki': 'Mi’kma’ki', 'Đại Việt': 'Dai Viet', 'Tuʻi Tonga Empire': 'Tu’i Tonga Empire'}
 SRC_SHORT, SRC_URL, LICENCE = 'aourednik/historical-basemaps', 'https://github.com/aourednik/historical-basemaps', 'GPL-3.0'
 WANTED = [-3000, -2000, -1000, -500, -323, -200, -1, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1279, 1300, 1400, 1492, 1500,
           1530, 1600, 1650, 1700, 1715, 1783, 1800, 1815, 1880, 1900, 1914, 1920, 1938, 1945, 1960, 1994, 2000, 2010]
-TOL, STEP, MAX_KB, MIN_PTS = 0.35, 0.1, 60, 4
-MAX_TOL = TOL   # e.g. 0.65 to let a file over MAX_KB raise its tolerance in STEP increments before its smallest polities are left out
+TOL, STEP, MAX_KB, MIN_PTS = (0.1, 0.05, 240, 4) if fine else (0.35, 0.1, 60, 4)
+MAX_TOL = 0.2 if fine else TOL   # e.g. 0.65 to let a file over MAX_KB raise its tolerance in STEP increments before its smallest polities are left out
 
 def dp(pts, tol):
     if len(pts) < 3: return pts
@@ -116,6 +124,7 @@ def clean(v):
 def polity(f, tol):
     p = f.get('properties') or {}
     name = clean(p.get('NAME')) or clean(p.get('SUBJECTO')) or clean(p.get('PARTOF'))
+    name = FIX.get(name, name)
     if not name and not keep_unnamed: return None
     rings, area, largest = [], 0.0, None
     for poly in polygons_of(f.get('geometry')):
@@ -137,7 +146,7 @@ def polity(f, tol):
     row = {'n': name, 'll': [round(y, 1), round(x, 1)], 'a': round(max(area, 0.0), 1), 'rings': rings}
     kind = clean(p.get('TYPE') or p.get('type')).lower()
     if kind: row['k'] = kind[:40]
-    subject = clean(p.get('SUBJECTO'))
+    subject = FIX.get(clean(p.get('SUBJECTO')), clean(p.get('SUBJECTO')))
     if subject and subject != name and not subject.isdigit(): row['s'] = subject
     return row
 
@@ -189,9 +198,9 @@ for want in WANTED:
     (out_dir / f'{year}.json').write_text(js, encoding='utf-8')
     years.append(year)
     table.append((year, files[year], len(doc['polities']), sum(len(r['rings']) for r in doc['polities']), sum(len(e) // 2 for r in doc['polities'] for e in r['rings']), tol, size_kb(js)))
-index = {'years': years, 'licence': LICENCE, 'src': SRC_URL}
+index = {'years': years, 'licence': LICENCE, 'src': SRC_URL, 'tol': TOL}
 (out_dir / 'index.json').write_text(json.dumps(index, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
 print(f"{'year':>6}  {'file':<24}{'polities':>9}{'rings':>7}{'points':>8}{'tol':>6}{'KB':>8}")
 for year, fn, n, nr, npts, tol, kb in table: print(f'{year:>6}  {fn:<24}{n:>9}{nr:>7}{npts:>8}{tol:>6.2f}{kb:>8.1f}')
-print(f"wrote {len(years)} files to data/hist/ ({sum(t[-1] for t in table):.0f} KB) and data/hist/index.json")
+print(f"wrote {len(years)} files to {out_dir.relative_to(root)}/ ({sum(t[-1] for t in table):.0f} KB) and data/hist/index.json")
 for n in notes: print('  note:', n)

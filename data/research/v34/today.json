@@ -1,0 +1,3588 @@
+{
+ "asof": "2026-11-24",
+ "status": "done — agent D: conflicts 37 and events 16; movements: the synchrony paragraph for all 58, the owners for 30 (25 of them with three to five collections); the 33 movements short of three sourced owners are listed in unconfirmed",
+ "conflicts": [
+  {
+   "id": "ukraine",
+   "n": "Russia’s war in Ukraine",
+   "ll": [
+    48.5,
+    37.5
+   ],
+   "since": 2014,
+   "parties": "Russia; Ukraine (with Western support)",
+   "status": "war",
+   "t": "Russia’s full-scale invasion of February 2022 continues along a front in the east and south, with independent assessments cited by Al Jazeera on 13 November 2026 putting Russia’s net gain this year at 117 sq km. Ukraine, Russia and the United States held their first talks since February in Abu Dhabi on 10–11 November; Russia’s delegation said it would be satisfied only by a peace on its terms, and an exchange of at least 1,000 prisoners a side was agreed. Ukraine says Russia fired 3,519 drones in ten days and 36 ballistic missiles at energy sites on 7 November.",
+   "fig": "UCDP: at least 94,700 killed in 2025, about 62% of all battle deaths worldwide; the Wikipedia list counts 80,245 deaths in 2025 and 42,286 so far in 2026",
+   "src": [
+    [
+     "Al Jazeera, Russia’s demands come from a different reality as war effort stagnates (13 Nov 2026)",
+     "https://aljazeera.com/news/2026/11/13/russias-demands-come-from-different-reality-as-war-efforts-stagnates"
+    ],
+    [
+     "Uppsala University, UCDP: record number of conflicts between states (9 June 2026)",
+     "https://www.uu.se/en/news/2026/2026-06-09-ucdp-record-number-of-conflicts-between-states"
+    ],
+    [
+     "Wikipedia, List of ongoing armed conflicts",
+     "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "gaza",
+   "n": "Gaza: Israel and Hamas",
+   "ll": [
+    31.42,
+    34.35
+   ],
+   "since": 2023,
+   "parties": "Israel; Hamas and allied factions",
+   "status": "ceasefire",
+   "t": "A ceasefire signed by Israel and Hamas in October 2025 holds in name while Israel keeps the part of Gaza behind the ‘Yellow Line’. On 18 November 2026 Israeli tanks pushed into central Gaza east of Nuseirat and north of Bureij in the first broad ground operation since the truce; hospital officials said three Palestinians were killed, Hamas called it a flagrant violation, and Gaza’s health ministry counted seven dead in the previous 24 hours.",
+   "fig": "74,618 Palestinians reported killed and 175,920 injured since 7 October 2023 (Gaza Ministry of Health, in OCHA’s snapshot of 4 November 2026); more than 1,200 Israelis killed; 597 aid workers killed",
+   "src": [
+    [
+     "Al Jazeera, Palestinians flee refugee camp as Israel begins operation in central Gaza (18 Nov 2026)",
+     "https://www.aljazeera.com/news/2026/11/18/palestinians-flee-refugee-camp-as-israel-begins-operation-in-central-gaza"
+    ],
+    [
+     "UN OCHA, Gaza Reported Impact Snapshot (4 Nov 2026)",
+     "https://www.ochaopt.org/sites/default/files/Gaza_Reported_Impact_Snapshot_04_November_2026.pdf"
+    ],
+    [
+     "Wikipedia, List of ongoing armed conflicts",
+     "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts"
+    ]
+   ],
+   "vf": "V"
+  },
+  {
+   "id": "iran",
+   "n": "Iran against the United States and Israel",
+   "ll": [
+    35.69,
+    51.39
+   ],
+   "since": 2026,
+   "parties": "Iran; United States; Israel",
+   "status": "ceasefire",
+   "t": "The United States and Israel opened a war on Iran on 28 February 2026 with about 900 strikes in under twelve hours; Supreme Leader Ali Khamenei was killed in the opening strikes and Mojtaba Khamenei was named his successor on 9 March. Pakistan brokered a two-week truce on 8 April, the US blockaded Iranian ports, and a preliminary agreement to end the war was announced on 14 June after 108 days. On 12 November 2026 Iran’s chief negotiator Mohammad Bagher Ghalibaf called the position ‘no war and no peace’: the blockade and Iranian control of passage through the Strait of Hormuz remain, with Qatar mediating.",
+   "fig": "UCDP counted eight interstate conflicts in 2025, the most since 1946, Iran–Israel among them; the Wikipedia list counts 7,045 deaths in Iran in 2026",
+   "src": [
+    [
+     "The Express Tribune (Anadolu), Timeline: how the US–Israel war with Iran unfolded over 108 days (15 Jun 2026)",
+     "https://tribune.com.pk/story/2613315/timeline-how-the-us-israel-war-with-iran-unfolded-over-108-days"
+    ],
+    [
+     "Al Jazeera, ‘No war, no peace’: can Iran break the deadlock with the US? (12 Nov 2026)",
+     "https://www.aljazeera.com/news/2026/11/12/no-war-no-peace-can-iran-break-the-deadlock-with-the-us"
+    ],
+    [
+     "Uppsala University, UCDP: record number of conflicts between states (9 June 2026)",
+     "https://www.uu.se/en/news/2026/2026-06-09-ucdp-record-number-of-conflicts-between-states"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "lebanon",
+   "n": "Israel and Hezbollah in Lebanon",
+   "ll": [
+    33.38,
+    35.48
+   ],
+   "since": 2023,
+   "parties": "Israel; Hezbollah; Lebanon",
+   "status": "ceasefire",
+   "t": "Hezbollah fired rockets at Israel on 2 March 2026 after the killing of Iran’s supreme leader, and Israel answered with air raids and a ground invasion that left it holding a strip about 10 km deep. A US-brokered framework agreement signed in Washington on 26 June 2026 ties Israeli withdrawal to Hezbollah’s verified disarmament; by 29 July only one pilot zone, Zawtar al-Gharbiyeh, had passed to the Lebanese army, Israeli strikes continue, and Hezbollah rejects the deal.",
+   "fig": "more than 4,200 killed in Lebanon since 2 March 2026 (Lebanese Health Ministry, cited by Al Jazeera on 28 June)",
+   "src": [
+    [
+     "Al Jazeera, Israel strikes Lebanon, testing days-old peace deal (28 Jun 2026)",
+     "https://www.aljazeera.com/amp/news/2026/6/28/israel-strikes-lebanon-testing-days-old-peace-deal"
+    ],
+    [
+     "Asharq Al-Awsat, First test of US-backed ‘pilot zones’ in south Lebanon lays bare difficulties (29 Jul 2026)",
+     "https://english.aawsat.com/node/5301242"
+    ],
+    [
+     "TBS News (Reuters), Israel demarcates expanded Lebanon occupation zone, challenging US–Iran pact (18 Jun 2026)",
+     "https://www.tbsnews.net/world/israel-demarcates-expanded-lebanon-occupation-zone-challenging-us-iran-pact-1466756"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "yemen",
+   "n": "Yemen: the Houthi offensive",
+   "ll": [
+    13.58,
+    44.02
+   ],
+   "since": 2014,
+   "parties": "Houthis (Ansar Allah); Yemeni government and Southern forces; Saudi-led coalition",
+   "status": "war",
+   "t": "The Houthis, who took Sanaa in 2014, resumed a ground offensive in August 2026, besieged Taiz from early October and on 15 November drove government-aligned forces from the Bab al-Mandeb area; by 16 November they were reported 60–100 km from Aden, the government’s interim capital. The Saudi-led coalition has resumed air strikes and reports intercepting Houthi drones over Riyadh and Mecca; Saudi Arabia named a new Joint Forces commander on 16 November.",
+   "fig": "OCHA: more than 340,000 people displaced since fighting began in August 2026, two-thirds from Taiz (cited by FDD’s Long War Journal, 16 November)",
+   "src": [
+    [
+     "Al-Monitor, Yemen’s Saudi-backed forces retreat to defend Aden as Houthis advance: what to know (16 Nov 2026)",
+     "https://www.al-monitor.com/originals/2026/11/yemens-saudi-backed-forces-retreat-defend-aden-houthis-advance-what-know"
+    ],
+    [
+     "FDD’s Long War Journal, Houthis retake Bab al-Mandeb and move toward Aden (16 Nov 2026)",
+     "https://www.fdd.org/analysis/houthis-retake-bab-al-mandeb-and-move-toward-aden/"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "syria",
+   "n": "Syria after Assad",
+   "ll": [
+    32.71,
+    36.57
+   ],
+   "since": 2011,
+   "parties": "Syrian transitional government; Druze Sweida National Guard; Israel; remnants of ISIL",
+   "status": "conflict",
+   "t": "Ahmad al-Shara’s government has run Damascus since Assad fell in December 2024, and a campaign in January 2026 brought the Kurdish-led SDF under its control after the US ended support. Sweida is the open front: an Israeli-backed Druze ‘National Guard’ holds the hills around the city, and The National reported on 22 October 2026 that Damascus had sent about 3,000 troops to its western approaches while Israel airlifts equipment into the province and keeps positions in Quneitra and Deraa.",
+   "fig": "about 1,700 killed, mostly Druze, in the July 2025 Sweida fighting (The National); the Wikipedia list counts 8,837 deaths in 2025 and 1,575 in 2026",
+   "src": [
+    [
+     "The National, Syria sends troops to Sweida as Israel expands presence (22 Oct 2026)",
+     "https://www.thenationalnews.com/news/mena/2026/10/22/syria-druze-israel/"
+    ],
+    [
+     "Wikipedia, List of ongoing armed conflicts",
+     "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "sudan",
+   "n": "Sudan: army against the RSF",
+   "ll": [
+    13.18,
+    30.22
+   ],
+   "since": 2023,
+   "parties": "Sudanese Armed Forces; Rapid Support Forces and allies",
+   "status": "war",
+   "t": "The war between the Sudanese Armed Forces and the Rapid Support Forces began in April 2023; the RSF took El Fasher in October 2025 after a long siege and holds all five Darfur states. The army has turned the Kordofan front: on 13 November 2026 it took al-Khuwai in West Kordofan, having broken the siege of El Obeid, while the RSF still holds al-Nuhud and parts of South Kordofan with the SPLM-N.",
+   "fig": "about 150,000 killed and more than 14 million displaced (Al Jazeera, 14 November 2026); UCDP recorded about 76,500 deaths from one-sided violence in 2025, mainly at El Fasher",
+   "src": [
+    [
+     "Al Jazeera, How SAF successes in Sudan’s Kordofan could turn the tide against the RSF (14 Nov 2026)",
+     "https://www.aljazeera.com/news/2026/11/14/how-saf-successes-in-sudans-kordofan-could-turn-tide-against-the-rsf"
+    ],
+    [
+     "Uppsala University, UCDP: record number of conflicts between states (9 June 2026)",
+     "https://www.uu.se/en/news/2026/2026-06-09-ucdp-record-number-of-conflicts-between-states"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "myanmar",
+   "n": "Myanmar civil war",
+   "ll": [
+    21.9,
+    96.0
+   ],
+   "since": 2021,
+   "parties": "Military government; People’s Defence Forces and ethnic armed organisations",
+   "status": "war",
+   "t": "The civil war that followed the 2021 coup is in its sixth year. The military held phased elections in December 2025 and January 2026, coup leader Min Aung Hlaing was voted in as president, and on 6 November 2026 the election commission announced by-elections for 4 April 2027 in 39 constituencies, a third of them in areas of Sagaing, Mandalay and Chin where voting had been cancelled for security reasons.",
+   "fig": "more than 100,000 deaths since the coup (ACLED, cited by AFP and The Star, 6 November 2026)",
+   "src": [
+    [
+     "The Star (AFP), Myanmar announces by-elections expanding parliament writ (6 Nov 2026)",
+     "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/06/myanmar-announces-by-elections-expanding-parliament-writ-and-confident-of-holding-on-to-territories"
+    ],
+    [
+     "Wikipedia, List of ongoing armed conflicts",
+     "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "drc",
+   "n": "Eastern Congo: M23 and the FRN",
+   "ll": [
+    -2.1,
+    28.6
+   ],
+   "since": 1996,
+   "parties": "DR Congo and allied Wazalendo militias; AFC/M23, renamed FRN, backed by Rwanda",
+   "status": "war",
+   "t": "M23 took Goma and Bukavu in early 2025. A Doha framework of November 2025 and a roadmap agreed in Switzerland in August 2026 have not stopped the fighting: the rebel front, which Critical Threats reports was renamed FRN under Joseph Kabila on 12 October 2026, launched an offensive from Kahuzi-Biega on 6 November and took Bulambika and Bunyakiri on the RN3 by 9 November as government forces fell back toward Irangi.",
+   "fig": "about 5.3 million displaced (Al Jazeera, 23 August 2026); the Wikipedia list counts 3,467 deaths in 2026",
+   "src": [
+    [
+     "Critical Threats, Congo War Security Review (11 Nov 2026)",
+     "https://www.criticalthreats.org/briefs/congo-war-security-review/november-11-2026"
+    ],
+    [
+     "Al Jazeera, DR Congo, M23 rebels agree on roadmap for peace talks (23 Aug 2026)",
+     "https://aljazeera.com/news/2026/8/23/dr-congo-m23-rebels-agree-on-roadmap-for-peace-talks"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "somalia",
+   "n": "Somalia: al-Shabaab",
+   "ll": [
+    2.05,
+    45.32
+   ],
+   "since": 2006,
+   "parties": "Somali government and AUSSOM; al-Shabaab; ISIL in Puntland",
+   "status": "war",
+   "t": "Al-Shabaab claimed on 26 October 2026 to have killed hundreds of Somali soldiers in an ambush near Leego, a toll not independently verified. Uganda, with about 6,500 troops in the country, said on 2 November it will withdraw by the end of 2027, and US forces left Baledogle airfield in late October while continuing air strikes, the latest on 5 November in Lower Shabelle (FDD’s Long War Journal, 10 November).",
+   "fig": "10,788 deaths in 2025 and 5,601 so far in 2026 (Wikipedia list)",
+   "src": [
+    [
+     "FDD’s Long War Journal, Ugandans start withdrawal from Somalia, US leaves key base (10 Nov 2026)",
+     "https://www.fdd.org/analysis/ugandans-start-withdrawal-from-somalia-us-leaves-key-base/"
+    ],
+    [
+     "Wikipedia, List of ongoing armed conflicts",
+     "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "ethiopia",
+   "n": "Ethiopia: Tigray, Amhara and Eritrea",
+   "ll": [
+    13.5,
+    39.47
+   ],
+   "since": 2020,
+   "parties": "Ethiopian federal forces and the Tigray Peace Force; TPLF; Fano; Eritrea",
+   "status": "war",
+   "t": "War returned to Tigray in late September 2026: federal forces took Mekelle in early October as the TPLF withdrew, Ethiopia and Eritrea severed ties on 2 October, and Addis Ababa accuses Eritrea of leading a rebel offensive, which Asmara denies. By 15 November Eritrean forces had reportedly retaken Badme, Fano fighters clashed with the army southeast of Bahir Dar on 16 November, and a UN delegation began a visit to Mekelle on 17 November (Critical Threats).",
+   "fig": "6,322 deaths in 2025 and 5,152 so far in 2026 (Wikipedia list)",
+   "src": [
+    [
+     "Critical Threats, Ethiopia War Security Review (17 Nov 2026)",
+     "https://www.criticalthreats.org/briefs/ethiopia-war-security-review/november-17-2026"
+    ],
+    [
+     "Al Jazeera, Ethiopian forces expand control in Tigray as militia claims Eritrean losses (15 Oct 2026)",
+     "https://www.aljazeera.com/news/2026/10/15/ethiopian-forces-expand-control-in-tigray-as-militia-claims-eritrean-losses"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "mali",
+   "n": "Mali: JNIM and the Azawad front",
+   "ll": [
+    12.64,
+    -8.0
+   ],
+   "since": 2012,
+   "parties": "Malian junta and Russia’s Africa Corps; JNIM; Azawad Liberation Front (FLA)",
+   "status": "war",
+   "t": "JNIM’s fuel blockade of Bamako began on 3 September 2025. On 25 April 2026 JNIM and the Tuareg FLA attacked military sites across Mali including the capital, killed Defence Minister Sadio Camara at Kati and took Kidal with about 130 soldiers captured; Russia said its Africa Corps helped thwart a coup, and Assimi Goïta took the defence portfolio himself on 4 May. JNIM declared a full blockade of Bamako on 28 April.",
+   "fig": "18,132 deaths across the Sahel and Maghreb insurgencies in 2026 (Wikipedia list); more than 300 fuel tankers destroyed since September 2025",
+   "src": [
+    [
+     "Al Jazeera, What’s happening in Mali one week after attack by armed groups? (5 May 2026)",
+     "https://www.aljazeera.com/news/2026/5/5/whats-happening-in-mali-one-week-after-attack-by-armed-groups-all-we-know"
+    ],
+    [
+     "Wikipedia, Mali fuel blockade",
+     "https://en.wikipedia.org/wiki/Mali_fuel_blockade"
+    ],
+    [
+     "Wikipedia, List of ongoing armed conflicts",
+     "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "burkina",
+   "n": "Burkina Faso: JNIM",
+   "ll": [
+    13.17,
+    -2.23
+   ],
+   "since": 2016,
+   "parties": "Burkinabè junta and VDP militias; JNIM; Islamic State Sahel",
+   "status": "war",
+   "t": "JNIM has fought in Burkina Faso since 2016 and in February 2026 made the country the focus of a coordinated offensive across the central Sahel and into Benin. Human Rights Watch documented the execution of at least 34 civilians at Titao on 14 February and four at Manni on 22 February, and ACLED counted more than 30 JNIM attacks that month with over 120 soldiers, forest guards and militiamen killed. The junta of Ibrahim Traoré has ruled since 2022.",
+   "fig": "at least 38 civilians killed in the February 2026 attacks (Human Rights Watch, 12 March 2026)",
+   "src": [
+    [
+     "AllAfrica (Human Rights Watch), Burkina Faso: Islamist armed group commits new atrocities (12 Mar 2026)",
+     "https://allafrica.com/stories/202603120104.html"
+    ],
+    [
+     "Wikipedia, List of ongoing armed conflicts",
+     "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "niger",
+   "n": "Niger: Islamic State Sahel",
+   "ll": [
+    14.2,
+    1.45
+   ],
+   "since": 2015,
+   "parties": "Nigerien junta with Russian troops; Islamic State Sahel; JNIM",
+   "status": "war",
+   "t": "Niger’s junta, in power since the 2023 coup, fights Islamic State’s Sahel affiliate in the west and JNIM in the south-east. Attackers struck the air base at Niamey’s Diori Hamani airport after midnight on 29 January 2026; ISIL claimed it, the government said 20 attackers were killed, and General Tiani thanked the Russian troops at the base and accused France, Benin and Ivory Coast of sponsoring the raid, without evidence. Attacks in Tillabéri in September 2025 killed more than 120 people.",
+   "fig": "20 attackers killed and four soldiers wounded at Niamey airport (junta figures, 29 January 2026)",
+   "src": [
+    [
+     "Al Jazeera, ISIL claims responsibility for Niger airport attack (30 Jan 2026)",
+     "https://www.aljazeera.com/news/2026/1/30/isil-claims-deadly-attack-on-air-base-near-niger"
+    ],
+    [
+     "Wikipedia, List of ongoing armed conflicts",
+     "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "haiti",
+   "n": "Haiti: the gangs",
+   "ll": [
+    18.54,
+    -72.34
+   ],
+   "since": 2018,
+   "parties": "Haitian police and army with the Gang Suppression Force; Viv Ansanm and other gangs",
+   "status": "war",
+   "t": "The UN says up to 90% of Port-au-Prince is under gang control. The UN-backed Gang Suppression Force began arriving in April 2026 with a mandate to March 2027, and El Salvador sent up to 2,000 troops after four of its technicians were kidnapped on 18 October. On 19 November 2026 Haiti’s army and police, with a task force including Erik Prince’s Vectus Global, fought to clear Martissant on Route 2; police said 34 suspected gang members were killed.",
+   "fig": "UN: 1,123 killed and 440 injured between July and October 2026; at least 1.4 million displaced",
+   "src": [
+    [
+     "Al Jazeera, ‘One less gang leader’: Haiti’s prime minister celebrates police operation (7 Nov 2026)",
+     "https://aljazeera.com/news/2026/11/7/one-less-gang-leader-haitis-prime-minister-celebrates-police-operation"
+    ],
+    [
+     "WCAX (AP), Heavy fighting erupts in Haiti as armed forces fight gangs to regain control of key corridor (19 Nov 2026)",
+     "https://www.wcax.com/2026/11/19/heavy-fighting-erupts-haiti-armed-forces-fight-gangs-regain-control-key-corridor/"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "mexico",
+   "n": "Mexico’s cartel war",
+   "ll": [
+    24.8,
+    -107.39
+   ],
+   "since": 2006,
+   "parties": "Mexican state; Sinaloa cartel factions; Jalisco New Generation Cartel (CJNG)",
+   "status": "war",
+   "t": "Mexican special forces killed CJNG leader Nemesio Oseguera Cervantes, ‘El Mencho’, at Tapalpa, Jalisco, on 22 February 2026 with US intelligence support; violence followed in at least 20 states. The Sinaloa cartel’s factions, orphaned by the detention of ‘El Chapo’ and ‘El Mayo’ in the US, fight an internal war that has killed thousands; on 11 November 2026 Mexico announced 15 arrests, 14 of them in Chiapas.",
+   "fig": "8,973–10,767 deaths in 2025 and 5,547 in 2026 (Wikipedia list); the government reported in December 2025 a 37% fall in daily killings since October 2024",
+   "src": [
+    [
+     "Al Jazeera, Who was ‘El Mencho’? What the drug lord’s killing means for Mexico (23 Feb 2026)",
+     "https://www.aljazeera.com/amp/news/2026/2/23/who-was-el-mencho-what-drug-lords-killing-means-for-mexico"
+    ],
+    [
+     "DH (Belga), Mexique: arrestation de 15 membres du violent cartel de Sinaloa (11 Nov 2026)",
+     "https://www.dhnet.be/dernieres-depeches/2026/11/11/mexique-arrestation-de-15-membres-du-violent-cartel-de-sinaloa-F5ETPYFELFFYTBAP6DEY6CDAIU/"
+    ],
+    [
+     "Wikipedia, List of ongoing armed conflicts",
+     "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "afpak",
+   "n": "Pakistan and the Afghan Taliban",
+   "ll": [
+    33.9,
+    70.5
+   ],
+   "since": 2021,
+   "parties": "Pakistan; Afghanistan’s Taliban government; Tehrik-i-Taliban Pakistan",
+   "status": "war",
+   "t": "Pakistan and the Afghan Taliban fought openly from late February 2026 after Pakistani air raids and an Afghan cross-border attack; a March ceasefire collapsed and Kabul struck targets in Balochistan and Khyber Pakhtunkhwa on 18 June. The UN counted at least 372 Afghan civilians killed in the first three months of 2026. Clashes continued at Angoor Adda and Torkham on 1 November, and on 11 November the TTP ambushed police in Kohat, killing ten (FDD’s Long War Journal, 12 November).",
+   "fig": "UN: at least 372 Afghan civilians killed and 397 injured, January–March 2026",
+   "src": [
+    [
+     "FDD’s Long War Journal, Taliban–Pakistan border clashes continue, TTP attack kills 10 Pakistani police (12 Nov 2026)",
+     "https://www.fdd.org/analysis/taliban-pakistan-border-clashes-continue-ttp-attack-kills-10-pakistani-police/"
+    ],
+    [
+     "Al Jazeera, Afghanistan strikes targets in Pakistan, raising cross-border tension (19 Jun 2026)",
+     "https://www.aljazeera.com/news/2026/6/19/afghanistan-strikes-targets-in-pakistan-raising-cross-border-tension"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "kashmir",
+   "n": "India and Pakistan over Kashmir",
+   "ll": [
+    34.08,
+    74.8
+   ],
+   "since": 1947,
+   "parties": "India; Pakistan; militant groups in Kashmir",
+   "status": "ceasefire",
+   "t": "India struck nine sites in Pakistan on 6 May 2025 (‘Operation Sindoor’) after the Pahalgam attack of 22 April that killed 26, and a US-brokered ceasefire has held since May 2025. CFR’s tracker, updated 6 November 2026, records an Indian destroyer colliding with a Pakistani patrol vessel in the Arabian Sea on 15 September 2026, the first direct military confrontation since, and Indian border guards shooting Pakistani civilians in the Bedian sector on 2 October.",
+   "fig": "975 deaths in 2025 and 200 in 2026 (Wikipedia list)",
+   "src": [
+    [
+     "Council on Foreign Relations, Global Conflict Tracker: Conflict Between India and Pakistan (updated 6 Nov 2026)",
+     "https://www.cfr.org/global-conflict-tracker/conflict/conflict-between-india-and-pakistan"
+    ],
+    [
+     "Wikipedia, List of ongoing armed conflicts",
+     "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "taiwan",
+   "n": "The Taiwan Strait",
+   "ll": [
+    24.5,
+    119.5
+   ],
+   "since": 1949,
+   "parties": "People’s Republic of China; Taiwan; United States",
+   "status": "frozen",
+   "t": "China, which claims Taiwan and has not renounced force, massed more than 100 naval and coast guard vessels across the western Pacific in early November 2026 in unannounced drills larger than the ‘Justice Mission 2025’ exercise, with simulated attacks on cities and a submarine-launched intercontinental missile fired from the Yellow Sea. About 70 vessels were still inside the first island chain on 13 November as Beijing prepared to host APEC in Shenzhen; Taipei called it ‘silent intimidation’.",
+   "fig": "more than 100 vessels at the peak of the November 2026 deployment (Taiwanese officials, cited by Reuters)",
+   "src": [
+    [
+     "Honolulu Star-Advertiser (Reuters), China stages unannounced Pacific drills in intimidation of Taiwan (13 Nov 2026)",
+     "https://www.staradvertiser.com/2026/11/13/breaking-news/china-stages-unannounced-pacific-drills-in-intimidation-of-taiwan/"
+    ],
+    [
+     "China-Global South Project, Taiwan says China is conducting ‘area denial’ drills in the Western Pacific (10 Nov 2026)",
+     "https://chinaglobalsouth.com/2026/11/10/china-taiwan-aircraft-carrier-area-denial-military-drills/"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "korea",
+   "n": "The Korean standoff",
+   "ll": [
+    37.95,
+    126.7
+   ],
+   "since": 1950,
+   "parties": "North Korea; South Korea; United States",
+   "status": "frozen",
+   "t": "The 1953 armistice holds. North Korea fired several missiles from Sondok toward the East Sea on 4 November 2026 and said it had tested a new air-defence missile; in September it tested a hypersonic short-range system and commissioned a second Choe Hyon-class destroyer that Kim Jong Un called nuclear-capable. No US–North Korean talks are announced: Pyongyang wants Washington to drop denuclearisation first, while President Lee Jae Myung of South Korea urges sanctions relief for a freeze (Arms Control Today, October 2026).",
+   "fig": "more than $6bn in cryptocurrency stolen from Binance, attributed to North Korea by the FBI",
+   "src": [
+    [
+     "Stars and Stripes, North Korea tests air-defence missile as diplomacy stalls (5 Nov 2026)",
+     "https://www.stripes.com/theaters/asia_pacific/2026-11-05/north-korea-missile-technology-diplomacy-23369224.html"
+    ],
+    [
+     "Arms Control Today, Pyongyang launches new missile after Seoul urges sanctions relief (Oct 2026)",
+     "https://www.armscontrol.org/act/2026-10/news/pyongyang-launches-new-missile-after-seoul-urges-sanctions-relief"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "karabakh",
+   "n": "Armenia and Azerbaijan",
+   "ll": [
+    38.9,
+    46.2
+   ],
+   "since": 1988,
+   "parties": "Armenia; Azerbaijan",
+   "status": "frozen",
+   "t": "Azerbaijan took Nagorno-Karabakh in September 2023 and its Armenian population left. Pashinyan, Aliyev and Trump signed a declaration in Washington in August 2025; on 18 November 2026 Pashinyan said the 42 km TRIPP corridor across Armenia to Nakhchivan, with road, rail and pipelines, is ‘entering the practical implementation phase’ and that the southern border must now be delimited (Interfax). No peace treaty has been signed.",
+   "fig": "8 deaths in 2025 and 2 in 2026 (Wikipedia list)",
+   "src": [
+    [
+     "Interfax, Pashinyan: TRIPP project entering practical implementation phase (18 Nov 2026)",
+     "https://interfax.com/newsroom/top-stories/119955/"
+    ],
+    [
+     "Wikipedia, List of ongoing armed conflicts",
+     "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "libya",
+   "n": "Libya’s divided state",
+   "ll": [
+    32.89,
+    13.19
+   ],
+   "since": 2011,
+   "parties": "Government of National Unity (Dbeibah) and Tripoli militias; Libyan National Army (Haftar) and the eastern parliament",
+   "status": "ceasefire",
+   "t": "Libya has had rival governments since 2014, Dbeibah’s in Tripoli and Haftar’s LNA in the east; the 2020 ceasefire froze the front at Sirte, and militia fighting flares in the capital. A UN-mediated ‘4+4’ roadmap signed in Tripoli on 30 August 2026 promises presidential and parliamentary elections within 24 months under a single executive, and the rival militaries have held unification talks and joint drills at Sirte under US supervision.",
+   "fig": "282 deaths in 2025 and 177 in 2026 (Wikipedia list)",
+   "src": [
+    [
+     "Al Jazeera, Could 4+4 make 1 in Libya? UN-backed agreement looks to unite rival camps (1 Sep 2026)",
+     "https://aljazeera.com/news/2026/9/1/could-44-make-1-in-libya-un-backed-agreement-looks-to-unite-rival-camps"
+    ],
+    [
+     "Wikipedia, List of ongoing armed conflicts",
+     "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "colombia",
+   "n": "Colombia’s armed groups",
+   "ll": [
+    8.64,
+    -72.73
+   ],
+   "since": 1964,
+   "parties": "Colombian state; ELN; FARC dissidents; Clan del Golfo (EGC); ACSN",
+   "status": "war",
+   "t": "Armed groups operate in 24 of Colombia’s 32 departments. Abelardo de la Espriella took office in August 2026 on a hard-line platform; Colombia Reports wrote on 11 November that in his first 90 days the Ombudsman and police recorded rises in homicide, extortion and attacks on the security forces, with 38 police and soldiers killed, and on 10 November the ELN hit a military base in Norte de Santander with a drone.",
+   "fig": "2,293 deaths in 2025 and 1,481 in 2026 (Wikipedia list)",
+   "src": [
+    [
+     "Colombia Reports, De la Espriella failed to make Colombia secure in 90 days (11 Nov 2026)",
+     "https://colombiareports.com/?p=217626"
+    ],
+    [
+     "Wikipedia, List of ongoing armed conflicts",
+     "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "mozambique",
+   "n": "Mozambique: Cabo Delgado",
+   "ll": [
+    -11.35,
+    40.35
+   ],
+   "since": 2017,
+   "parties": "Mozambique with Rwandan forces; Islamic State Mozambique (al-Shabaab)",
+   "status": "conflict",
+   "t": "The Islamic State-linked insurgency in Cabo Delgado began in 2017. IOM counted 1,235 people fleeing attacks or fear of attacks in Mocímboa da Praia, Macomia, Muidumbe and Meluco between 14 and 27 October 2026, 584 of them children. TotalEnergies restarted the Mozambique LNG project on 29 January 2026 after lifting force majeure, with first gas targeted for 2029.",
+   "fig": "824 deaths in 2025 and 434 in 2026 (Wikipedia list)",
+   "src": [
+    [
+     "The Rio Times, Mozambique: 1,235 flee attacks in Cabo Delgado in two weeks (4 Nov 2026)",
+     "https://www.riotimesonline.com/mozambique-cabo-delgado-1235-flee-attacks-two-weeks-2026/"
+    ],
+    [
+     "Wikipedia, List of ongoing armed conflicts",
+     "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "nigeria",
+   "n": "Nigeria: jihadists and bandits",
+   "ll": [
+    11.85,
+    13.15
+   ],
+   "since": 2009,
+   "parties": "Nigerian state; Boko Haram; ISWAP; Ansaru and bandit groups",
+   "status": "war",
+   "t": "Boko Haram and ISWAP fight in the north-east, bandits and Ansaru in the north-west and centre, and the US struck targets it linked to Islamic State at Jabo in Sokoto on 25 December 2025 on the basis of Nigerian intelligence. The military said 48 fighters and one soldier died in a five-hour battle at Buni Yadi, Yobe, on 29–30 October 2026, and claimed 60 militants killed and 42 hostages freed in the week to 9 November; none of its figures is independently verified.",
+   "fig": "3,200 deaths in 2025 and 3,400 in 2026 (Wikipedia list)",
+   "src": [
+    [
+     "The Rio Times, Nigeria: troops say 60 militants killed in a week (9 Nov 2026)",
+     "https://www.riotimesonline.com/nigeria-troops-say-60-militants-killed-in-a-week/"
+    ],
+    [
+     "Al Jazeera, US bombs target ISIL in Nigeria: what’s really going on? (26 Dec 2025)",
+     "https://www.aljazeera.com/news/2025/12/26/us-bombs-target-isil-in-nigeria-whats-really-going-on"
+    ],
+    [
+     "Wikipedia, List of ongoing armed conflicts",
+     "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "cameroon",
+   "n": "Cameroon: the Anglophone crisis",
+   "ll": [
+    5.96,
+    10.15
+   ],
+   "since": 2017,
+   "parties": "Cameroon; Ambazonian separatist groups; Boko Haram in the Far North",
+   "status": "war",
+   "t": "Anglophone separatists have fought the state since 2017 in the North-West and South-West regions, while Boko Haram raids the Far North. The 2026 record runs from 15 civilians killed at Mbandfung on 14 January, through a separatist ceasefire for Pope Leo XIV’s visit to Bamenda on 15–17 April and school lockdowns in September, to four civilians killed at Koshin, Menchum, on 28 October (Wikipedia timeline, citing Xinhua and CrisisWatch).",
+   "fig": "1,966 deaths in 2025 and 1,418 in 2026 (Wikipedia list)",
+   "src": [
+    [
+     "Wikipedia, Timeline of the Anglophone Crisis (2026)",
+     "https://en.wikipedia.org/wiki/Timeline_of_the_Anglophone_Crisis_(2026)"
+    ],
+    [
+     "Wikipedia, List of ongoing armed conflicts",
+     "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "philippines",
+   "n": "The Philippines: the NPA",
+   "ll": [
+    8.5,
+    126.1
+   ],
+   "since": 1969,
+   "parties": "Philippine armed forces; New People’s Army; ISIL-linked groups in Mindanao",
+   "status": "conflict",
+   "t": "The communist New People’s Army insurgency dates from 1969. The army’s 4th Infantry Division said on 29 July 2026 that it had dismantled the North Eastern Mindanao Regional Committee and declared Caraga stable, reporting 11 encounters and 20 guerrillas ‘neutralised’ from April to June, and moved operations to Northern Mindanao.",
+   "fig": "537 deaths in 2025 and 332 in 2026 (Wikipedia list)",
+   "src": [
+    [
+     "The Star (Philippine Daily Inquirer), Philippine army targets NPA rebels in Northern Mindanao after clearing Caraga (29 Jul 2026)",
+     "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/07/29/philippine-army-targets-npa-rebels-in-northern-mindanao-after-clearing-caraga"
+    ],
+    [
+     "Wikipedia, List of ongoing armed conflicts",
+     "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "iraq",
+   "n": "Iraq after the US withdrawal",
+   "ll": [
+    33.31,
+    44.37
+   ],
+   "since": 2003,
+   "parties": "Iraq; ISIL cells; Iran-aligned militias",
+   "status": "conflict",
+   "t": "US forces left their last Iraqi bases as the anti-ISIL coalition mandate expired on 30 September 2026, ending a 12-year mission; a UN report puts ISIL at ‘its weakest’ with a few hundred fighters, though Iraqi officers told Reuters its cells planned attacks to mark the withdrawal. Baghdad’s deadline for militias to surrender weapons has slipped to June 2027, and the Kurdistan region counted more than 1,000 drone and missile attacks since the Iran war began on 28 February.",
+   "fig": "574 deaths in 2025 and 419 in 2026 (Wikipedia list)",
+   "src": [
+    [
+     "Al Jazeera, How does Iraq’s security change after US forces withdraw? (30 Sep 2026)",
+     "https://www.aljazeera.com/news/2026/9/30/how-does-iraqs-security-change-after-us-forces-withdraw"
+    ],
+    [
+     "Wikipedia, List of ongoing armed conflicts",
+     "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "venezuela",
+   "n": "Venezuela after Maduro",
+   "ll": [
+    10.48,
+    -66.9
+   ],
+   "since": 2025,
+   "parties": "United States; Venezuelan interim government; armed colectivos and cross-border groups",
+   "status": "conflict",
+   "t": "US forces seized Nicolás Maduro and his wife in Caracas on 3 January 2026 and flew them to New York, where he faces narco-terrorism charges; Delcy Rodríguez was sworn in as president on 5 January. On 2 November Secretary Rubio set out a three-phase plan of stabilisation, recovery and democratic transition, and on 18 November Pete Hegseth visited Caracas and signed an agreement restoring military ties; no election date is set, and AP counts at least 240 killed in US strikes on alleged drug boats since September 2025.",
+   "fig": "at least 240 killed in US strikes on alleged drug-smuggling boats since September 2025 (AP, 18 November 2026)",
+   "src": [
+    [
+     "Al Jazeera, Delcy Rodríguez sworn in as Venezuela’s president after Maduro abduction (5 Jan 2026)",
+     "https://www.aljazeera.com/news/2026/1/5/delcy-rodriguez-sworn-in-as-venezuelas-president-after-maduro-abduction"
+    ],
+    [
+     "WFSB (AP), US and Venezuela sign a deal to re-establish military ties, Hegseth says on visit to interim leaders (18 Nov 2026)",
+     "https://www.wfsb.com/2026/11/18/us-venezuela-sign-deal-reestablish-military-ties-hegseth-says-visit-interim-leaders/?outputType=amp"
+    ],
+    [
+     "Al Jazeera, US urges Venezuela to follow phased plan for democratic transition (3 Nov 2026)",
+     "https://aljazeera.com/news/2026/11/3/us-urges-venezuela-to-follow-phased-plan-for-democratic-transition"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "southsudan",
+   "n": "South Sudan",
+   "ll": [
+    9.8,
+    29.9
+   ],
+   "since": 2013,
+   "parties": "South Sudan government forces; SPLA-IO (Machar); ethnic militias",
+   "status": "conflict",
+   "t": "The 2018 peace deal is close to collapse: Riek Machar is detained, and fighting between government forces and his SPLA-IO spread to Ruweng from 4 October 2026, killing at least 23 and, by the information minister’s count, displacing more than 100,000 (AFP, 8 November). National elections, the first since independence in 2011, are set for 22 December 2026 after several postponements.",
+   "fig": "at least 23 killed and 17 wounded in Ruweng (Information Minister Tony Chol Ayat to AFP); the 2013–18 civil war left more than 400,000 dead",
+   "src": [
+    [
+     "Yeni Şafak (AFP), South Sudan clashes kill 23 ahead of December elections (8 Nov 2026)",
+     "https://en.yenisafak.com/world/south-sudan-clashes-kill-23-ahead-of-december-elections-3725314"
+    ],
+    [
+     "Wikipedia, List of ongoing armed conflicts",
+     "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "car",
+   "n": "Central African Republic",
+   "ll": [
+    10.3,
+    22.8
+   ],
+   "since": 2012,
+   "parties": "CAR government with Russia’s Africa Corps; FPRC, MDRPC and other armed groups",
+   "status": "conflict",
+   "t": "President Touadéra’s government relies on Russia’s Africa Corps, Wagner’s successor, whose transition is described as incomplete. Armed groups including elements of the FPRC and the MDRPC attacked the Am-Dafok border post in Vakaga, on the Sudanese frontier, on 30 June 2026, according to MINUSCA (African Arguments, 3 August 2026).",
+   "fig": "1,276 deaths in 2025 and 478 in 2026 (Wikipedia list)",
+   "src": [
+    [
+     "African Arguments, How Russia lost the ability to leave the Central African Republic (3 Aug 2026)",
+     "https://africanarguments.org/2026/08/how-russia-lost-the-ability-to-leave-the-central-african-republic/"
+    ],
+    [
+     "Wikipedia, List of ongoing armed conflicts",
+     "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "ecuador",
+   "n": "Ecuador’s gang war",
+   "ll": [
+    -2.19,
+    -79.89
+   ],
+   "since": 2018,
+   "parties": "Ecuadorian state; Los Choneros, Los Lobos and allied gangs tied to Mexican and Albanian networks",
+   "status": "war",
+   "t": "Ecuador recorded 9,216 intentional homicides in 2025, about 51 per 100,000, the most on record; January to August 2026 ran 6.4% lower. Daniel Noboa decreed a state of exception on 15 September 2026 and a night curfew in Guayas, Manabí, Los Ríos and El Oro to 30 September, which produced 2,561 detentions; El Universo reported US troops joining some operations (The Rio Times, 5 October).",
+   "fig": "9,216 intentional homicides in 2025 (Interior Ministry data); 4,070 conflict deaths in 2025 and 2,876 in 2026 (Wikipedia list)",
+   "src": [
+    [
+     "The Rio Times, Ecuador homicides hit weekly low of 2026 (5 Oct 2026)",
+     "https://www.riotimesonline.com/ecuador-homicides-weekly-low-2026/"
+    ],
+    [
+     "Wikipedia, List of ongoing armed conflicts",
+     "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "pkk",
+   "n": "Turkey and the PKK",
+   "ll": [
+    36.5,
+    44.9
+   ],
+   "since": 1984,
+   "parties": "Turkey; Kurdistan Workers’ Party (PKK)",
+   "status": "ceasefire",
+   "t": "The PKK announced its dissolution and disarmament in 2025 at Abdullah Öcalan’s call, held a symbolic weapons-burning in northern Iraq and withdrew fighters from Turkey, but co-founder Murat Karayilan said on 30 April 2026 that the process was ‘frozen’ after Ankara missed an April deadline for peace legislation; President Erdoğan says it ‘is proceeding as it should’ (AP).",
+   "fig": "300 deaths in 2025 and 5 in 2026 (Wikipedia list)",
+   "src": [
+    [
+     "Arab News (AP), Kurdish militant official says Türkiye has stalled peace talks, blaming a lack of reforms (30 Apr 2026)",
+     "https://www.arabnews.pk/node/2641907"
+    ],
+    [
+     "Wikipedia, List of ongoing armed conflicts",
+     "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "balochistan",
+   "n": "Balochistan insurgency",
+   "ll": [
+    30.18,
+    66.98
+   ],
+   "since": 2004,
+   "parties": "Pakistan; Baloch Liberation Army and allied groups",
+   "status": "conflict",
+   "t": "Baloch separatists fight the Pakistani state and Chinese-linked projects in the south-west. The Baloch Liberation Army said on 16 November 2026 that its drone unit had killed six security personnel in four strikes between 5 and 14 November at camps in Mastung and Kalat; Pakistan’s ISPR confirmed two deaths from one drone attack, and none of the other claims is independently verified (IANS, 17 November).",
+   "fig": "985 deaths across Pakistan’s insurgencies in 2025 and 1,110 in 2026 (Wikipedia list)",
+   "src": [
+    [
+     "Telangana Today (IANS), Six Pakistani soldiers killed in four drone operations across Balochistan: BLA (17 Nov 2026)",
+     "https://telanganatoday.com/six-pakistani-soldiers-killed-in-4-drone-ops-across-balochistan-bla"
+    ],
+    [
+     "Wikipedia, List of ongoing armed conflicts",
+     "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "naxal",
+   "n": "India: the Maoist insurgency",
+   "ll": [
+    19.1,
+    81.95
+   ],
+   "since": 1967,
+   "parties": "India; Communist Party of India (Maoist)",
+   "status": "conflict",
+   "t": "Chhattisgarh’s deputy chief minister Vijay Sharma said on 31 March 2026, the day the Centre’s deadline to end Left-Wing Extremism expired, that armed Naxal cadres in the state had been ‘completely eliminated’, citing more than 3,000 surrenders, 2,000 arrests and over 500 killed in two years; about 400 interior police camps in Bastar are to be converted to civil use and most paramilitary forces may leave by March 2027 (PTI). The claims are the government’s own.",
+   "fig": "980 deaths across India’s insurgencies in 2025 and 482 in 2026 (Wikipedia list)",
+   "src": [
+    [
+     "ThePrint (PTI), Armed Naxals wiped out in Chhattisgarh by deadline, says deputy CM Sharma (31 Mar 2026)",
+     "https://theprint.in/india/red-letter-day-armed-naxals-wiped-out-in-chhattisgarh-by-deadline-says-deputy-cm-sharma/2892708"
+    ],
+    [
+     "Wikipedia, List of ongoing armed conflicts",
+     "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "papua",
+   "n": "West Papua",
+   "ll": [
+    -4.1,
+    138.9
+   ],
+   "since": 1962,
+   "parties": "Indonesia; West Papua National Liberation Army (TPNPB-OPM)",
+   "status": "conflict",
+   "t": "The TPNPB, armed wing of the Free Papua Movement, fights Indonesian forces in the highlands. It shot dead eight gold miners at Yahukimo on 20 May 2026, calling them disguised soldiers, which the military denied, and on 9 September killed three agriculture officials near Wamena; the National Commission on Human Rights is investigating a military operation at Kembru in April in which more than a dozen civilians died (The Jakarta Post; The Star).",
+   "fig": "258 deaths in 2025 and 260 in 2026 (Wikipedia list)",
+   "src": [
+    [
+     "The Jakarta Post, Rebels in Papua region kill 8, military says (21 May 2026)",
+     "https://www.thejakartapost.com/indonesia/2026/05/21/rebels-in-papua-region-kill-8-military-says"
+    ],
+    [
+     "The Star, Police hunt Papuan separatists after three civil servants killed in shooting (12 Sep 2026)",
+     "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/12/police-hunt-papuan-separatists-after-three-civil-servants-killed-in-shooting"
+    ],
+    [
+     "Wikipedia, List of ongoing armed conflicts",
+     "https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "scs",
+   "n": "The South China Sea",
+   "ll": [
+    15.15,
+    117.75
+   ],
+   "since": 2012,
+   "parties": "China; the Philippines; Vietnam, Malaysia and others",
+   "status": "frozen",
+   "t": "China’s coast guard and maritime militia contest Philippine access to Scarborough Shoal and Second Thomas Shoal. On 23–24 July 2026 twelve Chinese coast guard and three militia vessels hit two Philippine ships with water cannon at Scarborough and came within 7 metres of a fisheries boat; on 20 July a Filipino sailor was struck with a baton at Second Thomas Shoal, both sides summoned ambassadors, and Marco Rubio reaffirmed the US defence treaty in Manila.",
+   "fig": "12 China Coast Guard and 3 militia vessels in the 24 July 2026 incident (Philippine Coast Guard)",
+   "src": [
+    [
+     "Al Jazeera, Philippines accuses China of using water cannon on vessels for second day (24 Jul 2026)",
+     "https://aljazeera.com/news/2026/7/24/philippines-accuses-china-of-using-water-cannon-on-vessels-for-second-day"
+    ]
+   ],
+   "vf": "S"
+  }
+ ],
+ "events": [
+  {
+   "id": "us-midterms-2026",
+   "n": "US midterm elections: Democrats take both chambers",
+   "date": "2026-11-03",
+   "ll": [
+    38.9,
+    -77.04
+   ],
+   "t": "In the midterm elections of 3 November 2026 the Democrats won control of the House and the Senate, ending the Republican trifecta. By the morning of 4 November they led the House 228–139 with 19 seats gained and had flipped seven Senate seats for a 54–44 majority, with Alaska and Mississippi still uncalled; James Talarico’s defeat of Ken Paxton in Texas was the party’s first statewide win there in more than 30 years. Trump said: ‘I have total veto power, so they have to come to us.’",
+   "fig": "House 228–139, Senate 54–44 (provisional, 4 November)",
+   "src": [
+    [
+     "WSB-TV (Cox Media Group), Election 2026: Democrats capture both chambers of Congress (4 Nov 2026)",
+     "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/?outputType=amp"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "nk-missiles-nov-2026",
+   "n": "North Korea fires missiles into the East Sea",
+   "date": "2026-11-04",
+   "ll": [
+    39.75,
+    127.45
+   ],
+   "t": "South Korea’s military detected several missiles fired on the morning of 4 November from the Sondok area, about 170 km north-east of Pyongyang, toward the East Sea; KCNA said the North had tested a new air-defence missile and rehearsed a fire strike. No talks with Washington are announced, and the FBI blames Pyongyang for the theft of more than $6bn in cryptocurrency from Binance (Stars and Stripes, 5 November).",
+   "src": [
+    [
+     "Stars and Stripes, North Korea tests air-defence missile as diplomacy stalls (5 Nov 2026)",
+     "https://www.stripes.com/theaters/asia_pacific/2026-11-05/north-korea-missile-technology-diplomacy-23369224.html"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "myanmar-byelections",
+   "n": "Myanmar announces by-elections for April 2027",
+   "date": "2026-11-06",
+   "ll": [
+    19.76,
+    96.08
+   ],
+   "t": "Myanmar’s election commission announced on 6 November by-elections on 4 April 2027 in 39 constituencies, about a third of them in areas of Sagaing, Mandalay and Chin where voting was cancelled for security reasons during the phased general election of December 2025 and January 2026 that made coup leader Min Aung Hlaing president. Aung San Suu Kyi remains detained and her party dissolved; ACLED counts more than 100,000 deaths since the 2021 coup.",
+   "src": [
+    [
+     "The Star (AFP), Myanmar announces by-elections expanding parliament writ (6 Nov 2026)",
+     "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/06/myanmar-announces-by-elections-expanding-parliament-writ-and-confident-of-holding-on-to-territories"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "cop31-antalya",
+   "n": "COP31 in Antalya",
+   "date": "2026-11-09",
+   "ll": [
+    36.9,
+    30.7
+   ],
+   "t": "The UN climate conference COP31 runs from 9 to 20 November 2026 at the Antalya Expo Center under a Turkish presidency, with Australia’s Chris Bowen as president of negotiations and a leaders’ summit on 11–12 November. The opening plenary on 9 November adopted a standalone Climate Finance Work Programme demanded by developing countries, over EU objections, and dropped separate agenda items on tripling adaptation finance and on climate-related trade measures; UNEP puts developing countries’ adaptation needs at $305bn a year by 2035.",
+   "fig": "adaptation needs of $305bn a year by 2035 against $28.2–31.7bn of international public adaptation finance in 2024 (UNEP Adaptation Gap Report 2026)",
+   "src": [
+    [
+     "UNFCCC, About COP31",
+     "https://unfccc.int/cop31/about"
+    ],
+    [
+     "Down To Earth, COP31 adopts climate finance work programme; proposals for adaptation funding, trade measures dropped (10 Nov 2026)",
+     "https://www.downtoearth.org.in/story/climate-change/cop31-adopts-climate-finance-work-programme-proposals-for-adaptation-funding-trade-measures-dropped"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "abu-dhabi-talks",
+   "n": "Ukraine, Russia and the US talk in Abu Dhabi",
+   "date": "2026-11-10",
+   "ll": [
+    24.45,
+    54.38
+   ],
+   "t": "Ukraine, Russia and the United States held their first talks since February on 10–11 November 2026 in Abu Dhabi, without Germany, France or Britain. Russia’s delegation head Vladimir Medinsky said he would be satisfied ‘only when we win and sign a peace agreement on our terms’; Russia demands territory and a NATO pull-back from members that joined after 1997, Ukraine wants an Article 5-style guarantee, and the sides agreed to exchange at least 1,000 prisoners each (Al Jazeera, 13 November).",
+   "src": [
+    [
+     "Al Jazeera, Russia’s demands come from a different reality as war effort stagnates (13 Nov 2026)",
+     "https://aljazeera.com/news/2026/11/13/russias-demands-come-from-different-reality-as-war-efforts-stagnates"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "china-pacific-drills",
+   "n": "China’s unannounced drills around Taiwan",
+   "date": "2026-11-13",
+   "ll": [
+    24.5,
+    121.5
+   ],
+   "t": "In early November 2026 China massed more than 100 naval and coast guard vessels across the western Pacific and around Taiwan in unannounced drills larger than ‘Justice Mission 2025’, with all three theatre commands, the Liaoning carrier group east of the Philippines, simulated attacks on cities and a submarine-launched intercontinental missile fired from the Yellow Sea into the Chinese mainland. About 70 vessels remained inside the first island chain on 13 November; Taipei called it ‘silent intimidation’ before the APEC summit.",
+   "fig": "more than 100 vessels at the peak; about 70 inside the first island chain on 13 November",
+   "src": [
+    [
+     "Honolulu Star-Advertiser (Reuters), China stages unannounced Pacific drills in intimidation of Taiwan (13 Nov 2026)",
+     "https://www.staradvertiser.com/2026/11/13/breaking-news/china-stages-unannounced-pacific-drills-in-intimidation-of-taiwan/"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "sudan-khuwai",
+   "n": "Sudan’s army takes al-Khuwai in West Kordofan",
+   "date": "2026-11-13",
+   "ll": [
+    13.05,
+    29.2
+   ],
+   "t": "The Sudanese Armed Forces took al-Khuwai, a main town of West Kordofan, on 13 November 2026, weeks after breaking the RSF siege of El Obeid with allied Darfur forces; the capture opens routes toward Babnusa and North Darfur. The RSF still holds al-Nuhud, parts of South Kordofan and all five Darfur states, and Al Jazeera puts the war’s toll at about 150,000 dead and more than 14 million displaced.",
+   "src": [
+    [
+     "Al Jazeera, How SAF successes in Sudan’s Kordofan could turn the tide against the RSF (14 Nov 2026)",
+     "https://www.aljazeera.com/news/2026/11/14/how-saf-successes-in-sudans-kordofan-could-turn-tide-against-the-rsf"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "starship-flight-15",
+   "n": "Starship is caught from orbit",
+   "date": "2026-11-14",
+   "ll": [
+    25.99,
+    -97.16
+   ],
+   "t": "SpaceX’s Starship Flight 15 lifted off from Starbase, Texas, at 5.47 pm EST on 13 November 2026; the Super Heavy booster logged a low-fuel alarm, diverted to the Gulf and was destroyed by its flight-termination system, but Ship 42 deployed 26 Starlink V3 satellites, flew 14 orbits in nearly a day and at 4.18 pm EST on 14 November was caught by the launch tower’s ‘chopstick’ arms, the first catch of a Ship returning from orbit (Space.com).",
+   "fig": "26 Starlink V3 satellites deployed; 14 orbits; 33 Raptor 3 engines and more than 18 million lbf of thrust at lift-off",
+   "src": [
+    [
+     "Space.com, Relive Starship’s historic Flight 15 with our best photos from launch and ‘Mechazilla’ tower catch (Nov 2026)",
+     "https://www.space.com/space-exploration/launches-spacecraft/relive-starships-historic-flight-15-with-our-best-photos-from-launch-and-mechazilla-tower-catch"
+    ],
+    [
+     "Nature World News, SpaceX targets Friday 13th for first attempt to catch both Starship stages (11 Nov 2026)",
+     "https://www.natureworldnews.com/articles/73810/00261111/spacex-targets-friday-13th-first-attempt-catch-both-starship-stages-its-texas-tower.htm"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "asean-manila",
+   "n": "ASEAN summit in Manila",
+   "date": "2026-11-15",
+   "ll": [
+    14.6,
+    120.98
+   ],
+   "t": "The ASEAN summit opened in Manila on 15 November 2026 under Philippine chairmanship, with Brazil’s Lula and Canada’s Mark Carney among the guests, tariffs and the Middle East on the agenda and the South China Sea code of conduct said to be 80% negotiated; nearly 20,000 police were deployed and about 200 protesters clashed with police on the first day. Trump arrived on 17 November for the first Quad meeting of his second term with India, Japan and Australia before flying to Shenzhen (The Star, 15 November; RFA, 18 November).",
+   "src": [
+    [
+     "The Star, ‘Trump coming’: trade war in focus at ASEAN summit ahead of the US president’s arrival (15 Nov 2026)",
+     "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/15/039trump-coming039-trade-war-in-focus-at-asean-summit-ahead-of-the-highly-anticipated-us-president039s-arrival"
+    ],
+    [
+     "Radio Free Asia, Smiles and hugs ahead of Trump, Xi and Putin’s highly anticipated meeting (18 Nov 2026)",
+     "https://rfa.org/english/china/2026/11/18/china-trump-xi-putin-apec-shenzhen/"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "houthis-bab-al-mandeb",
+   "n": "Houthis take the Bab al-Mandeb coast",
+   "date": "2026-11-15",
+   "ll": [
+    12.95,
+    43.4
+   ],
+   "t": "On 15 November 2026 Yemen’s Southern Armed Forces announced a ‘repositioning’ away from Dhubab airport and the Bab al-Mandeb area in western Taiz to defend Aden and relieve besieged Taiz; the Houthis claimed to have expelled them and by 16 November had advanced about 50 miles along the Gulf of Aden coast, to within reported reach of Aden. Saudi Arabia replaced its Joint Forces commander the same day as its coalition intercepted Houthi drones over Riyadh and Mecca.",
+   "fig": "OCHA: more than 340,000 displaced since August 2026",
+   "src": [
+    [
+     "FDD’s Long War Journal, Houthis retake Bab al-Mandeb and move toward Aden (16 Nov 2026)",
+     "https://www.fdd.org/analysis/houthis-retake-bab-al-mandeb-and-move-toward-aden/"
+    ],
+    [
+     "Al-Monitor, Yemen’s Saudi-backed forces retreat to defend Aden as Houthis advance (16 Nov 2026)",
+     "https://www.al-monitor.com/originals/2026/11/yemens-saudi-backed-forces-retreat-defend-aden-houthis-advance-what-know"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "ny-sales-nov-2026",
+   "n": "New York’s November sales: records for Van Gogh, Kandinsky and Kusama",
+   "date": "2026-11-18",
+   "ll": [
+    40.76,
+    -73.97
+   ],
+   "t": "Sotheby’s opened the marquee week on 16 November 2026 with $378.7m across two evening sales and a $15m record for Yayoi Kusama, who died in August; Christie’s 20th-century sale on 17 November made $627m with fees, with Kandinsky’s Betonte Ecken (1923) at $85.8m, a record, Klimt’s Litzlbergkeller at $82.3m and a Jeff Koons-consigned group at $104.7m. On 18 November Van Gogh’s Blossoming Chestnut Trees (1890), its Nazi-era provenance settled a day earlier, sold at Sotheby’s for $190.4m with fees to William Acquavella, a record for the artist though below its $180m estimate on the hammer.",
+   "fig": "Van Gogh $190.4m, Kandinsky $85.8m, Klimt $82.3m, Kusama $15m (with fees)",
+   "src": [
+    [
+     "The Art Newspaper, Van Gogh painting sells for record $190.4m after Nazi-loot claims (19 Nov 2026)",
+     "https://www.theartnewspaper.com/2026/11/19/van-gogh-painting-sells-for-record-7778m-after-nazi-loot-claims"
+    ],
+    [
+     "The Art Newspaper, Kandinsky record and a trove consigned by Jeff Koons buoy Christie’s solid 20th-century evening sale (18 Nov 2026)",
+     "https://theartnewspaper.com/2026/11/18/kandinsky-record-and-a-trove-consigned-by-jeff-koons-buoy-christies-solid-20th-century-evening-sale-in-new-york"
+    ],
+    [
+     "The Art Newspaper, Yayoi Kusama sets $15m auction record as Sotheby’s opens New York mega-sales (16 Nov 2026)",
+     "https://theartnewspaper.com/2026/11/16/yayoi-kusama-sets-15m-auction-record-as-sothebys-opens-new-york-mega-sales"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "gaza-central-push",
+   "n": "Israel’s first ground push in Gaza since the ceasefire",
+   "date": "2026-11-18",
+   "ll": [
+    31.45,
+    34.4
+   ],
+   "t": "On 18 November 2026 Israeli tanks advanced east of the Nuseirat camp and north of Bureij in central Gaza in the first broad ground operation since the October 2025 ceasefire; the army said it was removing a threat to its forces at the ‘Yellow Line’, hospital officials reported three Palestinians killed and residents of Maghazi and Bureij fled without an evacuation order. Hamas called it a flagrant violation, and the Board of Peace had warned the truce faced collapse.",
+   "src": [
+    [
+     "Al Jazeera, Palestinians flee refugee camp as Israel begins operation in central Gaza (18 Nov 2026)",
+     "https://www.aljazeera.com/news/2026/11/18/palestinians-flee-refugee-camp-as-israel-begins-operation-in-central-gaza"
+    ],
+    [
+     "UN OCHA, Gaza Reported Impact Snapshot (4 Nov 2026)",
+     "https://www.ochaopt.org/sites/default/files/Gaza_Reported_Impact_Snapshot_04_November_2026.pdf"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "hegseth-caracas",
+   "n": "The US and Venezuela restore military ties",
+   "date": "2026-11-18",
+   "ll": [
+    10.48,
+    -66.9
+   ],
+   "t": "US Defense Secretary Pete Hegseth visited Caracas on 18 November 2026, met acting President Delcy Rodríguez and signed an agreement restoring military ties covering training, intelligence sharing and equipment, calling Venezuela ‘a compliant security partner’ ten months after the 48-minute operation that seized Nicolás Maduro. No election date is set; AP counts at least 240 killed in US strikes on alleged drug boats since September 2025.",
+   "src": [
+    [
+     "WFSB (AP), US and Venezuela sign a deal to re-establish military ties, Hegseth says on visit to interim leaders (18 Nov 2026)",
+     "https://www.wfsb.com/2026/11/18/us-venezuela-sign-deal-reestablish-military-ties-hegseth-says-visit-interim-leaders/?outputType=amp"
+    ],
+    [
+     "Al Jazeera, US urges Venezuela to follow phased plan for democratic transition (3 Nov 2026)",
+     "https://aljazeera.com/news/2026/11/3/us-urges-venezuela-to-follow-phased-plan-for-democratic-transition"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "tripp-armenia",
+   "n": "Armenia says the TRIPP corridor enters implementation",
+   "date": "2026-11-18",
+   "ll": [
+    38.9,
+    46.2
+   ],
+   "t": "Prime Minister Nikol Pashinyan said on 18 November 2026 that the Trump Route for International Peace and Prosperity, a 42 km road, rail and pipeline corridor across southern Armenia linking Azerbaijan to Nakhchivan and on to Turkey, is ‘entering the practical implementation phase’, and that the southern Armenian–Azerbaijani border must now be delimited; he and Ilham Aliyev reaffirmed their agreements at a meeting in Dublin (Interfax).",
+   "src": [
+    [
+     "Interfax, Pashinyan: TRIPP project entering practical implementation phase (18 Nov 2026)",
+     "https://interfax.com/newsroom/top-stories/119955/"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "apec-shenzhen-trilateral",
+   "n": "APEC in Shenzhen and the Trump–Xi–Putin summit",
+   "date": "2026-11-19",
+   "ll": [
+    22.54,
+    114.06
+   ],
+   "t": "The 33rd APEC leaders’ meeting ran in Shenzhen on 18–19 November 2026; Xi Jinping met Trump at the foot of Air Force One. On 19 November Xi chaired the first three-way summit with Trump and Putin at Kylin Villa, which issued a ‘peace declaration’ pledging talks on nuclear risks and proliferation, stable energy flows and closer cooperation, and criticising the International Criminal Court; it made no mention of Ukraine or Iran, though Trump pressed Xi on the war and said Tehran cannot have a nuclear weapon (Al Jazeera).",
+   "src": [
+    [
+     "Al Jazeera, ‘Groundbreaking’ Trump–Xi–Putin summit: five key takeaways (19 Nov 2026)",
+     "https://aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways"
+    ],
+    [
+     "Radio Free Asia, Smiles and hugs ahead of Trump, Xi and Putin’s highly anticipated meeting (18 Nov 2026)",
+     "https://rfa.org/english/china/2026/11/18/china-trump-xi-putin-apec-shenzhen/"
+    ]
+   ],
+   "vf": "S"
+  },
+  {
+   "id": "haiti-martissant",
+   "n": "Haiti’s army moves on Martissant",
+   "date": "2026-11-19",
+   "ll": [
+    18.53,
+    -72.37
+   ],
+   "t": "On 19 November 2026 Haiti’s armed forces and police, with a task force that included Erik Prince’s Vectus Global, launched an operation to clear gangs from Martissant, the western tip of Port-au-Prince that controls Route 2 to the south and has been in gang hands for more than five years; police said 34 suspected gang members were killed, a figure not independently verified. El Salvador has about 2,500 troops in the country and the UN-backed Gang Suppression Force works in Tabarre, Artibonite and on Route 5 (AP).",
+   "src": [
+    [
+     "WCAX (AP), Heavy fighting erupts in Haiti as armed forces fight gangs to regain control of key corridor (19 Nov 2026)",
+     "https://www.wcax.com/2026/11/19/heavy-fighting-erupts-haiti-armed-forces-fight-gangs-regain-control-key-corridor/"
+    ],
+    [
+     "Al Jazeera, ‘One less gang leader’: Haiti’s prime minister celebrates police operation (7 Nov 2026)",
+     "https://aljazeera.com/news/2026/11/7/one-less-gang-leader-haitis-prime-minister-celebrates-police-operation"
+    ]
+   ],
+   "vf": "S"
+  }
+ ],
+ "movements": {
+  "prehistoric": {
+   "owners": [
+    {
+     "n": "Chauvet-Pont-d’Arc cave, Ardèche (French state, Ministry of Culture)",
+     "what": "the horse panels, among them the Panel of the Large Engraved Horse, in situ; the cave is closed and shown in replica",
+     "src": [
+      [
+       "Ministère de la Culture, Grotte Chauvet-Pont d’Arc: Panel of the Large Engraved Horse",
+       "https://archeologie.culture.gouv.fr/chauvet/en/media/view/10868"
+      ]
+     ]
+    },
+    {
+     "n": "Lascaux, Montignac, Dordogne (French state, Ministry of Culture)",
+     "what": "the Hall of the Bulls, in situ in the closed cave, with the replicas including Lascaux IV",
+     "src": [
+      [
+       "Ministère de la Culture, Lascaux: the cave",
+       "https://archeologie.culture.gouv.fr/lascaux/en/node/22"
+      ]
+     ]
+    },
+    {
+     "n": "Museo Nacional y Centro de Investigación de Altamira, Santillana del Mar (Spanish Ministry of Culture)",
+     "what": "the polychrome bison ceiling, in the original cave and in the Neocave replica painted with Palaeolithic techniques",
+     "src": [
+      [
+       "Wikipedia, National Museum and Research Center of Altamira",
+       "https://en.wikipedia.org/wiki/National_Museum_and_Research_Center_of_Altamira"
+      ]
+     ]
+    }
+   ],
+   "sync": "Modern humans reached Europe after about 45,000 years ago, and Neanderthals vanish from the record around 40,000 years ago. At the glacial maximum, 26,500 to 19,000 years ago, ice covered most of northern Europe and the sea stood 110 to 120 metres lower; people crossed from Beringia into the Americas by about 15,000 years ago. The Löwenmensch ivory figure of 40,000 to 35,000 years ago and Spanish cave art of 40,000 years ago are Europe’s oldest images; the Sulawesi caves are older still.",
+   "src": [
+    [
+     "Wikipedia, Upper Paleolithic",
+     "https://en.wikipedia.org/wiki/Upper_Paleolithic"
+    ]
+   ],
+   "vf": "S"
+  },
+  "egypt": {
+   "owners": [
+    {
+     "n": "Museum of Fine Arts, Boston",
+     "what": "King Menkaura and queen, greywacke, 2490–2472 BC, found at the Menkaura valley temple at Giza in 1910 and assigned to the museum in 1911 (acc. 11.1738)",
+     "src": [
+      [
+       "MFA Boston collection, King Menkaura (Mycerinus) and queen",
+       "https://collections.mfa.org/objects/230/king-menkaura-mycerinus-and-queen"
+      ]
+     ]
+    },
+    {
+     "n": "Musée du Louvre, Paris",
+     "what": "The Seated Scribe (E 3023), found by Mariette at Saqqara on 19 November 1850",
+     "src": [
+      [
+       "Wikipedia, The Seated Scribe",
+       "https://en.wikipedia.org/wiki/The_Seated_Scribe"
+      ],
+      [
+       "Wikipedia, List of works in the Louvre",
+       "https://en.wikipedia.org/wiki/List_of_works_in_the_Louvre"
+      ]
+     ]
+    },
+    {
+     "n": "Neues Museum, Berlin (Ägyptisches Museum und Papyrussammlung)",
+     "what": "the bust of Nefertiti, c. 1340 BC, from Tell el-Amarna, found in 1912, in the North Dome Room",
+     "src": [
+      [
+       "Staatliche Museen zu Berlin, The bust of Nefertiti",
+       "https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/"
+      ]
+     ]
+    }
+   ],
+   "sync": "Egypt was united about 3150 BC, and the Giza pyramids rose in the Old Kingdom (c. 2686–2181 BC) while Sumerian and Akkadian cities ruled Mesopotamia and traded with the Nile. Drought around 2200 BC brought famine and strife. The Hyksos held the Delta from c. 1785 BC; the New Kingdom, from 1549 BC, reached from Syria to the Fourth Cataract, Akhenaten moved his court to Amarna c. 1350 BC, and Ramesses II sealed the first recorded peace treaty with the Hittites c. 1258 BC. Persia, Alexander and Rome followed.",
+   "src": [
+    [
+     "Wikipedia, Ancient Egypt",
+     "https://en.wikipedia.org/wiki/Ancient_Egypt"
+    ]
+   ],
+   "vf": "V"
+  },
+  "greekroman": {
+   "owners": [
+    {
+     "n": "British Museum, London",
+     "what": "about half the surviving Parthenon sculptures: 15 metopes, 17 pediment figures and 75 metres of the frieze",
+     "src": [
+      [
+       "British Museum, The Parthenon Sculptures",
+       "https://www.britishmuseum.org/about-us/british-museum-story/objects-news/parthenon-sculptures"
+      ]
+     ]
+    },
+    {
+     "n": "Acropolis Museum, Athens",
+     "what": "the other half of the Parthenon sculptures, in the museum opened in 2009",
+     "src": [
+      [
+       "British Museum, The Parthenon Sculptures",
+       "https://www.britishmuseum.org/about-us/british-museum-story/objects-news/parthenon-sculptures"
+      ]
+     ]
+    },
+    {
+     "n": "Museo Archeologico Nazionale, Naples",
+     "what": "the Doryphoros, Roman marble copy of 120–50 BC after Polykleitos",
+     "src": [
+      [
+       "The Art Story, Classical Greek and Roman art: artworks",
+       "https://www.theartstory.org/movement/classical-greek-and-roman-art/artworks/"
+      ]
+     ]
+    },
+    {
+     "n": "Vatican Museums, Braccio Nuovo",
+     "what": "the Augustus of Prima Porta, early first century AD, found in Livia’s villa on the Via Flaminia",
+     "src": [
+      [
+       "Musei Vaticani, Auguste de Prima Porta",
+       "https://www.museivaticani.va/content/museivaticani/fr/collezioni/musei/braccio-nuovo/Augusto-di-Prima-Porta.html"
+      ]
+     ]
+    },
+    {
+     "n": "Musée du Louvre, Paris",
+     "what": "the Venus de Milo and the Winged Victory of Samothrace",
+     "src": [
+      [
+       "Wikipedia, List of works in the Louvre",
+       "https://en.wikipedia.org/wiki/List_of_works_in_the_Louvre"
+      ]
+     ]
+    }
+   ],
+   "sync": "Homer’s poems and the first Olympiad of 776 BC open the age; colonies grew into city-states, Rome expelled its kings in 509 BC, and the Persian Wars of 499–449 BC left Athens heading the Delian League until Sparta won in 404 BC. Alexander died in 323 BC and his generals divided the East, where Koine Greek became the common tongue. Rome won the Punic Wars, took Greece in 146 BC and became an empire under Augustus in 27 BC; the Theodosian decrees of 393 ended the imperial cult.",
+   "src": [
+    [
+     "Wikipedia, Classical antiquity",
+     "https://en.wikipedia.org/wiki/Classical_antiquity"
+    ]
+   ],
+   "vf": "V"
+  },
+  "byzantine": {
+   "owners": [
+    {
+     "n": "Saint Catherine’s Monastery, Sinai",
+     "what": "the encaustic Christ Pantokrator of the mid-sixth century, the earliest surviving image of Christ as ruler of all",
+     "src": [
+      [
+       "Wikipedia, Christ Pantocrator (Sinai)",
+       "https://en.wikipedia.org/wiki/Christ_Pantocrator_(Sinai)"
+      ]
+     ]
+    },
+    {
+     "n": "Cathedral of Christ the Saviour, Moscow (Russian Orthodox Church)",
+     "what": "the Virgin of Vladimir, painted in Constantinople in the twelfth century, transferred from the State Tretyakov Gallery on 3 April 2026 for 49 years of church use",
+     "src": [
+      [
+       "Wikipedia, Virgin of Vladimir",
+       "https://en.wikipedia.org/wiki/Virgin_of_Vladimir"
+      ]
+     ]
+    },
+    {
+     "n": "Trinity Lavra of St Sergius, Sergiyev Posad (Russian Orthodox Church)",
+     "what": "Rublev’s Trinity (1411 or 1425–27), returned to the iconostasis of the Trinity Cathedral in 2024 after 93 years in the Tretyakov; its condition was reported critical in September 2026",
+     "src": [
+      [
+       "Wikipedia, Trinity (Andrei Rublev)",
+       "https://en.wikipedia.org/wiki/Trinity_(Andrei_Rublev)"
+      ]
+     ]
+    }
+   ],
+   "sync": "Constantine founded Constantinople in 330, and Justinian (527–65) rebuilt Hagia Sophia after the Nika riots of 532. Arab armies took Syria and Egypt by 642; Leo III removed the Christ icon over his gate in 726, and icons were restored at Nicaea in 787. Papal legates laid a bull of excommunication on Hagia Sophia’s altar in 1054, Manzikert opened Anatolia to the Turks in 1071, the Fourth Crusade sacked the city in 1204 and the Ottomans took it in 1453. Moscow, victor at Kulikovo in 1380, inherited the icon.",
+   "src": [
+    [
+     "Wikipedia, History of the Byzantine Empire",
+     "https://en.wikipedia.org/wiki/History_of_the_Byzantine_Empire"
+    ],
+    [
+     "Wikipedia, Late Middle Ages",
+     "https://en.wikipedia.org/wiki/Late_Middle_Ages"
+    ]
+   ],
+   "vf": "S"
+  },
+  "gothic": {
+   "owners": [
+    {
+     "n": "Museo dell’Opera del Duomo, Siena",
+     "what": "the central panel, lower panels and back of Duccio’s Maestà (1308–11), installed in the cathedral on 9 June 1311",
+     "src": [
+      [
+       "Wikipedia, Maestà (Duccio)",
+       "https://en.wikipedia.org/wiki/Maest%C3%A0_(Duccio)"
+      ]
+     ]
+    },
+    {
+     "n": "National Gallery, London; National Gallery of Art, Washington; Frick Collection, New York; Thyssen-Bornemisza, Madrid; Kimbell, Fort Worth",
+     "what": "the dispersed predella and pinnacle panels of the Maestà",
+     "src": [
+      [
+       "Wikipedia, Maestà (Duccio)",
+       "https://en.wikipedia.org/wiki/Maest%C3%A0_(Duccio)"
+      ]
+     ]
+    },
+    {
+     "n": "Uffizi Galleries, Florence (room A5)",
+     "what": "Simone Martini and Lippo Memmi’s Annunciation with Saints Ansanus and Margaret, 1333, painted for Siena Cathedral (inv. 1890 nos. 451–453)",
+     "src": [
+      [
+       "Uffizi, Annunciation with St Margaret and St Ansanus",
+       "https://www.uffizi.it/en/artworks/annunciation-with-st-margaret-and-st-ansanus"
+      ]
+     ]
+    },
+    {
+     "n": "Uffizi Galleries, Florence (room A7)",
+     "what": "Gentile da Fabriano’s Adoration of the Magi, 1423, commissioned by Palla Strozzi for Santa Trinita (inv. 1890 no. 8364)",
+     "src": [
+      [
+       "Uffizi, Adoration of the Magi",
+       "https://www.uffizi.it/en/artworks/adoration-of-the-magi"
+      ]
+     ]
+    }
+   ],
+   "sync": "The Great Famine of 1315–17 came first; the Black Death from 1347 killed a third to three fifths of Europe, and by about 1420 repeated plagues had cut its population to perhaps a third of the level of 1300. The Hundred Years’ War ran from 1337, with firearms at Crécy in 1346; the papacy sat at Avignon from 1309 to 1376 and rival popes split the Church from 1378 to 1417. Florence grew rich on bills of exchange and double-entry bookkeeping, and Dante began the Comedy around 1310.",
+   "src": [
+    [
+     "Wikipedia, Late Middle Ages",
+     "https://en.wikipedia.org/wiki/Late_Middle_Ages"
+    ]
+   ],
+   "vf": "V"
+  },
+  "earlyren": {
+   "owners": [
+    {
+     "n": "Santa Maria Novella, Florence",
+     "what": "Masaccio’s Holy Trinity fresco, c. 1426–28, in the Dominican church",
+     "src": [
+      [
+       "Wikipedia, Holy Trinity (Masaccio)",
+       "https://en.wikipedia.org/wiki/Holy_Trinity_(Masaccio)"
+      ]
+     ]
+    },
+    {
+     "n": "Galleria Nazionale delle Marche, Urbino",
+     "what": "Piero della Francesca’s Flagellation of Christ, 1459–60",
+     "src": [
+      [
+       "Wikipedia, Flagellation of Christ (Piero della Francesca)",
+       "https://en.wikipedia.org/wiki/Flagellation_of_Christ_(Piero_della_Francesca)"
+      ]
+     ]
+    },
+    {
+     "n": "Uffizi Galleries, Florence",
+     "what": "Botticelli’s Birth of Venus, c. 1484–86",
+     "src": [
+      [
+       "Wikipedia, The Birth of Venus",
+       "https://en.wikipedia.org/wiki/The_Birth_of_Venus"
+      ]
+     ]
+    }
+   ],
+   "sync": "Humanists such as Poggio Bracciolini hunted Latin manuscripts in monastic libraries, and Greek texts arrived with the scholars who fled Constantinople after the Ottomans took it in 1453. Movable type spread from a single shop in Mainz around 1440 to some 270 cities, which had printed more than 20 million volumes by 1500. Lorenzo de’ Medici (1449–92) ruled Florence as patron of Botticelli, Leonardo and the young Michelangelo, Matthias Corvinus made Buda a Renaissance court, and Lisbon’s captains worked down the African coast toward India.",
+   "src": [
+    [
+     "Wikipedia, Renaissance",
+     "https://en.wikipedia.org/wiki/Renaissance"
+    ]
+   ],
+   "vf": "S"
+  },
+  "northernren": {
+   "owners": [
+    {
+     "n": "St Bavo’s Cathedral, Ghent",
+     "what": "the Ghent Altarpiece of Hubert and Jan van Eyck, completed 1432, in the principal chapel",
+     "src": [
+      [
+       "Wikipedia, Ghent Altarpiece",
+       "https://en.wikipedia.org/wiki/Ghent_Altarpiece"
+      ]
+     ]
+    },
+    {
+     "n": "Museo del Prado, Madrid",
+     "what": "Rogier van der Weyden’s Descent from the Cross, c. 1435, in the Prado since 1939",
+     "src": [
+      [
+       "Wikipedia, The Descent from the Cross (van der Weyden)",
+       "https://en.wikipedia.org/wiki/The_Descent_from_the_Cross_(van_der_Weyden)"
+      ]
+     ]
+    },
+    {
+     "n": "Kunsthistorisches Museum, Vienna",
+     "what": "Bruegel’s Hunters in the Snow, 1565",
+     "src": [
+      [
+       "Wikipedia, The Hunters in the Snow",
+       "https://en.wikipedia.org/wiki/The_Hunters_in_the_Snow"
+      ]
+     ]
+    }
+   ],
+   "sync": "Jan Hus had burned at Constance in 1415, and on 31 October 1517 Luther posted his theses against indulgences at Wittenberg; he refused to recant at Worms in 1521. The Peasants’ War of 1524–25 ended at Frankenhausen, Zwingli fell in battle in 1531, the protest at Speyer in 1529 gave Protestants their name, and the Peace of Augsburg of 1555 let each prince choose his faith. Luther wrote a fifth of everything printed in Germany in the century’s first third; Antwerp fell to Philip II’s army in 1585.",
+   "src": [
+    [
+     "Wikipedia, Reformation",
+     "https://en.wikipedia.org/wiki/Reformation"
+    ],
+    [
+     "Wikipedia, Counter-Reformation",
+     "https://en.wikipedia.org/wiki/Counter-Reformation"
+    ]
+   ],
+   "vf": "S"
+  },
+  "highren": {
+   "owners": [
+    {
+     "n": "Musée du Louvre, Paris",
+     "what": "the Mona Lisa, c. 1503–17, property of the French Republic and on view since 1797",
+     "src": [
+      [
+       "Wikipedia, Mona Lisa",
+       "https://en.wikipedia.org/wiki/Mona_Lisa"
+      ],
+      [
+       "Wikipedia, List of works in the Louvre",
+       "https://en.wikipedia.org/wiki/List_of_works_in_the_Louvre"
+      ]
+     ]
+    },
+    {
+     "n": "Sistine Chapel, Vatican Museums, Vatican City",
+     "what": "Michelangelo’s ceiling frescoes of 1508–12, commissioned by Julius II",
+     "src": [
+      [
+       "Wikipedia, Sistine Chapel ceiling",
+       "https://en.wikipedia.org/wiki/Sistine_Chapel_ceiling"
+      ]
+     ]
+    },
+    {
+     "n": "Apostolic Palace, Vatican City (Stanza della Segnatura)",
+     "what": "Raphael’s School of Athens, 1509–11, in the Stanze di Raffaello",
+     "src": [
+      [
+       "Wikipedia, The School of Athens",
+       "https://en.wikipedia.org/wiki/The_School_of_Athens"
+      ]
+     ]
+    }
+   ],
+   "sync": "Charles VIII of France crossed the Alps in September 1494 and was in Rome by the year’s end, and for a generation French and Habsburg armies fought over Italy. Francis I routed the Swiss at Marignano in 1515; at Pavia in February 1525 he was beaten and carried captive to Spain. In May 1527 unpaid imperial troops, many of them Lutherans, sacked Rome and besieged Clement VII in Castel Sant’Angelo, while Luther’s theses of 1517 had split the Church in Germany. Cambrai in 1529 sealed Habsburg rule.",
+   "src": [
+    [
+     "Wikipedia, Italian Wars",
+     "https://en.wikipedia.org/wiki/Italian_Wars"
+    ],
+    [
+     "Wikipedia, Reformation",
+     "https://en.wikipedia.org/wiki/Reformation"
+    ]
+   ],
+   "vf": "S"
+  },
+  "mannerism": {
+   "owners": [
+    {
+     "n": "Santa Felicita, Florence (Capponi Chapel)",
+     "what": "Pontormo’s Deposition from the Cross, 1525–28, above the chapel altar",
+     "src": [
+      [
+       "Wikipedia, The Deposition from the Cross (Pontormo)",
+       "https://en.wikipedia.org/wiki/The_Deposition_from_the_Cross_(Pontormo)"
+      ]
+     ]
+    },
+    {
+     "n": "Uffizi Galleries, Florence",
+     "what": "Parmigianino’s Madonna with the Long Neck, 1534–40, unfinished at his death, on view since 1948",
+     "src": [
+      [
+       "Wikipedia, Madonna with the Long Neck",
+       "https://en.wikipedia.org/wiki/Madonna_with_the_Long_Neck"
+      ]
+     ]
+    },
+    {
+     "n": "National Gallery, London",
+     "what": "Bronzino’s Allegory with Venus and Cupid, c. 1545, in the collection since 1860",
+     "src": [
+      [
+       "Wikipedia, Venus, Cupid, Folly and Time",
+       "https://en.wikipedia.org/wiki/Venus,_Cupid,_Folly_and_Time"
+      ]
+     ]
+    }
+   ],
+   "sync": "Leo X’s indulgences for St Peter’s had provoked Luther, and Paul III answered with the Council of Trent, which met from 13 December 1545 to 4 December 1563. The Jesuits were recognised in 1540, the Index of forbidden books first appeared in 1559, and the Inquisition summoned Veronese to explain his Last Supper. Lepanto followed in 1571, the French wars of religion ran from 1562 to the Edict of Nantes in 1598, and Antwerp fell to Philip II’s general Farnese in 1585.",
+   "src": [
+    [
+     "Wikipedia, Counter-Reformation",
+     "https://en.wikipedia.org/wiki/Counter-Reformation"
+    ]
+   ],
+   "vf": "S"
+  },
+  "baroque": {
+   "owners": [
+    {
+     "n": "San Luigi dei Francesi, Rome",
+     "what": "Caravaggio’s The Calling of St Matthew, in the church for which it was painted",
+     "src": [
+      [
+       "Wikipedia, Baroque",
+       "https://en.wikipedia.org/wiki/Baroque"
+      ]
+     ]
+    },
+    {
+     "n": "Museo del Prado, Madrid",
+     "what": "Velázquez’s Las Meninas, 1656",
+     "src": [
+      [
+       "Wikipedia, Baroque",
+       "https://en.wikipedia.org/wiki/Baroque"
+      ],
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Santa Maria della Vittoria, Rome",
+     "what": "Bernini’s Ecstasy of Saint Teresa, 1647–52, in the Cornaro Chapel",
+     "src": [
+      [
+       "Wikipedia, Baroque",
+       "https://en.wikipedia.org/wiki/Baroque"
+      ]
+     ]
+    },
+    {
+     "n": "Kunsthistorisches Museum, Vienna",
+     "what": "Rubens’s The Four Continents, c. 1615, and Van Dyck’s Samson and Delilah, c. 1630",
+     "src": [
+      [
+       "Wikipedia, Baroque",
+       "https://en.wikipedia.org/wiki/Baroque"
+      ],
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Musée du Louvre, Paris",
+     "what": "Caravaggio’s Death of the Virgin, c. 1606, and Rubens’s Marie de’ Medici cycle",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ],
+      [
+       "Wikipedia, List of works in the Louvre",
+       "https://en.wikipedia.org/wiki/List_of_works_in_the_Louvre"
+      ]
+     ]
+    }
+   ],
+   "sync": "The Bohemian Revolt of 1618 began the Thirty Years’ War, and the Peace of Westphalia of 1648 ended it and Spain’s day as a great power. Galileo came to Rome for his trial before the Inquisition in 1633, Charles I was executed in 1649, and Newton published the Principia in 1687. The Manchu took China in 1644, Tokugawa Ieyasu became shōgun in 1603, and the Taj Mahal rose at Agra from 1632. Louis XIV reigned from 1643 to 1715 and enlarged Versailles from 1661.",
+   "src": [
+    [
+     "Wikipedia, 17th century",
+     "https://en.wikipedia.org/wiki/17th_century"
+    ],
+    [
+     "Wikipedia, Baroque",
+     "https://en.wikipedia.org/wiki/Baroque"
+    ],
+    [
+     "Wikipedia, Counter-Reformation",
+     "https://en.wikipedia.org/wiki/Counter-Reformation"
+    ]
+   ],
+   "vf": "S"
+  },
+  "dutchgolden": {
+   "owners": [
+    {
+     "n": "Rijksmuseum, Amsterdam",
+     "what": "Rembrandt’s The Night Watch, 1642, and Vermeer’s The Milkmaid, c. 1660",
+     "src": [
+      [
+       "Wikipedia, Baroque",
+       "https://en.wikipedia.org/wiki/Baroque"
+      ],
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Mauritshuis, The Hague",
+     "what": "Vermeer’s View of Delft, c. 1661, Rembrandt’s The Anatomy Lesson of Dr Nicolaes Tulp, 1632, and Fabritius’s The Goldfinch, 1654",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Wallace Collection, London",
+     "what": "Frans Hals’s The Laughing Cavalier, 1624",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Metropolitan Museum of Art, New York",
+     "what": "Vermeer’s Woman with a Water Jug, c. 1660",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Musée du Louvre, Paris",
+     "what": "Vermeer’s The Astronomer",
+     "src": [
+      [
+       "Wikipedia, List of works in the Louvre",
+       "https://en.wikipedia.org/wiki/List_of_works_in_the_Louvre"
+      ]
+     ]
+    }
+   ],
+   "sync": "The Dutch were still at war with Spain until the Peace of Westphalia closed the Eighty Years’ War in 1648. The Dutch East India Company, formed in 1602 by merging rival traders, razed Jayakarta and built Batavia on it in 1619, and a Dutch fleet broke a Spanish one at the Downs in 1639. Kepler began on the elliptical orbits in 1605 and Galileo was tried in 1633. England fought its civil war from 1642, and Louis XIV invaded the Republic in 1672.",
+   "src": [
+    [
+     "Wikipedia, 17th century",
+     "https://en.wikipedia.org/wiki/17th_century"
+    ]
+   ],
+   "vf": "S"
+  },
+  "rococo": {
+   "owners": [
+    {
+     "n": "Musée du Louvre, Paris",
+     "what": "Watteau’s Embarkation (Pilgrimage) for Cythera",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Wallraf–Richartz Museum, Cologne",
+     "what": "Boucher’s Resting Maiden, 1751",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Staatliche Kunsthalle Karlsruhe",
+     "what": "Chardin’s Still Life with Glass Flask and Fruit, c. 1728",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "National Gallery, London",
+     "what": "Vigée Le Brun’s Self-Portrait in a Straw Hat, c. 1783",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Museu Nacional d’Art de Catalunya, Barcelona",
+     "what": "Quentin de La Tour’s Portrait of Pierre-Louis Laideguive, c. 1761",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    }
+   ],
+   "sync": "The death of Louis XIV in 1715 opened the ‘short’ eighteenth century that ran to the Revolution. Most of Europe fought the War of the Austrian Succession from 1740 to 1748, and the Seven Years’ War spread across the world from 1756 to 1763. Diderot’s Encyclopédie appeared from 1751, Catherine the Great took the Russian throne in 1762, and James Watt improved Newcomen’s steam engine in 1765. The Qianlong Emperor ruled China from 1735, while the Mughal empire broke apart after Aurangzeb’s death in 1707.",
+   "src": [
+    [
+     "Wikipedia, 18th century",
+     "https://en.wikipedia.org/wiki/18th_century"
+    ]
+   ],
+   "vf": "S"
+  },
+  "neoclassicism": {
+   "owners": [
+    {
+     "n": "Musée du Louvre, Paris",
+     "what": "David’s Oath of the Horatii and The Coronation of Napoleon, and Ingres’s Grande Odalisque",
+     "src": [
+      [
+       "Wikipedia, List of works in the Louvre",
+       "https://en.wikipedia.org/wiki/List_of_works_in_the_Louvre"
+      ]
+     ]
+    },
+    {
+     "n": "Metropolitan Museum of Art, New York",
+     "what": "David’s The Death of Socrates, 1787, and Mengs’s portrait of Winckelmann, c. 1777",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "National Gallery of Canada, Ottawa",
+     "what": "Benjamin West’s The Death of General Wolfe, 1770",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Musée de l’Armée, Paris",
+     "what": "Ingres’s Napoleon on His Imperial Throne, 1806",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Museum of Fine Arts, Boston",
+     "what": "Copley’s A Boy with a Flying Squirrel, 1765",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    }
+   ],
+   "sync": "The American Revolutionary War ran from 1775 to 1783, and the Continental Congress adopted the Declaration of Independence in Philadelphia in 1776. Watt’s improved steam engines were installed from 1776. The Bastille fell on 14 July 1789, and Napoleon won his first battle at Montenotte in 1796 and took power on 18 Brumaire 1799. The partitions of Poland ended the Commonwealth by 1795, Cook mapped the Pacific, and the Napoleonic Wars ran from 1803 to Waterloo.",
+   "src": [
+    [
+     "Wikipedia, 18th century",
+     "https://en.wikipedia.org/wiki/18th_century"
+    ],
+    [
+     "Wikipedia, 19th century",
+     "https://en.wikipedia.org/wiki/19th_century"
+    ]
+   ],
+   "vf": "S"
+  },
+  "romanticism": {
+   "owners": [
+    {
+     "n": "Musée du Louvre, Paris",
+     "what": "Géricault’s The Raft of the Medusa, 1819, and Delacroix’s Liberty Leading the People, 1830",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ],
+      [
+       "Wikipedia, List of works in the Louvre",
+       "https://en.wikipedia.org/wiki/List_of_works_in_the_Louvre"
+      ]
+     ]
+    },
+    {
+     "n": "National Gallery, London",
+     "what": "Turner’s The Fighting Temeraire, 1838",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Museo del Prado, Madrid",
+     "what": "Goya’s The Third of May 1808, painted 1814, and Saturn Devouring His Son, c. 1820",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Alte Nationalgalerie, Berlin",
+     "what": "Caspar David Friedrich’s The Abbey in the Oakwood, c. 1810",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "State Russian Museum, St Petersburg",
+     "what": "Brullov’s The Last Day of Pompeii, c. 1830, and Aivazovsky’s The Ninth Wave, 1850",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    }
+   ],
+   "sync": "The Napoleonic Wars ran from 1803 until Napoleon’s defeat at Waterloo, and the Congress of Vienna redrew the borders after him. The first steam locomotive ran in 1804 and the Stockton and Darlington, the first public railway, opened in 1825; Niépce made the first photograph in 1827. The July Revolution of 1830 overthrew the Bourbons, Britain fought the First Opium War from 1839, and the revolutions of 1848 shook Europe in the year Marx and Engels published The Communist Manifesto.",
+   "src": [
+    [
+     "Wikipedia, 19th century",
+     "https://en.wikipedia.org/wiki/19th_century"
+    ]
+   ],
+   "vf": "S"
+  },
+  "realism": {
+   "owners": [
+    {
+     "n": "Musée d’Orsay, Paris",
+     "what": "Courbet’s A Burial at Ornans, c. 1850, and Millet’s The Gleaners, 1857",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "National Gallery of Art, Washington",
+     "what": "Corot’s Forest of Fontainebleau, 1834",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Art Institute of Chicago",
+     "what": "Winslow Homer’s After the Hurricane, Bahamas, 1899, a work of the American realism of the same decades",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    }
+   ],
+   "sync": "Louis-Philippe ruled France from the July Revolution of 1830 until the February barricades of 1848, when Louis-Napoleon was elected president; he made himself Napoleon III in 1852 and set Haussmann to rebuild Paris from 1853. Britain, France and the Ottomans fought Russia in the Crimea in 1853–56. Darwin published On the Origin of Species in 1859, Russia abolished serfdom in 1861 and America fought its Civil War from 1861 to 1865. Napoleon III fell with the Franco-Prussian War of 1870–71.",
+   "src": [
+    [
+     "Wikipedia, 19th century",
+     "https://en.wikipedia.org/wiki/19th_century"
+    ],
+    [
+     "Wikipedia, History of Paris",
+     "https://en.wikipedia.org/wiki/History_of_Paris"
+    ]
+   ],
+   "vf": "S"
+  },
+  "peredvizhniki": {
+   "owners": [
+    {
+     "n": "State Russian Museum, St Petersburg",
+     "what": "Repin’s realist paintings: Western painting names the Russian Museum, with the Hermitage, as the chief Russian repository of his work; the Mikhailovsky Palace became the museum in 1895",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ],
+      [
+       "Wikipedia, Timeline of Saint Petersburg",
+       "https://en.wikipedia.org/wiki/Timeline_of_Saint_Petersburg"
+      ]
+     ]
+    }
+   ],
+   "sync": "Russia abolished serfdom in 1861, and the great novels came out beside the Wanderers’ shows: Dostoevsky’s Crime and Punishment in 1866 and The Brothers Karamazov in 1879–80, Tolstoy’s War and Peace in 1869. Mendeleev presented the periodic table on 6 March 1869. Nicholas II was crowned in Moscow in 1896, Bloody Sunday opened the revolution of 1905, the Bolsheviks took power in 1917, and the capital moved from Petrograd to Moscow in 1918.",
+   "src": [
+    [
+     "Wikipedia, 19th century",
+     "https://en.wikipedia.org/wiki/19th_century"
+    ],
+    [
+     "Wikipedia, Fyodor Dostoevsky",
+     "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky"
+    ],
+    [
+     "Wikipedia, Leo Tolstoy",
+     "https://en.wikipedia.org/wiki/Leo_Tolstoy"
+    ],
+    [
+     "Wikipedia, Dmitri Mendeleev",
+     "https://en.wikipedia.org/wiki/Dmitri_Mendeleev"
+    ],
+    [
+     "Wikipedia, Timeline of Moscow",
+     "https://en.wikipedia.org/wiki/Timeline_of_Moscow"
+    ],
+    [
+     "Wikipedia, Timeline of Saint Petersburg",
+     "https://en.wikipedia.org/wiki/Timeline_of_Saint_Petersburg"
+    ]
+   ],
+   "vf": "S"
+  },
+  "prerapha": {
+   "owners": [],
+   "sync": "Victoria had reigned since 1837. The revolutions of 1848 shook Europe, and on 10 April that year the Chartists held a ‘monster’ rally on Kennington Common. The Brotherhood first showed in May 1849, Millais’s Isabella at the Royal Academy, and the Great Exhibition opened in the Crystal Palace on 1 May 1851. Britain fought in the Crimea in 1853–56, Dickens published Bleak House in 1853 and Hard Times in 1854, and Darwin’s On the Origin of Species appeared in 1859.",
+   "src": [
+    [
+     "Wikipedia, Timeline of London (19th century)",
+     "https://en.wikipedia.org/wiki/Timeline_of_London_(19th_century)"
+    ],
+    [
+     "Wikipedia, 19th century",
+     "https://en.wikipedia.org/wiki/19th_century"
+    ],
+    [
+     "Wikipedia, Charles Dickens",
+     "https://en.wikipedia.org/wiki/Charles_Dickens"
+    ]
+   ],
+   "vf": "S"
+  },
+  "ukiyoe": {
+   "owners": [
+    {
+     "n": "Museum of Fine Arts, Boston",
+     "what": "a holding of Japanese prints and related items numbering more than 100,000",
+     "src": [
+      [
+       "Wikipedia, Ukiyo-e",
+       "https://en.wikipedia.org/wiki/Ukiyo-e"
+      ]
+     ]
+    },
+    {
+     "n": "Japan Ukiyo-e Museum, Matsumoto",
+     "what": "a museum of ukiyo-e prints, named on the Wikipedia page among the places that hold them",
+     "src": [
+      [
+       "Wikipedia, Ukiyo-e",
+       "https://en.wikipedia.org/wiki/Ukiyo-e"
+      ]
+     ]
+    }
+   ],
+   "sync": "Tokugawa Ieyasu became shōgun in 1603 and made Edo the seat of government; it grew from about 1,800 people to more than a million. From 1790 every print needed a censor’s seal, and Utamaro was jailed in 1804 for prints of Hideyoshi; the Tenpō Reforms of 1841–43 banned courtesans and actors, so artists turned to landscape. Perry reached Edo in 1853, the Convention of Kanagawa opened Japan in 1854, and the Meiji Restoration of 1868 and the Boshin War ended the shogunate.",
+   "src": [
+    [
+     "Wikipedia, Ukiyo-e",
+     "https://en.wikipedia.org/wiki/Ukiyo-e"
+    ],
+    [
+     "Wikipedia, 17th century",
+     "https://en.wikipedia.org/wiki/17th_century"
+    ],
+    [
+     "Wikipedia, 19th century",
+     "https://en.wikipedia.org/wiki/19th_century"
+    ]
+   ],
+   "vf": "S"
+  },
+  "chineseink": {
+   "owners": [],
+   "sync": "The Jin moved their capital to Zhongdu, today’s Beijing, in 1153, and Zhu Xi (1130–1200) made the neo-Confucian synthesis whose commentaries set the civil-service examinations from 1313 to 1905. Kublai Khan began Dadu in 1267 and made it the capital of all China in 1279; Marco Polo lived some 17 years in his lands. The Yongle Emperor moved the Ming capital to Beijing in 1421, the Manchus took the city on 3 May 1644, and the Xinhai Revolution of 1911 ended the empire.",
+   "src": [
+    [
+     "Wikipedia, History of Beijing",
+     "https://en.wikipedia.org/wiki/History_of_Beijing"
+    ],
+    [
+     "Wikipedia, Zhu Xi",
+     "https://en.wikipedia.org/wiki/Zhu_Xi"
+    ],
+    [
+     "Wikipedia, Marco Polo",
+     "https://en.wikipedia.org/wiki/Marco_Polo"
+    ]
+   ],
+   "vf": "S"
+  },
+  "academic": {
+   "owners": [],
+   "sync": "Louis-Napoleon made himself Emperor Napoleon III on 2 December 1852 and set Haussmann to rebuild Paris from 1853; the Palais Garnier was among the new monuments. Baudelaire and his publisher were prosecuted for Les Fleurs du mal in 1857, and in 1863 his Painter of Modern Life defined modernity as ‘the transitory, the fugitive, the contingent’. Darwin published On the Origin of Species in 1859, the Franco-Prussian War ended the Second Empire in 1870, and the Berlin Conference of 1884–85 divided Africa.",
+   "src": [
+    [
+     "Wikipedia, History of Paris",
+     "https://en.wikipedia.org/wiki/History_of_Paris"
+    ],
+    [
+     "Wikipedia, Charles Baudelaire",
+     "https://en.wikipedia.org/wiki/Charles_Baudelaire"
+    ],
+    [
+     "Wikipedia, 19th century",
+     "https://en.wikipedia.org/wiki/19th_century"
+    ]
+   ],
+   "vf": "S"
+  },
+  "impressionism": {
+   "owners": [
+    {
+     "n": "Musée Marmottan Monet, Paris",
+     "what": "Monet’s Impression, Sunrise, 1872, which gave the movement its name",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Musée d’Orsay, Paris",
+     "what": "Renoir’s Dance at Le Moulin de la Galette, 1876, Degas’s The Ballet Class, c. 1875, and Manet’s Olympia, 1863",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "National Gallery of Art, Washington",
+     "what": "Monet’s Woman with a Parasol, 1875, and Cassatt’s The Boating Party, c. 1894",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "The Phillips Collection, Washington",
+     "what": "Renoir’s Luncheon of the Boating Party, c. 1881",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Courtauld Gallery, London",
+     "what": "Manet’s A Bar at the Folies-Bergère, 1882",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    }
+   ],
+   "sync": "Napoleon III abdicated after the Franco-Prussian War of 1870–71, which unified Germany and brought the Third Republic; Haussmann’s boulevards had remade Paris since 1853. Japan’s Meiji Restoration came in 1868, and from the 1870s Japonisme carried its prints into the Paris studios. The first telephone call was made in 1876, Edison patented a practical light bulb in 1879 and Karl Benz sold the first commercial motor car in 1886. The Berlin Conference of 1884–85 carved up Africa.",
+   "src": [
+    [
+     "Wikipedia, 19th century",
+     "https://en.wikipedia.org/wiki/19th_century"
+    ],
+    [
+     "Wikipedia, History of Paris",
+     "https://en.wikipedia.org/wiki/History_of_Paris"
+    ],
+    [
+     "Wikipedia, Ukiyo-e",
+     "https://en.wikipedia.org/wiki/Ukiyo-e"
+    ]
+   ],
+   "vf": "S"
+  },
+  "postimpressionism": {
+   "owners": [
+    {
+     "n": "Art Institute of Chicago",
+     "what": "Seurat’s A Sunday on La Grande Jatte, c. 1884, Cézanne’s The Basket of Apples, c. 1893, and Toulouse-Lautrec’s At the Moulin Rouge, c. 1895",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Museum of Fine Arts, Boston",
+     "what": "Gauguin’s Where Do We Come From? What Are We? Where Are We Going?, c. 1898",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Van Gogh Museum, Amsterdam",
+     "what": "Van Gogh’s Bedroom in Arles, 1888",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Neue Pinakothek, Munich",
+     "what": "Van Gogh’s Sunflowers, 1888",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Philadelphia Museum of Art",
+     "what": "Cézanne’s The Large Bathers, c. 1906",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    }
+   ],
+   "sync": "Karl Benz sold the first commercial motor car in 1886, and millions came to the Paris expositions and the new Eiffel Tower. Freud published The Interpretation of Dreams in Vienna in 1899, the year the Boxer Rebellion broke out in China; the Wright Flyer flew in 1903. Japan beat Russia in the war of 1904–05, which set off the Russian Revolution of 1905, and in the same year Einstein published special relativity and the equation of mass and energy.",
+   "src": [
+    [
+     "Wikipedia, 19th century",
+     "https://en.wikipedia.org/wiki/19th_century"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ],
+    [
+     "Wikipedia, History of Paris",
+     "https://en.wikipedia.org/wiki/History_of_Paris"
+    ],
+    [
+     "Wikipedia, Sigmund Freud",
+     "https://en.wikipedia.org/wiki/Sigmund_Freud"
+    ],
+    [
+     "Wikipedia, Albert Einstein",
+     "https://en.wikipedia.org/wiki/Albert_Einstein"
+    ]
+   ],
+   "vf": "S"
+  },
+  "symbolism": {
+   "owners": [
+    {
+     "n": "Alte Nationalgalerie, Berlin",
+     "what": "Böcklin’s Isle of the Dead, 1883",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Lenbachhaus, Munich",
+     "what": "Franz von Stuck’s The Wild Chase, c. 1889",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Österreichische Galerie Belvedere, Vienna",
+     "what": "Klimt’s The Kiss, c. 1908, described as both Symbolism and early Expressionism",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    }
+   ],
+   "sync": "The Berlin Conference of 1884–85 divided Africa among the European powers, and Karl Benz sold the first motor car in 1886. Freud published The Interpretation of Dreams in Vienna in 1899, and the Boxer Rebellion was put down by eight nations in 1901. Paris drew millions to its expositions and the Eiffel Tower. Japan defeated Russia in 1904–05, the Russian Revolution of 1905 followed, and Einstein published special relativity the same year.",
+   "src": [
+    [
+     "Wikipedia, 19th century",
+     "https://en.wikipedia.org/wiki/19th_century"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ],
+    [
+     "Wikipedia, Sigmund Freud",
+     "https://en.wikipedia.org/wiki/Sigmund_Freud"
+    ],
+    [
+     "Wikipedia, Albert Einstein",
+     "https://en.wikipedia.org/wiki/Albert_Einstein"
+    ],
+    [
+     "Wikipedia, History of Paris",
+     "https://en.wikipedia.org/wiki/History_of_Paris"
+    ]
+   ],
+   "vf": "S"
+  },
+  "artsandcrafts": {
+   "owners": [],
+   "sync": "The Great Exhibition opened in the Crystal Palace in Hyde Park on 1 May 1851, and the Museum of Manufactures, forerunner of the Victoria and Albert Museum, opened at Marlborough House in 1852. Edison patented a practical light bulb in 1879, large electric utilities followed from 1882 and Karl Benz sold the first motor car in 1886. The Berlin Conference of 1884–85 divided Africa, the Wiener Werkstätte was founded in Vienna in 1903, and the First World War began in 1914.",
+   "src": [
+    [
+     "Wikipedia, Timeline of London (19th century)",
+     "https://en.wikipedia.org/wiki/Timeline_of_London_(19th_century)"
+    ],
+    [
+     "Wikipedia, 19th century",
+     "https://en.wikipedia.org/wiki/19th_century"
+    ],
+    [
+     "Wikipedia, Timeline of Vienna",
+     "https://en.wikipedia.org/wiki/Timeline_of_Vienna"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ]
+   ],
+   "vf": "S"
+  },
+  "viennasecession": {
+   "owners": [
+    {
+     "n": "Österreichische Galerie Belvedere, Vienna",
+     "what": "Klimt’s The Kiss, c. 1908",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Leopold Museum, Vienna",
+     "what": "Schiele’s Self-Portrait with Physalis, 1912",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Secession Building, Vienna",
+     "what": "the group’s own exhibition house, built in 1898, a year after the Secession was founded in April 1897",
+     "src": [
+      [
+       "Wikipedia, Timeline of Vienna",
+       "https://en.wikipedia.org/wiki/Timeline_of_Vienna"
+      ]
+     ]
+    }
+   ],
+   "sync": "The Secession was founded in April 1897, and its building and the Stadtbahn opened in 1898. Freud’s The Interpretation of Dreams was published in Vienna on 4 November 1899, the year the magazine Die Fackel began. The Wiener Werkstätte followed in 1903 and the Vienna Psychoanalytic Society in 1908. The First World War began in 1914, Franz Joseph I was buried on 30 November 1916, and defeat in 1918 opened the years of Red Vienna.",
+   "src": [
+    [
+     "Wikipedia, Timeline of Vienna",
+     "https://en.wikipedia.org/wiki/Timeline_of_Vienna"
+    ],
+    [
+     "Wikipedia, Sigmund Freud",
+     "https://en.wikipedia.org/wiki/Sigmund_Freud"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ]
+   ],
+   "vf": "S"
+  },
+  "miriskusstva": {
+   "owners": [],
+   "sync": "Nicholas II was crowned in 1896, and the Moscow Art Theatre was founded in 1898. Japan defeated Russia in 1904–05, and Bloody Sunday in January 1905 opened the revolution that brought the St Petersburg Soviet. Akhmatova joined the Acmeists around 1910, published Evening in 1912 and frequented the Stray Dog cabaret. The capital was renamed Petrograd in 1914, and after 1917 between 900,000 and 2 million Russians emigrated; Bakst, Diaghilev, Pavlova and Nijinsky were among the émigrés.",
+   "src": [
+    [
+     "Wikipedia, Timeline of Moscow",
+     "https://en.wikipedia.org/wiki/Timeline_of_Moscow"
+    ],
+    [
+     "Wikipedia, Timeline of Saint Petersburg",
+     "https://en.wikipedia.org/wiki/Timeline_of_Saint_Petersburg"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ],
+    [
+     "Wikipedia, Anna Akhmatova",
+     "https://en.wikipedia.org/wiki/Anna_Akhmatova"
+    ],
+    [
+     "Wikipedia, White émigré",
+     "https://en.wikipedia.org/wiki/White_%C3%A9migr%C3%A9"
+    ]
+   ],
+   "vf": "S"
+  },
+  "fauvism": {
+   "owners": [
+    {
+     "n": "San Francisco Museum of Modern Art",
+     "what": "Matisse’s Woman with a Hat, 1905, shown at the Salon d’Automne that named the Fauves",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "National Gallery of Denmark (SMK), Copenhagen",
+     "what": "Matisse’s Portrait of Madame Matisse (The Green Stripe), 1905",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "National Gallery of Art, Washington",
+     "what": "Derain’s Charing Cross Bridge, 1906",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Metropolitan Museum of Art, New York",
+     "what": "Vlaminck’s The Seine at Chatou, 1906",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Hermitage Museum, St Petersburg",
+     "what": "Matisse’s The Dance, 1910",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    }
+   ],
+   "sync": "The Wright Flyer had flown in 1903. Japan and Russia fought over Manchuria and Korea in 1904–05, and the defeat set off the Russian Revolution of 1905, a wave of mass unrest across the empire. In 1905 Einstein published special relativity and the equation of mass and energy. Louis Vauxcelles named the Fauves at the Salon d’Automne that autumn; by 1907 they no longer shocked anyone, and Picasso was painting Les Demoiselles d’Avignon.",
+   "src": [
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ],
+    [
+     "Wikipedia, Albert Einstein",
+     "https://en.wikipedia.org/wiki/Albert_Einstein"
+    ],
+    [
+     "Wikipedia, Western painting",
+     "https://en.wikipedia.org/wiki/Western_painting"
+    ]
+   ],
+   "vf": "S"
+  },
+  "expressionism": {
+   "owners": [
+    {
+     "n": "Pinakothek der Moderne, Munich",
+     "what": "Kirchner’s Portrait of Erich Heckel at the Easel, c. 1907, from Die Brücke",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Lenbachhaus, Munich",
+     "what": "Jawlensky’s Portrait of Alexander Sakharoff, 1909, from the circle of Der Blaue Reiter",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Museum of Modern Art, New York",
+     "what": "Chagall’s I and the Village, 1911",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Kunstsammlung Nordrhein-Westfalen, Düsseldorf",
+     "what": "Beckmann’s The Night, 1919, from the reaction against Expressionism",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    }
+   ],
+   "sync": "Die Brücke formed in Dresden in 1905, the year of the first Russian revolution and of Einstein’s special relativity; Der Blaue Reiter lasted from 1911 to 1914, and Kandinsky published Concerning the Spiritual in Art in 1911. In 1914 the First World War began; it killed up to 17 million people by 1918, and Einstein proposed general relativity in the middle of it, in 1915. The Expressionists worked largely between that war and the next.",
+   "src": [
+    [
+     "Wikipedia, Western painting",
+     "https://en.wikipedia.org/wiki/Western_painting"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ],
+    [
+     "Wikipedia, Albert Einstein",
+     "https://en.wikipedia.org/wiki/Albert_Einstein"
+    ]
+   ],
+   "vf": "S"
+  },
+  "cubism": {
+   "owners": [
+    {
+     "n": "Museum of Modern Art, New York",
+     "what": "Picasso’s Les Demoiselles d’Avignon, painted in Paris in June–July 1907",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "San Francisco Museum of Modern Art",
+     "what": "Braque’s Violin and Candlestick, 1910, analytic Cubism",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Art Institute of Chicago",
+     "what": "Juan Gris’s Portrait of Pablo Picasso, 1912, and Léger’s The Railway Crossing, 1919",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Hamburger Kunsthalle",
+     "what": "Robert Delaunay’s Simultaneous Windows on the City, 1912, Orphism",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    }
+   ],
+   "sync": "Picasso painted Les Demoiselles d’Avignon in Paris in the summer of 1907, four years after the Wright Flyer’s first flight and two after Einstein’s special relativity. Russia was still shaken by its defeat by Japan and the revolution of 1905. Kandinsky published Concerning the Spiritual in Art in 1911, and Duchamp became famous after the Armory Show in New York in 1913. The First World War broke out in 1914 and killed up to 17 million people by 1918.",
+   "src": [
+    [
+     "Wikipedia, Western painting",
+     "https://en.wikipedia.org/wiki/Western_painting"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ],
+    [
+     "Wikipedia, Albert Einstein",
+     "https://en.wikipedia.org/wiki/Albert_Einstein"
+    ]
+   ],
+   "vf": "S"
+  },
+  "futurism": {
+   "owners": [],
+   "sync": "The poet Marinetti founded Futurism in the first decade of flight: the Wright Flyer had flown in 1903. The First World War of 1914–18 killed up to 17 million people; Boccioni died in 1916, in the middle of it. The Bolsheviks took Russia in 1917, influenza killed between 17 and 100 million in 1918–19, and fascism gained ground in Italy, Germany and Spain through the 1920s. The Great Depression began in 1929, Franco rebelled in 1936 and the Second World War began in 1939.",
+   "src": [
+    [
+     "Wikipedia, Western painting",
+     "https://en.wikipedia.org/wiki/Western_painting"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ]
+   ],
+   "vf": "S"
+  },
+  "russianavantgarde": {
+   "owners": [],
+   "sync": "Malevich founded Suprematism, an art of ‘the supremacy of pure artistic feeling’, and Rodchenko and Tatlin founded Constructivism. Petrograd took that name in 1914; the February Revolution of 1917 was followed by the October Revolution, and in March 1918 Moscow became the capital. The Comintern held its founding congress there in 1919, the Lenin Mausoleum was built in 1924, the year Petrograd became Leningrad, Kirov was assassinated in 1934 and the Moscow Metro opened on 15 May 1935.",
+   "src": [
+    [
+     "Wikipedia, Western painting",
+     "https://en.wikipedia.org/wiki/Western_painting"
+    ],
+    [
+     "Wikipedia, Timeline of Saint Petersburg",
+     "https://en.wikipedia.org/wiki/Timeline_of_Saint_Petersburg"
+    ],
+    [
+     "Wikipedia, Timeline of Moscow",
+     "https://en.wikipedia.org/wiki/Timeline_of_Moscow"
+    ]
+   ],
+   "vf": "S"
+  },
+  "dada": {
+   "owners": [
+    {
+     "n": "Nationalgalerie, Staatliche Museen zu Berlin",
+     "what": "Hannah Höch’s Cut with the Kitchen Knife through the Last Epoch of Weimar Beer-Belly Culture in Germany, 1919",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Staatsgalerie Stuttgart",
+     "what": "Kurt Schwitters’s The Und-Picture, 1919",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Philadelphia Museum of Art",
+     "what": "Duchamp’s The Bride Stripped Bare by Her Bachelors, Even (The Large Glass), c. 1923",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    }
+   ],
+   "sync": "Dada began in neutral Zürich during the First World War, which killed up to 17 million people between 1914 and 1918. The Bolsheviks set up the first communist state in 1917, and the influenza pandemic of 1918–19 killed between 17 and 100 million. Germany became the Weimar Republic; Hitler’s Beer Hall Putsch failed in 1923, and fascism gained ground in Italy, Germany and Spain. By 1923 Duchamp had given up art for chess.",
+   "src": [
+    [
+     "Wikipedia, Western painting",
+     "https://en.wikipedia.org/wiki/Western_painting"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ]
+   ],
+   "vf": "S"
+  },
+  "destijl": {
+   "owners": [
+    {
+     "n": "Metropolitan Museum of Art, New York",
+     "what": "Paul Klee’s Tale à la Hoffmann, 1921, from his Bauhaus years",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    }
+   ],
+   "sync": "Mondrian, a Theosophist, set out Neo-Plasticism with De Stijl, and Constructivism reached the Bauhaus painters. Paris drew artists from around the world between the wars and reached its peak population of 2.1 million in 1921. Germany became the Weimar Republic, Hitler’s Beer Hall Putsch failed in 1923, and the Great Depression began in 1929. Einstein left Nazi Germany for Princeton in 1933, and the Nazis condemned modern art as degenerate and promoted heroic realism.",
+   "src": [
+    [
+     "Wikipedia, Western painting",
+     "https://en.wikipedia.org/wiki/Western_painting"
+    ],
+    [
+     "Wikipedia, History of Paris",
+     "https://en.wikipedia.org/wiki/History_of_Paris"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ],
+    [
+     "Wikipedia, Albert Einstein",
+     "https://en.wikipedia.org/wiki/Albert_Einstein"
+    ]
+   ],
+   "vf": "S"
+  },
+  "surrealism": {
+   "owners": [
+    {
+     "n": "Museum of Modern Art, New York",
+     "what": "Dalí’s The Persistence of Memory, 1931, and de Chirico’s The Song of Love, 1914",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Los Angeles County Museum of Art",
+     "what": "Magritte’s The Treachery of Images, 1929",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Solomon R. Guggenheim Museum, New York",
+     "what": "Miró’s The Tilled Field, 1924",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Tate Modern, London",
+     "what": "André Masson’s Pedestal Table in the Studio, 1922",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Museo Nacional Centro de Arte Reina Sofía, Madrid",
+     "what": "Picasso’s Guernica, 1937",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    }
+   ],
+   "sync": "André Breton published the Surrealist Manifesto in 1924, drawing on Freud, whose Interpretation of Dreams had appeared in Vienna in 1899. The Great Depression began in 1929, Einstein left Nazi Germany for Princeton in 1933, and the Nazis condemned modern art as degenerate. Franco rebelled against the Spanish Republic in 1936, the year of the London International Surrealist Exhibition, and Picasso answered the war with Guernica. Freud fled Vienna for London in 1938, and the Second World War began in 1939.",
+   "src": [
+    [
+     "Wikipedia, Western painting",
+     "https://en.wikipedia.org/wiki/Western_painting"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ],
+    [
+     "Wikipedia, Sigmund Freud",
+     "https://en.wikipedia.org/wiki/Sigmund_Freud"
+    ],
+    [
+     "Wikipedia, Albert Einstein",
+     "https://en.wikipedia.org/wiki/Albert_Einstein"
+    ]
+   ],
+   "vf": "S"
+  },
+  "artdeco": {
+   "owners": [
+    {
+     "n": "Chrysler Building, New York",
+     "what": "the building itself, constructed in 1930, in situ",
+     "src": [
+      [
+       "Wikipedia, Timeline of New York City",
+       "https://en.wikipedia.org/wiki/Timeline_of_New_York_City"
+      ]
+     ]
+    },
+    {
+     "n": "Empire State Building, New York",
+     "what": "the building itself, built in 1931, in situ",
+     "src": [
+      [
+       "Wikipedia, Timeline of New York City",
+       "https://en.wikipedia.org/wiki/Timeline_of_New_York_City"
+      ]
+     ]
+    },
+    {
+     "n": "Rockefeller Center, New York",
+     "what": "the complex itself, built by 1939, in situ",
+     "src": [
+      [
+       "Wikipedia, Timeline of New York City",
+       "https://en.wikipedia.org/wiki/Timeline_of_New_York_City"
+      ]
+     ]
+    }
+   ],
+   "sync": "Paris was the capital of modern art between the wars and reached its peak population of 2.1 million in 1921. MoMA opened in New York in November 1929, as the Great Depression began. The Chrysler Building went up in 1930 and the Empire State Building in 1931. Fascism gained ground in Italy, Germany and Spain, Einstein left Nazi Germany in 1933, Franco rebelled against the Spanish Republic in 1936, and the Second World War began in 1939.",
+   "src": [
+    [
+     "Wikipedia, History of Paris",
+     "https://en.wikipedia.org/wiki/History_of_Paris"
+    ],
+    [
+     "Wikipedia, Timeline of New York City",
+     "https://en.wikipedia.org/wiki/Timeline_of_New_York_City"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ],
+    [
+     "Wikipedia, Albert Einstein",
+     "https://en.wikipedia.org/wiki/Albert_Einstein"
+    ]
+   ],
+   "vf": "S"
+  },
+  "mexicanmuralism": {
+   "owners": [],
+   "sync": "The Mexican Revolution of 1910–20 reached the capital: Villa and Zapata briefly held it, and Huerta’s coup of February 1913, the Decena Trágica, ousted Madero, who was killed. The Secretariat of Public Education made its headquarters in the city in 1921, the Palacio de Bellas Artes was inaugurated in 1934 and the Taller de Gráfica Popular founded in 1937. Trotsky was assassinated there on 21 August 1940, the university city was built in 1954, and the Tlatelolco massacre came on 2 October 1968.",
+   "src": [
+    [
+     "Wikipedia, History of Mexico City",
+     "https://en.wikipedia.org/wiki/History_of_Mexico_City"
+    ],
+    [
+     "Wikipedia, Timeline of Mexico City",
+     "https://en.wikipedia.org/wiki/Timeline_of_Mexico_City"
+    ]
+   ],
+   "vf": "S"
+  },
+  "harlemrenaissance": {
+   "owners": [],
+   "sync": "In the first Great Migration, from 1910 to 1940, about 1.6 million Black Americans left the rural South for the industrial North, drawn by wartime labour shortages and driven by Jim Crow laws and the boll weevil, and Caribbean immigrants also fed the Harlem Renaissance of the 1920s. The Armory Show brought modern art to New York in 1913, the First World War ended in 1918, MoMA opened in 1929 as the Depression began, and Jacob Lawrence’s Migration Series was shown at MoMA in 1941.",
+   "src": [
+    [
+     "Wikipedia, Great Migration (African American)",
+     "https://en.wikipedia.org/wiki/Great_Migration_(African_American)"
+    ],
+    [
+     "Wikipedia, Timeline of New York City",
+     "https://en.wikipedia.org/wiki/Timeline_of_New_York_City"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ]
+   ],
+   "vf": "S"
+  },
+  "abex": {
+   "owners": [
+    {
+     "n": "Museo Nacional Thyssen-Bornemisza, Madrid",
+     "what": "Pollock’s Brown and Silver I, 1951",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    },
+    {
+     "n": "Private collection of Steven A. Cohen",
+     "what": "de Kooning’s Woman III, 1953",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    }
+   ],
+   "sync": "The Second World War ended with the atomic bombs on Hiroshima and Nagasaki in 1945, the year the United Nations was founded. The Cold War began in 1947, Israel was created in 1948 and the People’s Republic of China in 1949, and Korea was at war from 1950 to 1953. Robert Coates coined ‘abstract expressionism’ in 1946, and the Irascibles boycotted the Metropolitan Museum’s exhibition American Painting Today – 1950.",
+   "src": [
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ],
+    [
+     "Wikipedia, Western painting",
+     "https://en.wikipedia.org/wiki/Western_painting"
+    ]
+   ],
+   "vf": "S"
+  },
+  "colorfield": {
+   "owners": [],
+   "sync": "Greenberg grouped Rothko, Newman and Still as Colour Field painters, and Louis and Noland formed the Washington Color School. The Korean War ran from 1950 to 1953 and the Soviet Union launched Sputnik in 1957. In 1959 the Guggenheim’s new building opened in New York and MoMA’s ‘16 Americans’ showed Stella’s stripes. The Cuban Missile Crisis brought the superpowers to the brink, and US Marines landed near Da Nang in March 1965.",
+   "src": [
+    [
+     "Wikipedia, Western painting",
+     "https://en.wikipedia.org/wiki/Western_painting"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ],
+    [
+     "Wikipedia, Timeline of New York City",
+     "https://en.wikipedia.org/wiki/Timeline_of_New_York_City"
+    ],
+    [
+     "Wikipedia, Vietnam War",
+     "https://en.wikipedia.org/wiki/Vietnam_War"
+    ]
+   ],
+   "vf": "S"
+  },
+  "gutai": {
+   "owners": [],
+   "sync": "The American raid of 9–10 March 1945 killed more than 100,000 people in Tokyo, and the US occupation under MacArthur lasted until 1952; the Tokyo War Crimes Tribunal opened in 1946. The Korean War ran from 1950 to 1953 and Sputnik flew in 1957. The economic miracle and the 1964 Olympics rebuilt the capital, and the Tōkaidō Shinkansen began service that year. Tokyo passed a pollution-control ordinance in 1969, and Zengakuren students marched over Okinawa in 1971.",
+   "src": [
+    [
+     "Wikipedia, History of Tokyo",
+     "https://en.wikipedia.org/wiki/History_of_Tokyo"
+    ],
+    [
+     "Wikipedia, Timeline of Tokyo",
+     "https://en.wikipedia.org/wiki/Timeline_of_Tokyo"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ]
+   ],
+   "vf": "S"
+  },
+  "cobra": {
+   "owners": [],
+   "sync": "Germany occupied Paris from 1940 to 1944, and the Fourth Republic followed in 1946. Camus published The Stranger in 1942 and The Plague in 1947, Sartre, Beauvoir and Merleau-Ponty founded Les Temps modernes in October 1945, and The Second Sex appeared in 1949. Dubuffet coined ‘art brut’ just after the war. The Cold War began in 1947, the People’s Republic of China was founded in 1949, and The Rebel of 1951 ended Camus’s friendship with Sartre.",
+   "src": [
+    [
+     "Wikipedia, History of Paris",
+     "https://en.wikipedia.org/wiki/History_of_Paris"
+    ],
+    [
+     "Wikipedia, Albert Camus",
+     "https://en.wikipedia.org/wiki/Albert_Camus"
+    ],
+    [
+     "Wikipedia, Simone de Beauvoir",
+     "https://en.wikipedia.org/wiki/Simone_de_Beauvoir"
+    ],
+    [
+     "Wikipedia, Western painting",
+     "https://en.wikipedia.org/wiki/Western_painting"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ]
+   ],
+   "vf": "S"
+  },
+  "pop": {
+   "owners": [
+    {
+     "n": "Museum of Modern Art, New York",
+     "what": "Lichtenstein’s Drowning Girl, 1963",
+     "src": [
+      [
+       "Wikipedia, Western painting",
+       "https://en.wikipedia.org/wiki/Western_painting"
+      ]
+     ]
+    }
+   ],
+   "sync": "Lawrence Alloway first used the term ‘Pop Art’ in 1956, and Warhol opened his first Factory in New York in 1962. The Soviet Union had launched Sputnik in 1957; the Cuban Missile Crisis brought the superpowers to the brink, and US Marines landed near Da Nang in March 1965. The Tet Offensive of January 1968 hurt American support for the war, Czechoslovakia had its Prague Spring that year, and Apollo 11 landed on the Moon in 1969.",
+   "src": [
+    [
+     "Wikipedia, Western painting",
+     "https://en.wikipedia.org/wiki/Western_painting"
+    ],
+    [
+     "Wikipedia, Timeline of New York City",
+     "https://en.wikipedia.org/wiki/Timeline_of_New_York_City"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ],
+    [
+     "Wikipedia, Vietnam War",
+     "https://en.wikipedia.org/wiki/Vietnam_War"
+    ]
+   ],
+   "vf": "S"
+  },
+  "minimalism": {
+   "owners": [],
+   "sync": "Stella’s stripe paintings appeared in MoMA’s ‘16 Americans’ in 1959, Judd wrote ‘Specific Objects’ in 1964, and Michael Fried attacked Robert Morris in ‘Art and Objecthood’ in 1967. US strength in Vietnam peaked at about 543,400 troops in April 1969, the year Apollo 11 landed on the Moon. National Guardsmen killed students at Kent State in May 1970, the Paris Peace Accords were signed in January 1973, and after the Yom Kippur War OPEC used an oil embargo.",
+   "src": [
+    [
+     "Wikipedia, Western painting",
+     "https://en.wikipedia.org/wiki/Western_painting"
+    ],
+    [
+     "Wikipedia, Vietnam War",
+     "https://en.wikipedia.org/wiki/Vietnam_War"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ]
+   ],
+   "vf": "S"
+  },
+  "conceptual": {
+   "owners": [],
+   "sync": "Warhol opened his first Factory in 1962. After the Gulf of Tonkin incident of August 1964 Congress passed its resolution, and US Marines landed near Da Nang in March 1965. The Tet Offensive of January 1968 hurt American support for the war, Czechoslovakia had its Prague Spring, and the Stonewall riot of 1969 helped start the modern gay rights movement in the year of Apollo 11. The Paris Peace Accords followed in 1973, and then OPEC’s oil embargo.",
+   "src": [
+    [
+     "Wikipedia, Timeline of New York City",
+     "https://en.wikipedia.org/wiki/Timeline_of_New_York_City"
+    ],
+    [
+     "Wikipedia, Vietnam War",
+     "https://en.wikipedia.org/wiki/Vietnam_War"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ]
+   ],
+   "vf": "S"
+  },
+  "arteprovera": {
+   "owners": [],
+   "sync": "The Tet Offensive of January 1968 hurt American support for the war in Vietnam, and Czechoslovakia had its Prague Spring the same year. US strength in Vietnam peaked at about 543,400 troops in April 1969, and Apollo 11 landed on the Moon that year. National Guardsmen killed students at Kent State in May 1970. The Paris Peace Accords were signed on 27 January 1973, and after the Yom Kippur War OPEC used an oil embargo that opened the energy crisis.",
+   "src": [
+    [
+     "Wikipedia, Vietnam War",
+     "https://en.wikipedia.org/wiki/Vietnam_War"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ]
+   ],
+   "vf": "S"
+  },
+  "monoha": {
+   "owners": [],
+   "sync": "Tokyo had rebuilt for the 1964 Olympics and the Tōkaidō Shinkansen. The high-rise Kasumigaseki Building was finished in 1968, and the city passed a pollution-control ordinance in 1969. Zengakuren students demonstrated in 1971 against the terms of Okinawa’s return, and the Nakagin Capsule Tower went up in 1972. Abroad the Tet Offensive of 1968, Apollo 11 in 1969, the Paris Peace Accords of January 1973 and OPEC’s oil embargo after the Yom Kippur War framed the years.",
+   "src": [
+    [
+     "Wikipedia, Timeline of Tokyo",
+     "https://en.wikipedia.org/wiki/Timeline_of_Tokyo"
+    ],
+    [
+     "Wikipedia, History of Tokyo",
+     "https://en.wikipedia.org/wiki/History_of_Tokyo"
+    ],
+    [
+     "Wikipedia, Vietnam War",
+     "https://en.wikipedia.org/wiki/Vietnam_War"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ]
+   ],
+   "vf": "S"
+  },
+  "dansaekhwa": {
+   "owners": [],
+   "sync": "Seoul changed hands four times in the Korean War of 1950–53 and was largely destroyed, and refugees swelled it to about 2.5 million. It annexed the towns around it in 1963, and the industrialisation of the 1960s and 1970s raised living standards sharply. By 1980 the city held 8,364,379 people, a high-rise building boom followed, and in 1988 Seoul hosted the Olympics and opened the Seoul Museum of Art. Abroad, OPEC’s oil embargo of 1973 and the fall of Saigon in 1975 marked the decade.",
+   "src": [
+    [
+     "Wikipedia, History of Seoul",
+     "https://en.wikipedia.org/wiki/History_of_Seoul"
+    ],
+    [
+     "Wikipedia, Timeline of Seoul",
+     "https://en.wikipedia.org/wiki/Timeline_of_Seoul"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ],
+    [
+     "Wikipedia, Vietnam War",
+     "https://en.wikipedia.org/wiki/Vietnam_War"
+    ]
+   ],
+   "vf": "S"
+  },
+  "photorealism": {
+   "owners": [],
+   "sync": "US forces left Vietnam by March 1973 and Saigon fell on 30 April 1975. After the Yom Kippur War of 1973 OPEC’s oil embargo opened the energy crisis. In New York the twin towers of the World Trade Center were completed on 4 April 1973, the Daily News ran ‘Ford to City: Drop Dead’ on 30 October 1975, Studio 54 opened in April 1977, and a blackout that July was followed by rioting and looting.",
+   "src": [
+    [
+     "Wikipedia, Vietnam War",
+     "https://en.wikipedia.org/wiki/Vietnam_War"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ],
+    [
+     "Wikipedia, Timeline of New York City",
+     "https://en.wikipedia.org/wiki/Timeline_of_New_York_City"
+    ]
+   ],
+   "vf": "S"
+  },
+  "neoexpressionism": {
+   "owners": [],
+   "sync": "Martial law was imposed in Poland in 1981, the year the CDC reported the first cases of what became AIDS; New York had the most American cases. Western painting counts Basquiat, Haring and Schnabel among the American neo-expressionists and Richter and Kiefer among the European ones. The Chernobyl reactor exploded in 1986, the Dia Center for the Arts opened in New York in 1987, and in 1989 revolutions freed Eastern and Central Europe while protesters filled Tiananmen Square.",
+   "src": [
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ],
+    [
+     "Wikipedia, History of HIV/AIDS",
+     "https://en.wikipedia.org/wiki/History_of_HIV/AIDS"
+    ],
+    [
+     "Wikipedia, Timeline of New York City",
+     "https://en.wikipedia.org/wiki/Timeline_of_New_York_City"
+    ],
+    [
+     "Wikipedia, Western painting",
+     "https://en.wikipedia.org/wiki/Western_painting"
+    ]
+   ],
+   "vf": "S"
+  },
+  "pictures": {
+   "owners": [],
+   "sync": "The work came after New York’s fiscal crisis of 1975, when the Daily News ran ‘Ford to City: Drop Dead’, and the blackout of July 1977 with its rioting and looting. The CDC reported the first AIDS cases in June 1981, and New York had the most American cases. Martial law came to Poland in 1981, the Chernobyl reactor exploded in 1986, the Dia Center for the Arts opened in 1987, and the revolutions of 1989 freed Eastern and Central Europe.",
+   "src": [
+    [
+     "Wikipedia, Timeline of New York City",
+     "https://en.wikipedia.org/wiki/Timeline_of_New_York_City"
+    ],
+    [
+     "Wikipedia, History of HIV/AIDS",
+     "https://en.wikipedia.org/wiki/History_of_HIV/AIDS"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ]
+   ],
+   "vf": "S"
+  },
+  "yba": {
+   "owners": [],
+   "sync": "The revolutions of 1989 freed Eastern and Central Europe, Germany reunited in 1990 and the Soviet Union dissolved in 1991; the Rwandan genocide followed in 1994, and Japan sank into its Lost Decades. In London Tate Modern opened in the former Bankside Power Station in May 2000, with the London Eye and the swaying Millennium Bridge, and in 2011 it showed Damien Hirst’s For the Love of God. Four suicide bombers killed 56 people on London’s transport on 7 July 2005.",
+   "src": [
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ],
+    [
+     "Wikipedia, History of Tokyo",
+     "https://en.wikipedia.org/wiki/History_of_Tokyo"
+    ],
+    [
+     "Wikipedia, Timeline of London (21st century)",
+     "https://en.wikipedia.org/wiki/Timeline_of_London_(21st_century)"
+    ],
+    [
+     "Wikipedia, Tate Modern",
+     "https://en.wikipedia.org/wiki/Tate_Modern"
+    ]
+   ],
+   "vf": "S"
+  },
+  "chinesecontemporary": {
+   "owners": [],
+   "sync": "Protesters filled Tiananmen Square in Beijing in 1989, the year revolutions freed Eastern Europe, and the Soviet Union dissolved in 1991. Lehman Brothers went bankrupt on 15 September 2008 and the financial crisis followed. Ai Weiwei filled the Turbine Hall of Tate Modern with Sunflower Seeds from October 2010 to April 2011. COVID-19, identified in Wuhan in December 2019, was declared a pandemic on 11 March 2020, and the WHO estimates 14.9 million excess deaths in 2020–21.",
+   "src": [
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ],
+    [
+     "Wikipedia, Timeline of New York City",
+     "https://en.wikipedia.org/wiki/Timeline_of_New_York_City"
+    ],
+    [
+     "Wikipedia, Tate Modern",
+     "https://en.wikipedia.org/wiki/Tate_Modern"
+    ],
+    [
+     "Wikipedia, COVID-19 pandemic",
+     "https://en.wikipedia.org/wiki/COVID-19_pandemic"
+    ],
+    [
+     "WHO, 14.9 million excess deaths associated with the COVID-19 pandemic in 2020 and 2021 (5 May 2022)",
+     "https://www.who.int/news/item/05-05-2022-14.9-million-excess-deaths-were-associated-with-the-COVID-19-pandemic-in-2020-and-2021"
+    ]
+   ],
+   "vf": "S"
+  },
+  "indianmodern": {
+   "owners": [],
+   "sync": "Pakistan became a dominion on 14 August 1947 and India on 15 August. The Radcliffe Line, revealed on 17 August, displaced an estimated 12 to 20 million people, and most scholars accept about a million dead, above all in Punjab and Bengal. New Delhi, the capital Lutyens inaugurated in 1931, became the capital of India in 1947 and hosted the Asian Games in 1951 and 1982. The Cold War ran from 1947 until the Soviet Union dissolved in 1991.",
+   "src": [
+    [
+     "Wikipedia, Partition of India",
+     "https://en.wikipedia.org/wiki/Partition_of_India"
+    ],
+    [
+     "Wikipedia, Timeline of Delhi",
+     "https://en.wikipedia.org/wiki/Timeline_of_Delhi"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ]
+   ],
+   "vf": "S"
+  },
+  "africanmodern": {
+   "owners": [],
+   "sync": "Lagos opened an Art Exhibition Centre and museum in 1943 and founded the Nigerian National Museum in 1957, and most colonised African and Asian countries won independence in the second half of the century. The University of Lagos opened in 1962. FESTAC ’77, the Second World African Festival of Arts and Culture, was held in Lagos in 1977, the federal government moved to Abuja in 1991, and El Anatsui filled the Turbine Hall of Tate Modern in 2023–24.",
+   "src": [
+    [
+     "Wikipedia, Timeline of Lagos",
+     "https://en.wikipedia.org/wiki/Timeline_of_Lagos"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ],
+    [
+     "Wikipedia, Tate Modern",
+     "https://en.wikipedia.org/wiki/Tate_Modern"
+    ]
+   ],
+   "vf": "S"
+  },
+  "streetart": {
+   "owners": [],
+   "sync": "New York’s fiscal crisis peaked when the Daily News ran ‘Ford to City: Drop Dead’ on 30 October 1975, and the blackout of July 1977 brought rioting and looting that devastated Bushwick. The first AIDS reports came in 1981, the twin towers fell on 11 September 2001, Lehman Brothers failed on 15 September 2008 and Occupy Wall Street began on 17 September 2011. In August 2024 Banksy’s ninth and final animal in a London series appeared on the gates of London Zoo.",
+   "src": [
+    [
+     "Wikipedia, Timeline of New York City",
+     "https://en.wikipedia.org/wiki/Timeline_of_New_York_City"
+    ],
+    [
+     "Wikipedia, Timeline of London (21st century)",
+     "https://en.wikipedia.org/wiki/Timeline_of_London_(21st_century)"
+    ]
+   ],
+   "vf": "S"
+  },
+  "digital": {
+   "owners": [],
+   "sync": "Turing described his universal machine in 1936, designed the Automatic Computing Engine in 1945–46 and proposed the imitation game, the Turing test. Apollo 11 reached the Moon in 1969 and the Soviet Union dissolved in 1991. Lehman Brothers failed in September 2008. COVID-19 was declared a pandemic on 11 March 2020 and London went into lockdown on 23 March; Russia invaded Ukraine on 24 February 2022, and UNHCR recorded about 7.8 million Ukrainian refugees in Europe that November.",
+   "src": [
+    [
+     "Wikipedia, Alan Turing",
+     "https://en.wikipedia.org/wiki/Alan_Turing"
+    ],
+    [
+     "Wikipedia, 20th century",
+     "https://en.wikipedia.org/wiki/20th_century"
+    ],
+    [
+     "Wikipedia, Timeline of New York City",
+     "https://en.wikipedia.org/wiki/Timeline_of_New_York_City"
+    ],
+    [
+     "Wikipedia, COVID-19 pandemic",
+     "https://en.wikipedia.org/wiki/COVID-19_pandemic"
+    ],
+    [
+     "Wikipedia, Timeline of London (21st century)",
+     "https://en.wikipedia.org/wiki/Timeline_of_London_(21st_century)"
+    ],
+    [
+     "Wikipedia, Ukrainian refugee crisis",
+     "https://en.wikipedia.org/wiki/Ukrainian_refugee_crisis"
+    ]
+   ],
+   "vf": "S"
+  },
+  "ultracontemporary": {
+   "owners": [],
+   "sync": "COVID-19, identified in Wuhan in December 2019, was declared a pandemic on 11 March 2020; the WHO estimates 14.9 million excess deaths in 2020–21, and the Tokyo Olympics of 2020 were held in 2021. Russia launched its full-scale invasion of Ukraine on 24 February 2022, and by September 2025 UNHCR counted 5.7 million Ukrainian refugees worldwide, about 90% of them in Europe. Queen Elizabeth II died on 8 September 2022, and Banksy’s last London animal appeared at the zoo in August 2024.",
+   "src": [
+    [
+     "Wikipedia, COVID-19 pandemic",
+     "https://en.wikipedia.org/wiki/COVID-19_pandemic"
+    ],
+    [
+     "WHO, 14.9 million excess deaths associated with the COVID-19 pandemic in 2020 and 2021 (5 May 2022)",
+     "https://www.who.int/news/item/05-05-2022-14.9-million-excess-deaths-were-associated-with-the-COVID-19-pandemic-in-2020-and-2021"
+    ],
+    [
+     "Wikipedia, Timeline of Tokyo",
+     "https://en.wikipedia.org/wiki/Timeline_of_Tokyo"
+    ],
+    [
+     "Wikipedia, Ukrainian refugee crisis",
+     "https://en.wikipedia.org/wiki/Ukrainian_refugee_crisis"
+    ],
+    [
+     "Wikipedia, Timeline of London (21st century)",
+     "https://en.wikipedia.org/wiki/Timeline_of_London_(21st_century)"
+    ]
+   ],
+   "vf": "S"
+  },
+  "superflat": {
+   "owners": [],
+   "sync": "Japan sank into the economic stagnation of its Lost Decades in the 1990s. Tokyo’s metropolitan government moved to a new building in Shinjuku in 1991, and the Tokyo subway sarin attack came on 20 March 1995. The Tokyo International Anime Fair began in 2002. The Great East Japan earthquake and tsunami of 11 March 2011 crippled the Fukushima nuclear plant, and the 2020 Olympics, postponed by COVID-19, were held in Tokyo in 2021.",
+   "src": [
+    [
+     "Wikipedia, History of Tokyo",
+     "https://en.wikipedia.org/wiki/History_of_Tokyo"
+    ],
+    [
+     "Wikipedia, Timeline of Tokyo",
+     "https://en.wikipedia.org/wiki/Timeline_of_Tokyo"
+    ]
+   ],
+   "vf": "S"
+  }
+ },
+ "unconfirmed": [
+  {
+   "id": "movement:peredvizhniki",
+   "why": "owners: 1 of the 3–5 collections sourced. The collections named in src/data_movements.js — Repin’s Barge Haulers on the Volga (Russian Museum), Surikov’s Boyarynya Morozova and Shishkin and Savitsky’s Morning in a Pine Forest (Tretyakov) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:prerapha",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — Millais’s Ophelia and Rossetti’s Proserpine (Tate Britain), Holman Hunt’s The Light of the World (Keble College, Oxford) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:ukiyoe",
+   "why": "owners: 2 of the 3–5 collections sourced. The collections named in src/data_movements.js — Hokusai’s Great Wave and Hiroshige’s Sudden Shower over Shin-Ōhashi (impressions at the Met, the British Museum and the Brooklyn Museum) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:chineseink",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — Zhao Mengfu’s Autumn Colours and Huang Gongwang’s Dwelling in the Fuchun Mountains (National Palace Museum, Taipei; Zhejiang Provincial Museum), Dong Qichang’s The Qingbian Mountains (Cleveland) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:academic",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — Cabanel’s The Birth of Venus (Orsay), Bouguereau’s Nymphs and Satyr (Clark Art Institute), Leighton’s Flaming June (Museo de Arte de Ponce) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:artsandcrafts",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — Morris’s Strawberry Thief (V&A), Horta’s Hôtel Tassel and Guimard’s Métro entrances (in situ) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:miriskusstva",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — Somov’s The Lady in Blue (Tretyakov), Bakst’s Diaghilev with His Nanny and Serov’s Ida Rubinstein (Russian Museum) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:futurism",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — Boccioni’s Unique Forms of Continuity in Space and Severini’s Dynamic Hieroglyphic of the Bal Tabarin (MoMA), Balla’s Dynamism of a Dog on a Leash (Buffalo AKG) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:russianavantgarde",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — Malevich’s Black Square (Tretyakov), White on White and Rodchenko’s Spatial Construction no. 12 (MoMA) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:destijl",
+   "why": "owners: 1 of the 3–5 collections sourced. The collections named in src/data_movements.js — Mondrian’s Composition with Red, Blue and Yellow (Kunsthaus Zürich) and Broadway Boogie Woogie (MoMA) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:mexicanmuralism",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — Rivera’s Detroit Industry Murals (Detroit Institute of Arts), Kahlo’s The Two Fridas (Museo de Arte Moderno), Tarsila’s Abaporu (MALBA) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:harlemrenaissance",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — Douglas’s Aspects of Negro Life (Schomburg Center), Savage’s Gamin (Smithsonian American Art Museum), Lawrence’s Migration Series (Phillips Collection and MoMA) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:abex",
+   "why": "owners: 2 of the 3–5 collections sourced. The collections named in src/data_movements.js — Pollock’s Autumn Rhythm (the Met) and de Kooning’s Woman I (MoMA) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:colorfield",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — Newman’s Vir Heroicus Sublimis (MoMA), Frankenthaler’s Mountains and Sea (on loan to the National Gallery of Art), the Rothko Chapel, Houston — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:gutai",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — Tanaka’s Electric Dress (Takamatsu City Museum of Art) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:cobra",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — Appel’s Questioning Children and Jorn’s Letter to My Son (Tate), Dubuffet’s Le Métafisyx (Centre Pompidou) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:pop",
+   "why": "owners: 1 of the 3–5 collections sourced. The collections named in src/data_movements.js — Warhol’s Campbell’s Soup Cans (MoMA), Lichtenstein’s Whaam! (Tate), Hamilton’s Just what is it… (Kunsthalle Tübingen) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:minimalism",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — Judd’s Untitled (Stack) (MoMA), Flavin’s the nominal three (Guggenheim), Andre’s Equivalent VIII (Tate) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:conceptual",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — Kosuth’s One and Three Chairs (MoMA) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:arteprovera",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — Pistoletto’s Venus of the Rags (Tate), Merz’s Igloo di Giap (Centre Pompidou) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:monoha",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — Lee Ufan’s Relatum series (Lee Ufan Museum, Naoshima) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:dansaekhwa",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — the Ecriture, Conjunction and Umber-Blue series (National Museum of Modern and Contemporary Art, Korea) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:photorealism",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — Close’s Big Self-Portrait (Walker Art Center), Estes’s Telephone Booths (Thyssen-Bornemisza), Flack’s Marilyn (Vanitas) (University of Arizona Museum of Art) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:neoexpressionism",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — Basquiat’s Untitled (Skull) (The Broad) and Kiefer’s Margarethe (SFMOMA) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:pictures",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — Sherman’s Untitled Film Stills (MoMA), Prince’s Untitled (Cowboy) (the Met), Kruger’s Your body is a battleground (The Broad) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:yba",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — Emin’s My Bed (on long-term loan to Tate) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:chinesecontemporary",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — Ai Weiwei’s Sunflower Seeds (Tate) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:indianmodern",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — Souza’s Crucifixion (Tate) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:africanmodern",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — El-Salahi’s Reborn Sounds of Childhood Dreams I (Tate), El Anatsui’s Gravity and Grace (Brooklyn Museum) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:streetart",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — Fairey’s Hope portrait (National Portrait Gallery, Washington), Haring’s Crack Is Wack (in situ) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:digital",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — CryptoPunks examples (LACMA and the Centre Pompidou) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:ultracontemporary",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — Fadojutimi’s Jesture (Tate) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  },
+  {
+   "id": "movement:superflat",
+   "why": "owners: 0 of the 3–5 collections sourced. The collections named in src/data_movements.js — Kusama’s Infinity Mirrored Room – The Souls of Millions of Light Years Away (The Broad), Murakami’s 727 (MoMA) — could not be checked: the museum pages and the Wikipedia pages for these works were not on this session’s fetch allowlist and the shared web-search budget was spent, so they are left out rather than cited unread. The sync paragraph is sourced."
+  }
+ ]
+}

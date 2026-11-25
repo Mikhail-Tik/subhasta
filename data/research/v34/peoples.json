@@ -1,0 +1,4513 @@
+{
+ "asof": "2026-11-24",
+ "status": "done — agent B: 39 migrations; 27 epidemics (routes paced by year, tolls with their ranges); world population 10000 BC–2024 (HYDE 2010 to 1900, UN WPP 2024 from 1950) and the WPP 2024 medium-variant projection by decade for the world, with the six regions at 2025, 2050 and 2100 only (see unconfirmed)",
+ "migrations": [
+  {
+   "id": "out-of-africa",
+   "n": "Out of Africa",
+   "from": -70000,
+   "to": -50000,
+   "kind": "migration",
+   "tier": 1,
+   "ll": [
+    -12.5,
+    133.0
+   ],
+   "route": [
+    [
+     9.0,
+     40.0
+    ],
+    [
+     13.0,
+     43.5
+    ],
+    [
+     20.0,
+     57.0
+    ],
+    [
+     15.0,
+     78.0
+    ],
+    [
+     -7.0,
+     110.0
+    ],
+    [
+     -12.5,
+     133.0
+    ]
+   ],
+   "when": [
+    -70000,
+    -65000,
+    -62000,
+    -58000,
+    -53000,
+    -50000
+   ],
+   "who": "Homo sapiens from East Africa",
+   "genes": "The lasting dispersal of roughly 70,000–50,000 years ago left Africa with a small group, possibly fewer than 1,000 people, carrying mitochondrial haplogroup L3; every population outside sub-Saharan Africa carries 1–4% Neanderthal ancestry from mixing on the way (Wikipedia, Early human migrations; Reich 2018).",
+   "t": "Modern humans had left Africa before, as early as 125,000 years ago, but those groups left no trace in living people. The dispersal that lasted set out from East Africa roughly 70,000–50,000 years ago, crossed to Arabia, followed the coasts to South Asia before 55,000 years ago and reached Oceania by about 50,000 years ago.",
+   "src": [
+    [
+     "Wikipedia, Early human migrations",
+     "https://en.wikipedia.org/wiki/Early_human_migrations"
+    ],
+    [
+     "Wikipedia, Who We Are and How We Got Here (David Reich, 2018)",
+     "https://en.wikipedia.org/wiki/Who_We_Are_and_How_We_Got_Here"
+    ]
+   ],
+   "vf": "S",
+   "c": -70000,
+   "n_people": "possibly fewer than 1,000 people in the founding group (Wikipedia, Early human migrations)",
+   "fig": "1–4% Neanderthal ancestry in every non-African"
+  },
+  {
+   "id": "sahul",
+   "n": "The peopling of Sahul",
+   "from": -65000,
+   "to": -40000,
+   "kind": "migration",
+   "tier": 2,
+   "ll": [
+    -42.0,
+    146.5
+   ],
+   "route": [
+    [
+     -7.0,
+     110.0
+    ],
+    [
+     -8.5,
+     125.0
+    ],
+    [
+     -12.5,
+     133.0
+    ],
+    [
+     -23.0,
+     134.0
+    ],
+    [
+     -33.7,
+     143.1
+    ],
+    [
+     -42.0,
+     146.5
+    ]
+   ],
+   "when": [
+    -65000,
+    -62000,
+    -60000,
+    -50000,
+    -45000,
+    -40000
+   ],
+   "who": "the first Australians, from Sunda across Wallacea",
+   "genes": "Aboriginal Australians and Melanesians carry Denisovan ancestry that mainland Asians largely lack, a trace of mixing on the road through island South-East Asia (Wikipedia, Early human migrations).",
+   "t": "People crossed the straits of Wallacea into Sahul, the joined landmass of New Guinea and Australia, around 65,000–50,000 years ago; the oldest settlement evidence is given as 50,000–60,000 years and the oldest human remains as about 40,000 years. It was the first ocean crossing of our species.",
+   "src": [
+    [
+     "Wikipedia, Early human migrations",
+     "https://en.wikipedia.org/wiki/Early_human_migrations"
+    ]
+   ],
+   "vf": "S",
+   "c": -65000,
+   "fig": "65,000–50,000 years ago"
+  },
+  {
+   "id": "sapiens-europe",
+   "n": "Modern humans into Europe",
+   "from": -45000,
+   "to": -38000,
+   "kind": "migration",
+   "tier": 2,
+   "ll": [
+    50.5,
+    -3.5
+   ],
+   "route": [
+    [
+     32.0,
+     35.0
+    ],
+    [
+     43.0,
+     25.5
+    ],
+    [
+     40.1,
+     18.0
+    ],
+    [
+     48.3,
+     15.4
+    ],
+    [
+     45.0,
+     1.0
+    ],
+    [
+     50.5,
+     -3.5
+    ]
+   ],
+   "when": [
+    -45000,
+    -44000,
+    -43000,
+    -42000,
+    -40000,
+    -38000
+   ],
+   "who": "Upper Palaeolithic Homo sapiens, the Aurignacians",
+   "genes": "The last Neanderthal gene flow into the ancestors of Europeans is dated to 47,000–65,000 years ago; Europeans today carry about 1–4% Neanderthal ancestry (Wikipedia, Early human migrations).",
+   "t": "Modern humans spread across Europe about 40,000 years ago, certainly after 40,000 and possibly as early as 43,000 years ago, entering from the Levant through the Balkans and the Danube corridor. The Neanderthals vanished within a few thousand years of their arrival.",
+   "src": [
+    [
+     "Wikipedia, Early human migrations",
+     "https://en.wikipedia.org/wiki/Early_human_migrations"
+    ]
+   ],
+   "vf": "S",
+   "c": -45000,
+   "fig": "about 43,000–40,000 years ago"
+  },
+  {
+   "id": "peopling-americas",
+   "n": "The peopling of the Americas",
+   "from": -25000,
+   "to": -12500,
+   "kind": "migration",
+   "tier": 1,
+   "ll": [
+    -41.5,
+    -73.2
+   ],
+   "route": [
+    [
+     69.0,
+     135.0
+    ],
+    [
+     65.0,
+     -170.0
+    ],
+    [
+     60.0,
+     -150.0
+    ],
+    [
+     49.0,
+     -125.0
+    ],
+    [
+     42.0,
+     -120.0
+    ],
+    [
+     19.4,
+     -99.1
+    ],
+    [
+     -41.5,
+     -73.2
+    ]
+   ],
+   "when": [
+    -30000,
+    -25000,
+    -16000,
+    -15500,
+    -14500,
+    -14500,
+    -14500
+   ],
+   "who": "Palaeo-Indians from Beringia",
+   "genes": "Native Americans descend from one Beringian population that split from Siberians about 36,000 years ago and was isolated by about 25,000 years ago, formed from about 65% East Asian and 35% Ancient North Eurasian ancestry (Wikipedia, Peopling of the Americas, citing Moreno-Mayar et al. 2018).",
+   "t": "Beringia stood dry from about 30,000 years ago, and people lived on it through the glacial maximum. The Americas were occupied no later than 14,000 years ago and possibly before 20,000; Monte Verde in Chile is dated about 14,500 years, the Clovis points to 13,250–12,800 years, and footprints at White Sands may be 21,000–23,000 years old. The ice-free corridor opened only about 13,800 years ago, so the first road was probably the Pacific coast.",
+   "src": [
+    [
+     "Wikipedia, Peopling of the Americas",
+     "https://en.wikipedia.org/wiki/Peopling_of_the_Americas"
+    ],
+    [
+     "Wikipedia, Who We Are and How We Got Here (David Reich, 2018)",
+     "https://en.wikipedia.org/wiki/Who_We_Are_and_How_We_Got_Here"
+    ]
+   ],
+   "vf": "S",
+   "c": -25000,
+   "fig": "Monte Verde, about 14,500 years ago"
+  },
+  {
+   "id": "anatolian-farmers",
+   "n": "Anatolian farmers into Europe",
+   "from": -7000,
+   "to": -4000,
+   "kind": "migration",
+   "tier": 1,
+   "ll": [
+    51.0,
+    -1.8
+   ],
+   "route": [
+    [
+     37.7,
+     32.8
+    ],
+    [
+     39.6,
+     22.4
+    ],
+    [
+     45.0,
+     20.0
+    ],
+    [
+     48.5,
+     16.5
+    ],
+    [
+     49.0,
+     4.0
+    ],
+    [
+     51.0,
+     -1.8
+    ]
+   ],
+   "when": [
+    -7000,
+    -6500,
+    -6000,
+    -5500,
+    -5000,
+    -4000
+   ],
+   "who": "Early European Farmers, from Anatolia",
+   "genes": "The farmers’ arrival in the Balkans replaced about 98% of the hunter-gatherer gene pool; British Neolithic farmers were about 80% Anatolian-derived and 20% hunter-gatherer, and the farmer share in living Europeans runs from about 65% in Sardinia to 10% in northern Scandinavia (Wikipedia, Early European Farmers; Lazaridis et al. 2016; Haak et al. 2015).",
+   "t": "Farming came to Europe with people, not only with ideas: from about 7000 BC Anatolian farmers moved through south-eastern Europe, up the Danube with the Linear Pottery culture and along the Mediterranean with Cardial Ware, and reached Britain by a mass migration about 4000 BC. Hadrian’s Wall, raised in AD 122, cut across an island whose people had shared this migration for four thousand years; ancient DNA finds Britain’s real genetic frontier a thousand years older than the Wall, in Bronze Age migrants who raised farmer ancestry in England and Wales between 1000 and 875 BC but barely in Scotland (Patterson et al. 2021).",
+   "src": [
+    [
+     "Wikipedia, Early European Farmers",
+     "https://en.wikipedia.org/wiki/Early_European_Farmers"
+    ],
+    [
+     "Lazaridis et al. 2016, Genomic insights into the origin of farming in the ancient Near East, Nature 536:419–424 (Huddersfield repository)",
+     "https://pure.hud.ac.uk/en/publications/genomic-insights-into-the-origin-of-farming-in-the-ancient-near-e/"
+    ],
+    [
+     "Haak et al. 2015, Massive migration from the steppe was a source for Indo-European languages in Europe, Nature 522:207–211 (PubMed abstract)",
+     "https://pubmed.ncbi.nlm.nih.gov/25731166/"
+    ],
+    [
+     "Patterson et al. 2021, Large-scale migration into Britain during the Middle to Late Bronze Age, Nature (Reich laboratory PDF)",
+     "https://reich.hms.harvard.edu/sites/reich.hms.harvard.edu/files/inline-files/Patterson_BritainMigration_Nature_MainManuscript_2021_0.pdf"
+    ]
+   ],
+   "vf": "S",
+   "c": -7000,
+   "fig": "about 98% replacement in the Balkans"
+  },
+  {
+   "id": "yamnaya",
+   "n": "The Yamnaya and the Indo-Europeans",
+   "from": -3300,
+   "to": -2450,
+   "kind": "migration",
+   "tier": 1,
+   "ll": [
+    51.2,
+    -1.8
+   ],
+   "route": [
+    [
+     48.5,
+     42.0
+    ],
+    [
+     48.0,
+     35.0
+    ],
+    [
+     47.0,
+     20.0
+    ],
+    [
+     51.5,
+     12.0
+    ],
+    [
+     56.0,
+     9.5
+    ],
+    [
+     51.2,
+     -1.8
+    ]
+   ],
+   "when": [
+    -3300,
+    -3100,
+    -3000,
+    -2800,
+    -2700,
+    -2450
+   ],
+   "who": "Yamnaya herders of the Pontic–Caspian steppe",
+   "genes": "The Corded Ware people of Germany traced about 75% of their ancestry to the Yamnaya, in a study of 69 ancient Europeans, and the steppe ancestry persisted in all sampled central Europeans until at least 3,000 years ago (Haak et al. 2015); in living Europeans the Yamnaya share is about 47% in Russians, 43% in Ukrainians and 50% in Finns, but only 2–7% in Sardinians (Wikipedia, Yamnaya culture).",
+   "t": "Herders with wagons and horses spread from the Don–Volga steppe about 3400–3200 BC. Around 2500 BC their descendants reached central Europe as the Corded Ware culture, the Altai as the Afanasievo culture and, with the Bell Beaker complex, Britain. The migration is the leading explanation for the spread of the Indo-European languages.",
+   "src": [
+    [
+     "Wikipedia, Yamnaya culture",
+     "https://en.wikipedia.org/wiki/Pit-grave_culture"
+    ],
+    [
+     "Haak et al. 2015, Massive migration from the steppe was a source for Indo-European languages in Europe, Nature 522:207–211 (PubMed abstract)",
+     "https://pubmed.ncbi.nlm.nih.gov/25731166/"
+    ],
+    [
+     "Olalde et al. 2018, The Beaker phenomenon and the genomic transformation of northwest Europe, Nature 555:190–196 (White Rose repository)",
+     "https://eprints.whiterose.ac.uk/id/eprint/129642/"
+    ],
+    [
+     "Wikipedia, Who We Are and How We Got Here (David Reich, 2018)",
+     "https://en.wikipedia.org/wiki/Who_We_Are_and_How_We_Got_Here"
+    ]
+   ],
+   "vf": "S",
+   "c": -3300,
+   "fig": "about 75% of Corded Ware ancestry"
+  },
+  {
+   "id": "beaker-britain",
+   "n": "The Beaker people in Britain",
+   "from": -2500,
+   "to": -2000,
+   "kind": "migration",
+   "tier": 2,
+   "ll": [
+    57.1,
+    -2.1
+   ],
+   "route": [
+    [
+     52.0,
+     5.0
+    ],
+    [
+     51.3,
+     1.1
+    ],
+    [
+     51.5,
+     -1.9
+    ],
+    [
+     53.3,
+     -6.3
+    ],
+    [
+     57.1,
+     -2.1
+    ]
+   ],
+   "when": [
+    -2500,
+    -2450,
+    -2400,
+    -2300,
+    -2200
+   ],
+   "who": "Bell Beaker migrants from the Lower Rhine",
+   "genes": "In a study of 400 ancient Europeans, the spread of the Beaker complex into Britain brought high levels of steppe-related ancestry and replaced about 90% of the island’s gene pool within a few hundred years, while in Iberia it spread with little migration (Olalde et al. 2018).",
+   "t": "The people who had raised Stonehenge were almost wholly replaced: between about 2400 and 2000 BC over 90% of British ancestry was overturned by newcomers from the Continent carrying steppe ancestry. The Beaker pots travelled as a fashion in Iberia but as a people in Britain.",
+   "src": [
+    [
+     "Olalde et al. 2018, The Beaker phenomenon and the genomic transformation of northwest Europe, Nature 555:190–196 (White Rose repository)",
+     "https://eprints.whiterose.ac.uk/id/eprint/129642/"
+    ],
+    [
+     "Wikipedia, Celts",
+     "https://en.wikipedia.org/wiki/Celts"
+    ]
+   ],
+   "vf": "S",
+   "c": -2500,
+   "fig": "about 90% of the gene pool replaced"
+  },
+  {
+   "id": "indo-aryans",
+   "n": "The Indo-Aryans into India",
+   "from": -2000,
+   "to": -1200,
+   "kind": "migration",
+   "tier": 2,
+   "ll": [
+    26.0,
+    80.0
+   ],
+   "route": [
+    [
+     53.0,
+     60.0
+    ],
+    [
+     48.0,
+     68.0
+    ],
+    [
+     37.5,
+     62.0
+    ],
+    [
+     34.0,
+     69.0
+    ],
+    [
+     31.5,
+     73.0
+    ],
+    [
+     26.0,
+     80.0
+    ]
+   ],
+   "when": [
+    -2000,
+    -1800,
+    -1700,
+    -1600,
+    -1500,
+    -1200
+   ],
+   "who": "Indo-Aryan speakers from the steppe, via Sintashta, Andronovo and the BMAC",
+   "genes": "After the decline of the Indus cities, male-biased steppe ancestry appears in the north-west and sets up the two ancestry clines of India (Narasimhan et al. 2019); the ‘Ancestral North Indians’ mix early farmers of western Iran with Bronze Age steppe people (Lazaridis et al. 2016).",
+   "t": "From the Sintashta (c. 2200–1900 BC) and Andronovo (2000–1450 BC) cultures of the steppe, Indo-Aryan speakers moved south through the Bactria–Margiana oasis towns and in several waves into the Punjab, about 1900 and 1700–1400 BC. The Rigveda, their earliest text, is placed about 1500–1200 BC.",
+   "src": [
+    [
+     "Wikipedia, Indo-Aryan migrations",
+     "https://en.wikipedia.org/wiki/Indo-Aryan_migrations"
+    ],
+    [
+     "Lazaridis et al. 2016, Genomic insights into the origin of farming in the ancient Near East, Nature 536:419–424 (Huddersfield repository)",
+     "https://pure.hud.ac.uk/en/publications/genomic-insights-into-the-origin-of-farming-in-the-ancient-near-e/"
+    ],
+    [
+     "Wikipedia, Who We Are and How We Got Here (David Reich, 2018)",
+     "https://en.wikipedia.org/wiki/Who_We_Are_and_How_We_Got_Here"
+    ]
+   ],
+   "vf": "S",
+   "c": -2000,
+   "fig": "the Rigveda, c. 1500–1200 BC"
+  },
+  {
+   "id": "bantu",
+   "n": "The Bantu expansion",
+   "from": -3000,
+   "to": 500,
+   "kind": "migration",
+   "tier": 1,
+   "ll": [
+    -23.5,
+    29.5
+   ],
+   "route": [
+    [
+     6.5,
+     10.0
+    ],
+    [
+     1.0,
+     11.5
+    ],
+    [
+     -4.0,
+     15.0
+    ],
+    [
+     -1.0,
+     32.0
+    ],
+    [
+     -6.8,
+     39.3
+    ],
+    [
+     -15.4,
+     28.3
+    ],
+    [
+     -29.0,
+     31.0
+    ],
+    [
+     -23.5,
+     29.5
+    ]
+   ],
+   "when": [
+    -3000,
+    -1500,
+    -500,
+    -500,
+    100,
+    200,
+    300,
+    500
+   ],
+   "who": "Bantu-speaking farmers from the Nigeria–Cameroon highlands",
+   "genes": "A study of 1,487 Bantu speakers from 143 populations dates the expansion to about 4,000 years ago in western Africa and finds significant gene flow from local groups wherever Bantu speakers settled (Fortes-Lima et al. 2023, Nature, cited by Wikipedia).",
+   "t": "Between about 4000 BC and AD 500 Bantu-speaking farmers spread from the Cameroon–Nigeria highlands across a third of Africa. The western stream reached the southern edge of the rainforest about 500 BC; the eastern stream stood west of Lake Victoria by 500 BC, on the Kenyan and Tanzanian coast by 100 BC–AD 300, in KwaZulu-Natal by about AD 300 and in Limpopo by about AD 500.",
+   "src": [
+    [
+     "Wikipedia, Bantu expansion",
+     "https://en.wikipedia.org/wiki/Bantu_expansion"
+    ]
+   ],
+   "vf": "S",
+   "c": -3000,
+   "fig": "about a third of Africa in 4,000 years"
+  },
+  {
+   "id": "sea-peoples",
+   "n": "The Sea Peoples",
+   "from": -1200,
+   "to": -1175,
+   "kind": "migration",
+   "tier": 2,
+   "ll": [
+    31.0,
+    31.5
+   ],
+   "route": [
+    [
+     37.0,
+     25.0
+    ],
+    [
+     35.0,
+     33.5
+    ],
+    [
+     35.6,
+     35.8
+    ],
+    [
+     34.5,
+     36.0
+    ],
+    [
+     31.67,
+     34.57
+    ],
+    [
+     31.0,
+     31.5
+    ]
+   ],
+   "when": [
+    -1200,
+    -1190,
+    -1185,
+    -1180,
+    -1177,
+    -1175
+   ],
+   "who": "Peleset, Sherden, Shekelesh, Lukka and other seaborne and landborne peoples",
+   "genes": "Ancient DNA from Ashkelon suggests that immigrants from Europe settled there at the start of the Iron Age and quickly intermarried with the local population (Feldman et al. 2019, cited by Wikipedia).",
+   "t": "Around 1200 BC bands of migrants and raiders, most of them moving by land with their families, broke over the eastern Mediterranean: Hatti, Ugarit, Ascalon and Hazor were destroyed and Cyprus was cut off. Merneptah fought them in his fifth year; Ramesses III ambushed their fleet at the mouths of the Nile in his eighth year, about 1175 BC. The Peleset settled the coast as the Philistines.",
+   "src": [
+    [
+     "Wikipedia, Sea Peoples",
+     "https://en.wikipedia.org/wiki/Sea_Peoples"
+    ]
+   ],
+   "vf": "S",
+   "c": -1200,
+   "fig": "Ramesses III’s year 8, c. 1175 BC"
+  },
+  {
+   "id": "greek-colonisation",
+   "n": "Greek colonisation",
+   "from": -800,
+   "to": -540,
+   "kind": "migration",
+   "tier": 2,
+   "ll": [
+    42.13,
+    3.12
+   ],
+   "route": [
+    [
+     38.46,
+     23.6
+    ],
+    [
+     40.73,
+     13.9
+    ],
+    [
+     37.08,
+     15.29
+    ],
+    [
+     32.82,
+     21.86
+    ],
+    [
+     43.3,
+     5.37
+    ],
+    [
+     42.13,
+     3.12
+    ]
+   ],
+   "when": [
+    -800,
+    -800,
+    -734,
+    -631,
+    -598,
+    -540
+   ],
+   "who": "Greek colonists from Euboea, Corinth, Miletus, Phocaea and Thera",
+   "genes": "No ancient DNA figure is stated for the colonies in the source read; the scale is counted in cities, not genomes.",
+   "t": "From about 800 BC Greek cities planted colonies in two waves, in the early eighth and in the sixth century BC: Pithecusae about 800, Syracuse and Naxos about 734, Sinope 756, Cyrene 632/31, Massalia about 598, Emporion in the early sixth century. Miletus alone founded more than 60 colonies, and more than thirty cities had several.",
+   "src": [
+    [
+     "Wikipedia, Colonies in antiquity",
+     "https://en.wikipedia.org/wiki/Colonies_in_antiquity"
+    ]
+   ],
+   "vf": "S",
+   "c": -800,
+   "fig": "more than 60 colonies from Miletus alone"
+  },
+  {
+   "id": "phoenicians",
+   "n": "Phoenician colonisation",
+   "from": -850,
+   "to": -700,
+   "kind": "migration",
+   "tier": 2,
+   "ll": [
+    36.53,
+    -6.29
+   ],
+   "route": [
+    [
+     33.27,
+     35.2
+    ],
+    [
+     34.92,
+     33.63
+    ],
+    [
+     36.85,
+     10.32
+    ],
+    [
+     37.87,
+     12.47
+    ],
+    [
+     36.53,
+     -6.29
+    ]
+   ],
+   "when": [
+    -850,
+    -830,
+    -814,
+    -780,
+    -750
+   ],
+   "who": "Phoenicians of Tyre",
+   "genes": "No ancient DNA figure is stated for the colonies in the source read.",
+   "t": "Settlers from Tyre founded Carthage in 814–813 BC, a date that radiocarbon puts at 835–800 BC; Gadir, Motya and the other western stations followed the silver and tin routes to Iberia. The Phoenician trading-posts became the Carthaginian empire.",
+   "src": [
+    [
+     "Wikipedia, Colonies in antiquity",
+     "https://en.wikipedia.org/wiki/Colonies_in_antiquity"
+    ]
+   ],
+   "vf": "S",
+   "c": -900,
+   "fig": "Carthage, 814–813 BC"
+  },
+  {
+   "id": "celts",
+   "n": "The Celtic expansion",
+   "from": -800,
+   "to": -278,
+   "kind": "migration",
+   "tier": 2,
+   "ll": [
+    39.9,
+    32.85
+   ],
+   "route": [
+    [
+     47.56,
+     13.65
+    ],
+    [
+     47.0,
+     7.0
+    ],
+    [
+     45.4,
+     10.0
+    ],
+    [
+     41.9,
+     12.5
+    ],
+    [
+     44.8,
+     20.47
+    ],
+    [
+     39.9,
+     32.85
+    ]
+   ],
+   "when": [
+    -800,
+    -450,
+    -391,
+    -390,
+    -300,
+    -278
+   ],
+   "who": "Celtic-speaking peoples of the Hallstatt and La Tène cultures",
+   "genes": "A migration into southern Britain between 1300 and 800 BC, from people genetically most like those of ancient France, raised farmer ancestry in England and Wales and offers a plausible road for the Celtic languages (Patterson et al. 2021, 793 genomes).",
+   "t": "From the Hallstatt lands north of the Alps (c. 800–500 BC) and the La Tène culture (from about 450 BC) Celtic peoples spread into Gaul, Iberia, Britain and Ireland. In 391 BC Celts seized the Po valley; the Senones sacked Rome in 390 BC; the Scordisci took Singidunum in the third century and other bands crossed into Anatolia as the Galatians.",
+   "src": [
+    [
+     "Wikipedia, Celts",
+     "https://en.wikipedia.org/wiki/Celts"
+    ],
+    [
+     "Patterson et al. 2021, Large-scale migration into Britain during the Middle to Late Bronze Age, Nature (Reich laboratory PDF)",
+     "https://reich.hms.harvard.edu/sites/reich.hms.harvard.edu/files/inline-files/Patterson_BritainMigration_Nature_MainManuscript_2021_0.pdf"
+    ]
+   ],
+   "vf": "S",
+   "c": -800,
+   "fig": "Rome sacked, 390 BC"
+  },
+  {
+   "id": "goths",
+   "n": "The Goths and the Migration Period",
+   "from": 250,
+   "to": 460,
+   "kind": "migration",
+   "tier": 1,
+   "ll": [
+    39.86,
+    -4.02
+   ],
+   "route": [
+    [
+     54.0,
+     19.0
+    ],
+    [
+     47.0,
+     32.0
+    ],
+    [
+     44.0,
+     27.0
+    ],
+    [
+     41.68,
+     26.56
+    ],
+    [
+     41.9,
+     12.5
+    ],
+    [
+     43.6,
+     1.44
+    ],
+    [
+     39.86,
+     -4.02
+    ]
+   ],
+   "when": [
+    250,
+    300,
+    376,
+    378,
+    410,
+    418,
+    460
+   ],
+   "who": "Goths, Vandals, Alans, Suebi, Burgundians, Franks and Lombards",
+   "genes": "The Migration Period page read gives no ancient DNA figure; its estimates are demographic, 500,000 to more than 1,000,000 people moving into Roman territory.",
+   "t": "Fleeing the Huns, the Tervingi crossed the Danube in 376 and destroyed a Roman army at Adrianople in 378; Alaric’s Visigoths sacked Rome in 410, settled in Gaul and founded a kingdom in Iberia about 460. The Rhine crossing of 406, Theodoric’s Ostrogoths in Italy in 489 and the Lombards in 568 closed the age; Odoacer deposed the last western emperor in 476.",
+   "src": [
+    [
+     "Wikipedia, Migration Period",
+     "https://en.wikipedia.org/wiki/Migration_Period"
+    ]
+   ],
+   "vf": "S",
+   "c": 200,
+   "n_people": "90,000–200,000 Goths at the Danube in 376; up to 200,000 in the Rhine crossing of 406; 100,000–200,000 Ostrogoths in 489; about 150,000 Lombards in 568; 500,000 to over 1,000,000 in all (Wikipedia, Migration Period)",
+   "fig": "500,000 to over 1,000,000 people"
+  },
+  {
+   "id": "vandals",
+   "n": "The Vandals to Africa",
+   "from": 405,
+   "to": 455,
+   "kind": "migration",
+   "tier": 2,
+   "ll": [
+    41.9,
+    12.5
+   ],
+   "route": [
+    [
+     50.0,
+     8.0
+    ],
+    [
+     48.86,
+     2.35
+    ],
+    [
+     40.4,
+     -3.7
+    ],
+    [
+     37.4,
+     -6.0
+    ],
+    [
+     35.9,
+     -5.3
+    ],
+    [
+     36.85,
+     10.32
+    ],
+    [
+     41.9,
+     12.5
+    ]
+   ],
+   "when": [
+    405,
+    407,
+    409,
+    420,
+    429,
+    439,
+    455
+   ],
+   "who": "Vandals and Alans under Gaiseric",
+   "genes": "No ancient DNA figure is stated in the source read; Procopius gives the number who crossed to Africa as 80,000.",
+   "t": "The Vandals crossed the Rhine on 31 December 405, the Pyrenees on 13 October 409, and under Gaiseric the strait to Africa in 429. They took Carthage on 19 October 439 and sacked Rome in 455; the kingdom ended with Gelimer’s surrender in 534.",
+   "src": [
+    [
+     "Wikipedia, Vandals",
+     "https://en.wikipedia.org/wiki/Vandals"
+    ]
+   ],
+   "vf": "S",
+   "c": 400,
+   "n_people": "80,000 Vandals and Alans crossed to Africa, according to Procopius (Wikipedia, Vandals)",
+   "fig": "80,000 crossed to Africa in 429"
+  },
+  {
+   "id": "huns",
+   "n": "The Huns",
+   "from": 370,
+   "to": 454,
+   "kind": "migration",
+   "tier": 2,
+   "ll": [
+    46.0,
+    19.0
+   ],
+   "route": [
+    [
+     48.0,
+     46.0
+    ],
+    [
+     47.0,
+     40.0
+    ],
+    [
+     47.0,
+     29.0
+    ],
+    [
+     47.0,
+     20.0
+    ],
+    [
+     48.5,
+     4.0
+    ],
+    [
+     45.77,
+     13.37
+    ],
+    [
+     46.0,
+     19.0
+    ]
+   ],
+   "when": [
+    370,
+    375,
+    376,
+    420,
+    451,
+    452,
+    454
+   ],
+   "who": "Huns from the steppe east of the Volga",
+   "genes": "Nine Hun-era genomes from the Carpathian Basin range from European to north-east Asian, and the Asian ones are closest to Mongolian groups such as the Xiongnu and Xianbei (Maróti et al. 2022, cited by Wikipedia).",
+   "t": "The Huns reached the Volga by 370 and in the 370s conquered the Alans and most of the Goths, who fled across the Danube. By the 420s they held the Hungarian plain; Attila invaded Gaul in 451 and Italy in 452 and died in 453. Their empire broke at the Nedao about 454.",
+   "src": [
+    [
+     "Wikipedia, Huns",
+     "https://en.wikipedia.org/wiki/Huns"
+    ],
+    [
+     "Wikipedia, Migration Period",
+     "https://en.wikipedia.org/wiki/Migration_Period"
+    ]
+   ],
+   "vf": "S",
+   "c": 300,
+   "fig": "Attila in Gaul, 451"
+  },
+  {
+   "id": "anglo-saxons",
+   "n": "The Anglo-Saxons into Britain",
+   "from": 410,
+   "to": 600,
+   "kind": "migration",
+   "tier": 2,
+   "ll": [
+    53.96,
+    -1.08
+   ],
+   "route": [
+    [
+     54.6,
+     9.5
+    ],
+    [
+     53.2,
+     5.8
+    ],
+    [
+     51.3,
+     1.1
+    ],
+    [
+     52.5,
+     1.0
+    ],
+    [
+     51.4,
+     -1.3
+    ],
+    [
+     53.96,
+     -1.08
+    ]
+   ],
+   "when": [
+    410,
+    430,
+    450,
+    470,
+    500,
+    600
+   ],
+   "who": "Angles, Saxons, Jutes and Frisians",
+   "genes": "In a study of 460 ancient genomes, 25–47% of present-day English ancestry traces to early medieval arrivals from continental northern Europe, rising to as much as 76% in early medieval eastern England, with intermarriage with the Britons (Gretzinger et al. 2022, Nature, cited by Wikipedia); the living genetic map puts the Anglo-Saxon share at 10–40% in eastern, central and southern England (Leslie et al. 2015).",
+   "t": "Germanic soldiers served in Britain in the fourth century; larger numbers came in the early fifth, after the end of Roman rule in 411, from Old Saxony, Jutland, Angeln and Frisia. Estimates of the migrants run from 20,000 to 200,000 into a population of perhaps one to four million.",
+   "src": [
+    [
+     "Wikipedia, Anglo-Saxon settlement of Britain",
+     "https://en.wikipedia.org/wiki/Anglo-Saxon_settlement"
+    ],
+    [
+     "Wellcome, the first fine-scale genetic map of the British Isles (Leslie et al. 2015, Nature)",
+     "https://wellcome.org/press-release/who-do-you-think-you-really-are-first-fine-scale-genetic-map-british-isles"
+    ]
+   ],
+   "vf": "S",
+   "c": 400,
+   "n_people": "20,000 to 200,000 migrants (Wikipedia, Anglo-Saxon settlement of Britain)",
+   "fig": "up to 76% continental ancestry in eastern England"
+  },
+  {
+   "id": "slavs",
+   "n": "The Slavic migrations",
+   "from": 450,
+   "to": 620,
+   "kind": "migration",
+   "tier": 1,
+   "ll": [
+    37.5,
+    22.5
+   ],
+   "route": [
+    [
+     51.5,
+     28.0
+    ],
+    [
+     49.5,
+     24.0
+    ],
+    [
+     45.0,
+     28.0
+    ],
+    [
+     50.1,
+     14.4
+    ],
+    [
+     46.6,
+     14.3
+    ],
+    [
+     40.64,
+     22.94
+    ],
+    [
+     37.5,
+     22.5
+    ]
+   ],
+   "when": [
+    450,
+    500,
+    540,
+    560,
+    590,
+    600,
+    620
+   ],
+   "who": "Sclaveni and Antes from the Dnieper and Pripet lands",
+   "genes": "A study of 555 ancient genomes, 359 of them from the Slavic period, finds a large-scale movement of people from eastern Europe in the sixth to eighth centuries that replaced more than 80% of the local gene pool in eastern Germany, Poland and Croatia (Gretzinger et al. 2025, Nature, cited by Wikipedia).",
+   "t": "The Slavs appear in Byzantine records in the early sixth century; Procopius (545) and Jordanes (551) describe them on the Danube. Between 500 and 700 they settled between the Oder and the Elbe, Bohemia and Pannonia, the eastern Alps and the Balkans down to the Peloponnese, and spread north along the upper Dnieper. Their homeland is best placed in southern Belarus and northern Ukraine.",
+   "src": [
+    [
+     "Wikipedia, Early Slavs (Slavic migrations)",
+     "https://en.wikipedia.org/wiki/Slavic_migrations"
+    ],
+    [
+     "Wikipedia, Migration Period",
+     "https://en.wikipedia.org/wiki/Migration_Period"
+    ]
+   ],
+   "vf": "S",
+   "c": 400,
+   "fig": "more than 80% of the gene pool replaced in Poland"
+  },
+  {
+   "id": "norse-atlantic",
+   "n": "The Norse across the Atlantic",
+   "from": 793,
+   "to": 1021,
+   "kind": "migration",
+   "tier": 1,
+   "ll": [
+    51.6,
+    -55.5
+   ],
+   "route": [
+    [
+     60.4,
+     5.3
+    ],
+    [
+     55.67,
+     -1.8
+    ],
+    [
+     59.0,
+     -3.0
+    ],
+    [
+     53.35,
+     -6.26
+    ],
+    [
+     64.15,
+     -21.94
+    ],
+    [
+     61.0,
+     -45.5
+    ],
+    [
+     51.6,
+     -55.5
+    ]
+   ],
+   "when": [
+    790,
+    793,
+    800,
+    840,
+    870,
+    986,
+    1021
+   ],
+   "who": "Norse Vikings from Norway and Denmark",
+   "genes": "Icelanders’ paternal lines are 75–80% Scandinavian but their maternal lines only 37%, the rest mostly Scottish and Irish (Wikipedia, Viking expansion); Orkney, the most distinct population of Britain, draws about 25% of its ancestry from Norway (Leslie et al. 2015).",
+   "t": "The raid on Lindisfarne on 8 June 793 opened the Viking age. The Norse built the first longphorts in Ireland in 840, settled Iceland from about 870 and Greenland from 986, where the population may have reached about 5,000; the timber of L’Anse aux Meadows was felled in 1021. The Great Heathen Army landed in 865, the Danelaw was founded in 876 and Normandy was granted to Rollo in 911.",
+   "src": [
+    [
+     "Wikipedia, Viking expansion",
+     "https://en.wikipedia.org/wiki/Viking_expansion"
+    ],
+    [
+     "Wellcome, the first fine-scale genetic map of the British Isles (Leslie et al. 2015, Nature)",
+     "https://wellcome.org/press-release/who-do-you-think-you-really-are-first-fine-scale-genetic-map-british-isles"
+    ]
+   ],
+   "vf": "S",
+   "c": 700,
+   "fig": "Lindisfarne, 8 June 793",
+   "replaces": "iceland-874"
+  },
+  {
+   "id": "varangians",
+   "n": "The Varangians to the east",
+   "from": 800,
+   "to": 943,
+   "kind": "migration",
+   "tier": 2,
+   "ll": [
+    44.0,
+    50.0
+   ],
+   "route": [
+    [
+     59.3,
+     17.5
+    ],
+    [
+     60.0,
+     32.3
+    ],
+    [
+     58.52,
+     31.27
+    ],
+    [
+     50.45,
+     30.52
+    ],
+    [
+     41.01,
+     28.98
+    ],
+    [
+     44.0,
+     50.0
+    ]
+   ],
+   "when": [
+    800,
+    850,
+    862,
+    882,
+    907,
+    943
+   ],
+   "who": "Swedish Vikings, the Rus’",
+   "genes": "No ancient DNA figure is stated in the source read for the eastern route.",
+   "t": "Swedish Vikings rowed the rivers of Russia to trade and settle: Rurik’s dynasty controlled Kiev and the road to the Black Sea, Constantinople took their goods and their swords, and Rus’ fleets raided the Caspian in 910, 912 and 943.",
+   "src": [
+    [
+     "Wikipedia, Viking expansion",
+     "https://en.wikipedia.org/wiki/Viking_expansion"
+    ]
+   ],
+   "vf": "S",
+   "c": 800,
+   "fig": "Caspian raids, 910–943"
+  },
+  {
+   "id": "magyars",
+   "n": "The Magyar conquest",
+   "from": 862,
+   "to": 907,
+   "kind": "migration",
+   "tier": 2,
+   "ll": [
+    48.15,
+    17.1
+   ],
+   "route": [
+    [
+     47.5,
+     31.0
+    ],
+    [
+     48.8,
+     23.1
+    ],
+    [
+     46.8,
+     23.6
+    ],
+    [
+     47.2,
+     20.2
+    ],
+    [
+     47.5,
+     18.0
+    ],
+    [
+     48.15,
+     17.1
+    ]
+   ],
+   "when": [
+    862,
+    895,
+    895,
+    896,
+    900,
+    907
+   ],
+   "who": "Magyars under Árpád, from Etelköz",
+   "genes": "No ancient DNA figure is stated in the part of the source read.",
+   "t": "A joint attack by the Pechenegs and Bulgarians in 894 or 895 drove the Hungarians out of the Pontic steppe, their base at Etelköz; they crossed the north-eastern passes of the Carpathians in 895, took Transdanubia in 900, annihilated Moravia between 902 and 906 and destroyed an East Frankish army at Pressburg in 907.",
+   "src": [
+    [
+     "Wikipedia, Hungarian conquest of the Carpathian Basin",
+     "https://en.wikipedia.org/wiki/Hungarian_conquest_of_the_Carpathian_Basin"
+    ]
+   ],
+   "vf": "S",
+   "c": 800,
+   "fig": "Pressburg, 907"
+  },
+  {
+   "id": "turks",
+   "n": "The Turkic migrations",
+   "from": 552,
+   "to": 1326,
+   "kind": "migration",
+   "tier": 2,
+   "ll": [
+    40.18,
+    29.06
+   ],
+   "route": [
+    [
+     47.0,
+     103.0
+    ],
+    [
+     44.0,
+     65.0
+    ],
+    [
+     40.0,
+     66.0
+    ],
+    [
+     36.3,
+     59.6
+    ],
+    [
+     39.15,
+     42.5
+    ],
+    [
+     37.87,
+     32.48
+    ],
+    [
+     40.18,
+     29.06
+    ]
+   ],
+   "when": [
+    552,
+    744,
+    965,
+    1040,
+    1071,
+    1100,
+    1326
+   ],
+   "who": "Göktürks, Oghuz, Pechenegs, Kipchaks and Seljuks",
+   "genes": "Genetic work places the Turkic homeland near southern Siberia and Mongolia (Yunusbayev et al. 2015), and the Turkification of Eurasia is argued to be a matter of language diffusion rather than the migration of one people (Lee and Kuang, cited by Wikipedia).",
+   "t": "Bumin broke the Rouran and founded the Göktürk khaganate in 551–552. The fall of the second khaganate in 744 set the Oghuz moving west; the Pechenegs reached the Pontic steppe in the late ninth century and the Cumans displaced the Kimeks in the eleventh. The Seljuks invaded Anatolia from the eleventh century, and the land became Turkish.",
+   "src": [
+    [
+     "Wikipedia, Turkic migration",
+     "https://en.wikipedia.org/wiki/Turkic_migration"
+    ]
+   ],
+   "vf": "S",
+   "c": 500,
+   "fig": "the Göktürk khaganate, 552"
+  },
+  {
+   "id": "mongols",
+   "n": "The Mongol conquests",
+   "from": 1206,
+   "to": 1260,
+   "kind": "migration",
+   "tier": 1,
+   "ll": [
+    32.55,
+    35.35
+   ],
+   "route": [
+    [
+     47.2,
+     102.8
+    ],
+    [
+     39.9,
+     116.4
+    ],
+    [
+     39.65,
+     66.97
+    ],
+    [
+     47.2,
+     37.5
+    ],
+    [
+     54.6,
+     39.7
+    ],
+    [
+     50.45,
+     30.52
+    ],
+    [
+     51.2,
+     16.16
+    ],
+    [
+     47.95,
+     20.9
+    ],
+    [
+     33.3,
+     44.4
+    ],
+    [
+     32.55,
+     35.35
+    ]
+   ],
+   "when": [
+    1206,
+    1215,
+    1220,
+    1223,
+    1237,
+    1240,
+    1241,
+    1241,
+    1258,
+    1260
+   ],
+   "who": "Mongols and the Turkic peoples of the steppe under Genghis Khan and his heirs",
+   "genes": "The armies that reached Europe were mostly Turkic: some historians put the steppe Turkic troops at 70–80% of the force (Wikipedia, Mongol invasion of Europe).",
+   "t": "Temüjin was proclaimed Genghis Khan in 1206; Zhongdu fell in 1215, Bukhara and Samarkand in 1220, Ryazan in December 1237 and Kiev on 6 December 1240. Legnica and Mohi were fought two days apart in April 1241, Baghdad was sacked in 1258 and the advance was stopped at Ain Jalut in 1260. Up to half of Hungary’s roughly two million people died in the invasion.",
+   "src": [
+    [
+     "Wikipedia, Timeline of the Mongol Empire",
+     "https://en.wikipedia.org/wiki/Timeline_of_the_Mongol_Empire"
+    ],
+    [
+     "Wikipedia, Mongol invasion of Europe",
+     "https://en.wikipedia.org/wiki/Mongol_invasion_of_Europe"
+    ]
+   ],
+   "vf": "S",
+   "c": 1200,
+   "fig": "up to half of Hungary’s two million dead"
+  },
+  {
+   "id": "thule",
+   "n": "The Thule into the Arctic",
+   "from": 1000,
+   "to": 1300,
+   "kind": "migration",
+   "tier": 2,
+   "ll": [
+    64.2,
+    -51.7
+   ],
+   "route": [
+    [
+     71.3,
+     -156.8
+    ],
+    [
+     69.0,
+     -135.0
+    ],
+    [
+     70.0,
+     -105.0
+    ],
+    [
+     67.0,
+     -70.0
+    ],
+    [
+     76.5,
+     -68.8
+    ],
+    [
+     64.2,
+     -51.7
+    ]
+   ],
+   "when": [
+    1000,
+    1050,
+    1100,
+    1200,
+    1250,
+    1300
+   ],
+   "who": "Thule, the ancestors of the Inuit",
+   "genes": "The Thule descend from the Birnirk culture of north-west Alaska, stayed genetically distinct from the Dorset people they displaced, and show no mixing with the Greenland Norse (Raghavan et al. 2014, Science, cited by Wikipedia).",
+   "t": "The Thule culture formed on the Alaskan coast by AD 1000 and spread east across the Canadian Arctic with dog sleds, umiaks and whaling, reaching Greenland by the thirteenth century; the Dorset were gone by about 1300. They met the Norse, who called them Skrælingjar.",
+   "src": [
+    [
+     "Wikipedia, Thule people",
+     "https://en.wikipedia.org/wiki/Thule_people"
+    ]
+   ],
+   "vf": "S",
+   "c": 1000,
+   "fig": "Greenland by the 13th century"
+  },
+  {
+   "id": "polynesians-aotearoa",
+   "n": "Polynesians to Aotearoa",
+   "from": 1250,
+   "to": 1350,
+   "kind": "migration",
+   "tier": 2,
+   "ll": [
+    -41.5,
+    174.1
+   ],
+   "route": [
+    [
+     -16.8,
+     -151.4
+    ],
+    [
+     -21.2,
+     -159.8
+    ],
+    [
+     -29.3,
+     -177.9
+    ],
+    [
+     -37.7,
+     176.2
+    ],
+    [
+     -41.5,
+     174.1
+    ]
+   ],
+   "when": [
+    1250,
+    1260,
+    1270,
+    1275,
+    1300
+   ],
+   "who": "East Polynesian voyagers from Hawaiki, probably Ra‘iātea",
+   "genes": "Mitochondrial DNA puts the founding women at between 50 and 100, and the Māori–Polynesian gene pool at 79% East Asian and 21% Melanesian (Kayser et al. 2008, cited by Wikipedia).",
+   "t": "The last great landmass to be settled: radiocarbon dates from over 500 sites place the first Māori settlement of the North Island between AD 1250 and 1275, and the main settlement perhaps between 1320 and 1350 as a coordinated migration in large waka. Within two centuries the moa were gone.",
+   "src": [
+    [
+     "Wikipedia, Māori history",
+     "https://en.wikipedia.org/wiki/M%C4%81ori_history"
+    ],
+    [
+     "Wikipedia, Austronesian peoples",
+     "https://en.wikipedia.org/wiki/Austronesian_peoples"
+    ]
+   ],
+   "vf": "S",
+   "c": 1200,
+   "fig": "founded by 50–100 women"
+  },
+  {
+   "id": "austronesians",
+   "n": "The Austronesian expansion",
+   "from": -3000,
+   "to": 1000,
+   "kind": "migration",
+   "tier": 1,
+   "ll": [
+    -27.1,
+    -109.3
+   ],
+   "route": [
+    [
+     23.5,
+     121.0
+    ],
+    [
+     18.0,
+     121.5
+    ],
+    [
+     -2.0,
+     120.0
+    ],
+    [
+     -4.5,
+     152.0
+    ],
+    [
+     -17.8,
+     177.5
+    ],
+    [
+     -13.8,
+     -171.8
+    ],
+    [
+     -17.5,
+     -149.5
+    ],
+    [
+     -9.0,
+     -139.5
+    ],
+    [
+     20.8,
+     -156.3
+    ],
+    [
+     -27.1,
+     -109.3
+    ]
+   ],
+   "when": [
+    -3000,
+    -2200,
+    -1500,
+    -1200,
+    -900,
+    -800,
+    700,
+    800,
+    900,
+    1000
+   ],
+   "who": "Austronesian speakers out of Taiwan",
+   "genes": "Whole-genome studies find aboriginal Taiwanese ancestry in every island South-East Asian population, as the out-of-Taiwan model predicts; Remote Oceania Polynesians are about 70–80% Austronesian and 20–30% Papuan (Wikipedia, Austronesian peoples, citing Lipson 2014 and Jinam 2017; Reich 2018).",
+   "t": "Around 3000–1500 BC farmers with outrigger canoes and sails left Taiwan for Luzon, then the Philippines, Borneo, Sulawesi and the Marianas by 1500 BC. The Lapita people carried the expansion to Melanesia by 1200 BC and to Fiji, Tonga and Samoa about 900–800 BC; after a long pause their descendants reached Tahiti by 700, Hawai‘i by 900, Rapa Nui by 1000 and New Zealand about 1250. It was the widest dispersal of any people before the modern age.",
+   "src": [
+    [
+     "Wikipedia, Austronesian peoples",
+     "https://en.wikipedia.org/wiki/Austronesian_peoples"
+    ],
+    [
+     "Wikipedia, Who We Are and How We Got Here (David Reich, 2018)",
+     "https://en.wikipedia.org/wiki/Who_We_Are_and_How_We_Got_Here"
+    ]
+   ],
+   "vf": "S",
+   "c": -3000,
+   "fig": "half the globe, Taiwan to Rapa Nui"
+  },
+  {
+   "id": "madagascar",
+   "n": "Austronesians to Madagascar",
+   "from": 500,
+   "to": 700,
+   "kind": "migration",
+   "tier": 2,
+   "ll": [
+    -18.9,
+    47.5
+   ],
+   "route": [
+    [
+     0.0,
+     114.0
+    ],
+    [
+     -1.0,
+     102.0
+    ],
+    [
+     -4.2,
+     73.5
+    ],
+    [
+     -18.9,
+     47.5
+    ]
+   ],
+   "when": [
+    500,
+    530,
+    600,
+    700
+   ],
+   "who": "Austronesian settlers from Borneo",
+   "genes": "The settlers came either directly from South-East Asia or through mixed Austronesian–Bantu populations of East Africa, and Bantu peoples added ancestry later (Wikipedia, Austronesian peoples).",
+   "t": "Between the fifth and seventh centuries Austronesian voyagers from the Borneo region crossed the whole Indian Ocean to settle Madagascar, 7,000 km from home. Malagasy is still a language of the Barito family of Borneo.",
+   "src": [
+    [
+     "Wikipedia, Austronesian peoples",
+     "https://en.wikipedia.org/wiki/Austronesian_peoples"
+    ]
+   ],
+   "vf": "S",
+   "c": 500,
+   "fig": "7,000 km across the Indian Ocean"
+  },
+  {
+   "id": "atlantic-slave-trade",
+   "n": "The Atlantic slave trade",
+   "from": 1514,
+   "to": 1866,
+   "kind": "migration",
+   "tier": 1,
+   "ll": [
+    23.13,
+    -82.38
+   ],
+   "route": [
+    [
+     5.08,
+     -1.35
+    ],
+    [
+     6.37,
+     2.08
+    ],
+    [
+     -8.84,
+     13.23
+    ],
+    [
+     -12.97,
+     -38.5
+    ],
+    [
+     17.97,
+     -76.79
+    ],
+    [
+     32.78,
+     -79.93
+    ],
+    [
+     23.13,
+     -82.38
+    ]
+   ],
+   "when": [
+    1514,
+    1600,
+    1650,
+    1700,
+    1750,
+    1800,
+    1850
+   ],
+   "who": "enslaved Africans carried to the Americas",
+   "genes": "The database counts 12,520,000 captives who departed Africa for the Americas between 1514 and 1866 and 10.7 million who disembarked; the voyages themselves, more than 36,000 of them, are the demographic record (Slave Voyages, Estimates).",
+   "t": "Twelve and a half million captives departed Africa for the Americas between 1514 and 1866, and 10.7 million disembarked; the Trans-Atlantic database documents more than 36,000 voyages, about two-thirds of all that sailed. The largest forced migration in history, it peopled Brazil and the Caribbean and the plantations of the American South.",
+   "src": [
+    [
+     "Slave Voyages, Methodology of the Trans-Atlantic database (the Estimates page figures)",
+     "https://legacy.slavevoyages.org/blog/methodology-trans-atlantic"
+    ]
+   ],
+   "vf": "V",
+   "c": 1500,
+   "n_people": "12,520,000 embarked, 10.7 million disembarked, 1514–1866 (Slave Voyages)",
+   "fig": "12.5 million embarked"
+  },
+  {
+   "id": "irish-famine",
+   "n": "The Irish famine emigration",
+   "from": 1845,
+   "to": 1855,
+   "kind": "migration",
+   "tier": 2,
+   "ll": [
+    40.71,
+    -74.01
+   ],
+   "route": [
+    [
+     51.85,
+     -8.3
+    ],
+    [
+     53.41,
+     -2.99
+    ],
+    [
+     47.03,
+     -70.67
+    ],
+    [
+     42.36,
+     -71.06
+    ],
+    [
+     40.71,
+     -74.01
+    ]
+   ],
+   "when": [
+    1846,
+    1847,
+    1847,
+    1848,
+    1850
+   ],
+   "who": "the Irish poor, by coffin ship to Liverpool, Quebec, Boston and New York",
+   "genes": "No DNA figure; the demography is in the census, from 8,175,124 people in 1841 to 6,552,385 in 1851 (Wikipedia, Great Famine).",
+   "t": "Potato blight from 1845 to 1852 killed about one million people and sent over one million more abroad during the famine; at least 2.1 million left Ireland between 1845 and 1855. Of the more than 100,000 who sailed to Canada in 1847 about one in five died, over 5,000 of them at Grosse Île. Ireland’s population fell by 20–25% and kept falling for a century.",
+   "src": [
+    [
+     "Wikipedia, Great Famine (Ireland)",
+     "https://en.wikipedia.org/wiki/Great_Famine_(Ireland)"
+    ]
+   ],
+   "vf": "S",
+   "c": 1800,
+   "n_people": "over one million emigrated during the famine; at least 2.1 million left 1845–1855; about one million died (Wikipedia, Great Famine)",
+   "fig": "one million dead, one million gone"
+  },
+  {
+   "id": "european-mass-migration",
+   "n": "The great European emigration",
+   "from": 1815,
+   "to": 1930,
+   "kind": "migration",
+   "tier": 1,
+   "ll": [
+    -23.96,
+    -46.33
+   ],
+   "route": [
+    [
+     40.85,
+     14.27
+    ],
+    [
+     53.55,
+     9.99
+    ],
+    [
+     53.41,
+     -2.99
+    ],
+    [
+     40.7,
+     -74.04
+    ],
+    [
+     -34.6,
+     -58.38
+    ],
+    [
+     -23.96,
+     -46.33
+    ]
+   ],
+   "when": [
+    1880,
+    1890,
+    1895,
+    1900,
+    1910,
+    1913
+   ],
+   "who": "Europeans to the Americas and Australia",
+   "genes": "No DNA figure; the demography is in the ports: about 60 million Europeans emigrated between 1815 and 1930, 71% to Northern America, 21% to Latin America and 7% to Australia (Wikipedia, European immigration to the Americas).",
+   "t": "About 60 million Europeans left for the Americas and Australia between 1815 and 1930. The United States took 32,244,000 arrivals between 1821 and 1932, Argentina 6,405,000, Canada 5,206,000 and Brazil 4,431,000; 13 million people left Italy between 1880 and 1915 alone, the largest documented voluntary emigration in history.",
+   "src": [
+    [
+     "Wikipedia, European immigration to the Americas",
+     "https://en.wikipedia.org/wiki/European_immigration_to_the_Americas"
+    ],
+    [
+     "Wikipedia, Mass migration",
+     "https://en.wikipedia.org/wiki/Mass_migration"
+    ]
+   ],
+   "vf": "S",
+   "c": 1800,
+   "n_people": "about 60 million Europeans, 1815–1930 (Wikipedia, European immigration to the Americas)",
+   "fig": "32 million into the United States, 1821–1932"
+  },
+  {
+   "id": "great-migration-us",
+   "n": "The Great Migration",
+   "from": 1910,
+   "to": 1970,
+   "kind": "migration",
+   "tier": 2,
+   "ll": [
+    37.8,
+    -122.27
+   ],
+   "route": [
+    [
+     29.95,
+     -90.07
+    ],
+    [
+     35.15,
+     -90.05
+    ],
+    [
+     41.88,
+     -87.63
+    ],
+    [
+     42.33,
+     -83.05
+    ],
+    [
+     39.95,
+     -75.17
+    ],
+    [
+     40.81,
+     -73.95
+    ],
+    [
+     34.05,
+     -118.24
+    ],
+    [
+     37.8,
+     -122.27
+    ]
+   ],
+   "when": [
+    1910,
+    1916,
+    1920,
+    1925,
+    1930,
+    1940,
+    1945,
+    1950
+   ],
+   "who": "Black Americans from the rural South",
+   "genes": "No DNA figure; the demography is the census: about 90% of Black Americans lived in the South in 1900 and just over half at the end of the migration (Wikipedia, Great Migration).",
+   "t": "About six million Black Americans left the South between 1910 and 1970: about 1.6 million in the first wave to 1940, mostly from rural areas to northern industrial cities, and at least five million in the second wave to 1970, to the North and the West. Almost half of Mississippi’s first-wave migrants ended in Chicago.",
+   "src": [
+    [
+     "Wikipedia, Great Migration (African American)",
+     "https://en.wikipedia.org/wiki/Great_Migration_(African_American)"
+    ]
+   ],
+   "vf": "S",
+   "c": 1900,
+   "n_people": "about 6,000,000, 1910–1970 (Wikipedia, Great Migration)",
+   "fig": "six million people"
+  },
+  {
+   "id": "russians-after-1917",
+   "n": "The Russian emigration after 1917",
+   "from": 1917,
+   "to": 1925,
+   "kind": "migration",
+   "tier": 2,
+   "ll": [
+    48.86,
+    2.35
+   ],
+   "route": [
+    [
+     59.93,
+     30.33
+    ],
+    [
+     46.48,
+     30.73
+    ],
+    [
+     44.6,
+     33.52
+    ],
+    [
+     41.01,
+     28.98
+    ],
+    [
+     44.8,
+     20.47
+    ],
+    [
+     50.08,
+     14.44
+    ],
+    [
+     52.52,
+     13.4
+    ],
+    [
+     48.86,
+     2.35
+    ]
+   ],
+   "when": [
+    1917,
+    1919,
+    1920,
+    1920,
+    1921,
+    1922,
+    1922,
+    1925
+   ],
+   "who": "White émigrés: officers, nobles, clergy, writers and their families",
+   "genes": "No DNA figure; estimates of the emigration of 1917–1920 run from 900,000 to 2 million (Wikipedia, White émigré).",
+   "t": "Most White émigrés left in 1917–1920, from southern Russia and Ukraine to Turkey and on to Yugoslavia, Bulgaria, Czechoslovakia and Poland; about 150,000 fled to Istanbul, the flow swelling after the loss of Crimea in 1920. Paris held the largest community, Belgrade the second; Berlin and Prague thrived; about 127,000 Russians lived in Harbin in 1920 and many more in Shanghai.",
+   "src": [
+    [
+     "Wikipedia, White émigré",
+     "https://en.wikipedia.org/wiki/White_%C3%A9migr%C3%A9"
+    ]
+   ],
+   "vf": "S",
+   "c": 1900,
+   "n_people": "900,000 to 2 million, 1917–1920 (Wikipedia, White émigré)",
+   "fig": "about 150,000 to Istanbul"
+  },
+  {
+   "id": "greek-turkish-1923",
+   "n": "The Greek–Turkish exchange",
+   "from": 1922,
+   "to": 1924,
+   "kind": "migration",
+   "tier": 2,
+   "ll": [
+    41.01,
+    28.98
+   ],
+   "route": [
+    [
+     38.6,
+     34.8
+    ],
+    [
+     38.42,
+     27.14
+    ],
+    [
+     37.94,
+     23.65
+    ],
+    [
+     40.64,
+     22.94
+    ],
+    [
+     40.94,
+     24.4
+    ],
+    [
+     41.01,
+     28.98
+    ]
+   ],
+   "when": [
+    1922,
+    1922,
+    1923,
+    1923,
+    1924,
+    1924
+   ],
+   "who": "Greek Orthodox Christians of Anatolia and Muslims of Greece",
+   "genes": "No DNA figure; the convention sorted people by religion, not language or descent (Wikipedia, Population exchange between Greece and Turkey).",
+   "t": "Over a million Greek Orthodox subjects had already fled Turkey when Smyrna fell in September 1922. The convention signed at Lausanne on 30 January 1923 made the exchange compulsory and religious: about 1,221,489 Greek Orthodox Christians were displaced from Turkey and 355,000–400,000 Muslims from Greece.",
+   "src": [
+    [
+     "Wikipedia, Population exchange between Greece and Turkey",
+     "https://en.wikipedia.org/wiki/Population_exchange_between_Greece_and_Turkey"
+    ]
+   ],
+   "vf": "S",
+   "c": 1900,
+   "n_people": "about 1,221,489 Greek Orthodox from Turkey and 355,000–400,000 Muslims from Greece (Wikipedia)",
+   "fig": "about 1.6 million exchanged"
+  },
+  {
+   "id": "germans-1945",
+   "n": "The flight and expulsion of the Germans",
+   "from": 1944,
+   "to": 1950,
+   "kind": "migration",
+   "tier": 2,
+   "ll": [
+    52.37,
+    9.74
+   ],
+   "route": [
+    [
+     54.71,
+     20.51
+    ],
+    [
+     54.35,
+     18.65
+    ],
+    [
+     51.1,
+     17.03
+    ],
+    [
+     50.08,
+     14.44
+    ],
+    [
+     48.14,
+     11.58
+    ],
+    [
+     52.37,
+     9.74
+    ]
+   ],
+   "when": [
+    1945,
+    1945,
+    1945,
+    1946,
+    1946,
+    1947
+   ],
+   "who": "Germans of East Prussia, Silesia, Pomerania, the Sudetenland, Hungary, Romania and Yugoslavia",
+   "genes": "No DNA figure; about 12 million had fled or been expelled by 1950, 14.6 million by the West German count, with 500,000 to 2.5 million dead (Wikipedia, Flight and expulsion of Germans).",
+   "t": "About seven million Germans from the eastern territories and three million from Czechoslovakia were among roughly 12 million who fled or were expelled between 1944 and 1950, under the Potsdam agreement of August 1945 which recognised the ‘transfer to Germany of German populations’. They were distributed among the four occupation zones, about 1.9 million to the American zone alone.",
+   "src": [
+    [
+     "Wikipedia, Flight and expulsion of Germans (1944–1950)",
+     "https://en.wikipedia.org/wiki/Flight_and_expulsion_of_Germans_(1944%E2%80%931950)"
+    ]
+   ],
+   "vf": "S",
+   "c": 1900,
+   "n_people": "about 12 million by 1950; 14.6 million by the West German count; 500,000–2.5 million dead (Wikipedia)",
+   "fig": "about 12 million people"
+  },
+  {
+   "id": "partition-1947",
+   "n": "The Partition of India",
+   "from": 1947,
+   "to": 1948,
+   "kind": "migration",
+   "tier": 1,
+   "ll": [
+    24.86,
+    67.01
+   ],
+   "route": [
+    [
+     33.6,
+     73.05
+    ],
+    [
+     31.55,
+     74.34
+    ],
+    [
+     31.63,
+     74.87
+    ],
+    [
+     28.61,
+     77.21
+    ],
+    [
+     22.57,
+     88.36
+    ],
+    [
+     23.8,
+     90.4
+    ],
+    [
+     24.86,
+     67.01
+    ]
+   ],
+   "when": [
+    1947,
+    1947,
+    1947,
+    1947,
+    1947,
+    1948,
+    1948
+   ],
+   "who": "Hindus, Sikhs and Muslims across the new borders of India and Pakistan",
+   "genes": "No DNA figure; about 14.5 million people crossed the new borders, 12–20 million were displaced, and 200,000 to 2 million died, most scholars accepting about 1 million (Wikipedia, Partition of India).",
+   "t": "Pakistan came into being on 14 August 1947 and India on 15 August. About 6.5 million Muslims moved into West Punjab and 4.7 million Hindus and Sikhs into East Punjab, where the transfer was organised because of the violence; Delhi received about 500,000 Hindus and Sikhs and lost about 330,000 Muslims. Bengal divided more slowly and for longer.",
+   "src": [
+    [
+     "Wikipedia, Partition of India",
+     "https://en.wikipedia.org/wiki/Partition_of_India"
+    ],
+    [
+     "Wikipedia, Mass migration",
+     "https://en.wikipedia.org/wiki/Mass_migration"
+    ]
+   ],
+   "vf": "S",
+   "c": 1900,
+   "n_people": "12–20 million displaced; about 14.5 million crossed the borders; 200,000–2 million dead (Wikipedia, Partition of India)",
+   "fig": "about 14.5 million crossed",
+   "replaces": "partition-1947"
+  },
+  {
+   "id": "palestinians-1948",
+   "n": "The Palestinian flight of 1948",
+   "from": 1947,
+   "to": 1949,
+   "kind": "migration",
+   "tier": 2,
+   "ll": [
+    33.89,
+    35.5
+   ],
+   "route": [
+    [
+     32.79,
+     34.99
+    ],
+    [
+     32.05,
+     34.75
+    ],
+    [
+     31.95,
+     34.9
+    ],
+    [
+     31.5,
+     34.47
+    ],
+    [
+     31.95,
+     35.93
+    ],
+    [
+     33.89,
+     35.5
+    ]
+   ],
+   "when": [
+    1948,
+    1948,
+    1948,
+    1948,
+    1948,
+    1949
+   ],
+   "who": "Palestinian Arabs, in the Nakba",
+   "genes": "No DNA figure; more than 700,000 people, about half of Mandatory Palestine’s Arab population, were expelled or fled (Wikipedia, 1948 Palestinian expulsion and flight).",
+   "t": "Between 31 December 1947 and 20 July 1949 more than 700,000 Palestinian Arabs fled or were expelled, about 80% of the Arab inhabitants of what became Israel; the UN Conciliation Commission counted 711,000 refugees outside Israel in September 1949, and between 400 and 600 villages were destroyed. The refugees went to Gaza, the hill towns, Jordan, Lebanon and Egypt; 4.9 million people, descendants included, are registered with UNRWA.",
+   "src": [
+    [
+     "Wikipedia, 1948 Palestinian expulsion and flight",
+     "https://en.wikipedia.org/wiki/1948_Palestinian_expulsion_and_flight"
+    ]
+   ],
+   "vf": "S",
+   "c": 1900,
+   "n_people": "more than 700,000 in 1948; 711,000 counted by the UN in September 1949; 4.9 million registered with UNRWA today (Wikipedia)",
+   "fig": "more than 700,000 people"
+  },
+  {
+   "id": "boat-people",
+   "n": "The Vietnamese boat people",
+   "from": 1975,
+   "to": 1995,
+   "kind": "migration",
+   "tier": 2,
+   "ll": [
+    34.05,
+    -118.24
+   ],
+   "route": [
+    [
+     10.82,
+     106.63
+    ],
+    [
+     10.35,
+     107.08
+    ],
+    [
+     5.62,
+     103.06
+    ],
+    [
+     0.75,
+     104.2
+    ],
+    [
+     22.3,
+     114.17
+    ],
+    [
+     14.7,
+     120.5
+    ],
+    [
+     34.05,
+     -118.24
+    ]
+   ],
+   "when": [
+    1975,
+    1978,
+    1978,
+    1979,
+    1979,
+    1980,
+    1985
+   ],
+   "who": "Vietnamese refugees by sea after the fall of Saigon",
+   "genes": "No DNA figure; almost 800,000 boat people arrived safely between 1975 and 1995 and the UNHCR estimates 200,000–250,000 died at sea (Wikipedia, Vietnamese boat people).",
+   "t": "Boat departures began in September 1978 and peaked around 1979–1981, to Pulau Bidong, Galang, Hong Kong and the Bataan centre. Of 839,228 Vietnamese who reached UNHCR camps between 1975 and 1997, 749,929 were resettled abroad, 402,382 of them in the United States, 120,403 in France, 108,808 in Australia and 100,012 in Canada; the Orderly Departure Programme of 1979–1994 let others leave by air.",
+   "src": [
+    [
+     "Wikipedia, Vietnamese boat people",
+     "https://en.wikipedia.org/wiki/Vietnamese_boat_people"
+    ]
+   ],
+   "vf": "S",
+   "c": 1900,
+   "n_people": "almost 800,000 arrived by sea 1975–1995; 200,000–250,000 died at sea (UNHCR via Wikipedia)",
+   "fig": "200,000–250,000 dead at sea"
+  },
+  {
+   "id": "syrians-2015",
+   "n": "The Syrian exodus",
+   "from": 2011,
+   "to": 2016,
+   "kind": "migration",
+   "tier": 1,
+   "ll": [
+    48.14,
+    11.58
+   ],
+   "route": [
+    [
+     36.2,
+     37.16
+    ],
+    [
+     37.07,
+     37.38
+    ],
+    [
+     38.42,
+     27.14
+    ],
+    [
+     39.1,
+     26.55
+    ],
+    [
+     41.12,
+     22.5
+    ],
+    [
+     44.8,
+     20.47
+    ],
+    [
+     47.5,
+     19.04
+    ],
+    [
+     48.2,
+     16.37
+    ],
+    [
+     48.14,
+     11.58
+    ]
+   ],
+   "when": [
+    2012,
+    2013,
+    2015,
+    2015,
+    2015,
+    2015,
+    2015,
+    2015,
+    2015
+   ],
+   "who": "Syrian refugees, through Turkey and the Aegean to the Balkans and Germany",
+   "genes": "No DNA figure; at least 6.7 million Syrians have left the country since 2011 and more than 13.4 million had been displaced by October 2025 (Wikipedia, Refugees of the Syrian civil war).",
+   "t": "The flight began with the war in 2011; by 21 December 2015 an estimated 500,000 Syrians had entered Europe, 80% of them by sea into Greece and on through the Balkans, until the route was choked in February 2016. The UNHCR table counts 3,763,565 Syrians in Turkey, 855,172 in Lebanon, 665,404 in Jordan, 562,168 in Germany, 244,760 in Iraq and 131,235 in Egypt.",
+   "src": [
+    [
+     "Wikipedia, Refugees of the Syrian civil war",
+     "https://en.wikipedia.org/wiki/Refugees_of_the_Syrian_civil_war"
+    ]
+   ],
+   "vf": "S",
+   "c": 2000,
+   "n_people": "at least 6.7 million refugees abroad; 13.4 million displaced by October 2025; about 500,000 into Europe by December 2015 (Wikipedia)",
+   "fig": "500,000 into Europe in 2015"
+  },
+  {
+   "id": "ukrainians-2022",
+   "n": "The Ukrainian refugees of 2022",
+   "from": 2022,
+   "to": 2025,
+   "kind": "migration",
+   "tier": 1,
+   "ll": [
+    50.08,
+    14.44
+   ],
+   "route": [
+    [
+     49.99,
+     36.23
+    ],
+    [
+     50.45,
+     30.52
+    ],
+    [
+     49.84,
+     24.03
+    ],
+    [
+     49.78,
+     22.77
+    ],
+    [
+     52.23,
+     21.01
+    ],
+    [
+     52.52,
+     13.4
+    ],
+    [
+     50.08,
+     14.44
+    ]
+   ],
+   "when": [
+    2022,
+    2022,
+    2022,
+    2022,
+    2022,
+    2022,
+    2022
+   ],
+   "who": "Ukrainians fleeing the Russian invasion of 24 February 2022",
+   "genes": "No DNA figure; the UNHCR recorded around 7.8 million Ukrainian refugees across Europe by early November 2022 and 5.7 million worldwide as of September 2025 (Wikipedia, Ukrainian refugee crisis).",
+   "t": "The UNHCR called it Europe’s fastest-growing refugee crisis since the Second World War: around 7.8 million refugees recorded across Europe by early November 2022, more than 4.5 million of whom had returned by the end of that year. As of May 2025 Germany hosted 1.2 million, Poland about 1 million and the Czech Republic about 0.4 million; 5.3 million were displaced inside Ukraine, and Russia reported 1.2 million Ukrainians in a refugee-like situation in June 2023.",
+   "src": [
+    [
+     "Wikipedia, Ukrainian refugee crisis",
+     "https://en.wikipedia.org/wiki/Ukrainian_refugee_crisis"
+    ]
+   ],
+   "vf": "S",
+   "c": 2000,
+   "n_people": "around 7.8 million recorded across Europe by November 2022; 5.7 million worldwide as of September 2025; 5.3 million internally displaced (UNHCR via Wikipedia)",
+   "fig": "7.8 million recorded in Europe by November 2022"
+  }
+ ],
+ "epidemics": [
+  {
+   "id": "plague-athens",
+   "n": "The Plague of Athens",
+   "from": -430,
+   "to": -426,
+   "kind": "plague",
+   "tier": 2,
+   "ll": [
+    37.98,
+    23.73
+   ],
+   "route": [
+    [
+     16.94,
+     33.75
+    ],
+    [
+     29.85,
+     31.25
+    ],
+    [
+     32.82,
+     21.86
+    ],
+    [
+     37.94,
+     23.65
+    ],
+    [
+     37.98,
+     23.73
+    ]
+   ],
+   "when": [
+    -430,
+    -430,
+    -430,
+    -430,
+    -430
+   ],
+   "fig": "75,000–100,000 dead, about a quarter of Athens",
+   "dead": "An estimated 75,000 to 100,000 people, about 25% of the population of Athens (Wikipedia, Plague of Athens).",
+   "agent": "Unidentified; typhoid fever (Salmonella enterica, from a disputed 2005 dental-pulp study), typhus, smallpox, measles and a viral haemorrhagic fever have all been proposed.",
+   "t": "Thucydides says the sickness came out of Ethiopia through Egypt and Libya and first appeared at Athens in the port of Piraeus, in 430 BC, brought by ships. It returned in 429 and again in the winter of 427/426. Pericles died in 429, by Plutarch’s account.",
+   "src": [
+    [
+     "Wikipedia, Plague of Athens",
+     "https://en.wikipedia.org/wiki/Plague_of_Athens"
+    ]
+   ],
+   "vf": "S",
+   "c": -500
+  },
+  {
+   "id": "antonine-plague",
+   "n": "The Antonine Plague",
+   "from": 165,
+   "to": 180,
+   "kind": "plague",
+   "tier": 2,
+   "ll": [
+    41.89,
+    12.49
+   ],
+   "route": [
+    [
+     33.09,
+     44.52
+    ],
+    [
+     38.42,
+     27.14
+    ],
+    [
+     41.89,
+     12.49
+    ],
+    [
+     50.0,
+     8.27
+    ]
+   ],
+   "when": [
+    165,
+    165,
+    166,
+    172
+   ],
+   "fig": "5–10 million dead",
+   "dead": "An estimated 5–10 million; estimates run from 1.5 to 25 million, 2% to 33% of the empire, most near 10%; Cassius Dio reports up to 2,000 deaths a day in Rome in the outbreak of 189 (Wikipedia, Antonine Plague).",
+   "agent": "Unidentified; smallpox is the traditional view and measles has been proposed; there is no genetic evidence.",
+   "t": "Soldiers of Lucius Verus’s Parthian campaign probably carried the sickness home from the siege of Seleucia in the winter of 165–166; the first documented case was at Smyrna in 165. Galen described its fever, diarrhoea and rash. It reached Rome in 166, the Rhine legions and Gaul, and nearly every part of the empire by 172.",
+   "src": [
+    [
+     "Wikipedia, Antonine Plague",
+     "https://en.wikipedia.org/wiki/Antonine_Plague"
+    ]
+   ],
+   "vf": "S",
+   "c": 100
+  },
+  {
+   "id": "plague-cyprian",
+   "n": "The Plague of Cyprian",
+   "from": 249,
+   "to": 262,
+   "kind": "plague",
+   "tier": 2,
+   "ll": [
+    41.89,
+    12.49
+   ],
+   "route": [
+    [
+     16.94,
+     33.75
+    ],
+    [
+     31.2,
+     29.92
+    ],
+    [
+     41.89,
+     12.49
+    ]
+   ],
+   "when": [
+    249,
+    249,
+    251
+   ],
+   "fig": "5,000 dead a day in Rome at the peak",
+   "dead": "No total survives; about 5,000 a day were reported dying in Rome at the peak, and one historian has Alexandria falling from 500,000 to 190,000 people, partly by flight (Wikipedia, Plague of Cyprian).",
+   "agent": "Unidentified; smallpox, measles or a viral haemorrhagic fever such as a filovirus have been proposed.",
+   "t": "Contemporaries said it came out of Ethiopia. Bishop Dionysius of Alexandria wrote of it in Egypt around Easter 249, and it reached Rome by the second half of 251 at the latest. Cyprian, bishop of Carthage, whose name it carries, and his biographer Pontius described the dying in Carthage.",
+   "src": [
+    [
+     "Wikipedia, Plague of Cyprian",
+     "https://en.wikipedia.org/wiki/Plague_of_Cyprian"
+    ]
+   ],
+   "vf": "S",
+   "c": 200
+  },
+  {
+   "id": "plague-justinian",
+   "replaces": "plague-justinian",
+   "n": "The Plague of Justinian",
+   "from": 541,
+   "to": 549,
+   "kind": "plague",
+   "tier": 1,
+   "ll": [
+    41.01,
+    28.98
+   ],
+   "route": [
+    [
+     31.04,
+     32.55
+    ],
+    [
+     31.2,
+     29.92
+    ],
+    [
+     41.01,
+     28.98
+    ],
+    [
+     36.85,
+     10.32
+    ],
+    [
+     41.89,
+     12.49
+    ]
+   ],
+   "when": [
+    541,
+    541,
+    542,
+    543,
+    543
+   ],
+   "fig": "15–100 million dead over two centuries",
+   "dead": "Estimates run from 15 to 100 million over two centuries of recurrence, 25–60% of Europe’s population at the first outbreak; revisionist work of 2019 calls them exaggerated. Procopius gives about 10,000 deaths a day in Constantinople at the peak, some modern scholars up to 5,000 (Wikipedia, Plague of Justinian).",
+   "agent": "Yersinia pestis, confirmed from ancient DNA in 2013.",
+   "t": "Procopius first reports the plague at Pelusium, near Suez, in 541. Grain ships from Egypt carried it to Constantinople in 542, where Justinian fell ill and recovered, and by 543 it had reached every corner of his empire. Burials at Edix Hill near Cambridge show it in Britain, and it returned in waves until about 750.",
+   "src": [
+    [
+     "Wikipedia, Plague of Justinian",
+     "https://en.wikipedia.org/wiki/Plague_of_Justinian"
+    ]
+   ],
+   "vf": "S",
+   "c": 500
+  },
+  {
+   "id": "black-death",
+   "replaces": "black-death",
+   "n": "The Black Death",
+   "from": 1346,
+   "to": 1353,
+   "kind": "plague",
+   "tier": 1,
+   "ll": [
+    55.75,
+    37.62
+   ],
+   "route": [
+    [
+     42.45,
+     77.2
+    ],
+    [
+     45.03,
+     35.38
+    ],
+    [
+     41.01,
+     28.98
+    ],
+    [
+     38.19,
+     15.55
+    ],
+    [
+     44.41,
+     8.93
+    ],
+    [
+     43.3,
+     5.37
+    ],
+    [
+     48.86,
+     2.35
+    ],
+    [
+     51.51,
+     -0.13
+    ],
+    [
+     60.39,
+     5.32
+    ],
+    [
+     57.82,
+     28.33
+    ],
+    [
+     55.75,
+     37.62
+    ]
+   ],
+   "when": [
+    1338,
+    1346,
+    1347,
+    1347,
+    1348,
+    1348,
+    1348,
+    1348,
+    1349,
+    1352,
+    1353
+   ],
+   "fig": "up to 50 million dead, 30–60% of Europe",
+   "dead": "Up to 50 million, 30–60% of Europe’s 14th-century population (the infobox gives 25–50 million); some estimates put deaths across Eurasia at 75–200 million; about a third of the Middle East; about 62,000 in London and half of Paris (Wikipedia, Black Death).",
+   "agent": "Yersinia pestis, confirmed from mass-grave DNA (Haensch et al. 2010).",
+   "t": "Graves near Issyk-Kul dated 1338–39 carry plague inscriptions, and Yersinia pestis DNA has been found in teeth there. Jani Beg’s Golden Horde army, itself sick, besieged the Genoese port of Kaffa in 1346; the disease reached Constantinople in the summer of 1347 and Sicily with twelve Genoese galleys in October. Genoa, Venice and Marseille had it in January 1348, France, Iberia and England by June, Norway in 1349, northern Russia in 1352 and Moscow in 1353.",
+   "src": [
+    [
+     "Wikipedia, Black Death",
+     "https://en.wikipedia.org/wiki/Black_Death"
+    ]
+   ],
+   "vf": "S",
+   "c": 1300
+  },
+  {
+   "id": "great-plague-london",
+   "n": "The Great Plague of London",
+   "from": 1665,
+   "to": 1666,
+   "kind": "plague",
+   "tier": 2,
+   "ll": [
+    51.51,
+    -0.13
+   ],
+   "route": [
+    [
+     52.37,
+     4.9
+    ],
+    [
+     51.52,
+     -0.13
+    ],
+    [
+     51.51,
+     -0.09
+    ],
+    [
+     53.28,
+     -1.67
+    ]
+   ],
+   "when": [
+    1664,
+    1664,
+    1665,
+    1665
+   ],
+   "fig": "68,596 recorded plague deaths",
+   "dead": "68,596 plague deaths in the Bills of Mortality for 1665, thought an undercount; an estimated 100,000, almost a quarter of London, in 18 months (Wikipedia, Great Plague of London).",
+   "agent": "Yersinia pestis, confirmed by DNA in 2016.",
+   "t": "Plague probably came from the Netherlands, where Amsterdam suffered in 1663–64, and the first deaths were in the docks and the parish of St Giles. A merchant’s cloth from London carried it to Eyam in Derbyshire, which shut itself in and lost about a third of its people. The epidemic had largely subsided before the Great Fire of September 1666.",
+   "src": [
+    [
+     "Wikipedia, Great Plague of London",
+     "https://en.wikipedia.org/wiki/Great_Plague_of_London"
+    ]
+   ],
+   "vf": "S",
+   "c": 1600
+  },
+  {
+   "id": "great-plague-marseille",
+   "n": "The Great Plague of Marseille",
+   "from": 1720,
+   "to": 1722,
+   "kind": "plague",
+   "tier": 2,
+   "ll": [
+    43.3,
+    5.37
+   ],
+   "route": [
+    [
+     33.56,
+     35.37
+    ],
+    [
+     38.42,
+     27.14
+    ],
+    [
+     34.44,
+     35.83
+    ],
+    [
+     34.92,
+     33.63
+    ],
+    [
+     43.55,
+     10.31
+    ],
+    [
+     43.3,
+     5.37
+    ]
+   ],
+   "when": [
+    1720,
+    1720,
+    1720,
+    1720,
+    1720,
+    1720
+   ],
+   "fig": "about 50,000 of 90,000 Marseillais dead",
+   "dead": "About 50,000 of Marseille’s roughly 90,000 people and another 50,000 elsewhere in Provence, more than 100,000 in all (Wikipedia, Great Plague of Marseille).",
+   "agent": "Yersinia pestis; the last great bubonic plague of western Europe.",
+   "t": "The merchant ship Grand-Saint-Antoine left Sidon, called at Smyrna, Tripoli and plague-struck Cyprus, was refused at Livorno and reached Marseille in May 1720; merchants pressed to land its silk and cotton from quarantine. Plague broke out in the city within days and spread to Aix, Arles, Apt and Toulon. The Parlement of Aix made contact with Marseille a capital offence, and a dry-stone plague wall was raised across the country to enforce it.",
+   "src": [
+    [
+     "Wikipedia, Great Plague of Marseille",
+     "https://en.wikipedia.org/wiki/Great_Plague_of_Marseille"
+    ]
+   ],
+   "vf": "S",
+   "c": 1700
+  },
+  {
+   "id": "moscow-plague-1771",
+   "n": "The Moscow plague",
+   "from": 1770,
+   "to": 1772,
+   "kind": "plague",
+   "tier": 2,
+   "ll": [
+    55.75,
+    37.62
+   ],
+   "route": [
+    [
+     45.7,
+     27.19
+    ],
+    [
+     53.25,
+     34.37
+    ],
+    [
+     55.75,
+     37.62
+    ]
+   ],
+   "when": [
+    1770,
+    1770,
+    1770
+   ],
+   "fig": "52,000–100,000 dead in Moscow",
+   "dead": "52,000 to 100,000 in Moscow, of about 300,000 people, a sixth to a third; 20,401 confirmed deaths in September 1771 alone (Wikipedia, 1770–1772 Russian plague).",
+   "agent": "Bubonic plague (Yersinia pestis), with septicaemic cases.",
+   "t": "Russian troops at Focșani in Moldavia found the first signs in January 1770, in the war with the Ottomans, brought by prisoners and booty. The plague reached Bryansk by August and was diagnosed in Moscow in December 1770. It peaked in September 1771, when Governor Saltykov fled, the shut city rioted, and Catherine II sent Grigory Orlov with four regiments.",
+   "src": [
+    [
+     "Wikipedia, 1770–1772 Russian plague",
+     "https://en.wikipedia.org/wiki/1770%E2%80%931772_Russian_plague"
+    ]
+   ],
+   "vf": "S",
+   "c": 1700
+  },
+  {
+   "id": "smallpox-americas",
+   "n": "Smallpox in the Americas",
+   "from": 1518,
+   "to": 1527,
+   "kind": "plague",
+   "tier": 1,
+   "ll": [
+    19.43,
+    -99.13
+   ],
+   "route": [
+    [
+     18.47,
+     -69.89
+    ],
+    [
+     19.19,
+     -96.13
+    ],
+    [
+     19.43,
+     -99.13
+    ],
+    [
+     -13.53,
+     -71.97
+    ]
+   ],
+   "when": [
+    1518,
+    1520,
+    1520,
+    1527
+   ],
+   "fig": "5–8 million native dead in Mexico",
+   "dead": "5–8 million native deaths in Mexico in 1520–27; most of the Aztec army and about a quarter of the population; 60–90% of the Inca population within a few years; Old World diseases together are thought to have killed 90–95% of the native population of the Americas (Wikipedia, History of smallpox).",
+   "agent": "Variola virus (smallpox).",
+   "t": "Smallpox had ravaged Hispaniola for two years when Pánfilo de Narváez landed at Veracruz on 23 April 1520 and carried it into Mexico. It killed most of the Aztec army and about a quarter of the people before Cortés took Tenochtitlan in 1521. When it reached the Inca empire it killed the emperor Huayna Capac, his successor and most of the other leaders within months.",
+   "src": [
+    [
+     "Wikipedia, History of smallpox",
+     "https://en.wikipedia.org/wiki/History_of_smallpox"
+    ]
+   ],
+   "vf": "S",
+   "c": 1500
+  },
+  {
+   "id": "cocoliztli-1545",
+   "n": "The cocoliztli epidemic",
+   "from": 1545,
+   "to": 1548,
+   "kind": "plague",
+   "tier": 2,
+   "ll": [
+    19.43,
+    -99.13
+   ],
+   "route": [
+    [
+     19.04,
+     -98.2
+    ],
+    [
+     19.43,
+     -99.13
+    ],
+    [
+     17.51,
+     -97.49
+    ],
+    [
+     16.74,
+     -92.64
+    ],
+    [
+     14.64,
+     -90.51
+    ]
+   ],
+   "when": [
+    1545,
+    1545,
+    1545,
+    1545,
+    1545
+   ],
+   "fig": "5–15 million dead",
+   "dead": "Estimates of 5 to 15 million across New Spain, about 800,000 of them in the Valley of Mexico; Motolinía judged that the population fell by 60–90%; a second epidemic in 1576–80 killed about two million (Wikipedia, Cocoliztli epidemics).",
+   "agent": "Unconfirmed; a 2018 ancient-DNA study (Vågene et al.) found Salmonella enterica Paratyphi C at Teposcolula-Yucundaa, which others question; a viral cause remains possible.",
+   "t": "The disease seems to have emerged in the highlands near modern Puebla in 1545 and ravaged the Valley of Mexico, where many Indigenous towns were abandoned. It may have reached Sinaloa, Chiapas and Guatemala, but kept to high ground and nearly spared the coasts. The cemetery of Teposcolula-Yucundaa in Oaxaca is the only one conclusively tied to it.",
+   "src": [
+    [
+     "Wikipedia, Cocoliztli epidemics",
+     "https://en.wikipedia.org/wiki/Cocoliztli_epidemics"
+    ]
+   ],
+   "vf": "S",
+   "c": 1500
+  },
+  {
+   "id": "cholera-1817",
+   "n": "The first cholera pandemic",
+   "from": 1817,
+   "to": 1824,
+   "kind": "plague",
+   "tier": 2,
+   "ll": [
+    46.35,
+    48.04
+   ],
+   "route": [
+    [
+     23.17,
+     89.21
+    ],
+    [
+     22.57,
+     88.36
+    ],
+    [
+     18.94,
+     72.84
+    ],
+    [
+     23.59,
+     58.41
+    ],
+    [
+     30.51,
+     47.81
+    ],
+    [
+     33.31,
+     44.36
+    ],
+    [
+     46.35,
+     48.04
+    ]
+   ],
+   "when": [
+    1817,
+    1817,
+    1818,
+    1821,
+    1821,
+    1822,
+    1823
+   ],
+   "fig": "1–2 million dead in British India",
+   "dead": "1–2 million in British India (David Arnold’s estimate; an older 8.75 million is thought too high), about 200,000 in Vietnam, over 100,000 in Java, up to 100,000 in Korea, 18,000 in Basra in less than a month (Wikipedia, 1817–1824 cholera pandemic).",
+   "agent": "Vibrio cholerae.",
+   "t": "Cholera broke out at Jessore in the Ganges delta in 1817 and reached Calcutta in September. It spread across India and east to Bangkok and Manila in 1820, Java, Oman and China in 1821 and Japan in 1822. Westward it went up the Gulf to Basra and Baghdad and in 1823 reached Astrakhan on the Caspian, Zanzibar and Mauritius.",
+   "src": [
+    [
+     "Wikipedia, 1817–1824 cholera pandemic",
+     "https://en.wikipedia.org/wiki/1817%E2%80%931824_cholera_pandemic"
+    ]
+   ],
+   "vf": "S",
+   "c": 1800
+  },
+  {
+   "id": "cholera-1826",
+   "n": "The second cholera pandemic",
+   "from": 1826,
+   "to": 1837,
+   "kind": "plague",
+   "tier": 2,
+   "ll": [
+    48.86,
+    2.35
+   ],
+   "route": [
+    [
+     22.57,
+     88.36
+    ],
+    [
+     34.53,
+     69.17
+    ],
+    [
+     51.77,
+     55.1
+    ],
+    [
+     55.75,
+     37.62
+    ],
+    [
+     52.23,
+     21.01
+    ],
+    [
+     54.91,
+     -1.38
+    ],
+    [
+     51.51,
+     -0.13
+    ],
+    [
+     48.86,
+     2.35
+    ],
+    [
+     46.81,
+     -71.21
+    ],
+    [
+     40.71,
+     -74.01
+    ],
+    [
+     19.43,
+     -99.13
+    ]
+   ],
+   "when": [
+    1826,
+    1829,
+    1829,
+    1831,
+    1831,
+    1831,
+    1832,
+    1832,
+    1832,
+    1832,
+    1833
+   ],
+   "fig": "about 100,000 dead in France",
+   "dead": "About 100,000 reported in Russia, up to 100,000 in Hungary, about 100,000 in France (20,000 of Paris’s 650,000), 130,000 in Egypt, over 55,000 in the United Kingdom and 6,536 in London; the total is unknown (Wikipedia, 1826–1837 cholera pandemic; Cholera outbreaks and pandemics).",
+   "agent": "Vibrio cholerae.",
+   "t": "The second pandemic rose in the Ganges delta in 1826, was rampant in Afghanistan and Persia in 1829 and reached Orenburg in the southern Urals on 26 August that year. Russia’s cities had it by 1831, Russian soldiers carried it into Poland, and it reached Sunderland in October 1831 and London and Paris in 1832. A ship brought it to Quebec on 28 April 1832, and it went on to New York, Detroit and Mexico.",
+   "src": [
+    [
+     "Wikipedia, 1826–1837 cholera pandemic",
+     "https://en.wikipedia.org/wiki/1826%E2%80%931837_cholera_pandemic"
+    ],
+    [
+     "Wikipedia, Cholera outbreaks and pandemics",
+     "https://en.wikipedia.org/wiki/Cholera_outbreaks_and_pandemics"
+    ]
+   ],
+   "vf": "S",
+   "c": 1800
+  },
+  {
+   "id": "cholera-1846",
+   "n": "The third cholera pandemic",
+   "from": 1846,
+   "to": 1860,
+   "kind": "plague",
+   "tier": 2,
+   "ll": [
+    51.51,
+    -0.13
+   ],
+   "route": [
+    [
+     22.57,
+     88.36
+    ],
+    [
+     21.42,
+     39.83
+    ],
+    [
+     55.75,
+     37.62
+    ],
+    [
+     51.51,
+     -0.13
+    ],
+    [
+     29.95,
+     -90.07
+    ],
+    [
+     38.63,
+     -90.2
+    ],
+    [
+     41.88,
+     -87.63
+    ]
+   ],
+   "when": [
+    1846,
+    1846,
+    1847,
+    1848,
+    1849,
+    1849,
+    1854
+   ],
+   "fig": "over a million dead in Russia",
+   "dead": "More than a million in Russia (1847–51), 800,000 to a million in Vietnam (1849), over 236,000 in Spain (1854–55), 100,000–200,000 in Tokyo (1858–60), 52,000 in England and Wales (1848–49), and 10,739 in London in 1853–54, 616 of them in the Broad Street outbreak (Wikipedia, 1846–1860 cholera pandemic).",
+   "agent": "Vibrio cholerae.",
+   "t": "From India the third pandemic reached Mecca in 1846, killing more than 15,000, and Russia in 1847. It struck England, Ireland and Paris in 1848–49 and ran up the Mississippi in 1849 to New Orleans and St Louis, and to Nashville, where it killed James K. Polk. In London in 1854 John Snow tied the Broad Street outbreak to a water pump, and the handle was removed.",
+   "src": [
+    [
+     "Wikipedia, 1846–1860 cholera pandemic",
+     "https://en.wikipedia.org/wiki/1846%E2%80%931860_cholera_pandemic"
+    ],
+    [
+     "Wikipedia, Cholera outbreaks and pandemics",
+     "https://en.wikipedia.org/wiki/Cholera_outbreaks_and_pandemics"
+    ]
+   ],
+   "vf": "S",
+   "c": 1800
+  },
+  {
+   "id": "cholera-1863-1923",
+   "n": "The fourth, fifth and sixth cholera pandemics",
+   "from": 1863,
+   "to": 1923,
+   "kind": "plague",
+   "tier": 2,
+   "ll": [
+    53.55,
+    9.99
+   ],
+   "route": [
+    [
+     22.57,
+     88.36
+    ],
+    [
+     21.42,
+     39.83
+    ],
+    [
+     41.01,
+     28.98
+    ],
+    [
+     40.41,
+     49.87
+    ],
+    [
+     46.35,
+     48.04
+    ],
+    [
+     53.55,
+     9.99
+    ],
+    [
+     40.85,
+     14.27
+    ]
+   ],
+   "when": [
+    1863,
+    1865,
+    1865,
+    1892,
+    1892,
+    1892,
+    1910
+   ],
+   "fig": "over 800,000 dead in India in the sixth",
+   "dead": "Fourth (1863–75): 30,000 of 90,000 pilgrims at Mecca in the first year, over 30,000 in Constantinople in 40 days, 165,000 in the Austrian Empire, 115,000 in Germany, 113,000 in Italy. Fifth (1881–96): 267,890 in Russia in 1892, 120,000 in Spain, 90,000 in Japan, 8,600 in Hamburg. Sixth (1899–1923): over 800,000 in India, over 500,000 in Russia and 200,000 in the Philippines (Wikipedia, Cholera outbreaks and pandemics).",
+   "agent": "Vibrio cholerae.",
+   "t": "The fourth pandemic left the Ganges delta with pilgrims for Mecca and reached Constantinople in June 1865, then Europe, Zanzibar and, by 1873, the United States, along the ports and rivers. The fifth came out of India in 1881 and struck Baku, Astrakhan and Hamburg in 1892. The sixth, from 1899, hit Egypt, Arabia, Persia, India, Russia and the Philippines and reached Naples in 1910.",
+   "src": [
+    [
+     "Wikipedia, Cholera outbreaks and pandemics",
+     "https://en.wikipedia.org/wiki/Cholera_outbreaks_and_pandemics"
+    ]
+   ],
+   "vf": "S",
+   "c": 1800
+  },
+  {
+   "id": "russian-flu-1889",
+   "n": "The Russian flu",
+   "from": 1889,
+   "to": 1890,
+   "kind": "plague",
+   "tier": 2,
+   "ll": [
+    48.86,
+    2.35
+   ],
+   "route": [
+    [
+     56.5,
+     84.97
+    ],
+    [
+     59.94,
+     30.31
+    ],
+    [
+     52.52,
+     13.4
+    ],
+    [
+     48.86,
+     2.35
+    ],
+    [
+     51.51,
+     -0.13
+    ],
+    [
+     40.71,
+     -74.01
+    ]
+   ],
+   "when": [
+    1889,
+    1889,
+    1889,
+    1889,
+    1889,
+    1889
+   ],
+   "fig": "about 1 million dead",
+   "dead": "About 1 million (Wikipedia, 1889–1890 pandemic).",
+   "agent": "Influenza A, most likely subtype H3 (possibly H3N8); human coronavirus OC43 has also been proposed, without consensus.",
+   "t": "The first reports came from Bukhara in May 1889, probably of malaria; the flu itself seems to have appeared in Tomsk province in western Siberia in October. St Petersburg and Berlin had it by November, Paris and London in December, and the United States reported its first case on 18 December. By May 1890 it had reached India, Singapore, Japan, Australia, New Zealand and China, and it returned in waves until 1895.",
+   "src": [
+    [
+     "Wikipedia, 1889–1890 pandemic",
+     "https://en.wikipedia.org/wiki/1889%E2%80%931890_pandemic"
+    ]
+   ],
+   "vf": "S",
+   "c": 1800
+  },
+  {
+   "id": "third-plague-pandemic",
+   "replaces": "third-plague-pandemic",
+   "n": "The third plague pandemic",
+   "from": 1855,
+   "to": 1960,
+   "kind": "plague",
+   "tier": 2,
+   "ll": [
+    18.94,
+    72.84
+   ],
+   "route": [
+    [
+     25.04,
+     102.71
+    ],
+    [
+     23.13,
+     113.26
+    ],
+    [
+     22.32,
+     114.17
+    ],
+    [
+     18.94,
+     72.84
+    ],
+    [
+     -18.15,
+     49.4
+    ]
+   ],
+   "when": [
+    1855,
+    1894,
+    1894,
+    1896,
+    1898
+   ],
+   "fig": "at least 15 million dead",
+   "dead": "At least 15 million worldwide, 10–12 million of them in British India and 2.2 million in China; about 80,000 in Guangzhou in a few weeks of 1894 (Wikipedia, Third plague pandemic).",
+   "agent": "Yersinia pestis, isolated by Alexandre Yersin in Hong Kong in 1894.",
+   "t": "Plague broke out in the copper-mining country of Yunnan in 1855, as Han Chinese workers poured in. It killed about 80,000 in Guangzhou in 1894 and reached Hong Kong, where Yersin isolated the bacillus, then Bombay in 1896, Calcutta and Madagascar in 1898, Hawaii, San Francisco, Australia and the Cape by 1900, and Manchuria, as pneumonic plague, in 1910–11. The WHO counted the pandemic active until 1960.",
+   "src": [
+    [
+     "Wikipedia, Third plague pandemic",
+     "https://en.wikipedia.org/wiki/Third_plague_pandemic"
+    ]
+   ],
+   "vf": "S",
+   "c": 1800
+  },
+  {
+   "id": "spanish-flu",
+   "replaces": "spanish-flu",
+   "n": "The 1918 influenza pandemic",
+   "from": 1918,
+   "to": 1920,
+   "kind": "plague",
+   "tier": 1,
+   "ll": [
+    8.48,
+    -13.23
+   ],
+   "route": [
+    [
+     39.07,
+     -96.8
+    ],
+    [
+     48.39,
+     -4.49
+    ],
+    [
+     40.42,
+     -3.7
+    ],
+    [
+     8.48,
+     -13.23
+    ],
+    [
+     18.94,
+     72.84
+    ],
+    [
+     -13.83,
+     -171.76
+    ],
+    [
+     -33.87,
+     151.21
+    ],
+    [
+     19.43,
+     -99.13
+    ],
+    [
+     -12.05,
+     -77.04
+    ]
+   ],
+   "when": [
+    1918,
+    1918,
+    1918,
+    1918,
+    1918,
+    1918,
+    1919,
+    1920,
+    1920
+   ],
+   "fig": "17–50 million dead, possibly 100 million",
+   "dead": "17 to 50 million, possibly as many as 100 million; about 500 million infected, a third of the world; 12–17 million in India, about 5% of its people; about 22% of Western Samoa within two months (Wikipedia, Spanish flu).",
+   "agent": "Influenza A virus, subtype H1N1.",
+   "t": "The conventional first case was at Camp Funston, Kansas, on 4 March 1918, and the spring wave was mild. A far deadlier second wave rose from late August, probably carried by ships from Brest to Freetown and Boston; a third came in the winter of 1919, reaching Australia and Madagascar, and a fourth in 1920 in the United States, Mexico, Peru and Brazil. Spanish newspapers reported the disease from May 1918 while censors elsewhere kept quiet, which gave it its name.",
+   "src": [
+    [
+     "Wikipedia, Spanish flu",
+     "https://en.wikipedia.org/wiki/Spanish_flu"
+    ]
+   ],
+   "vf": "S",
+   "c": 1900
+  },
+  {
+   "id": "polio-epidemics",
+   "n": "The polio epidemics",
+   "from": 1894,
+   "to": 1962,
+   "kind": "plague",
+   "tier": 2,
+   "ll": [
+    40.71,
+    -74.01
+   ],
+   "route": [
+    [
+     43.61,
+     -72.97
+    ],
+    [
+     40.71,
+     -74.01
+    ],
+    [
+     55.68,
+     12.57
+    ],
+    [
+     59.33,
+     18.07
+    ]
+   ],
+   "when": [
+    1894,
+    1916,
+    1952,
+    1953
+   ],
+   "fig": "57,628 US cases in 1952",
+   "dead": "In the United States 7,130 deaths among 27,363 cases in 1916, over 2,000 of them in New York City, and 3,145 deaths among 57,628 cases in 1952, with 21,269 left paralysed (Wikipedia, History of polio).",
+   "agent": "Poliovirus.",
+   "t": "The first recognised American epidemic struck Vermont in 1894, with 132 cases. New York lost more than 2,000 people in 1916, and 1952 brought the worst American epidemic and an outbreak in Copenhagen that led Bjørn Ibsen to positive-pressure ventilation. Salk’s vaccine was announced on 12 April 1955 and Sabin’s oral vaccine licensed in 1962; wild poliovirus now survives only in Afghanistan and Pakistan.",
+   "src": [
+    [
+     "Wikipedia, History of polio",
+     "https://en.wikipedia.org/wiki/History_of_polio"
+    ]
+   ],
+   "vf": "S",
+   "c": 1800
+  },
+  {
+   "id": "asian-flu-1957",
+   "n": "The Asian flu",
+   "from": 1957,
+   "to": 1958,
+   "kind": "plague",
+   "tier": 2,
+   "ll": [
+    22.32,
+    114.17
+   ],
+   "route": [
+    [
+     26.65,
+     106.63
+    ],
+    [
+     25.04,
+     102.71
+    ],
+    [
+     22.32,
+     114.17
+    ],
+    [
+     1.29,
+     103.85
+    ],
+    [
+     28.61,
+     77.21
+    ],
+    [
+     51.51,
+     -0.13
+    ],
+    [
+     38.9,
+     -77.04
+    ]
+   ],
+   "when": [
+    1957,
+    1957,
+    1957,
+    1957,
+    1957,
+    1957,
+    1957
+   ],
+   "fig": "1–4 million dead",
+   "dead": "1–4 million excess deaths worldwide; 60,000–70,000 in the United States (Wikipedia, 1957–1958 influenza pandemic).",
+   "agent": "Influenza A virus, subtype H2N2.",
+   "t": "An epidemic was noted in western Guizhou in late February 1957 and had spread across China by mid-March. Thousands were sick in Hong Kong by April, and Singapore, first to warn the WHO on 4 May, had it from there. India had a million cases by June, when Britain, the Netherlands and the United States were reached.",
+   "src": [
+    [
+     "Wikipedia, 1957–1958 influenza pandemic",
+     "https://en.wikipedia.org/wiki/1957%E2%80%931958_influenza_pandemic"
+    ]
+   ],
+   "vf": "S",
+   "c": 1900
+  },
+  {
+   "id": "hong-kong-flu-1968",
+   "n": "The Hong Kong flu",
+   "from": 1968,
+   "to": 1970,
+   "kind": "plague",
+   "tier": 2,
+   "ll": [
+    22.32,
+    114.17
+   ],
+   "route": [
+    [
+     22.32,
+     114.17
+    ],
+    [
+     10.82,
+     106.63
+    ],
+    [
+     1.29,
+     103.85
+    ],
+    [
+     13.08,
+     80.27
+    ],
+    [
+     55.75,
+     37.62
+    ],
+    [
+     51.51,
+     -0.13
+    ]
+   ],
+   "when": [
+    1968,
+    1968,
+    1968,
+    1968,
+    1968,
+    1969
+   ],
+   "fig": "1–4 million dead",
+   "dead": "1 to 4 million worldwide (the WHO and Britannica); about 1 million (the CDC) (Wikipedia, Hong Kong flu).",
+   "agent": "Influenza A virus, subtype H3N2, still in seasonal circulation.",
+   "t": "The first recorded case was in Hong Kong on 13 July 1968, just after reports of respiratory illness in Guangdong. Singapore, the Philippines, Malaysia and Vietnam had it in August, and India, northern Australia, Europe and the United States in September, the American cases tied to troops home from Vietnam. The USSR followed in December and South America in 1969; Britain’s worst wave came in the winter of 1969–70.",
+   "src": [
+    [
+     "Wikipedia, Hong Kong flu",
+     "https://en.wikipedia.org/wiki/Hong_Kong_flu"
+    ]
+   ],
+   "vf": "S",
+   "c": 1900
+  },
+  {
+   "id": "hiv-aids",
+   "n": "The HIV/AIDS pandemic",
+   "from": 1920,
+   "to": 2026,
+   "kind": "plague",
+   "tier": 1,
+   "ll": [
+    34.05,
+    -118.24
+   ],
+   "route": [
+    [
+     -4.32,
+     15.31
+    ],
+    [
+     18.54,
+     -72.34
+    ],
+    [
+     40.71,
+     -74.01
+    ],
+    [
+     37.77,
+     -122.42
+    ],
+    [
+     34.05,
+     -118.24
+    ]
+   ],
+   "when": [
+    1920,
+    1966,
+    1971,
+    1976,
+    1981
+   ],
+   "fig": "about 42 million dead since 1981",
+   "dead": "At least 42.3 million deaths from 1981 through 2024 (43.2 million in the infobox); 570,000 deaths and 1.2 million new infections in 2025, when about 40.9 million people lived with HIV (Wikipedia, HIV/AIDS).",
+   "agent": "HIV-1 group M, from a simian immunodeficiency virus of chimpanzees (SIVcpz) in southern Cameroon.",
+   "t": "HIV-1 crossed from chimpanzees in southern Cameroon, and the first suspected human cases may have been in Léopoldville, today Kinshasa, in the 1920s; samples from 1959–60 hold early infections. It reached Haiti about 1966–67, the United States about 1969, New York about 1971 and San Francisco about 1976. On 5 June 1981 the CDC reported unusual pneumonia in five gay men in Los Angeles, the first clinical report of AIDS.",
+   "src": [
+    [
+     "Wikipedia, History of HIV/AIDS",
+     "https://en.wikipedia.org/wiki/History_of_HIV/AIDS"
+    ],
+    [
+     "Wikipedia, HIV/AIDS",
+     "https://en.wikipedia.org/wiki/HIV/AIDS"
+    ]
+   ],
+   "vf": "S",
+   "c": 1900
+  },
+  {
+   "id": "sars-2003",
+   "n": "SARS",
+   "from": 2002,
+   "to": 2003,
+   "kind": "plague",
+   "tier": 2,
+   "ll": [
+    22.32,
+    114.17
+   ],
+   "route": [
+    [
+     23.02,
+     113.12
+    ],
+    [
+     22.32,
+     114.17
+    ],
+    [
+     21.03,
+     105.85
+    ],
+    [
+     1.29,
+     103.85
+    ],
+    [
+     43.65,
+     -79.38
+    ]
+   ],
+   "when": [
+    2002,
+    2003,
+    2003,
+    2003,
+    2003
+   ],
+   "fig": "774 dead",
+   "dead": "774 deaths among 8,096 probable cases in 30 countries and territories (Wikipedia, 2002–2004 SARS outbreak).",
+   "agent": "SARS-CoV (SARS-CoV-1), a coronavirus; Asian palm civets were thought a reservoir and culled in the markets.",
+   "t": "The outbreak began in Foshan, Guangdong, on 16 November 2002. In February 2003 an infected guest, Liu Jianlun, stayed at the Metropole Hotel in Hong Kong, and infections seeded there reached Hanoi, Singapore and Toronto by early March. The WHO declared the outbreak contained on 5 July 2003.",
+   "src": [
+    [
+     "Wikipedia, 2002–2004 SARS outbreak",
+     "https://en.wikipedia.org/wiki/2002%E2%80%932004_SARS_outbreak"
+    ]
+   ],
+   "vf": "S",
+   "c": 2000
+  },
+  {
+   "id": "h1n1-2009",
+   "n": "The swine flu pandemic",
+   "from": 2009,
+   "to": 2010,
+   "kind": "plague",
+   "tier": 2,
+   "ll": [
+    19.5,
+    -97.3
+   ],
+   "route": [
+    [
+     19.5,
+     -97.3
+    ],
+    [
+     40.71,
+     -74.01
+    ],
+    [
+     40.42,
+     -3.7
+    ],
+    [
+     51.51,
+     -0.13
+    ],
+    [
+     -36.85,
+     174.76
+    ]
+   ],
+   "when": [
+    2009,
+    2009,
+    2009,
+    2009,
+    2009
+   ],
+   "fig": "284,500–575,400 dead (modelled)",
+   "dead": "18,500 deaths confirmed by laboratory analysis (the WHO), called gross underestimates; later statistical models estimated 284,500 to 575,400 (Britannica, influenza pandemic (H1N1) of 2009).",
+   "agent": "Influenza A (H1N1) of swine origin, mixing genes of two swine viruses with human and avian strains.",
+   "t": "Evidence of the new virus first appeared in February 2009 in La Gloria, Veracruz, where a young boy became known as patient zero, and it reached the United States in April. The WHO declared a public health emergency of international concern on 25 April; air travellers carried the virus to Spain within days and on to Germany, Austria, Britain, Israel and New Zealand. On 10 August 2010 the WHO declared the world in the post-pandemic period.",
+   "src": [
+    [
+     "Britannica, influenza pandemic (H1N1) of 2009",
+     "https://www.britannica.com/event/influenza-pandemic-H1N1-of-2009"
+    ],
+    [
+     "WHO, H1N1 in post-pandemic period (10 August 2010)",
+     "https://www.who.int/news/item/10-08-2010-h1n1-in-post-pandemic-period"
+    ]
+   ],
+   "vf": "S",
+   "c": 2000
+  },
+  {
+   "id": "ebola-2014",
+   "n": "The West African Ebola epidemic",
+   "from": 2013,
+   "to": 2016,
+   "kind": "plague",
+   "tier": 2,
+   "ll": [
+    8.48,
+    -13.23
+   ],
+   "route": [
+    [
+     8.62,
+     -10.06
+    ],
+    [
+     8.42,
+     -9.75
+    ],
+    [
+     8.48,
+     -13.23
+    ],
+    [
+     6.52,
+     3.38
+    ],
+    [
+     32.78,
+     -96.8
+    ]
+   ],
+   "when": [
+    2013,
+    2014,
+    2014,
+    2014,
+    2014
+   ],
+   "fig": "11,310 dead",
+   "dead": "11,310 deaths among 28,616 cases at the end; 11,323 among 28,646 suspected cases as of 8 May 2016 (Wikipedia, Western African Ebola virus epidemic).",
+   "agent": "Zaire ebolavirus.",
+   "t": "The index case, a small boy, died at Méliandou in Guinea in December 2013, and the WHO reported the outbreak on 25 March 2014. It reached Liberia’s Lofa and Nimba counties that month and Sierra Leone by May; a traveller carried it to Lagos on 20 July and another to Dallas in September. A nursing assistant in Spain was the first infected outside Africa, and the epidemic was declared over on 9 June 2016.",
+   "src": [
+    [
+     "Wikipedia, Western African Ebola virus epidemic",
+     "https://en.wikipedia.org/wiki/Western_African_Ebola_virus_epidemic"
+    ]
+   ],
+   "vf": "S",
+   "c": 2000
+  },
+  {
+   "id": "zika-2015",
+   "n": "The Zika epidemic",
+   "from": 2015,
+   "to": 2016,
+   "kind": "plague",
+   "tier": 2,
+   "ll": [
+    -12.97,
+    -38.5
+   ],
+   "route": [
+    [
+     9.51,
+     138.13
+    ],
+    [
+     -17.53,
+     -149.57
+    ],
+    [
+     -27.11,
+     -109.35
+    ],
+    [
+     -5.79,
+     -35.21
+    ],
+    [
+     -12.97,
+     -38.5
+    ],
+    [
+     4.71,
+     -74.07
+    ],
+    [
+     14.07,
+     -87.19
+    ],
+    [
+     18.47,
+     -66.11
+    ],
+    [
+     25.76,
+     -80.19
+    ]
+   ],
+   "when": [
+    2007,
+    2013,
+    2014,
+    2014,
+    2015,
+    2016,
+    2016,
+    2016,
+    2016
+   ],
+   "fig": "over 3,500 microcephaly cases in Brazil",
+   "dead": "18 deaths in the worldwide table, which leaves out infant deaths and stillbirths; over 3,500 cases of infant microcephaly reported in Brazil between October 2015 and January 2016; 711,381 cases reported worldwide and about 1.5 million infections estimated in Brazil (Wikipedia, 2015–16 Zika virus epidemic).",
+   "agent": "Zika virus, carried mainly by the Aedes aegypti mosquito.",
+   "t": "Zika broke out on Yap in 2007 and in French Polynesia in 2013, the likely source of the strain that reached Brazil. The Brazilian outbreak was identified in Natal in August 2014, reached Salvador by March 2015 and was confirmed as Zika in May, and a wave of infant microcephaly followed. The WHO declared an emergency on 1 February 2016 and declared the epidemic over in November, after local cases near Miami in August.",
+   "src": [
+    [
+     "Wikipedia, 2015–16 Zika virus epidemic",
+     "https://en.wikipedia.org/wiki/2015%E2%80%9316_Zika_virus_epidemic"
+    ]
+   ],
+   "vf": "S",
+   "c": 2000
+  },
+  {
+   "id": "covid-19",
+   "replaces": "covid-19",
+   "n": "The COVID-19 pandemic",
+   "from": 2020,
+   "to": 2023,
+   "kind": "plague",
+   "tier": 1,
+   "ll": [
+    30.59,
+    114.31
+   ],
+   "route": [
+    [
+     30.59,
+     114.31
+    ],
+    [
+     34.64,
+     50.88
+    ],
+    [
+     41.9,
+     12.5
+    ],
+    [
+     28.1,
+     -17.11
+    ],
+    [
+     -23.55,
+     -46.63
+    ],
+    [
+     40.71,
+     -74.01
+    ],
+    [
+     28.61,
+     77.21
+    ],
+    [
+     -26.2,
+     28.05
+    ]
+   ],
+   "when": [
+    2019,
+    2020,
+    2020,
+    2020,
+    2020,
+    2020,
+    2021,
+    2021
+   ],
+   "fig": "14.9 million excess deaths in 2020–21 (WHO)",
+   "dead": "7,115,203 deaths reported to the WHO by 5 August 2026 (Wikipedia, COVID-19 pandemic); the WHO estimates about 14.9 million excess deaths (13.3–16.6 million) in 2020–21 alone (WHO, 5 May 2022); The Economist’s model gives 18.5–35.2 million by January 2024.",
+   "agent": "SARS-CoV-2, a coronavirus.",
+   "t": "The disease was identified in Wuhan in December 2019. The WHO declared an emergency on 30 January 2020 and a pandemic on 11 March, as the virus spread through Iran, Italy, Spain, Brazil and New York, where most infections came from Europe; Delta drove India’s second wave in April 2021 and Omicron was detected in South Africa on 24 November 2021. The emergency ended on 5 May 2023.",
+   "src": [
+    [
+     "Wikipedia, COVID-19 pandemic",
+     "https://en.wikipedia.org/wiki/COVID-19_pandemic"
+    ],
+    [
+     "WHO, 14.9 million excess deaths associated with the COVID-19 pandemic in 2020 and 2021 (5 May 2022)",
+     "https://www.who.int/news/item/05-05-2022-14.9-million-excess-deaths-were-associated-with-the-COVID-19-pandemic-in-2020-and-2021"
+    ]
+   ],
+   "vf": "S",
+   "c": 2000
+  },
+  {
+   "id": "mpox-2022",
+   "n": "The mpox outbreak",
+   "from": 2022,
+   "to": 2023,
+   "kind": "plague",
+   "tier": 2,
+   "ll": [
+    51.51,
+    -0.13
+   ],
+   "route": [
+    [
+     51.51,
+     -0.13
+    ],
+    [
+     38.72,
+     -9.14
+    ],
+    [
+     40.42,
+     -3.7
+    ],
+    [
+     52.52,
+     13.4
+    ]
+   ],
+   "when": [
+    2022,
+    2022,
+    2022,
+    2022
+   ],
+   "fig": "168,610 confirmed cases",
+   "dead": "462 deaths among 168,610 confirmed cases in 141 countries, as of 31 October 2025 (Wikipedia, 2022–2023 mpox outbreak, read via Wikiwand).",
+   "agent": "Monkeypox virus, clade IIb.",
+   "t": "Britain detected the first case in London on 6 May 2022, in a traveller from Nigeria, where the disease is endemic. By 18 May Portugal, Spain, Canada and the United States had cases, Germany confirmed its first on 20 May, and Brazil and Spain recorded the first deaths outside Africa’s endemic countries on 29 July. The WHO declared an emergency on 23 July 2022 and ended it in May 2023.",
+   "src": [
+    [
+     "Wikipedia (via Wikiwand), 2022–2023 mpox outbreak",
+     "https://www.wikiwand.com/en/articles/2022_mpox_outbreak"
+    ]
+   ],
+   "vf": "S",
+   "c": 2000
+  }
+ ],
+ "population": {
+  "world": [
+   [
+    -10000,
+    2,
+    "hyde"
+   ],
+   [
+    -8000,
+    5,
+    "hyde"
+   ],
+   [
+    -5000,
+    18,
+    "hyde"
+   ],
+   [
+    -4000,
+    28,
+    "hyde"
+   ],
+   [
+    -3000,
+    45,
+    "hyde"
+   ],
+   [
+    -2000,
+    72,
+    "hyde"
+   ],
+   [
+    -1000,
+    115,
+    "hyde"
+   ],
+   [
+    1,
+    188,
+    "hyde"
+   ],
+   [
+    200,
+    202,
+    "hyde"
+   ],
+   [
+    400,
+    209,
+    "hyde"
+   ],
+   [
+    500,
+    210,
+    "hyde"
+   ],
+   [
+    600,
+    213,
+    "hyde"
+   ],
+   [
+    800,
+    240,
+    "hyde"
+   ],
+   [
+    1000,
+    295,
+    "hyde"
+   ],
+   [
+    1100,
+    353,
+    "hyde"
+   ],
+   [
+    1200,
+    393,
+    "hyde"
+   ],
+   [
+    1300,
+    392,
+    "hyde"
+   ],
+   [
+    1400,
+    390,
+    "hyde"
+   ],
+   [
+    1500,
+    461,
+    "hyde"
+   ],
+   [
+    1600,
+    554,
+    "hyde"
+   ],
+   [
+    1700,
+    603,
+    "hyde"
+   ],
+   [
+    1750,
+    814,
+    "hyde"
+   ],
+   [
+    1800,
+    989,
+    "hyde"
+   ],
+   [
+    1850,
+    1263,
+    "hyde"
+   ],
+   [
+    1900,
+    1654,
+    "hyde"
+   ],
+   [
+    1950,
+    2493,
+    "wpp2024"
+   ],
+   [
+    1955,
+    2740,
+    "wpp2024"
+   ],
+   [
+    1960,
+    3015,
+    "wpp2024"
+   ],
+   [
+    1965,
+    3335,
+    "wpp2024"
+   ],
+   [
+    1970,
+    3695,
+    "wpp2024"
+   ],
+   [
+    1975,
+    4071,
+    "wpp2024"
+   ],
+   [
+    1980,
+    4448,
+    "wpp2024"
+   ],
+   [
+    1985,
+    4869,
+    "wpp2024"
+   ],
+   [
+    1990,
+    5328,
+    "wpp2024"
+   ],
+   [
+    1995,
+    5759,
+    "wpp2024"
+   ],
+   [
+    2000,
+    6172,
+    "wpp2024"
+   ],
+   [
+    2005,
+    6587,
+    "wpp2024"
+   ],
+   [
+    2010,
+    7022,
+    "wpp2024"
+   ],
+   [
+    2015,
+    7470,
+    "wpp2024"
+   ],
+   [
+    2020,
+    7887,
+    "wpp2024"
+   ],
+   [
+    2024,
+    8162,
+    "wpp2024-annual"
+   ]
+  ],
+  "world_src": [
+   [
+    "Wikipedia, Estimates of historical world population (HYDE (2010) column)",
+    "https://en.wikipedia.org/wiki/Estimates_of_historical_world_population"
+   ],
+   [
+    "IPSS (National Institute of Population and Social Security Research, Japan), Population Statistics 2025, Table 1-9: world population 1950–2100 from UN World Population Prospects 2024, medium variant",
+    "https://www.ipss.go.jp/syoushika/tohkei/Data/Popular2025/T01-09.files/sheet001.htm"
+   ],
+   [
+    "Wikipedia, World population (annual table, 2024 = 8,161,972,572, UN WPP 2024)",
+    "https://en.wikipedia.org/wiki/World_population"
+   ]
+  ],
+  "world_keys": {
+   "hyde": "HYDE (2010), Klein Goldewijk et al., as tabulated in Wikipedia, Estimates of historical world population (millions; 10000 BC to 1900).",
+   "wpp2024": "UN World Population Prospects 2024, medium variant, mid-year (1 July), as tabulated by IPSS Table 1-9 (millions, five-year points 1950–2020).",
+   "wpp2024-annual": "UN World Population Prospects 2024: 8,161,972,572 in 2024 (Wikipedia, World population)."
+  },
+  "world_note": "HYDE is used to 1900 because it is the one series in the table with a value at every point; McEvedy & Jones (1978) run lower in antiquity (4 million in 10000 BC against HYDE’s 2 million; 170 million in AD 1 against 188 million) and show the fourteenth-century fall that HYDE smooths away (360 million in 1300, 350 million in 1400).",
+  "vf": "S",
+  "projection": {
+   "src": [
+    [
+     "UN DESA Population Division, World Population Prospects 2024: Summary of Results",
+     "https://desapublications.un.org/file/20622/download"
+    ],
+    [
+     "IPSS (National Institute of Population and Social Security Research, Japan), Population Statistics 2025, Table 1-9: world population 1950–2100 from UN World Population Prospects 2024, medium variant",
+     "https://www.ipss.go.jp/syoushika/tohkei/Data/Popular2025/T01-09.files/sheet001.htm"
+    ],
+    [
+     "IPSS, Population Statistics 2025, Table 1-12: world population by major region 1950–2100 (UN WPP 2024, medium variant)",
+     "https://www.ipss.go.jp/syoushika/tohkei/Data/Popular2025/T01-12.files/sheet001.htm"
+    ],
+    [
+     "IPSS, Population Statistics 2025, Table 1-13: shares and growth rates by major region 1950–2100 (UN WPP 2024, medium variant)",
+     "https://www.ipss.go.jp/syoushika/tohkei/Data/Popular2025/T01-13.files/sheet001.htm"
+    ]
+   ],
+   "variant": "UN World Population Prospects 2024, medium variant",
+   "years": [
+    2030,
+    2040,
+    2050,
+    2060,
+    2070,
+    2080,
+    2090,
+    2100
+   ],
+   "world": [
+    8569,
+    9177,
+    9664,
+    9989,
+    10189,
+    10283,
+    10272,
+    10180
+   ],
+   "regions": {},
+   "regions_note": "The decadal values by region (2030, 2040, 2060–2090) could not be reached in this session: the Our World in Data CSV was refused, the UN data portal renders by script and the search budget ran out. The six regions are given below at the three points the IPSS table carries (2025, 2050, 2100), in millions, from the same WPP 2024 medium variant.",
+   "regions_at": {
+    "years": [
+     2025,
+     2050,
+     2100
+    ],
+    "World": [
+     8231.6,
+     9664.4,
+     10180.2
+    ],
+    "Africa": [
+     1549.9,
+     2466.6,
+     3813.9
+    ],
+    "Asia": [
+     4835.3,
+     5280.4,
+     4612.7
+    ],
+    "Europe": [
+     744.4,
+     703.0,
+     592.3
+    ],
+    "Latin America and the Caribbean": [
+     667.9,
+     730.1,
+     613.4
+    ],
+    "Northern America": [
+     387.5,
+     426.6,
+     475.0
+    ],
+    "Oceania": [
+     46.6,
+     57.7,
+     72.9
+    ],
+    "src": [
+     [
+      "IPSS, Population Statistics 2025, Table 1-12: world population by major region 1950–2100 (UN WPP 2024, medium variant)",
+      "https://www.ipss.go.jp/syoushika/tohkei/Data/Popular2025/T01-12.files/sheet001.htm"
+     ]
+    ]
+   },
+   "share": {
+    "years": [
+     1950,
+     1980,
+     2000,
+     2025,
+     2100
+    ],
+    "Africa": [
+     9.1,
+     10.9,
+     13.5,
+     18.8,
+     37.5
+    ],
+    "Asia": [
+     54.9,
+     59.2,
+     60.7,
+     58.7,
+     45.3
+    ],
+    "Europe": [
+     22.0,
+     15.6,
+     11.8,
+     9.0,
+     5.8
+    ],
+    "Latin America and the Caribbean": [
+     6.7,
+     8.1,
+     8.4,
+     8.1,
+     6.0
+    ],
+    "Northern America": [
+     6.7,
+     5.7,
+     5.1,
+     4.7,
+     4.7
+    ],
+    "Oceania": [
+     0.5,
+     0.5,
+     0.5,
+     0.6,
+     0.7
+    ],
+    "unit": "per cent of world population",
+    "src": [
+     [
+      "IPSS, Population Statistics 2025, Table 1-13: shares and growth rates by major region 1950–2100 (UN WPP 2024, medium variant)",
+      "https://www.ipss.go.jp/syoushika/tohkei/Data/Popular2025/T01-13.files/sheet001.htm"
+     ]
+    ]
+   },
+   "peak": {
+    "year": 2085,
+    "millions": 10288,
+    "t": "The UN expects world population to reach a peak of around 10.3 billion people in the mid-2080s, up from 8.2 billion in 2024, and to fall to 10.2 billion by the end of the century; 2085, at 10,288 million, is the highest of the medium variant’s five-year points.",
+    "src": [
+     [
+      "UN DESA Population Division, World Population Prospects 2024: Summary of Results",
+      "https://desapublications.un.org/file/20622/download"
+     ],
+     [
+      "IPSS (National Institute of Population and Social Security Research, Japan), Population Statistics 2025, Table 1-9: world population 1950–2100 from UN World Population Prospects 2024, medium variant",
+      "https://www.ipss.go.jp/syoushika/tohkei/Data/Popular2025/T01-09.files/sheet001.htm"
+     ]
+    ],
+    "vf": "V"
+   },
+   "vf": "S"
+  }
+ },
+ "unconfirmed": [
+  {
+   "id": "population.projection.regions",
+   "why": "The UN WPP 2024 medium variant by decade (2030, 2040, 2060, 2070, 2080, 2090) for the six regions could not be reached in this session: the Our World in Data CSV was refused by the fetch allowlist, the UN data portal renders by script, and the shared web-search budget ran out. The world series by decade is complete (IPSS Table 1-9); the regions are given in projection.regions_at for 2025, 2050 and 2100 (IPSS Table 1-12) and as shares in projection.share (IPSS Table 1-13). projection.regions is left empty rather than interpolated."
+  },
+  {
+   "id": "population.projection.peak",
+   "why": "The UN gives the peak as ‘around 10.3 billion people in the mid-2080s’; the year 2085 and 10,288 million are the highest of the medium variant’s five-year points (IPSS Table 1-9), not the UN’s single-year peak, which was not reached."
+  },
+  {
+   "id": "antonine-plague",
+   "why": "route: Mainz stands for the Rhine legions, which the source says were struck without a year; 172 is the year by which the source says the plague had reached nearly every part of the empire."
+  },
+  {
+   "id": "plague-cyprian",
+   "why": "route: Meroë stands for ‘Aethiopia’, the origin contemporaries gave; 249 is the year the plague is recorded in Egypt, not a dated arrival in Nubia."
+  },
+  {
+   "id": "plague-athens",
+   "why": "route: Meroë, Memphis and Cyrene stand for Thucydides’ Ethiopia, Egypt and Libya; the source dates only the outbreak at Athens (430 BC), so every point carries -430."
+  },
+  {
+   "id": "great-plague-marseille",
+   "why": "route: the ports are the ship’s calls before Marseille in 1720; the source gives no dates for the spread to Aix, Arles, Apt and Toulon, so those towns are named in the text but not drawn."
+  },
+  {
+   "id": "cocoliztli-1545",
+   "why": "route: Chiapas (San Cristóbal) and Guatemala are where the source says the disease may have reached ‘shortly after onset’; their year is the outbreak’s start, not a dated arrival."
+  },
+  {
+   "id": "asian-flu-1957",
+   "why": "route: the source names India and the United States as countries, so their points stand at New Delhi and Washington for placement only."
+  },
+  {
+   "id": "hong-kong-flu-1968",
+   "why": "route: Saigon stands for Vietnam and Madras is named by the source; the US and Australian waves are told in the text, not drawn."
+  },
+  {
+   "id": "ebola-2014",
+   "why": "route: Freetown stands for Sierra Leone, where the source dates the first known death to 26 May 2014 without naming the town."
+  },
+  {
+   "id": "covid-19",
+   "why": "dead: the WHO dashboard renders by script and could not be read; the 7,115,203 reported deaths (to 5 August 2026) are taken from Wikipedia’s COVID-19 pandemic page, which cites WHO data. The 14.9 million excess-death estimate is read on the WHO’s own release."
+  },
+  {
+   "id": "spanish-flu",
+   "why": "route: the source dates the waves, not each place; Bombay and Apia carry 1918 (the second wave; Samoa’s outbreak is undated on the page), Sydney 1919 (the third wave reached Australia), Mexico City and Lima 1920 (the fourth)."
+  },
+  {
+   "id": "route-placeholders",
+   "why": "Where a source names a country rather than a town, the route point stands at a capital or chief city for placement only: Washington and New Delhi (asian-flu-1957), Bogotá and Tegucigalpa (zika-2015, year of the reported case counts), New York, Madrid, London and Auckland (h1n1-2009), New Delhi and Johannesburg (covid-19: India’s Delta wave, Omicron’s detection in South Africa), Toamasina (Madagascar, third-plague-pandemic), Rutland (Vermont, polio-epidemics), Kinshasa 1920 (the ‘1920s’ of the first suspected cases, hiv-aids)."
+  }
+ ]
+}

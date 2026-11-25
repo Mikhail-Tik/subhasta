@@ -156,7 +156,22 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
    w.__WORLD.open();assert(q('.wd-card .wd-ch').textContent==='1500'&&(!HI.centuries.length||q('.wd-card .wd-hist')),'the year card carries the world of the century when the research holds it');
    if(HI.events.length){const e=HI.events.find(x=>x.route)||HI.events[0];w.__WORLD.event(e.id);assert(q('.wd-card .wd-ch').textContent===e.n&&qa('.wd-card .wd-srcs a').length>=1,'an event opens with its sources');}
    if(HI.wonders.length){w.__WORLD.wonder(HI.wonders[0].id);assert(q('.wd-card .wd-ch').textContent===HI.wonders[0].n,'a wonder opens');}
-   w.__WORLD.mode('now');
+   /* v34: the denser Then — tiers, paced roads, the cities, the world now, the century's life; the fine borders; the Eye's world game */
+   assert(HI.events.length>=250&&HI.events.every(e=>[1,2,3].includes(e.tier)&&typeof e.c==='number')&&HI.events.some(e=>e.when&&e.when.length===e.route.length),'every event carries a tier and its century; some roads are paced by their years');
+   assert(HI.events.some(e=>e.kind==='migration')&&HI.events.some(e=>e.kind==='plague'),'peoples on the move and epidemics are among the events');
+   assert(Array.isArray(HI.cities)&&HI.cities.length>=20&&HI.cities.every(c=>c.moments.length>=8&&c.from<=c.moments[0].y),'the cities through time carry their moments');
+   w.__WORLD.year(1348);w.__WORLD.open();assert(q('.wd-card .wd-ch').textContent==='1348'&&qa('.wd-card [data-wcity]').length>=5,'the year card lists the cities standing');
+   q('.wd-card [data-wcity]').click();assert(/a city through time/.test(q('.wd-card .wd-ck').textContent)&&qa('.wd-card .wd-ev').length>=1,'a city opens with its story up to the year');
+   const WN=G('WORLD_NOW');assert(WN&&WN.conflicts.length>=20&&WN.conflicts.every(k=>k.ll&&k.src.length)&&/^\d{4}-\d{2}-\d{2}$/.test(WN.asof),'the world now holds its sourced conflicts with a date');
+   w.__WORLD.year(2026);assert(/armed conflicts? active/.test(q('#v-world .wd-read').textContent)&&/people/.test(q('#v-world .wd-read').textContent),'at 2026 the lead counts the conflicts and the people');
+   w.__WORLD.year(2080);assert(/projection/i.test(q('#v-world .wd-eye').textContent),'past now the rail shows the projection');
+   assert(qa('#v-world .wd-legend .wd-lay').length>=2&&q('#v-world .wd-legend i.folk'),'the legend offers the layers and the three tiers of society');
+   assert(G('NE_LAND').length>=500&&(G('HIST_PICS')&&Object.keys(G('HIST_PICS')).length>=30),'the land polygons and the public-domain pictures are on the page');
+   assert(w.__EYE.t2y(1000)===2026&&w.__EYE.y2t(-3000)===0&&w.__EYE.t2y(w.__EYE.y2t(1610))===1610,'the Eye’s rail runs to 2026 and back');
+   w.__S.go('eye');assert(qa('#v-eye [data-eye-n]').length===3&&qa('#v-eye [data-eye-mode]').length>=5,'the Eye offers the length of a game and the world game');
+   const hp=w.__EYE.pick('history');assert(hp.length>=3&&hp.every(x=>x.img&&typeof x.lat==='number'&&typeof x.y0==='number'),'the world game draws from the pictures of the record');
+   w.location.hash='#movement-byzantine';w.dispatchEvent(new w.Event('hashchange'));assert(qa('#v-detail .mvpics figure').length>=1,'Byzantine art shows its pictures first');
+   w.__S.go('world');w.__WORLD.mode('now');
    w.__WORLD.player('gagosian');assert(w.__WORLD.net().sel==='gagosian'&&/8 other offices|other offices/.test(q('.wd-ch').textContent),'a player card opens with its offices');q('.wd-x').click();
    w.__WORLD.mode('now');assert(q('#wdNet').hidden,'leaving the Net hides its controls');
    w.__S.go('hammer');assert(q('#v-hammer .forwhom')&&qa('#v-hammer .forwhom span').length===3&&/Collector/.test(q('#v-hammer .forwhom').textContent),'every section says what it is worth, to whom');

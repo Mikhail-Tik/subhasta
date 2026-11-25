@@ -384,8 +384,12 @@
 .eye-globe-host{position:relative;border:1px solid var(--rule);border-radius:4px;background:var(--paper2);overflow:hidden;min-height:220px}
 .eye-globe{display:block;cursor:crosshair;touch-action:none;outline:none}.eye-globe:focus-visible{box-shadow:inset 0 0 0 2px var(--gilt)}
 .eye-gz{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:12px}.eye-gz .lk{font-size:16px;line-height:1;padding:2px 8px;border:1px solid var(--rule);border-radius:3px}
-.eye-year{display:grid;grid-template-columns:1fr auto;gap:6px 10px;align-items:center;font-size:13px}.eye-year>span{grid-column:1/-1;font-family:var(--ui);color:var(--ink2)}.eye-year output{color:var(--gilt);font-weight:600;font-size:15px}
-.eye-year input[type=range]{width:100%;accent-color:var(--gilt)}.eye-year input[type=number]{width:92px;padding:5px 8px}
+.eye-year{display:grid;grid-template-columns:1fr auto auto;gap:6px 10px;align-items:center;font-size:13px}.eye-year>span{font-family:var(--ui);color:var(--ink2)}.eye-year output{color:var(--gilt);font-weight:600;font-size:15px}
+.eye-year input[type=range]{grid-column:1/-1;width:100%;margin:4px 0 0;accent-color:var(--gilt)}.eye-year input[type=number]{width:84px;padding:5px 8px}
+.eye-nudge{display:inline-flex;gap:2px}.eye-nudge .lk{padding:2px 5px;font-size:11.5px;font-variant-numeric:tabular-nums}
+.eye-ticks{grid-column:1/-1;position:relative;height:14px;font-size:10.5px;font-family:var(--ui);color:var(--ink3)}.eye-ticks span{position:absolute;top:0;transform:translateX(-50%);white-space:nowrap}.eye-ticks span:first-child{transform:none}.eye-ticks span:last-child{transform:translateX(-100%)}
+.eye-nbar{display:inline-flex;gap:6px;align-items:center;margin-left:auto}.eye-nbtn{font-family:var(--ui);font-size:13px;padding:3px 10px;border:1px solid var(--rule2);border-radius:999px;text-decoration:none;color:var(--ink2);min-width:34px;text-align:center}.eye-nbtn.on{border-color:var(--gilt);color:var(--ink);text-decoration:none}
+@media(max-width:640px){.eye-year{grid-template-columns:1fr auto}.eye-nudge{grid-column:1/-1}}
 .eye-cat{font-size:15px;line-height:1.5;border-left:3px solid var(--gilt);padding:4px 0 4px 12px}
 .eye-price{display:flex;flex-direction:column;gap:6px;font-size:13px;font-family:var(--ui);color:var(--ink2)}.eye-pin{display:flex;align-items:center;gap:6px;font-size:20px;color:var(--ink)}.eye-pin input{font-size:20px;width:160px;padding:6px 10px}
 .eye-act{display:flex;gap:8px;flex-wrap:wrap}
@@ -438,3 +442,12 @@
 /* v29.1: the chapters at the end of every section */
 .readon{display:flex;flex-wrap:wrap;gap:8px;align-items:stretch;margin:28px 0 8px;padding-top:14px;border-top:1px solid var(--rule)}.readon>b{flex-basis:100%;font-family:var(--ui);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--gilt);font-weight:600}.readon button{display:flex;flex-direction:column;align-items:flex-start;gap:2px;flex:1 1 160px;max-width:260px;padding:10px 12px;border:1px solid var(--rule2);border-radius:6px;background:var(--paper);text-align:left;color:var(--ink);cursor:pointer}.readon button:hover{border-color:var(--gilt)}.readon button span{font-family:var(--read);font-size:16px}.readon button small{font-family:var(--ui);font-size:12px;color:var(--ink2)}
 #v-world .readon{display:none}
+.eye-srcs{display:flex;flex-wrap:wrap;gap:4px 10px;margin:6px 0 4px;font-size:12px}
+/* v34: the Eye's round dots, the movement choice, the novice's hint, a played round opened again */
+.eye-head{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.eye-head .eye-pts{margin-left:auto}
+.eye-dots{display:inline-flex;gap:4px;flex-wrap:wrap}.eye-dot{font:500 11.5px/1 var(--ui);min-width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;border-radius:999px;border:1px solid var(--rule2);color:var(--ink3);background:none;padding:0 5px}
+button.eye-dot.done{color:var(--ink);border-color:var(--gilt);cursor:pointer}button.eye-dot.done:hover,button.eye-dot.on{background:var(--gilt);color:var(--paper)}.eye-dot.now{border-color:var(--ink);color:var(--ink);font-weight:700}
+.eye-mvsel{display:inline-flex;gap:8px;align-items:center;font-family:var(--ui);font-size:13px;flex-basis:100%;margin-top:4px}.eye-mvsel select{max-width:min(100%,420px);padding:4px 8px;font:inherit;color:var(--ink);background:var(--paper);border:1px solid var(--rule2);border-radius:4px}
+.eye-hintn{display:block;margin-top:4px;font-family:var(--ui);font-size:12.5px;color:var(--gilt)}
+.eye-view .eye-ans{margin:0 0 8px}.eye-view p{font-size:14px}.eye-pairs{display:grid;grid-template-columns:1fr 1fr;gap:10px}.eye-pair.fake figcaption b{color:var(--claret)}
+@media(max-width:640px){.eye-pairs{grid-template-columns:1fr}}

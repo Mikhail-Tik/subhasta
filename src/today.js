@@ -24,7 +24,12 @@ const lvSale=s=>s&&typeof s==='object'&&lvStr(s.id,80)&&/^[a-z0-9-]+$/.test(s.id
   &&(s.lots==null||(Array.isArray(s.lots)&&s.lots.length<=30&&s.lots.every(l=>l&&typeof l==='object'&&lvStr(l.a,200)&&lvStr(l.t,300)&&lvOpt(l.est,120)&&lvOpt(l.res,120)&&lvOpt(l.y,40)&&lvOpt(l.note,600))))&&lvSrc(s.src);
 const lvURL=v=>typeof v==='string'&&/^https:\/\/[^\s"'<>]{4,600}$/.test(v);
 const lvSrc=a=>!a||(Array.isArray(a)&&a.length<=12&&a.every(s=>Array.isArray(s)&&lvStr(s[0],200)&&lvURL(s[1])));
+/* v34: a sold lot the desk adds to the Hammer between rebuilds, with its picture when Wikimedia Commons holds a free one */
+const LV_LIC=/public domain|\bpd\b|pd-|cc0|cc[- ]by(?:[- ]sa)?(?![- ]n)/i,LV_LICBAD=/non-?commercial|\bnc\b|\bnd\b|no-?deriv|fair use|all rights/i;
+const lvPic=p=>p==null||(typeof p==='object'&&lvStr(p.file,240)&&!/[<>"]/.test(p.file)&&lvURL(p.page)&&/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/.test(p.page)&&lvStr(p.lic,160)&&LV_LIC.test(p.lic)&&!LV_LICBAD.test(p.lic)&&lvOpt(p.author,200)&&lvOpt(p.caption,300)&&(p.what==null||p.what==='work'||p.what==='related'));
+const lvLot=l=>l&&typeof l==='object'&&lvStr(l.artist,120)&&lvStr(l.title,200)&&lvOpt(l.year,60)&&lvNum(l.price)&&l.price>0&&l.price<2000&&lvStr(l.house,40)&&/^[a-z0-9-]+$/.test(l.house)&&lvStr(l.city,60)&&lvISO(l.date)&&lvStr(l.cat,40)&&(l.est_lo==null||lvNum(l.est_lo))&&(l.est_hi==null||lvNum(l.est_hi))&&lvOpt(l.note,900)&&(l.rec==null||(Array.isArray(l.rec)&&l.rec.length<=4&&l.rec.every(x=>lvStr(x,120))))&&(l.vf==null||['V','S','U'].includes(l.vf))&&lvSrc(l.src)&&Array.isArray(l.src)&&l.src.length>=1&&lvPic(l.pic);
 function liveValid(k,d){if(!d||typeof d!=='object'||!lvISO(d.asof))return false;
+  if(k==='lots')return Array.isArray(d.items)&&d.items.length<=60&&d.items.every(lvLot);
   if(k==='status')return !d.note||lvStr(d.note,400);
   if(k==='read')return lvStr(d.h,240)&&lvStr(d.dek,900)&&(!d.body||(Array.isArray(d.body)&&d.body.length<=6&&d.body.every(p=>lvStr(p,1600))))&&(!d.tells||(Array.isArray(d.tells)&&d.tells.length<=6&&d.tells.every(t=>t&&lvStr(t.l,120)&&lvStr(t.v,60)&&lvSrc(t.src?[t.src]:null))))&&(!d.watch||(Array.isArray(d.watch)&&d.watch.every(w=>lvStr(w,300))))&&(!d.change||lvStr(d.change,600))&&lvSrc(d.src);
   if(k==='sales')return Array.isArray(d.items)&&d.items.length<=30&&d.items.every(lvSale);
@@ -32,6 +37,12 @@ function liveValid(k,d){if(!d||typeof d!=='object'||!lvISO(d.asof))return false;
   return false;}
 const kbValid=d=>d&&lvStr(d.q,300)&&lvStr(d.a,9000)&&lvISO(d.asof)&&lvSrc(d.src)&&(!d.tags||(Array.isArray(d.tags)&&d.tags.length<=12&&d.tags.every(t=>lvStr(t,60))))&&lvOpt(d.kind,20);
 const lvNewer=(d,baked)=>!!d&&String(d.asof)>=String(baked);
+/* the desk's lots join the Hammer: new ones only (the same artist, title and date are the same lot), with the boot's id rule and the price
+   ranks redone; their pictures join LOT_PICS */
+function liveLots(){const d=LIVEDB.lots;if(!d||!Array.isArray(d.items))return 0;let n=0;
+  d.items.forEach(l=>{if(RESULTS.some(r=>r.artist===l.artist&&r.title===l.title&&r.date===l.date))return;const r=Object.assign({rec:[],note:'',year:'',vf:'S'},l,{live:true});delete r.pic;r.id=slug(r.artist.split(' ').pop()+'-'+r.title);if(RESULTS.some(x=>x.id===r.id))r.id+='-'+String(r.date).slice(0,4);r.chain=null;RESULTS.push(r);if(typeof BYPRICE==='object'&&Array.isArray(BYPRICE))BYPRICE.push(r);n++;
+    if(l.pic&&typeof LOT_PICS==='object'&&LOT_PICS&&typeof lotPicKey==='function'){const k=lotPicKey(l.artist,l.title);if(!LOT_PICS[k])LOT_PICS[k]={file:l.pic.file,page:l.pic.page,author:l.pic.author||'',lic:l.pic.lic,caption:l.pic.caption||'',what:l.pic.what==='related'?'related':'work'};}});
+  if(n&&typeof BYPRICE==='object'&&Array.isArray(BYPRICE)){BYPRICE.sort((a,b)=>b.price-a.price);BYPRICE.forEach((r,i)=>r.rank=i+1);}return n;}
 function liveStatus(){return lvNewer(LIVEDB.status,LIVE.status.asof)?LIVEDB.status:LIVE.status;}
 function liveRead(){return lvNewer(LIVEDB.read,LIVE.read.asof)?LIVEDB.read:LIVE.read;}
 function liveSales(){return lvNewer(LIVEDB.sales,LIVE.asof)?LIVEDB.sales.items:LIVE.sales;}
@@ -39,16 +50,17 @@ function liveWire(){const base=NEWS.map(n=>({d:n.d,dt:n.dt,o:n.o,h:n.h,s:n.s,u:n
 function kbAll(){const m=new Map();KB.forEach(k=>m.set(k.id,k));LIVEDB.kb.forEach(k=>{const b=m.get(k.id);if(!b||String(k.asof)>=String(b.asof))m.set(k.id,k);});return [...m.values()];}
 /* the db's live/ documents and kb/ collection, subscribed once each */
 function liveInit(){if(!dbRef)return;const val=d=>d.exists===false?null:(typeof d.data==='function'?d.data():d.data);
-  try{dbRef.collection('live').onSnapshot(snap=>{const ch=new Set();(snap&&snap.docs||[]).forEach(d=>{const id=d.id;if(!['status','read','sales','wire'].includes(id))return;const x=val(d);if(liveValid(id,x)){LIVEDB[id]=x;ch.add(id);}});if(ch.size)liveApply(ch);},()=>{});}catch(e){}
+  try{dbRef.collection('live').onSnapshot(snap=>{const ch=new Set();(snap&&snap.docs||[]).forEach(d=>{const id=d.id;if(!['status','read','sales','wire','lots'].includes(id))return;const x=val(d);if(liveValid(id,x)){LIVEDB[id]=x;ch.add(id);}});if(ch.size)liveApply(ch);},()=>{});}catch(e){}
   try{dbRef.collection('kb').onSnapshot(snap=>{const L=[];(snap&&snap.docs||[]).forEach(d=>{if(!/^[a-z0-9-]{1,80}$/.test(d.id))return;const x=val(d);if(kbValid(x))L.push(Object.assign({},x,{id:d.id}));});LIVEDB.kb=L.slice(0,500);liveApply(new Set(['kb']));},()=>{});}catch(e){}}
 /* v29.1: the website has no database — it reads the same documents as files beside the page (docs/live/<id>.json, docs/kb/index.json),
    which the daily desk writes to the repository; the same validators apply, so a bad file is ignored like a bad document */
 function liveStatic(){if(window.claude&&window.claude.use)return;if(!/^https?:$/.test(location.protocol))return;const J=u=>fetch(u,{cache:'no-cache'}).then(r=>r.ok?r.json():null).catch(()=>null);
-  Promise.all(['status','read','sales','wire'].map(id=>J(`live/${id}.json`).then(x=>[id,x]))).then(rows=>{const ch=new Set();rows.forEach(([id,x])=>{if(liveValid(id,x)){LIVEDB[id]=x;ch.add(id);}});if(ch.size)liveApply(ch);}).catch(()=>{});
+  Promise.all(['status','read','sales','wire','lots'].map(id=>J(`live/${id}.json`).then(x=>[id,x]))).then(rows=>{const ch=new Set();rows.forEach(([id,x])=>{if(liveValid(id,x)){LIVEDB[id]=x;ch.add(id);}});if(ch.size)liveApply(ch);}).catch(()=>{});
   J('kb/index.json').then(L=>{if(!Array.isArray(L))return;const K=L.filter(x=>x&&/^[a-z0-9-]{1,80}$/.test(x.id)&&kbValid(x)).slice(0,500);if(K.length){LIVEDB.kb=K;liveApply(new Set(['kb']));}}).catch(()=>{});}
 /* a live document arrived: the index learns it and the blocks that show it are drawn again */
 function liveApply(ch){kxInvalidate();if(typeof wdInvalidate==='function')wdInvalidate();const on=id=>{const el=$(id);return el&&$('#v-floor').contains(el)?el:null;};
   const step=(what,f)=>{try{f();}catch(err){reportError(err,'live '+what);}};
+  if(ch.has('lots'))step('lots',()=>{if(liveLots()&&typeof rendered==='object'){rendered.hammer=false;if(typeof current==='string'&&current==='hammer')renderView('hammer');}});
   if(ch.has('read'))step('read',()=>{const a=on('#tdRead'),b=on('#tdTells');if(a)a.innerHTML=tdReadHTML();if(b)b.innerHTML=tdTellsHTML();});
   if(ch.has('sales'))step('sales',()=>{const a=on('#tdSales');if(a){a.innerHTML=tdSalesHTML();tdBind(a);}});
   if(ch.has('wire'))step('wire',()=>{const a=on('#tdWire');if(a)a.innerHTML=tdWireHTML();});

@@ -309,6 +309,8 @@ const IMAGE_SITES = [
 const lotTitles = D => new Set([...(D.RESULTS || []), ...(D.RESULTS_MORE || [])].map(r => r.title));
 const storyIds = D => ids([...(D.STORIES || []), ...(D.STORIES_MORE || [])]);
 const orgIds = D => new Set([...ids(D.HOUSES), ...ids(D.PLAYERS)]);
+/* v34: the houses the roster lacks are named in src/data_school.js (HAMMER_HOUSES, written by tools/gen_research.py); that file is not loaded here */
+const hammerHouses = () => { try { const t = require('fs').readFileSync(require('path').join(__dirname, '..', 'src', 'data_school.js'), 'utf8'); const m = t.match(/const HAMMER_HOUSES=(\{[^;]*\});/); return m ? Object.keys(JSON.parse(m[1])) : []; } catch (e) { return []; } };
 const atlasStations = D => new Set([...ids(D.STATIONS), ...(ENGINE.THEMES || [])]);
 const REEL_TARGET = { lot: lotTitles, path: lotTitles, up: D => ids(D.UPCOMING, 'title'), story: storyIds, signal: D => ids(D.SIGNALS, 't'), treaty: D => ids([...(D.PRIVATE_TREATY || []), ...(D.PRIVATE_MORE || [])], 'work'), kpi: D => keys(D.EVIDENCE), under: D => ids(D.ATLAS), journey: D => ids(D.JOURNEYS), symptom: D => ids(D.SYMPTOMS), hub: D => ids(D.HUBS), segment: D => ids(D.SEGMENTS) };
 const REEL_TARGET_NAME = { lot: 'a lot title in RESULTS/RESULTS_MORE', path: 'a lot title in RESULTS/RESULTS_MORE', up: 'UPCOMING.title', story: 'STORIES/STORIES_MORE.id', signal: 'SIGNALS.t', treaty: 'PRIVATE_TREATY/PRIVATE_MORE.work', kpi: 'EVIDENCE key (the Reel reads R.EVIDENCE[ref]; MARKET.global mirrors it)', under: 'ATLAS.id', journey: 'JOURNEYS.id', symptom: 'SYMPTOMS.id', hub: 'HUBS.id', segment: 'SEGMENTS.id' };
@@ -324,7 +326,7 @@ const REFS = [
   { name: 'REEL[].k → Reel kinds (DUR in reel.js)', sev: 'ERROR', items: D => (D.REEL || []).map((c, i) => ({ v: c.k, where: `REEL[${i}]` })), target: () => new Set(ENGINE.REEL_KINDS), targetName: 'a kind the Reel renders' },
   // --- houses, people, lots
   { name: 'RESULTS[].house → HOUSES ids', sev: 'ERROR', items: D => (D.RESULTS || []).map((r, i) => ({ v: r.house, where: `RESULTS[${i}] ${q(r.title)}` })), target: D => ids(D.HOUSES), targetName: 'HOUSES.id' },
-  { name: 'RESULTS_MORE[].house → HOUSES ids', sev: 'ERROR', items: D => (D.RESULTS_MORE || []).map((r, i) => ({ v: r.house, where: `RESULTS_MORE[${i}] ${q(r.title)}` })), target: D => ids(D.HOUSES), targetName: 'HOUSES.id' },
+  { name: 'RESULTS_MORE[].house → HOUSES ids (or a HAMMER_HOUSES key)', sev: 'ERROR', items: D => (D.RESULTS_MORE || []).map((r, i) => ({ v: r.house, where: `RESULTS_MORE[${i}] ${q(r.title)}` })), target: D => new Set([...ids(D.HOUSES), ...hammerHouses()]), targetName: 'HOUSES.id ∪ HAMMER_HOUSES' },
   { name: 'UPCOMING[].house → HOUSES ids', sev: 'ERROR', items: D => (D.UPCOMING || []).map((r, i) => ({ v: r.house, where: `UPCOMING[${i}] ${q(r.title)}` })), target: D => ids(D.HOUSES), targetName: 'HOUSES.id' },
   { name: 'RESULTS[].cat → CATS', sev: 'ERROR', items: D => [...(D.RESULTS || []), ...(D.RESULTS_MORE || [])].map(r => ({ v: r.cat, where: `lot ${q(r.title)}` })), target: D => new Set(D.CATS || []), targetName: 'CATS' },
   { name: 'HOUSES[].type → TYPES', sev: 'ERROR', items: D => (D.HOUSES || []).map(h => ({ v: h.type, where: `HOUSES[${h.id}]` })), target: D => keys(D.TYPES), targetName: 'TYPES key' },

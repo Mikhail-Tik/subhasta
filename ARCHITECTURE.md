@@ -777,3 +777,26 @@ drawn on a canvas in the card) and `openPerson`; the year card opens with `centu
 buttons that fly to their capitals, what moved, the art, the events within twenty-five years, the wonders standing, the people alive.
 `setYear` nudges `G.vel` against the direction of time so the globe turns back when the years do. The licence of the borders
 (GPL-3.0, aourednik/historical-basemaps) is named in the legend and in `data/hist/index.json`.
+
+## 26. v34: the living globe, denser and in pictures (24 November 2026)
+
+**Then, the borders.** `histTier(p)` sorts every polity of a snapshot into a state (2), a people or a culture without a state (1) or land
+named by its way of life (0, hatching only) by its name (`HIST_LAND`, `HIST_FOLK`, `HIST_NOTFOLK`). `drawHistBorders` draws states with a
+wash and a fine ink line and peoples with a paler wash and a dotted line; from 1.5× the rings are smoothed (one Chaikin cut), drawn on an
+offscreen canvas, cut to the land with `destination-in` against `NE_LAND` (Natural Earth 10m land, `tools/gen_regions.py`) and given an
+inner band of colour. `glbPlateDraw(…,{borders:false})` and `glbCloseDraw(…,{regions:false,coast:true})` keep today’s borders and regions
+off the Then plate. `histSnap(y)` prefers the close set (0.1°, `tools/gen_history_borders.py --fine`, four chunks by era fetched once the
+view is near; `HIST_ASSETS.fine` in the artifacts). `setYear` holds the view when the zoom is past 1.15, the reader holds the globe or a
+place is focused. **Then, the content.** Events carry `tier` and `c`; `eventsAt` shows tier 1 at every zoom, 2 from 1.6×, 3 from 2.4×;
+`routeProgress` paces a road by `when`; `EV_STYLE` styles migrations, epidemics, journeys and voyages; `G.layers` puts them out from the
+legend. The year card adds the century’s `life`, `food`, `smell`, `trouble`, the century’s other events and the cities; `openCityHist`,
+`openConflict`, `openObject`/`openObjects`. `wdPop` interpolates `HISTORY.pop` (log-linear) and the UN projection; the rail runs to 2100
+(`WD_END`) with a dashed reach past now. **Now.** `drawObjects` (OBJECTS) and `drawToday` (WORLD_NOW conflicts) are layers of Now.
+**Pictures.** `lotPic`/`lotPicFig`/`lotThumb` in app.js: the Library’s copy, a Commons file (`LOT_PICS`, hotlinked by
+`Special:FilePath`), or `wikiPic(title)` — the lead picture of the Wikipedia article, kept only when hosted on Commons and when the
+Commons licence (`extmetadata`) is Public Domain, CC0, CC BY or CC BY-SA; the artifact links out instead. `HIST_PICS` (99, files in
+`docs/img/v34`, assets mapped by `data/pic_assets.json` in `build.py`). **The live desk.** `live/lots` (`lvLot`, `liveLots`) adds sold
+lots between rebuilds; `tools/desk_files.py` writes `docs/live/*.json` and `docs/kb/index.json` from a dump of the database. **The Eye.**
+`EYE_RAIL` (piecewise, to 2026), `eyeN` (5/10/15), `extra` rounds, `EYE_TIERS` with `EYE_MARGIN`, `eyeMvOf`/`eyeMvPool` (artists or date
+and place), `eyeViewRound`, and the history game (`eyePoolHistory`).
+

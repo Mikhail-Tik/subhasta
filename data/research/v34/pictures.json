@@ -1,0 +1,1791 @@
+[
+ {
+  "key": "giza-pyramids",
+  "for": {
+   "wonder": "giza"
+  },
+  "t": "The pyramids of Giza seen from the desert: the Great Pyramid of Khufu, the pyramid of Khafre and the pyramid of Menkaure, built between about 2600 and 2500 BC.",
+  "a": "“Robster1983” (photograph)",
+  "y": "undated (21st century)",
+  "c": "Giza plateau, Egypt",
+  "w": 1201,
+  "h": 792,
+  "lic": "CC0 1.0 public-domain dedication: the photographer released the photograph under CC0 (OpenStax World History credit line, verbatim: \"The Giza-pyramids and Giza Necropolis, Egypt\" by “Robster1983”/Wikimedia Commons, CC0 1.0)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00106/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A03_03_GizaPyramid.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "giza-pyramids.jpg"
+ },
+ {
+  "key": "ziggurat-ur",
+  "for": {
+   "wonder": "ziggurat-ur"
+  },
+  "t": "The partly reconstructed Great Ziggurat of Ur near Nasiriyah, Iraq, raised by Ur-Nammu in the twenty-first century BC; the upper tiers are gone and the lower stage was refaced in the 1980s.",
+  "a": "“Tla2006” (photograph)",
+  "y": "undated (21st century)",
+  "c": "Tell el-Muqayyar (Ur), Iraq",
+  "w": 1100,
+  "h": 480,
+  "lic": "public domain: the photographer released the photograph into the public domain (OpenStax World History credit line, verbatim: \"Ziggarat of Ur\" by “Tla2006”/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00105/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A03_02_Ziggurat2.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "ziggurat-ur.jpg"
+ },
+ {
+  "key": "parthenon",
+  "for": {
+   "wonder": "parthenon"
+  },
+  "t": "The Parthenon on the Acropolis of Athens, built 447–432 BC under Pericles, from the north-west.",
+  "a": "Steve Swayne (photograph)",
+  "y": "undated (21st century)",
+  "c": "Acropolis, Athens",
+  "w": 900,
+  "h": 633,
+  "lic": "public domain: the photographer released the photograph into the public domain on Flickr (OpenStax World History credit line, verbatim: “The Parthenon Athens” by Steve Swayne/Flickr, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00133/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A06_02_Parth.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "parthenon.jpg"
+ },
+ {
+  "key": "teotihuacan",
+  "for": {
+   "wonder": "teotihuacan"
+  },
+  "t": "Teotihuacan from the top of the Pyramid of the Moon, looking down the Avenue of the Dead; the Pyramid of the Sun (c. AD 100) stands at the far left.",
+  "a": "“Jackhynes” (photograph)",
+  "y": "undated (21st century)",
+  "c": "Teotihuacan, State of Mexico",
+  "w": 1201,
+  "h": 801,
+  "lic": "public domain: the photographer released the photograph into the public domain (OpenStax World History credit line, verbatim: “View of the Avenue of the Dead and the Pyramid of the Sun, from Pyramid of the Moon (Pyramide de la Luna)” by”Jackhynes”/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00115/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A08_02_Teotihuac.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "teotihuacan.jpg"
+ },
+ {
+  "key": "hagia-sophia-1857",
+  "for": {
+   "wonder": "hagia-sophia"
+  },
+  "t": "Hagia Sophia from the south-west, with the minarets added after 1453; a lithograph of 1857.",
+  "a": "unknown lithographer",
+  "y": "1857",
+  "c": "print of 1857; the building stands in Istanbul",
+  "w": 1300,
+  "h": 843,
+  "lic": "public domain: a print published in 1857, so its copyright has long expired; a photograph of a two-dimensional work carries no copyright of its own in the US (Bridgeman v. Corel); OpenStax’s modification is a crop (OpenStax World History credit line, verbatim: modification of work “Lithography of the Hagia Sophia, Istanbul, 1857” by Dmitry Makeev/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00100/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A10_02_HagiaSoph.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "hagia-sophia-1857.jpg"
+ },
+ {
+  "key": "hagia-sophia-interior",
+  "for": {
+   "wonder": "hagia-sophia"
+  },
+  "t": "The nave of Hagia Sophia under Justinian’s dome of 537, with the great calligraphic roundels of the Ottoman mosque.",
+  "a": "Karelj (photograph)",
+  "y": "2013",
+  "c": "Hagia Sophia, Istanbul",
+  "w": 900,
+  "h": 608,
+  "lic": "public domain: the photographer released the photograph into the public domain (OpenStax World History credit line, verbatim: “Hagia Sophia Istanbul 2013 13” by Karelj/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00051/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_B01_02_Hagia4.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "hagia-sophia-interior.jpg"
+ },
+ {
+  "key": "taj-mahal",
+  "for": {
+   "wonder": "taj-mahal"
+  },
+  "t": "The Taj Mahal at Agra, the tomb Shah Jahan built for Mumtaz Mahal from 1632, seen across the gardens.",
+  "a": "David Castor (photograph)",
+  "y": "undated (21st century)",
+  "c": "Agra, Uttar Pradesh",
+  "w": 1300,
+  "h": 477,
+  "lic": "public domain: the photographer released the photograph into the public domain (OpenStax World History credit line, verbatim: “Taj Mahal” by David Castor/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00008/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_B02_01_TajMahal.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "taj-mahal.jpg"
+ },
+ {
+  "key": "timbuktu-sankore",
+  "for": {
+   "wonder": "timbuktu"
+  },
+  "t": "The Sankore mosque of Timbuktu, a fourteenth-century centre of learning, on a postcard of about 1905 from Edmond Fortier’s series.",
+  "a": "Edmond Fortier (postcard photograph)",
+  "y": "c. 1905",
+  "c": "postcard; the mosque stands in Timbuktu, Mali",
+  "w": 1100,
+  "h": 700,
+  "lic": "public domain: a postcard published about 1905 (Fortier died in 1928), so the photograph is out of copyright everywhere (OpenStax World History credit line, verbatim: “Fortier 368 Timbuktu Sankore Mosque” by Dogon/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00040/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_B03_01_Sankore.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "timbuktu-sankore.jpg"
+ },
+ {
+  "key": "timbuktu-barth-1853",
+  "for": {
+   "wonder": "timbuktu"
+  },
+  "t": "Timbuktu seen from a distance as Heinrich Barth’s party approached it on 7 September 1853; an engraving from Barth’s Reisen und Entdeckungen (Gotha, 1858).",
+  "a": "after Heinrich Barth, engraving in Reisen und Entdeckungen in Nord- und Central-Afrika, vol. 4",
+  "y": "1858",
+  "c": "book illustration of 1858",
+  "w": 1100,
+  "h": 675,
+  "lic": "public domain: an engraving published in 1858 (Barth died in 1865) (OpenStax World History credit line, verbatim: “Timbuktu seen from a distance by Heinrich Barth’s party, September 7, 1853” by Heinrich Barth, Reisen und Entdeckungen. Gotha 1858, vol. 4./Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00151/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A15_03_TimbRend.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "timbuktu-barth-1853.jpg"
+ },
+ {
+  "key": "great-zimbabwe",
+  "for": {
+   "wonder": "great-zimbabwe"
+  },
+  "t": "Inside the Great Enclosure of Great Zimbabwe, the drystone walls raised between the eleventh and fifteenth centuries.",
+  "a": "Jan Derk (photograph)",
+  "y": "undated (21st century)",
+  "c": "Great Zimbabwe, near Masvingo",
+  "w": 1100,
+  "h": 710,
+  "lic": "public domain: the photographer released the photograph into the public domain (OpenStax World History credit line, verbatim: “Inside of the Great Enclosure which is part of the Great Zimbabwe ruins” by Jan Derk/Wikimedia commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00154/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A12_04_GrZimb.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "great-zimbabwe.jpg"
+ },
+ {
+  "key": "dome-of-the-rock-1914",
+  "for": {
+   "wonder": "dome-of-the-rock"
+  },
+  "t": "The mosaics and Quranic inscriptions inside the Dome of the Rock, built 691–692 under Abd al-Malik; a photograph published in 1914.",
+  "a": "National Geographic (photograph)",
+  "y": "1914",
+  "c": "Dome of the Rock, Jerusalem",
+  "w": 500,
+  "h": 701,
+  "lic": "public domain: a photograph published in 1914, before 1930, so in the public domain in the US (OpenStax World History credit line, verbatim: “Mosque Of Omar 1914” by National Geographic/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00093/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A11_02_DomeArabic.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "dome-of-the-rock-1914.jpg"
+ },
+ {
+  "key": "borobudur-1913",
+  "for": {
+   "wonder": "borobudur"
+  },
+  "t": "A terrace of Borobudur, the ninth-century Buddhist monument in central Java, with its perforated stupas and relief panels; photographed in 1913.",
+  "a": "unknown photographer (State Library of New South Wales, PXD 162/150)",
+  "y": "1913",
+  "c": "photograph of 1913; the temple stands near Magelang, Java",
+  "w": 1351,
+  "h": 966,
+  "lic": "public domain: a photograph of 1913, published before 1930; OpenStax’s modification is a crop (OpenStax World History credit line, verbatim: modification of work “A terrace on the temple of Borobudur, Java, Indonesia, 1913” by State Library of New South Wales, PXD 162/150/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00129/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A05_03_Borobudur.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "borobudur-1913.jpg"
+ },
+ {
+  "key": "machu-picchu",
+  "for": {
+   "wonder": "machu-picchu"
+  },
+  "t": "Machu Picchu, the fifteenth-century Inca estate above the Urubamba, with Huayna Picchu rising behind the terraces.",
+  "a": "Roger Canals (photograph)",
+  "y": "undated (21st century)",
+  "c": "Machu Picchu, Cusco region, Peru",
+  "w": 1600,
+  "h": 662,
+  "lic": "CC0 1.0 public-domain dedication: the photographer released the photograph under CC0; OpenStax’s modification is a crop (OpenStax World History credit line, verbatim: modification of work “Machu Picchu” by Roger Canals/Wikimedia Commons, CC0 1.0)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00113/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A08_00_MachuPicch.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "machu-picchu.jpg"
+ },
+ {
+  "key": "cederberg-san-elephants",
+  "for": {
+   "movement": "prehistoric"
+  },
+  "t": "San rock painting near Stadsaal in the Cederberg, South Africa: a line of men and a herd of elephants, painted perhaps around 5500 BC.",
+  "a": "San painters; photograph by “Valroe”",
+  "y": "c. 5500 BC (photograph 21st century)",
+  "c": "Stadsaal caves, Cederberg, Western Cape",
+  "w": 1600,
+  "h": 731,
+  "lic": "public domain: the photographer released the photograph into the public domain; OpenStax’s modification is a crop (OpenStax World History credit line, verbatim: modification of work “Cave painting created by the San people in the Cederberg Cave near Stadsaal” by “Valroe”/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00084/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A09_00_RockArt.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "cederberg-san-elephants.jpg"
+ },
+ {
+  "key": "venus-of-willendorf",
+  "for": {
+   "movement": "prehistoric"
+  },
+  "t": "The Venus of Willendorf, a limestone figurine about 11 cm high carved some 25,000 years ago, found in Austria in 1908 (a museum copy).",
+  "a": "unknown Palaeolithic carver; photograph by “Thirunavukkarasye-Raveendran”",
+  "y": "c. 25,000 BC",
+  "c": "original in the Naturhistorisches Museum, Vienna",
+  "w": 500,
+  "h": 750,
+  "lic": "CC0 1.0 public-domain dedication: the photographer released the photograph under CC0 (OpenStax World History credit line, verbatim: “Venus von Willendorf; Kopie” by “Thirunavukkarasye-Raveendran”/Wikimedia Commons, CC0 1.0)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00088/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A02_01_VenusWille.png",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "venus-of-willendorf.jpg"
+ },
+ {
+  "key": "narmer-palette",
+  "for": {
+   "movement": "egypt"
+  },
+  "t": "The Narmer Palette, both faces: the siltstone ceremonial palette of about 3100 BC on which the king wears the crowns of Upper and of Lower Egypt.",
+  "a": "unknown Egyptian sculptor; photograph by “Jean88”",
+  "y": "c. 3100 BC",
+  "c": "Egyptian Museum, Cairo",
+  "w": 900,
+  "h": 634,
+  "lic": "CC0 1.0 public-domain dedication: the photographer released the photograph under CC0; the palette itself is five thousand years old (OpenStax World History credit line, verbatim: \"La palette de Narmer\" by “Jean88”/Wikimedia Commons, CC0 1.0)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00106/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A03_03_NarmerPal2.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "narmer-palette.jpg"
+ },
+ {
+  "key": "nefertiti-bust",
+  "for": {
+   "movement": "egypt"
+  },
+  "t": "The bust of Nefertiti, made in Thutmose’s workshop at Amarna about 1345 BC; this is the museum replica at the Rosicrucian Egyptian Museum, San José, the original being in Berlin.",
+  "a": "Thutmose (attributed); photograph by E. Michael Smith “Chiefio”",
+  "y": "c. 1345 BC",
+  "c": "original in the Neues Museum, Berlin",
+  "w": 450,
+  "h": 817,
+  "lic": "public domain: the photographer released the photograph into the public domain; the bust is 3,300 years old (OpenStax World History credit line, verbatim: “Nefertiti Statue photo from Rosicrucian Museum, replica from the original at the Egyptian Museum in Berlin” by E. Michael Smith “Chiefio”/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00110/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A04_02_Nefertiti.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "nefertiti-bust.jpg"
+ },
+ {
+  "key": "hagia-sophia-vestibule-mosaic",
+  "for": {
+   "movement": "byzantine"
+  },
+  "t": "The Virgin and Child between Justinian, offering the church, and Constantine, offering the city: the mosaic of about 1000 over the south-west vestibule door of Hagia Sophia.",
+  "a": "unknown Byzantine mosaicists; photograph by “Myrabella”",
+  "y": "c. 1000",
+  "c": "Hagia Sophia, Istanbul",
+  "w": 1300,
+  "h": 800,
+  "lic": "CC0 1.0 public-domain dedication: the photographer released the photograph under CC0; the mosaic is a thousand years old (OpenStax World History credit line, verbatim: “Hagia Sophia Southwestern entrance mosaics 2” by “Myrabella”/Wikimedia Commons, CC0 1.0)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00051/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_B01_02_Hagia2.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "hagia-sophia-vestibule-mosaic.jpg"
+ },
+ {
+  "key": "alexander-mosaic",
+  "for": {
+   "movement": "greekroman"
+  },
+  "t": "Alexander on Bucephalus at the battle of Issus: detail of the Alexander Mosaic from the House of the Faun at Pompeii, laid about 100 BC after a Greek painting.",
+  "a": "unknown Roman mosaicist, after a Greek painting",
+  "y": "c. 100 BC",
+  "c": "Museo Archeologico Nazionale, Naples",
+  "w": 1129,
+  "h": 800,
+  "lic": "public domain: a faithful photograph of a two-thousand-year-old floor mosaic released as public domain, as credited; OpenStax’s modification is a crop (OpenStax World History credit line, verbatim: modification of work “Alexander and Bucephalus - Battle of Issus mosaic” by Museo Archeologico Nazionale – Naples/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00131/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A06_00_AlexGreat.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "alexander-mosaic.jpg"
+ },
+ {
+  "key": "gladiator-mosaic",
+  "for": {
+   "movement": "greekroman"
+  },
+  "t": "The retiarius Kalendio against Astyanax: a Roman gladiator mosaic of the third century AD, with the inscriptions that record Astyanax’s victory.",
+  "a": "unknown Roman mosaicist; photograph by James Grout",
+  "y": "3rd century AD",
+  "c": "Museo Arqueológico Nacional, Madrid",
+  "w": 900,
+  "h": 903,
+  "lic": "public domain: the photographer released the photograph into the public domain; the mosaic is ancient (OpenStax World History credit line, verbatim: “Astyanax vs Kalendio mosaic” by James Grout/Encyclopaedia Romana/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00139/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A07_02_Retiarius.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "gladiator-mosaic.jpg"
+ },
+ {
+  "key": "huizong-auspicious-cranes",
+  "for": {
+   "movement": "chineseink"
+  },
+  "t": "Auspicious Cranes, the handscroll Emperor Huizong painted and inscribed in 1112 to record the flock of cranes seen over the palace gate.",
+  "a": "Emperor Huizong of Song",
+  "y": "1112",
+  "c": "Liaoning Provincial Museum, Shenyang",
+  "w": 1300,
+  "h": 284,
+  "lic": "public domain: a painting of 1112; a photograph of a two-dimensional work carries no copyright of its own in the US (Bridgeman v. Corel); OpenStax’s modification is a crop (OpenStax World History credit line, verbatim: modification of work “Auspicious Cranes” by Liaoning Provincial Museum/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00144/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A14_01_ACranes.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "huizong-auspicious-cranes.jpg"
+ },
+ {
+  "key": "black-death-tournai-1353",
+  "for": {
+   "event": "black-death-1347"
+  },
+  "t": "The citizens of Tournai bury their plague dead in 1349: a miniature from Gilles li Muisis’ Antiquitates Flandriae, made about 1353.",
+  "a": "unknown Flemish illuminator (Gilles li Muisis, Antiquitates Flandriae)",
+  "y": "c. 1353",
+  "c": "Bibliothèque royale de Belgique, Brussels, MS 13076-77",
+  "w": 1541,
+  "h": 800,
+  "lic": "public domain: a fourteenth-century manuscript painting; a photograph of a two-dimensional work carries no copyright of its own in the US (Bridgeman v. Corel); OpenStax’s modification is a crop (OpenStax World History credit line, verbatim: modification of work “Gilles li Muisis, Antiquitates Flandriae (Tractatus quartus)” by Belgian Art Links and Tools/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00156/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A16_00_SciMethods.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "black-death-tournai-1353.jpg"
+ },
+ {
+  "key": "dance-of-death-1493",
+  "for": {
+   "event": "black-death-1347"
+  },
+  "t": "The Dance of Death: Michael Wolgemut’s woodcut in Hartmann Schedel’s Nuremberg Chronicle of 1493, the image of mortality the plague left to Europe.",
+  "a": "Michael Wolgemut (woodcut), in the Nuremberg Chronicle",
+  "y": "1493",
+  "c": "printed book of 1493",
+  "w": 868,
+  "h": 741,
+  "lic": "public domain: a woodcut printed in 1493 (Wolgemut died in 1519) (OpenStax World History credit line, verbatim: “The Dance of Death” by Michael Wolgemut, from the Nuremberg Chronicle of Hartmann Schedel/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00159/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A16_04_DanceDeath.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "dance-of-death-1493.jpg"
+ },
+ {
+  "key": "hadrians-wall",
+  "for": {
+   "event": "hadrians-wall-122"
+  },
+  "t": "Hadrian’s Wall at Milecastle 39 (Castle Nick), looking east along the Whin Sill; the wall was begun in AD 122.",
+  "a": "Adam Cuerden (photograph)",
+  "y": "undated (21st century)",
+  "c": "Northumberland, England",
+  "w": 1300,
+  "h": 867,
+  "lic": "public domain: the photographer released the photograph into the public domain (OpenStax World History credit line, verbatim: “Milecastle 39 on Hadrian’s Wall” by Adam Cuerden/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00142/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A07_05_HWall.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "hadrians-wall.jpg"
+ },
+ {
+  "key": "versailles-treaty-1919",
+  "for": {
+   "event": "versailles-1919"
+  },
+  "t": "Signing of the Treaty of Versailles, 1919, by John Christen Johansen: Wilson seated near the centre among the delegates in the Hall of Mirrors.",
+  "a": "John Christen Johansen",
+  "y": "1919",
+  "c": "National Portrait Gallery, Smithsonian Institution, Washington",
+  "w": 900,
+  "h": 982,
+  "lic": "CC0 (the Smithsonian’s National Portrait Gallery released its photograph of the painting under CC0, as credited by OpenStax World History: “Signing of the Treaty of Versailles, 1919” by National Portrait Gallery/Smithsonian Institution; transfer from the Smithsonian American Art Museum; gift of an anonymous donor, 1926, CC0)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00022/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_B12_01_TreatyVer.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "versailles-treaty-1919.jpg"
+ },
+ {
+  "key": "mongol-invasion-japan-1274",
+  "for": {
+   "event": "mongol-invasions-japan-1274"
+  },
+  "t": "The samurai Takezaki Suenaga charges Mongol archers and a bursting bomb at Hakata in 1274: a scene from the Mōko Shūrai Ekotoba scroll, painted about 1293.",
+  "a": "unknown Japanese painter (Mōko Shūrai Ekotoba)",
+  "y": "c. 1293",
+  "c": "Museum of the Imperial Collections, Tokyo",
+  "w": 1300,
+  "h": 592,
+  "lic": "public domain: a thirteenth-century handscroll; a photograph of a two-dimensional work carries no copyright of its own in the US (Bridgeman v. Corel) (OpenStax World History credit line, verbatim: “Mōko Shūrai Ekotoba 2” by Unknown/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00155/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A12_03_MongolInv.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "mongol-invasion-japan-1274.jpg"
+ },
+ {
+  "key": "scheveningen-1653",
+  "for": {
+   "event": "anglo-dutch-wars-1652"
+  },
+  "t": "The battle of Scheveningen (Ter Heijde), 10 August 1653, the last battle of the first Anglo-Dutch war: Willem van de Velde the Elder’s pen painting of 1657.",
+  "a": "Willem van de Velde the Elder",
+  "y": "1657",
+  "c": "Rijksmuseum, Amsterdam",
+  "w": 1101,
+  "h": 643,
+  "lic": "public domain: a painting of 1657 (the artist died in 1693); the Rijksmuseum releases its photographs of public-domain works without restriction (OpenStax World History credit line, verbatim: “The Battle of Terheide” by Rijksmuseum/Wikipedia, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00065/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_B05_02_AngloDutch.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "scheveningen-1653.jpg"
+ },
+ {
+  "key": "san-martin-andes-1817",
+  "for": {
+   "event": "san-martin-andes-1817"
+  },
+  "t": "San Martín and O’Higgins crossing the Andes in January 1817 to free Chile, painted by Julio Vila y Prades in the late nineteenth century.",
+  "a": "Julio Vila y Prades",
+  "y": "late 19th century",
+  "c": "Museo Histórico y Militar de Chile, Santiago",
+  "w": 900,
+  "h": 881,
+  "lic": "public domain: a painting of the late nineteenth century (the artist died in 1930); a photograph of a two-dimensional work carries no copyright of its own in the US (OpenStax World History credit line, verbatim: “San Martín and O’Higgins crossing the Andes” by Museo Histórico y Militar de Chile/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00014/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_B08_03_CrossAndes.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "san-martin-andes-1817.jpg"
+ },
+ {
+  "key": "sekigahara-1600",
+  "for": {
+   "event": "sekigahara-1600"
+  },
+  "t": "The battle of Sekigahara, 21 October 1600, on a nineteenth-century folding screen: some 160,000 samurai fought for six hours.",
+  "a": "unknown Japanese painter (Sekigahara Kassen Byōbu)",
+  "y": "19th century",
+  "c": "Gifu City Museum of History",
+  "w": 1300,
+  "h": 591,
+  "lic": "public domain: a nineteenth-century painted screen; a photograph of a two-dimensional work carries no copyright of its own in the US (OpenStax World History credit line, verbatim: “Sekigahara Kassen Byōbu-z” by The City of Gifu Museum of History/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00010/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_B02_03_Sekigahara.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "sekigahara-1600.jpg"
+ },
+ {
+  "key": "goya-third-of-may-1808",
+  "for": {
+   "event": "madrid-uprising-1808"
+  },
+  "t": "The Third of May 1808: Goya’s painting of 1814 of the French firing squads shooting the Madrid insurgents on the Príncipe Pío hill.",
+  "a": "Francisco de Goya",
+  "y": "1814",
+  "c": "Museo del Prado, Madrid",
+  "w": 1600,
+  "h": 1235,
+  "lic": "public domain: a painting of 1814 (Goya died in 1828); a photograph of a two-dimensional work carries no copyright of its own in the US (Bridgeman v. Corel) (OpenStax World History credit line, verbatim: “The Third of May” by The Prado Museum/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00012/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_B08_01_Goya1814.png",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "goya-third-of-may-1808.jpg"
+ },
+ {
+  "key": "bastille-1789",
+  "for": {
+   "event": "bastille-1789"
+  },
+  "t": "The storming of the Bastille and the arrest of its governor, de Launay, on 14 July 1789, painted by an unknown artist about 1790.",
+  "a": "unknown French painter",
+  "y": "c. 1790",
+  "c": "Musée de la Révolution française, Vizille",
+  "w": 1201,
+  "h": 947,
+  "lic": "public domain: a painting of about 1790; a photograph of a two-dimensional work carries no copyright of its own in the US (OpenStax World History credit line, verbatim: “Storming of the Bastille and arrest of the Governor M. de Launay, July 14, 1789” by Museum of the History of France/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00019/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_B07_03_Bastille.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "bastille-1789.jpg"
+ },
+ {
+  "key": "congress-of-vienna-1815",
+  "for": {
+   "event": "congress-of-vienna-1815"
+  },
+  "t": "The Congress of Vienna: Jean-Baptiste Isabey’s group portrait of 1819, with Wellington at the far left, Castlereagh seated at the centre and Metternich standing before him.",
+  "a": "Jean-Baptiste Isabey (engraving after his drawing)",
+  "y": "1819",
+  "c": "print of 1819",
+  "w": 976,
+  "h": 662,
+  "lic": "public domain: a print of 1819 (Isabey died in 1855) (OpenStax World History credit line, verbatim: “The Congress of Vienna” by Unknown/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00020/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_B07_04_CongVienna.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "congress-of-vienna-1815.jpg"
+ },
+ {
+  "key": "smallpox-florentine-codex-1520",
+  "for": {
+   "event": "smallpox-tenochtitlan-1520"
+  },
+  "t": "Nahua victims of the smallpox of 1520, drawn in the Florentine Codex compiled under Sahagún in the 1570s: the sick lie covered in pustules while a healer attends them.",
+  "a": "Nahua artists of the Florentine Codex (Bernardino de Sahagún)",
+  "y": "c. 1577",
+  "c": "Biblioteca Medicea Laurenziana, Florence, Book 12, fol. 54",
+  "w": 901,
+  "h": 696,
+  "lic": "public domain: a sixteenth-century manuscript; a photograph of a two-dimensional work carries no copyright of its own in the US (OpenStax World History credit line, verbatim: “Florentine Codex BK12 F54 smallpox” by Biblioteca Medicea Laurenziana, Florence/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00064/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_B05_02_Disease.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "smallpox-florentine-codex-1520.jpg"
+ },
+ {
+  "key": "cortes-march-codex-azcatitlan",
+  "for": {
+   "event": "conquest-of-mexico-1519"
+  },
+  "t": "Cortés’s army on the march with Malintzin at its head, from the Codex Azcatitlan, a Nahua pictorial history of the late sixteenth century.",
+  "a": "Nahua painters of the Codex Azcatitlan",
+  "y": "late 16th century",
+  "c": "Bibliothèque nationale de France, Paris",
+  "w": 1200,
+  "h": 801,
+  "lic": "public domain: a sixteenth-century manuscript; a photograph of a two-dimensional work carries no copyright of its own in the US (OpenStax World History credit line, verbatim: “Codex Azcatitlan” by Gallica Digital Library/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00076/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_B06_01_Tlaxcala.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "cortes-march-codex-azcatitlan.jpg"
+ },
+ {
+  "key": "benz-motorwagen-1885",
+  "for": {
+   "event": "motor-car-1886"
+  },
+  "t": "The Benz Patent-Motorwagen of 1885–86, the first motor car offered for sale, in a photograph of 1885.",
+  "a": "unknown photographer",
+  "y": "1885",
+  "c": "photograph of 1885",
+  "w": 901,
+  "h": 709,
+  "lic": "public domain: a photograph of 1885, published before 1930 (OpenStax World History credit line, verbatim: “1885 Benz” by Alonso de Mendoza/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00068/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_B09_01_Benz.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "benz-motorwagen-1885.jpg"
+ },
+ {
+  "key": "tsarskoye-selo-railway-1837",
+  "for": {
+   "event": "russian-railway-1837"
+  },
+  "t": "The first train arriving at Tsarskoye Selo on the Tsarskoye Selo Railway, Russia’s first, opened in 1837; a lithograph of the 1840s.",
+  "a": "unknown lithographer",
+  "y": "1840s",
+  "c": "State Hermitage Museum, St Petersburg",
+  "w": 1301,
+  "h": 847,
+  "lic": "public domain: a print of the 1840s; a photograph of a two-dimensional work carries no copyright of its own in the US (OpenStax World History credit line, verbatim: “Tzarskoselskaya Railway – Watercolour” by State Hermitage/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00068/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_B09_01_TSelo.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "tsarskoye-selo-railway-1837.jpg"
+ },
+ {
+  "key": "nicopolis-1396",
+  "for": {
+   "event": "nicopolis-1396"
+  },
+  "t": "The battle of Nicopolis, 25 September 1396, in an Ottoman miniature of 1523: Bayezid’s army on the left routs the crusader knights.",
+  "a": "unknown Ottoman miniaturist",
+  "y": "1523",
+  "c": "Topkapı Palace Museum, Istanbul (Hünername)",
+  "w": 900,
+  "h": 1313,
+  "lic": "public domain: a miniature of 1523; a photograph of a two-dimensional work carries no copyright of its own in the US (OpenStax World History credit line, verbatim: “Battle of Nicopolis, 1396” by Géza Fehér/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00123/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A17_01_Nicopolis.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "nicopolis-1396.jpg"
+ },
+ {
+  "key": "theodosian-walls",
+  "for": {
+   "event": "constantinople-1453"
+  },
+  "t": "The Theodosian walls of Constantinople, built from 413: the inner wall on the right, the outer wall on the left, with the moat beyond.",
+  "a": "“CrniBombarder!!!” (photograph)",
+  "y": "undated (21st century)",
+  "c": "Istanbul",
+  "w": 700,
+  "h": 763,
+  "lic": "public domain: the photographer released the photograph into the public domain; OpenStax’s modification is a crop (OpenStax World History credit line, verbatim: modification of work “Theodosian Walls in Constantinople” by “CrniBombarder!!!”/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00123/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A17_01_Theodosian.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "theodosian-walls.jpg"
+ },
+ {
+  "key": "jericho-tower",
+  "for": {
+   "event": "jericho-8000bc"
+  },
+  "t": "The stone tower of Neolithic Jericho, about 8.5 m high and built around 8000 BC, one of the oldest monuments in the world.",
+  "a": "Reinhard Dietrich (photograph)",
+  "y": "undated (21st century)",
+  "c": "Tell es-Sultan, Jericho",
+  "w": 1350,
+  "h": 1013,
+  "lic": "public domain: the photographer released the photograph into the public domain (OpenStax World History credit line, verbatim: \"Tower of Jericho\" by Reinhard Dietrich/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00104/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A03_01_Jericho.png",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "jericho-tower.jpg"
+ },
+ {
+  "key": "hammurabi-stele",
+  "for": {
+   "event": "hammurabi-code-1750bc"
+  },
+  "t": "The stele of Hammurabi, the basalt column of about 1750 BC found at Susa in 1901, with the king before the sun-god Shamash above the 282 laws.",
+  "a": "unknown Babylonian sculptor; photograph by “Rlunaro”",
+  "y": "c. 1750 BC",
+  "c": "Musée du Louvre, Paris",
+  "w": 1050,
+  "h": 1575,
+  "lic": "public domain: the photographer released the photograph into the public domain; the stele is nearly four thousand years old (OpenStax World History credit line, verbatim: “Stele of Hammurabi” by “Rlunaro”/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00105/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A03_02_LawCode.png",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "hammurabi-stele.jpg"
+ },
+ {
+  "key": "ashoka-pillar-allahabad",
+  "for": {
+   "event": "ashoka-edicts-260bc"
+  },
+  "t": "The Allahabad pillar of Ashoka, inscribed with his edicts in the third century BC, photographed by Thomas Rust in the nineteenth century.",
+  "a": "Thomas A. Rust (photograph)",
+  "y": "c. 1870s",
+  "c": "Allahabad (Prayagraj) Fort",
+  "w": 651,
+  "h": 824,
+  "lic": "public domain: a nineteenth-century photograph, published long before 1930 (OpenStax World History credit line, verbatim: “Asoka’s Pillar, Monolith in Fort, Allahabad” by Thomas A. Rust/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00130/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A05_04_PillarAsh.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "ashoka-pillar-allahabad.jpg"
+ },
+ {
+  "key": "death-of-socrates-david",
+  "for": {
+   "event": "socrates-399bc"
+  },
+  "t": "The Death of Socrates, Jacques-Louis David’s painting of 1787: Socrates reaches for the hemlock while his pupils grieve.",
+  "a": "Jacques-Louis David",
+  "y": "1787",
+  "c": "Metropolitan Museum of Art, New York",
+  "w": 1200,
+  "h": 799,
+  "lic": "CC0 (the Metropolitan Museum of Art releases its photographs of public-domain works under CC0 through its Open Access programme; the painting dates from 1787; OpenStax World History credit line, verbatim: “The Death of Socrates” by Metropolitan Museum of Art, Catharine Lorillard Wolfe Collection, Wolfe Fund, 1931/Wikimedia Commons, CC0 1.0)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00133/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A06_02_DeadSoc.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "death-of-socrates-david.jpg"
+ },
+ {
+  "key": "burning-of-persepolis-rochegrosse",
+  "for": {
+   "event": "persepolis-330bc"
+  },
+  "t": "The burning of Persepolis in 330 BC as Georges Rochegrosse imagined it in 1890: Thaïs, torch in hand, carried by Alexander’s revellers.",
+  "a": "Georges-Antoine Rochegrosse",
+  "y": "1890",
+  "c": "painting of 1890",
+  "w": 975,
+  "h": 1123,
+  "lic": "public domain: a painting of 1890 (Rochegrosse died in 1938); first published before 1930 so public domain in the US; a photograph of a two-dimensional work carries no copyright of its own (OpenStax World History credit line, verbatim: “The burning of Persepolis, 1890, by Georges-Antoine Rochegrosse” by Unknown/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00134/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A06_03_Thais.png",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "burning-of-persepolis-rochegrosse.jpg"
+ },
+ {
+  "key": "clovis-point",
+  "for": {
+   "event": "clovis-11000bc"
+  },
+  "t": "A Clovis point from Utah, between 11,000 and 13,000 years old, the fluted spearhead of the first widespread culture of the Americas.",
+  "a": "photograph by “Daderot”",
+  "y": "c. 11,000 BC",
+  "c": "Natural History Museum of Utah, Salt Lake City",
+  "w": 501,
+  "h": 668,
+  "lic": "CC0 1.0 public-domain dedication: the photographer released the photograph under CC0 (OpenStax World History credit line, verbatim: “Clovis point” by “Daderot”/Wikimedia Commons, CC0 1.0)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00114/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A08_01_ClovisP.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "clovis-point.jpg"
+ },
+ {
+  "key": "cahokia-monks-mound",
+  "for": {
+   "event": "cahokia-1100"
+  },
+  "t": "Monks Mound at Cahokia, completed about 1100, the largest earthen mound in North America, some 30 m high.",
+  "a": "Tim Vickers (photograph)",
+  "y": "undated (21st century)",
+  "c": "Cahokia Mounds, Illinois",
+  "w": 1301,
+  "h": 360,
+  "lic": "public domain: the photographer released the photograph into the public domain (OpenStax World History credit line, verbatim: “Monk’s mound panorama” by Tim Vickers/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00116/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A08_03_Cahokia.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "cahokia-monks-mound.jpg"
+ },
+ {
+  "key": "mesa-verde-cliff-palace",
+  "for": {
+   "event": "chaco-mesa-verde-1190"
+  },
+  "t": "Cliff Palace at Mesa Verde, the Ancestral Puebloan cliff town begun about 1190 and abandoned by 1300.",
+  "a": "US National Archives and Records Administration (photograph)",
+  "y": "undated",
+  "c": "Mesa Verde National Park, Colorado",
+  "w": 1301,
+  "h": 419,
+  "lic": "public domain: a photograph held by the US National Archives and released as a work of the US federal government (OpenStax World History credit line, verbatim: “Trail of the Ancients - Cliff Palace at Mesa Verde National Park” by U.S. National Archives and Records Administration/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00116/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A08_03_CliffPalac.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "mesa-verde-cliff-palace.jpg"
+ },
+ {
+  "key": "olmec-colossal-head",
+  "for": {
+   "event": "olmec-1200bc"
+  },
+  "t": "An Olmec colossal head of basalt, carved between about 1200 and 900 BC, in the Museo de Antropología de Xalapa.",
+  "a": "unknown Olmec sculptors; photograph by “Maunus”",
+  "y": "c. 1200–900 BC",
+  "c": "Museo de Antropología de Xalapa, Veracruz",
+  "w": 501,
+  "h": 718,
+  "lic": "public domain: the photographer released the photograph into the public domain (OpenStax World History credit line, verbatim: “An Olmec colossal head at the Xalapa Museum of Anthropology, in Veracruz, Mexico” by “Maunus”/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00115/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A08_02_OlmecHead.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "olmec-colossal-head.jpg"
+ },
+ {
+  "key": "nazca-condor",
+  "for": {
+   "event": "nazca-lines-200bc"
+  },
+  "t": "The Condor of the Nazca lines, scraped into the desert floor of southern Peru between about 200 BC and AD 600.",
+  "a": "Roger Canals (photograph)",
+  "y": "undated (21st century)",
+  "c": "Nazca desert, Peru",
+  "w": 1201,
+  "h": 801,
+  "lic": "CC0 1.0 public-domain dedication: the photographer released the photograph under CC0 (OpenStax World History credit line, verbatim: “The Condor” by Roger Canals/Wikimedia Commons, CC0 1.0)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00115/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A08_02_Nazcaline.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "nazca-condor.jpg"
+ },
+ {
+  "key": "diamond-sutra-868",
+  "for": {
+   "event": "printing-868"
+  },
+  "t": "The frontispiece of the Diamond Sutra printed in China on 11 May 868, the oldest dated printed book, found at Dunhuang in 1907.",
+  "a": "unknown Tang block-cutters",
+  "y": "868",
+  "c": "British Library, London (Or. 8210/P.2)",
+  "w": 1200,
+  "h": 853,
+  "lic": "public domain: a woodblock print of 868; a photograph of a two-dimensional work carries no copyright of its own in the US; OpenStax’s modification is a crop (OpenStax World History credit line, verbatim: modification of work “Jingangjing” by British Library/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00153/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A12_01_Jingangjin.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "diamond-sutra-868.jpg"
+ },
+ {
+  "key": "stalingrad-1942",
+  "for": {
+   "event": "stalingrad-1942"
+  },
+  "t": "Soviet soldiers fighting from the ruins of a bombed building in Stalingrad in 1942.",
+  "a": "unknown Soviet photographer",
+  "y": "1942",
+  "c": "photograph of 1942",
+  "w": 1301,
+  "h": 810,
+  "lic": "public domain: an anonymous Soviet photograph of 1942, credited as public domain by OpenStax (OpenStax World History credit line, verbatim: “Stalingrad war 1942” by Unknown/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00046/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_B13_02_Stalingrad.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "stalingrad-1942.jpg"
+ },
+ {
+  "key": "pearl-harbor-1941",
+  "for": {
+   "event": "pearl-harbor-1941"
+  },
+  "t": "Pearl Harbor from a Japanese aircraft on 7 December 1941, minutes into the torpedo attack on Battleship Row.",
+  "a": "Imperial Japanese Navy photograph, captured and held by the US Naval History and Heritage Command",
+  "y": "1941",
+  "c": "Naval History and Heritage Command, Washington",
+  "w": 1200,
+  "h": 800,
+  "lic": "public domain: a captured Japanese naval photograph of 1941 held and published by the US Navy, credited as public domain (OpenStax World History credit line, verbatim: “Attack on Pearl Harbor Japanese planes view” by Naval History and Heritage Command/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00055/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A01_02_PearlHar.png",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "pearl-harbor-1941.jpg"
+ },
+ {
+  "key": "petrograd-february-1917",
+  "for": {
+   "event": "russian-revolution-1917"
+  },
+  "t": "Soldiers and demonstrators in Petrograd during the February Revolution of 1917.",
+  "a": "unknown photographer",
+  "y": "1917",
+  "c": "photograph of 1917",
+  "w": 1200,
+  "h": 800,
+  "lic": "public domain: an anonymous photograph of 1917, published before 1930 (OpenStax World History credit line, verbatim: “Soldiers demonstration. February 1917” by socialist.memo.ru/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00032/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_B11_05_RussianRev.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "petrograd-february-1917.jpg"
+ },
+ {
+  "key": "berlin-airlift-1948",
+  "for": {
+   "event": "berlin-airlift-1948"
+  },
+  "t": "Berliners watch a US Air Force C-54 come in to land at Tempelhof during the airlift of 1948.",
+  "a": "Henry Ries, US Air Force",
+  "y": "1948",
+  "c": "US Air Force photograph",
+  "w": 900,
+  "h": 857,
+  "lic": "public domain: a work of the US Air Force, a US federal agency (17 U.S.C. §105) (OpenStax World History credit line, verbatim: “Berliners watching a C-54 land at Berlin Tempelhof Airport, 1948” by Henry Ries/U.S. Air Force/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00034/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_B14_01_Airlift.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "berlin-airlift-1948.jpg"
+ },
+ {
+  "key": "world-trade-center-2001",
+  "for": {
+   "event": "september-11-2001"
+  },
+  "t": "Rescue workers on the rubble of the World Trade Center on 19 September 2001, the flag flying over the debris.",
+  "a": "Andrea Booher, FEMA",
+  "y": "2001",
+  "c": "FEMA photograph",
+  "w": 1101,
+  "h": 723,
+  "lic": "public domain: a work of a FEMA photographer, a US federal agency (17 U.S.C. §105) (OpenStax World History credit line, verbatim: “New York, NY, September 19, 2001 -- Rescue workers climb over and dig through piles of rubble from the destroyed World Trade Center as the American flag billows over the debris” by Andrea Booher/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00083/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_B15_04_Sept11.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "world-trade-center-2001.jpg"
+ },
+ {
+  "key": "ypres-1916",
+  "for": {
+   "event": "ypres-1914"
+  },
+  "t": "The ruined Grote Markt of Ypres in 1916, after two years on the Western Front.",
+  "a": "British Ministry of Information, First World War official photograph",
+  "y": "1916",
+  "c": "Imperial War Museums, London",
+  "w": 1100,
+  "h": 854,
+  "lic": "public domain: a British official photograph of 1916, Crown copyright long expired and published before 1930 (OpenStax World History credit line, verbatim: “Destruction on the Western Front, 1914-1918” by Ministry of Information First World War Official Collection/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00022/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_B12_01_Ypres.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "ypres-1916.jpg"
+ },
+ {
+  "key": "catalan-atlas-caravan-1375",
+  "for": {
+   "event": "silk-road"
+  },
+  "t": "A caravan on the Silk Road from the Catalan Atlas of 1375, drawn in Majorca by Cresques Abraham.",
+  "a": "Cresques Abraham (attributed), Catalan Atlas",
+  "y": "1375",
+  "c": "Bibliothèque nationale de France, Paris",
+  "w": 1100,
+  "h": 929,
+  "lic": "public domain: a manuscript of 1375; a photograph of a two-dimensional work carries no copyright of its own in the US (OpenStax World History credit line, verbatim: “Caravan on the Silk Road” by Gallica Digital Library/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00158/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A16_02_SilkRoad.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "catalan-atlas-caravan-1375.jpg"
+ },
+ {
+  "key": "peter-the-hermit-1095",
+  "for": {
+   "event": "first-crusade-1095"
+  },
+  "t": "Peter the Hermit preaching the First Crusade, as an illustrator of Cassell’s History of England imagined it in the early twentieth century.",
+  "a": "illustration in Cassell’s History of England, vol. 1",
+  "y": "early 20th century",
+  "c": "book illustration",
+  "w": 1100,
+  "h": 803,
+  "lic": "public domain: a book illustration published before 1930 (OpenStax World History credit line, verbatim: “Peter the Hermit Preaching the First Crusade” by Cassell’s History of England, Vol. 1 (of 8)/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00120/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A13_03_PeterHerm.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "peter-the-hermit-1095.jpg"
+ },
+ {
+  "key": "vienna-siege-1529",
+  "for": {
+   "event": "vienna-1529"
+  },
+  "t": "Vienna during the Ottoman siege of 1529, with St Stephen’s at the centre: detail of the panoramic woodcut map made the following year.",
+  "a": "Niklas Meldemann (woodcut map of 1530)",
+  "y": "1530",
+  "c": "Wien Museum, Vienna",
+  "w": 1600,
+  "h": 771,
+  "lic": "public domain: a woodcut of 1530; a photograph of a two-dimensional work carries no copyright of its own in the US; OpenStax’s modification is a crop (OpenStax World History credit line, verbatim: modification of work “Panoramic view of Vienna during the first Turkish siege, 1529” by Vienna Museum/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00058/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_B04_00_Vienna1529.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "vienna-siege-1529.jpg"
+ },
+ {
+  "key": "landing-of-columbus-bierstadt",
+  "for": {
+   "event": "columbus-1492"
+  },
+  "t": "The Landing of Columbus, Albert Bierstadt’s ten-foot canvas of 1893, the romantic American image of 12 October 1492.",
+  "a": "Albert Bierstadt",
+  "y": "1893",
+  "c": "City of Plainfield, New Jersey",
+  "w": 1320,
+  "h": 798,
+  "lic": "public domain: a painting of 1893 (Bierstadt died in 1902); a photograph of a two-dimensional work carries no copyright of its own in the US; OpenStax’s modification is a crop (OpenStax World History credit line, verbatim: modification of work “The Landing of Columbus” by Albert Bierstadt/City of Plainfield, New Jersey/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00062/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_B05_00_Dali.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "landing-of-columbus-bierstadt.jpg"
+ },
+ {
+  "key": "brooks-slave-ship-1788",
+  "for": {
+   "event": "atlantic-slave-trade"
+  },
+  "t": "The stowage plan of the slave ship Brooks, printed by the abolitionists in 1788 and reprinted for decades.",
+  "a": "Plymouth committee of the Society for Effecting the Abolition of the Slave Trade (broadside)",
+  "y": "1788",
+  "c": "Lilly Library, Indiana University",
+  "w": 1101,
+  "h": 765,
+  "lic": "public domain: a print of 1788; OpenStax’s modification is a crop (OpenStax World History credit line, verbatim: modification of work “Slave ship diagram” by Lilly Library of Rare Books and Manuscripts, Indiana University/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00066/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_B05_03_SlaveShip.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "brooks-slave-ship-1788.jpg"
+ },
+ {
+  "key": "copernicus-heliocentric-1543",
+  "for": {
+   "event": "copernicus-1543"
+  },
+  "t": "The heliocentric diagram from Copernicus’s De revolutionibus orbium coelestium, printed at Nuremberg in 1543.",
+  "a": "Nicolaus Copernicus",
+  "y": "1543",
+  "c": "printed book of 1543",
+  "w": 900,
+  "h": 825,
+  "lic": "public domain: a woodcut diagram printed in 1543; OpenStax’s modification is a crop (OpenStax World History credit line, verbatim: modification of work “Image of heliocentric model from “De revolutionibus orbium coelestium”” by Nicolaus Copernicus/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00123/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A17_01_Copernicus.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "copernicus-heliocentric-1543.jpg"
+ },
+ {
+  "key": "great-famine-1315",
+  "for": {
+   "event": "great-famine-1315"
+  },
+  "t": "Death astride a manticore and Famine pointing to her mouth: a manuscript illumination made at Erfurt at the time of the Great Famine of 1315–17.",
+  "a": "unknown German illuminator",
+  "y": "c. 1315",
+  "c": "manuscript of the fourteenth century",
+  "w": 900,
+  "h": 1309,
+  "lic": "public domain: a fourteenth-century manuscript painting; a photograph of a two-dimensional work carries no copyright of its own in the US (OpenStax World History credit line, verbatim: “Death (“Mors”) sits astride a lion whose long tail ends in a ball of flame (Hell). Famine (“Fames”) points to her hungry mouth” by “Mariule”/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00158/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A16_02_GrFamine.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "great-famine-1315.jpg"
+ },
+ {
+  "key": "napoleon-crossing-alps-david",
+  "for": {
+   "event": "marengo-1800"
+  },
+  "t": "Napoleon Crossing the Alps, Jacques-Louis David’s portrait of 1801–05 of the First Consul on the Great St Bernard in May 1800 (the Malmaison version).",
+  "a": "Jacques-Louis David",
+  "y": "1801–1805",
+  "c": "Château de Malmaison",
+  "w": 615,
+  "h": 800,
+  "lic": "public domain: a painting of 1801–05 (David died in 1825); a photograph of a two-dimensional work carries no copyright of its own in the US; OpenStax’s modification is a crop, and this file is the left half of the figure (OpenStax World History credit line, verbatim: credit left: modification of work “Napoleon Bonaparte crossing the Alps at the Grand Saint-Bernard” by Château de Malmaison/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00011/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_B08_00_Horses.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "napoleon-crossing-alps-david.jpg"
+ },
+ {
+  "key": "dardanelles-gun",
+  "for": {
+   "event": "constantinople-1453"
+  },
+  "t": "The Dardanelles Gun, the bronze bombard cast for Mehmed II in 1464 on the pattern of the guns that breached Constantinople in 1453.",
+  "a": "Munir Ali (founder); photograph by “The Land”",
+  "y": "1464",
+  "c": "Fort Nelson, Royal Armouries, Hampshire",
+  "w": 1100,
+  "h": 608,
+  "lic": "public domain: the photographer released the photograph into the public domain (OpenStax World History credit line, verbatim: “Dardanelles Gun Turkish Bronze 15c” by “The Land”/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00125/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A17_03_Gun.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "dardanelles-gun.jpg"
+ },
+ {
+  "key": "istanbul-lorck-1559",
+  "for": {
+   "city": "istanbul"
+  },
+  "t": "The Fatih mosque above the roofs of Istanbul, from Melchior Lorck’s panorama of the city drawn in 1559.",
+  "a": "Melchior Lorck",
+  "y": "1559",
+  "c": "Leiden University Library",
+  "w": 900,
+  "h": 924,
+  "lic": "public domain: a drawing of 1559 (Lorck died about 1583); a photograph of a two-dimensional work carries no copyright of its own in the US (OpenStax World History credit line, verbatim: “Fatih Complex” by Melchior Lorichs/Wikimedia Commons, Public Domain)",
+  "evidence": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/modules/m00123/index.cnxml",
+  "u": "https://raw.githubusercontent.com/openstax/osbooks-world-history/main/media/OSX_WorldHist_A17_01_FatihMosq.jpg",
+  "src_repo": "openstax/osbooks-world-history",
+  "vf": "S",
+  "file": "istanbul-lorck-1559.jpg"
+ },
+ {
+  "key": "moai-rano-raraku-1914",
+  "for": {
+   "wonder": "moai"
+  },
+  "t": "Standing moai on the outer slope of Rano Raraku, buried to the shoulders, photographed by the Mana expedition of Katherine and William Scoresby Routledge in 1914.",
+  "a": "Mana expedition (Katherine and William Scoresby Routledge), photograph",
+  "y": "1914",
+  "c": "plate (fig. 57) in The Mystery of Easter Island, London, 1919",
+  "w": 904,
+  "h": 663,
+  "lic": "public domain: a photograph published in 1919 in The Mystery of Easter Island (London), before 1930, so public domain in the US; the Project Gutenberg edition (eBook #69807) is mirrored by GITenberg",
+  "evidence": "https://raw.githubusercontent.com/GITenberg/The-mystery-of-Easter-island-the-story-of-an-expedition_69807/master/69807-h/69807-h.htm",
+  "u": "https://raw.githubusercontent.com/GITenberg/The-mystery-of-Easter-island-the-story-of-an-expedition_69807/master/69807-h/images/f_057.jpg",
+  "src_repo": "GITenberg/The-mystery-of-Easter-island-the-story-of-an-expedition_69807",
+  "vf": "S",
+  "file": "moai-rano-raraku-1914.jpg"
+ },
+ {
+  "key": "moai-head-rano-raraku-1914",
+  "for": {
+   "wonder": "moai"
+  },
+  "t": "The heads of two moai on Rano Raraku, the ear lobes carved as ropes; a photograph of the Routledge expedition of 1914.",
+  "a": "Mana expedition (Katherine and William Scoresby Routledge), photograph",
+  "y": "1914",
+  "c": "plate (fig. 58) in The Mystery of Easter Island, London, 1919",
+  "w": 655,
+  "h": 915,
+  "lic": "public domain: a photograph published in 1919 in The Mystery of Easter Island (London), before 1930, so public domain in the US; the Project Gutenberg edition (eBook #69807) is mirrored by GITenberg",
+  "evidence": "https://raw.githubusercontent.com/GITenberg/The-mystery-of-Easter-island-the-story-of-an-expedition_69807/master/69807-h/69807-h.htm",
+  "u": "https://raw.githubusercontent.com/GITenberg/The-mystery-of-Easter-island-the-story-of-an-expedition_69807/master/69807-h/images/f_058.jpg",
+  "src_repo": "GITenberg/The-mystery-of-Easter-island-the-story-of-an-expedition_69807",
+  "vf": "S",
+  "file": "moai-head-rano-raraku-1914.jpg"
+ },
+ {
+  "key": "chichen-itza-castillo-catherwood-1843",
+  "for": {
+   "wonder": "chichen-itza"
+  },
+  "t": "The Castillo of Chichén Itzá, overgrown, as Frederick Catherwood drew it in 1842: engraving 51 in Stephens’s Incidents of Travel in Yucatan (New York, 1843).",
+  "a": "Frederick Catherwood (drawing), engraved for John L. Stephens, Incidents of Travel in Yucatan",
+  "y": "1843",
+  "c": "book engraving of 1843",
+  "w": 616,
+  "h": 434,
+  "small": true,
+  "lic": "public domain: an engraving published in 1843 (Catherwood died in 1854); the Project Gutenberg edition (eBook #33130, from the 1848 Harper printing) is mirrored by GITenberg",
+  "evidence": "https://raw.githubusercontent.com/GITenberg/Incidents-of-Travel-in-Yucatan-Vol.-II._33130/master/33130-h/33130-h.htm",
+  "u": "https://raw.githubusercontent.com/GITenberg/Incidents-of-Travel-in-Yucatan-Vol.-II._33130/master/33130-h/images/p312_51.png",
+  "src_repo": "GITenberg/Incidents-of-Travel-in-Yucatan-Vol.-II._33130",
+  "vf": "S",
+  "file": "chichen-itza-castillo-catherwood-1843.jpg"
+ },
+ {
+  "key": "cordoba-mosque-1873",
+  "for": {
+   "wonder": "cordoba-mosque"
+  },
+  "t": "The forest of horseshoe arches of the Great Mosque of Córdoba, begun by Abd al-Rahman I in 785: a wood engraving in Samuel Irenæus Prime’s The Alhambra and the Kremlin (New York, 1873).",
+  "a": "unknown engraver, in S. I. Prime, The Alhambra and the Kremlin",
+  "y": "1873",
+  "c": "book engraving of 1873",
+  "w": 1000,
+  "h": 743,
+  "lic": "public domain: an engraving published in 1873 (entered according to Act of Congress in 1873), so out of copyright everywhere; the Project Gutenberg edition (eBook #65004) is mirrored by GITenberg",
+  "evidence": "https://raw.githubusercontent.com/GITenberg/The-Alhambra-and-the-Kremlin-The-South-and-the-North-of-Europe_65004/master/65004-h/65004-h.htm",
+  "u": "https://raw.githubusercontent.com/GITenberg/The-Alhambra-and-the-Kremlin-The-South-and-the-North-of-Europe_65004/master/65004-h/images/i_89.jpg",
+  "src_repo": "GITenberg/The-Alhambra-and-the-Kremlin-The-South-and-the-North-of-Europe_65004",
+  "vf": "S",
+  "file": "cordoba-mosque-1873.jpg"
+ },
+ {
+  "key": "alhambra-from-generalife-1873",
+  "for": {
+   "wonder": "alhambra"
+  },
+  "t": "The Alhambra seen from the Generalife, the Nasrid palace-fortress of Granada built mainly in the fourteenth century: a wood engraving of 1873.",
+  "a": "unknown engraver, in S. I. Prime, The Alhambra and the Kremlin",
+  "y": "1873",
+  "c": "book engraving of 1873",
+  "w": 1000,
+  "h": 672,
+  "lic": "public domain: an engraving published in 1873 (entered according to Act of Congress in 1873), so out of copyright everywhere; the Project Gutenberg edition (eBook #65004) is mirrored by GITenberg",
+  "evidence": "https://raw.githubusercontent.com/GITenberg/The-Alhambra-and-the-Kremlin-The-South-and-the-North-of-Europe_65004/master/65004-h/65004-h.htm",
+  "u": "https://raw.githubusercontent.com/GITenberg/The-Alhambra-and-the-Kremlin-The-South-and-the-North-of-Europe_65004/master/65004-h/images/i_156.jpg",
+  "src_repo": "GITenberg/The-Alhambra-and-the-Kremlin-The-South-and-the-North-of-Europe_65004",
+  "vf": "S",
+  "file": "alhambra-from-generalife-1873.jpg"
+ },
+ {
+  "key": "kremlin-1873",
+  "for": {
+   "wonder": "st-basils"
+  },
+  "t": "The Kremlin of Moscow from across the Moskva, with the Great Stone Bridge, the Ivan the Great bell tower and the cathedrals: a wood engraving of 1873.",
+  "a": "unknown engraver, in S. I. Prime, The Alhambra and the Kremlin",
+  "y": "1873",
+  "c": "book engraving of 1873",
+  "w": 1200,
+  "h": 720,
+  "lic": "public domain: an engraving published in 1873 (entered according to Act of Congress in 1873), so out of copyright everywhere; the Project Gutenberg edition (eBook #65004) is mirrored by GITenberg",
+  "evidence": "https://raw.githubusercontent.com/GITenberg/The-Alhambra-and-the-Kremlin-The-South-and-the-North-of-Europe_65004/master/65004-h/65004-h.htm",
+  "u": "https://raw.githubusercontent.com/GITenberg/The-Alhambra-and-the-Kremlin-The-South-and-the-North-of-Europe_65004/master/65004-h/images/i_331.jpg",
+  "src_repo": "GITenberg/The-Alhambra-and-the-Kremlin-The-South-and-the-North-of-Europe_65004",
+  "vf": "S",
+  "file": "kremlin-1873.jpg"
+ },
+ {
+  "key": "potala-1904",
+  "for": {
+   "wonder": "potala"
+  },
+  "t": "The Potala above Lhasa, the palace of the Dalai Lamas rebuilt from 1645, photographed as the Younghusband expedition reached the city in August 1904.",
+  "a": "photograph of the Younghusband expedition, in Edmund Candler, The Unveiling of Lhasa",
+  "y": "1904",
+  "c": "plate in The Unveiling of Lhasa, London, 1905",
+  "w": 1200,
+  "h": 692,
+  "lic": "public domain: a photograph published in 1905 (The Unveiling of Lhasa, Edward Arnold, London), before 1930, so public domain in the US; the Project Gutenberg edition (eBook #33359) is mirrored by GITenberg",
+  "evidence": "https://raw.githubusercontent.com/GITenberg/The-Unveiling-of-Lhasa_33359/master/33359-h/33359-h.htm",
+  "u": "https://raw.githubusercontent.com/GITenberg/The-Unveiling-of-Lhasa_33359/master/33359-h/images/fp244.jpg",
+  "src_repo": "GITenberg/The-Unveiling-of-Lhasa_33359",
+  "vf": "S",
+  "file": "potala-1904.jpg"
+ },
+ {
+  "key": "potala-west-front-1904",
+  "for": {
+   "wonder": "potala"
+  },
+  "t": "The west front of the Potala, Lhasa, photographed by the Younghusband expedition in 1904.",
+  "a": "photograph of the Younghusband expedition, in Edmund Candler, The Unveiling of Lhasa",
+  "y": "1904",
+  "c": "plate in The Unveiling of Lhasa, London, 1905",
+  "w": 750,
+  "h": 478,
+  "lic": "public domain: a photograph published in 1905 (The Unveiling of Lhasa, Edward Arnold, London), before 1930, so public domain in the US; the Project Gutenberg edition (eBook #33359) is mirrored by GITenberg",
+  "evidence": "https://raw.githubusercontent.com/GITenberg/The-Unveiling-of-Lhasa_33359/master/33359-h/33359-h.htm",
+  "u": "https://raw.githubusercontent.com/GITenberg/The-Unveiling-of-Lhasa_33359/master/33359-h/images/fp260-1.jpg",
+  "src_repo": "GITenberg/The-Unveiling-of-Lhasa_33359",
+  "vf": "S",
+  "file": "potala-west-front-1904.jpg"
+ },
+ {
+  "key": "versailles-garden-front-1919",
+  "for": {
+   "wonder": "versailles"
+  },
+  "t": "The palace of Versailles, the Marble Court of Louis XIII’s hunting lodge enclosed by Louis XIV’s palace: a photograph in Francis Loring Payne’s The Story of Versailles (New York, 1919).",
+  "a": "unknown photographer, in F. L. Payne, The Story of Versailles",
+  "y": "1919",
+  "c": "plate in The Story of Versailles, New York, 1919",
+  "w": 543,
+  "h": 333,
+  "small": true,
+  "lic": "public domain: a photograph published in 1919 (The Story of Versailles, Moffat, Yard & Co., copyright 1919), before 1930, so public domain in the US; the Project Gutenberg edition (eBook #14857) is mirrored by GITenberg",
+  "evidence": "https://raw.githubusercontent.com/GITenberg/The-Story-of-Versailles_14857/master/14857-h/14857-h.htm",
+  "u": "https://raw.githubusercontent.com/GITenberg/The-Story-of-Versailles_14857/master/14857-h/images/img-028.jpg",
+  "src_repo": "GITenberg/The-Story-of-Versailles_14857",
+  "vf": "S",
+  "file": "versailles-garden-front-1919.jpg"
+ },
+ {
+  "key": "versailles-hall-of-mirrors-1919",
+  "for": {
+   "wonder": "versailles"
+  },
+  "t": "The Hall of Mirrors at Versailles, built by Mansart and painted by Le Brun in 1678–84, where the German Empire was proclaimed in 1871 and the treaty signed in 1919: a photograph of 1919.",
+  "a": "unknown photographer, in F. L. Payne, The Story of Versailles",
+  "y": "1919",
+  "c": "plate in The Story of Versailles, New York, 1919",
+  "w": 542,
+  "h": 319,
+  "small": true,
+  "lic": "public domain: a photograph published in 1919 (The Story of Versailles, Moffat, Yard & Co., copyright 1919), before 1930, so public domain in the US; the Project Gutenberg edition (eBook #14857) is mirrored by GITenberg",
+  "evidence": "https://raw.githubusercontent.com/GITenberg/The-Story-of-Versailles_14857/master/14857-h/14857-h.htm",
+  "u": "https://raw.githubusercontent.com/GITenberg/The-Story-of-Versailles_14857/master/14857-h/images/img-092.jpg",
+  "src_repo": "GITenberg/The-Story-of-Versailles_14857",
+  "vf": "S",
+  "file": "versailles-hall-of-mirrors-1919.jpg"
+ },
+ {
+  "key": "pantheon-rome-1914",
+  "for": {
+   "wonder": "pantheon"
+  },
+  "t": "The Pantheon of Rome, Hadrian’s temple of about AD 126 with its sixteen-column porch, still wearing the two bell towers removed in 1883; a photograph published in 1914.",
+  "a": "unknown photographer, in Seeing Europe with Famous Authors, vol. VII (ed. Francis W. Halsey)",
+  "y": "1914",
+  "c": "plate in Seeing Europe with Famous Authors, New York, 1914",
+  "w": 500,
+  "h": 365,
+  "small": true,
+  "lic": "public domain: a photograph published in 1914 in Seeing Europe with Famous Authors, vol. VII (Funk & Wagnalls, New York), before 1930, so public domain in the US; the Project Gutenberg edition (eBook #18845) is mirrored by GITenberg",
+  "evidence": "https://raw.githubusercontent.com/GITenberg/Seeing-Europe-with-Famous-Authors-Volume-7Italy-Sicily-and-Greece--Part-One-_18845/master/18845-h/18845-h.htm",
+  "u": "https://raw.githubusercontent.com/GITenberg/Seeing-Europe-with-Famous-Authors-Volume-7Italy-Sicily-and-Greece--Part-One-_18845/master/18845-h/images/img15.jpg",
+  "src_repo": "GITenberg/Seeing-Europe-with-Famous-Authors-Volume-7Italy-Sicily-and-Greece--Part-One-_18845",
+  "vf": "S",
+  "file": "pantheon-rome-1914.jpg"
+ },
+ {
+  "key": "colosseum-1914",
+  "for": {
+   "wonder": "colosseum"
+  },
+  "t": "The Colosseum, the Flavian amphitheatre dedicated in AD 80, from the south-east; a photograph published in 1914.",
+  "a": "unknown photographer, in Seeing Europe with Famous Authors, vol. VII (ed. Francis W. Halsey)",
+  "y": "1914",
+  "c": "plate in Seeing Europe with Famous Authors, New York, 1914",
+  "w": 500,
+  "h": 330,
+  "small": true,
+  "lic": "public domain: a photograph published in 1914 in Seeing Europe with Famous Authors, vol. VII (Funk & Wagnalls, New York), before 1930, so public domain in the US; the Project Gutenberg edition (eBook #18845) is mirrored by GITenberg",
+  "evidence": "https://raw.githubusercontent.com/GITenberg/Seeing-Europe-with-Famous-Authors-Volume-7Italy-Sicily-and-Greece--Part-One-_18845/master/18845-h/18845-h.htm",
+  "u": "https://raw.githubusercontent.com/GITenberg/Seeing-Europe-with-Famous-Authors-Volume-7Italy-Sicily-and-Greece--Part-One-_18845/master/18845-h/images/img19a.jpg",
+  "src_repo": "GITenberg/Seeing-Europe-with-Famous-Authors-Volume-7Italy-Sicily-and-Greece--Part-One-_18845",
+  "vf": "S",
+  "file": "colosseum-1914.jpg"
+ },
+ {
+  "key": "colosseum-interior-1914",
+  "for": {
+   "wonder": "colosseum"
+  },
+  "t": "The interior of the Colosseum with the excavated substructures of the arena; a photograph published in 1914.",
+  "a": "unknown photographer, in Seeing Europe with Famous Authors, vol. VII (ed. Francis W. Halsey)",
+  "y": "1914",
+  "c": "plate in Seeing Europe with Famous Authors, New York, 1914",
+  "w": 500,
+  "h": 366,
+  "small": true,
+  "lic": "public domain: a photograph published in 1914 in Seeing Europe with Famous Authors, vol. VII (Funk & Wagnalls, New York), before 1930, so public domain in the US; the Project Gutenberg edition (eBook #18845) is mirrored by GITenberg",
+  "evidence": "https://raw.githubusercontent.com/GITenberg/Seeing-Europe-with-Famous-Authors-Volume-7Italy-Sicily-and-Greece--Part-One-_18845/master/18845-h/18845-h.htm",
+  "u": "https://raw.githubusercontent.com/GITenberg/Seeing-Europe-with-Famous-Authors-Volume-7Italy-Sicily-and-Greece--Part-One-_18845/master/18845-h/images/img19.jpg",
+  "src_repo": "GITenberg/Seeing-Europe-with-Famous-Authors-Volume-7Italy-Sicily-and-Greece--Part-One-_18845",
+  "vf": "S",
+  "file": "colosseum-interior-1914.jpg"
+ },
+ {
+  "key": "st-peters-1914",
+  "for": {
+   "wonder": "st-peters"
+  },
+  "t": "St Peter’s Basilica and its piazza from the east, Maderno’s façade of 1612 under Michelangelo’s dome; a photograph published in 1914.",
+  "a": "unknown photographer, in Seeing Europe with Famous Authors, vol. VII (ed. Francis W. Halsey)",
+  "y": "1914",
+  "c": "plate in Seeing Europe with Famous Authors, New York, 1914",
+  "w": 500,
+  "h": 299,
+  "small": true,
+  "lic": "public domain: a photograph published in 1914 in Seeing Europe with Famous Authors, vol. VII (Funk & Wagnalls, New York), before 1930, so public domain in the US; the Project Gutenberg edition (eBook #18845) is mirrored by GITenberg",
+  "evidence": "https://raw.githubusercontent.com/GITenberg/Seeing-Europe-with-Famous-Authors-Volume-7Italy-Sicily-and-Greece--Part-One-_18845/master/18845-h/18845-h.htm",
+  "u": "https://raw.githubusercontent.com/GITenberg/Seeing-Europe-with-Famous-Authors-Volume-7Italy-Sicily-and-Greece--Part-One-_18845/master/18845-h/images/img20.jpg",
+  "src_repo": "GITenberg/Seeing-Europe-with-Famous-Authors-Volume-7Italy-Sicily-and-Greece--Part-One-_18845",
+  "vf": "S",
+  "file": "st-peters-1914.jpg"
+ },
+ {
+  "key": "notre-dame-raffaelli-1902",
+  "for": {
+   "wonder": "notre-dame"
+  },
+  "t": "Notre-Dame de Paris from the quai de la Tournelle, the apse and flying buttresses above the Seine, painted by Jean-François Raffaëlli in 1902.",
+  "a": "Jean-François Raffaëlli",
+  "y": "1902",
+  "c": "painting of 1902",
+  "w": 1600,
+  "h": 1280,
+  "lic": "public domain: a painting of 1902 by Raffaëlli, who died in 1924; a photograph of a two-dimensional work carries no copyright of its own in the US; Standard Ebooks uses only public-domain cover art and records the painting in the ebook’s colophon",
+  "evidence": "https://raw.githubusercontent.com/standardebooks/victor-hugo_notre-dame-de-paris_isabel-f-hapgood/master/src/epub/text/colophon.xhtml",
+  "u": "https://raw.githubusercontent.com/standardebooks/victor-hugo_notre-dame-de-paris_isabel-f-hapgood/master/images/cover.source.jpg",
+  "src_repo": "standardebooks/victor-hugo_notre-dame-de-paris_isabel-f-hapgood",
+  "vf": "S",
+  "file": "notre-dame-raffaelli-1902.jpg"
+ },
+ {
+  "key": "st-peters-wilson-1760",
+  "for": {
+   "wonder": "st-peters"
+  },
+  "t": "St Peter’s and the Vatican from the Janiculum, Richard Wilson’s view of Rome painted between 1757 and 1764.",
+  "a": "Richard Wilson",
+  "y": "c. 1757–1764",
+  "c": "painting of c. 1757–64",
+  "w": 1600,
+  "h": 850,
+  "lic": "public domain: a painting of the 1750s–60s by Richard Wilson, who died in 1782; Standard Ebooks uses only public-domain cover art and records the painting in the ebook’s colophon",
+  "evidence": "https://raw.githubusercontent.com/standardebooks/hilaire-belloc_the-path-to-rome/master/src/epub/text/colophon.xhtml",
+  "u": "https://raw.githubusercontent.com/standardebooks/hilaire-belloc_the-path-to-rome/master/images/cover.source.jpg",
+  "src_repo": "standardebooks/hilaire-belloc_the-path-to-rome",
+  "vf": "S",
+  "file": "st-peters-wilson-1760.jpg"
+ },
+ {
+  "key": "westminster-monet-fog-1904",
+  "for": {
+   "wonder": "westminster"
+  },
+  "t": "The Houses of Parliament, Effect of Fog: Monet’s view of Barry and Pugin’s palace across the Thames, painted in 1904 from his London campaigns of 1899–1901.",
+  "a": "Claude Monet",
+  "y": "1904",
+  "c": "one of Monet’s London series",
+  "w": 1600,
+  "h": 1415,
+  "lic": "public domain: a painting of 1904 by Monet, who died in 1926; a photograph of a two-dimensional work carries no copyright of its own in the US; Standard Ebooks uses only public-domain cover art and records the painting in the ebook’s colophon",
+  "evidence": "https://raw.githubusercontent.com/standardebooks/joseph-conrad_the-secret-agent/master/src/epub/text/colophon.xhtml",
+  "u": "https://raw.githubusercontent.com/standardebooks/joseph-conrad_the-secret-agent/master/images/cover.source.jpg",
+  "src_repo": "standardebooks/joseph-conrad_the-secret-agent",
+  "vf": "S",
+  "file": "westminster-monet-fog-1904.jpg"
+ },
+ {
+  "key": "westminster-edwards-1878",
+  "for": {
+   "wonder": "westminster"
+  },
+  "t": "The Thames at Westminster, with the Palace of Westminster and the clock tower above the river traffic, painted by Edwin Edwards in 1878.",
+  "a": "Edwin Edwards",
+  "y": "1878",
+  "c": "painting of 1878",
+  "w": 1600,
+  "h": 555,
+  "lic": "public domain: a painting of 1878 by Edwin Edwards, who died in 1879; Standard Ebooks uses only public-domain cover art and records the painting in the ebook’s colophon",
+  "evidence": "https://raw.githubusercontent.com/standardebooks/anthony-trollope_phineas-finn/master/src/epub/text/colophon.xhtml",
+  "u": "https://raw.githubusercontent.com/standardebooks/anthony-trollope_phineas-finn/master/images/cover.source.jpg",
+  "src_repo": "standardebooks/anthony-trollope_phineas-finn",
+  "vf": "S",
+  "file": "westminster-edwards-1878.jpg"
+ },
+ {
+  "key": "eiffel-tower-renoux-1922",
+  "for": {
+   "wonder": "eiffel-tower"
+  },
+  "t": "The Eiffel Tower from the Trocadéro gardens, behind Frémiet’s bronze elephant, painted by Jules Ernest Renoux in 1922.",
+  "a": "Jules Ernest Renoux",
+  "y": "1922",
+  "c": "painting of 1922",
+  "w": 1298,
+  "h": 1600,
+  "lic": "public domain: a painting of 1922 by Renoux, who died in 1931, published before 1930 and so public domain in the US; a photograph of a two-dimensional work carries no copyright of its own; Standard Ebooks uses only public-domain cover art and records the painting in the ebook’s colophon",
+  "evidence": "https://raw.githubusercontent.com/standardebooks/sinclair-lewis_dodsworth/master/src/epub/text/colophon.xhtml",
+  "u": "https://raw.githubusercontent.com/standardebooks/sinclair-lewis_dodsworth/master/images/cover.source.jpg",
+  "src_repo": "standardebooks/sinclair-lewis_dodsworth",
+  "vf": "S",
+  "file": "eiffel-tower-renoux-1922.jpg"
+ },
+ {
+  "key": "eiffel-tower-delaunay-1911",
+  "for": {
+   "wonder": "eiffel-tower"
+  },
+  "t": "Tour Eiffel, Robert Delaunay’s fractured tower of 1911, the modern Paris of the Orphists.",
+  "a": "Robert Delaunay",
+  "y": "1911",
+  "c": "painting of 1911",
+  "w": 876,
+  "h": 1280,
+  "lic": "public domain: a painting of 1911 by Delaunay, who died in 1941; exhibited and published before 1930 so public domain in the US, and in France since 2012; a photograph of a two-dimensional work carries no copyright of its own; Standard Ebooks uses only public-domain cover art and records the painting in the ebook’s colophon",
+  "evidence": "https://raw.githubusercontent.com/standardebooks/andre-gide_the-counterfeiters_dorothy-bussy/master/src/epub/text/colophon.xhtml",
+  "u": "https://raw.githubusercontent.com/standardebooks/andre-gide_the-counterfeiters_dorothy-bussy/master/images/cover.source.jpg",
+  "src_repo": "standardebooks/andre-gide_the-counterfeiters_dorothy-bussy",
+  "vf": "S",
+  "file": "eiffel-tower-delaunay-1911.jpg"
+ },
+ {
+  "key": "parthenon-church-1871",
+  "for": {
+   "wonder": "parthenon"
+  },
+  "t": "The Parthenon, Frederic Edwin Church’s painting of 1871 from his journey to Athens in 1869, the ruin in the late light.",
+  "a": "Frederic Edwin Church",
+  "y": "1871",
+  "c": "Metropolitan Museum of Art, New York",
+  "w": 1600,
+  "h": 989,
+  "lic": "public domain: a painting of 1871 by Church, who died in 1900; Standard Ebooks uses only public-domain cover art and records the painting in the ebook’s colophon",
+  "evidence": "https://raw.githubusercontent.com/standardebooks/william-shakespeare_timon-of-athens/master/src/epub/text/colophon.xhtml",
+  "u": "https://raw.githubusercontent.com/standardebooks/william-shakespeare_timon-of-athens/master/images/cover.source.jpg",
+  "src_repo": "standardebooks/william-shakespeare_timon-of-athens",
+  "vf": "S",
+  "file": "parthenon-church-1871.jpg"
+ },
+ {
+  "key": "giza-great-pyramid-dauzats",
+  "for": {
+   "wonder": "giza"
+  },
+  "t": "The Great Pyramid of Giza, its courses climbed by tiny figures, painted by Adrien Dauzats after his Egyptian journey of 1830.",
+  "a": "Adrien Dauzats",
+  "y": "1830 or later",
+  "c": "painting of the 1830s",
+  "w": 1235,
+  "h": 1600,
+  "lic": "public domain: a painting of the 1830s by Dauzats, who died in 1868; Standard Ebooks uses only public-domain cover art and records the painting in the ebook’s colophon",
+  "evidence": "https://raw.githubusercontent.com/standardebooks/sax-rohmer_brood-of-the-witch-queen/master/src/epub/text/colophon.xhtml",
+  "u": "https://raw.githubusercontent.com/standardebooks/sax-rohmer_brood-of-the-witch-queen/master/images/cover.source.jpg",
+  "src_repo": "standardebooks/sax-rohmer_brood-of-the-witch-queen",
+  "vf": "S",
+  "file": "giza-great-pyramid-dauzats.jpg"
+ },
+ {
+  "key": "waterloo-pieneman-1824",
+  "for": {
+   "event": "waterloo-1815"
+  },
+  "t": "The Battle of Waterloo, Jan Willem Pieneman’s vast canvas of 1824: Wellington at the centre, the wounded Prince of Orange carried off at the left, 18 June 1815.",
+  "a": "Jan Willem Pieneman",
+  "y": "1824",
+  "c": "Rijksmuseum, Amsterdam",
+  "w": 1600,
+  "h": 1066,
+  "lic": "public domain: a painting of 1824 by Pieneman, who died in 1853; Standard Ebooks uses only public-domain cover art and records the painting in the ebook’s colophon",
+  "evidence": "https://raw.githubusercontent.com/standardebooks/stendhal_the-charterhouse-of-parma_c-k-scott-moncrieff/master/src/epub/text/colophon.xhtml",
+  "u": "https://raw.githubusercontent.com/standardebooks/stendhal_the-charterhouse-of-parma_c-k-scott-moncrieff/master/images/cover.source.jpg",
+  "src_repo": "standardebooks/stendhal_the-charterhouse-of-parma_c-k-scott-moncrieff",
+  "vf": "S",
+  "file": "waterloo-pieneman-1824.jpg"
+ },
+ {
+  "key": "retreat-from-moscow-vereshchagin",
+  "for": {
+   "event": "napoleon-russia-1812"
+  },
+  "t": "On the High Road: Retreat, Flight. Napoleon walks with his staff through the snow during the retreat from Moscow, from Vasily Vereshchagin’s 1812 series of about 1890.",
+  "a": "Vasily Vereshchagin",
+  "y": "c. 1890",
+  "c": "State Historical Museum, Moscow (the 1812 series)",
+  "w": 1200,
+  "h": 743,
+  "lic": "public domain: a painting of about 1890 by Vereshchagin, who died in 1904; Standard Ebooks uses only public-domain cover art and records the painting in the ebook’s colophon",
+  "evidence": "https://raw.githubusercontent.com/standardebooks/henry-seton-merriman_barlasch-of-the-guard/master/src/epub/text/colophon.xhtml",
+  "u": "https://raw.githubusercontent.com/standardebooks/henry-seton-merriman_barlasch-of-the-guard/master/images/cover.source.jpg",
+  "src_repo": "standardebooks/henry-seton-merriman_barlasch-of-the-guard",
+  "vf": "S",
+  "file": "retreat-from-moscow-vereshchagin.jpg"
+ },
+ {
+  "key": "trafalgar-stanfield-1836",
+  "for": {
+   "event": "trafalgar-1805"
+  },
+  "t": "The Battle of Trafalgar, 21 October 1805, painted by Clarkson Stanfield in 1836: the Victory in the thick of the fight.",
+  "a": "Clarkson Frederick Stanfield",
+  "y": "1836",
+  "c": "painting of 1836",
+  "w": 1600,
+  "h": 917,
+  "lic": "public domain: a painting of 1836 by Stanfield, who died in 1867; Standard Ebooks uses only public-domain cover art and records the painting in the ebook’s colophon",
+  "evidence": "https://raw.githubusercontent.com/standardebooks/benito-perez-galdos_trafalgar_clara-bell/master/src/epub/text/colophon.xhtml",
+  "u": "https://raw.githubusercontent.com/standardebooks/benito-perez-galdos_trafalgar_clara-bell/master/images/cover.source.jpg",
+  "src_repo": "standardebooks/benito-perez-galdos_trafalgar_clara-bell",
+  "vf": "S",
+  "file": "trafalgar-stanfield-1836.jpg"
+ },
+ {
+  "key": "crusaders-before-jerusalem-kaulbach-1860",
+  "for": {
+   "event": "first-crusade-1095"
+  },
+  "t": "Crusaders before Jerusalem: Wilhelm von Kaulbach’s painting of 1860 of the army of the First Crusade at the sight of the city in June 1099.",
+  "a": "Wilhelm von Kaulbach",
+  "y": "1860",
+  "c": "painting of 1860",
+  "w": 1600,
+  "h": 1346,
+  "lic": "public domain: a painting of 1860 by Kaulbach, who died in 1874; Standard Ebooks uses only public-domain cover art and records the painting in the ebook’s colophon",
+  "evidence": "https://raw.githubusercontent.com/standardebooks/john-bunyan_the-pilgrims-progress/master/src/epub/text/colophon.xhtml",
+  "u": "https://raw.githubusercontent.com/standardebooks/john-bunyan_the-pilgrims-progress/master/images/cover.source.jpg",
+  "src_repo": "standardebooks/john-bunyan_the-pilgrims-progress",
+  "vf": "S",
+  "file": "crusaders-before-jerusalem-kaulbach-1860.jpg"
+ },
+ {
+  "key": "agincourt-gilbert-1884",
+  "for": {
+   "event": "agincourt-1415"
+  },
+  "t": "Morning of the Battle of Agincourt, 25 October 1415: Henry V and his army before the fight, painted by Sir John Gilbert in 1884.",
+  "a": "John Gilbert",
+  "y": "1884",
+  "c": "Guildhall Art Gallery, London",
+  "w": 1600,
+  "h": 1166,
+  "lic": "public domain: a painting of 1884 by Gilbert, who died in 1897; Standard Ebooks uses only public-domain cover art and records the painting in the ebook’s colophon",
+  "evidence": "https://raw.githubusercontent.com/standardebooks/william-shakespeare_henry-v/master/src/epub/text/colophon.xhtml",
+  "u": "https://raw.githubusercontent.com/standardebooks/william-shakespeare_henry-v/master/images/cover.source.jpg",
+  "src_repo": "standardebooks/william-shakespeare_henry-v",
+  "vf": "S",
+  "file": "agincourt-gilbert-1884.jpg"
+ },
+ {
+  "key": "liberty-leading-the-people-1830",
+  "for": {
+   "event": "july-revolution-1830"
+  },
+  "t": "Liberty Leading the People, Delacroix’s painting of the July Revolution of 1830, finished the same year.",
+  "a": "Eugène Delacroix",
+  "y": "1830",
+  "c": "Musée du Louvre, Paris",
+  "w": 1600,
+  "h": 1284,
+  "lic": "public domain: a painting of 1830 by Delacroix, who died in 1863; Standard Ebooks uses only public-domain cover art and records the painting in the ebook’s colophon",
+  "evidence": "https://raw.githubusercontent.com/standardebooks/john-stuart-mill_on-liberty/master/src/epub/text/colophon.xhtml",
+  "u": "https://raw.githubusercontent.com/standardebooks/john-stuart-mill_on-liberty/master/images/cover.source.jpg",
+  "src_repo": "standardebooks/john-stuart-mill_on-liberty",
+  "vf": "S",
+  "file": "liberty-leading-the-people-1830.jpg"
+ },
+ {
+  "key": "great-fire-of-london-1666",
+  "for": {
+   "event": "great-fire-london-1666"
+  },
+  "t": "The Great Fire of London, September 1666, seen from a boat on the Thames with old St Paul’s and London Bridge in the blaze; an anonymous painting of the seventeenth century.",
+  "a": "unknown painter",
+  "y": "17th century",
+  "c": "painting of the seventeenth century",
+  "w": 1600,
+  "h": 1162,
+  "lic": "public domain: an anonymous painting of the seventeenth century; Standard Ebooks uses only public-domain cover art and records the painting in the ebook’s colophon",
+  "evidence": "https://raw.githubusercontent.com/standardebooks/h-g-wells_the-war-of-the-worlds/master/src/epub/text/colophon.xhtml",
+  "u": "https://raw.githubusercontent.com/standardebooks/h-g-wells_the-war-of-the-worlds/master/images/cover.source.jpg",
+  "src_repo": "standardebooks/h-g-wells_the-war-of-the-worlds",
+  "vf": "S",
+  "file": "great-fire-of-london-1666.jpg"
+ },
+ {
+  "key": "paris-commune-boulanger-1871",
+  "for": {
+   "event": "paris-commune-1871"
+  },
+  "t": "An episode of the Commune, place de la Concorde: Gustave Boulanger’s painting of about 1871 of the fighting in Paris in May 1871.",
+  "a": "Gustave Boulanger",
+  "y": "c. 1871",
+  "c": "painting of c. 1871",
+  "w": 1600,
+  "h": 1217,
+  "lic": "public domain: a painting of about 1871 by Boulanger, who died in 1888; Standard Ebooks uses only public-domain cover art and records the painting in the ebook’s colophon",
+  "evidence": "https://raw.githubusercontent.com/standardebooks/winston-churchill_savrola/master/src/epub/text/colophon.xhtml",
+  "u": "https://raw.githubusercontent.com/standardebooks/winston-churchill_savrola/master/images/cover.source.jpg",
+  "src_repo": "standardebooks/winston-churchill_savrola",
+  "vf": "S",
+  "file": "paris-commune-boulanger-1871.jpg"
+ },
+ {
+  "key": "balaclava-jones-1854",
+  "for": {
+   "event": "crimean-war-1853"
+  },
+  "t": "The Conflict at the Guns, Balaclava: George Jones’s painting of 1854 of the Heavy Brigade among the Russian guns on 25 October 1854.",
+  "a": "George Jones",
+  "y": "1854",
+  "c": "painting of 1854",
+  "w": 1600,
+  "h": 820,
+  "lic": "public domain: a painting of 1854 by George Jones, who died in 1869; Standard Ebooks uses only public-domain cover art and records the painting in the ebook’s colophon",
+  "evidence": "https://raw.githubusercontent.com/standardebooks/mary-seacole_wonderful-adventures-of-mrs-seacole-in-many-lands/master/src/epub/text/colophon.xhtml",
+  "u": "https://raw.githubusercontent.com/standardebooks/mary-seacole_wonderful-adventures-of-mrs-seacole-in-many-lands/master/images/cover.source.jpg",
+  "src_repo": "standardebooks/mary-seacole_wonderful-adventures-of-mrs-seacole-in-many-lands",
+  "vf": "S",
+  "file": "balaclava-jones-1854.jpg"
+ },
+ {
+  "key": "execution-of-streltsy-surikov-1881",
+  "for": {
+   "event": "streltsy-1698"
+  },
+  "t": "The Morning of the Execution of the Streltsy, Vasily Surikov’s painting of 1881: Red Square in October 1698, Peter the Great on horseback at the right.",
+  "a": "Vasily Surikov",
+  "y": "1881",
+  "c": "State Tretyakov Gallery, Moscow",
+  "w": 1600,
+  "h": 916,
+  "lic": "public domain: a painting of 1881 by Surikov, who died in 1916; Standard Ebooks uses only public-domain cover art and records the painting in the ebook’s colophon",
+  "evidence": "https://raw.githubusercontent.com/standardebooks/jules-verne_michael-strogoff_w-h-g-kingston/master/src/epub/text/colophon.xhtml",
+  "u": "https://raw.githubusercontent.com/standardebooks/jules-verne_michael-strogoff_w-h-g-kingston/master/images/cover.source.jpg",
+  "src_repo": "standardebooks/jules-verne_michael-strogoff_w-h-g-kingston",
+  "vf": "S",
+  "file": "execution-of-streltsy-surikov-1881.jpg"
+ },
+ {
+  "key": "vercingetorix-royer-1899",
+  "for": {
+   "event": "alesia-52bc"
+  },
+  "t": "Vercingetorix throws down his arms at the feet of Julius Caesar after Alesia, 52 BC: Lionel Royer’s painting of 1899.",
+  "a": "Lionel Royer",
+  "y": "1899",
+  "c": "Musée Crozatier, Le Puy-en-Velay",
+  "w": 1600,
+  "h": 1066,
+  "lic": "public domain: a painting of 1899 by Royer, who died in 1926; Standard Ebooks uses only public-domain cover art and records the painting in the ebook’s colophon",
+  "evidence": "https://raw.githubusercontent.com/standardebooks/julius-caesar_commentaries-on-the-gallic-war_w-a-mcdevitte_w-s-bohn/master/src/epub/text/colophon.xhtml",
+  "u": "https://raw.githubusercontent.com/standardebooks/julius-caesar_commentaries-on-the-gallic-war_w-a-mcdevitte_w-s-bohn/master/images/cover.source.jpg",
+  "src_repo": "standardebooks/julius-caesar_commentaries-on-the-gallic-war_w-a-mcdevitte_w-s-bohn",
+  "vf": "S",
+  "file": "vercingetorix-royer-1899.jpg"
+ },
+ {
+  "key": "second-ypres-jack-1916",
+  "for": {
+   "event": "ypres-1914"
+  },
+  "t": "The Second Battle of Ypres, 22 April to 25 May 1915: Richard Jack’s painting of 1916 of the Canadian line under the first gas attack.",
+  "a": "Richard Jack",
+  "y": "1916",
+  "c": "Canadian War Museum, Ottawa",
+  "w": 1600,
+  "h": 972,
+  "lic": "public domain: a painting of 1916, published before 1930 and so public domain in the US; Standard Ebooks uses only public-domain cover art and records the painting in the ebook’s colophon",
+  "evidence": "https://raw.githubusercontent.com/standardebooks/ford-madox-ford_no-more-parades/master/src/epub/text/colophon.xhtml",
+  "u": "https://raw.githubusercontent.com/standardebooks/ford-madox-ford_no-more-parades/master/images/cover.source.jpg",
+  "src_repo": "standardebooks/ford-madox-ford_no-more-parades",
+  "vf": "S",
+  "file": "second-ypres-jack-1916.jpg"
+ }
+]
