@@ -1,0 +1,2320 @@
+{
+ "asof": "2026-11-25",
+ "stories": [
+  {
+   "id": "war-and-peace-1812",
+   "n": {
+    "en": "War and Peace: 1812",
+    "ru": "«Война и мир»: 1812 год"
+   },
+   "years": [
+    1812,
+    1820
+   ],
+   "grades": [
+    8,
+    10
+   ],
+   "lede": {
+    "en": "Tolstoy’s 1812 on the globe. Each step is a scene of War and Peace at its place and date, with the real event beside it: the Niemen, Smolensk, Borodino, Fili, the fire of Moscow, Tarutino, the partisans and Vilna. Quotations are given in Tolstoy’s Russian and in the public-domain translation by Louise and Aylmer Maude.",
+    "ru": "1812 год Толстого на глобусе. Каждый шаг — сцена «Войны и мира» на своём месте и в свой день, а рядом — действительное событие: Неман, Смоленск, Бородино, Фили, пожар Москвы, Тарутино, партизаны и Вильна. Цитаты даны по-русски у Толстого и в общедоступном переводе Луизы и Эйлмера Мод."
+   },
+   "steps": [
+    {
+     "y": 1812,
+     "date": "1812-06-24",
+     "date_os": "1812-06-12",
+     "ll": [
+      54.897,
+      23.886
+     ],
+     "z": 4,
+     "scene": "wp-niemen",
+     "event": "niemen",
+     "h": {
+      "en": "12 June: the war begins",
+      "ru": "12 июня: начинается война"
+     },
+     "t": {
+      "en": "Tolstoy opens Volume Three not with his characters but with history: the forces of Western Europe cross Russia’s frontier, an event “opposed to human reason and to human nature”. In fact the Grande Armée crosses the Niemen near Kovno around noon on 24 June (12 June O.S.). Its size is disputed: 450,000 to 685,000 men by different historians. Then Napoleon watches Polish uhlans swim the Viliya for him; about forty drown.",
+      "ru": "Третий том Толстой открывает не героями, а историей: силы Западной Европы переходят границу России — совершается «противное человеческому разуму и всей человеческой природе событие». В действительности Великая армия переходит Неман у Ковно около полудня 12 (24) июня. Её численность спорна: от 450 до 685 тысяч у разных историков. Затем Наполеон смотрит, как ради него польские уланы переплывают Вилию; человек сорок тонут."
+     },
+     "wiki": {
+      "en": "French invasion of Russia",
+      "ru": "Отечественная война 1812 года"
+     },
+     "people": [
+      "tolstoy"
+     ],
+     "quote": {
+      "ru": "12 июня силы Западной Европы перешли границы России, и началась война",
+      "en": "On the twelfth of June, 1812, the forces of Western Europe crossed the Russian frontier and war began",
+      "tr": "Louise and Aylmer Maude (Project Gutenberg EBook #2600)",
+      "who": {
+       "en": "Leo Tolstoy, War and Peace",
+       "ru": "Л. Н. Толстой, «Война и мир»"
+      },
+      "when": {
+       "en": "Vol. III, Part 1, ch. I",
+       "ru": "т. III, ч. 1, гл. I"
+      },
+      "src": [
+       [
+        "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 1, гл. I",
+        "https://ilibrary.ru/text/11/p.164/index.html"
+       ],
+       [
+        "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+        "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 1, гл. I",
+       "https://ilibrary.ru/text/11/p.164/index.html"
+      ],
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 1, гл. II",
+       "https://ilibrary.ru/text/11/p.165/index.html"
+      ],
+      [
+       "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+       "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+      ],
+      [
+       "Wikipedia (en): French invasion of Russia",
+       "https://en.wikipedia.org/wiki/French_invasion_of_Russia"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-06-25",
+     "date_os": "1812-06-13",
+     "ll": [
+      54.687,
+      25.28
+     ],
+     "z": 5,
+     "scene": "wp-zakret",
+     "h": {
+      "en": "The news at the ball",
+      "ru": "Весть на бале"
+     },
+     "t": {
+      "en": "At Zakret, Bennigsen’s country house outside Vilna, the Emperor is dancing at a ball given by his adjutants-general when Balashov brings word that the French have crossed. Alexander writes to Napoleon and sends Balashov off at two in the morning. In the novel he says he will make peace only when no armed enemy is left on his land. Three days earlier France had declared war through its ambassador in St Petersburg.",
+      "ru": "В Закрете, загородном доме Беннигсена под Вильной, государь на бале генерал-адъютантов, когда Балашев приносит весть о переходе французов. Александр пишет Наполеону и в два часа ночи отправляет Балашева. В романе он говорит, что помирится лишь тогда, когда на его земле не останется ни одного вооружённого неприятеля. За три дня до этого Франция объявила войну через своего посла в Петербурге."
+     },
+     "wiki": {
+      "en": "Alexander I of Russia"
+     },
+     "people": [
+      "tolstoy",
+      "alexander-i"
+     ],
+     "quote": {
+      "ru": "Я помирюсь только тогда, когда ни одного вооруженного неприятеля не останется на моей земле",
+      "en": "I will not make peace as long as a single armed enemy remains in my country!",
+      "tr": "Louise and Aylmer Maude (Project Gutenberg EBook #2600)",
+      "who": {
+       "en": "Leo Tolstoy, War and Peace",
+       "ru": "Л. Н. Толстой, «Война и мир»"
+      },
+      "when": {
+       "en": "Vol. III, Part 1, ch. III",
+       "ru": "т. III, ч. 1, гл. III"
+      },
+      "src": [
+       [
+        "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 1, гл. III",
+        "https://www.ilibrary.ru/text/11/p.166/index.html"
+       ],
+       [
+        "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+        "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 1, гл. III",
+       "https://www.ilibrary.ru/text/11/p.166/index.html"
+      ],
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 1, гл. IV",
+       "https://ilibrary.ru/text/11/p.167/index.html"
+      ],
+      [
+       "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+       "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+      ],
+      [
+       "Wikipedia (en): 1812 French declaration of war on Russia",
+       "https://en.wikipedia.org/wiki/1812_French_declaration_of_war_on_Russia"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-07-25",
+     "date_os": "1812-07-13",
+     "ll": [
+      55.139,
+      29.8554
+     ],
+     "z": 5,
+     "scene": "wp-ostrovno",
+     "battle": "ostrovno",
+     "h": {
+      "en": "Ostrovno: Nikolai’s first charge",
+      "ru": "Островно: первая атака Николая"
+     },
+     "t": {
+      "en": "On the road to Vitebsk the French cavalry of Nansouty and Murat meet Ostermann-Tolstoy’s vanguard; the Russians lose about 2,500 men and fall back. In the novel Nikolai Rostov leads his squadron against French dragoons and takes an officer prisoner, a fair young man with a dimple in his chin. He gets the St George Cross for it, and cannot understand why he feels ashamed.",
+      "ru": "На дороге к Витебску французская кавалерия Нансути и Мюрата сталкивается с авангардом Остермана-Толстого; русские теряют около 2500 человек и отходят. В романе Николай Ростов ведёт эскадрон на французских драгун и берёт в плен офицера — белокурого юношу с ямочкой на подбородке. Он получает за это Георгиевский крест и не может понять, отчего ему совестно."
+     },
+     "wiki": {
+      "en": "Battle of Ostrovno"
+     },
+     "people": [
+      "tolstoy"
+     ],
+     "src": [
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 1, гл. XIV",
+       "https://ilibrary.ru/text/11/p.177/index.html"
+      ],
+      [
+       "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+       "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+      ],
+      [
+       "Wikipedia (en): Battle of Ostrovno",
+       "https://en.wikipedia.org/wiki/Battle_of_Ostrovno"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-07-27",
+     "date_os": "1812-07-15",
+     "ll": [
+      55.7656,
+      37.6857
+     ],
+     "z": 5,
+     "scene": "wp-sloboda",
+     "event": "manifesto-militia",
+     "h": {
+      "en": "Moscow rises: the Kremlin and the Sloboda Palace",
+      "ru": "Москва поднимается: Кремль и Слободской дворец"
+     },
+     "t": {
+      "en": "On 6 (18) July Alexander I calls up the militia; the numbers raised are disputed, from 100,000 to over 400,000. When the Emperor comes to Moscow, Petya Rostov fights through the Kremlin crowd and catches a biscuit thrown from the balcony. On 15 July (O.S.) the nobles and merchants meet him at the Sloboda Palace; Pierre arrives with ideas and leaves swept along, pledging men of his own.",
+      "ru": "6 (18) июля Александр I объявляет сбор ополчения; его численность спорна — от 100 до более чем 400 тысяч. Когда государь приезжает в Москву, Петя Ростов пробивается сквозь толпу в Кремле и ловит бисквит, брошенный с балкона. 15 июля дворяне и купцы встречают его в Слободском дворце; Пьер приезжает со своими мыслями, а уезжает, увлечённый общим порывом и пообещав выставить людей."
+     },
+     "wiki": {
+      "en": "Narodnoe Opolcheniye"
+     },
+     "people": [
+      "tolstoy",
+      "alexander-i"
+     ],
+     "src": [
+      [
+       "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+       "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+      ],
+      [
+       "Большая российская энциклопедия: «Отечественная война 1812»",
+       "https://bigenc.ru/c/otechestvennaia-voina-1812-30a318"
+      ],
+      [
+       "Русская Википедия: «Отечественная война 1812 года»",
+       "https://ru.wikipedia.org/wiki/%D0%9E%D1%82%D0%B5%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B2%D0%BE%D0%B9%D0%BD%D0%B0_1812_%D0%B3%D0%BE%D0%B4%D0%B0"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": [
+      "1812-08-16",
+      "1812-08-17"
+     ],
+     "date_os": [
+      "1812-08-04",
+      "1812-08-05"
+     ],
+     "ll": [
+      54.782,
+      32.045
+     ],
+     "z": 5,
+     "scene": "wp-smolensk",
+     "battle": "smolensk",
+     "h": {
+      "en": "Smolensk: “Loot everything, lads!”",
+      "ru": "Смоленск: «Тащи всё, ребята!»"
+     },
+     "t": {
+      "en": "The French storm Smolensk on 16–18 August. Bombardment burns most of its 2,250 buildings, and of some 15,000 people about 1,000 remain. In the novel the old prince’s steward Alpatych is in the city when Napoleon opens fire from 130 guns. The merchant Ferapontov, hearing that the army is leaving, throws his goods to the soldiers and sets fire to his own house. Prince Andrei, passing with his regiment, sends Alpatych home.",
+      "ru": "16–18 августа французы штурмуют Смоленск. Бомбардировка сжигает большую часть из 2250 зданий, а из примерно 15 тысяч жителей остаётся около тысячи. В романе Алпатыч, управляющий старого князя, в городе, когда Наполеон открывает огонь из ста тридцати орудий. Купец Ферапонтов, услышав, что войска уходят, отдаёт солдатам своё добро и сам поджигает дом. Князь Андрей, проходя с полком, отправляет Алпатыча домой."
+     },
+     "wiki": {
+      "en": "Battle of Smolensk (1812)"
+     },
+     "people": [
+      "tolstoy"
+     ],
+     "quote": {
+      "ru": "Тащи всё, ребята! Не доставайся дьяволам!",
+      "en": "Loot everything, lads! Don’t let those devils get it!",
+      "tr": "Louise and Aylmer Maude (Project Gutenberg EBook #2600)",
+      "who": {
+       "en": "Leo Tolstoy, War and Peace",
+       "ru": "Л. Н. Толстой, «Война и мир»"
+      },
+      "when": {
+       "en": "Vol. III, Part 2, ch. IV",
+       "ru": "т. III, ч. 2, гл. IV"
+      },
+      "src": [
+       [
+        "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 2, гл. IV",
+        "https://ilibrary.ru/text/11/p.190/index.html"
+       ],
+       [
+        "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+        "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 2, гл. IV",
+       "https://ilibrary.ru/text/11/p.190/index.html"
+      ],
+      [
+       "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+       "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+      ],
+      [
+       "Wikipedia (en): Battle of Smolensk (1812)",
+       "https://en.wikipedia.org/wiki/Battle_of_Smolensk_(1812)"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "ll": [
+      54.9,
+      33.5
+     ],
+     "z": 4,
+     "scene": "wp-old-prince",
+     "h": {
+      "en": "The old prince dies",
+      "ru": "Смерть старого князя"
+     },
+     "t": {
+      "en": "Bald Hills lies forty miles east of Smolensk, and the French are coming. The old prince, struck down by a stroke, is carried to Prince Andrei’s estate of Bogucharovo and dies there, thanking his daughter and asking her forgiveness. Tolstoy drew him from his own grandfather, Prince Nikolai Volkonsky. Bald Hills and Bogucharovo are fictional; the points are approximate.",
+      "ru": "Лысые Горы стоят в шестидесяти верстах от Смоленска, и французы близко. Старого князя, разбитого ударом, перевозят в Богучарово, имение князя Андрея, и он умирает там, благодаря дочь и прося у неё прощения. Толстой писал его со своего деда, князя Николая Сергеевича Волконского. Лысые Горы и Богучарово вымышлены; точки приблизительны."
+     },
+     "wiki": {
+      "ru": "Волконский, Николай Сергеевич (1753)"
+     },
+     "people": [
+      "tolstoy"
+     ],
+     "quote": {
+      "ru": "Спасибо тебе... дочь, дружок... за все, за все... прости... спасибо!..",
+      "en": "Thank you... daughter dear!... for all, for all... forgive!... thank you!...",
+      "tr": "Louise and Aylmer Maude (Project Gutenberg EBook #2600)",
+      "who": {
+       "en": "Leo Tolstoy, War and Peace",
+       "ru": "Л. Н. Толстой, «Война и мир»"
+      },
+      "when": {
+       "en": "Vol. III, Part 2, ch. VIII",
+       "ru": "т. III, ч. 2, гл. VIII"
+      },
+      "src": [
+       [
+        "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 2, гл. VIII",
+        "https://ilibrary.ru/text/11/p.194/index.html"
+       ],
+       [
+        "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+        "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 2, гл. VIII",
+       "https://ilibrary.ru/text/11/p.194/index.html"
+      ],
+      [
+       "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+       "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+      ],
+      [
+       "Русская Википедия: «Список персонажей романа „Война и мир“»",
+       "https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6%D0%B5%D0%B9_%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D0%B0_%C2%AB%D0%92%D0%BE%D0%B9%D0%BD%D0%B0_%D0%B8_%D0%BC%D0%B8%D1%80%C2%BB"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-08-29",
+     "date_os": "1812-08-17",
+     "ll": [
+      55.4267,
+      34.8211
+     ],
+     "z": 5,
+     "scene": "wp-tsarevo",
+     "event": "kutuzov-appointed",
+     "h": {
+      "en": "Kutuzov takes command",
+      "ru": "Кутузов принимает армию"
+     },
+     "t": {
+      "en": "Alexander I names Kutuzov commander-in-chief on 8 (20) August; he reaches the army at Tsaryovo-Zaymishche on 29 August. On that day, in the novel, he receives Prince Andrei. Denisov is there with a plan for partisan war; Kutuzov hears him out with visible boredom. The same day, at Bogucharovo, Nikolai Rostov rescues Princess Maria from her own rebellious peasants.",
+      "ru": "Александр I назначает Кутузова главнокомандующим 8 (20) августа; 17 (29) августа он прибывает к армии в Царёво-Займище. В этот день, по роману, он принимает князя Андрея. Там же Денисов с планом партизанской войны; Кутузов выслушивает его с явной скукой. В тот же день в Богучарове Николай Ростов выручает княжну Марью у её же взбунтовавшихся мужиков."
+     },
+     "wiki": {
+      "en": "Mikhail Kutuzov"
+     },
+     "people": [
+      "tolstoy"
+     ],
+     "quote": {
+      "ru": "Приняв командование над армиями, Кутузов вспомнил о князе Андрее и послал ему приказание прибыть в главную квартиру.",
+      "en": "On receiving command of the armies Kutuzov remembered Prince Andrew and sent an order for him to report at headquarters.",
+      "tr": "Louise and Aylmer Maude (Project Gutenberg EBook #2600)",
+      "who": {
+       "en": "Leo Tolstoy, War and Peace",
+       "ru": "Л. Н. Толстой, «Война и мир»"
+      },
+      "when": {
+       "en": "Vol. III, Part 2, ch. XV",
+       "ru": "т. III, ч. 2, гл. XV"
+      },
+      "src": [
+       [
+        "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 2, гл. XV",
+        "https://ilibrary.ru/text/11/p.201/index.html"
+       ],
+       [
+        "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+        "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 2, гл. XV",
+       "https://ilibrary.ru/text/11/p.201/index.html"
+      ],
+      [
+       "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+       "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+      ],
+      [
+       "Wikipedia (en): French invasion of Russia",
+       "https://en.wikipedia.org/wiki/French_invasion_of_Russia"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-09-06",
+     "date_os": "1812-08-25",
+     "ll": [
+      55.52,
+      35.82
+     ],
+     "z": 5,
+     "scene": "wp-icon",
+     "battle": "shevardino",
+     "h": {
+      "en": "The day before Borodino",
+      "ru": "За день до Бородина"
+     },
+     "t": {
+      "en": "On 5 September the French take the Shevardino redoubt. Next day, 25 August (O.S.), Pierre reaches the field in his civilian coat and climbs the knoll among militiamen digging earthworks. The icon of the Smolensk Mother of God is carried along the lines, and Kutuzov bows to the ground before it. That evening Prince Andrei tells Pierre that war is not a courtesy but the most horrible thing in life.",
+      "ru": "5 сентября французы берут Шевардинский редут. На другой день, 25 августа, Пьер в штатском приезжает на поле и поднимается на курган среди копающих ополченцев. Вдоль линий несут икону Смоленской Божией Матери, и Кутузов кланяется ей в землю. Вечером князь Андрей говорит Пьеру, что война не любезность, а самое гадкое дело в жизни."
+     },
+     "wiki": {
+      "en": "Battle of Shevardino"
+     },
+     "people": [
+      "tolstoy"
+     ],
+     "quote": {
+      "ru": "Война не любезность, а самое гадкое дело в жизни, и надо понимать это и не играть в войну.",
+      "en": "War is not courtesy but the most horrible thing in life; and we ought to understand that and not play at war.",
+      "tr": "Louise and Aylmer Maude (Project Gutenberg EBook #2600)",
+      "who": {
+       "en": "Leo Tolstoy, War and Peace",
+       "ru": "Л. Н. Толстой, «Война и мир»"
+      },
+      "when": {
+       "en": "Vol. III, Part 2, ch. XXV",
+       "ru": "т. III, ч. 2, гл. XXV"
+      },
+      "src": [
+       [
+        "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 2, гл. XXV",
+        "https://ilibrary.ru/text/11/p.211/index.html"
+       ],
+       [
+        "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+        "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 2, гл. XXI",
+       "https://ilibrary.ru/text/11/p.207/index.html"
+      ],
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 2, гл. XXV",
+       "https://ilibrary.ru/text/11/p.211/index.html"
+      ],
+      [
+       "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+       "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+      ],
+      [
+       "Wikipedia (en): Battle of Shevardino",
+       "https://en.wikipedia.org/wiki/Battle_of_Shevardino"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-09-07",
+     "date_os": "1812-08-26",
+     "ll": [
+      55.517,
+      35.822
+     ],
+     "z": 5,
+     "scene": "wp-raevsky",
+     "battle": "borodino",
+     "h": {
+      "en": "Borodino: Pierre on the battery",
+      "ru": "Бородино: Пьер на батарее"
+     },
+     "t": {
+      "en": "26 August (O.S.). The French take Bagration’s flèches in the morning and the Raevsky redoubt at about 15:30. Pierre, in a white hat and green coat, spends the morning on that knoll battery among gunners who call him “our gentleman”. When the French burst in he grapples with a French officer; then the battery is retaken. Losses are disputed: 30,000–42,000 French, 40,000–53,000 Russian.",
+      "ru": "26 августа. Утром французы берут Багратионовы флеши, около 15:30 — батарею Раевского. Пьер в белой шляпе и зелёном фраке проводит утро на этой курганной батарее среди артиллеристов, прозвавших его «наш барин». Когда французы врываются, он схватывается с французским офицером; потом батарею отбивают. Потери спорны: 30–42 тысячи у французов, 40–53 тысячи у русских."
+     },
+     "wiki": {
+      "en": "Battle of Borodino",
+      "ru": "Бородинское сражение"
+     },
+     "people": [
+      "tolstoy"
+     ],
+     "quote": {
+      "ru": "Войдя на курган, Пьер стал в конце канавы, окружающей батарею",
+      "en": "Having reached the knoll, Pierre sat down at one end of a trench surrounding the battery",
+      "tr": "Louise and Aylmer Maude (Project Gutenberg EBook #2600)",
+      "who": {
+       "en": "Leo Tolstoy, War and Peace",
+       "ru": "Л. Н. Толстой, «Война и мир»"
+      },
+      "when": {
+       "en": "Vol. III, Part 2, ch. XXXI",
+       "ru": "т. III, ч. 2, гл. XXXI"
+      },
+      "src": [
+       [
+        "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 2, гл. XXXI",
+        "https://ilibrary.ru/text/11/p.217/index.html"
+       ],
+       [
+        "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+        "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 2, гл. XXXI",
+       "https://ilibrary.ru/text/11/p.217/index.html"
+      ],
+      [
+       "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+       "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+      ],
+      [
+       "Wikipedia (en): Battle of Borodino",
+       "https://en.wikipedia.org/wiki/Battle_of_Borodino"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-09-07",
+     "date_os": "1812-08-26",
+     "ll": [
+      55.51,
+      35.83
+     ],
+     "z": 5,
+     "scene": "wp-andrei-wounded",
+     "battle": "borodino",
+     "h": {
+      "en": "Prince Andrei falls",
+      "ru": "Князь Андрей ранен"
+     },
+     "t": {
+      "en": "Prince Andrei’s regiment stands idle in reserve behind Semyonovskoye under fire. A shell spins at his feet; he will not lie down and is wounded. At the dressing station he sees Anatole Kuragin, whose leg has just been cut off, and pities him. On the same field, in fact, Bagration was hit in the leg around 11:00 and died of the wound on 24 September.",
+      "ru": "Полк князя Андрея без дела стоит в резерве позади Семёновского под огнём. У его ног вертится граната; он не ложится и ранен. На перевязочном пункте он видит Анатоля Курагина, которому только что отрезали ногу, и жалеет его. На том же поле в действительности около 11 часов был ранен в ногу Багратион; он умер от раны 24 сентября."
+     },
+     "wiki": {
+      "en": "Pyotr Bagration"
+     },
+     "people": [
+      "tolstoy"
+     ],
+     "quote": {
+      "ru": "Граната, как волчок, дымясь вертелась между ним и лежащим адъютантом",
+      "en": "The smoking shell spun like a top between him and the prostrate adjutant",
+      "tr": "Louise and Aylmer Maude (Project Gutenberg EBook #2600)",
+      "who": {
+       "en": "Leo Tolstoy, War and Peace",
+       "ru": "Л. Н. Толстой, «Война и мир»"
+      },
+      "when": {
+       "en": "Vol. III, Part 2, ch. XXXVI",
+       "ru": "т. III, ч. 2, гл. XXXVI"
+      },
+      "src": [
+       [
+        "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 2, гл. XXXVI",
+        "https://www.ilibrary.ru/text/11/p.222/index.html"
+       ],
+       [
+        "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+        "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 2, гл. XXXVI",
+       "https://www.ilibrary.ru/text/11/p.222/index.html"
+      ],
+      [
+       "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+       "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+      ],
+      [
+       "Wikipedia (en): Battle of Borodino",
+       "https://en.wikipedia.org/wiki/Battle_of_Borodino"
+      ],
+      [
+       "Fondation Napoléon: 1812, la campagne de Russie (2): de Borodino à Moscou",
+       "https://www.napoleon.org/histoire-des-2-empires/chronologies/1812-la-campagne-de-russie-2-de-borodino-a-moscou/"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-09-07",
+     "date_os": "1812-08-26",
+     "ll": [
+      55.52,
+      35.82
+     ],
+     "z": 5,
+     "scene": "wp-moral-victory",
+     "battle": "borodino",
+     "h": {
+      "en": "“Tomorrow we attack”: a moral victory",
+      "ru": "«Завтра мы атакуем»: победа нравственная"
+     },
+     "t": {
+      "en": "At Gorki Kutuzov refuses to hear that the battle is lost and orders it announced that they will attack tomorrow. In the night he withdraws instead; his first report says the enemy “nowhere gained a single step of ground”. Tolstoy’s verdict is that the Russians won a moral victory, one that convinces the enemy of his opponent’s moral superiority.",
+      "ru": "В Горках Кутузов не желает слышать, что сражение проиграно, и велит объявить, что завтра атака. Ночью он всё же отходит; в первом рапорте сказано, что «неприятель нигде не выиграл ни на шаг земли». Приговор Толстого: русские одержали победу нравственную — ту, которая убеждает противника в нравственном превосходстве врага."
+     },
+     "wiki": {
+      "en": "Mikhail Kutuzov"
+     },
+     "people": [
+      "tolstoy"
+     ],
+     "quote": {
+      "ru": "победа нравственная, та, которая убеждает противника в нравственном превосходстве своего врага",
+      "en": "a moral victory that convinces the enemy of the moral superiority of his opponent",
+      "tr": "Louise and Aylmer Maude (Project Gutenberg EBook #2600)",
+      "who": {
+       "en": "Leo Tolstoy, War and Peace",
+       "ru": "Л. Н. Толстой, «Война и мир»"
+      },
+      "when": {
+       "en": "Vol. III, Part 2, ch. XXXIX",
+       "ru": "т. III, ч. 2, гл. XXXIX"
+      },
+      "src": [
+       [
+        "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 2, гл. XXXIX",
+        "https://ilibrary.ru/text/11/p.225/index.html"
+       ],
+       [
+        "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+        "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 2, гл. XXXV",
+       "https://ilibrary.ru/text/11/p.221/index.html"
+      ],
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 2, гл. XXXIX",
+       "https://ilibrary.ru/text/11/p.225/index.html"
+      ],
+      [
+       "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+       "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+      ],
+      [
+       "Рапорт М. И. Кутузова Александру I о сражении при Бородине, 27 августа 1812 г., hrono.ru",
+       "https://www.hrono.ru/dokum/1800dok/18120827kut.html"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-09-13",
+     "date_os": "1812-09-01",
+     "ll": [
+      55.7395,
+      37.5137
+     ],
+     "z": 5,
+     "scene": "wp-fili",
+     "event": "fili",
+     "h": {
+      "en": "Fili, through a child’s eyes",
+      "ru": "Фили глазами ребёнка"
+     },
+     "t": {
+      "en": "Tolstoy shows the council of war through the eyes of the peasant girl Malasha, left on the stove: “grandad” Kutuzov against “long-skirts” Bennigsen. History agrees in substance. The council met in the hut of the peasant Mikhail Frolov; Bennigsen urged battle, and Kutuzov decided to save the army rather than the city and ordered the retreat.",
+      "ru": "Военный совет Толстой показывает глазами крестьянской девочки Малаши, оставленной на печи: «дедушка» Кутузов против «длиннополого» Беннигсена. История в главном согласна. Совет собрался в избе крестьянина Михаила Фролова; Беннигсен требовал сражения, а Кутузов решил спасать армию, а не город, и приказал отступать."
+     },
+     "wiki": {
+      "en": "Council at Fili"
+     },
+     "people": [
+      "tolstoy"
+     ],
+     "quote": {
+      "ru": "Сам дедушка, как внутренно называла Малаша Кутузова, сидел от них особо, в темном углу за печкой.",
+      "en": "“Granddad” himself, as Malasha in her own mind called Kutuzov, sat apart in a dark corner behind the oven.",
+      "tr": "Louise and Aylmer Maude (Project Gutenberg EBook #2600)",
+      "who": {
+       "en": "Leo Tolstoy, War and Peace",
+       "ru": "Л. Н. Толстой, «Война и мир»"
+      },
+      "when": {
+       "en": "Vol. III, Part 3, ch. IV",
+       "ru": "т. III, ч. 3, гл. IV"
+      },
+      "src": [
+       [
+        "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 3, гл. IV",
+        "https://ilibrary.ru/text/11/p.229/index.html"
+       ],
+       [
+        "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+        "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 3, гл. IV",
+       "https://ilibrary.ru/text/11/p.229/index.html"
+      ],
+      [
+       "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+       "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+      ],
+      [
+       "Wikipedia (en): Council at Fili",
+       "https://en.wikipedia.org/wiki/Council_at_Fili"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": [
+      "1812-09-12",
+      "1812-09-13"
+     ],
+     "date_os": [
+      "1812-08-31",
+      "1812-09-01"
+     ],
+     "ll": [
+      55.7576,
+      37.5867
+     ],
+     "z": 5,
+     "scene": "wp-carts",
+     "h": {
+      "en": "Carts for the wounded",
+      "ru": "Подводы раненым"
+     },
+     "t": {
+      "en": "On Povarskaya Street the Rostovs pack while wounded officers fill their yard. Natasha shames her mother; the family’s goods go back into the storerooms and the carts to the wounded. Among them, unknown to her, is Prince Andrei. Moscow empties: of 270,184 inhabitants counted early in 1812, only 6,000–10,000 civilians stay.",
+      "ru": "На Поварской Ростовы укладываются, а двор наполняется ранеными офицерами. Наташа стыдит мать; вещи сносят обратно в кладовые, подводы отдают под раненых. Среди них, о чём она не знает, князь Андрей. Москва пустеет: из 270 184 жителей, учтённых в начале 1812 года, остаются лишь 6–10 тысяч."
+     },
+     "wiki": {
+      "en": "French occupation of Moscow"
+     },
+     "people": [
+      "tolstoy"
+     ],
+     "quote": {
+      "ru": "Маменька, это нельзя; посмотрите, что на дворе!",
+      "en": "Mamma, it’s impossible: see what is going on in the yard!",
+      "tr": "Louise and Aylmer Maude (Project Gutenberg EBook #2600)",
+      "who": {
+       "en": "Leo Tolstoy, War and Peace",
+       "ru": "Л. Н. Толстой, «Война и мир»"
+      },
+      "when": {
+       "en": "Vol. III, Part 3, ch. XVI",
+       "ru": "т. III, ч. 3, гл. XVI"
+      },
+      "src": [
+       [
+        "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 3, гл. XVI",
+        "https://ilibrary.ru/text/11/p.241/index.html"
+       ],
+       [
+        "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+        "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 3, гл. XVI",
+       "https://ilibrary.ru/text/11/p.241/index.html"
+      ],
+      [
+       "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+       "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+      ],
+      [
+       "Wikipedia (en): French occupation of Moscow",
+       "https://en.wikipedia.org/wiki/French_occupation_of_Moscow"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-09-14",
+     "date_os": "1812-09-02",
+     "ll": [
+      55.7317,
+      37.5067
+     ],
+     "z": 5,
+     "scene": "wp-poklonnaya",
+     "event": "moscow-abandoned",
+     "h": {
+      "en": "Why Moscow left",
+      "ru": "Почему уходила Москва"
+     },
+     "t": {
+      "en": "Napoleon waits on the Poklonnaya Hill for a deputation of boyars that never comes; the city is as empty as a queenless hive. Tolstoy insists that Muscovites did not leave because of Rostopchin’s broadsheets, which called leaving shameful. They left because for Russians there could be no question whether life under the French would be good or bad.",
+      "ru": "Наполеон ждёт на Поклонной горе депутацию бояр, которая так и не приходит; город пуст, как обезматочивший улей. Толстой настаивает: москвичи уезжали не из-за ростопчинских афишек, называвших отъезд постыдным. Они уезжали потому, что для русских людей не могло быть вопроса, хорошо ли, дурно ли будет под французами."
+     },
+     "wiki": {
+      "en": "French occupation of Moscow"
+     },
+     "people": [
+      "tolstoy"
+     ],
+     "quote": {
+      "ru": "Они ехали потому, что для русских людей не могло быть вопроса: хорошо ли, или дурно будет",
+      "en": "They went away because for Russians there could be no question as to whether things would go well or ill",
+      "tr": "Louise and Aylmer Maude (Project Gutenberg EBook #2600)",
+      "who": {
+       "en": "Leo Tolstoy, War and Peace",
+       "ru": "Л. Н. Толстой, «Война и мир»"
+      },
+      "when": {
+       "en": "Vol. III, Part 3, ch. V",
+       "ru": "т. III, ч. 3, гл. V"
+      },
+      "src": [
+       [
+        "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 3, гл. V",
+        "https://ilibrary.ru/text/11/p.230/index.html"
+       ],
+       [
+        "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+        "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 3, гл. V",
+       "https://ilibrary.ru/text/11/p.230/index.html"
+      ],
+      [
+       "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+       "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+      ],
+      [
+       "Wikipedia (en): French occupation of Moscow",
+       "https://en.wikipedia.org/wiki/French_occupation_of_Moscow"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-09-14",
+     "date_os": "1812-09-02",
+     "ll": [
+      55.752,
+      37.6175
+     ],
+     "z": 5,
+     "scene": "wp-vereshchagin",
+     "h": {
+      "en": "Rostopchin and Vereshchagin",
+      "ru": "Ростопчин и Верещагин"
+     },
+     "t": {
+      "en": "On the morning the French come, Rostopchin hands the crowd at his gate the merchant’s son Mikhail Vereshchagin, accused of spreading Napoleon’s proclamations, and drives away while they kill him. Tolstoy writes it as a man saving himself. The real Rostopchin left Moscow, later denied ordering the fire in a pamphlet of 1823, and lived in Paris before returning to die in Moscow in 1826.",
+      "ru": "Утром того дня, когда входят французы, Ростопчин выдаёт толпе у своих ворот купеческого сына Михаила Верещагина, обвинённого в распространении наполеоновских прокламаций, и уезжает, пока того убивают. Толстой пишет это как поступок человека, спасающего себя. Настоящий Ростопчин оставил Москву, в 1823 году в брошюре отрицал, что приказал поджечь город, жил в Париже и вернулся умереть в Москву в 1826 году."
+     },
+     "wiki": {
+      "en": "Fyodor Rostopchin"
+     },
+     "people": [
+      "tolstoy"
+     ],
+     "src": [
+      [
+       "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+       "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+      ],
+      [
+       "Wikipedia (en): Fyodor Rostopchin",
+       "https://en.wikipedia.org/wiki/Fyodor_Rostopchin"
+      ],
+      [
+       "Академик (копия статьи Википедии): «Ростопчин, Фёдор Васильевич»",
+       "https://dic.academic.ru/dic.nsf/ruwiki/131177"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-09-14",
+     "date_os": "1812-09-02",
+     "ll": [
+      55.9116,
+      37.7308
+     ],
+     "z": 5,
+     "scene": "wp-mytishchi",
+     "event": "fire",
+     "h": {
+      "en": "Mytishchi: the glow of Moscow",
+      "ru": "Мытищи: зарево Москвы"
+     },
+     "t": {
+      "en": "The first fires break out in Moscow on the evening of 14 September. From Mytishchi the Rostovs watch the glow. That night Natasha, learning that Prince Andrei is with them, goes to the hut where he lies, kneels by him and asks his forgiveness. He smiles and gives her his hand.",
+      "ru": "Первые пожары вспыхивают в Москве вечером 14 сентября. Из Мытищ Ростовы смотрят на зарево. Ночью Наташа, узнав, что князь Андрей едет с ними, идёт в избу, где он лежит, становится на колени и просит прощения. Он улыбается и протягивает ей руку."
+     },
+     "wiki": {
+      "en": "Mytishchi"
+     },
+     "people": [
+      "tolstoy"
+     ],
+     "quote": {
+      "ru": "Она подошла к нему и быстрым, гибким, молодым движением стала на колени.",
+      "en": "She went up to him and with a swift, flexible, youthful movement dropped on her knees.",
+      "tr": "Louise and Aylmer Maude (Project Gutenberg EBook #2600)",
+      "who": {
+       "en": "Leo Tolstoy, War and Peace",
+       "ru": "Л. Н. Толстой, «Война и мир»"
+      },
+      "when": {
+       "en": "Vol. III, Part 3, ch. XXXI",
+       "ru": "т. III, ч. 3, гл. XXXI"
+      },
+      "src": [
+       [
+        "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 3, гл. XXXI",
+        "https://ilibrary.ru/text/11/p.256/index.html"
+       ],
+       [
+        "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+        "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 3, гл. XXXI",
+       "https://ilibrary.ru/text/11/p.256/index.html"
+      ],
+      [
+       "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+       "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+      ],
+      [
+       "Wikipedia (en): Fire of Moscow (1812)",
+       "https://en.wikipedia.org/wiki/Fire_of_Moscow_(1812)"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-09-15",
+     "date_os": "1812-09-03",
+     "ll": [
+      55.752,
+      37.6175
+     ],
+     "z": 5,
+     "scene": "wp-fire",
+     "event": "moscow-lost",
+     "h": {
+      "en": "Pierre in burning Moscow",
+      "ru": "Пьер в горящей Москве"
+     },
+     "t": {
+      "en": "Pierre has stayed, meaning to kill Napoleon. On 3 September (O.S.) he walks out into the burning streets, carries a child from a garden and defends a woman from looters, and is arrested as an incendiary. By 18 September about three quarters of the city is ash: by one count 6,496 of 9,151 houses and 122 of 329 churches burned.",
+      "ru": "Пьер остался, чтобы убить Наполеона. 3 сентября он выходит на горящие улицы, выносит ребёнка из сада, заступается за женщину перед мародёрами и арестован как поджигатель. К 18 сентября около трёх четвертей города обращено в пепел: по одному подсчёту, сгорели 6496 из 9151 дома и 122 храма из 329."
+     },
+     "wiki": {
+      "en": "Fire of Moscow (1812)",
+      "ru": "Московский пожар (1812)"
+     },
+     "people": [
+      "tolstoy"
+     ],
+     "quote": {
+      "ru": "Москва горела уже с разных сторон.",
+      "en": "Moscow was on fire in several places.",
+      "tr": "Louise and Aylmer Maude (Project Gutenberg EBook #2600)",
+      "who": {
+       "en": "Leo Tolstoy, War and Peace",
+       "ru": "Л. Н. Толстой, «Война и мир»"
+      },
+      "when": {
+       "en": "Vol. III, Part 3, ch. XXXIII",
+       "ru": "т. III, ч. 3, гл. XXXIII"
+      },
+      "src": [
+       [
+        "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 3, гл. XXXIII",
+        "https://ilibrary.ru/text/11/p.258/index.html"
+       ],
+       [
+        "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+        "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 3, гл. XXXIII",
+       "https://ilibrary.ru/text/11/p.258/index.html"
+      ],
+      [
+       "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+       "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+      ],
+      [
+       "Русская Википедия: «Московский пожар (1812)»",
+       "https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D0%BE%D0%B6%D0%B0%D1%80_(1812)"
+      ],
+      [
+       "Wikipedia (en): Fire of Moscow (1812)",
+       "https://en.wikipedia.org/wiki/Fire_of_Moscow_(1812)"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-09-20",
+     "date_os": "1812-09-08",
+     "ll": [
+      55.7286,
+      37.5568
+     ],
+     "z": 5,
+     "scene": "wp-karataev",
+     "h": {
+      "en": "The Maiden’s Field and Karataev",
+      "ru": "Девичье поле и Каратаев"
+     },
+     "t": {
+      "en": "On 8 September (O.S.) Pierre is led with thirteen others to the Maiden’s Field and watches men shot as incendiaries before he is reprieved. A French court-martial did shoot up to 400 townspeople on suspicion of arson. In the prisoners’ shed he meets Platon Karataev, who gives him baked potatoes and becomes for him the embodiment of everything Russian, kind and round.",
+      "ru": "8 сентября Пьера вместе с тринадцатью другими ведут на Девичье поле, и у него на глазах расстреливают «поджигателей», прежде чем его милуют. Французский военный суд в действительности расстрелял до 400 горожан по подозрению в поджогах. В балагане пленных он встречает Платона Каратаева, который угощает его печёной картошкой и становится для него олицетворением всего русского, доброго и круглого."
+     },
+     "wiki": {
+      "en": "Novodevichy Convent"
+     },
+     "people": [
+      "tolstoy"
+     ],
+     "quote": {
+      "ru": "олицетворением всего русского, доброго и круглого",
+      "en": "the personification of everything Russian, kindly, and round",
+      "tr": "Louise and Aylmer Maude (Project Gutenberg EBook #2600)",
+      "who": {
+       "en": "Leo Tolstoy, War and Peace",
+       "ru": "Л. Н. Толстой, «Война и мир»"
+      },
+      "when": {
+       "en": "Vol. IV, Part 1, ch. XIII",
+       "ru": "т. IV, ч. 1, гл. XIII"
+      },
+      "src": [
+       [
+        "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. IV, ч. 1, гл. XIII",
+        "https://ilibrary.ru/text/11/p.272/index.html"
+       ],
+       [
+        "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+        "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. IV, ч. 1, гл. X",
+       "https://ilibrary.ru/text/11/p.269/index.html"
+      ],
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. IV, ч. 1, гл. XIII",
+       "https://ilibrary.ru/text/11/p.272/index.html"
+      ],
+      [
+       "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+       "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+      ],
+      [
+       "Wikipedia (en): French occupation of Moscow",
+       "https://en.wikipedia.org/wiki/French_occupation_of_Moscow"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "ll": [
+      57.6261,
+      39.8845
+     ],
+     "z": 5,
+     "scene": "wp-andrei-death",
+     "h": {
+      "en": "Yaroslavl: Prince Andrei dies",
+      "ru": "Ярославль: смерть князя Андрея"
+     },
+     "t": {
+      "en": "The Rostovs have carried the wounded Prince Andrei to Yaroslavl. Princess Maria comes with his son. Natasha nurses him. He forgives Natasha, grows remote from the living and dies, feeling that death is an awakening.",
+      "ru": "Ростовы довезли раненого князя Андрея до Ярославля. Туда приезжает княжна Марья с его сыном. Наташа ухаживает за ним. Он прощает Наташу, отдаляется от живых и умирает, чувствуя, что смерть — пробуждение."
+     },
+     "wiki": {
+      "en": "Yaroslavl"
+     },
+     "people": [
+      "tolstoy"
+     ],
+     "quote": {
+      "ru": "С этого дня началось для князя Андрея вместе с пробуждением от сна — пробуждение от жизни.",
+      "en": "From that day an awakening from life came to Prince Andrew together with his awakening from sleep.",
+      "tr": "Louise and Aylmer Maude (Project Gutenberg EBook #2600)",
+      "who": {
+       "en": "Leo Tolstoy, War and Peace",
+       "ru": "Л. Н. Толстой, «Война и мир»"
+      },
+      "when": {
+       "en": "Vol. IV, Part 1, ch. XVI",
+       "ru": "т. IV, ч. 1, гл. XVI"
+      },
+      "src": [
+       [
+        "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. IV, ч. 1, гл. XVI",
+        "https://ilibrary.ru/text/11/p.275/index.html"
+       ],
+       [
+        "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+        "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. IV, ч. 1, гл. XVI",
+       "https://ilibrary.ru/text/11/p.275/index.html"
+      ],
+      [
+       "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+       "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-10-23",
+     "date_os": "1812-10-11",
+     "ll": [
+      55.17722,
+      37.00278
+     ],
+     "z": 5,
+     "scene": "wp-russia-saved",
+     "battle": "tarutino",
+     "h": {
+      "en": "Tarutino: “Russia is saved”",
+      "ru": "Тарутино: «Спасена Россия»"
+     },
+     "t": {
+      "en": "On 6 (18) October Bennigsen’s night attack on Murat by the Chernishnya succeeds only in part, but Cossacks take the French camp’s guns. Napoleon leaves Moscow on 19 October. On the night of 11 October (O.S.) Bolkhovitinov brings the news to Kutuzov, who turns to the icons and weeps. From then on, in Tolstoy’s telling, he holds the army back from needless attacks.",
+      "ru": "6 (18) октября ночная атака Беннигсена на Мюрата у Чернишни удаётся лишь отчасти, но казаки захватывают пушки французского лагеря. 19 октября Наполеон уходит из Москвы. В ночь на 12 октября Болховитинов привозит эту весть Кутузову, и тот, повернувшись к образам, плачет. С тех пор, по Толстому, он удерживает армию от ненужных атак."
+     },
+     "wiki": {
+      "en": "Battle of Tarutino"
+     },
+     "people": [
+      "tolstoy"
+     ],
+     "quote": {
+      "ru": "Спасена Россия. Благодарю тебя, Господи!",
+      "en": "Russia is saved. I thank Thee, O Lord!",
+      "tr": "Louise and Aylmer Maude (Project Gutenberg EBook #2600)",
+      "who": {
+       "en": "Leo Tolstoy, War and Peace",
+       "ru": "Л. Н. Толстой, «Война и мир»"
+      },
+      "when": {
+       "en": "Vol. IV, Part 2, ch. XVII",
+       "ru": "т. IV, ч. 2, гл. XVII"
+      },
+      "src": [
+       [
+        "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. IV, ч. 2, гл. XVII",
+        "https://ilibrary.ru/text/11/p.292/index.html"
+       ],
+       [
+        "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+        "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. IV, ч. 2, гл. XVII",
+       "https://ilibrary.ru/text/11/p.292/index.html"
+      ],
+      [
+       "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+       "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+      ],
+      [
+       "Wikipedia (en): Battle of Tarutino",
+       "https://en.wikipedia.org/wiki/Battle_of_Tarutino"
+      ],
+      [
+       "Wikipedia (en): French invasion of Russia",
+       "https://en.wikipedia.org/wiki/French_invasion_of_Russia"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": [
+      "1812-11-02",
+      "1812-11-04"
+     ],
+     "date_os": [
+      "1812-10-21",
+      "1812-10-23"
+     ],
+     "ll": [
+      55.3,
+      34.9
+     ],
+     "z": 4,
+     "scene": "wp-petya",
+     "h": {
+      "en": "Petya and the partisans",
+      "ru": "Петя и партизаны"
+     },
+     "t": {
+      "en": "Denisov, drawn from the partisan Denis Davydov, waits by the Smolensk road with his party and the peasant Tikhon Shcherbaty. Petya joins them, rides with Dolokhov into the French camp in disguise, and at dawn is killed charging the gate. Karataev, too weak to march, is shot by the escort. Pierre is among the prisoners the partisans free. The point is approximate.",
+      "ru": "Денисов, списанный с партизана Дениса Давыдова, ждёт со своей партией у Смоленской дороги вместе с мужиком Тихоном Щербатым. Петя присоединяется к ним, переодетым едет с Долоховым во французский лагерь и на рассвете гибнет в атаке у ворот. Каратаева, который не может идти, пристреливает конвой. Пьер оказывается среди пленных, отбитых партизанами. Точка приблизительна."
+     },
+     "wiki": {
+      "en": "Denis Davydov",
+      "ru": "Давыдов, Денис Васильевич"
+     },
+     "people": [
+      "tolstoy"
+     ],
+     "quote": {
+      "ru": "— Готов, — сказал он, нахмурившись, и пошел в ворота навстречу ехавшему к нему Денисову.",
+      "en": "“Done for!” he said with a frown, and went to the gate to meet Denisov who was riding toward him.",
+      "tr": "Louise and Aylmer Maude (Project Gutenberg EBook #2600)",
+      "who": {
+       "en": "Leo Tolstoy, War and Peace",
+       "ru": "Л. Н. Толстой, «Война и мир»"
+      },
+      "when": {
+       "en": "Vol. IV, Part 3, ch. XI",
+       "ru": "т. IV, ч. 3, гл. XI"
+      },
+      "src": [
+       [
+        "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. IV, ч. 3, гл. XI",
+        "https://ilibrary.ru/text/11/p.305/index.html"
+       ],
+       [
+        "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+        "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. IV, ч. 3, гл. XI",
+       "https://ilibrary.ru/text/11/p.305/index.html"
+      ],
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. IV, ч. 3, гл. XIV",
+       "https://ilibrary.ru/text/11/p.308/index.html"
+      ],
+      [
+       "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+       "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+      ],
+      [
+       "Русская Википедия: «Список персонажей романа „Война и мир“»",
+       "https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6%D0%B5%D0%B9_%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D0%B0_%C2%AB%D0%92%D0%BE%D0%B9%D0%BD%D0%B0_%D0%B8_%D0%BC%D0%B8%D1%80%C2%BB"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-12-23",
+     "date_os": "1812-12-11",
+     "ll": [
+      54.687,
+      25.28
+     ],
+     "z": 5,
+     "scene": "wp-vilna",
+     "event": "kutuzov-order",
+     "h": {
+      "en": "Vilna: the old man’s work is done",
+      "ru": "Вильна: дело старика окончено"
+     },
+     "t": {
+      "en": "Ney’s rearguard recrosses the Niemen in mid-December. The Emperor reaches Vilna on 11 December (O.S.), embraces Kutuzov and gives him the Order of St George, first class. On 21 December (O.S.) Kutuzov tells his army at Vilna that each of them is a saviour of the Fatherland. In the novel his work is done: he does not want to carry the war into Europe.",
+      "ru": "В середине декабря арьергард Нея переходит Неман обратно. 11 декабря государь приезжает в Вильну, обнимает Кутузова и жалует ему Георгия 1-й степени. 21 декабря Кутузов в приказе по армии говорит, что каждый из солдат — спаситель Отечества. В романе его дело окончено: он не хочет переносить войну в Европу."
+     },
+     "wiki": {
+      "en": "Order of St. George"
+     },
+     "people": [
+      "tolstoy",
+      "alexander-i"
+     ],
+     "quote": {
+      "ru": "Это был Георгий 1-й степени.",
+      "en": "It was the Order of St. George of the First Class.",
+      "tr": "Louise and Aylmer Maude (Project Gutenberg EBook #2600)",
+      "who": {
+       "en": "Leo Tolstoy, War and Peace",
+       "ru": "Л. Н. Толстой, «Война и мир»"
+      },
+      "when": {
+       "en": "Vol. IV, Part 4, ch. X",
+       "ru": "т. IV, ч. 4, гл. X"
+      },
+      "src": [
+       [
+        "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. IV, ч. 4, гл. X",
+        "https://ilibrary.ru/text/11/p.323/index.html"
+       ],
+       [
+        "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+        "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. IV, ч. 4, гл. X",
+       "https://ilibrary.ru/text/11/p.323/index.html"
+      ],
+      [
+       "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+       "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+      ],
+      [
+       "Приказ по армии 21 декабря 1812 г., hrono.ru",
+       "https://www.hrono.ru/libris/lib_r/18121221kut.html"
+      ],
+      [
+       "Wikipedia (en): French invasion of Russia",
+       "https://en.wikipedia.org/wiki/French_invasion_of_Russia"
+      ]
+     ]
+    },
+    {
+     "y": 1820,
+     "date": "1820-12-17",
+     "date_os": "1820-12-05",
+     "ll": [
+      54.83,
+      33.0
+     ],
+     "z": 4,
+     "scene": "wp-epilogue",
+     "h": {
+      "en": "1820: Nikolenka’s dream",
+      "ru": "1820: сон Николеньки"
+     },
+     "t": {
+      "en": "Eight years on, on the eve of St Nicholas, the families gather at Bald Hills. Nikolenka Bolkonsky, Prince Andrei’s son, dreams that he and Uncle Pierre lead a huge army, and wakes resolved to do something even his father would be satisfied with. Tolstoy had begun with a story about a Decembrist, and the Epilogue looks towards that future.",
+      "ru": "Через восемь лет, накануне Николина дня, семьи собираются в Лысых Горах. Николеньке Болконскому, сыну князя Андрея, снится, что они с дядей Пьером ведут огромное войско, и он просыпается с решением сделать то, чем был бы доволен даже отец. Толстой начинал с повести о декабристе, и эпилог смотрит в это будущее."
+     },
+     "wiki": {
+      "en": "War and Peace",
+      "ru": "Война и мир"
+     },
+     "people": [
+      "tolstoy"
+     ],
+     "quote": {
+      "ru": "Да, я сделаю то, чем бы даже он был доволен...",
+      "en": "Yes, I will do something with which even he would be satisfied....",
+      "tr": "Louise and Aylmer Maude (Project Gutenberg EBook #2600)",
+      "who": {
+       "en": "Leo Tolstoy, War and Peace",
+       "ru": "Л. Н. Толстой, «Война и мир»"
+      },
+      "when": {
+       "en": "First Epilogue, Part 1, ch. XVI",
+       "ru": "Эпилог, ч. 1, гл. XVI"
+      },
+      "src": [
+       [
+        "ilibrary.ru: Л. Н. Толстой, «Война и мир», Эпилог, ч. 1, гл. XVI",
+        "https://ilibrary.ru/text/11/p.349/index.html"
+       ],
+       [
+        "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+        "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», Эпилог, ч. 1, гл. XVI",
+       "https://ilibrary.ru/text/11/p.349/index.html"
+      ],
+      [
+       "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+       "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+      ],
+      [
+       "Русская Википедия: «Война и мир»",
+       "https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%B9%D0%BD%D0%B0_%D0%B8_%D0%BC%D0%B8%D1%80"
+      ]
+     ]
+    }
+   ],
+   "src": [
+    [
+     "Русская Википедия: «Война и мир»",
+     "https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%B9%D0%BD%D0%B0_%D0%B8_%D0%BC%D0%B8%D1%80"
+    ],
+    [
+     "Русская Википедия: «Список персонажей романа „Война и мир“»",
+     "https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6%D0%B5%D0%B9_%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D0%B0_%C2%AB%D0%92%D0%BE%D0%B9%D0%BD%D0%B0_%D0%B8_%D0%BC%D0%B8%D1%80%C2%BB"
+    ],
+    [
+     "Project Gutenberg: War and Peace, ebook 2600 (translators Aylmer Maude and Louise Maude)",
+     "https://gutenberg.org/ebooks/2600"
+    ],
+    [
+     "Project Gutenberg EBook #2600 (Louise and Aylmer Maude), plain-text copy hosted by Stanford CS110",
+     "https://web.stanford.edu/class/archive/cs/cs110/cs110.1204/lecture-examples/map-reduce/long-novels/war-and-peace.txt"
+    ],
+    [
+     "Wikipedia (en): French invasion of Russia",
+     "https://en.wikipedia.org/wiki/French_invasion_of_Russia"
+    ],
+    [
+     "Wikipedia (en): Battle of Borodino",
+     "https://en.wikipedia.org/wiki/Battle_of_Borodino"
+    ]
+   ]
+  },
+  {
+   "id": "home-front-1812",
+   "n": {
+    "en": "1812: the people’s war",
+    "ru": "1812: народная война"
+   },
+   "years": [
+    1812,
+    1813
+   ],
+   "grades": [
+    8
+   ],
+   "lede": {
+    "en": "The war seen from the towns and villages: the militia and the broadsheets, burned Smolensk, Moscow emptied, burned and looted, the partisans of the army and of the villages, the soldiers’ winter, and the slow return. Numbers are given as the sources state them; many are disputed, and each step says so.",
+    "ru": "Война глазами городов и сёл: ополчение и афишки, сожжённый Смоленск, опустевшая, сгоревшая и разграбленная Москва, армейские и крестьянские партизаны, солдатская зима и медленное возвращение. Числа приведены так, как их дают источники; многие спорны, и об этом сказано на каждом шаге."
+   },
+   "steps": [
+    {
+     "y": 1812,
+     "date": "1812-07-18",
+     "date_os": "1812-07-06",
+     "ll": [
+      55.752,
+      37.6175
+     ],
+     "z": 3,
+     "event": "manifesto-militia",
+     "h": {
+      "en": "A people in arms",
+      "ru": "Народ под ружьём"
+     },
+     "t": {
+      "en": "Alexander I’s manifesto of 6 (18) July calls up a militia, and an appeal goes out to Moscow. The Church collects about 2.5 million roubles for the militia’s needs. How many men served is disputed: the Great Russian Encyclopedia counts 100,000 in the provincial militias of 20 provinces; the Russian Wikipedia speaks of more than 400,000 over the war.",
+      "ru": "Манифест Александра I от 6 (18) июля объявляет сбор ополчения, к Москве обращено особое воззвание. Церковь собирает на нужды ополчения около 2,5 миллиона рублей. Сколько людей служило, спорно: Большая российская энциклопедия считает 100 тысяч в губернских ополчениях 20 губерний; русская Википедия говорит о более чем 400 тысячах за всю войну."
+     },
+     "wiki": {
+      "en": "Narodnoe Opolcheniye"
+     },
+     "people": [
+      "alexander-i"
+     ],
+     "src": [
+      [
+       "Большая российская энциклопедия: «Отечественная война 1812»",
+       "https://bigenc.ru/c/otechestvennaia-voina-1812-30a318"
+      ],
+      [
+       "Русская Википедия: «Отечественная война 1812 года»",
+       "https://ru.wikipedia.org/wiki/%D0%9E%D1%82%D0%B5%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B2%D0%BE%D0%B9%D0%BD%D0%B0_1812_%D0%B3%D0%BE%D0%B4%D0%B0"
+      ],
+      [
+       "Presidential Library: Manifesto of Alexander I of 6 July 1812 on the internal militia (RGIA record)",
+       "https://www.prlib.ru/en/node/465372"
+      ],
+      [
+       "Presidential Library: the case of the militia of Moscow province (RGIA record)",
+       "https://prlib.ru/en/node/330748"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-08-21",
+     "date_os": "1812-08-09",
+     "ll": [
+      55.752,
+      37.6175
+     ],
+     "z": 5,
+     "event": "afishki",
+     "h": {
+      "en": "Rostopchin’s broadsheets",
+      "ru": "Ростопчинские афишки"
+     },
+     "t": {
+      "en": "Moscow’s governor, Count Rostopchin, posts almost daily “friendly messages” to the townspeople, written in a mock-popular voice and nicknamed afishki because they were pasted up like theatre bills. The first speaks as a tipsy townsman, Karnyushka Chikhirin. They reassure: prices are steady, all is quiet. In War and Peace they are read aloud and laughed at in the salons.",
+      "ru": "Московский главнокомандующий граф Ростопчин почти ежедневно расклеивает «дружеские послания» к жителям, написанные «псевдонародным» языком; их прозвали афишками, потому что их вешали, как театральные афиши. Первая написана от лица подвыпившего мещанина Карнюшки Чихирина. Они успокаивают: цены держатся, всё тихо. В «Войне и мире» их читают вслух и над ними смеются в гостиных."
+     },
+     "wiki": {
+      "en": "Fyodor Rostopchin"
+     },
+     "people": [],
+     "quote": {
+      "ru": "Слава богу, все у нас в Москве хорошо и спокойно: хлеб не дорожает и мясо дешевеет",
+      "en": "Thank God, all is well and quiet with us in Moscow: bread is not getting dearer and meat is getting cheaper",
+      "tr": "compiler",
+      "who": {
+       "en": "Fyodor Rostopchin, broadsheet",
+       "ru": "Фёдор Ростопчин, афишка"
+      },
+      "when": {
+       "en": "9 August 1812 (O.S.), as quoted by Moskvich Mag",
+       "ru": "9 августа 1812 г., в передаче «Москвич Mag»"
+      },
+      "src": [
+       [
+        "Москвич Mag, А. Фельдберг, «Был ли граф Ростопчин хорошим московским градоначальником?» (14.05.2020)",
+        "https://moskvichmag.ru/gorod/byl-li-graf-rostopchin-horoshim-moskovskim-gradonachalnikom/"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Москвич Mag, А. Фельдберг, «Был ли граф Ростопчин хорошим московским градоначальником?» (14.05.2020)",
+       "https://moskvichmag.ru/gorod/byl-li-graf-rostopchin-horoshim-moskovskim-gradonachalnikom/"
+      ],
+      [
+       "Академик (копия статьи Википедии): «Ростопчин, Фёдор Васильевич»",
+       "https://dic.academic.ru/dic.nsf/ruwiki/131177"
+      ],
+      [
+       "ilibrary.ru: Л. Н. Толстой, «Война и мир», т. III, ч. 2, гл. XVIII",
+       "https://ilibrary.ru/text/11/p.204/index.html"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": [
+      "1812-08-16",
+      "1812-08-18"
+     ],
+     "date_os": [
+      "1812-08-04",
+      "1812-08-06"
+     ],
+     "ll": [
+      54.782,
+      32.045
+     ],
+     "z": 5,
+     "battle": "smolensk",
+     "h": {
+      "en": "Smolensk, the first burned city",
+      "ru": "Смоленск — первый сожжённый город"
+     },
+     "t": {
+      "en": "The battle for Smolensk sets the city alight. Of 2,250 buildings about 84 per cent are destroyed, and of some 15,000 inhabitants about 1,000 remain among the ruins. The retreating army has been burning bridges and stores behind it; the Grande Armée’s own bulletins report the Russians setting fire to their magazines.",
+      "ru": "Бой за Смоленск зажигает город. Из 2250 зданий уничтожено около 84 процентов, а из примерно 15 тысяч жителей среди развалин остаётся около тысячи. Отступающая армия сжигает за собой мосты и склады; сами бюллетени Великой армии сообщают, что русские поджигают свои магазины."
+     },
+     "wiki": {
+      "en": "Battle of Smolensk (1812)"
+     },
+     "people": [],
+     "src": [
+      [
+       "Wikipedia (en): Battle of Smolensk (1812)",
+       "https://en.wikipedia.org/wiki/Battle_of_Smolensk_(1812)"
+      ],
+      [
+       "Wikipedia (en): Attrition warfare against Napoleon",
+       "https://en.wikipedia.org/wiki/Attrition_warfare_against_Napoleon"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "ll": [
+      55.752,
+      37.6175
+     ],
+     "z": 5,
+     "event": "leppich",
+     "h": {
+      "en": "A balloon against Napoleon",
+      "ru": "Шар против Наполеона"
+     },
+     "t": {
+      "en": "At the end of August a broadsheet tells Muscovites not to wonder at a strange machine in the sky: a balloon built to destroy “the villain” approaching Moscow. Its German maker, Franz Leppich, had first offered it to Napoleon. Planned at about 40,000 roubles, by late summer it had cost about 320,000 and never flew.",
+      "ru": "В конце августа афишка велит москвичам не удивляться невиданному аппарату в небе: воздушный шар строят «злодею», подступающему к Москве, на погибель. Его изобретатель, немец Франц Леппих, сначала предлагал шар Наполеону. Задуманный примерно в 40 тысяч рублей, к концу лета он обошёлся в 320 тысяч и так и не взлетел."
+     },
+     "people": [],
+     "src": [
+      [
+       "Вечерняя Москва, О. Герчиков, «Как Бонапарта „ошпарить“ хотели» (11.03.2008)",
+       "https://vm.ru/news/43988-kak-bonaparta-oshparit-hoteli"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": [
+      "1812-09-10",
+      "1812-09-20"
+     ],
+     "date_os": [
+      "1812-08-29",
+      "1812-09-08"
+     ],
+     "ll": [
+      55.21,
+      34.29
+     ],
+     "z": 4,
+     "battle": "davydov-raids",
+     "h": {
+      "en": "Davydov goes into the woods",
+      "ru": "Давыдов уходит в леса"
+     },
+     "t": {
+      "en": "With Bagration’s backing and Kutuzov’s leave, Lieutenant-Colonel Denis Davydov sets out behind the French with 50 hussars and 80 Cossacks. Peasants take his hussar pelisse for a French uniform, so he dresses as a peasant and grows a beard. He gives captured food and weapons to the villages and teaches them to fight. Others follow: Figner, Seslavin, Dorokhov.",
+      "ru": "При поддержке Багратиона и с разрешения Кутузова подполковник Денис Давыдов уходит в тыл французов с 50 гусарами и 80 казаками. Крестьяне принимают его гусарский ментик за французский мундир, и он переодевается в мужицкое платье и отпускает бороду. Он раздаёт сёлам отбитое продовольствие и оружие и учит их воевать. За ним идут Фигнер, Сеславин, Дорохов."
+     },
+     "wiki": {
+      "en": "Denis Davydov",
+      "ru": "Давыдов, Денис Васильевич"
+     },
+     "people": [],
+     "quote": {
+      "ru": "Я надел мужичий кафтан, стал отпускать бороду",
+      "en": "I put on a peasant’s kaftan and began to let my beard grow",
+      "tr": "compiler",
+      "who": {
+       "en": "Denis Davydov",
+       "ru": "Денис Давыдов"
+      },
+      "when": {
+       "en": "Diary of partisan actions of 1812",
+       "ru": "Дневник партизанских действий 1812 года"
+      },
+      "src": [
+       [
+        "Д. В. Давыдов, «Дневник партизанских действий 1812 года» (Военные записки), militera.lib.ru",
+        "https://militera.lib.ru/memo/russian/davydov_dv/05.html"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Д. В. Давыдов, «Дневник партизанских действий 1812 года» (Военные записки), militera.lib.ru",
+       "https://militera.lib.ru/memo/russian/davydov_dv/05.html"
+      ],
+      [
+       "Wikipedia (en): Denis Davydov",
+       "https://en.wikipedia.org/wiki/Denis_Davydov"
+      ],
+      [
+       "Wikipedia (en): Attrition warfare against Napoleon",
+       "https://en.wikipedia.org/wiki/Attrition_warfare_against_Napoleon"
+      ],
+      [
+       "Большая российская энциклопедия: «Отечественная война 1812»",
+       "https://bigenc.ru/c/otechestvennaia-voina-1812-30a318"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-09-14",
+     "date_os": "1812-09-02",
+     "ll": [
+      55.752,
+      37.6175
+     ],
+     "z": 5,
+     "event": "moscow-abandoned",
+     "h": {
+      "en": "The city empties",
+      "ru": "Город пустеет"
+     },
+     "t": {
+      "en": "After the council at Fili the army marches through Moscow from three in the morning. Of 270,184 inhabitants counted early in 1812, only 6,000–10,000 civilians stay, with 10,000–15,000 sick and wounded soldiers. The evacuation of state property started late, and Rostopchin had the fire pumps taken away. Napoleon waits at the walls for a deputation that never comes.",
+      "ru": "После совета в Филях армия с трёх часов ночи проходит через Москву. Из 270 184 жителей, учтённых в начале 1812 года, остаются лишь 6–10 тысяч и 10–15 тысяч больных и раненых солдат. Вывоз казённого имущества начался поздно, а пожарные трубы Ростопчин велел вывезти. Наполеон напрасно ждёт у стен депутацию."
+     },
+     "wiki": {
+      "en": "French occupation of Moscow"
+     },
+     "people": [],
+     "src": [
+      [
+       "Wikipedia (en): French occupation of Moscow",
+       "https://en.wikipedia.org/wiki/French_occupation_of_Moscow"
+      ],
+      [
+       "Fondation Napoléon: 1812, la campagne de Russie (2): de Borodino à Moscou",
+       "https://www.napoleon.org/histoire-des-2-empires/chronologies/1812-la-campagne-de-russie-2-de-borodino-a-moscou/"
+      ],
+      [
+       "Академик (копия статьи Википедии): «Ростопчин, Фёдор Васильевич»",
+       "https://dic.academic.ru/dic.nsf/ruwiki/131177"
+      ],
+      [
+       "Wikipedia (en): Fire of Moscow (1812)",
+       "https://en.wikipedia.org/wiki/Fire_of_Moscow_(1812)"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": [
+      "1812-09-14",
+      "1812-09-18"
+     ],
+     "date_os": [
+      "1812-09-02",
+      "1812-09-06"
+     ],
+     "ll": [
+      55.752,
+      37.6175
+     ],
+     "z": 5,
+     "event": "fire",
+     "h": {
+      "en": "Moscow burns",
+      "ru": "Москва горит"
+     },
+     "t": {
+      "en": "Fires start on the first evening of the occupation and, driven by wind, burn until 18 September. By one count 6,496 of 9,151 houses and 122 of 329 churches are lost, with the university, Buturlin’s library and, it is believed, the manuscript of The Tale of Igor’s Campaign. On 20 September Napoleon writes to Alexander that the beautiful city of Moscow is no more, and blames Rostopchin. Who set the fires is still disputed.",
+      "ru": "Пожары начинаются в первый же вечер оккупации и, раздуваемые ветром, бушуют до 18 сентября. По одному подсчёту, погибли 6496 из 9151 дома и 122 из 329 храмов, университет, библиотека Бутурлина и, как считается, рукопись «Слова о полку Игореве». 20 сентября Наполеон пишет Александру, что прекрасного города Москвы больше нет, и винит Ростопчина. Кто поджигал, спорят до сих пор."
+     },
+     "wiki": {
+      "en": "Fire of Moscow (1812)",
+      "ru": "Московский пожар (1812)"
+     },
+     "people": [
+      "alexander-i"
+     ],
+     "quote": {
+      "ru": "— Скажи-ка, дядя, ведь не даром Москва, спаленная пожаром, Французу отдана?",
+      "en": "Tell me, uncle, was it not for nothing that Moscow, burnt by fire, was given up to the Frenchman?",
+      "tr": "compiler",
+      "who": {
+       "en": "Mikhail Lermontov, Borodino",
+       "ru": "М. Ю. Лермонтов, «Бородино»"
+      },
+      "when": {
+       "en": "1837 (usual dating)",
+       "ru": "1837 (обычная датировка)"
+      },
+      "src": [
+       [
+        "ilibrary.ru: М. Ю. Лермонтов, «Бородино»",
+        "https://ilibrary.ru/text/2/p.1/index.html"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Русская Википедия: «Московский пожар (1812)»",
+       "https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D0%BE%D0%B6%D0%B0%D1%80_(1812)"
+      ],
+      [
+       "Wikipedia (en): Fire of Moscow (1812)",
+       "https://en.wikipedia.org/wiki/Fire_of_Moscow_(1812)"
+      ],
+      [
+       "Presidential Library: letter from Napoleon I to Alexander I about the fire of Moscow, 20 September 1812",
+       "https://prlib.ru/en/node/357502"
+      ],
+      [
+       "Fondation Napoléon: 1812, la campagne de Russie (2): de Borodino à Moscou",
+       "https://www.napoleon.org/histoire-des-2-empires/chronologies/1812-la-campagne-de-russie-2-de-borodino-a-moscou/"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-09-16",
+     "date_os": "1812-09-04",
+     "ll": [
+      55.752,
+      37.6175
+     ],
+     "z": 5,
+     "event": "executions",
+     "h": {
+      "en": "Life under occupation",
+      "ru": "Жизнь под оккупацией"
+     },
+     "t": {
+      "en": "A French court-martial shoots up to 400 townspeople, mostly poor, on suspicion of arson. Soldiers and townspeople loot together; at first for wealth, later for food. Churches become stables, and church silver is melted down. Up to 15,000 sick and wounded Russian soldiers were left in the city; the Russian Wikipedia says several thousand died in the fire, though its article on the fire treats this as uncertain.",
+      "ru": "Французский военный суд расстреливает до 400 горожан, большей частью бедных, по подозрению в поджогах. Грабят и солдаты, и горожане — сначала ради богатства, потом ради еды. Церкви превращают в конюшни, церковное серебро переплавляют. В городе остались до 15 тысяч больных и раненых русских солдат; русская Википедия пишет о нескольких тысячах погибших в огне, хотя статья о пожаре считает это неясным."
+     },
+     "wiki": {
+      "en": "French occupation of Moscow"
+     },
+     "people": [],
+     "quote": {
+      "ru": "16-го был отдан приказ расстреливать всех, кого застанут за поджогом домов.",
+      "en": "During the 16th orders had been given to shoot everyone found setting fire to houses.",
+      "tr": "compiler",
+      "who": {
+       "en": "Sergeant Adrien Bourgogne, Memoirs",
+       "ru": "Сержант Адриен Бургонь, «Мемуары»"
+      },
+      "when": {
+       "en": "English edition, 1899",
+       "ru": "английское издание 1899 г."
+      },
+      "src": [
+       [
+        "Project Gutenberg: Memoirs of Sergeant Bourgogne, 1812–1813 (1899)",
+        "https://www.gutenberg.org/cache/epub/59489/pg59489-images.html"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Wikipedia (en): French occupation of Moscow",
+       "https://en.wikipedia.org/wiki/French_occupation_of_Moscow"
+      ],
+      [
+       "Русская Википедия: «Отечественная война 1812 года»",
+       "https://ru.wikipedia.org/wiki/%D0%9E%D1%82%D0%B5%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B2%D0%BE%D0%B9%D0%BD%D0%B0_1812_%D0%B3%D0%BE%D0%B4%D0%B0"
+      ],
+      [
+       "Project Gutenberg: Memoirs of Sergeant Bourgogne, 1812–1813 (1899)",
+       "https://www.gutenberg.org/cache/epub/59489/pg59489-images.html"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": [
+      "1812-10-05",
+      "1812-10-14"
+     ],
+     "date_os": [
+      "1812-09-23",
+      "1812-10-02"
+     ],
+     "ll": [
+      55.78,
+      38.66
+     ],
+     "z": 5,
+     "battle": "kurin",
+     "h": {
+      "en": "Kurin’s peasants",
+      "ru": "Крестьяне Курина"
+     },
+     "t": {
+      "en": "East of Moscow, round Vokhna, the peasant Gerasim Kurin leads one of the largest peasant detachments: 200 men at first, later, it is said, 5,300 on foot and 500 mounted. Between 23 September and 2 October it fights seven times, takes a grain convoy and nearly 200 muskets and beats two dragoon squadrons. Kutuzov awards Kurin the St George Cross. The local account itself warns that legend may have grown the story.",
+      "ru": "К востоку от Москвы, в округе Вохны, крестьянин Герасим Курин водит один из крупнейших крестьянских отрядов: сначала 200 человек, потом, говорят, 5300 пеших и 500 конных. С 23 сентября по 2 октября отряд семь раз вступает в бой, отбивает хлебный обоз и почти 200 ружей и разбивает два эскадрона драгун. Кутузов награждает Курина Георгиевским крестом. Сам местный рассказ предупреждает, что молва могла приукрасить события."
+     },
+     "wiki": {
+      "ru": "Курин, Герасим Матвеевич"
+     },
+     "people": [],
+     "src": [
+      [
+       "РИАМО, Р. Пушина, «Предания Ногинска…» (10.08.2016)",
+       "https://riamo.ru/articles/istorii/predaniya-noginska-ekaterina-velikaya-geroj-vojny-1812-goda-i-pushkin-xl/"
+      ],
+      [
+       "Русская Википедия: «Отечественная война 1812 года»",
+       "https://ru.wikipedia.org/wiki/%D0%9E%D1%82%D0%B5%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B2%D0%BE%D0%B9%D0%BD%D0%B0_1812_%D0%B3%D0%BE%D0%B4%D0%B0"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-10-26",
+     "date_os": "1812-10-14",
+     "ll": [
+      55.7517,
+      37.6178
+     ],
+     "z": 5,
+     "event": "moscow-after",
+     "h": {
+      "en": "The French leave; the Kremlin is mined",
+      "ru": "Французы уходят; Кремль взорван"
+     },
+     "t": {
+      "en": "Napoleon leaves on 19 October. Marshal Mortier, staying behind, is ordered to blow up the Kremlin: the Vodovzvodnaya Tower is destroyed, other towers and part of the wall are damaged, and the Palace of Facets burns, but the Ivan the Great Bell Tower stands. Benckendorff reports on the ruined city on 26 October. The police clear more than 11,900 human and 12,500 horse corpses from the streets.",
+      "ru": "Наполеон уходит 19 октября. Оставшемуся маршалу Мортье приказано взорвать Кремль: Водовзводная башня уничтожена, другие башни и часть стены повреждены, горит Грановитая палата, но колокольня Ивана Великого устояла. 26 октября Бенкендорф доносит о состоянии разорённого города. Полиция вывозит с улиц более 11 900 человеческих и 12 500 конских трупов."
+     },
+     "wiki": {
+      "en": "Moscow Kremlin"
+     },
+     "people": [],
+     "src": [
+      [
+       "Wikipedia (en): French occupation of Moscow",
+       "https://en.wikipedia.org/wiki/French_occupation_of_Moscow"
+      ],
+      [
+       "Fondation Napoléon: P. Ganière, «La retraite de Russie»",
+       "https://www.napoleon.org/histoire-des-2-empires/articles/la-retraite-de-russie/"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": [
+      "1812-10-19",
+      "1812-11-18"
+     ],
+     "date_os": [
+      "1812-10-07",
+      "1812-11-06"
+     ],
+     "ll": [
+      55.83,
+      34.28
+     ],
+     "z": 5,
+     "battle": "kozhina",
+     "h": {
+      "en": "Vasilisa Kozhina",
+      "ru": "Василиса Кожина"
+     },
+     "t": {
+      "en": "In Sychyovka district of Smolensk province Vasilisa Kozhina, the wife of a village elder, gathers teenagers and women with scythes, pitchforks and axes. During the retreat they attack French soldiers, take prisoners and hand them over to Russian units. She is rewarded with a medal and money, and Alexander Smirnov paints her portrait in 1813. No numbers or exact dates survive in the sources opened.",
+      "ru": "В Сычёвском уезде Смоленской губернии жена старосты Василиса Кожина собирает подростков и женщин с косами, вилами и топорами. Во время отступления они нападают на французских солдат, берут пленных и передают их русским частям. Её награждают медалью и деньгами, а в 1813 году Александр Смирнов пишет её портрет. Ни чисел, ни точных дат открытые источники не сохранили."
+     },
+     "wiki": {
+      "en": "Vasilisa Kozhina",
+      "ru": "Кожина, Василиса"
+     },
+     "people": [],
+     "src": [
+      [
+       "Wikipedia (en): Vasilisa Kozhina",
+       "https://en.wikipedia.org/wiki/Vasilisa_Kozhina"
+      ],
+      [
+       "Wikipedia (en): Women in warfare and the military in the 19th century",
+       "https://en.wikipedia.org/wiki/Women_in_warfare_and_the_military_in_the_19th_century"
+      ],
+      [
+       "Русская Википедия: «Отечественная война 1812 года»",
+       "https://ru.wikipedia.org/wiki/%D0%9E%D1%82%D0%B5%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B2%D0%BE%D0%B9%D0%BD%D0%B0_1812_%D0%B3%D0%BE%D0%B4%D0%B0"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-11-06",
+     "date_os": "1812-10-25",
+     "ll": [
+      54.9,
+      33.3
+     ],
+     "z": 3,
+     "event": "blizzard",
+     "h": {
+      "en": "The soldiers’ winter",
+      "ru": "Солдатская зима"
+     },
+     "t": {
+      "en": "Snow first falls on Moscow on 13 October and melts. On the night of 4–5 November it is −12°; on 6 November a blizzard catches an army still in summer clothes. After a thaw the frost returns about 23 November, with nights near −35 °C. Horses die by the tens of thousands, and peasants kill stragglers, sometimes cruelly. The point is the Smolensk road.",
+      "ru": "Первый снег выпадает в Москве 13 октября и тает. В ночь на 5 ноября −12°; 6 ноября метель застаёт армию в летнем обмундировании. После оттепели около 23 ноября морозы возвращаются, ночью до −35 °C. Лошади гибнут десятками тысяч, крестьяне убивают отставших, иногда жестоко. Точка — Смоленская дорога."
+     },
+     "wiki": {
+      "en": "French invasion of Russia"
+     },
+     "people": [],
+     "src": [
+      [
+       "Fondation Napoléon: P. Ganière, «La retraite de Russie»",
+       "https://www.napoleon.org/histoire-des-2-empires/articles/la-retraite-de-russie/"
+      ],
+      [
+       "Wikipedia (en): French invasion of Russia",
+       "https://en.wikipedia.org/wiki/French_invasion_of_Russia"
+      ],
+      [
+       "Wikipedia (en): Attrition warfare against Napoleon",
+       "https://en.wikipedia.org/wiki/Attrition_warfare_against_Napoleon"
+      ],
+      [
+       "Fondation Napoléon: 29e Bulletin de la Grande Armée, Molodetchna, 3 décembre 1812",
+       "https://www.napoleon.org/histoire-des-2-empires/articles/29e-bulletin-de-la-grande-armee-molodetchna-3-decembre-1812/"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-11-09",
+     "date_os": "1812-10-28",
+     "ll": [
+      54.566,
+      32.603
+     ],
+     "z": 5,
+     "battle": "lyakhovo",
+     "h": {
+      "en": "Lyakhovo: the partisans take a brigade",
+      "ru": "Ляхово: партизаны берут бригаду"
+     },
+     "t": {
+      "en": "Near Lyakhovo, south-east of Smolensk, the detachments of Davydov, Seslavin and Figner join Orlov-Denisov’s Cossacks and surround General Augereau’s brigade. The French surrender: about 1,500 soldiers and 60 officers by the Russian count, 1,750 prisoners by Bodart’s. It is the army partisans’ most famous day.",
+      "ru": "Под Ляховом, к юго-востоку от Смоленска, отряды Давыдова, Сеславина и Фигнера вместе с казаками Орлова-Денисова окружают бригаду генерала Ожеро. Французы сдаются: около 1500 солдат и 60 офицеров по русскому счёту, 1750 пленных по Бодару. Это самый знаменитый день армейских партизан."
+     },
+     "wiki": {
+      "en": "Battle of Liaskowa"
+     },
+     "people": [],
+     "src": [
+      [
+       "Wikipedia (en): Battle of Liaskowa",
+       "https://en.wikipedia.org/wiki/Battle_of_Liaskowa"
+      ],
+      [
+       "Русская Википедия: «Отечественная война 1812 года»",
+       "https://ru.wikipedia.org/wiki/%D0%9E%D1%82%D0%B5%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B2%D0%BE%D0%B9%D0%BD%D0%B0_1812_%D0%B3%D0%BE%D0%B4%D0%B0"
+      ],
+      [
+       "Wikipedia (en): Aleksandr Figner",
+       "https://en.wikipedia.org/wiki/Aleksandr_Figner"
+      ]
+     ]
+    },
+    {
+     "y": 1812,
+     "date": "1812-12-03",
+     "date_os": "1812-11-21",
+     "ll": [
+      54.3167,
+      26.85
+     ],
+     "z": 5,
+     "event": "bulletin-29",
+     "h": {
+      "en": "The 29th Bulletin",
+      "ru": "29-й бюллетень"
+     },
+     "t": {
+      "en": "After the Berezina Napoleon tells France the truth at last, from Molodechno: the cold began on the 7th, and the horses died in their thousands. Two days later he leaves the army at Smorgon for Paris. The bulletin ends with the line that his health has never been better.",
+      "ru": "После Березины Наполеон наконец сообщает Франции правду, из Молодечно: холода начались 7-го, лошади гибли тысячами. Через два дня в Сморгони он оставляет армию и уезжает в Париж. Бюллетень кончается словами, что здоровье императора никогда не было лучше."
+     },
+     "wiki": {
+      "en": "Battle of Berezina"
+     },
+     "people": [],
+     "quote": {
+      "ru": "Более тридцати тысяч лошадей пало за несколько дней",
+      "en": "More than thirty thousand horses perished in a few days",
+      "tr": "compiler",
+      "who": {
+       "en": "Napoleon, 29th Bulletin",
+       "ru": "Наполеон, 29-й бюллетень"
+      },
+      "when": {
+       "en": "Molodechno, 3 December 1812",
+       "ru": "Молодечно, 3 декабря 1812 г."
+      },
+      "src": [
+       [
+        "Fondation Napoléon: 29e Bulletin de la Grande Armée, Molodetchna, 3 décembre 1812",
+        "https://www.napoleon.org/histoire-des-2-empires/articles/29e-bulletin-de-la-grande-armee-molodetchna-3-decembre-1812/"
+       ]
+      ],
+      "orig": "Plus de trente mille chevaux périrent en peu de jours"
+     },
+     "src": [
+      [
+       "Fondation Napoléon: 29e Bulletin de la Grande Armée, Molodetchna, 3 décembre 1812",
+       "https://www.napoleon.org/histoire-des-2-empires/articles/29e-bulletin-de-la-grande-armee-molodetchna-3-decembre-1812/"
+      ],
+      [
+       "Wikipedia (en): French invasion of Russia",
+       "https://en.wikipedia.org/wiki/French_invasion_of_Russia"
+      ],
+      [
+       "Fondation Napoléon: P. Ganière, «La retraite de Russie»",
+       "https://www.napoleon.org/histoire-des-2-empires/articles/la-retraite-de-russie/"
+      ]
+     ]
+    },
+    {
+     "y": 1813,
+     "date": "1813-01-02",
+     "date_os": "1812-12-21",
+     "ll": [
+      54.687,
+      25.28
+     ],
+     "z": 5,
+     "event": "kutuzov-order",
+     "h": {
+      "en": "At the frontier",
+      "ru": "На границе"
+     },
+     "t": {
+      "en": "The Great Russian Encyclopedia dates the end of the liberation to 14 (26) December 1812. A week later Kutuzov writes to the army at Vilna that each soldier is a saviour of the Fatherland, and that beyond the frontier the peace of the inhabitants must not be disturbed. Losses remain disputed: about 300,000 Russians and over 500,000 men of the Grande Armée (Great Russian Encyclopedia).",
+      "ru": "Большая российская энциклопедия датирует окончание освобождения 14 (26) декабря 1812 года. Через неделю Кутузов пишет в приказе по армии из Вильны, что каждый солдат — спаситель Отечества и что за границей нельзя нарушать спокойствие жителей. Потери остаются спорными: около 300 тысяч у русских и свыше 500 тысяч у Великой армии (Большая российская энциклопедия)."
+     },
+     "wiki": {
+      "en": "Mikhail Kutuzov"
+     },
+     "people": [],
+     "quote": {
+      "ru": "Наконец вы на границах Империи, каждый из вас есть спаситель Отечества.",
+      "en": "At last you are on the frontiers of the Empire; each of you is a saviour of the Fatherland.",
+      "tr": "compiler",
+      "who": {
+       "en": "Mikhail Kutuzov, order to the army",
+       "ru": "М. И. Кутузов, приказ по армии"
+      },
+      "when": {
+       "en": "Vilna, 21 December 1812 (O.S.)",
+       "ru": "Вильна, 21 декабря 1812 г."
+      },
+      "src": [
+       [
+        "Приказ по армии 21 декабря 1812 г., hrono.ru",
+        "https://www.hrono.ru/libris/lib_r/18121221kut.html"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Приказ по армии 21 декабря 1812 г., hrono.ru",
+       "https://www.hrono.ru/libris/lib_r/18121221kut.html"
+      ],
+      [
+       "Большая российская энциклопедия: «Отечественная война 1812»",
+       "https://bigenc.ru/c/otechestvennaia-voina-1812-30a318"
+      ]
+     ]
+    },
+    {
+     "y": 1813,
+     "date": "1813-01-06",
+     "date_os": "1812-12-25",
+     "ll": [
+      59.9398,
+      30.3146
+     ],
+     "z": 4,
+     "event": "manifesto-end",
+     "h": {
+      "en": "Thanksgiving and a vow",
+      "ru": "Благодарение и обет"
+     },
+     "t": {
+      "en": "On Christmas Day (O.S.) Alexander I’s manifesto gives thanks to God for the liberation of Russia and recalls the half-million men and fifteen hundred guns that had followed Napoleon. On the same day another manifesto vows a church in Moscow in the name of Christ the Saviour, as a memorial to the war.",
+      "ru": "В день Рождества манифест Александра I приносит Богу благодарение за освобождение России и напоминает о полумиллионе воинов и полутора тысячах пушек, следовавших за Наполеоном. В тот же день другим манифестом объявлено о построении в Москве церкви во имя Христа Спасителя в память войны."
+     },
+     "wiki": {
+      "en": "Cathedral of Christ the Saviour"
+     },
+     "people": [
+      "alexander-i"
+     ],
+     "quote": {
+      "ru": "уже нет ни единого врага на лице земли Нашей",
+      "en": "there is no longer a single enemy on the face of Our land",
+      "tr": "compiler",
+      "who": {
+       "en": "Alexander I, manifesto",
+       "ru": "Александр I, манифест"
+      },
+      "when": {
+       "en": "25 December 1812 (O.S.)",
+       "ru": "25 декабря 1812 г."
+      },
+      "src": [
+       [
+        "Манифест 25 декабря 1812 г. (РГИА), doc.histrf.ru",
+        "https://doc.histrf.ru/19/manifest-ob-izgnanii-napoleona/"
+       ]
+      ]
+     },
+     "src": [
+      [
+       "Манифест 25 декабря 1812 г. (РГИА), doc.histrf.ru",
+       "https://doc.histrf.ru/19/manifest-ob-izgnanii-napoleona/"
+      ],
+      [
+       "Presidential Library: the manifesto of Alexander I announcing the end of the Patriotic War",
+       "https://prlib.ru/en/history/618922"
+      ]
+     ]
+    },
+    {
+     "y": 1813,
+     "ll": [
+      55.752,
+      37.6175
+     ],
+     "z": 5,
+     "event": "rebuilding",
+     "h": {
+      "en": "Rebuilding Moscow",
+      "ru": "Москва отстраивается"
+     },
+     "t": {
+      "en": "Over the war Moscow’s population falls from about 270,000 to 215,000. In February 1813 a commission for building in Moscow is set up; a new plan is approved in 1817, and the fire makes room for wider streets and the Garden Ring. Many new houses are wooden with imitation Empire fronts. A charitable trust gives aid to those ruined by the enemy. Full recovery takes decades.",
+      "ru": "За время войны население Москвы сокращается примерно с 270 до 215 тысяч. В феврале 1813 года учреждается Комиссия для строения в Москве; новый план утверждён в 1817 году, а пожар освобождает место для расширения улиц и Садового кольца. Многие новые дома деревянные, с имитацией ампирных фасадов. Попечительство помогает разорённым от неприятеля. Полное восстановление занимает десятилетия."
+     },
+     "wiki": {
+      "ru": "Московский пожар (1812)",
+      "en": "Fire of Moscow (1812)"
+     },
+     "people": [],
+     "src": [
+      [
+       "Русская Википедия: «Московский пожар (1812)»",
+       "https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D0%BE%D0%B6%D0%B0%D1%80_(1812)"
+      ],
+      [
+       "Wikipedia (en): French occupation of Moscow",
+       "https://en.wikipedia.org/wiki/French_occupation_of_Moscow"
+      ],
+      [
+       "Presidential Library: money sent to Rostopchin for ruined Muscovites (RGIA record)",
+       "https://www.prlib.ru/en/node/330675"
+      ]
+     ]
+    }
+   ],
+   "src": [
+    [
+     "Большая российская энциклопедия: «Отечественная война 1812»",
+     "https://bigenc.ru/c/otechestvennaia-voina-1812-30a318"
+    ],
+    [
+     "Русская Википедия: «Отечественная война 1812 года»",
+     "https://ru.wikipedia.org/wiki/%D0%9E%D1%82%D0%B5%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B2%D0%BE%D0%B9%D0%BD%D0%B0_1812_%D0%B3%D0%BE%D0%B4%D0%B0"
+    ],
+    [
+     "Wikipedia (en): French occupation of Moscow",
+     "https://en.wikipedia.org/wiki/French_occupation_of_Moscow"
+    ],
+    [
+     "Wikipedia (en): Fire of Moscow (1812)",
+     "https://en.wikipedia.org/wiki/Fire_of_Moscow_(1812)"
+    ],
+    [
+     "Русская Википедия: «Московский пожар (1812)»",
+     "https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D0%BE%D0%B6%D0%B0%D1%80_(1812)"
+    ],
+    [
+     "Wikipedia (en): Attrition warfare against Napoleon",
+     "https://en.wikipedia.org/wiki/Attrition_warfare_against_Napoleon"
+    ]
+   ]
+  }
+ ],
+ "notes": {
+  "en": "Two stories added beside v35’s ‘napoleon-russia-1812’ rather than repeating it: one through the novel, one through the home front. Pictures: none could be checked on Commons, so every step uses `wiki`. War and Peace quotes are Tolstoy’s Russian (ilibrary.ru) and the public-domain Maude translation (Project Gutenberg #2600); other quotations carry tr ‘compiler’ (the compiler’s literal English or Russian rendering), and the 29th Bulletin quote keeps the French original in ‘orig’. Each step names its scene, battle or event id in war1812.json. Fictional places and partisan areas have approximate points, said in the text. Disputed numbers are named as disputed in the step text.",
+  "ru": "Две истории добавлены рядом с историей v35 «napoleon-russia-1812», не повторяя её: одна — через роман, другая — через тыл. Иллюстрации на Commons проверить не удалось, поэтому везде `wiki`. Цитаты из «Войны и мира» — русский текст Толстого (ilibrary.ru) и общедоступный перевод Мод (Project Gutenberg № 2600); прочие цитаты помечены tr «compiler» (буквальный перевод составителя), у 29-го бюллетеня французский подлинник сохранён в «orig». Каждый шаг ссылается на id сцены, сражения или события в war1812.json. Вымышленные места и районы партизан поставлены приблизительно, о чём сказано в тексте. Спорные числа названы спорными."
+ }
+}
