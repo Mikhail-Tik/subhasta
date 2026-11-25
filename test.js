@@ -171,6 +171,11 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
    w.__S.go('eye');assert(qa('#v-eye [data-eye-n]').length===3&&qa('#v-eye [data-eye-mode]').length>=5,'the Eye offers the length of a game and the world game');
    const hp=w.__EYE.pick('history');assert(hp.length>=3&&hp.every(x=>x.img&&typeof x.lat==='number'&&typeof x.y0==='number'),'the world game draws from the pictures of the record');
    w.location.hash='#movement-byzantine';w.dispatchEvent(new w.Event('hashchange'));assert(qa('#v-detail .mvpics figure').length>=1,'Byzantine art shows its pictures first');
+   {const E=w.__EYE,d0=E.day(),hx=[];for(let d=0;d<20;d++)hx.push(...E.pick('hammer',d0+d,'standard'),...E.pick('hammer',d0+d,'novice'),...E.pick('hammer',d0+d,'expert'));assert(hx.length>=150&&hx.filter(x=>x.img).length>=hx.length*.9,`the hammer game draws lots that carry a picture (${hx.filter(x=>x.img).length} of ${hx.length})`);
+    assert(!hx.some(x=>/FilePath\/undefined/.test(x.img||'')),'no hammer round asks Commons for a file it does not name');}
+   w.location.hash='#lot-basquiat-untitled';w.dispatchEvent(new w.Event('hashchange'));{const ph=q('#v-detail [data-wiki-pic]');assert(ph&&ph.getAttribute('data-wiki-pic')==='Jean-Michel Basquiat'&&/the artist\. Not the lot/.test(ph.getAttribute('data-wp-cap')),'a lot in copyright stands beside the artist’s portrait, captioned as not the lot');}
+   assert(!/undefined/.test(q('#v-detail').textContent),'the lot page prints no “undefined” (month-only dates read as the month)');
+   assert(G('LOT_PICS')['dinosaur|jodi nanotyrannus skeleton']&&G('LOT_PICS')['dinosaur|jodi nanotyrannus skeleton'].what==='related','Jodi carries a related picture, marked as related');
    w.__S.go('world');w.__WORLD.mode('now');
    w.__WORLD.player('gagosian');assert(w.__WORLD.net().sel==='gagosian'&&/8 other offices|other offices/.test(q('.wd-ch').textContent),'a player card opens with its offices');q('.wd-x').click();
    w.__WORLD.mode('now');assert(q('#wdNet').hidden,'leaving the Net hides its controls');
