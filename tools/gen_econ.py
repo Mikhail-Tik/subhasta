@@ -63,6 +63,7 @@ for x in D.get('sites') or []:
     for k in ('place', 'what'):
         if bi(x.get(k)): o[k] = bi(x.get(k))
     if wiki(x.get('wiki')): o['wiki'] = wiki(x.get('wiki'))
+    if x.get('llq') in ('map', 'rough'): o['llq'] = x['llq']   # the point is read from a map (rough: within about 10 km), not from a source
     pc = pic(x.get('pic'), x['id'])
     if pc: o['pic'] = pc
     o['src'] = src(x.get('src')); o['vf'] = clean(x.get('vf')) or 'S'
