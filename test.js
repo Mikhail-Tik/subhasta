@@ -34,7 +34,7 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
    assert(W.pinOk({id:'abcd1234',lon:2.35,lat:48.86,t:'A show',n:'',u:'',k:'seen',ts:1})===true&&W.pinOk({id:'x',lon:2.35,lat:48.86,t:'A show',k:'seen',ts:1})===false&&W.pinOk({id:'abcd1234',lon:2.35,lat:48.86,t:'A show',u:'javascript:alert(1)',k:'seen',ts:1})===false,'a reader’s pin is validated on read');
    assert(W.cityKey('Saadiyat Island, Abu Dhabi')==='Abu Dhabi'&&W.cityKey('Milan and Venice')==='Milan'&&W.cityKey('Online')===null,'city strings resolve to a place');
    assert(W.cityInText('Christie’s London sells the Lewis collection')==='London'&&W.cityInText('A report on guarantees')===null,'a headline names its city');
-   assert(W.t2y(W.y2t(1874))===1874&&W.t2y(0)===-43000&&W.t2y(1)>=2026,'the rail maps years both ways');
+   assert(W.t2y(W.y2t(1874))===1874&&W.t2y(0)===-43000&&W.t2y(1)===2022,'the rail maps years both ways, from 43,000 BC to 2022');
    /* v23: the readings, the folded masthead, the trail */
    W.mode('now');assert(W.readings().length>=3&&W.readings().every(r=>r.pill&&r.h&&r.why),`the readings are computed (${W.readings().map(r=>r.pill).join('; ')})`);
    assert(qa('#v-world .wd-rd').length>=3,'three readings sit under the modes');W.openReadings('all');assert(/What the season says/.test(q('#v-world .wd-ch').textContent)&&qa('#v-world .wd-rdg').length===W.readings().length,'the readings card explains each');
@@ -163,8 +163,8 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
    w.__WORLD.year(1348);w.__WORLD.open();assert(q('.wd-card .wd-ch').textContent==='1348'&&qa('.wd-card [data-wcity]').length>=5,'the year card lists the cities standing');
    q('.wd-card [data-wcity]').click();assert(/a city through time/.test(q('.wd-card .wd-ck').textContent)&&qa('.wd-card .wd-ev').length>=1,'a city opens with its story up to the year');
    const WN=G('WORLD_NOW');assert(WN&&WN.conflicts.length>=20&&WN.conflicts.every(k=>k.ll&&k.src.length)&&/^\d{4}-\d{2}-\d{2}$/.test(WN.asof),'the world now holds its sourced conflicts with a date');
-   w.__WORLD.year(2026);assert(/armed conflicts? active/.test(q('#v-world .wd-read').textContent)&&/people/.test(q('#v-world .wd-read').textContent),'at 2026 the lead counts the conflicts and the people');
-   w.__WORLD.year(2080);assert(/projection/i.test(q('#v-world .wd-eye').textContent),'past now the rail shows the projection');
+   w.__WORLD.year(2026);assert(/2022/.test(q('#v-world .wd-eye').textContent)&&!/armed conflict/.test(q('#v-world .wd-read').textContent)&&/people/.test(q('#v-world .wd-read').textContent),'v36: the historical globe ends with 2022, without today’s conflicts');
+   w.__WORLD.year(2080);assert(!/projection/i.test(q('#v-world .wd-eye').textContent)&&/2022/.test(q('#v-world .wd-eye').textContent),'v36: no projection past 2022');
    assert(qa('#v-world .wd-legend .wd-lay').length>=2&&q('#v-world .wd-legend i.folk'),'the legend offers the layers and the three tiers of society');
    assert(G('NE_LAND').length>=500&&(G('HIST_PICS')&&Object.keys(G('HIST_PICS')).length>=30),'the land polygons and the public-domain pictures are on the page');
    assert(w.__EYE.t2y(1000)===2026&&w.__EYE.y2t(-3000)===0&&w.__EYE.t2y(w.__EYE.y2t(1610))===1610,'the Eye’s rail runs to 2026 and back');
@@ -191,7 +191,22 @@ function run(){try{const d=w.document;const q=s=>d.querySelector(s),qa=s=>Array.
      if(RU.stories.length){const st=RU.stories[0];R.story(st.id,0);assert(/1\/\d+/.test(q('.wd-card .wd-ck').textContent),'a story opens at its first step');R.step(1);assert(R.state().step===1,'the next step follows');}
      if(RU.works.length){R.work(RU.works[0].id);assert(q('.wd-card .wd-ch').textContent.length>1,'a work of the programme opens');}
      if(RU.cities.length){R.city(RU.cities[0].id);assert(q('.wd-card .wd-ch').textContent.length>1,'a city opens');}
-     R.hub('rulers');assert(qa('.wd-card [data-ruler]').length>=RU.rulers.length,'the hub lists every ruler');}}
+     R.hub('rulers');assert(qa('.wd-card [data-ruler]').length>=RU.rulers.length,'the hub lists every ruler');
+     /* v36: apolitical for now — nothing after 2022, the war in Ukraine left out */
+     const late=[];for(const r of RU.rulers)for(const e of (r.events||[]).concat(r.places||[]))if(e.y>2022||(e.y>=2014&&/ukrain|crimea|украин|крым/i.test(JSON.stringify(e))))late.push(r.id+':'+e.y);assert(!late.length,'v36: no ruler’s row after 2022 or about the war in Ukraine: '+late.join(','));
+     for(const st of RU.stories)assert(st.steps.every(x=>!(x.y>2022)),'v36: no story step after 2022: '+st.id);}}
+   /* v36: the physical map, the place close up, the painters' names in Russian, the economy */
+   {const W=w.__WORLD;W.mode('then');W.year(1812);const g=W.geo();assert(g&&g.rivers>=500&&g.names>=200&&g.lakes>=100&&g.on,'v36: rivers, lakes and their names stand on the historical globe');
+    assert(W.geoOpen('Lake Baikal')&&/Байкал|Baikal/.test(q('.wd-card .wd-ch').textContent)&&q('.wd-card .wd-pp'),'v36: a lake opens with its photographs then and now');
+    assert(W.geoOpen('Volga')&&/river|река/.test(q('.wd-card .wd-ck').textContent),'v36: a river opens as a river');
+    W.place(28.92,57.06,{title:'Mikhailovskoye'});assert(/Mikhailovskoye/.test(q('.wd-card .wd-ch').textContent)&&q('.wd-card .wd-pp')&&q('.wd-card .wd-near'),'v36: a place opens close up: near here, and its photographs');
+    const L=w.__L10N;L.load({v:1,ui:{},data:{},pol:{},names:{'Ilya Repin':'Илья Репин'}});L.set('ru');assert(L.name('Ilya Repin')==='Илья Репин','v36: a painter’s name in Russian');L.set('en');assert(L.name('Ilya Repin')==='Ilya Repin','v36: and back in English');
+    const E=G('ECON');if(E&&E.sites.length){assert(E.sites.every(x=>x.ll&&x.ll[0]>=-180&&x.ll[0]<=180&&x.y<=2022&&x.src.length&&x.n&&(x.n.en||x.n.ru)),'v36: every economic site has a place, a year to 2022, a name and a source');W.econAll();assert(qa('.wd-card [data-wec]').length>=E.sites.length,'v36: the economy lists every site');}}
+   {const RU=G('RUSSIA'),W12=RU.war1812,R=w.__RU;if(W12&&W12.battles.length){assert(W12.battles.length>=15&&W12.battles.every(b=>b.ll&&b.ll[0]>20&&b.ll[0]<45&&b.ll[1]>50&&b.ll[1]<58&&b.n&&(b.n.en||b.n.ru)),'v36: the battles of 1812 stand in western Russia and Belarus, named');
+     R.w1812('battles');assert(qa('.wd-card [data-ru-b12]').length===W12.battles.length,'v36: 1812 lists every battle');R.battle(W12.battles[0].id);assert(q('.wd-card .wd-ch').textContent.length>2,'v36: a battle opens');
+     if(W12.wp.scenes.length){R.scene(W12.wp.scenes[0].id);assert(/War and Peace|Война и мир/.test(q('.wd-card .wd-ck').textContent),'v36: a scene of War and Peace opens');}
+     assert(W12.wp.scenes.every(x=>x.y>=1805&&x.y<=1820),'v36: the novel’s scenes keep its years');
+     if(RU.stories.find(x=>x.id==='war-and-peace-1812')){R.story('war-and-peace-1812',0);assert(/1\/\d+/.test(q('.wd-card .wd-ck').textContent),'v36: the novel plays as a story');}}}
    w.__S.go('world');w.__WORLD.mode('now');
    w.__WORLD.player('gagosian');assert(w.__WORLD.net().sel==='gagosian'&&/8 other offices|other offices/.test(q('.wd-ch').textContent),'a player card opens with its offices');q('.wd-x').click();
    w.__WORLD.mode('now');assert(q('#wdNet').hidden,'leaving the Net hides its controls');

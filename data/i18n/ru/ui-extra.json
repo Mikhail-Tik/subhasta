@@ -42,5 +42,11 @@
 "a painter, at their birthplace": "художник — в месте рождения",
 "an object of value": "ценный предмет",
 "Back in time · #": "В прошлом · #",
-"Ahead · # · a projection": "Впереди · # · прогноз"
+"Ahead · # · a projection": "Впереди · # · прогноз",
+"The key to the map": "Условные знаки",
+"Hide the key": "Скрыть знаки",
+"rivers, lakes, mountains": "реки, озёра, горы",
+"works, mines, dams, canals": "заводы, рудники, плотины, каналы",
+"Borders: historical-basemaps, GPL-#. The map ends with #: the years since are being prepared.": "Границы: historical-basemaps, GPL-#. Карта заканчивается # годом: следующие годы готовятся.",
+"The map ends with #: the years since are being prepared.": "Карта заканчивается # годом: следующие годы готовятся."
 }

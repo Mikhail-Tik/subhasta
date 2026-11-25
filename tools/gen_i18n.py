@@ -11,7 +11,7 @@ Russian is on). Only finished files are read (not the translators' .part files).
 import json, pathlib, re, datetime
 root = pathlib.Path(__file__).resolve().parent.parent
 src_dir, ru_dir = root / 'data' / 'i18n' / 'src', root / 'data' / 'i18n' / 'ru'
-pack = {'v': 1, 'asof': datetime.date.today().isoformat(), 'ui': {}, 'data': {}, 'pol': {}}
+pack = {'v': 1, 'asof': datetime.date.today().isoformat(), 'ui': {}, 'data': {}, 'pol': {}, 'names': {}}
 dropped, missing = [], []
 for f in sorted(ru_dir.glob('*.json')):
     if '.part' in f.name: continue
@@ -31,6 +31,8 @@ for f in sorted(ru_dir.glob('*.json')):
             eng = (en or {}).get(k, k)
             if eng.count('#') != v.count('#'): dropped.append((f.name, k[:60])); continue
             if v != k: pack['ui'][k] = v
+        elif part == 'names':   # v36: the painters' names, as the globe and the cards write them (L10N.name)
+            if v != k: pack['names'][k] = v
         elif part == 'pol':
             name = k[4:] if k.startswith('pol.') else k
             if v != name: pack['pol'][name] = v; pack['ui'].setdefault(name, v)
@@ -42,4 +44,4 @@ out.mkdir(parents=True, exist_ok=True)
 for d in dropped[:12]: print('  dropped:', d)
 if len(dropped) > 12: print(f'  … and {len(dropped) - 12} more dropped')
 for m in missing: print(f'  {m[0]}: {m[1]} keys not translated (they stay English)')
-print(f"wrote docs/i18n/ru.json: {len(pack['ui'])} interface texts, {len(pack['data'])} data fields, {len(pack['pol'])} names on the map; {(out / 'ru.json').stat().st_size // 1024} KB")
+print(f"wrote docs/i18n/ru.json: {len(pack['ui'])} interface texts, {len(pack['data'])} data fields, {len(pack['pol'])} names on the map, {len(pack['names'])} painters' names; {(out / 'ru.json').stat().st_size // 1024} KB")

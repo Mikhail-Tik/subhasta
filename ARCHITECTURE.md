@@ -842,3 +842,40 @@ author (the life, drawable), a source (excerpt, full text), a city (population s
 card open while its story moves the year. The reigns run as a ribbon on the rail (`.wd-reigns`). Commons files in these cards are shown only
 after `hydrateCommons` reads their licence from the Commons API. The archive desk (a weekly scheduled task) appends rows from
 `data/research/v35/QUEUE.md`; `gen_russia.py` reads `rulers_*`, `stories_*` and `sources_*` by pattern.
+
+## 28. v36: the measured map — room for every name, the land itself, the place close up, 1812 (25 November 2026)
+
+**Room for every name.** Every label of the Then globe shares one occupancy list per frame (`boxes`, `boxFree`, `placeLabel`), now opened
+by the page's own furniture (`uiBoxes`: the lead column — all of it when the globe is zoomed and the column is shaded — the key, the ask
+field, the rail, the map and zoom controls, an open card; refreshed every 400 ms). The Russia layer draws into the same list (`G.boxFree`,
+`G.boxTake`): a label without room on the right tries the left, then gives way. The wonders' sketches are drawn after the names and only
+where the names left room (15–30 px, never more); else the small mark. The key folds into one button (`.wd-keyb`, remembered); the map's
+styles are one slim segmented row beside the zoom buttons. Painters' names come in Russian from the pack's `names` part (`L10N.name`).
+
+**Apolitical for now.** The historical rail ends with 2022 (`WD_END`; no projection); today's conflicts belong to the Now globe only
+(`todayAt` below `WD_NOW` is empty) and the war in Ukraine is left off both (`WD_HELD` filters the conflict rows and the month's items);
+`gen_russia.py` drops rows after 2022 and rows from 2014 about the war (`CUT`, `HELD`); the key says the years since are being prepared.
+
+**The land itself (`src/data_geo.js`, `tools/gen_geo.py`).** Natural Earth (public domain): rivers at 1:10m across Eurasia (15°E–180°,
+36–78°N) and at 1:50m elsewhere, lakes and reservoirs (each reservoir drawn from the year its dam closed — the plate's key carries the
+count), seas, ranges, plains, deserts, plateaux, peninsulas and peaks; lines simplified (Douglas–Peucker) and stored as integer steps in
+hundredths of a degree. Rivers and lakes go on the plate (`drawGeoPlate`, before the borders); the names (`drawGeoLabels`) last on the top
+canvas, giving way to history; more appear with each step of zoom (`geoRiverMax`, `geoLakeMax`). Russian names from Natural Earth, rivers
+from `RIVER_RU`. The globe now zooms to 16× (`WD_ZMAX`).
+
+**The place close up.** A name opens its card (`openGeo`): Wikipedia, and `wdPlacePics` — Wikimedia Commons files near the point
+(GeoData) and found by name, shown only once their licence is read (`WP_LIC`), split by the year taken into *then* (to 1930) and *now*
+(from 1990). At 4.5× and more a click on the map opens the point itself (`openPlaceAt`): the state of the year, the Wikipedia articles
+near it, the photographs. The Russia layer opens the same card from any named place (`data-ru-place`: an author's life, a building of a
+city, a battle, a scene); a story's step and a city show the photographs of their place under the text. The website only; the artifacts
+link to Commons and Wikipedia's Special:Nearby.
+
+**The economy (`src/data_econ.js`, `tools/gen_econ.py`).** Works, mines, armouries, yards, mills, plants, dams and ports from the year each
+began (squares by kind from 2.6×, names from 4×), canals, tracts and railways from their opening, trade routes while they ran;
+`openEcon`, `openEconAll` (the hub's “The economy”).
+
+**1812 (`RU.war1812`).** From `data/research/v36/war1812.json`: battles (with both sides' strength and losses as the cited source gives
+them, flagged), the year's events, the scenes of War and Peace at their places and dates (quotations in Russian and in a public-domain
+English translation), the characters and the real people behind them, the monographs, the primary sources (joined to `RU.sources`), and
+where 1812 sits in the school course; `ru1812Open` (tabs), `ru12Battle`, `ru12Scene`, `ru12Char`; battles and scenes of the year drawn on
+the globe. Stories `war-and-peace-1812` and `home-front-1812` from `data/research/v36/stories_1812.json`.

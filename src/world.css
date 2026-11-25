@@ -229,17 +229,17 @@
 .wd-ev.hist.t1 .tt b{font-weight:700}.wd-ev.hist.t3{opacity:.8}.wd-ev .tt .tag{margin-left:4px;font-size:10px;padding:0 5px}
 .wd-glyph.small{width:110px;height:110px;float:right;margin:0 0 6px 10px}
 /* v35: the map's style beside the zoom buttons — engraving, relief, ink, satellite */
-.wd-mapctl{position:absolute;right:16px;bottom:114px;z-index:3;display:flex;flex-direction:column;align-items:flex-end;gap:4px}
-.wd[data-mode="then"] .wd-mapctl{bottom:182px}
-.wd-mb{font:500 11px/1 var(--sans);letter-spacing:.04em;padding:6px 10px;border-radius:999px;border:1px solid var(--rule2);background:var(--paper);color:var(--ink2);cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.08);opacity:.86;transition:color .2s,border-color .2s,opacity .2s}
+.wd-mapctl{position:absolute;right:68px;bottom:28px;z-index:3;display:flex;flex-direction:row;align-items:center;gap:0;padding:2px;border:1px solid var(--rule2);border-radius:999px;background:color-mix(in srgb,var(--paper) 84%,transparent);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+.wd[data-mode="then"] .wd-mapctl{bottom:96px}   /* v36: one slim segmented row beside the zoom buttons (was a column of pills above them) */
+.wd-mb{font:500 10.5px/1 var(--ui);letter-spacing:.03em;padding:5px 9px;border-radius:999px;border:0;background:transparent;color:var(--ink2);cursor:pointer;opacity:.9;transition:color .2s,background .2s,opacity .2s}
 .wd-mb:hover{opacity:1;color:var(--gilt)}
-.wd-mb.on{opacity:1;color:var(--gilt);border-color:var(--gilt)}
+.wd-mb.on{opacity:1;color:var(--ongilt,#111);background:var(--gilt)}
 .wd-mb:disabled{opacity:.35;cursor:default}
-@media (max-width:760px){.wd-mapctl{right:10px;bottom:auto;top:10px;flex-direction:row;flex-wrap:wrap;justify-content:flex-end;max-width:70%}.wd[data-mode="then"] .wd-mapctl{bottom:auto}.wd-mb{padding:6px 9px}}
+@media (max-width:760px){.wd-mapctl{position:static;order:1;align-self:center;margin:2px auto 10px;flex-wrap:wrap;justify-content:center}.wd[data-mode="then"] .wd-mapctl{bottom:auto}}   /* v36: on a phone, a row of its own under the globe */
 .wd-tk-s{opacity:.75}@media (max-width:1500px){.wd-tk-s{display:none}}   /* v35: 3k BC sits too close to 43k BC on most screens */
 /* v35: Russia in depth — the lead's buttons, the reigns along the rail, the layer's cards */
-.wd-deep{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 4px}
-.wd-deepb{font:500 12.5px/1 var(--ui);letter-spacing:.04em;padding:9px 14px;border-radius:999px;border:1px solid var(--gilt);background:transparent;color:var(--gilt);cursor:pointer;transition:background .2s,color .2s}
+.wd-deep{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 2px}
+.wd-deepb{font:500 11.5px/1 var(--ui);letter-spacing:.03em;padding:7px 11px;border-radius:999px;border:1px solid var(--gilt);background:transparent;color:var(--gilt);cursor:pointer;transition:background .2s,color .2s}
 .wd-deepb:hover{background:var(--gilt);color:var(--ongilt,#111)}
 .wd-deepb.ghost{border-color:var(--rule2);color:var(--ink2)}.wd-deepb.ghost:hover{border-color:var(--gilt);color:var(--gilt);background:transparent}
 .wd-reigns{position:absolute;left:0;right:0;top:-9px;height:6px;pointer-events:auto}
@@ -279,3 +279,25 @@
 .ru-ph:not(.ready){display:none}
 .ru-gal .ru-ph span{display:block}
 .ru-prog{margin:8px 0;font-size:13px}.ru-prog summary{cursor:pointer;color:var(--ink2);margin-bottom:6px}.ru-prog p{margin:4px 0}
+
+/* v36: the key folds away; open, it is a compact two-column list */
+.wd-keyb{font:500 11.5px/1 var(--ui);letter-spacing:.04em;color:var(--ink2);background:color-mix(in srgb,var(--paper) 80%,transparent);border:1px solid var(--rule2);border-radius:999px;padding:6px 12px;cursor:pointer;align-self:flex-start}
+.wd-keyb:hover{color:var(--gilt);border-color:var(--gilt)}
+.wd-keyb[aria-expanded="true"]{color:var(--gilt)}
+.wd-legend:has(.wd-keyb){display:flex;flex-direction:column;gap:8px}
+.wd-keyp{display:grid;grid-template-columns:1fr 1fr;gap:5px 14px;font-size:11.5px;line-height:1.3;padding:10px 12px;border:1px solid var(--rule);border-radius:8px;background:color-mix(in srgb,var(--paper) 88%,transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.wd-keyp>span,.wd-keyp>button{min-width:0}
+.wd-keyp .wd-keyn{grid-column:1/-1;margin:2px 0 0;font-size:10.5px}
+.wd-legend i.riv{background:transparent;height:0;width:16px;border-top:2px solid var(--lapis,#3d6fa8);border-radius:0;box-shadow:none}
+.wd-legend i.eco{width:8px;height:8px;border-radius:1px;background:#8a5a2b;box-shadow:none}
+@media (max-width:760px){.wd-keyp{grid-template-columns:1fr}}
+/* v36: photographs of a place, then and now */
+.wd-ppg{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:8px;margin:6px 0 12px}
+.wd-ppi{display:flex;flex-direction:column;gap:4px;text-decoration:none;color:var(--ink3);font-size:10.5px;line-height:1.25;min-width:0}
+.wd-ppi img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:4px;border:1px solid var(--rule);background:var(--paper2)}
+.wd-ppi span{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.wd-ppi b{color:var(--ink2);font-weight:600}
+.wd-ppi:hover img{border-color:var(--gilt)}
+.ru-placeb{font-size:11px;margin-left:6px;color:var(--gilt)}
+.ru-sides{width:100%;border-collapse:collapse;font-size:12px}.ru-sides th,.ru-sides td{padding:4px 6px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top}.ru-sides thead th{font-weight:500;color:var(--ink3);font-size:11px}
+.ru-book{margin:0 0 10px}.ru-book p{margin:0 0 3px}

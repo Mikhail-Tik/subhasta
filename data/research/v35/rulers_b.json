@@ -14148,8 +14148,8 @@
     "ru": "Путин, Владимир Владимирович"
    },
    "t": {
-    "en": "KGB officer and FSB director, made prime minister in August 1999 and acting president on Yeltsin’s resignation. He waged the Second Chechen War and, over two presidencies (1999–2008 and since 2012), turned Russia into an authoritarian dictatorship, suppressing opponents and independent media. He annexed Crimea in 2014 and in 2022 launched the full-scale invasion of Ukraine.",
-    "ru": "Офицер КГБ и директор ФСБ, назначенный премьер-министром в августе 1999 года и ставший исполняющим обязанности президента после отставки Ельцина. Вёл Вторую чеченскую войну и за два президентства (1999–2008 и с 2012 года) превратил Россию в авторитарную диктатуру, подавляя оппонентов и независимые СМИ. В 2014 году аннексировал Крым, в 2022 году начал полномасштабное вторжение в Украину."
+    "en": "KGB officer and FSB director, made prime minister in August 1999 and acting president on Yeltsin’s resignation on 31 December 1999. He was president from 2000 to 2008 and again from 2012, and prime minister in between (2008–12). The atlas tells his years up to 2022 in outline; the years since are being prepared.",
+    "ru": "Офицер КГБ и директор ФСБ; в августе 1999 года назначен председателем правительства, 31 декабря 1999 года после отставки Ельцина стал исполняющим обязанности президента. Президент России в 2000–2008 годах и с 2012 года, между этими сроками — председатель правительства (2008–2012). Атлас рассказывает о его годах до 2022-го в общих чертах; следующие годы готовятся."
    },
    "src": [
     [
@@ -14403,39 +14403,14 @@
        "https://en.wikipedia.org/wiki/Dmitry_Medvedev"
       ]
      ]
-    },
-    {
-     "y": 2022,
-     "n": {
-      "en": "Nuclear threats",
-      "ru": "Ядерные угрозы"
-     },
-     "t": {
-      "en": "In September he says any weapons in Russia’s arsenal, strategic nuclear weapons included, could be used to defend the annexed territories.",
-      "ru": "В сентябре он заявляет, что для защиты аннексированных территорий может быть применено любое оружие из арсенала России, включая стратегическое ядерное."
-     },
-     "place": {
-      "en": "Moscow",
-      "ru": "Москва"
-     },
-     "ll": [
-      55.7558,
-      37.6173
-     ],
-     "src": [
-      [
-       "Wikipedia, Dmitry Medvedev",
-       "https://en.wikipedia.org/wiki/Dmitry_Medvedev"
-      ]
-     ]
     }
    ],
    "wiki": {
     "en": "Dmitry Medvedev"
    },
    "t": {
-    "en": "President of Russia from 2008 to 2012, while Putin served as prime minister. His term brought the war with Georgia and the recognition of Abkhazia and South Ossetia (2008), a “modernisation” programme and police reform (2011). In 2011 he stood aside for Putin’s return and became prime minister (2012–20); since 2022 he has warned that Russia could use nuclear weapons.",
-    "ru": "Президент России в 2008–2012 годах, когда Путин был премьер-министром. Его срок — война с Грузией и признание Абхазии и Южной Осетии (2008), программа «модернизации» и реформа полиции (2011). В 2011 году уступил место для возвращения Путина и стал председателем правительства (2012–2020); с 2022 года угрожает применением ядерного оружия."
+    "en": "President of Russia from 2008 to 2012, while Putin served as prime minister. His term brought the war with Georgia and the recognition of Abkhazia and South Ossetia (2008), a “modernisation” programme and police reform (2011). In 2011 he stood aside for Putin’s return and became prime minister (2012–20).",
+    "ru": "Президент России в 2008–2012 годах, когда Путин был председателем правительства. Его срок — война с Грузией и признание Абхазии и Южной Осетии (2008), программа «модернизации» и реформа полиции (2011). В 2011 году уступил место для возвращения Путина и стал председателем правительства (2012–2020)."
    },
    "src": [
     [

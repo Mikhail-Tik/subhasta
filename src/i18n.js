@@ -11,6 +11,7 @@
 const I18N_ASSETS={};
 const L10N={lang:'en',pack:null,busy:false,failed:false,en:new Map(),obs:null,queued:new Set(),raf:0,
   pol(n){const p=this.pack&&this.pack.pol;return (p&&p[n])||n;},
+  name(n){if(this.lang!=='ru')return n;const p=this.pack&&this.pack.names;return (p&&p[n])||n;},   /* v36: a painter's name in the reader's language */
   t(s){if(this.lang!=='ru')return s;const r=l10nText(s);return r==null?s:r;}};
 function l10nUrl(){if(I18N_ASSETS.ru)return I18N_ASSETS.ru;if(typeof inArtifact==='function'&&inArtifact())return null;if(!/^https?:$/.test(location.protocol))return null;return 'i18n/ru.json';}
 /* the field a data key names: [object, field] or null */
@@ -69,4 +70,4 @@ const L10N_WT=new Map();
 function l10nWikiTitle(enTitle){if(L10N.lang!=='ru')return Promise.resolve({lang:'en',title:enTitle});if(L10N_WT.has(enTitle))return L10N_WT.get(enTitle);
   const p=(typeof fetch==='function'?fetch(`https://en.wikipedia.org/w/api.php?action=query&prop=langlinks&lllang=ru&redirects=1&format=json&origin=*&titles=${encodeURIComponent(enTitle)}`).then(r=>r.ok?r.json():null).then(j=>{const pg=j&&j.query&&j.query.pages?Object.values(j.query.pages)[0]:null;const ll=pg&&pg.langlinks&&pg.langlinks[0];const t=ll&&(ll['*']||ll.title);return t?{lang:'ru',title:t}:{lang:'en',title:enTitle};}).catch(()=>({lang:'en',title:enTitle})):Promise.resolve({lang:'en',title:enTitle}));
   L10N_WT.set(enTitle,p);return p;}
-window.__L10N={set:(l,o)=>l10nSet(l,o),load:j=>{L10N.pack=j;},pol:n=>L10N.pol(n),get lang(){return L10N.lang;},text:s=>l10nText(s),slot:k=>l10nSlot(k)};
+window.__L10N={set:(l,o)=>l10nSet(l,o),load:j=>{L10N.pack=j;},pol:n=>L10N.pol(n),name:n=>L10N.name(n),get lang(){return L10N.lang;},text:s=>l10nText(s),slot:k=>l10nSlot(k)};

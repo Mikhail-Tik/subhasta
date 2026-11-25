@@ -12,12 +12,13 @@ CC BY or CC BY-SA (the rest are dropped and listed). Writes `const RUSSIA = {...
 import json, pathlib, re
 root = pathlib.Path(__file__).resolve().parent.parent
 V = root / 'data' / 'research' / 'v35'
+V36 = root / 'data' / 'research' / 'v36'   # v36: 1812 in depth (war1812.json) and its stories (stories_1812.json)
 held = []
 LIC_OK = re.compile(r'public domain|\bpd\b|pd-|cc0|cc[- ]by(?![- ]?nc)(?![- ]?nd)|creative commons attribution(?! non)|no known restrictions', re.I)
 LIC_BAD = re.compile(r'\bnc\b|non-?commercial|\bnd\b|no-?deriv|fair use|all rights reserved', re.I)
 
 def load(name):
-    f = V / name
+    f = (V36 / name) if (V36 / name).exists() and not (V / name).exists() else V / name
     if not f.exists(): return None
     try: return json.load(open(f, encoding='utf-8'))
     except Exception as e:
@@ -49,10 +50,19 @@ def pic(p, where):
     c = bi(p.get('cap'))
     if c: o['cap'] = c
     return o
+# v36: apolitical for now — the atlas ends with 2022, and the war in Ukraine is left out until it is prepared with care
+CUT = 2022
+HELD = re.compile(r'ukrain|crimea|donbas|donetsk|luhansk|украин|крым|донбас|донецк|луганск', re.I)
+def held_row(x):
+    if not isinstance(x, dict): return False
+    y = x.get('y')
+    if isinstance(y, (int, float)) and y > CUT: return True
+    if isinstance(y, (int, float)) and y >= 2014 and HELD.search(json.dumps({k: x.get(k) for k in ('n', 'h', 't', 'what', 'place')}, ensure_ascii=False)): return True
+    return False
 BI_KEYS = {'n', 't', 'title', 'place', 'what', 'h', 'lede', 'about', 'cap', 'role', 'kind_t', 'genre', 'note', 'who_t', 'arch', 'state_t', 'status'}
 def norm(o, where=''):
     """recursive: places to [lon, lat], bilingual fields to {en, ru}, sources to https only, pictures checked"""
-    if isinstance(o, list): return [x for x in (norm(v, where) for v in o) if x is not None]
+    if isinstance(o, list): return [x for x in (norm(v, where) for v in o if not held_row(v)) if x is not None]
     if not isinstance(o, dict): return o
     out = {}
     for k, v in o.items():
@@ -107,7 +117,7 @@ L = load('literature.json') or {}
 R['curriculum'] = norm(L.get('curriculum') or {}, 'curriculum')
 R['authors'] = [norm(x, 'author:' + str(x.get('id'))) for x in (L.get('authors') or []) if isinstance(x, dict) and x.get('id') and x.get('n')]
 R['works'] = [norm(x, 'work:' + str(x.get('id'))) for x in (L.get('works') or []) if isinstance(x, dict) and x.get('id') and x.get('n')]
-for f in sorted(x.name for x in V.glob('stories_*.json')):
+for f in sorted({x.name for x in V.glob('stories_*.json')} | {x.name for x in V36.glob('stories_*.json')}):
     d = load(f) or {}
     for x in d.get('stories') or []:
         if isinstance(x, dict) and x.get('id') and x.get('steps'):
@@ -119,6 +129,28 @@ for f in sorted(x.name for x in V.glob('sources_*.json')):
     d = load(f) or {}
     for x in d.get('sources') or []:
         if isinstance(x, dict) and x.get('id') and x.get('n'): R['sources'].append(norm(x, f'{f}:{x["id"]}'))
+# v36: 1812 — battles, events, the novel's scenes and characters, monographs, the textbook; its primary sources join RU.sources (by id)
+W = load('war1812.json') or {}
+if W:
+    ids = {s['id'] for s in R['sources']}
+    w12src = []
+    for x in W.get('sources') or []:
+        if isinstance(x, dict) and x.get('id') and x.get('n'):
+            o = norm(x, 'war1812:' + str(x['id'])); o.setdefault('tags', []); o['tags'] = list(dict.fromkeys(o['tags'] + ['war-1812']))
+            if o['id'] not in ids: R['sources'].append(o); ids.add(o['id'])
+            w12src.append(o['id'])
+    wp = W.get('wp') or {}
+    R['war1812'] = {'battles': [norm(x, 'battle:' + str(x.get('id'))) for x in (W.get('battles') or []) if isinstance(x, dict) and x.get('id') and x.get('n') and x.get('ll')],
+                    'events': [norm(x, 'event:' + str(x.get('id'))) for x in (W.get('events') or []) if isinstance(x, dict) and x.get('n')],
+                    'monographs': [norm(x, 'book:' + str(x.get('id'))) for x in (W.get('monographs') or []) if isinstance(x, dict) and x.get('n')],
+                    'sources': w12src,
+                    'wp': {'scenes': [norm(x, 'scene:' + str(x.get('id'))) for x in (wp.get('scenes') or []) if isinstance(x, dict) and x.get('id') and x.get('ll')],
+                           'characters': [norm(x, 'character:' + str(x.get('id'))) for x in (wp.get('characters') or []) if isinstance(x, dict) and x.get('id') and x.get('n')]},
+                    'textbook': [norm(x, 'textbook') for x in (W.get('textbook') or []) if isinstance(x, dict)]}
+    for b in R['war1812']['battles']:
+        if b.get('y') is None:
+            d = b.get('date'); d = d[0] if isinstance(d, list) and d else d
+            if isinstance(d, str) and d[:4].isdigit(): b['y'] = int(d[:4])
 C = load('cities.json') or {}
 R['cities'] = [norm(x, 'city:' + str(x.get('id'))) for x in (C.get('cities') or []) if isinstance(x, dict) and x.get('id') and x.get('ll')]
 pv = C.get('pastvu')
@@ -138,4 +170,6 @@ if len(held) > 25: print(f'  … and {len(held) - 25} more')
 jn = sum(len(r.get('journeys') or []) for r in R['rulers'])
 print(f"wrote src/data_russia.js: {len(R['rulers'])} rulers ({jn} journeys), {len(R['authors'])} authors, {len(R['works'])} works, {len(R['stories'])} stories "
       f"({sum(len(s['steps']) for s in R['stories'])} steps), {len(R['sources'])} sources, {len(R['cities'])} cities "
-      f"({sum(len(c.get('photos') or []) for c in R['cities'])} photographs), {len(R['us'].get('signers') or [])} signers; {len(js)//1024} KB")
+      f"({sum(len(c.get('photos') or []) for c in R['cities'])} photographs), {len(R['us'].get('signers') or [])} signers"
+      + (f"; 1812: {len(R['war1812']['battles'])} battles, {len(R['war1812']['events'])} events, {len(R['war1812']['wp']['scenes'])} scenes, {len(R['war1812']['wp']['characters'])} characters, {len(R['war1812']['monographs'])} books, {len(R['war1812']['sources'])} sources, {len(R['war1812']['textbook'])} textbook rows" if R.get('war1812') else '')
+      + f"; {len(js)//1024} KB")
