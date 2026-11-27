@@ -1,4 +1,5 @@
-# Subhasta: the website is the docs/ folder (index.html + img/), written by build.py. This workflow publishes it to GitHub Pages on every push.
+# Subhasta: the website is the docs/ folder (index.html + img/), written by build.py. This workflow locks the page with its password and
+# publishes it to GitHub Pages on every push.
 name: pages
 on:
   push:
@@ -16,6 +17,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      # v37: the website behind a password — tools/lock_site.js encrypts docs/index.html (AES-256-GCM, PBKDF2 600k) into docs/site.bin
+      # and leaves a small gate; the password is the repository secret SITE_PASSWORD (Settings → Secrets and variables → Actions).
+      # Without it the site is closed (fails closed). The repository keeps the plain page.
+      - name: Lock the page behind its password
+        env:
+          SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
+        run: node tools/lock_site.js docs
       - uses: actions/configure-pages@v5
         with:
           enablement: true
